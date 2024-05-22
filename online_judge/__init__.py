@@ -550,7 +550,7 @@ cb_log = CodebenchLog()
 
 print("Carregando LUT_assessment_types...")
 #classes_path = "/Users/fcoelho/dataset-cb/2022-2/"
-classes_path = "/SUPER/dataset-cb/2022-2/"
+classes_path = "../dataset-cb/2022-2/"
 LUT_assessments = load_LUT_assessment_types(classes_path)
 
 
