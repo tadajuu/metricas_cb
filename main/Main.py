@@ -40,14 +40,13 @@ def main():
     # irbo_proc = IRBOProcessor()
     # irbo_proc.process()
 
-    # TO-DO IRBO
-    # print("Processando relatórios sobre Horas Semanais de Codificação...")
-    # WCHProc = WeeklyCodingHoursProcessor()
-    # WCHProc.process()
+    print("Processando relatórios sobre Horas Semanais de Codificação...")
+    WCHProc = WeeklyCodingHoursProcessor()
+    WCHProc.process()
 
-    # print("Processando relatórios sobre Presteza...")
-    # ReadinessProc = ReadinessProcessor()
-    # ReadinessProc.process()
+    print("Processando relatórios sobre Presteza...")
+    ReadinessProc = ReadinessProcessor()
+    #ReadinessProc.process()
 
     # print("Executando idfixe.py...")
     # path = "/Users/fcoelho/Documents/Dev/doutorado/cb-metrics/reports/"
