@@ -1,0 +1,206 @@
+== RUN (2025-08-27 14:25:04)
+-- CODE: 
+preco = float(input("Preço do Produto: "))
+preco_final = preco * 15/100
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço do Produto: 180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço do Produto: 15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço do Produto: 2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço do Produto: 1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço do Produto: 30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço do Produto: 3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:26:57)
+-- CODE: 
+preco = float(input("Preço do Produto: "))
+preco_final = (15 / 100) * preco + 140
+print(preco_final)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço do Produto: 320.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço do Produto: 155.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço do Produto: 142.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço do Produto: 141.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço do Produto: 170.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço do Produto: 143.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:37:26)
+-- CODE: 
+preco = float(input("Preço do Produto: "))
+preco_final = (preco* (1 - 0.15))
+print(preco_final)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço do Produto: 1020.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço do Produto: 85.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço do Produto: 12.75
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço do Produto: 8.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço do Produto: 170.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço do Produto: 17.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:25:11)
+-- CODE: 
+preco = float(input("Preço do Produto: "))
+preco_final = preco * 15/100
+print(preco_final)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço do Produto: 180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço do Produto: 15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço do Produto: 2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço do Produto: 1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço do Produto: 30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço do Produto: 3.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

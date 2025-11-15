@@ -1,0 +1,2268 @@
+== RUN (2025-08-28 14:13:39)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = (valor_un * preço) = frete
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * preço) = frete
+             ^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * preço) = frete
+             ^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * preço) = frete
+             ^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * preço) = frete
+             ^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * preço) = frete
+             ^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * preço) = frete
+             ^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:17:01)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) + frete
+print(float())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:18:49)
+-- CODE: 
+quantidade = int(input))
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) + frete
+
+print(total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 1
+    quantidade = int(input))
+                           ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 1
+    quantidade = int(input))
+                           ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 1
+    quantidade = int(input))
+                           ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 1
+    quantidade = int(input))
+                           ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 1
+    quantidade = int(input))
+                           ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 1
+    quantidade = int(input))
+                           ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:17:03)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) + frete
+print(float())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:19:27)
+-- CODE: 
+quantidade = int(input())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) + frete
+
+print(total)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+1642.5
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+240171.0
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+540.0
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+765.0
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+162.56
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+618.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:17:42)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) + frete
+print(total())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:17:37)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) + frete
+print(total())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 14:01:34)
+-- CODE: 
+quantidade_jogos = print(input())
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+10
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+246
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+5
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+10
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+3
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+12
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 14:17:40)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) + frete
+print(total())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 14:16:25)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) + frete
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:18:00)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) = frete
+print(total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:18:23)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) + frete
+
+print(total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:17:38)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) + frete
+print(total())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:17:31)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) = frete
+print(total())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:18:09)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) + frete
+print(total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 14:14:04)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) = frete
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 14:10:55)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 14:13:38)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = (valor_un * preço) = frete
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * preço) = frete
+             ^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * preço) = frete
+             ^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * preço) = frete
+             ^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * preço) = frete
+             ^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * preço) = frete
+             ^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * preço) = frete
+             ^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:18:07)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) + frete
+print(total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total = ( valor_un * quantidade ) + frete
+              ~~~~~~~~~^~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:18:02)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) = frete
+print(total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 14:14:06)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) = frete
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:17:29)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) = frete
+print(total())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:16:52)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) = frete
+print(float())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 14:18:51)
+-- CODE: 
+quantidade = int(input))
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) + frete
+
+print(total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 1
+    quantidade = int(input))
+                           ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 1
+    quantidade = int(input))
+                           ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 1
+    quantidade = int(input))
+                           ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 1
+    quantidade = int(input))
+                           ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 1
+    quantidade = int(input))
+                           ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 1
+    quantidade = int(input))
+                           ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 14:13:55)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = (valor_un * quantidade) = frete
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * quantidade) = frete
+             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * quantidade) = frete
+             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * quantidade) = frete
+             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * quantidade) = frete
+             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * quantidade) = frete
+             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 5
+    total = (valor_un * quantidade) = frete
+             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 14:14:08)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) = frete
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 14:14:10)
+-- CODE: 
+quantidade = input(print())
+valor_un = float(input())
+frete = float(input())
+
+total = ( valor_un * quantidade ) = frete
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 5
+    total = ( valor_un * quantidade ) = frete
+              ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

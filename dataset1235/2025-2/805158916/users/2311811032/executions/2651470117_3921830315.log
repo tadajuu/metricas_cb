@@ -1,0 +1,509 @@
+== RUN (2025-08-27 12:34:26)
+-- CODE: 
+# Pagando a Gasolina
+
+# 1 Entrada
+litros = float(input('5'))
+
+# 2 Valores fixos
+preco_gasolina = 2.86
+troca_oleo = 50.0
+
+# 3 Total sem imposto
+total = litros * preco_gasolina + troca_oleo
+
+# 4 ICMS de 34%
+total_com_icms = round(total * (1 + 34/100), 2)
+
+# 5 Saida 
+print(total_com_icms)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+5106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+5634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+5258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+5401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+5979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+5230.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 12:33:23)
+-- CODE: 
+# Pagando a gasolina
+
+# 1 Entrada
+litros = float(input('5'))
+
+# 2 Valores fixos
+preco_gasolina = 2.86
+troca_oleo = 50.0
+
+# 3 Total sem imposto
+total = litros * preco_gasolina + troca_oleo
+
+# 4 ICMS de 34%
+total_com_icms = round(total * (1 + 34/100), 2)
+
+# 5 Saida 
+print(total_com_icms)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+5106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+5634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+5258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+5401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+5979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+5230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 12:31:19)
+-- CODE: 
+# Pagando a gasolina
+
+# 1 Entrada
+litros = float(input('5'))
+
+# 2 Valores fixos
+preco_gasolina = 2.86
+troca_oleo = 50.0
+
+# 3 Total sem imposto
+total = litros * preco_gasolina + troca_oleo
+
+# 4 ICMS de 34%
+total_icms = round(total * (1 + 34/100), 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+5
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+5
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+5
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+5
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+5
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 12:29:22)
+-- CODE: 
+# Pagando a gasolina
+
+# 1 Entrada
+litros = float(input('5'))
+
+# 2 Valores fixos
+preco_gasolina = 2.86
+troca_oleo = 50.0
+
+# 3 Total sem imposto
+total = litros * preco_gasolina + troca_oleo
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+5
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+5
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+5
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+5
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+5
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 12:32:41)
+-- CODE: 
+# Pagando a gasolina
+
+# 1 Entrada
+litros = float(input('5'))
+
+# 2 Valores fixos
+preco_gasolina = 2.86
+troca_oleo = 50.0
+
+# 3 Total sem imposto
+total = litros * preco_gasolina + troca_oleo
+
+# 4 ICMS de 34%
+total_icms = round(total * (1 + 34/100), 2)
+
+# 5 Saida 
+print(total_icms)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+5106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+5634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+5258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+5401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+5979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+5230.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 12:34:28)
+-- CODE: 
+# Pagando a Gasolina
+
+# 1 Entrada
+litros = float(input('5'))
+
+# 2 Valores fixos
+preco_gasolina = 2.86
+troca_oleo = 50.0
+
+# 3 Total sem imposto
+total = litros * preco_gasolina + troca_oleo
+
+# 4 ICMS de 34%
+total_com_icms = round(total * (1 + 34/100), 2)
+
+# 5 Saida 
+print(total_com_icms)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+5106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+5634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+5258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+5401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+5979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+5230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 12:33:22)
+-- CODE: 
+# Pagando a gasolina
+
+# 1 Entrada
+litros = float(input('5'))
+
+# 2 Valores fixos
+preco_gasolina = 2.86
+troca_oleo = 50.0
+
+# 3 Total sem imposto
+total = litros * preco_gasolina + troca_oleo
+
+# 4 ICMS de 34%
+total_com_icms = round(total * (1 + 34/100), 2)
+
+# 5 Saida 
+print(total_com_icms)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+5106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+5634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+5258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+5401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+5979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+5230.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 12:32:44)
+-- CODE: 
+# Pagando a gasolina
+
+# 1 Entrada
+litros = float(input('5'))
+
+# 2 Valores fixos
+preco_gasolina = 2.86
+troca_oleo = 50.0
+
+# 3 Total sem imposto
+total = litros * preco_gasolina + troca_oleo
+
+# 4 ICMS de 34%
+total_icms = round(total * (1 + 34/100), 2)
+
+# 5 Saida 
+print(total_icms)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+5106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+5634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+5258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+5401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+5979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+5230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

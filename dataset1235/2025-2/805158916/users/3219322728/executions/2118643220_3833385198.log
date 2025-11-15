@@ -1,0 +1,106 @@
+== SUBMISSION (2025-09-01 14:25:52)
+-- CODE: 
+Meroveu = float(input("kWh Consumidos: "))
+icms = (Meroveu * 0.43) * (1 + 0.25)+ 10
+print(round(icms, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+---- correct output:
+66.25
+---- user output:
+kWh Consumidos: 63.75
+-- TEST CASE 2:
+---- input:
+45.28
+---- correct output:
+36.84
+---- user output:
+kWh Consumidos: 34.34
+-- TEST CASE 3:
+---- input:
+16.58
+---- correct output:
+21.41
+---- user output:
+kWh Consumidos: 18.91
+-- TEST CASE 4:
+---- input:
+289.45
+---- correct output:
+168.08
+---- user output:
+kWh Consumidos: 165.58
+-- TEST CASE 5:
+---- input:
+284.14
+---- correct output:
+165.23
+---- user output:
+kWh Consumidos: 162.73
+-- TEST CASE 6:
+---- input:
+450.35
+---- correct output:
+254.56
+---- user output:
+kWh Consumidos: 252.06
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:29:15)
+-- CODE: 
+Meroveu = float(input("kWh Consumidos: "))
+icms = (Meroveu * 0.43 +10) * (1 + 0.25)
+print(round(icms, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+---- correct output:
+66.25
+---- user output:
+kWh Consumidos: 66.25
+-- TEST CASE 2:
+---- input:
+45.28
+---- correct output:
+36.84
+---- user output:
+kWh Consumidos: 36.84
+-- TEST CASE 3:
+---- input:
+16.58
+---- correct output:
+21.41
+---- user output:
+kWh Consumidos: 21.41
+-- TEST CASE 4:
+---- input:
+289.45
+---- correct output:
+168.08
+---- user output:
+kWh Consumidos: 168.08
+-- TEST CASE 5:
+---- input:
+284.14
+---- correct output:
+165.23
+---- user output:
+kWh Consumidos: 165.23
+-- TEST CASE 6:
+---- input:
+450.35
+---- correct output:
+254.56
+---- user output:
+kWh Consumidos: 254.56
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

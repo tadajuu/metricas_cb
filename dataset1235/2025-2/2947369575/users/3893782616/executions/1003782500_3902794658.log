@@ -1,0 +1,657 @@
+== SUBMISSION (2025-08-28 20:32:03)
+-- CODE: 
+nome = (input("digite seu nome:"))
+ print("Nome:, nome")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:, nome")
+IndentationError: unexpected indent
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:, nome")
+IndentationError: unexpected indent
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:, nome")
+IndentationError: unexpected indent
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:, nome")
+IndentationError: unexpected indent
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 20:42:05)
+-- CODE: 
+nome = input("digite seu nome:")
+print("Nome:", nome)
+
+idade = input("digite sua idade: ")
+print("Idade:" , idade)
+
+altura = input(float("digite sua altura:"))
+print("Altura:", altura)
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = input(float("digite sua altura:"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'digite sua altura:'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = input(float("digite sua altura:"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'digite sua altura:'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = input(float("digite sua altura:"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'digite sua altura:'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = input(float("digite sua altura:"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'digite sua altura:'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 20:32:05)
+-- CODE: 
+nome = (input("digite seu nome:"))
+ print("Nome:, nome")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:, nome")
+IndentationError: unexpected indent
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:, nome")
+IndentationError: unexpected indent
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:, nome")
+IndentationError: unexpected indent
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:, nome")
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 20:45:11)
+-- CODE: 
+nome = input("digite seu nome:")
+
+
+idade = input("digite sua idade: ")
+
+
+altura = input("digite sua altura:")
+
+
+print("Nome:", nome)
+print("Idade:" , idade)
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 20:32:29)
+-- CODE: 
+nome = (input("digite seu nome:"))
+ print("Nome:", nome)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:", nome)
+IndentationError: unexpected indent
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:", nome)
+IndentationError: unexpected indent
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:", nome)
+IndentationError: unexpected indent
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:", nome)
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 20:32:11)
+-- CODE: 
+nome = (input("digite seu nome:"))
+ print("Nome:, nome")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:, nome")
+IndentationError: unexpected indent
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:, nome")
+IndentationError: unexpected indent
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:, nome")
+IndentationError: unexpected indent
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:, nome")
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 20:43:09)
+-- CODE: 
+nome = input("digite seu nome:")
+print("Nome:", nome)
+
+idade = input("digite sua idade: ")
+print("Idade:" , idade)
+
+altura = input("digite sua altura:")
+print("Altura:", altura)
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+digite sua altura:Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+digite sua altura:Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+digite sua altura:Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+digite sua altura:Altura: 1.89
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 20:33:00)
+-- CODE: 
+nome = input("digite seu nome:")
+print("Nome:", nome)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+digite seu nome:Nome: Teresa
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+digite seu nome:Nome: Marcelo
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+digite seu nome:Nome: Larissa
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+digite seu nome:Nome: Jose
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 20:42:37)
+-- CODE: 
+nome = input("digite seu nome:")
+print("Nome:", nome)
+
+idade = input("digite sua idade: ")
+print("Idade:" , idade)
+
+altura = input("digite sua altura:")
+print("Altura:", altura)
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+digite sua altura:Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+digite sua altura:Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+digite sua altura:Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+digite sua altura:Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 20:32:48)
+-- CODE: 
+nome = (input("digite seu nome:"))
+print("Nome:", nome)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+digite seu nome:Nome: Teresa
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+digite seu nome:Nome: Marcelo
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+digite seu nome:Nome: Larissa
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+digite seu nome:Nome: Jose
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 20:32:29)
+-- CODE: 
+nome = (input("digite seu nome:"))
+ print("Nome:", nome)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:", nome)
+IndentationError: unexpected indent
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:", nome)
+IndentationError: unexpected indent
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:", nome)
+IndentationError: unexpected indent
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 2
+    print("Nome:", nome)
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,68 @@
+== SUBMISSION (2025-09-03 04:14:59)
+-- CODE: 
+escala = input().upper()
+temp = float(input())
+
+if (escala == "C"):
+  conversao = (9/5)*temp +32
+  print(round(conversao,2))
+  
+elif (escala == "F"):
+  conversao = (5/9)*(temp - 32)
+  print(round(conversao,2))
+
+else:
+ print("escala errada")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+-1.11
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

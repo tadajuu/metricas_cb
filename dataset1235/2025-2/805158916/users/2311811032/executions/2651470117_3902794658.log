@@ -1,0 +1,1697 @@
+== RUN (2025-08-19 22:45:16)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+
+idade = input("18")
+
+altura = input("1.65")
+
+print("Nome:", nome)
+
+print("Idade:", idade)
+
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:43:28)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+
+idade = int(input("18"))
+
+altura = int(input("1.65"))
+
+print("Nome:", nome)
+
+Print("Idade:", idade)
+
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.45'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.79'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.68'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.89'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:28:40)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+idade = input("18")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Vinícius18
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Vinícius18
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Vinícius18
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Vinícius18
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 22:46:55)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+# 1 Entrada
+
+nome = input("Vinícius")
+
+idade = input("18")
+
+altura = input("1.65")
+
+# 2 Saida
+
+print("Nome:", nome)
+
+print("Idade:", idade)
+
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:45:07)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+
+idade = input("18")
+
+altura = input("1.65")
+
+print("Nome:", nome)
+
+print("Idade:", idade)
+
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:42:32)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+
+idade = int(input("18"))
+
+altura = int(input("1.65"))
+
+print("Nome:", nome)
+
+Print("Idade:", idade)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.45'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.79'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.68'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.89'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:42:28)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+
+idade = int(input("18"))
+
+altura = int(input("1.65"))
+
+print("Nome:", nome)
+
+Print("Idade:", idade)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.45'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.79'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.68'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.89'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 22:44:27)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+
+idade = input("18")
+
+altura = input("1.65")
+
+print("Nome:", nome)
+
+Print("Idade:", idade)
+
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    Print("Idade:", idade)
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    Print("Idade:", idade)
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    Print("Idade:", idade)
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    Print("Idade:", idade)
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:48:53)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+# 1 Entrada
+
+nome = input("Vinícius")
+
+idade = input("18")
+
+altura = input("1.65")
+
+# 2 Saida
+
+print("Nome:", nome)
+
+print("Idade:", idade)
+
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:36:09)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+
+idade = int(input("18"))
+
+altura = int(input("1.65"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.45'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.79'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.68'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.89'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:43:10)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+
+idade = int(input("18"))
+
+altura = int(input("1.65"))
+
+print("Nome:", nome)
+
+Print("Idade:", idade)
+
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.45'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.79'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.68'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.89'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:27:53)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Vinícius
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Vinícius
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Vinícius
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Vinícius
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:44:25)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+
+idade = input("18")
+
+altura = input("1.65")
+
+print("Nome:", nome)
+
+Print("Idade:", idade)
+
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    Print("Idade:", idade)
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    Print("Idade:", idade)
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    Print("Idade:", idade)
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    Print("Idade:", idade)
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:32:01)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = "Vinícius"
+idade = 18
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 22:48:54)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+# 1 Entrada
+
+nome = input("Vinícius")
+
+idade = input("18")
+
+altura = input("1.65")
+
+# 2 Saida
+
+print("Nome:", nome)
+
+print("Idade:", idade)
+
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 22:48:04)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+# 1 Entrada
+
+nome = input("Vinícius")
+
+idade = int(input("18"))
+
+altura = int(input("1.65"))
+
+# 2 Saida
+
+print("Nome:", nome)
+
+print("Idade:", idade)
+
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.45'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.79'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.68'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.89'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:36:14)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+
+idade = int(input("18"))
+
+altura = int(input("1.65"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.45'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.79'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.68'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.89'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:32:02)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = "Vinícius"
+idade = 18
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:46:54)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+# 1 Entrada
+
+nome = input("Vinícius")
+
+idade = input("18")
+
+altura = input("1.65")
+
+# 2 Saida
+
+print("Nome:", nome)
+
+print("Idade:", idade)
+
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:29:27)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+idade = input("18")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Vinícius18
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Vinícius18
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Vinícius18
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Vinícius18
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 22:45:09)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+
+idade = input("18")
+
+altura = input("1.65")
+
+print("Nome:", nome)
+
+print("Idade:", idade)
+
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:28:37)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+idade = input("18")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Vinícius18
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Vinícius18
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Vinícius18
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Vinícius18
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:48:02)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+# 1 Entrada
+
+nome = input("Vinícius")
+
+idade = int(input("18"))
+
+altura = int(input("1.65"))
+
+# 2 Saida
+
+print("Nome:", nome)
+
+print("Idade:", idade)
+
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.45'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.79'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.68'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.89'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 22:27:25)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input(Vinícius)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    nome = input(Vinícius)
+                 ^^^^^^^^
+NameError: name 'Vinícius' is not defined
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    nome = input(Vinícius)
+                 ^^^^^^^^
+NameError: name 'Vinícius' is not defined
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    nome = input(Vinícius)
+                 ^^^^^^^^
+NameError: name 'Vinícius' is not defined
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    nome = input(Vinícius)
+                 ^^^^^^^^
+NameError: name 'Vinícius' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 22:43:12)
+-- CODE: 
+# PRIMEIRO PROGRAMA EM PYTHON
+
+nome = input("Vinícius")
+
+idade = int(input("18"))
+
+altura = int(input("1.65"))
+
+print("Nome:", nome)
+
+Print("Idade:", idade)
+
+print("Altura:", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.45'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.79'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.68'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    altura = int(input("1.65"))
+             ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.89'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

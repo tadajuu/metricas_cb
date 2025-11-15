@@ -1,0 +1,158 @@
+== SUBMISSION (2025-08-21 19:05:21)
+-- CODE: 
+p1 = 1
+p2 = 2
+p3 = 3
+p4 = 4
+
+av1 = float(input("p1"))
+av2 = float(input("p2"))
+av3 = float(input("p3"))
+av4 = float(input("p4"))
+media_ponderada = (av1 * p1)+(av2 * p2)+(av3 * p3)+(av4 * p4)
+soma = p1 + p2 + p3 + p4
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+p1p2p3p4
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+p1p2p3p4
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+p1p2p3p4
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+p1p2p3p4
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+p1p2p3p4
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+p1p2p3p4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 19:09:25)
+-- CODE: 
+p1 = 1
+p2 = 2
+p3 = 3
+p4 = 4
+
+av1 = float(input("p1"))
+av2 = float(input("p2"))
+av3 = float(input("p3"))
+av4 = float(input("p4"))
+media_ponderada = (av1 * p1)+(av2 * p2)+(av3 * p3)+(av4 * p4)
+soma = p1 + p2 + p3 + p4
+media = media_ponderada / soma
+print(round(media, 2)) 
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+p1p2p3p47.94
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+p1p2p3p48.2
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+p1p2p3p47.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+p1p2p3p46.7
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+p1p2p3p430.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+p1p2p3p47.8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

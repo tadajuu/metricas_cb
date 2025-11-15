@@ -1,0 +1,8064 @@
+== SUBMISSION (2025-09-01 15:47:33)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TF * 15
+
+TE = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:33:33)
+-- CODE: 
+TE = float(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:49:18)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:25:17)
+-- CODE: 
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:21:00)
+-- CODE: 
+
+
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:19:29)
+-- CODE: 
+from math import
+
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = Taxa + TF * ICMS
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:30:04)
+-- CODE: 
+TE = float(input("digite o tempo: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:34)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:36:53)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF) * (20/100)
+
+V = (Taxa + TE * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:58)
+-- CODE: 
+TE = float(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:25:16)
+-- CODE: 
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:40:08)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:18:42)
+-- CODE: 
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:40:28)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TF * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:36:52)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF) * (20/100)
+
+V = (Taxa + TE * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:28:05)
+-- CODE: 
+TE = float(input("tempo no estacionamento: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:48:36)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:49:37)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TE * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:37:05)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TE) * (20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:40:08)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:40:28)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TF * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:34:21)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:50:45)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TE * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:22)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TE * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:22:36)
+-- CODE: 
+
+
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (TE * 15 + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (TE * 15 + TF)*(20/100)
+            ~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (TE * 15 + TF)*(20/100)
+            ~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (TE * 15 + TF)*(20/100)
+            ~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (TE * 15 + TF)*(20/100)
+            ~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (TE * 15 + TF)*(20/100)
+            ~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (TE * 15 + TF)*(20/100)
+            ~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:18:53)
+-- CODE: 
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = Taxa + TF * ICMS
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:28:04)
+-- CODE: 
+TE = float(input("tempo no estacionamento: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:23)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TE * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:47:54)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TF * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TE * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:50:54)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TE * 20/100)
+
+V = (Taxa + TE * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+digite o tempo:30.2
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+digite o tempo:849.8
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+digite o tempo:1366.2
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+digite o tempo:181.8
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+digite o tempo:455.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+digite o tempo:9875.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:58)
+-- CODE: 
+TE = float(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:33)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:19:31)
+-- CODE: 
+from math import
+
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = Taxa + TF * ICMS
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:33:35)
+-- CODE: 
+TE = float(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:37:06)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TE) * (20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:40:07)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:19:31)
+-- CODE: 
+from math import
+
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = Taxa + TF * ICMS
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:39:40)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = (5,00)
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:22:35)
+-- CODE: 
+
+
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (TE * 15 + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (TE * 15 + TF)*(20/100)
+            ~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (TE * 15 + TF)*(20/100)
+            ~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (TE * 15 + TF)*(20/100)
+            ~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (TE * 15 + TF)*(20/100)
+            ~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (TE * 15 + TF)*(20/100)
+            ~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    ICMS = (TE * 15 + TF)*(20/100)
+            ~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:12:58)
+-- CODE: 
+TE = int(input("tempo no estacionamento"))
+
+TAXA = (te + 15)
+
+TF = 5,00
+
+ICMS = (TAXA + TF)*(20/100)
+
+v = (TAXA + TF + ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:52:59)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 2
+
+TF = 5,00
+
+ICMS = (Taxa + TE * 20/100)
+
+V = (Taxa + TE * ICMS )
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+digite o tempo:4.2
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+digite o tempo:121.8
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+digite o tempo:196.2
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+digite o tempo:25.8
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+digite o tempo:65.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+digite o tempo:1425.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:34:20)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:51:29)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TE * 20/100)
+
+V = (Taxa + TE * ICMS )
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+digite o tempo:30.2
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+digite o tempo:849.8
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+digite o tempo:1366.2
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+digite o tempo:181.8
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+digite o tempo:455.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+digite o tempo:9875.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:53:58)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TE * 20/100)
+
+V = (Taxa + TE * ICMS )
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+digite o tempo:30.2
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+digite o tempo:849.8
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+digite o tempo:1366.2
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+digite o tempo:181.8
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+digite o tempo:455.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+digite o tempo:9875.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:59)
+-- CODE: 
+TE = float(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:37:05)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TE) * (20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:59:39)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TE)* (20/100)
+
+V = (Taxa + TE * ICMS )
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+digite o tempo:18.2
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+digite o tempo:261.8
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+digite o tempo:394.2
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+digite o tempo:73.8
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+digite o tempo:155.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+digite o tempo:2375.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:18:04)
+-- CODE: 
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:34:59)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:36:16)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF) * (20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF) * (20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:33:02)
+-- CODE: 
+TE = float(input("digite o tempo: "))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:33:35)
+-- CODE: 
+TE = float(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:12:59)
+-- CODE: 
+TE = int(input("tempo no estacionamento"))
+
+TAXA = (te + 15)
+
+TF = 5,00
+
+ICMS = (TAXA + TF)*(20/100)
+
+v = (TAXA + TF + ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:34:21)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:29:34)
+-- CODE: 
+TE = float(input("digite o tempo: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:54:12)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa - TE * 20/100)
+
+V = (Taxa + TE * ICMS )
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+digite o tempo:29.8
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+digite o tempo:830.2
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+digite o tempo:1333.8
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+digite o tempo:178.2
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+digite o tempo:445.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+digite o tempo:9625.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:49:53)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TE * 20/100)
+
+V = (Taxa + TE * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+digite o tempo:30.2
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+digite o tempo:849.8
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+digite o tempo:1366.2
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+digite o tempo:181.8
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+digite o tempo:455.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+digite o tempo:9875.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:49:36)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TE * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V = (Taxa + TF * ICMS)
+                ~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:32:20)
+-- CODE: 
+TE = float(input("digite o tempo: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:11:40)
+-- CODE: 
+TE = int(input("tempo no estacionamento"))
+
+TAXA = (te + 15)
+
+TF = 5,00
+
+icms = (TAXA=TF)*(20/100)
+
+v = (taxa + tf + icms)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (TAXA=TF)*(20/100)
+            ^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (TAXA=TF)*(20/100)
+            ^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (TAXA=TF)*(20/100)
+            ^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (TAXA=TF)*(20/100)
+            ^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (TAXA=TF)*(20/100)
+            ^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (TAXA=TF)*(20/100)
+            ^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:57)
+-- CODE: 
+TE = float(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:17:55)
+-- CODE: 
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:34)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:34:22)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:33:34)
+-- CODE: 
+TE = float(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:34:19)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:13:22)
+-- CODE: 
+TE = int(input("tempo no estacionamento"))
+
+TAXA = (te + 15)
+
+TF = 5,00
+
+ICMS = (TAXA + TF)*(20/100)
+
+V = (TAXA + TF + ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:59:41)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TE)* (20/100)
+
+V = (Taxa + TE * ICMS )
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+digite o tempo:18.2
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+digite o tempo:261.8
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+digite o tempo:394.2
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+digite o tempo:73.8
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+digite o tempo:155.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+digite o tempo:2375.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:26:21)
+-- CODE: 
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*20(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  ICMS = (Taxa + TF)*20(20/100)
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*20(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  ICMS = (Taxa + TF)*20(20/100)
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*20(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  ICMS = (Taxa + TF)*20(20/100)
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*20(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  ICMS = (Taxa + TF)*20(20/100)
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*20(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  ICMS = (Taxa + TF)*20(20/100)
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*20(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  ICMS = (Taxa + TF)*20(20/100)
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*20(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:54:56)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TE * 20/100)
+
+V = (Taxa - TE * ICMS )
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+digite o tempo:-0.2
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+digite o tempo:-639.8
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+digite o tempo:-1096.2
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+digite o tempo:-91.8
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+digite o tempo:-305.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+digite o tempo:-9125.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:53:33)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 2
+
+TF = 5,00
+
+ICMS = (Taxa + TE * 20/100)
+
+V = (Taxa + TE * ICMS )
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+digite o tempo:4.2
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+digite o tempo:121.8
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+digite o tempo:196.2
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+digite o tempo:25.8
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+digite o tempo:65.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+digite o tempo:1425.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:18:03)
+-- CODE: 
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:47:55)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TF * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TE * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:18:41)
+-- CODE: 
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:19:30)
+-- CODE: 
+from math import
+
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = Taxa + TF * ICMS
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 5
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:50:24)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TE * 20/100)
+
+V = (Taxa + TE * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+digite o tempo:30.2
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+digite o tempo:849.8
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+digite o tempo:1366.2
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+digite o tempo:181.8
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+digite o tempo:455.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+digite o tempo:9875.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:40:08)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:54:30)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TE * 20/100)
+
+V = (Taxa + TE * ICMS )
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+digite o tempo:30.2
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+digite o tempo:849.8
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+digite o tempo:1366.2
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+digite o tempo:181.8
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+digite o tempo:455.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+digite o tempo:9875.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:40:29)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TF * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:49:17)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:09:22)
+-- CODE: 
+te = int(input("tempo no estacionamento"))
+
+taxa = (te + 15)
+
+tf = 5,00
+
+icms = (taxa = tf)*(20/100)
+
+v = (taxa + tf + icms)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (taxa = tf)*(20/100)
+            ^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (taxa = tf)*(20/100)
+            ^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (taxa = tf)*(20/100)
+            ^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (taxa = tf)*(20/100)
+            ^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (taxa = tf)*(20/100)
+            ^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (taxa = tf)*(20/100)
+            ^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:49:19)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:40:09)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:18:23)
+-- CODE: 
+TE = int(input("tempo no estacionamento: "))
+
+Taxa =(TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:12:58)
+-- CODE: 
+TE = int(input("tempo no estacionamento"))
+
+TAXA = (te + 15)
+
+TF = 5,00
+
+ICMS = (TAXA + TF)*(20/100)
+
+v = (TAXA + TF + ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:12:56)
+-- CODE: 
+TE = int(input("tempo no estacionamento"))
+
+TAXA = (te + 15)
+
+TF = 5,00
+
+ICMS = (TAXA + TF)*(20/100)
+
+v = (TAXA + TF + ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:18:52)
+-- CODE: 
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = Taxa + TF * ICMS
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:47:55)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TF * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TE * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:18:51)
+-- CODE: 
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = Taxa + TF * ICMS
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 3
+    Taxa = TE * 15)
+                  ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:40:28)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TF * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:24)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TE * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:33:01)
+-- CODE: 
+TE = float(input("digite o tempo: "))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:47:53)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TF * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TE * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Taxa = TF * 15
+           ^^
+NameError: name 'TF' is not defined. Did you mean: 'TE'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:55:10)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TE * 20/100)
+
+V = (Taxa + TE * ICMS )
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+digite o tempo:30.2
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+digite o tempo:849.8
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+digite o tempo:1366.2
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+digite o tempo:181.8
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+digite o tempo:455.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+digite o tempo:9875.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:11:39)
+-- CODE: 
+TE = int(input("tempo no estacionamento"))
+
+TAXA = (te + 15)
+
+TF = 5,00
+
+icms = (TAXA=TF)*(20/100)
+
+v = (taxa + tf + icms)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (TAXA=TF)*(20/100)
+            ^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (TAXA=TF)*(20/100)
+            ^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (TAXA=TF)*(20/100)
+            ^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (TAXA=TF)*(20/100)
+            ^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (TAXA=TF)*(20/100)
+            ^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 7
+    icms = (TAXA=TF)*(20/100)
+            ^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:29:33)
+-- CODE: 
+TE = float(input("digite o tempo: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:59)
+-- CODE: 
+TE = float(input("digite o tempo:"))
+
+Taxa = TE * 15
+
+TF = 5,00
+
+ICMS = (Taxa + TF * 20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF * 20/100)
+                   ~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:53:15)
+-- CODE: 
+TE = int(input("digite o tempo:"))
+
+Taxa = TE * 1
+
+TF = 5,00
+
+ICMS = (Taxa + TE * 20/100)
+
+V = (Taxa + TE * ICMS )
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+digite o tempo:2.2
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+digite o tempo:65.8
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+digite o tempo:106.2
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+digite o tempo:13.8
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+digite o tempo:35.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+digite o tempo:775.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:17:56)
+-- CODE: 
+TE = int(input("tempo no estacionamento: "))
+
+Taxa = (TE * 15)
+
+TF = 5,00
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:33:36)
+-- CODE: 
+TE = float(input("digite o tempo:"))
+
+Taxa = (TE * 15)
+
+TF = (5,00)
+
+ICMS = (Taxa + TF)*(20/100)
+
+V = (Taxa + TF * ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ICMS = (Taxa + TF)*(20/100)
+            ~~~~~^~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:13:00)
+-- CODE: 
+TE = int(input("tempo no estacionamento"))
+
+TAXA = (te + 15)
+
+TF = 5,00
+
+ICMS = (TAXA + TF)*(20/100)
+
+v = (TAXA + TF + ICMS)
+
+print(round(V,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    TAXA = (te + 15)
+            ^^
+NameError: name 'te' is not defined. Did you mean: 'TE'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

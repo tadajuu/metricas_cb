@@ -1,0 +1,2120 @@
+== SUBMISSION (2025-08-28 18:40:08)
+-- CODE: 
+
+p = float(input())
+tt = (p * 43,21) + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:45:41)
+-- CODE: 
+
+p = float(input())
+tt = p * 43.21
+tx = 25
+icms = tt + tx + (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+889.82
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+15451.59
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+1823.16
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+27735.33
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+1514.64
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+3310.44
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:47:02)
+-- CODE: 
+
+p = float(input())
+tt = p * 43.21 + 25
+icms = tt * (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+740.5
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+12535.54
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+1496.5
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+22485.36
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+1246.6
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+2701.21
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:44:16)
+-- CODE: 
+
+p = float(input())
+tt = p * 43.21 + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+914.82
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+15476.59
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+1848.16
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+27760.33
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+1539.64
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+3335.44
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:40:47)
+-- CODE: 
+
+p = float(input())
+tt = p * 43,21 + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (62/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (62/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (62/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (62/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (62/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (62/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:41:53)
+-- CODE: 
+
+p = float(input())
+tt = p * 43.21 + 25
+icms = tt + (38/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+914.58
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+15476.35
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+1847.92
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+27760.09
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+1539.4
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+3335.2
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:41:09)
+-- CODE: 
+
+p = float(input())
+tt = p * 43,21 + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (62/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (62/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (62/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (62/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (62/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (62/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:43:39)
+-- CODE: 
+
+p = float(input())
+tt = p * 43.21 + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+914.82
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+15476.59
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+1848.16
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+27760.33
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+1539.64
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+3335.44
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:39:30)
+-- CODE: 
+
+p = float(input())
+tt = (p * 43,21) + 25
+icms = tt + (62/100)
+print(round(icms, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:41:28)
+-- CODE: 
+
+p = float(input())
+tt = p * 43.21 + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+914.82
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+15476.59
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+1848.16
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+27760.33
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+1539.64
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+3335.44
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:39:58)
+-- CODE: 
+
+p = float(input())
+tt = (p * 43,21) + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(icms, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:37:41)
+-- CODE: 
+
+p = float(input())
+vk = 43,21
+tf = 25
+tt = (vk * p) + tf
+icms = tt + (62/100)
+vtt = icms + tt
+print(round(vtt, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:41:52)
+-- CODE: 
+
+p = float(input())
+tt = p * 43.21 + 25
+icms = tt + (38/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+914.58
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+15476.35
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+1847.92
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+27760.09
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+1539.4
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+3335.2
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:40:58)
+-- CODE: 
+
+p = float(input())
+tt = p * 43,21 + 25
+icms = tt + (38/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (38/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (38/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (38/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (38/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (38/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (38/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:42:50)
+-- CODE: 
+
+p = float(input())
+tt = p * 43.21 + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+914.82
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+15476.59
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+1848.16
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+27760.33
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+1539.64
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+3335.44
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:42:47)
+-- CODE: 
+
+p = float(input())
+tt = p * 43.21 + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+914.82
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+15476.59
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+1848.16
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+27760.33
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+1539.64
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+3335.44
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:35:37)
+-- CODE: 
+
+p = float(input())
+vk = 43,21
+tf = 25
+tt = (vk * p) + tf
+icms = tt + 0,62
+vtt = icms + tt
+print(round(vtt, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:42:42)
+-- CODE: 
+
+p = float(input())
+tt = p * 43.21 + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+914.82
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+15476.59
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+1848.16
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+27760.33
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+1539.64
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+3335.44
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:34:08)
+-- CODE: 
+
+p = float(input())
+vk = 43,21
+tf = 25
+tt = (vk * p) + tf
+icms = 38 * tt / 100
+vtt = icms + tt
+print(round(vtt, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:39:59)
+-- CODE: 
+
+p = float(input())
+tt = (p * 43,21) + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(icms, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:45:42)
+-- CODE: 
+
+p = float(input())
+tt = p * 43.21
+tx = 25
+icms = tt + tx + (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+889.82
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+15451.59
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+1823.16
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+27735.33
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+1514.64
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+3310.44
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:40:07)
+-- CODE: 
+
+p = float(input())
+tt = (p * 43,21) + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:39:31)
+-- CODE: 
+
+p = float(input())
+tt = (p * 43,21) + 25
+icms = tt + (62/100)
+print(round(icms, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:32:58)
+-- CODE: 
+
+p = float(input())
+vk = 43,21
+tf = 25
+tt = (vk * p) + tf
+icms = 38 * tt / 100
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:34:09)
+-- CODE: 
+
+p = float(input())
+vk = 43,21
+tf = 25
+tt = (vk * p) + tf
+icms = 38 * tt / 100
+vtt = icms + tt
+print(round(vtt, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:44:16)
+-- CODE: 
+
+p = float(input())
+tt = p * 43.21 + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+914.82
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+15476.59
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+1848.16
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+27760.33
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+1539.64
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+3335.44
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:40:07)
+-- CODE: 
+
+p = float(input())
+tt = (p * 43,21) + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:39:57)
+-- CODE: 
+
+p = float(input())
+tt = (p * 43,21) + 25
+icms = tt + (62/100)
+ttt = tt + icms
+print(round(icms, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tt = (p * 43,21) + 25
+         ~~~~~~~~~~~~^~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:34:09)
+-- CODE: 
+
+p = float(input())
+vk = 43,21
+tf = 25
+tt = (vk * p) + tf
+icms = 38 * tt / 100
+vtt = icms + tt
+print(round(vtt, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    tt = (vk * p) + tf
+          ~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:40:59)
+-- CODE: 
+
+p = float(input())
+tt = p * 43,21 + 25
+icms = tt + (38/100)
+ttt = tt + icms
+print(round(ttt, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (38/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (38/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (38/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (38/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (38/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    icms = tt + (38/100)
+           ~~~^~~~~~~~~~
+TypeError: can only concatenate tuple (not "float") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

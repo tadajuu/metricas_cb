@@ -1,0 +1,1479 @@
+== RUN (2025-09-01 14:33:37)
+-- CODE: 
+QuantidadeDePedagios = int(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+ValorTotal = QuantidadeDePedagios + valorDoPedagio + taxaFixa 
+print(round(ValorTotal , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 32.8
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 30.8
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 34.8
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 38.8
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 31.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:33:04)
+-- CODE: 
+QuantidadeDePedagios = int(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+ValorTotal = QuantidadeDePedagios + valorDoPedagio + taxaFixa * aumento
+print(round(ValorTotal , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 15.8
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 13.8
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 17.8
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 21.8
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 14.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:21:09)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+#gasto0 = valorDoPedagio + taxaFixa
+gasto1 =  valorDoPedagio + taxaFixa
+gasto2 = gasto1 * aumento
+print(round(gasto1 - gasto2 , 2))
+#gastoInicial = gasto0 * aumento
+#aumento2 = Total  * aumento
+#valorGasto = aumento2
+#print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 25.33
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:39:43)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+ValorTotal =  valorDoPedagio + taxaFixa 
+Total = ValorTotal * QuantidadeDePedagios
+valorGasto = 
+print(round(Total , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+-- ERROR:
+File "XXXX", line 7
+    valorGasto = 
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+-- ERROR:
+File "XXXX", line 7
+    valorGasto = 
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+-- ERROR:
+File "XXXX", line 7
+    valorGasto = 
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+-- ERROR:
+File "XXXX", line 7
+    valorGasto = 
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+-- ERROR:
+File "XXXX", line 7
+    valorGasto = 
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:32:40)
+-- CODE: 
+QuantidadeDePedagios = int(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+ValorTotal = QuantidadeDePedagios + valorDoPedagio + TaxaFixa * aumento
+print(round(ValorTotal , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ValorTotal = QuantidadeDePedagios + valorDoPedagio + TaxaFixa * aumento
+                                                         ^^^^^^^^
+NameError: name 'TaxaFixa' is not defined. Did you mean: 'taxaFixa'?
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ValorTotal = QuantidadeDePedagios + valorDoPedagio + TaxaFixa * aumento
+                                                         ^^^^^^^^
+NameError: name 'TaxaFixa' is not defined. Did you mean: 'taxaFixa'?
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ValorTotal = QuantidadeDePedagios + valorDoPedagio + TaxaFixa * aumento
+                                                         ^^^^^^^^
+NameError: name 'TaxaFixa' is not defined. Did you mean: 'taxaFixa'?
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ValorTotal = QuantidadeDePedagios + valorDoPedagio + TaxaFixa * aumento
+                                                         ^^^^^^^^
+NameError: name 'TaxaFixa' is not defined. Did you mean: 'taxaFixa'?
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ValorTotal = QuantidadeDePedagios + valorDoPedagio + TaxaFixa * aumento
+                                                         ^^^^^^^^
+NameError: name 'TaxaFixa' is not defined. Did you mean: 'taxaFixa'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:27:01)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+gastoA = valorDoPedagio + taxaFixa
+#gasto1 =  valorDoPedagio + taxaFixa
+#gasto2 = gasto1 * aumento
+#final1 = gasto1 - gasto2
+#gasto4 = final1 * QuantidadeDePedagios
+#print(round(gasto4, 2))
+gastoInicial = gastoA * aumento
+gastofinal1 = gastoA  - gastoInicial
+valorGasto = gastofinal1 * QuantidadeDePedagios
+print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 75.99
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 126.65
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 227.97
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 50.66
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:24:25)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+#gastoA = valorDoPedagio + taxaFixa
+gasto1 =  valorDoPedagio + taxaFixa
+gasto2 = gasto1 * aumento
+final1 = gasto1 - gasto2
+gasto4 = final1 * QuantidadeDePedagios
+print(round(gasto4, 2))
+#gastoInicial = gastoA * aumento
+#aumento2 = Total  * aumento
+#valorGasto = aumento2
+#print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 75.99
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 126.65
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 227.97
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 50.66
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:15:34)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (1 * 0.15)
+gasto1 =  valorDoPedagio + taxaFixa
+print(round(gasto1 , 2))
+Total = ValorTotal * QuantidadeDePedagios
+aumento2 = Total  * aumento
+valorGasto = aumento2
+#print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    Total = ValorTotal * QuantidadeDePedagios
+            ^^^^^^^^^^
+NameError: name 'ValorTotal' is not defined
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    Total = ValorTotal * QuantidadeDePedagios
+            ^^^^^^^^^^
+NameError: name 'ValorTotal' is not defined
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    Total = ValorTotal * QuantidadeDePedagios
+            ^^^^^^^^^^
+NameError: name 'ValorTotal' is not defined
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    Total = ValorTotal * QuantidadeDePedagios
+            ^^^^^^^^^^
+NameError: name 'ValorTotal' is not defined
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    Total = ValorTotal * QuantidadeDePedagios
+            ^^^^^^^^^^
+NameError: name 'ValorTotal' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:28:48)
+-- CODE: 
+QuantidadeDePedagios = int(input("Quantos pedagios na estrada?;"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios na estrada?;
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:29:18)
+-- CODE: 
+QuantidadeDePedagios = int(input("Quantos pedagios tem?: "))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?:
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?:
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?:
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?:
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:36:02)
+-- CODE: 
+QuantidadeDePedagios = int(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+ValorTotal =  valorDoPedagio + taxaFixa 
+valorGasto = ValorTotal * QuantidadeDePedagios 
+print(round(valorGasto * (1 . 0.15), 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+-- ERROR:
+File "XXXX", line 7
+    print(round(valorGasto * (1 . 0.15), 2))
+                                  ^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+-- ERROR:
+File "XXXX", line 7
+    print(round(valorGasto * (1 . 0.15), 2))
+                                  ^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+-- ERROR:
+File "XXXX", line 7
+    print(round(valorGasto * (1 . 0.15), 2))
+                                  ^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+-- ERROR:
+File "XXXX", line 7
+    print(round(valorGasto * (1 . 0.15), 2))
+                                  ^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+-- ERROR:
+File "XXXX", line 7
+    print(round(valorGasto * (1 . 0.15), 2))
+                                  ^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:24:12)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+#gastoA = valorDoPedagio + taxaFixa
+gasto1 =  valorDoPedagio + taxaFixa
+gasto2 = gasto1 * aumento
+final1 = gasto1 - gasto2
+gasto4 = final1 * QuantidadeDePedagios
+print(round(final1, 2))
+#gastoInicial = gastoA * aumento
+#aumento2 = Total  * aumento
+#valorGasto = aumento2
+#print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 25.33
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:28:35)
+-- CODE: 
+QuantidadeDePedagios = int(input("Quantos pedagios na estrada?; "))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios na estrada?;
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:35:24)
+-- CODE: 
+QuantidadeDePedagios = int(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+ValorTotal =  valorDoPedagio + taxaFixa 
+valorGasto = ValorTotal * QuantidadeDePedagios 
+print(round(valorGasto))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 89
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 30
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 149
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 268
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 60
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:15:20)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (1 * 0.15)
+gasto1 =  valorDoPedagio + taxaFixa
+print(round(gasto1 , 2)
+Total = ValorTotal * QuantidadeDePedagios
+aumento2 = Total  * aumento
+valorGasto = aumento2
+#print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+-- ERROR:
+File "XXXX", line 6
+    print(round(gasto1 , 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+-- ERROR:
+File "XXXX", line 6
+    print(round(gasto1 , 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+-- ERROR:
+File "XXXX", line 6
+    print(round(gasto1 , 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+-- ERROR:
+File "XXXX", line 6
+    print(round(gasto1 , 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+-- ERROR:
+File "XXXX", line 6
+    print(round(gasto1 , 2)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:28:29)
+-- CODE: 
+QuantidadeDePedagios = int(input("Quantos pedagios na estrada?;  "))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios na estrada?;
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:40:26)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (1 * 0.15)
+ValorTotal =  valorDoPedagio + taxaFixa 
+Total = ValorTotal * QuantidadeDePedagios
+#valorGasto = 
+print(round(Total * aumento , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 13.41
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 4.47
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 22.35
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 40.23
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 8.94
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:16:51)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+gasto1 =  valorDoPedagio + taxaFixa
+print(round(gasto1 * aumento , 2))
+#Total = ValorTotal * QuantidadeDePedagios
+#aumento2 = Total  * aumento
+#valorGasto = aumento2
+#print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 4.47
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 4.47
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 4.47
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 4.47
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 4.47
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:16:24)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (1 * 0.15)
+gasto1 =  valorDoPedagio + taxaFixa
+print(round(gasto1 + aumento , 2))
+#Total = ValorTotal * QuantidadeDePedagios
+#aumento2 = Total  * aumento
+#valorGasto = aumento2
+#print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 29.95
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 29.95
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 29.95
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 29.95
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 29.95
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:28:39)
+-- CODE: 
+QuantidadeDePedagios = int(input("Quantos pedagios na estrada?; "))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios na estrada?;
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios na estrada?;
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:22:25)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+#gastoA = valorDoPedagio + taxaFixa
+gasto1 =  valorDoPedagio + taxaFixa
+gasto2 = gasto1 * aumento
+gasto3 = gasto2 * QuantidadeDePedagios
+print(round(gasto1 - gasto2 , 2))
+#gastoInicial = gastoA * aumento
+#aumento2 = Total  * aumento
+#valorGasto = aumento2
+#print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 25.33
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:17:57)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+gasto1 =  valorDoPedagio + taxaFixa
+gasto2 = gasto 1 * aumento
+print(round(gasto1 - gasto2 , 2))
+#Total = ValorTotal * QuantidadeDePedagios
+#aumento2 = Total  * aumento
+#valorGasto = aumento2
+#print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+-- ERROR:
+File "XXXX", line 6
+    gasto2 = gasto 1 * aumento
+                   ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+-- ERROR:
+File "XXXX", line 6
+    gasto2 = gasto 1 * aumento
+                   ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+-- ERROR:
+File "XXXX", line 6
+    gasto2 = gasto 1 * aumento
+                   ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+-- ERROR:
+File "XXXX", line 6
+    gasto2 = gasto 1 * aumento
+                   ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+-- ERROR:
+File "XXXX", line 6
+    gasto2 = gasto 1 * aumento
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:18:08)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+gasto1 =  valorDoPedagio + taxaFixa
+gasto2 = gasto1 * aumento
+print(round(gasto1 - gasto2 , 2))
+#Total = ValorTotal * QuantidadeDePedagios
+#aumento2 = Total  * aumento
+#valorGasto = aumento2
+#print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 25.33
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:20:56)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+#gasto0 = valorDoPedagio + taxaFixa
+gasto1 =  valorDoPedagio + taxaFixa
+#gasto2 = gasto1 * aumento
+print(round(gasto1 - gasto2 , 2))
+#gastoInicial = gasto0 * aumento
+#aumento2 = Total  * aumento
+#valorGasto = aumento2
+#print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(round(gasto1 - gasto2 , 2))
+                         ^^^^^^
+NameError: name 'gasto2' is not defined. Did you mean: 'gasto1'?
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(round(gasto1 - gasto2 , 2))
+                         ^^^^^^
+NameError: name 'gasto2' is not defined. Did you mean: 'gasto1'?
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(round(gasto1 - gasto2 , 2))
+                         ^^^^^^
+NameError: name 'gasto2' is not defined. Did you mean: 'gasto1'?
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(round(gasto1 - gasto2 , 2))
+                         ^^^^^^
+NameError: name 'gasto2' is not defined. Did you mean: 'gasto1'?
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(round(gasto1 - gasto2 , 2))
+                         ^^^^^^
+NameError: name 'gasto2' is not defined. Did you mean: 'gasto1'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:12:57)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (1 * 0.15)
+ValorTotal =  valorDoPedagio + taxaFixa 
+Total = ValorTotal * QuantidadeDePedagios
+aumento2 = Total  * aumento
+valorGasto = aumento2
+print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 13.41
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 4.47
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 22.35
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 40.23
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 8.94
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:30:46)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+gastoA = valorDoPedagio + taxaFixa
+#gasto1 =  valorDoPedagio + taxaFixa
+#gasto2 = gasto1 * aumento
+#final1 = gasto1 - gasto2
+#gasto4 = final1 * QuantidadeDePedagios
+#print(round(gasto4, 2))
+gastoInicial = gastoA * aumento
+gastofinal1 = gastoA  - gastoInicial
+valorGasto = gastofinal1 * QuantidadeDePedagios
+print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 75.99
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 25.33
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 126.65
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 227.97
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 50.66
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:15:56)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (1 * 0.15)
+gasto1 =  valorDoPedagio + taxaFixa
+print(round(gasto1 , 2))
+#Total = ValorTotal * QuantidadeDePedagios
+#aumento2 = Total  * aumento
+#valorGasto = aumento2
+#print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 29.8
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 29.8
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 29.8
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 29.8
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 29.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:16:39)
+-- CODE: 
+QuantidadeDePedagios = float(input("Quantos pedagios tem?: "))
+valorDoPedagio = 9.80
+taxaFixa = 20.00
+aumento = (15/100)
+gasto1 =  valorDoPedagio + taxaFixa
+print(round(gasto1 + aumento , 2))
+#Total = ValorTotal * QuantidadeDePedagios
+#aumento2 = Total  * aumento
+#valorGasto = aumento2
+#print(round(valorGasto , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Quantos pedagios tem?: 29.95
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Quantos pedagios tem?: 29.95
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Quantos pedagios tem?: 29.95
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Quantos pedagios tem?: 29.95
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Quantos pedagios tem?: 29.95
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

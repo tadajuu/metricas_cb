@@ -1,0 +1,188 @@
+== RUN (2025-08-25 15:02:36)
+-- CODE: 
+litros= float(input("Quantidade de litros abastecidos"))
+Pg=2.86
+Tl=50.00
+valorC= litros * Pg
+valorS = valorC+Tl
+valorT=valorS* (1+34/100)
+print(round(valorT, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros abastecidos106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros abastecidos634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros abastecidos258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros abastecidos401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros abastecidos979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros abastecidos230.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:02:02)
+-- CODE: 
+litros= float(input("Quantidade de litros abastecidos"))
+Pg=2.86
+Tl=50.00
+valorC= litros * Pg
+valorS = valorC+Tl
+valorT=valorS* (1+34/100)
+print(round(ValorTotal, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(ValorTotal, 2))
+                ^^^^^^^^^^
+NameError: name 'ValorTotal' is not defined
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(ValorTotal, 2))
+                ^^^^^^^^^^
+NameError: name 'ValorTotal' is not defined
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(ValorTotal, 2))
+                ^^^^^^^^^^
+NameError: name 'ValorTotal' is not defined
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(ValorTotal, 2))
+                ^^^^^^^^^^
+NameError: name 'ValorTotal' is not defined
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(ValorTotal, 2))
+                ^^^^^^^^^^
+NameError: name 'ValorTotal' is not defined
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(ValorTotal, 2))
+                ^^^^^^^^^^
+NameError: name 'ValorTotal' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:02:47)
+-- CODE: 
+litros= float(input("Quantidade de litros abastecidos"))
+Pg=2.86
+Tl=50.00
+valorC= litros * Pg
+valorS = valorC+Tl
+valorT=valorS* (1+34/100)
+print(round(valorT, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros abastecidos106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros abastecidos634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros abastecidos258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros abastecidos401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros abastecidos979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros abastecidos230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

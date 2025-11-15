@@ -1,0 +1,1561 @@
+== SUBMISSION (2025-08-27 15:29:56)
+-- CODE: 
+# Média aritmética de números reais
+
+# 1 Entrada
+
+# 1.1 Primeira nota
+nota_1 = float(input('1.0'))
+
+# 1.2 Segunda nota
+nota_2 = float(input('2.0'))
+
+# 1.3 Terceira nota
+nota_3 = float(input('3.0'))
+
+# 2 Comando
+
+# 2.1 Cálculo da média aritmética das 3 notas
+media = (nota_1 + nota_2 + nota_3) / 3
+
+# 3 Saída
+print(media)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+---- user output:
+1.02.03.06.2
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+---- user output:
+1.02.03.08.3
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+---- user output:
+1.02.03.05.5
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+---- user output:
+1.02.03.02.0
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+---- user output:
+1.02.03.09.1
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+---- user output:
+1.02.03.03.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:30:57)
+-- CODE: 
+nota_1 = float(input('1'))
+nota_2 = float(input('2'))
+nota_3 = float(input('3'))
+media = nota_1 + nota_2 + notas_3 // 3
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 // 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 // 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 // 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 // 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 // 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 // 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:29:46)
+-- CODE: 
+nota_1 = float(input('1'))
+nota_2 = float(input('2'))
+nota_3 = float(input('3'))
+media = nota_1 + nota_2 + notas_3 / 3
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 / 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 / 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 / 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 / 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 / 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 / 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:44:12)
+-- CODE: 
+nota_1 = float(input('1.0'))
+nota_2 = float(input('2.0'))
+nota_3 = float(input('3.0'))
+media = (nota_1 + nota_2 + nota_3) / 3
+print(media)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+---- user output:
+1.02.03.06.2
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+---- user output:
+1.02.03.08.3
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+---- user output:
+1.02.03.05.5
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+---- user output:
+1.02.03.02.0
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+---- user output:
+1.02.03.09.1
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+---- user output:
+1.02.03.03.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:42:36)
+-- CODE: 
+nota_1 = float(input('1'))
+nota_2 = float(input('2'))
+nota_3 = float(input('3'))
+media = nota_1 + nota_2 + nota_3 / 3
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+---- user output:
+12313.866666666666667
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+---- user output:
+12320.033333333333335
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+---- user output:
+12312.166666666666666
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+---- user output:
+1234.0
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+---- user output:
+12321.233333333333334
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+---- user output:
+1236.333333333333333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 15:29:55)
+-- CODE: 
+# Média aritmética de números reais
+
+# 1 Entrada
+
+# 1.1 Primeira nota
+nota_1 = float(input('1.0'))
+
+# 1.2 Segunda nota
+nota_2 = float(input('2.0'))
+
+# 1.3 Terceira nota
+nota_3 = float(input('3.0'))
+
+# 2 Comando
+
+# 2.1 Cálculo da média aritmética das 3 notas
+media = (nota_1 + nota_2 + nota_3) / 3
+
+# 3 Saída
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+---- user output:
+1.02.03.06.2
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+---- user output:
+1.02.03.08.3
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+---- user output:
+1.02.03.05.5
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+---- user output:
+1.02.03.02.0
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+---- user output:
+1.02.03.09.1
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+---- user output:
+1.02.03.03.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 15:35:37)
+-- CODE: 
+# Média aritmética de 3 números reais
+
+# 1 Entrada
+
+# 1.1 Primeira nota
+nota_1 = float(input('1.0'))
+
+# 1.2 Segunda nota
+nota_2 = float(input('2.0'))
+
+# 1.3 Terceira nota
+nota_3 = float(input('3.0'))
+
+# 2 Comando
+
+# 2.1 Cálculo da média aritmética das 3 notas
+media = (nota_1 + nota_2 + nota_3) / 3
+
+# 3 Saída
+print(media)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+---- user output:
+1.02.03.06.2
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+---- user output:
+1.02.03.08.3
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+---- user output:
+1.02.03.05.5
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+---- user output:
+1.02.03.02.0
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+---- user output:
+1.02.03.09.1
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+---- user output:
+1.02.03.03.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:28:52)
+-- CODE: 
+nota_1 = float(input('1'))
+nota_2 = float(input('2'))
+nota_3 = float(input('3'))
+media = nota1 + nota2 + notas3 / 3
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+            ^^^^^
+NameError: name 'nota1' is not defined. Did you mean: 'nota_1'?
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+            ^^^^^
+NameError: name 'nota1' is not defined. Did you mean: 'nota_1'?
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+            ^^^^^
+NameError: name 'nota1' is not defined. Did you mean: 'nota_1'?
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+            ^^^^^
+NameError: name 'nota1' is not defined. Did you mean: 'nota_1'?
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+            ^^^^^
+NameError: name 'nota1' is not defined. Did you mean: 'nota_1'?
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+            ^^^^^
+NameError: name 'nota1' is not defined. Did you mean: 'nota_1'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:28:23)
+-- CODE: 
+nota1 = float(input('1'))
+nota2 = float(input('2'))
+nota3 = float(input('3'))
+media = nota1 + nota2 + notas3 / 3
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+                            ^^^^^^
+NameError: name 'notas3' is not defined. Did you mean: 'nota3'?
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+                            ^^^^^^
+NameError: name 'notas3' is not defined. Did you mean: 'nota3'?
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+                            ^^^^^^
+NameError: name 'notas3' is not defined. Did you mean: 'nota3'?
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+                            ^^^^^^
+NameError: name 'notas3' is not defined. Did you mean: 'nota3'?
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+                            ^^^^^^
+NameError: name 'notas3' is not defined. Did you mean: 'nota3'?
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+                            ^^^^^^
+NameError: name 'notas3' is not defined. Did you mean: 'nota3'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:42:36)
+-- CODE: 
+nota_1 = float(input('1'))
+nota_2 = float(input('2'))
+nota_3 = float(input('3'))
+media = nota_1 + nota_2 + nota_3 / 3
+print(media)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+---- user output:
+12313.866666666666667
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+---- user output:
+12320.033333333333335
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+---- user output:
+12312.166666666666666
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+---- user output:
+1234.0
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+---- user output:
+12321.233333333333334
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+---- user output:
+1236.333333333333333
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:43:21)
+-- CODE: 
+nota_1 = float(input('1.0'))
+nota_2 = float(input('2.0'))
+nota_3 = float(input('3.0'))
+media = nota_1 + nota_2 + nota_3 / 3
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+---- user output:
+1.02.03.013.866666666666667
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+---- user output:
+1.02.03.020.033333333333335
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+---- user output:
+1.02.03.012.166666666666666
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+---- user output:
+1.02.03.04.0
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+---- user output:
+1.02.03.021.233333333333334
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+---- user output:
+1.02.03.06.333333333333333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 15:35:36)
+-- CODE: 
+# Média aritmética de 3 números reais
+
+# 1 Entrada
+
+# 1.1 Primeira nota
+nota_1 = float(input('1.0'))
+
+# 1.2 Segunda nota
+nota_2 = float(input('2.0'))
+
+# 1.3 Terceira nota
+nota_3 = float(input('3.0'))
+
+# 2 Comando
+
+# 2.1 Cálculo da média aritmética das 3 notas
+media = (nota_1 + nota_2 + nota_3) / 3
+
+# 3 Saída
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+---- user output:
+1.02.03.06.2
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+---- user output:
+1.02.03.08.3
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+---- user output:
+1.02.03.05.5
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+---- user output:
+1.02.03.02.0
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+---- user output:
+1.02.03.09.1
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+---- user output:
+1.02.03.03.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:43:22)
+-- CODE: 
+nota_1 = float(input('1.0'))
+nota_2 = float(input('2.0'))
+nota_3 = float(input('3.0'))
+media = nota_1 + nota_2 + nota_3 / 3
+print(media)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+---- user output:
+1.02.03.013.866666666666667
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+---- user output:
+1.02.03.020.033333333333335
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+---- user output:
+1.02.03.012.166666666666666
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+---- user output:
+1.02.03.04.0
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+---- user output:
+1.02.03.021.233333333333334
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+---- user output:
+1.02.03.06.333333333333333
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:28:53)
+-- CODE: 
+nota_1 = float(input('1'))
+nota_2 = float(input('2'))
+nota_3 = float(input('3'))
+media = nota1 + nota2 + notas3 / 3
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+            ^^^^^
+NameError: name 'nota1' is not defined. Did you mean: 'nota_1'?
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+            ^^^^^
+NameError: name 'nota1' is not defined. Did you mean: 'nota_1'?
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+            ^^^^^
+NameError: name 'nota1' is not defined. Did you mean: 'nota_1'?
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+            ^^^^^
+NameError: name 'nota1' is not defined. Did you mean: 'nota_1'?
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+            ^^^^^
+NameError: name 'nota1' is not defined. Did you mean: 'nota_1'?
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+            ^^^^^
+NameError: name 'nota1' is not defined. Did you mean: 'nota_1'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:29:45)
+-- CODE: 
+nota_1 = float(input('1'))
+nota_2 = float(input('2'))
+nota_3 = float(input('3'))
+media = nota_1 + nota_2 + notas_3 / 3
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 / 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 / 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 / 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 / 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 / 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 / 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:28:24)
+-- CODE: 
+nota1 = float(input('1'))
+nota2 = float(input('2'))
+nota3 = float(input('3'))
+media = nota1 + nota2 + notas3 / 3
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+                            ^^^^^^
+NameError: name 'notas3' is not defined. Did you mean: 'nota3'?
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+                            ^^^^^^
+NameError: name 'notas3' is not defined. Did you mean: 'nota3'?
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+                            ^^^^^^
+NameError: name 'notas3' is not defined. Did you mean: 'nota3'?
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+                            ^^^^^^
+NameError: name 'notas3' is not defined. Did you mean: 'nota3'?
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+                            ^^^^^^
+NameError: name 'notas3' is not defined. Did you mean: 'nota3'?
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota1 + nota2 + notas3 / 3
+                            ^^^^^^
+NameError: name 'notas3' is not defined. Did you mean: 'nota3'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:28:16)
+-- CODE: 
+nota1 = float(input('1')
+nota2 = float(input('2'))
+nota3 = float(input('3'))
+media = nota1 + nota2 + notas3 / 3
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+-- ERROR:
+File "XXXX", line 1
+    nota1 = float(input('1')
+                 ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+-- ERROR:
+File "XXXX", line 1
+    nota1 = float(input('1')
+                 ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+-- ERROR:
+File "XXXX", line 1
+    nota1 = float(input('1')
+                 ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+-- ERROR:
+File "XXXX", line 1
+    nota1 = float(input('1')
+                 ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+-- ERROR:
+File "XXXX", line 1
+    nota1 = float(input('1')
+                 ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+-- ERROR:
+File "XXXX", line 1
+    nota1 = float(input('1')
+                 ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:44:11)
+-- CODE: 
+nota_1 = float(input('1.0'))
+nota_2 = float(input('2.0'))
+nota_3 = float(input('3.0'))
+media = (nota_1 + nota_2 + nota_3) / 3
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+---- user output:
+1.02.03.06.2
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+---- user output:
+1.02.03.08.3
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+---- user output:
+1.02.03.05.5
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+---- user output:
+1.02.03.02.0
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+---- user output:
+1.02.03.09.1
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+---- user output:
+1.02.03.03.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:30:59)
+-- CODE: 
+nota_1 = float(input('1'))
+nota_2 = float(input('2'))
+nota_3 = float(input('3'))
+media = nota_1 + nota_2 + notas_3 // 3
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 // 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 // 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 // 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 // 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 // 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    media = nota_1 + nota_2 + notas_3 // 3
+                              ^^^^^^^
+NameError: name 'notas_3' is not defined. Did you mean: 'nota_3'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

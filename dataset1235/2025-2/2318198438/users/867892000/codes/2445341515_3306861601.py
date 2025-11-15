@@ -1,0 +1,7 @@
+from math import *
+
+# faça seu código aqui!
+lado = int(input(""))
+apotema = lado / (2*tan(pi/9))
+area = (9/2)*lado*apotema
+print(round(area, 2))

@@ -1,0 +1,181 @@
+== SUBMISSION (2025-08-25 19:29:09)
+-- CODE: 
+import math
+n = int(input())
+
+result = 1 - math.factorial(365)/math.factorial(365-n) * 1/365**n
+result2 = result*100
+print(round(result2,2))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+---- user output:
+97.04
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+---- user output:
+50.73
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+16.7
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+100.0
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+---- user output:
+86.41
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+53.83
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 19:29:08)
+-- CODE: 
+import math
+n = int(input())
+
+result = 1 - math.factorial(365)/math.factorial(365-n) * 1/365**n
+result2 = result*100
+print(round(result2,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+---- user output:
+97.04
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+---- user output:
+50.73
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+16.7
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+100.0
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+---- user output:
+86.41
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+53.83
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 19:23:44)
+-- CODE: 
+import math
+
+n = float(input())
+math.factorial(n)
+
+pirnt(n)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    math.factorial(n)
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    math.factorial(n)
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    math.factorial(n)
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    math.factorial(n)
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    math.factorial(n)
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    math.factorial(n)
+TypeError: 'float' object cannot be interpreted as an integer
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

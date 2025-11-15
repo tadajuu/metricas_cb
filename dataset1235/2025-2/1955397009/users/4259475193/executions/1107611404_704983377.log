@@ -1,0 +1,2843 @@
+== RUN (2025-08-26 00:05:24)
+-- CODE: 
+X = int(input())
+Y= int(input())
+
+# quociente da divisão inteira
+quociente_inteiro = X // Y
+print(quociente_inteiro)
+
+# resto a divisão inteira 
+resto= X % Y
+print(resto)
+#quociente da divisão real
+quociente_real = X / Y
+print(quociente_real)
+
+#Produto de x vezes Y
+produto = X * Y
+print(produto)
+
+#Y elevado à terceira potência
+potencia = Y ** 3
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:19:45)
+-- CODE: 
+a=float(input("Digite o primero numero:"))
+b=float(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a//b
+print("O resultado da divisão é:", resultado)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 7.0
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 1.0
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 2.0
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 26.0
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 173.0
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 173.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:12:34)
+-- CODE: 
+a=(input("Digite o primero numero:"))
+b=(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a/b
+print("O resultado da divisão é:", resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:27:00)
+-- CODE: 
+a=float(input("Digite o primero numero:"))
+b=float(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a//b
+print(resultado)
+Resto= a%b
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:7.0
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Digite o primero numero:Digite o sengudo numero:1.0
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Digite o primero numero:Digite o sengudo numero:2.0
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:26.0
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:173.0
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:173.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:27:57)
+-- CODE: 
+a=float(input("Digite o primero numero:"))
+b=float(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a//b
+print(resultado + resto)
+Resto= a%b
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(resultado + resto)
+                      ^^^^^
+NameError: name 'resto' is not defined
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(resultado + resto)
+                      ^^^^^
+NameError: name 'resto' is not defined
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(resultado + resto)
+                      ^^^^^
+NameError: name 'resto' is not defined
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(resultado + resto)
+                      ^^^^^
+NameError: name 'resto' is not defined
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(resultado + resto)
+                      ^^^^^
+NameError: name 'resto' is not defined
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(resultado + resto)
+                      ^^^^^
+NameError: name 'resto' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:08:35)
+-- CODE: 
+a= flot(input(" Digite o primero numero:"))
+b= flot(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a/b
+Print("resultado da divisão é:", resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input(" Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input(" Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input(" Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input(" Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input(" Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input(" Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 00:07:11)
+-- CODE: 
+X = int(input())
+Y= int(input())
+
+# quociente da divisão inteira
+quociente_inteiro = X // Y
+print(quociente_inteiro)
+
+# resto a divisão inteira 
+resto= X % Y
+print(resto)
+#quociente da divisão real
+quociente_real = X / Y
+print(quociente_real)
+
+#Produto de x vezes Y
+produto = X * Y
+print(produto)
+
+#Y elevado à terceira potência
+potencia = Y ** 3
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:11:20)
+-- CODE: 
+a=(input("Digite o primero numero:"))
+b=(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a/b
+Print("resultado da divisão é:", resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:20:00)
+-- CODE: 
+a=float(input("Digite o primero numero:"))
+b=float(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a//b
+print("O resultado da divisão é:", resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 7.0
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 1.0
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 2.0
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 26.0
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 173.0
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 173.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:10:33)
+-- CODE: 
+a= flot(input(" Digite o primero numero:"))
+b= flot(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a/b
+Print("resultado da divisão é:", resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input(" Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input(" Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input(" Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input(" Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input(" Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input(" Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 00:09:22)
+-- CODE: 
+X = int(input())
+Y= int(input())
+
+# quociente da divisão inteira
+quociente_inteiro = X // Y
+print(quociente_inteiro)
+
+# resto a divisão inteira 
+resto= X % Y
+print(resto)
+#quociente da divisão real
+quociente_real = X / Y
+print(quociente_real)
+
+#Produto de x vezes Y
+produto = X * Y
+print(produto)
+
+#Y elevado à terceira potência
+potencia = Y ** 3
+print(potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 23:58:02)
+-- CODE: 
+X = int(input("Digite o valor de X (dividendo): "))
+Y= int(input("Digite o valor Y (divisor): "))
+
+# quociente da divisão inteira
+quociete_inteiro = X // Y
+print("1. Quociente da divisão inteiro:", quociente_inteiro)
+
+# resto a divisão inteira 
+resto= X % Y
+print("2. Resto da divisão inteiro:", resto)
+#quociente da divisão real
+quociente_real = X / Y
+print("3. Quociente da divisão real:", quociente_real)
+
+#Produto de x vezes Y
+produto = X * Y
+print("4. Pronduto de X vezes Y:", produto)
+
+#Y elevado à terceira potência
+potencia = Y ** 3
+print("5. Y elevado à terceira potencia:", potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print("1. Quociente da divisão inteiro:", quociente_inteiro)
+                                              ^^^^^^^^^^^^^^^^^
+NameError: name 'quociente_inteiro' is not defined. Did you mean: 'quociete_inteiro'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print("1. Quociente da divisão inteiro:", quociente_inteiro)
+                                              ^^^^^^^^^^^^^^^^^
+NameError: name 'quociente_inteiro' is not defined. Did you mean: 'quociete_inteiro'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print("1. Quociente da divisão inteiro:", quociente_inteiro)
+                                              ^^^^^^^^^^^^^^^^^
+NameError: name 'quociente_inteiro' is not defined. Did you mean: 'quociete_inteiro'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print("1. Quociente da divisão inteiro:", quociente_inteiro)
+                                              ^^^^^^^^^^^^^^^^^
+NameError: name 'quociente_inteiro' is not defined. Did you mean: 'quociete_inteiro'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print("1. Quociente da divisão inteiro:", quociente_inteiro)
+                                              ^^^^^^^^^^^^^^^^^
+NameError: name 'quociente_inteiro' is not defined. Did you mean: 'quociete_inteiro'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print("1. Quociente da divisão inteiro:", quociente_inteiro)
+                                              ^^^^^^^^^^^^^^^^^
+NameError: name 'quociente_inteiro' is not defined. Did you mean: 'quociete_inteiro'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:18:39)
+-- CODE: 
+a = "s"
+b = "a"
+
+print(a+b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+sa
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+sa
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+sa
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+sa
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+sa
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+sa
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:00:54)
+-- CODE: 
+soma(a,b)
+resultado = soma(a,b)
+print(resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:02:01)
+-- CODE: 
+ def soma(a,b):
+return a + b
+resultado = soma(a,b)
+print(resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 1
+    def soma(a,b):
+IndentationError: unexpected indent
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 1
+    def soma(a,b):
+IndentationError: unexpected indent
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 1
+    def soma(a,b):
+IndentationError: unexpected indent
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 1
+    def soma(a,b):
+IndentationError: unexpected indent
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 1
+    def soma(a,b):
+IndentationError: unexpected indent
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 1
+    def soma(a,b):
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:00:53)
+-- CODE: 
+soma(a,b)
+resultado = soma(a,b)
+print(resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:20:14)
+-- CODE: 
+a=float(input("Digite o primero numero:"))
+b=float(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a//b
+print("O resultado da divisão é:", resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 7.0
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 1.0
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 2.0
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 26.0
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 173.0
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 173.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:16:39)
+-- CODE: 
+a=float(input("Digite o primero numero:"))
+b=float(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a//b
+print("O resultado da divisão é:", resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 7.0
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 1.0
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 2.0
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 26.0
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 173.0
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 173.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:10:55)
+-- CODE: 
+a= flot(input("Digite o primero numero:"))
+b= flot(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a/b
+Print("resultado da divisão é:", resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input("Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input("Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input("Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input("Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input("Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= flot(input("Digite o primero numero:"))
+       ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:02:18)
+-- CODE: 
+soma(a,b):
+return a + b
+resultado = soma(a,b)
+print(resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 1
+    soma(a,b):
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 1
+    soma(a,b):
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 1
+    soma(a,b):
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 1
+    soma(a,b):
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 1
+    soma(a,b):
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 1
+    soma(a,b):
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:13:45)
+-- CODE: 
+a=(input("Digite o primero numero:"))
+b=(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = abs(a / b)
+print("O resultado da divisão é:", resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = abs(a / b)
+                    ~~^~~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = abs(a / b)
+                    ~~^~~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = abs(a / b)
+                    ~~^~~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = abs(a / b)
+                    ~~^~~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = abs(a / b)
+                    ~~^~~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = abs(a / b)
+                    ~~^~~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:28:12)
+-- CODE: 
+a=float(input("Digite o primero numero:"))
+b=float(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a//b
+print(resultado + Resto)
+Resto= a%b
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(resultado + Resto)
+                      ^^^^^
+NameError: name 'Resto' is not defined
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(resultado + Resto)
+                      ^^^^^
+NameError: name 'Resto' is not defined
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(resultado + Resto)
+                      ^^^^^
+NameError: name 'Resto' is not defined
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(resultado + Resto)
+                      ^^^^^
+NameError: name 'Resto' is not defined
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(resultado + Resto)
+                      ^^^^^
+NameError: name 'Resto' is not defined
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(resultado + Resto)
+                      ^^^^^
+NameError: name 'Resto' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:20:16)
+-- CODE: 
+a=float(input("Digite o primero numero:"))
+b=float(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a//b
+print("O resultado da divisão é:", resultado)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 7.0
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 1.0
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 2.0
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 26.0
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 173.0
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:O resultado da divisão é: 173.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:00:56)
+-- CODE: 
+soma(a,b)
+resultado = soma(a,b)
+print(resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 00:04:55)
+-- CODE: 
+X = int(input())
+Y= int(input())
+
+# quociente da divisão inteira
+quociente_inteiro = X // Y
+print(quociente_inteiro)
+
+# resto a divisão inteira 
+resto= X % Y
+print(resto)
+#quociente da divisão real
+quociente_real = X / Y
+print(quociente_real)
+
+#Produto de x vezes Y
+produto = X * Y
+print(produto)
+
+#Y elevado à terceira potência
+potencia = Y ** 3
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:57:41)
+-- CODE: 
+division(a,b):
+resultado= division(a,b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 1
+    division(a,b):
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 1
+    division(a,b):
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 1
+    division(a,b):
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 1
+    division(a,b):
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 1
+    division(a,b):
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 1
+    division(a,b):
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:12:32)
+-- CODE: 
+a=(input("Digite o primero numero:"))
+b=(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a/b
+print("O resultado da divisão é:", resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resultado = a/b
+                ~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:28:36)
+-- CODE: 
+a=float(input("Digite o primero numero:"))
+b=float(input("Digite o sengudo numero:"))
+#resutado apresetado
+resultado = a//b
+Resto= a%b
+print(resultado + Resto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:7.0
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Digite o primero numero:Digite o sengudo numero:4.0
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Digite o primero numero:Digite o sengudo numero:2.0
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:27.0
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:173.0
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Digite o primero numero:Digite o sengudo numero:174.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:00:53)
+-- CODE: 
+soma(a,b)
+resultado = soma(a,b)
+print(resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    soma(a,b)
+    ^^^^
+NameError: name 'soma' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

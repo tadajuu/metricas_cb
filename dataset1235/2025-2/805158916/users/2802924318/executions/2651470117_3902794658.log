@@ -1,0 +1,757 @@
+== RUN (2025-08-25 15:02:11)
+-- CODE: 
+nome = input()
+idade = input()
+altura = input()
+print("Larissa:", nome)
+print("23:", idade)
+print("1.68:", altura)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+1.68: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+1.68: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+1.68: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+1.68: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:12:53)
+-- CODE: 
+nome = input("Insira seu nome: ")
+idade = int(input("Insira sua idade "))
+altura = float(input("Insira sua altura: "))
+print("Nome:",nome)
+print("Idade:",idade)
+print("Altura:",altura)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:48:21)
+-- CODE: 
+input(Larissa)
+input(23)
+input(1.68)
+print("nome", Larissa)
+print("23", Idade) 
+print("1.68" Altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 6
+    print("1.68" Altura)
+          ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 6
+    print("1.68" Altura)
+          ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 6
+    print("1.68" Altura)
+          ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 6
+    print("1.68" Altura)
+          ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:02:33)
+-- CODE: 
+nome = input()
+idade = input()
+altura = input()
+print("Larissa:", nome)
+print("23:", idade)
+print("1.68:", altura)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+1.68: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+1.68: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+1.68: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+1.68: 1.89
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:58:38)
+-- CODE: 
+nome = input()
+idade = input()
+altura = input()
+print(f"Nome" {Larissa})
+print(f"Idade" {23})
+print(f"Altura" {1,68})
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 4
+    print(f"Nome" {Larissa})
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 4
+    print(f"Nome" {Larissa})
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 4
+    print(f"Nome" {Larissa})
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 4
+    print(f"Nome" {Larissa})
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:13:54)
+-- CODE: 
+nome = input("Insira seu nome: ")
+idade = int(input("Insira sua idade: "))
+altura = float(input("Insira sua altura: "))
+print("Nome:",nome)
+print("Idade:",idade)
+print("Altura:",altura)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:06:26)
+-- CODE: 
+nome = input(Larissa)
+idade = input(23)
+altura = input(1.68)
+print("Larissa:", nome)
+print("23:", idade)
+print("1.68:", altura)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nome = input(Larissa)
+                 ^^^^^^^
+NameError: name 'Larissa' is not defined
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nome = input(Larissa)
+                 ^^^^^^^
+NameError: name 'Larissa' is not defined
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nome = input(Larissa)
+                 ^^^^^^^
+NameError: name 'Larissa' is not defined
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nome = input(Larissa)
+                 ^^^^^^^
+NameError: name 'Larissa' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:13:05)
+-- CODE: 
+nome = input("Insira seu nome: ")
+idade = int(input("Insira sua idade "))
+altura = float(input("Insira sua altura: "))
+print("Nome:",nome)
+print("Idade:",idade)
+print("Altura:",altura)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:59:07)
+-- CODE: 
+nome = input()
+idade = input()
+altura = input()
+print("Nome" {Larissa})
+print("Idade" {23})
+print("Altura" {1,68})
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 4
+    print("Nome" {Larissa})
+          ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 4
+    print("Nome" {Larissa})
+          ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 4
+    print("Nome" {Larissa})
+          ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 4
+    print("Nome" {Larissa})
+          ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:58:16)
+-- CODE: 
+nome = input()
+idade = input()
+altura = input()
+print(f"Nome": {Larissa})
+print(f"Idade": {23})
+print(f"Altura": {1,68})
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 4
+    print(f"Nome": {Larissa})
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 4
+    print(f"Nome": {Larissa})
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 4
+    print(f"Nome": {Larissa})
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 4
+    print(f"Nome": {Larissa})
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:11:33)
+-- CODE: 
+nome = input("Insira seu nome: ")
+idade = int(inpt("Insira sua idade "))
+altura = float(inpuut( "Insira sua altura: "))
+print("Nome:",nome)
+print("Idade:",idade)
+print("Altura:",altura)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    idade = int(inpt("Insira sua idade "))
+                ^^^^
+NameError: name 'inpt' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    idade = int(inpt("Insira sua idade "))
+                ^^^^
+NameError: name 'inpt' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    idade = int(inpt("Insira sua idade "))
+                ^^^^
+NameError: name 'inpt' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    idade = int(inpt("Insira sua idade "))
+                ^^^^
+NameError: name 'inpt' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:13:53)
+-- CODE: 
+nome = input("Insira seu nome: ")
+idade = int(input("Insira sua idade: "))
+altura = float(input("Insira sua altura: "))
+print("Nome:",nome)
+print("Idade:",idade)
+print("Altura:",altura)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

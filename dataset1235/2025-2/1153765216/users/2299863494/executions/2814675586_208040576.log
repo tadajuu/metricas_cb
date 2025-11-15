@@ -1,0 +1,700 @@
+== RUN (2025-08-26 19:13:28)
+-- CODE: 
+preco = float(input())
+preco_final = (15 / 100) * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 19:06:07)
+-- CODE: 
+preco = float(input())
+preco_final = 15 / 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 19:51:16)
+-- CODE: 
+preco = float(input())
+preco_final = 15 / 100 * preco
+print(preco_final - preco)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+-1020.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+-85.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+-12.75
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+-8.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+-170.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+-17.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 19:12:23)
+-- CODE: 
+preco = int(input())
+preco_final = 15 / 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    preco = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1200.00'
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    preco = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    preco = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '15.0'
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    preco = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    preco = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '200.0'
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    preco = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 19:17:30)
+-- CODE: 
+preco = float(input(4))
+preco_final = (15 / 100) * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+4180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+415.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+42.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+41.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+430.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+43.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 19:25:21)
+-- CODE: 
+preco = float(input())
+preco_final = 15 / 100 * (5*preco)
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+900.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+75.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+11.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+7.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+150.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+15.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 19:06:44)
+-- CODE: 
+preco = int(input())
+preco_final = 15 / 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    preco = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1200.00'
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    preco = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    preco = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '15.0'
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    preco = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    preco = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '200.0'
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    preco = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 19:21:57)
+-- CODE: 
+preco = float(input())
+preco_final = 15 / 100 
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+0.15
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+0.15
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+0.15
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+0.15
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+0.15
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+0.15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 19:47:27)
+-- CODE: 
+preco = float(input())
+preco_final = 15 / 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 19:27:21)
+-- CODE: 
+preco = float(input())
+preco_final = 15 / 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 19:25:11)
+-- CODE: 
+preco = float(input())
+preco_final = 15 / 100 * (2*preco)
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+360.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+30.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+4.5
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+3.0
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+60.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+6.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 19:23:21)
+-- CODE: 
+preco = float(input())
+preco_final = 15 / 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 19:18:49)
+-- CODE: 
+preco = float(input())
+preco_final = (15 / 100 * preco)
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

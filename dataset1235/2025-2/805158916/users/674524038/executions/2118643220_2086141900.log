@@ -1,0 +1,242 @@
+== RUN (2025-09-01 14:17:51)
+-- CODE: 
+from math import *
+import math
+# faça seu código aqui!
+lado = float(input("Lado: "))
+apotema = lado / (2 * (math.tan(math.pi / 11)))
+area = (11 * lado * apotema) / 2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+234.14
+---- user output:
+Lado: 234.14
+-- TEST CASE 2:
+---- input:
+4
+---- correct output:
+149.85
+---- user output:
+Lado: 149.85
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+337.16
+---- user output:
+Lado: 337.16
+-- TEST CASE 4:
+---- input:
+2
+---- correct output:
+37.46
+---- user output:
+Lado: 37.46
+-- TEST CASE 5:
+---- input:
+7
+---- correct output:
+458.92
+---- user output:
+Lado: 458.92
+-- TEST CASE 6:
+---- input:
+3
+---- correct output:
+84.29
+---- user output:
+Lado: 84.29
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:17:44)
+-- CODE: 
+from math import *
+import math
+# faça seu código aqui!
+lado = float(input("Lado: "))
+apotema = lado / (2 * (math.tan(math.pi / 11)))
+area = (11 * lado * apotema) / 2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+234.14
+---- user output:
+Lado: 234.14
+-- TEST CASE 2:
+---- input:
+4
+---- correct output:
+149.85
+---- user output:
+Lado: 149.85
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+337.16
+---- user output:
+Lado: 337.16
+-- TEST CASE 4:
+---- input:
+2
+---- correct output:
+37.46
+---- user output:
+Lado: 37.46
+-- TEST CASE 5:
+---- input:
+7
+---- correct output:
+458.92
+---- user output:
+Lado: 458.92
+-- TEST CASE 6:
+---- input:
+3
+---- correct output:
+84.29
+---- user output:
+Lado: 84.29
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:17:26)
+-- CODE: 
+from math import *
+
+# faça seu código aqui!
+lado = float(input("Lado: "))
+apotema = lado / (2 * (math.tan(math.pi / 11)))
+area = (11 * lado * apotema) / 2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+234.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * (math.tan(math.pi / 11)))
+                           ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4
+---- correct output:
+149.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * (math.tan(math.pi / 11)))
+                           ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+337.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * (math.tan(math.pi / 11)))
+                           ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2
+---- correct output:
+37.46
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * (math.tan(math.pi / 11)))
+                           ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+7
+---- correct output:
+458.92
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * (math.tan(math.pi / 11)))
+                           ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+3
+---- correct output:
+84.29
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * (math.tan(math.pi / 11)))
+                           ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:17:56)
+-- CODE: 
+from math import *
+import math
+# faça seu código aqui!
+lado = float(input("Lado: "))
+apotema = lado / (2 * (math.tan(math.pi / 11)))
+area = (11 * lado * apotema) / 2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+234.14
+---- user output:
+Lado: 234.14
+-- TEST CASE 2:
+---- input:
+4
+---- correct output:
+149.85
+---- user output:
+Lado: 149.85
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+337.16
+---- user output:
+Lado: 337.16
+-- TEST CASE 4:
+---- input:
+2
+---- correct output:
+37.46
+---- user output:
+Lado: 37.46
+-- TEST CASE 5:
+---- input:
+7
+---- correct output:
+458.92
+---- user output:
+Lado: 458.92
+-- TEST CASE 6:
+---- input:
+3
+---- correct output:
+84.29
+---- user output:
+Lado: 84.29
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

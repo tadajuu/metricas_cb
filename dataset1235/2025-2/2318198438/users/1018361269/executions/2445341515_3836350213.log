@@ -1,0 +1,623 @@
+== SUBMISSION (2025-09-02 00:46:53)
+-- CODE: 
+gramas=int(input("peso em gramas:"))
+diaria= int(input("quantidade diaria?")))
+sobra=(gramas-diaria)%7
+print(round(sobra,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1798.4
+26.28
+---- correct output:
+1614.44
+-- ERROR:
+File "XXXX", line 2
+    diaria= int(input("quantidade diaria?")))
+                                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+File "XXXX", line 2
+    diaria= int(input("quantidade diaria?")))
+                                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+2987.43
+14.00
+---- correct output:
+2889.43
+-- ERROR:
+File "XXXX", line 2
+    diaria= int(input("quantidade diaria?")))
+                                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+2884.21
+7.40
+---- correct output:
+2832.41
+-- ERROR:
+File "XXXX", line 2
+    diaria= int(input("quantidade diaria?")))
+                                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+2452.8
+21.49
+---- correct output:
+2302.37
+-- ERROR:
+File "XXXX", line 2
+    diaria= int(input("quantidade diaria?")))
+                                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.563
+-- ERROR:
+File "XXXX", line 2
+    diaria= int(input("quantidade diaria?")))
+                                            ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 00:37:05)
+-- CODE: 
+x=int(input("peso em gramas:"))
+diaria= int(input("quantidade diaria?"))
+sobra=x-diaria
+sobra1=sobra%7
+print(round(sobra,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1798.4
+26.28
+---- correct output:
+1614.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1798.4'
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- TEST CASE 3:
+---- input:
+2987.43
+14.00
+---- correct output:
+2889.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2987.43'
+-- TEST CASE 4:
+---- input:
+2884.21
+7.40
+---- correct output:
+2832.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2884.21'
+-- TEST CASE 5:
+---- input:
+2452.8
+21.49
+---- correct output:
+2302.37
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2452.8'
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 00:36:57)
+-- CODE: 
+x=int(input("peso em gramas:"))
+diaria= int(input("quantidade diaria?"))
+sobra=x-diaria
+sobra1=sobra%7
+print(round(sobra,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1798.4
+26.28
+---- correct output:
+1614.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1798.4'
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- TEST CASE 3:
+---- input:
+2987.43
+14.00
+---- correct output:
+2889.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2987.43'
+-- TEST CASE 4:
+---- input:
+2884.21
+7.40
+---- correct output:
+2832.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2884.21'
+-- TEST CASE 5:
+---- input:
+2452.8
+21.49
+---- correct output:
+2302.37
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2452.8'
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 00:34:09)
+-- CODE: 
+x=int(input("peso em gramas:"))
+diaria= int(input("quantidade diaria?"))
+sobra=x-diaria%7
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1798.4
+26.28
+---- correct output:
+1614.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1798.4'
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- TEST CASE 3:
+---- input:
+2987.43
+14.00
+---- correct output:
+2889.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2987.43'
+-- TEST CASE 4:
+---- input:
+2884.21
+7.40
+---- correct output:
+2832.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2884.21'
+-- TEST CASE 5:
+---- input:
+2452.8
+21.49
+---- correct output:
+2302.37
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2452.8'
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 00:55:00)
+-- CODE: 
+gramas=float(input("peso em gramas:"))
+diaria=float(input("quantidade diaria?"))
+sobra=gramas-(diaria*7)
+print(round(sobra,3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1798.4
+26.28
+---- correct output:
+1614.44
+---- user output:
+peso em gramas:quantidade diaria?1614.44
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+---- user output:
+peso em gramas:quantidade diaria?859.563
+-- TEST CASE 3:
+---- input:
+2987.43
+14.00
+---- correct output:
+2889.43
+---- user output:
+peso em gramas:quantidade diaria?2889.43
+-- TEST CASE 4:
+---- input:
+2884.21
+7.40
+---- correct output:
+2832.41
+---- user output:
+peso em gramas:quantidade diaria?2832.41
+-- TEST CASE 5:
+---- input:
+2452.8
+21.49
+---- correct output:
+2302.37
+---- user output:
+peso em gramas:quantidade diaria?2302.37
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.563
+---- user output:
+peso em gramas:quantidade diaria?7859.563
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 00:35:34)
+-- CODE: 
+x=int(input("peso em gramas:"))
+diaria= int(input("quantidade diaria?"))
+sobra=x-diaria%7
+print(round(sobra,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1798.4
+26.28
+---- correct output:
+1614.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1798.4'
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- TEST CASE 3:
+---- input:
+2987.43
+14.00
+---- correct output:
+2889.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2987.43'
+-- TEST CASE 4:
+---- input:
+2884.21
+7.40
+---- correct output:
+2832.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2884.21'
+-- TEST CASE 5:
+---- input:
+2452.8
+21.49
+---- correct output:
+2302.37
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2452.8'
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 00:43:58)
+-- CODE: 
+x=float(int(input("peso em gramas:")))
+diaria= float(int(input("quantidade diaria?")))
+sobra=x-(diaria*7)
+print(round(sobra,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1798.4
+26.28
+---- correct output:
+1614.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=float(int(input("peso em gramas:")))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1798.4'
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=float(int(input("peso em gramas:")))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- TEST CASE 3:
+---- input:
+2987.43
+14.00
+---- correct output:
+2889.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=float(int(input("peso em gramas:")))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2987.43'
+-- TEST CASE 4:
+---- input:
+2884.21
+7.40
+---- correct output:
+2832.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=float(int(input("peso em gramas:")))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2884.21'
+-- TEST CASE 5:
+---- input:
+2452.8
+21.49
+---- correct output:
+2302.37
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=float(int(input("peso em gramas:")))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2452.8'
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=float(int(input("peso em gramas:")))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 00:42:07)
+-- CODE: 
+x=int(input("peso em gramas:"))
+diaria= int(input("quantidade diaria?"))
+sobra=x-diaria*7
+print(round(sobra,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1798.4
+26.28
+---- correct output:
+1614.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1798.4'
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- TEST CASE 3:
+---- input:
+2987.43
+14.00
+---- correct output:
+2889.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2987.43'
+-- TEST CASE 4:
+---- input:
+2884.21
+7.40
+---- correct output:
+2832.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2884.21'
+-- TEST CASE 5:
+---- input:
+2452.8
+21.49
+---- correct output:
+2302.37
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2452.8'
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(input("peso em gramas:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

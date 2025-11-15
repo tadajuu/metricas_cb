@@ -1,0 +1,36 @@
+== SUBMISSION (2025-08-25 21:59:00)
+-- CODE: 
+# Total de moedas
+moedas_total = 50
+numero_guerreiros = 3
+
+# Cálculo das moedas por guerreiro (divisão inteira)
+moedas_por_guerreiro = moedas_total // numero_guerreiros
+
+# Cálculo das moedas para o informante (resto da divisão)
+moedas_informante = moedas_total % numero_guerreiros
+
+# Impressão dos resultados
+print(moedas_por_guerreiro)
+print(moedas_informante)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

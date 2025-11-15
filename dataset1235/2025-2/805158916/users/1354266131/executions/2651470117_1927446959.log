@@ -1,0 +1,704 @@
+== RUN (2025-08-25 14:45:08)
+-- CODE: 
+n = float(input("valor do produto: "))
+p = n *(27/100)
+print(round(p,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+valor do produto: 33.25
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+valor do produto: 6.75
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+valor do produto: 87.91
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+valor do produto: 963.33
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+valor do produto: 1465.07
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+valor do produto: 3.28
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:43:17)
+-- CODE: 
+n = float(input("valor do produto: "))
+p = n - n *(27/100)
+print(p)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+valor do produto: 89.8922
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+valor do produto: 18.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+valor do produto: 237.68800000000002
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+valor do produto: 2604.567
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+valor do produto: 3961.1259999999997
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+valor do produto: 8.8695
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:48:11)
+-- CODE: 
+n = float(input("valor do produto: "))
+p = n *(27/100)
+p2 = n + n*(42/100)
+p3 = n - n*(63/100)
+print(round(p,2))
+print(round(p2,2))
+print(round(p3,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:48:17)
+-- CODE: 
+n = float(input("valor do produto: "))
+p = n *(27/100)
+p2 = n + n*(42/100)
+p3 = n - n*(63/100)
+print(round(p,2))
+print(round(p2,2))
+print(round(p3,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:47:58)
+-- CODE: 
+n = float(input("valor do produto: "))
+p = n *(27/100)
+p2 = n + n*(42/100)
+p3 = n + n*(63/100)
+print(round(p,2))
+print(round(p2,2))
+print(round(p3,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+200.72
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+40.75
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+530.73
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+5815.68
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+8844.71
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+19.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:42:55)
+-- CODE: 
+n = float(input("valor do produto: "))
+p = n - n *(27/100)
+print(p)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+valor do produto: 89.8922
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+valor do produto: 18.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+valor do produto: 237.68800000000002
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+valor do produto: 2604.567
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+valor do produto: 3961.1259999999997
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+valor do produto: 8.8695
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:46:24)
+-- CODE: 
+n = float(input("valor do produto: "))
+p = n *(27/100)
+p2 = n + n*(27/100)
+print(round(p,2))
+print(round(p2,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+156.39
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+31.75
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+413.51
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+4531.23
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+6891.27
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+15.43
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:47:00)
+-- CODE: 
+n = float(input("valor do produto: "))
+p = n *(27/100)
+p2 = n + n*(42/100)
+print(round(p,2))
+print(round(p2,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+174.86
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+35.5
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+462.35
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+5066.42
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+7705.2
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+17.25
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:44:33)
+-- CODE: 
+n = float(input("valor do produto: "))
+p = n *(27/100)
+print(p)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+valor do produto: 33.247800000000005
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+valor do produto: 6.75
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+valor do produto: 87.912
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+valor do produto: 963.3330000000001
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+valor do produto: 1465.074
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+valor do produto: 3.2805000000000004
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:43:52)
+-- CODE: 
+n = float(input("valor do produto: "))
+p = n - n *(27/100)
+print(p)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+valor do produto: 89.8922
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+valor do produto: 18.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+valor do produto: 237.68800000000002
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+valor do produto: 2604.567
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+valor do produto: 3961.1259999999997
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+valor do produto: 8.8695
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:48:19)
+-- CODE: 
+n = float(input("valor do produto: "))
+p = n *(27/100)
+p2 = n + n*(42/100)
+p3 = n - n*(63/100)
+print(round(p,2))
+print(round(p2,2))
+print(round(p3,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

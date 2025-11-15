@@ -1,0 +1,934 @@
+== RUN (2025-08-25 14:34:24)
+-- CODE: 
+x = int (input ("escreva um numero"))
+y = int (input ("escreva outro numero"))
+
+z = x//y
+print ("o valor do quociente da divisão inteira é:", z)
+
+a = x%y 
+print ("o valor do resto da divisão inteira é:", a)
+
+b = x*y
+print ("O valor de x vezes y é:", b)
+
+c = y **3
+print (" O valor de y elevado a terceira potência é:",c)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+ O valor de y elevado a terceira potência é: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+ O valor de y elevado a terceira potência é: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:37:25)
+-- CODE: 
+x = int (input ("escreva um numero"))
+y = int (input ("escreva outro numero"))
+
+z = x//y
+print ("o valor do quociente da divisão inteira é:", z)
+
+a = x%y 
+print ("o valor do resto da divisão inteira é:", a)
+
+h= x/y
+print ("O valor do quociente da divisão real é:", h)
+
+b = x*y
+print ("O valor de x vezes y é:", b)
+
+c = y **3
+print (" O valor de y elevado a terceira potência é:",c)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+ O valor de y elevado a terceira potência é: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+ O valor de y elevado a terceira potência é: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:38:20)
+-- CODE: 
+x = int (input ("escreva um numero"))
+y = int (input ("escreva outro numero"))
+
+z = x//y
+print ( z)
+
+a = x%y 
+print ( a)
+
+h= x/y
+print ( h)
+
+b = x*y
+print (b)
+
+c = y **3
+print (c)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:26:08)
+-- CODE: 
+x = input ("escreva um numero")
+y = input ("escreva outro numero")
+
+z = x//y
+print (z)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    z = x//y
+        ~^^~
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    z = x//y
+        ~^^~
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    z = x//y
+        ~^^~
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    z = x//y
+        ~^^~
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    z = x//y
+        ~^^~
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    z = x//y
+        ~^^~
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:37:08)
+-- CODE: 
+x = int (input ("escreva um numero"))
+y = int (input ("escreva outro numero"))
+
+z = x//y
+print ("o valor do quociente da divisão inteira é:", z)
+
+a = x%y 
+print ("o valor do resto da divisão inteira é:", a)
+
+h= x/y
+print ("O valor do quociente da divisão real é:", h)
+
+b = x*y
+print ("O valor de x vezes y é:", b)
+
+c = y **3
+print (" O valor de y elevado a terceira potência é:",c)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+ O valor de y elevado a terceira potência é: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+ O valor de y elevado a terceira potência é: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:34:47)
+-- CODE: 
+x = int (input ("escreva um numero"))
+y = int (input ("escreva outro numero"))
+
+z = x//y
+print ("o valor do quociente da divisão inteira é:", z)
+
+a = x%y 
+print ("o valor do resto da divisão inteira é:", a)
+
+b = x*y
+print ("O valor de x vezes y é:", b)
+
+c = y **3
+print (" O valor de y elevado a terceira potência é:",c)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+ O valor de y elevado a terceira potência é: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+ O valor de y elevado a terceira potência é: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:34:42)
+-- CODE: 
+x = int (input ("escreva um numero"))
+y = int (input ("escreva outro numero"))
+
+z = x//y
+print ("o valor do quociente da divisão inteira é:", z)
+
+a = x%y 
+print ("o valor do resto da divisão inteira é:", a)
+
+b = x*y
+print ("O valor de x vezes y é:", b)
+
+c = y **3
+print (" O valor de y elevado a terceira potência é:",c)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+ O valor de y elevado a terceira potência é: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+ O valor de y elevado a terceira potência é: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:35:47)
+-- CODE: 
+x = int (input ("escreva um numero"))
+y = int (input ("escreva outro numero"))
+
+z = x//y
+print ("o valor do quociente da divisão inteira é:", z)
+
+a = x%y 
+print ("o valor do resto da divisão inteira é:", a)
+
+b = x*y
+print ("O valor de x vezes y é:", b)
+
+c = y **3
+print (" O valor de y elevado a terceira potência é:",c)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+ O valor de y elevado a terceira potência é: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+ O valor de y elevado a terceira potência é: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+ O valor de y elevado a terceira potência é: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:28:23)
+-- CODE: 
+x = int (input ("escreva um numero"))
+y = int (input ("escreva outro numero"))
+
+z = x//y
+print (z)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+escreva um numeroescreva outro numero7
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+escreva um numeroescreva outro numero1
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+escreva um numeroescreva outro numero2
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+escreva um numeroescreva outro numero26
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+escreva um numeroescreva outro numero173
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+escreva um numeroescreva outro numero173
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:38:22)
+-- CODE: 
+x = int (input ("escreva um numero"))
+y = int (input ("escreva outro numero"))
+
+z = x//y
+print ( z)
+
+a = x%y 
+print ( a)
+
+h= x/y
+print ( h)
+
+b = x*y
+print (b)
+
+c = y **3
+print (c)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

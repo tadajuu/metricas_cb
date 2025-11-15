@@ -1,0 +1,372 @@
+== RUN (2025-09-02 13:13:34)
+-- CODE: 
+escala = input().upper
+
+print(escala)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+<built-in method upper of str object at 0x00007FFC1FE12118>
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+<built-in method upper of str object at 0x00007FFC1FE12118>
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+<built-in method upper of str object at 0x00007FFC1FE12070>
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+<built-in method upper of str object at 0x00007FFC1FE12070>
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+<built-in method upper of str object at 0x00007FFC1FE12070>
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+<built-in method upper of str object at 0x00007FFC1FE12118>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 13:13:38)
+-- CODE: 
+escala = input().upper
+
+print(escala)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+<built-in method upper of str object at 0x00007FFC1FE12118>
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+<built-in method upper of str object at 0x00007FFC1FE12118>
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+<built-in method upper of str object at 0x00007FFC1FE12070>
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+<built-in method upper of str object at 0x00007FFC1FE12070>
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+<built-in method upper of str object at 0x00007FFC1FE12070>
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+<built-in method upper of str object at 0x00007FFC1FE12118>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 13:08:46)
+-- CODE: 
+c = (5/9) * (f - 32)
+f = ((9/5) * c) + 32
+
+escala = str(input())
+print(escala.upper())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    c = (5/9) * (f - 32)
+                 ^
+NameError: name 'f' is not defined
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    c = (5/9) * (f - 32)
+                 ^
+NameError: name 'f' is not defined
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    c = (5/9) * (f - 32)
+                 ^
+NameError: name 'f' is not defined
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    c = (5/9) * (f - 32)
+                 ^
+NameError: name 'f' is not defined
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    c = (5/9) * (f - 32)
+                 ^
+NameError: name 'f' is not defined
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    c = (5/9) * (f - 32)
+                 ^
+NameError: name 'f' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 13:16:25)
+-- CODE: 
+escala = input().upper()
+temp_entrada = float(input())
+
+if escala == "C":
+  temp_saida = (9/5) * temp_entrada + 32
+else:
+  temp_saida = (5/9) * (temp_entrada -32)
+  
+print(round(temp_saida,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+-1.11
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 13:13:58)
+-- CODE: 
+escala = input().upper()
+
+print(escala)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+F
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+F
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+F
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 13:09:01)
+-- CODE: 
+#c = (5/9) * (f - 32)
+#f = ((9/5) * c) + 32
+
+escala = str(input())
+print(escala.upper())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+F
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+F
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+F
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

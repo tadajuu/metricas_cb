@@ -1,0 +1,164 @@
+== SUBMISSION (2025-09-01 21:15:37)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+import math
+
+x = float(input("raio r: "))
+
+y = float(math.pi*x**2)
+
+z = float(4/3*math.pi*x**3)
+
+print(round(y,3))
+print(round(z,3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+0.004
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+381.704
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+7871.076
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+5575.28
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+1279110.151
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+33.51
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 21:15:27)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+import math
+
+x = float(input("raio r: "))
+
+y = float(matth.pi*x**2)
+
+z = float(4/3*math.pi*x**3)
+
+print(round(y,3))
+print(round(z,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    y = float(matth.pi*x**2)
+              ^^^^^
+NameError: name 'matth' is not defined. Did you mean: 'math'?
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    y = float(matth.pi*x**2)
+              ^^^^^
+NameError: name 'matth' is not defined. Did you mean: 'math'?
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    y = float(matth.pi*x**2)
+              ^^^^^
+NameError: name 'matth' is not defined. Did you mean: 'math'?
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    y = float(matth.pi*x**2)
+              ^^^^^
+NameError: name 'matth' is not defined. Did you mean: 'math'?
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    y = float(matth.pi*x**2)
+              ^^^^^
+NameError: name 'matth' is not defined. Did you mean: 'math'?
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    y = float(matth.pi*x**2)
+              ^^^^^
+NameError: name 'matth' is not defined. Did you mean: 'math'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

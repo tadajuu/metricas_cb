@@ -1,0 +1,262 @@
+== SUBMISSION (2025-08-24 03:28:20)
+-- CODE: 
+import math
+radius = float(input("Informe o valor do raio em cm: "))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+Informe o valor do raio em cm:
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+Informe o valor do raio em cm:
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+Informe o valor do raio em cm:
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+Informe o valor do raio em cm:
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+Informe o valor do raio em cm:
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+Informe o valor do raio em cm:
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 03:34:12)
+-- CODE: 
+import math
+radius = float(input("Informe o valor do raio em cm: "))
+
+circum_area = math.pi * (radius ** 2)
+circum_volum = math.pi * (4/3) * (radius ** 3) 
+
+print (round(circum_area, 3))
+print (round(circum_volum, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+0.004
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+381.704
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+7871.076
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+5575.28
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+1279110.151
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+33.51
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 03:28:14)
+-- CODE: 
+import math
+]radius = float(input("Informe o valor do raio em cm: "))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+File "XXXX", line 2
+    ]radius = float(input("Informe o valor do raio em cm: "))
+    ^
+SyntaxError: unmatched ']'
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+File "XXXX", line 2
+    ]radius = float(input("Informe o valor do raio em cm: "))
+    ^
+SyntaxError: unmatched ']'
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+File "XXXX", line 2
+    ]radius = float(input("Informe o valor do raio em cm: "))
+    ^
+SyntaxError: unmatched ']'
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+File "XXXX", line 2
+    ]radius = float(input("Informe o valor do raio em cm: "))
+    ^
+SyntaxError: unmatched ']'
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+File "XXXX", line 2
+    ]radius = float(input("Informe o valor do raio em cm: "))
+    ^
+SyntaxError: unmatched ']'
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+File "XXXX", line 2
+    ]radius = float(input("Informe o valor do raio em cm: "))
+    ^
+SyntaxError: unmatched ']'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 03:34:10)
+-- CODE: 
+import math
+radius = float(input("Informe o valor do raio em cm: "))
+
+circum_area = math.pi * (radius ** 2)
+circum_volum = math.pi * (4/3) * (radius ** 3) 
+
+print (round(circum_area, 3))
+print (round(circum_volum, 3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+0.004
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+381.704
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+7871.076
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+5575.28
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+1279110.151
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+33.51
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

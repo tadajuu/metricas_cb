@@ -1,0 +1,319 @@
+== SUBMISSION (2025-09-02 23:06:59)
+-- CODE: 
+escala = input("escala").upper()
+temp_entrada = float(input("valor_temperatura: "))
+
+if(escala == "c"):
+  temp_saida = (9/5) * temp_entrada + 32
+else:
+  temp_saida = (5/9) * (temp_entrada - 32)
+
+print(round(temp_saida, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+escalavalor_temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+escalavalor_temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+escalavalor_temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+escalavalor_temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+escalavalor_temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+escalavalor_temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:17:45)
+-- CODE: 
+escala = input("Escala").upper()
+temp_entrada = float(input("Valor temperatura: "))
+
+if (escala == "c"):
+  temp_saida = (9/5) * temp_entrada + 32
+else:
+  temp_saida = (5/9) * (temp_entrada - 32)
+
+  print(round(temp_saida,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+EscalaValor temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+EscalaValor temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+EscalaValor temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+EscalaValor temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+EscalaValor temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+EscalaValor temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:07:53)
+-- CODE: 
+escala = input("escala").upper()
+temp_entrada = float(input("valor_temperatura: "))
+
+if (escala == "c"):
+  temp_saida = (9/5) * temp_entrada + 32
+else:
+  temp_saida = (5/9) * (temp_entrada - 32)
+
+print(round(temp_saida, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+escalavalor_temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+escalavalor_temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+escalavalor_temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+escalavalor_temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+escalavalor_temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+escalavalor_temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:17:33)
+-- CODE: 
+escala = input("Escala").upper()
+temp_entrada = float(input("Valor temperatura: "))
+
+if (escala == "c"):
+  temp_saida = (9/5) * (temp_entrada + 32)
+else:
+  temp_saida = (5/9) * (temp_entrada - 32)
+
+  print(round(temp_saida,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+EscalaValor temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+EscalaValor temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+EscalaValor temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+EscalaValor temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+EscalaValor temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+EscalaValor temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 22:58:20)
+-- CODE: 
+escala = input("escala").upper()
+temp_entrada = float(input("valor_temperatura: "))
+if (escala == "c"):
+  temp_saida = (9/5) * (temp_entrada + 32)
+else:
+  temp_saida = (5/9) * (temp_entrada - 32)
+  print(round(temp_saida,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+escalavalor_temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+escalavalor_temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+escalavalor_temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+escalavalor_temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+escalavalor_temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+escalavalor_temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-03 16:55:38)

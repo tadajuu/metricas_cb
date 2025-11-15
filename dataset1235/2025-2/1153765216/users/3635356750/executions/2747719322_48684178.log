@@ -1,0 +1,621 @@
+== SUBMISSION (2025-08-21 19:22:41)
+-- CODE: 
+vendas = float(input())
+Lucro_bruto = vendas * 0.30
+Lucro_arredondado = round(Lucro_bruto, 2)
+print(Lucro_arredondado) 
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+435.86
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+210.15
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+60.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+135.15
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+165.31
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+568.2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 18:57:30)
+-- CODE: 
+vendas = float(input())
+lucro_bruto = vendas *30
+lucro_arredondado = round(lucro_bruto, 2)
+print(lucro_arredondado) 
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+43586.4
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+21015.0
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+6000.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+13515.0
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+16530.6
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+56819.7
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 19:03:13)
+-- CODE: 
+vendas = float(input())
+Lucro_bruto = vendas * 0,30
+Lucro_arredondado = round(Lucro_bruto, 2)
+print(Lucro_arredondado) 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 18:58:15)
+-- CODE: 
+vendas = float(input())
+Lucro_bruto = vendas * 0,30
+Lucro_arredondado = round(lucro_bruto, 2)
+print(lucro_arredondado) 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'lucro_bruto' is not defined. Did you mean: 'Lucro_bruto'?
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'lucro_bruto' is not defined. Did you mean: 'Lucro_bruto'?
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'lucro_bruto' is not defined. Did you mean: 'Lucro_bruto'?
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'lucro_bruto' is not defined. Did you mean: 'Lucro_bruto'?
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'lucro_bruto' is not defined. Did you mean: 'Lucro_bruto'?
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'lucro_bruto' is not defined. Did you mean: 'Lucro_bruto'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 18:59:35)
+-- CODE: 
+vendas = float(input())
+Lucro_bruto = vendas * 0,30
+Lucro_arredondado = round(Lucro_bruto, 2)
+print(Lucro_arredondado) 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 19:03:13)
+-- CODE: 
+vendas = float(input())
+Lucro_bruto = vendas * 0,30
+Lucro_arredondado = round(Lucro_bruto, 2)
+print(Lucro_arredondado) 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(Lucro_bruto, 2)
+                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 18:58:10)
+-- CODE: 
+vendas = float(input())
+Lucro_bruto = vendas *0,30
+Lucro_arredondado = round(lucro_bruto, 2)
+print(lucro_arredondado) 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'lucro_bruto' is not defined. Did you mean: 'Lucro_bruto'?
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'lucro_bruto' is not defined. Did you mean: 'Lucro_bruto'?
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'lucro_bruto' is not defined. Did you mean: 'Lucro_bruto'?
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'lucro_bruto' is not defined. Did you mean: 'Lucro_bruto'?
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'lucro_bruto' is not defined. Did you mean: 'Lucro_bruto'?
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Lucro_arredondado = round(lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'lucro_bruto' is not defined. Did you mean: 'Lucro_bruto'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:09:32)
+-- CODE: 
+vendas= float(input())
+lucro_bruto=vendas*0.30
+lucro_arredondado = round(Lucro_bruto, 2)
+print(Lucro_arredondado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    lucro_arredondado = round(Lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'Lucro_bruto' is not defined. Did you mean: 'lucro_bruto'?
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    lucro_arredondado = round(Lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'Lucro_bruto' is not defined. Did you mean: 'lucro_bruto'?
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    lucro_arredondado = round(Lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'Lucro_bruto' is not defined. Did you mean: 'lucro_bruto'?
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    lucro_arredondado = round(Lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'Lucro_bruto' is not defined. Did you mean: 'lucro_bruto'?
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    lucro_arredondado = round(Lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'Lucro_bruto' is not defined. Did you mean: 'lucro_bruto'?
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    lucro_arredondado = round(Lucro_bruto, 2)
+                              ^^^^^^^^^^^
+NameError: name 'Lucro_bruto' is not defined. Did you mean: 'lucro_bruto'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:17:29)
+-- CODE: 
+vendas= float(input())
+Lucro_bruto=vendas*0.30
+Lucro_arredondado = round(Lucro_bruto, 2)
+print(Lucro_arredondado)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+435.86
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+210.15
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+60.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+135.15
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+165.31
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+568.2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

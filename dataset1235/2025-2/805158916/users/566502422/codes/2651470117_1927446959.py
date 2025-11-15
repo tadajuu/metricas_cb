@@ -1,0 +1,7 @@
+n = float(input("digite o  numero"))
+Op1 = n*(27/100)
+Op2 = n + n*(42/100)
+Op3 = n - n*(63/100)
+print(round(Op1,2))
+print(round(Op2,2))
+print(round(Op3,2))

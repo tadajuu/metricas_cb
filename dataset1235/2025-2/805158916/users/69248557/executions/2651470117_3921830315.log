@@ -1,0 +1,916 @@
+== RUN (2025-08-27 04:33:11)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+total = litros * 2.86 + 50 * 2.34  
+
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantos litros foram abastecidos? 146.74
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantos litros foram abastecidos? 540.77
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantos litros foram abastecidos? 260.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantos litros foram abastecidos? 366.96
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantos litros foram abastecidos? 798.34
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantos litros foram abastecidos? 239.06
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 04:27:39)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+total = litros * 2.86 * 50 * 1.34  
+
+print(round(valor_total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 04:30:11)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+total = (litros * 2.86 + 50) * 0.34  
+
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantos litros foram abastecidos? 27.11
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantos litros foram abastecidos? 161.08
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantos litros foram abastecidos? 65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantos litros foram abastecidos? 101.99
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantos litros foram abastecidos? 248.65
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantos litros foram abastecidos? 58.5
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 04:31:16)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+total = litros * 2.86 + 50 * 1.34  
+
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantos litros foram abastecidos? 96.74
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantos litros foram abastecidos? 490.77
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantos litros foram abastecidos? 210.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantos litros foram abastecidos? 316.96
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantos litros foram abastecidos? 748.34
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantos litros foram abastecidos? 189.06
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 04:27:56)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+total = litros * 2.86 * 50 * 1.34  
+
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantos litros foram abastecidos? 1992.85
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantos litros foram abastecidos? 28392.34
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantos litros foram abastecidos? 9581.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantos litros foram abastecidos? 16747.59
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantos litros foram abastecidos? 45649.63
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantos litros foram abastecidos? 8178.34
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 04:33:09)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+total = litros * 2.86 + 50 * 2.34  
+
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantos litros foram abastecidos? 146.74
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantos litros foram abastecidos? 540.77
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantos litros foram abastecidos? 260.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantos litros foram abastecidos? 366.96
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantos litros foram abastecidos? 798.34
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantos litros foram abastecidos? 239.06
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 04:30:12)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+total = (litros * 2.86 + 50) * 0.34  
+
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantos litros foram abastecidos? 27.11
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantos litros foram abastecidos? 161.08
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantos litros foram abastecidos? 65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantos litros foram abastecidos? 101.99
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantos litros foram abastecidos? 248.65
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantos litros foram abastecidos? 58.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 04:34:16)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+total = (litros * 2.86 + 50) * 1.34  
+
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantos litros foram abastecidos? 106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantos litros foram abastecidos? 634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantos litros foram abastecidos? 258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantos litros foram abastecidos? 401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantos litros foram abastecidos? 979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantos litros foram abastecidos? 230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 04:30:44)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+total = litros * 2.86 + 50 * 1.34  
+
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantos litros foram abastecidos? 96.74
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantos litros foram abastecidos? 490.77
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantos litros foram abastecidos? 210.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantos litros foram abastecidos? 316.96
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantos litros foram abastecidos? 748.34
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantos litros foram abastecidos? 189.06
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 04:28:19)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+total = litros * 2.86 * 50 * 0.34  
+
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantos litros foram abastecidos? 505.65
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantos litros foram abastecidos? 7204.03
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantos litros foram abastecidos? 2431.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantos litros foram abastecidos? 4249.39
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantos litros foram abastecidos? 11582.74
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantos litros foram abastecidos? 2075.1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 04:30:26)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+total = litros * 2.86 + 50 * 0.34  
+
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantos litros foram abastecidos? 46.74
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantos litros foram abastecidos? 440.77
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantos litros foram abastecidos? 160.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantos litros foram abastecidos? 266.96
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantos litros foram abastecidos? 698.34
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantos litros foram abastecidos? 139.06
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 04:34:01)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+total = (litros * 2.86 + 50) * 1.34  
+
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantos litros foram abastecidos? 106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantos litros foram abastecidos? 634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantos litros foram abastecidos? 258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantos litros foram abastecidos? 401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantos litros foram abastecidos? 979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantos litros foram abastecidos? 230.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 04:26:12)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+posto_cobrou = litros * 2,86 * 50 
+imposto = posto_cobrou * 1.34
+valor_total = posto_cobrou + imposto
+
+print(round(valor_total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = posto_cobrou * 1.34
+              ~~~~~~~~~~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = posto_cobrou * 1.34
+              ~~~~~~~~~~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = posto_cobrou * 1.34
+              ~~~~~~~~~~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = posto_cobrou * 1.34
+              ~~~~~~~~~~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = posto_cobrou * 1.34
+              ~~~~~~~~~~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = posto_cobrou * 1.34
+              ~~~~~~~~~~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 04:30:56)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+total = litros * 2.86 + 50 * 2.34  
+
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantos litros foram abastecidos? 146.74
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantos litros foram abastecidos? 540.77
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantos litros foram abastecidos? 260.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantos litros foram abastecidos? 366.96
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantos litros foram abastecidos? 798.34
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantos litros foram abastecidos? 239.06
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 04:25:37)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+posto_cobrou = litros * 2,86 * 50 
+imposto = total * 1.34
+valor_total = posto_cobrou + imposto
+
+print(round(valor_total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = total * 1.34
+              ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = total * 1.34
+              ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = total * 1.34
+              ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = total * 1.34
+              ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = total * 1.34
+              ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = total * 1.34
+              ^^^^^
+NameError: name 'total' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 04:32:11)
+-- CODE: 
+litros = float(input("Quantos litros foram abastecidos? "))
+
+total = litros * 2.86 + 50 * 1.34  
+
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantos litros foram abastecidos? 96.74
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantos litros foram abastecidos? 490.77
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantos litros foram abastecidos? 210.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantos litros foram abastecidos? 316.96
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantos litros foram abastecidos? 748.34
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantos litros foram abastecidos? 189.06
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

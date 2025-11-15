@@ -1,0 +1,937 @@
+== RUN (2025-08-25 19:10:44)
+-- CODE: 
+quantidade_de_litros = float(input("informe quantos litros de gasolina:"))
+
+gasolina = round((2.86*1000)+50)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+informe quantos litros de gasolina:
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+informe quantos litros de gasolina:
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+informe quantos litros de gasolina:
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+informe quantos litros de gasolina:
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+informe quantos litros de gasolina:
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+informe quantos litros de gasolina:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 19:13:57)
+-- CODE: 
+quantidade_de_litros = float(input("informe quantos litros de gasolina:"))
+
+gasolina = round((2.86*1000)+50,2)
+valor total=round(( gasolina + (34/100))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+File "XXXX", line 4
+    valor total=round(( gasolina + (34/100))
+          ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+File "XXXX", line 4
+    valor total=round(( gasolina + (34/100))
+          ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+File "XXXX", line 4
+    valor total=round(( gasolina + (34/100))
+          ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+File "XXXX", line 4
+    valor total=round(( gasolina + (34/100))
+          ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+File "XXXX", line 4
+    valor total=round(( gasolina + (34/100))
+          ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+-- ERROR:
+File "XXXX", line 4
+    valor total=round(( gasolina + (34/100))
+          ^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 19:37:33)
+-- CODE: 
+quantidade_de_litros = float(input("informe quantos litros de gasolina:"))
+
+gasolina = round((quantidade_de_litros*2.86)+50,2)
+
+valor_total = round(gasolina + gasolina*(34/100), 2)
+
+print(valor_total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+informe quantos litros de gasolina:980.0
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+informe quantos litros de gasolina:401.95
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+informe quantos litros de gasolina:258.62
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+informe quantos litros de gasolina:106.85
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+informe quantos litros de gasolina:634.85
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+informe quantos litros de gasolina:2500.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 19:06:25)
+-- CODE: 
+quantidade de litros= float(input("informe quantos litros de gasolina:"))
+gasolina = round((2.86*1000+50 ),2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros= float(input("informe quantos litros de gasolina:"))
+               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros= float(input("informe quantos litros de gasolina:"))
+               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros= float(input("informe quantos litros de gasolina:"))
+               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros= float(input("informe quantos litros de gasolina:"))
+               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros= float(input("informe quantos litros de gasolina:"))
+               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros= float(input("informe quantos litros de gasolina:"))
+               ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 19:36:11)
+-- CODE: 
+quantidade_de_litros = float(input("informe quantos litros de gasolina:"))
+
+gasolina = round((quantidade_de_litros*2.86)+50,2)
+
+valor_total = (gasolina + gasolina*(34/100))
+
+print(valor_total)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+informe quantos litros de gasolina:979.9956000000001
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+informe quantos litros de gasolina:401.9464
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+informe quantos litros de gasolina:258.62
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+informe quantos litros de gasolina:106.85159999999999
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+informe quantos litros de gasolina:634.8518
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+informe quantos litros de gasolina:2499.9978
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 19:39:07)
+-- CODE: 
+quantidade_de_litros = float(input("informe quantos litros de gasolina:"))
+
+gasolina = ((quantidade_de_litros*2.86)+50)
+
+valor_total = round(gasolina + gasolina*(34/100),2)
+
+print(valor_total)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+informe quantos litros de gasolina:979.99
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+informe quantos litros de gasolina:401.95
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+informe quantos litros de gasolina:258.62
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+informe quantos litros de gasolina:106.86
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+informe quantos litros de gasolina:634.85
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+informe quantos litros de gasolina:2500.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 19:37:30)
+-- CODE: 
+quantidade_de_litros = float(input("informe quantos litros de gasolina:"))
+
+gasolina = round((quantidade_de_litros*2.86)+50,2)
+
+valor_total = round(gasolina + gasolina*(34/100), 2)
+
+print(valor_total)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+informe quantos litros de gasolina:980.0
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+informe quantos litros de gasolina:401.95
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+informe quantos litros de gasolina:258.62
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+informe quantos litros de gasolina:106.85
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+informe quantos litros de gasolina:634.85
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+informe quantos litros de gasolina:2500.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 19:05:50)
+-- CODE: 
+quantidade de litros = input("informe quantos litros de gasolina:"))
+gasolina = round((2.86*1000+50 ),2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros = input("informe quantos litros de gasolina:"))
+                                                                       ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros = input("informe quantos litros de gasolina:"))
+                                                                       ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros = input("informe quantos litros de gasolina:"))
+                                                                       ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros = input("informe quantos litros de gasolina:"))
+                                                                       ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros = input("informe quantos litros de gasolina:"))
+                                                                       ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros = input("informe quantos litros de gasolina:"))
+                                                                       ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 19:07:05)
+-- CODE: 
+quantidade de litros= int(input("informe quantos litros de gasolina:"))
+gasolina = round((2.86*1000+50 ),2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros= int(input("informe quantos litros de gasolina:"))
+               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros= int(input("informe quantos litros de gasolina:"))
+               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros= int(input("informe quantos litros de gasolina:"))
+               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros= int(input("informe quantos litros de gasolina:"))
+               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros= int(input("informe quantos litros de gasolina:"))
+               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros= int(input("informe quantos litros de gasolina:"))
+               ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 19:05:47)
+-- CODE: 
+quantidade de litros = input("informe quantos litros de gasolina:"))
+gasolina = round((2.86*1000+50 ),2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros = input("informe quantos litros de gasolina:"))
+                                                                       ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros = input("informe quantos litros de gasolina:"))
+                                                                       ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros = input("informe quantos litros de gasolina:"))
+                                                                       ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros = input("informe quantos litros de gasolina:"))
+                                                                       ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros = input("informe quantos litros de gasolina:"))
+                                                                       ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+-- ERROR:
+File "XXXX", line 1
+    quantidade de litros = input("informe quantos litros de gasolina:"))
+                                                                       ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 19:10:29)
+-- CODE: 
+quantidade_de_litros = float(input("informe quantos litros de gasolina:"))
+
+gasolina = round((2.86*1000)+50 + (34/100)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+File "XXXX", line 3
+    gasolina = round((2.86*1000)+50 + (34/100)
+                    ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+File "XXXX", line 3
+    gasolina = round((2.86*1000)+50 + (34/100)
+                    ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+File "XXXX", line 3
+    gasolina = round((2.86*1000)+50 + (34/100)
+                    ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+File "XXXX", line 3
+    gasolina = round((2.86*1000)+50 + (34/100)
+                    ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+File "XXXX", line 3
+    gasolina = round((2.86*1000)+50 + (34/100)
+                    ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+-- ERROR:
+File "XXXX", line 3
+    gasolina = round((2.86*1000)+50 + (34/100)
+                    ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 19:37:39)
+-- CODE: 
+quantidade_de_litros = float(input("informe quantos litros de gasolina:"))
+
+gasolina = round((quantidade_de_litros*2.86)+50,2)
+
+valor_total = round(gasolina + gasolina*(34/100), 2)
+
+print(valor_total)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+informe quantos litros de gasolina:980.0
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+informe quantos litros de gasolina:401.95
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+informe quantos litros de gasolina:258.62
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+informe quantos litros de gasolina:106.85
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+informe quantos litros de gasolina:634.85
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+informe quantos litros de gasolina:2500.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 19:08:09)
+-- CODE: 
+quantidade_de_litros = float(input("informe quantos litros de gasolina:"))
+
+gasolina = round((2.86*1000+50 ),2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+informe quantos litros de gasolina:
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+informe quantos litros de gasolina:
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+informe quantos litros de gasolina:
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+informe quantos litros de gasolina:
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+informe quantos litros de gasolina:
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+informe quantos litros de gasolina:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 19:17:10)
+-- CODE: 
+quantidade_de_litros = float(input("informe quantos litros de gasolina:"))
+
+gasolina = round((2.86*1000)+50,2)
+valor_total = round (( gasolina + (34/100), 2))
+
+print(valor_total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    valor_total = round (( gasolina + (34/100), 2))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    valor_total = round (( gasolina + (34/100), 2))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    valor_total = round (( gasolina + (34/100), 2))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    valor_total = round (( gasolina + (34/100), 2))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    valor_total = round (( gasolina + (34/100), 2))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    valor_total = round (( gasolina + (34/100), 2))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 19:22:13)
+-- CODE: 
+quantidade_de_litros = float(input("informe quantos litros de gasolina:"))
+
+gasolina = round((1.00+2.86)+50,2)
+valor_total = round (( gasolina + (34/100), 2))
+
+print(valor_total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    valor_total = round (( gasolina + (34/100), 2))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    valor_total = round (( gasolina + (34/100), 2))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    valor_total = round (( gasolina + (34/100), 2))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    valor_total = round (( gasolina + (34/100), 2))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    valor_total = round (( gasolina + (34/100), 2))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    valor_total = round (( gasolina + (34/100), 2))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

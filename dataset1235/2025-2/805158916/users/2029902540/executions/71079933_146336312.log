@@ -1,0 +1,421 @@
+== RUN (2025-08-11 15:39:03)
+-- CODE: 
+print(roun(50/3,1)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print(roun(50/3,1)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print(roun(50/3,1)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:38:49)
+-- CODE: 
+print(50/3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16.666666666666668
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16.666666666666668
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:41:19)
+-- CODE: 
+print(round(50/3,1))
+print(50-16*3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:39:32)
+-- CODE: 
+print(round(50/3,0))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+17.0
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+17.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:40:26)
+-- CODE: 
+print(round(50/3,1))
+print(50-16)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+34
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+34
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:39:53)
+-- CODE: 
+print(round(50/3,10))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16.6666666667
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16.6666666667
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:41:47)
+-- CODE: 
+print(round(50//3))
+print(50-16*3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:39:08)
+-- CODE: 
+print(roun(50/3,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(roun(50/3,1))
+          ^^^^
+NameError: name 'roun' is not defined. Did you mean: 'round'?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(roun(50/3,1))
+          ^^^^
+NameError: name 'roun' is not defined. Did you mean: 'round'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:39:44)
+-- CODE: 
+print(round(50/3,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16.7
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16.7
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:40:51)
+-- CODE: 
+print(round(50/3,1))
+print(16*)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 2
+    print(16*)
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 2
+    print(16*)
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:39:16)
+-- CODE: 
+print(roun(50/3,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(roun(50/3,1))
+          ^^^^
+NameError: name 'roun' is not defined. Did you mean: 'round'?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(roun(50/3,1))
+          ^^^^
+NameError: name 'roun' is not defined. Did you mean: 'round'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:40:03)
+-- CODE: 
+print(round(50/3,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16.7
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16.7
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:39:25)
+-- CODE: 
+print(round(50/3,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16.7
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16.7
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-11 15:41:22)
+-- CODE: 
+print(round(50/3,1))
+print(50-16*3)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+2
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-11 15:41:51)
+-- CODE: 
+print(round(50//3))
+print(50-16*3)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:40:56)
+-- CODE: 
+print(round(50/3,1))
+print(16*3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+48
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+48
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:39:58)
+-- CODE: 
+print(round(50/3,1,0))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(round(50/3,1,0))
+          ^^^^^^^^^^^^^^^
+TypeError: round() takes at most 2 arguments (3 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(round(50/3,1,0))
+          ^^^^^^^^^^^^^^^
+TypeError: round() takes at most 2 arguments (3 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

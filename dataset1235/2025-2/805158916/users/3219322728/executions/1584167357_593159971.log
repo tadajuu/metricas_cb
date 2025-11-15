@@ -1,0 +1,253 @@
+== RUN (2025-08-27 14:33:39)
+-- CODE: 
+nota1 = int(input("NUmero Um: "))
+nota2 = int(input("Numero DOis: "))
+nota3 = int(input("Numero tres: "))
+media = (nota1 + nota2 + nota3) / 3
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nota1 = int(input("NUmero Um: "))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.3'
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nota1 = int(input("NUmero Um: "))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8.5'
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nota1 = int(input("NUmero Um: "))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '4.5'
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nota1 = int(input("NUmero Um: "))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.0'
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nota1 = int(input("NUmero Um: "))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nota1 = int(input("NUmero Um: "))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:33:46)
+-- CODE: 
+nota1 = int(input("NUmero Um: "))
+nota2 = int(input("Numero DOis: "))
+nota3 = int(input("Numero tres: "))
+media = (nota1 + nota2 + nota3) / 3
+print(media)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nota1 = int(input("NUmero Um: "))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.3'
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nota1 = int(input("NUmero Um: "))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8.5'
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nota1 = int(input("NUmero Um: "))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '4.5'
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nota1 = int(input("NUmero Um: "))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.0'
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nota1 = int(input("NUmero Um: "))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nota1 = int(input("NUmero Um: "))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.0'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:34:39)
+-- CODE: 
+nota1 = float(input("Numero Um: "))
+nota2 = float(input("Numero DOis: "))
+nota3 = float(input("Numero tres: "))
+media = (nota1 + nota2 + nota3) / 3
+print(media)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.3
+6.2
+7.1
+---- correct output:
+6.2
+---- user output:
+Numero Um: Numero DOis: Numero tres: 6.2
+-- TEST CASE 2:
+---- input:
+8.5
+9.1
+7.3
+---- correct output:
+8.3
+---- user output:
+Numero Um: Numero DOis: Numero tres: 8.3
+-- TEST CASE 3:
+---- input:
+4.5
+5.5
+6.5
+---- correct output:
+5.5
+---- user output:
+Numero Um: Numero DOis: Numero tres: 5.5
+-- TEST CASE 4:
+---- input:
+1.0
+2.0
+3.0
+
+
+---- correct output:
+2.0
+---- user output:
+Numero Um: Numero DOis: Numero tres: 2.0
+-- TEST CASE 5:
+---- input:
+10.0
+8.2
+9.1
+---- correct output:
+9.1
+---- user output:
+Numero Um: Numero DOis: Numero tres: 9.1
+-- TEST CASE 6:
+---- input:
+2.0
+3.0
+4.0
+
+---- correct output:
+3.0
+---- user output:
+Numero Um: Numero DOis: Numero tres: 3.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

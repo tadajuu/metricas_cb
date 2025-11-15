@@ -1,0 +1,328 @@
+== RUN (2025-08-20 19:47:41)
+-- CODE: 
+# x 1 = 1.23 ---> ao executar este comando, obtivemos um erro por conta do espaço entre x e 1 (era para ser x1 para que funcionasse como variável).
+x1 = "Ufam
+print(x1)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+1.23
+-- ERROR:
+File "XXXX", line 2
+    x1 = "Ufam
+         ^
+SyntaxError: unterminated string literal (detected at line 2)
+-- TEST CASE 2:
+---- input:
+1.23
+---- correct output:
+1.23
+-- ERROR:
+File "XXXX", line 2
+    x1 = "Ufam
+         ^
+SyntaxError: unterminated string literal (detected at line 2)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:43:49)
+-- CODE: 
+x 1 = 1.23
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+1.23
+-- ERROR:
+File "XXXX", line 1
+    x 1 = 1.23
+      ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1.23
+---- correct output:
+1.23
+-- ERROR:
+File "XXXX", line 1
+    x 1 = 1.23
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:51:36)
+-- CODE: 
+# x 1 = 1.23 ---> ao executar este comando, obtivemos um erro por conta do espaço entre x e 1 (era para ser x1 para que funcionasse como variável).
+# x1 = "Ufam não fechou as aspas
+# erro foi a falta de parentese
+#erro foi o fato da variavel ser x2 e colocaram X2 (maiusculo)
+#erro na soletração de 'printt' que era para ser print
+
+x1 =1.23
+x2=0
+print(x2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+1.23
+---- user output:
+0
+-- TEST CASE 2:
+---- input:
+1.23
+---- correct output:
+1.23
+---- user output:
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:54:01)
+-- CODE: 
+# x 1 = 1.23 ---> ao executar este comando, obtivemos um erro por conta do espaço entre x e 1 (era para ser x1 para que funcionasse como variável).
+# x1 = "Ufam não fechou as aspas
+# erro foi a falta de parentese
+#erro foi o fato da variavel ser x2 e colocaram X2 (maiusculo)
+#erro na soletração de 'printt' que era para ser print
+
+# o codebench aponta o erro, dizendo que nao doi defnido e sugere uma variavel ou comando certo
+x1=1.23
+print(x1)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+1.23
+---- user output:
+1.23
+-- TEST CASE 2:
+---- input:
+1.23
+---- correct output:
+1.23
+---- user output:
+1.23
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:43:06)
+-- CODE: 
+x 1 = 1.23
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+1.23
+-- ERROR:
+File "XXXX", line 1
+    x 1 = 1.23
+      ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1.23
+---- correct output:
+1.23
+-- ERROR:
+File "XXXX", line 1
+    x 1 = 1.23
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:43:22)
+-- CODE: 
+x1 = 1.23
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+1.23
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+1.23
+---- correct output:
+1.23
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:47:34)
+-- CODE: 
+# x 1 = 1.23 ---> ao executar este comando, obtivemos um erro por conta do espaço entre x e 1 (era para ser x1 para que funcionasse como variável).
+x1 = "Ufam"
+print(x1)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+1.23
+---- user output:
+Ufam
+-- TEST CASE 2:
+---- input:
+1.23
+---- correct output:
+1.23
+---- user output:
+Ufam
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:46:21)
+-- CODE: 
+# x 1 = 1.23 ---> ao executar este comando, obtivemos um erro por conta do espaço entre x e 1 (era para ser x1 para que funcionasse como variável).
+x1 = 1
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+1.23
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+1.23
+---- correct output:
+1.23
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:52:07)
+-- CODE: 
+# x 1 = 1.23 ---> ao executar este comando, obtivemos um erro por conta do espaço entre x e 1 (era para ser x1 para que funcionasse como variável).
+# x1 = "Ufam não fechou as aspas
+# erro foi a falta de parentese
+#erro foi o fato da variavel ser x2 e colocaram X2 (maiusculo)
+#erro na soletração de 'printt' que era para ser print
+
+x1=1.23
+printt(x1)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+1.23
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    printt(x1)
+    ^^^^^^
+NameError: name 'printt' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+1.23
+---- correct output:
+1.23
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    printt(x1)
+    ^^^^^^
+NameError: name 'printt' is not defined. Did you mean: 'print'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 19:54:03)
+-- CODE: 
+# x 1 = 1.23 ---> ao executar este comando, obtivemos um erro por conta do espaço entre x e 1 (era para ser x1 para que funcionasse como variável).
+# x1 = "Ufam não fechou as aspas
+# erro foi a falta de parentese
+#erro foi o fato da variavel ser x2 e colocaram X2 (maiusculo)
+#erro na soletração de 'printt' que era para ser print
+
+# o codebench aponta o erro, dizendo que nao doi defnido e sugere uma variavel ou comando certo
+x1=1.23
+print(x1)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+1.23
+---- user output:
+1.23
+-- TEST CASE 2:
+---- input:
+1.23
+---- correct output:
+1.23
+---- user output:
+1.23
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:47:26)
+-- CODE: 
+# x 1 = 1.23 ---> ao executar este comando, obtivemos um erro por conta do espaço entre x e 1 (era para ser x1 para que funcionasse como variável).
+x1 = "Ufam
+print(x1)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+1.23
+-- ERROR:
+File "XXXX", line 2
+    x1 = "Ufam
+         ^
+SyntaxError: unterminated string literal (detected at line 2)
+-- TEST CASE 2:
+---- input:
+1.23
+---- correct output:
+1.23
+-- ERROR:
+File "XXXX", line 2
+    x1 = "Ufam
+         ^
+SyntaxError: unterminated string literal (detected at line 2)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:51:28)
+-- CODE: 
+# x 1 = 1.23 ---> ao executar este comando, obtivemos um erro por conta do espaço entre x e 1 (era para ser x1 para que funcionasse como variável).
+# x1 = "Ufam não fechou as aspas
+# erro foi a falta de parentese
+#erro foi o fato da variavel ser x2 e colocaram X2 (maiusculo)
+#erro na soletração de 'printt' que era para ser print
+
+x1 =1.23
+x2=0
+print(X2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+1.23
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(X2)
+          ^^
+NameError: name 'X2' is not defined. Did you mean: 'x2'?
+-- TEST CASE 2:
+---- input:
+1.23
+---- correct output:
+1.23
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(X2)
+          ^^
+NameError: name 'X2' is not defined. Did you mean: 'x2'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

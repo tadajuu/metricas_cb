@@ -1,0 +1,712 @@
+== RUN (2025-09-02 23:00:14)
+-- CODE: 
+valor_morango = int(input(1.50))
+valor_com_desconto = int(input(1.35))
+quantidade = int(input(3.0))
+if quantidade >=12:
+  print(round(quantidade * valor_com_desconto, 2))
+else:
+  print(round(quantidade * valor_morango, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+16.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+25
+---- correct output:
+33.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+13
+---- correct output:
+17.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+21
+---- correct output:
+28.35
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:04:03)
+-- CODE: 
+valor_morango = float(input(1.50))
+valor_com_desconto = float(input(1.35))
+quantidade = int(input(3))
+if quantidade >=12:
+  print(round(valor_com_desconto * quantidade, 2))
+else:
+  print(round(valor_morango * quantidade, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+16.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+25
+---- correct output:
+33.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+13
+---- correct output:
+17.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+21
+---- correct output:
+28.35
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 22:58:13)
+-- CODE: 
+valor_morango = int(input())
+valor_com_desconto = int(input())
+quantidade = int(input("digite uma quantidade: "))
+if quantidade >=12:
+  print(quantidade * valor_com_desconto)
+else:
+  print(round(quantidade * valor_morango, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input())
+                             ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+16.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input())
+                             ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+25
+---- correct output:
+33.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input())
+                             ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input())
+                             ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+13
+---- correct output:
+17.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input())
+                             ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+21
+---- correct output:
+28.35
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input())
+                             ^^^^^^^
+EOFError: EOF when reading a line
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 22:57:25)
+-- CODE: 
+valor_morango = int(input(1.50))
+valor_com_desconto = int(input(1.35))
+quantidade = int(input())
+if quantidade >=12:
+  print(quantidade * valor_com_desconto)
+else:
+  print(round(quantidade * valor_morango, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+16.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+25
+---- correct output:
+33.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+13
+---- correct output:
+17.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+21
+---- correct output:
+28.35
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 22:59:08)
+-- CODE: 
+valor_morango = int(input(1.50))
+valor_com_desconto = int(input(1.35))
+quantidade = int(input("digite uma quantidade: "))
+if quantidade >=12:
+  print(quantidade * valor_com_desconto)
+else:
+  print(round(quantidade * valor_morango, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+16.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+25
+---- correct output:
+33.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+13
+---- correct output:
+17.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+21
+---- correct output:
+28.35
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 22:56:45)
+-- CODE: 
+valor_morango = int(input(1.50))
+valor_com_desconto = int(input(1.35))
+quantidade = int(input())
+if quantidade >=12:
+  print(quantidade * valor_com_desconto)
+else:
+  print(round(quantidade * valor_morango, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+16.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+25
+---- correct output:
+33.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+13
+---- correct output:
+17.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+21
+---- correct output:
+28.35
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:04:06)
+-- CODE: 
+valor_morango = float(input(1.50))
+valor_com_desconto = float(input(1.35))
+quantidade = int(input(3))
+if quantidade >=12:
+  print(round(valor_com_desconto * quantidade, 2))
+else:
+  print(round(valor_morango * quantidade, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+16.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+25
+---- correct output:
+33.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+13
+---- correct output:
+17.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+21
+---- correct output:
+28.35
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 22:57:49)
+-- CODE: 
+valor_morango = int(input(1.50))
+valor_com_desconto = int(input(1.35))
+quantidade = int(input("digite uma quantidade: "))
+if quantidade >=12:
+  print(quantidade * valor_com_desconto)
+else:
+  print(round(quantidade * valor_morango, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+16.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+25
+---- correct output:
+33.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+13
+---- correct output:
+17.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+21
+---- correct output:
+28.35
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = int(input(1.35))
+                             ^^^^^^^^^^^
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 22:55:12)
+-- CODE: 
+valor_morango = float(input(1.50))
+valor_com_desconto = float(input(1.35))
+quantidade = float(input())
+if quantidade >=12:
+  print(quantidade * valor_com_desconto)
+else:
+  print(quantidade * valor_morango)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+16.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+25
+---- correct output:
+33.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+13
+---- correct output:
+17.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+21
+---- correct output:
+28.35
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_com_desconto = float(input(1.35))
+                               ^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

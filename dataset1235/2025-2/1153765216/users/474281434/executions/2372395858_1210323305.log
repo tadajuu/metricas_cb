@@ -1,0 +1,519 @@
+== RUN (2025-08-28 18:27:37)
+-- CODE: 
+euro = float(input (5,25))
+valor_em_reais = valor_em_euros * float(5,25))
+print(valor_em_reais)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+99.75
+-- ERROR:
+File "XXXX", line 2
+    valor_em_reais = valor_em_euros * float(5,25))
+                                                 ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+21
+---- correct output:
+110.25
+-- ERROR:
+File "XXXX", line 2
+    valor_em_reais = valor_em_euros * float(5,25))
+                                                 ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5.25
+-- ERROR:
+File "XXXX", line 2
+    valor_em_reais = valor_em_euros * float(5,25))
+                                                 ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+36.75
+-- ERROR:
+File "XXXX", line 2
+    valor_em_reais = valor_em_euros * float(5,25))
+                                                 ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+10.5
+-- ERROR:
+File "XXXX", line 2
+    valor_em_reais = valor_em_euros * float(5,25))
+                                                 ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+42.0
+-- ERROR:
+File "XXXX", line 2
+    valor_em_reais = valor_em_euros * float(5,25))
+                                                 ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:29:23)
+-- CODE: 
+euro = float(input (5,25))
+valor_em_reais = valor_em_euros * euro
+print(valor_em_reais)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+99.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 2:
+---- input:
+21
+---- correct output:
+110.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+36.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+42.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:27:28)
+-- CODE: 
+euro = float(input (5,25))
+valor_em_reais = valor_em_euros * float(input(5,25))
+print(valor_em_reais)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+99.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 2:
+---- input:
+21
+---- correct output:
+110.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+36.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+42.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:28:26)
+-- CODE: 
+euro = float(input (5,25))
+valor_em_reais = valor_em_euros * float(input(5,25))
+print(valor_em_reais)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+99.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 2:
+---- input:
+21
+---- correct output:
+110.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+36.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+42.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:29:22)
+-- CODE: 
+euro = float(input (5,25))
+valor_em_reais = valor_em_euros * euro
+print(valor_em_reais)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+99.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 2:
+---- input:
+21
+---- correct output:
+110.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+36.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+42.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:27:47)
+-- CODE: 
+euro = float(input (5,25))
+valor_em_reais = valor_em_euros * float(5,25)
+print(valor_em_reais)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+99.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 2:
+---- input:
+21
+---- correct output:
+110.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+36.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+42.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:28:25)
+-- CODE: 
+euro = float(input (5,25))
+valor_em_reais = valor_em_euros * float(input(5,25))
+print(valor_em_reais)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+99.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 2:
+---- input:
+21
+---- correct output:
+110.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+36.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+42.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    euro = float(input (5,25))
+                 ^^^^^^^^^^^^
+TypeError: input expected at most 1 argument, got 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

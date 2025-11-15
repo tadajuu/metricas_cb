@@ -1,0 +1,115 @@
+== RUN (2025-09-02 00:13:35)
+-- CODE: 
+peso = float(input())
+qtd_diaria = float(input())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100000.3333
+20000.11
+---- correct output:
+19999.89
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+6367.24
+19.56
+---- correct output:
+6289.0
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+5670.23
+24.64
+---- correct output:
+5571.67
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+200000.3333
+30000.11
+---- correct output:
+79999.89
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+2286.23
+19.75
+---- correct output:
+2207.23
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+1403.30
+16.98
+---- correct output:
+1335.38
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 00:15:19)
+-- CODE: 
+peso = float(input())
+qtd_diaria = float(input())
+qtd_semanal = qtd_diaria * 4
+resto = peso - qtd_semanal
+print(round(resto,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100000.3333
+20000.11
+---- correct output:
+19999.89
+---- user output:
+19999.89
+-- TEST CASE 2:
+---- input:
+6367.24
+19.56
+---- correct output:
+6289.0
+---- user output:
+6289.0
+-- TEST CASE 3:
+---- input:
+5670.23
+24.64
+---- correct output:
+5571.67
+---- user output:
+5571.67
+-- TEST CASE 4:
+---- input:
+200000.3333
+30000.11
+---- correct output:
+79999.89
+---- user output:
+79999.89
+-- TEST CASE 5:
+---- input:
+2286.23
+19.75
+---- correct output:
+2207.23
+---- user output:
+2207.23
+-- TEST CASE 6:
+---- input:
+1403.30
+16.98
+---- correct output:
+1335.38
+---- user output:
+1335.38
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

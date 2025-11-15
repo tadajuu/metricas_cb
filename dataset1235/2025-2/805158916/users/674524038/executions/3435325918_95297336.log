@@ -1,0 +1,1097 @@
+== RUN (2025-09-03 15:13:26)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ")
+te = float(input("Valor da temperatura: "))
+if (escala == C):
+  ts = (5 / 9 * (te + 32)
+  
+else:
+  ts = (9/5 * (te - 32))
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+-- ERROR:
+File "XXXX", line 4
+    ts = (5 / 9 * (te + 32)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+-- ERROR:
+File "XXXX", line 4
+    ts = (5 / 9 * (te + 32)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+-- ERROR:
+File "XXXX", line 4
+    ts = (5 / 9 * (te + 32)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+-- ERROR:
+File "XXXX", line 4
+    ts = (5 / 9 * (te + 32)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+-- ERROR:
+File "XXXX", line 4
+    ts = (5 / 9 * (te + 32)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+-- ERROR:
+File "XXXX", line 4
+    ts = (5 / 9 * (te + 32)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-03 15:19:25)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ").upper()
+te = float(input("Valor da temperatura: "))
+if (escala == "C"):
+  ts = (9 / 5) * te + 32
+  
+else:
+  ts = (5 / 9) * (te - 32)
+print(round(ts,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: -1.11
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 15:16:37)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ").upper()
+te = float(input("Valor da temperatura: "))
+if (escala == "C"):
+  ts = 5 / 9 * (te + 32)
+  
+else:
+  ts = 9/5 * (te - 32)
+print(round(ts,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 518.4
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 122.4
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 195.56
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 195.56
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: -3.6
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 15:13:43)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ")
+te = float(input("Valor da temperatura: "))
+if (escala == C):
+  ts = 5 / 9 * (te + 32)
+  
+else:
+  ts = 9/5 * (te - 32)
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 15:15:41)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ").upper()
+te = float(input("Valor da temperatura: "))
+if (escala == C):
+  ts = 5 / 9 * (te + 32)
+  
+else:
+  ts = 9/5 * (te - 32)
+print(round(ts,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 15:18:28)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ").upper()
+te = float(input("Valor da temperatura: "))
+if (escala == "C"):
+  ts = (9 / 5) * (te + 32)
+  
+else:
+  ts = (5 / 9) * (te - 32)
+print(round(ts,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 633.6
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 633.6
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 57.6
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: -1.11
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 15:17:29)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ").upper()
+te = float(input("Valor da temperatura: "))
+if (escala == "C"):
+  ts = (9 / 5) * (te + 32)
+  
+else:
+  ts = (5 / 9) * (te - 32)
+print(round(ts,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 633.6
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 633.6
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 57.6
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: -1.11
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 15:15:33)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ").upper()
+te = float(input("Valor da temperatura: "))
+if (escala == C):
+  ts = 5 / 9 * (te + 32)
+  
+else:
+  ts = 9/5 * (te - 32)
+print(round(ts,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 15:11:34)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ")
+te = float(input("Valor da temperatura: "))
+if (escala == C):
+  print(round(5 / 9 * (te + 32)))
+  
+else:
+  print(round(9/5 * (te - 32)))
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 15:26:16)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ").upper()
+te = float(input("Valor da temperatura: "))
+if (escala == "C"):
+  ts = (9 / 5) * te + 32
+  
+else:
+  ts = (5 / 9) * (te - 32)
+print(round(ts,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: -1.11
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 15:18:41)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ").upper()
+te = float(input("Valor da temperatura: "))
+if (escala == "C"):
+  ts = (9 / 5) * (te + 32)
+  
+else:
+  ts = (5 / 9) * (te - 32)
+print(round(ts,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 633.6
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 633.6
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 57.6
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: -1.11
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 15:19:10)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ").upper()
+te = float(input("Valor da temperatura: "))
+if (escala == "C"):
+  ts = (9 / 5) * te + 32
+  
+else:
+  ts = (5 / 9) * (te - 32)
+print(round(ts,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: 32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Escala(Se for Celsius 'C', se for Fahrenheit 'F': Valor da temperatura: -1.11
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 15:11:37)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ")
+te = float(input("Valor da temperatura: "))
+if (escala == C):
+  print(round(5 / 9 * (te + 32)))
+  
+else:
+  print(round(9/5 * (te - 32)))
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 15:11:58)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ")
+te = float(input("Valor da temperatura: "))
+if (escala == C):
+  print(round(5 / 9 * (te + 32)))
+  
+else:
+  print(round(9/5 * (te - 32)))
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if (escala == C):
+                  ^
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 15:11:06)
+-- CODE: 
+escala = input("Escala(Se for Celsius 'C', se for Fahrenheit 'F': ")
+te = float(input("Valor da temperatura: "))
+if (escala == C):
+  print(round(5 / 9 * (te + 32)))
+  
+else (escala == F):
+  print(round(9/5 * (te - 32)))
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+-- ERROR:
+File "XXXX", line 6
+    else (escala == F):
+         ^
+SyntaxError: expected ':'
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+-- ERROR:
+File "XXXX", line 6
+    else (escala == F):
+         ^
+SyntaxError: expected ':'
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+-- ERROR:
+File "XXXX", line 6
+    else (escala == F):
+         ^
+SyntaxError: expected ':'
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+-- ERROR:
+File "XXXX", line 6
+    else (escala == F):
+         ^
+SyntaxError: expected ':'
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+-- ERROR:
+File "XXXX", line 6
+    else (escala == F):
+         ^
+SyntaxError: expected ':'
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+-- ERROR:
+File "XXXX", line 6
+    else (escala == F):
+         ^
+SyntaxError: expected ':'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

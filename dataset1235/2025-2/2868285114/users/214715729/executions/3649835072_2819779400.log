@@ -1,0 +1,156 @@
+== SUBMISSION (2025-08-19 22:50:50)
+-- CODE: 
+qtdJogos = int(input())
+ValorUnitario = float(input())
+Frete = float(input())
+total = qtdJogos*ValorUnitario + Frete
+print(total)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+1642.5
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+240171.0
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+540.0
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+765.0
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+162.56
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+618.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 22:50:40)
+-- CODE: 
+qtdJogos = int(input())
+ValorUnitario = float(input())
+Frete = float(input())
+total = qtdJogos*ValorUnitario + Frete
+print(total())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(total())
+          ^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(total())
+          ^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(total())
+          ^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(total())
+          ^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(total())
+          ^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(total())
+          ^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

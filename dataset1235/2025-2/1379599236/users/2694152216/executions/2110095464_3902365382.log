@@ -1,0 +1,1435 @@
+== RUN (2025-08-31 19:29:27)
+-- CODE: 
+tempo = float(input("Digite o tempo gasto na viagem (em horas, ex: 1.25 para 1h15: "))
+velociade_media = float(input("Digite a velocidade media do veiculo (km/h): "))
+
+autonomia = 12.0
+
+distancia = velocidade_media * tempo
+
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 2), "km")
+print("Litros de combustivel gastos:", round(litros_gastos, 2), "L")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    distancia = velocidade_media * tempo
+                ^^^^^^^^^^^^^^^^
+NameError: name 'velocidade_media' is not defined. Did you mean: 'velociade_media'?
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    distancia = velocidade_media * tempo
+                ^^^^^^^^^^^^^^^^
+NameError: name 'velocidade_media' is not defined. Did you mean: 'velociade_media'?
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    distancia = velocidade_media * tempo
+                ^^^^^^^^^^^^^^^^
+NameError: name 'velocidade_media' is not defined. Did you mean: 'velociade_media'?
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    distancia = velocidade_media * tempo
+                ^^^^^^^^^^^^^^^^
+NameError: name 'velocidade_media' is not defined. Did you mean: 'velociade_media'?
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    distancia = velocidade_media * tempo
+                ^^^^^^^^^^^^^^^^
+NameError: name 'velocidade_media' is not defined. Did you mean: 'velociade_media'?
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    distancia = velocidade_media * tempo
+                ^^^^^^^^^^^^^^^^
+NameError: name 'velocidade_media' is not defined. Did you mean: 'velociade_media'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-31 17:29:44)
+-- CODE: 
+tempo = float(input("Digite o tempo de viagem em horas (ex: 1.25): "))
+velocidade_media = float(input("Digite a velocidade media (km/h): "))
+
+distancia = tempo * velocidade_media
+
+autonomia = 12.0
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 3), "km")
+print("Litros de cobustivel gastos:", round(litros_gastos, 3), "litros")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+Litros de cobustivel gastos: 75.0 litros
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+Litros de cobustivel gastos: 50.0 litros
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+Litros de cobustivel gastos: 4.167 litros
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+Litros de cobustivel gastos: 8.0 litros
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+Litros de cobustivel gastos: 0.25 litros
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+Litros de cobustivel gastos: 12.5 litros
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:30:09)
+-- CODE: 
+tempo = float(input("Digite o tempo gasto na viagem (em horas, ex: 1.25 para 1h15: "))
+velociade_media = float(input("Digite a velocidade media do veiculo (km/h): "))
+
+autonomia = 12.0
+
+distancia = velocidade_media * tempo
+
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 2), "km")
+print("Litros de combustivel gastos:", round(litros_gastos, 2), "L")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    distancia = velocidade_media * tempo
+                ^^^^^^^^^^^^^^^^
+NameError: name 'velocidade_media' is not defined. Did you mean: 'velociade_media'?
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    distancia = velocidade_media * tempo
+                ^^^^^^^^^^^^^^^^
+NameError: name 'velocidade_media' is not defined. Did you mean: 'velociade_media'?
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    distancia = velocidade_media * tempo
+                ^^^^^^^^^^^^^^^^
+NameError: name 'velocidade_media' is not defined. Did you mean: 'velociade_media'?
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    distancia = velocidade_media * tempo
+                ^^^^^^^^^^^^^^^^
+NameError: name 'velocidade_media' is not defined. Did you mean: 'velociade_media'?
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    distancia = velocidade_media * tempo
+                ^^^^^^^^^^^^^^^^
+NameError: name 'velocidade_media' is not defined. Did you mean: 'velociade_media'?
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    distancia = velocidade_media * tempo
+                ^^^^^^^^^^^^^^^^
+NameError: name 'velocidade_media' is not defined. Did you mean: 'velociade_media'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:28:12)
+-- CODE: 
+tempo = float(input("Digite o tempo de viagem em horas (ex: 1.25): "))
+velocidade_media = float(input("Digite a velocidade media (km/h): "))
+
+distancia = tempo * velocidade_media
+
+autonomia = 12.0
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 3), "km")
+print("Litros de cobustivel gastos:", round(litros_gastos, 3), "litros")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+Litros de cobustivel gastos: 75.0 litros
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+Litros de cobustivel gastos: 50.0 litros
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+Litros de cobustivel gastos: 4.167 litros
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+Litros de cobustivel gastos: 8.0 litros
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+Litros de cobustivel gastos: 0.25 litros
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+Litros de cobustivel gastos: 12.5 litros
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:27:46)
+-- CODE: 
+tempo = float(input("Digite o tempo de viagem em horas (ex: 1.25): "))
+velocidade_media = float(input("Digite a velocidade média (km/h): ")
+
+distancia = tempo * velocidade_media
+
+autonomia = 12.0
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 3), "km")
+print("Litros de cobustivel gastos:", round(litros_gastos, 3), "litros")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+-- ERROR:
+File "XXXX", line 2
+    velocidade_media = float(input("Digite a velocidade média (km/h): ")
+                            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+-- ERROR:
+File "XXXX", line 2
+    velocidade_media = float(input("Digite a velocidade média (km/h): ")
+                            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+-- ERROR:
+File "XXXX", line 2
+    velocidade_media = float(input("Digite a velocidade média (km/h): ")
+                            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+-- ERROR:
+File "XXXX", line 2
+    velocidade_media = float(input("Digite a velocidade média (km/h): ")
+                            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+-- ERROR:
+File "XXXX", line 2
+    velocidade_media = float(input("Digite a velocidade média (km/h): ")
+                            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+-- ERROR:
+File "XXXX", line 2
+    velocidade_media = float(input("Digite a velocidade média (km/h): ")
+                            ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 16:37:36)
+-- CODE: 
+tempo = float(input("tempo: "))
+velocidade = float(input("velocidade: "))
+
+distancia = tempo*velocidade
+litros = distancia/12.0
+
+print(distancia)
+print(litros)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+75.0
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+50.0
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+4.166666666666667
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+8.0
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+0.25
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+12.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:28:01)
+-- CODE: 
+tempo = float(input("Digite o tempo de viagem em horas (ex: 1.25): "))
+velocidade_media = float(input("Digite a velocidade media (km/h): ")
+
+distancia = tempo * velocidade_media
+
+autonomia = 12.0
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 3), "km")
+print("Litros de cobustivel gastos:", round(litros_gastos, 3), "litros")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+-- ERROR:
+File "XXXX", line 2
+    velocidade_media = float(input("Digite a velocidade media (km/h): ")
+                            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+-- ERROR:
+File "XXXX", line 2
+    velocidade_media = float(input("Digite a velocidade media (km/h): ")
+                            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+-- ERROR:
+File "XXXX", line 2
+    velocidade_media = float(input("Digite a velocidade media (km/h): ")
+                            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+-- ERROR:
+File "XXXX", line 2
+    velocidade_media = float(input("Digite a velocidade media (km/h): ")
+                            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+-- ERROR:
+File "XXXX", line 2
+    velocidade_media = float(input("Digite a velocidade media (km/h): ")
+                            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+-- ERROR:
+File "XXXX", line 2
+    velocidade_media = float(input("Digite a velocidade media (km/h): ")
+                            ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:27:30)
+-- CODE: 
+tempo = float(input("Digite o tempo de viagem em horas (ex: 1.25): "))
+velocidade_media = floatIinput("Digite a velocidade média (km/h): ")
+
+distancia = tempo * velocidade_media
+
+autonomia = 12.0
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 3), "km")
+print("Litros de cobustivel gastos:", round(litros_gastos, 3), "litros")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    velocidade_media = floatIinput("Digite a velocidade média (km/h): ")
+                       ^^^^^^^^^^^
+NameError: name 'floatIinput' is not defined
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    velocidade_media = floatIinput("Digite a velocidade média (km/h): ")
+                       ^^^^^^^^^^^
+NameError: name 'floatIinput' is not defined
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    velocidade_media = floatIinput("Digite a velocidade média (km/h): ")
+                       ^^^^^^^^^^^
+NameError: name 'floatIinput' is not defined
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    velocidade_media = floatIinput("Digite a velocidade média (km/h): ")
+                       ^^^^^^^^^^^
+NameError: name 'floatIinput' is not defined
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    velocidade_media = floatIinput("Digite a velocidade média (km/h): ")
+                       ^^^^^^^^^^^
+NameError: name 'floatIinput' is not defined
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    velocidade_media = floatIinput("Digite a velocidade média (km/h): ")
+                       ^^^^^^^^^^^
+NameError: name 'floatIinput' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:29:34)
+-- CODE: 
+tempo = float(input("Digite o tempo de viagem em horas (ex: 1.25): "))
+velocidade_media = float(input("Digite a velocidade media (km/h): "))
+
+distancia = tempo * velocidade_media
+
+autonomia = 12.0
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 3), "km")
+print("Litros de cobustivel gastos:", round(litros_gastos, 3), "litros")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+Litros de cobustivel gastos: 75.0 litros
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+Litros de cobustivel gastos: 50.0 litros
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+Litros de cobustivel gastos: 4.167 litros
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+Litros de cobustivel gastos: 8.0 litros
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+Litros de cobustivel gastos: 0.25 litros
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+Litros de cobustivel gastos: 12.5 litros
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:28:53)
+-- CODE: 
+tempo = float(input("Digite o tempo de viagem em horas (ex: 1.25): "))
+velocidade_media = float(input("Digite a velocidade media (km/h): "))
+
+distancia = tempo * velocidade_media
+
+autonomia = 12.0
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 3), "km")
+print("Litros de cobustivel gastos:", round(litros_gastos, 3), "litros")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+Litros de cobustivel gastos: 75.0 litros
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+Litros de cobustivel gastos: 50.0 litros
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+Litros de cobustivel gastos: 4.167 litros
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+Litros de cobustivel gastos: 8.0 litros
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+Litros de cobustivel gastos: 0.25 litros
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+Litros de cobustivel gastos: 12.5 litros
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:27:12)
+-- CODE: 
+tempo = float(input("Digite o tempo gasto na viagem (em horas, ex: 1.25 para 1h15: "))
+velociade_media = float(input("Digite a velocidade media do veiculo (km/h): "))
+
+autonomia = 12.0
+
+distancia = velocidade_media * tempo
+
+litros_gastos = distancia / autonomia
+
+print(f"Distancia percorria: {distancia.2f} km")
+print(f"Litros de combustivel: {litros_gastos.2f} L")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+-- ERROR:
+File "XXXX", line 10
+    (distancia.2f)
+               ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+-- ERROR:
+File "XXXX", line 10
+    (distancia.2f)
+               ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+-- ERROR:
+File "XXXX", line 10
+    (distancia.2f)
+               ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+-- ERROR:
+File "XXXX", line 10
+    (distancia.2f)
+               ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+-- ERROR:
+File "XXXX", line 10
+    (distancia.2f)
+               ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+-- ERROR:
+File "XXXX", line 10
+    (distancia.2f)
+               ^
+SyntaxError: invalid decimal literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-31 17:29:58)
+-- CODE: 
+tempo = float(input("Digite o tempo de viagem em horas (ex: 1.25): "))
+velocidade_media = float(input("Digite a velocidade media (km/h): "))
+
+distancia = tempo * velocidade_media
+
+autonomia = 12.0
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 3), "km")
+print("Litros de cobustivel gastos:", round(litros_gastos, 3), "litros")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+Litros de cobustivel gastos: 75.0 litros
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+Litros de cobustivel gastos: 50.0 litros
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+Litros de cobustivel gastos: 4.167 litros
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+Litros de cobustivel gastos: 8.0 litros
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+Litros de cobustivel gastos: 0.25 litros
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+Litros de cobustivel gastos: 12.5 litros
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:30:00)
+-- CODE: 
+tempo = float(input("Digite o tempo de viagem em horas (ex: 1.25): "))
+velocidade_media = float(input("Digite a velocidade media (km/h): "))
+
+distancia = tempo * velocidade_media
+
+autonomia = 12.0
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 3), "km")
+print("Litros de cobustivel gastos:", round(litros_gastos, 3), "litros")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+Litros de cobustivel gastos: 75.0 litros
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+Litros de cobustivel gastos: 50.0 litros
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+Litros de cobustivel gastos: 4.167 litros
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+Litros de cobustivel gastos: 8.0 litros
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+Litros de cobustivel gastos: 0.25 litros
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+Litros de cobustivel gastos: 12.5 litros
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:28:35)
+-- CODE: 
+tempo = float(input("Digite o tempo de viagem em horas (ex: 1.25): "))
+velocidade_media = float(input("Digite a velocidade media (km/h): "))
+
+distancia = tempo * velocidade_media
+
+autonomia = 12.0
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 3), "km")
+print("Litros de cobustivel gastos:", round(litros_gastos, 3), "litros")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+Litros de cobustivel gastos: 75.0 litros
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+Litros de cobustivel gastos: 50.0 litros
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+Litros de cobustivel gastos: 4.167 litros
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+Litros de cobustivel gastos: 8.0 litros
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+Litros de cobustivel gastos: 0.25 litros
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+Litros de cobustivel gastos: 12.5 litros
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:25:24)
+-- CODE: 
+tempo = float(input("Digite o tempo gasto na viagem (horas): "))
+velocidade_media = floatIinput("Digite a velocidade média (km/h): ")
+
+distancia = tempo * velocidade_media
+
+autonomia = 12.0
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 3), "km")
+print("Litros de cobustivel gastos:", round(litros_gastos, 3), "litros")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    velocidade_media = floatIinput("Digite a velocidade média (km/h): ")
+                       ^^^^^^^^^^^
+NameError: name 'floatIinput' is not defined
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    velocidade_media = floatIinput("Digite a velocidade média (km/h): ")
+                       ^^^^^^^^^^^
+NameError: name 'floatIinput' is not defined
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    velocidade_media = floatIinput("Digite a velocidade média (km/h): ")
+                       ^^^^^^^^^^^
+NameError: name 'floatIinput' is not defined
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    velocidade_media = floatIinput("Digite a velocidade média (km/h): ")
+                       ^^^^^^^^^^^
+NameError: name 'floatIinput' is not defined
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    velocidade_media = floatIinput("Digite a velocidade média (km/h): ")
+                       ^^^^^^^^^^^
+NameError: name 'floatIinput' is not defined
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    velocidade_media = floatIinput("Digite a velocidade média (km/h): ")
+                       ^^^^^^^^^^^
+NameError: name 'floatIinput' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 16:37:46)
+-- CODE: 
+tempo = float(input("tempo: "))
+velocidade = float(input("velocidade: "))
+
+distancia = tempo*velocidade
+litros = distancia/12.0
+
+print(distancia)
+print(litros)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+75.0
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+50.0
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+4.166666666666667
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+8.0
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+0.25
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+12.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:29:47)
+-- CODE: 
+tempo = float(input("Digite o tempo de viagem em horas (ex: 1.25): "))
+velocidade_media = float(input("Digite a velocidade media (km/h): "))
+
+distancia = tempo * velocidade_media
+
+autonomia = 12.0
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 3), "km")
+print("Litros de cobustivel gastos:", round(litros_gastos, 3), "litros")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+Litros de cobustivel gastos: 75.0 litros
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+Litros de cobustivel gastos: 50.0 litros
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+Litros de cobustivel gastos: 4.167 litros
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+Litros de cobustivel gastos: 8.0 litros
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+Litros de cobustivel gastos: 0.25 litros
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+Litros de cobustivel gastos: 12.5 litros
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-31 17:28:51)
+-- CODE: 
+tempo = float(input("Digite o tempo de viagem em horas (ex: 1.25): "))
+velocidade_media = float(input("Digite a velocidade media (km/h): "))
+
+distancia = tempo * velocidade_media
+
+autonomia = 12.0
+litros_gastos = distancia / autonomia
+
+print("Distancia percorrida:", round(distancia, 3), "km")
+print("Litros de cobustivel gastos:", round(litros_gastos, 3), "litros")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+Litros de cobustivel gastos: 75.0 litros
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+Litros de cobustivel gastos: 50.0 litros
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+Litros de cobustivel gastos: 4.167 litros
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+Litros de cobustivel gastos: 8.0 litros
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+Litros de cobustivel gastos: 0.25 litros
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+Litros de cobustivel gastos: 12.5 litros
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

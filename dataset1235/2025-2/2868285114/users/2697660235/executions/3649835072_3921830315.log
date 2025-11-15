@@ -1,0 +1,683 @@
+== RUN (2025-08-17 01:01:27)
+-- CODE: 
+quatidade = float(input())
+
+totalSem = (quantidade * 2,86 ) + 50 
+totalCom = totalCom*(34/100)
+
+print ( round(totalCom, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    totalSem = (quantidade * 2,86 ) + 50 
+                ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    totalSem = (quantidade * 2,86 ) + 50 
+                ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    totalSem = (quantidade * 2,86 ) + 50 
+                ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    totalSem = (quantidade * 2,86 ) + 50 
+                ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    totalSem = (quantidade * 2,86 ) + 50 
+                ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    totalSem = (quantidade * 2,86 ) + 50 
+                ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-17 01:05:02)
+-- CODE: 
+quantidade = float(input())
+
+totalSem = (quantidade * 2.86 ) + 50.00
+totalCom = totalSem + totalSem*(34/100)
+
+print ( round(totalCom, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+230.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-17 00:46:01)
+-- CODE: 
+quatidade = float(input())
+
+total = (quantidade * 2,86 + 50) + 34/100
+
+print ( round(total, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 + 50) + 34/100
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 + 50) + 34/100
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 + 50) + 34/100
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 + 50) + 34/100
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 + 50) + 34/100
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 + 50) + 34/100
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-17 00:47:02)
+-- CODE: 
+quatidade = float(input())
+
+total = (quantidade * 2,86 + 50) + quatidade*(34/100)
+
+print ( round(total, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 + 50) + quatidade*(34/100)
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 + 50) + quatidade*(34/100)
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 + 50) + quatidade*(34/100)
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 + 50) + quatidade*(34/100)
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 + 50) + quatidade*(34/100)
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 + 50) + quatidade*(34/100)
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-17 01:02:29)
+-- CODE: 
+quantidade = float(input())
+
+totalSem = (quantidade * 2.86 ) + 50 
+totalCom = totalCom*(34/100)
+
+print ( round(totalCom, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    totalCom = totalCom*(34/100)
+               ^^^^^^^^
+NameError: name 'totalCom' is not defined. Did you mean: 'totalSem'?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    totalCom = totalCom*(34/100)
+               ^^^^^^^^
+NameError: name 'totalCom' is not defined. Did you mean: 'totalSem'?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    totalCom = totalCom*(34/100)
+               ^^^^^^^^
+NameError: name 'totalCom' is not defined. Did you mean: 'totalSem'?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    totalCom = totalCom*(34/100)
+               ^^^^^^^^
+NameError: name 'totalCom' is not defined. Did you mean: 'totalSem'?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    totalCom = totalCom*(34/100)
+               ^^^^^^^^
+NameError: name 'totalCom' is not defined. Did you mean: 'totalSem'?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    totalCom = totalCom*(34/100)
+               ^^^^^^^^
+NameError: name 'totalCom' is not defined. Did you mean: 'totalSem'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-17 00:57:50)
+-- CODE: 
+quatidade = float(input())
+
+total = (quantidade * 2,86 ) + (34/100)
+
+print ( round(total, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 ) + (34/100)
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 ) + (34/100)
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 ) + (34/100)
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 ) + (34/100)
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 ) + (34/100)
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    total = (quantidade * 2,86 ) + (34/100)
+             ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-17 01:04:10)
+-- CODE: 
+quantidade = float(input())
+
+totalSem = (quantidade * 2.86 ) + 50.00
+totalCom = totalSem*(34/100)
+
+print ( round(totalCom, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+27.11
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+161.08
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+101.99
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+248.65
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+58.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-17 01:01:51)
+-- CODE: 
+quatidade = float(input())
+
+totalSem = (quantidade * 2.86 ) + 50 
+totalCom = totalCom*(34/100)
+
+print ( round(totalCom, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    totalSem = (quantidade * 2.86 ) + 50 
+                ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    totalSem = (quantidade * 2.86 ) + 50 
+                ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    totalSem = (quantidade * 2.86 ) + 50 
+                ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    totalSem = (quantidade * 2.86 ) + 50 
+                ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    totalSem = (quantidade * 2.86 ) + 50 
+                ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    totalSem = (quantidade * 2.86 ) + 50 
+                ^^^^^^^^^^
+NameError: name 'quantidade' is not defined. Did you mean: 'quatidade'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-17 01:05:08)
+-- CODE: 
+quantidade = float(input())
+
+totalSem = (quantidade * 2.86 ) + 50.00
+totalCom = totalSem + totalSem*(34/100)
+
+print ( round(totalCom, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-17 01:02:48)
+-- CODE: 
+quantidade = float(input())
+
+totalSem = (quantidade * 2.86 ) + 50 
+totalCom = totalSem*(34/100)
+
+print ( round(totalCom, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+27.11
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+161.08
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+101.99
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+248.65
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+58.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

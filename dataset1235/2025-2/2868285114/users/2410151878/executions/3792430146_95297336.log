@@ -1,0 +1,984 @@
+== SUBMISSION (2025-09-02 23:27:12)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if es == "C":
+  cel = (tp * 9.0/5.0)+ 32.0
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+C ou F:digite a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C ou F:digite a temperatura: 32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+C ou F:digite a temperatura: -1.11
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:25:34)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if tp == "C":
+  cel = (tp * 9.0/5)+ 32.0
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+C ou F:digite a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C ou F:digite a temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+C ou F:digite a temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:13:45)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if tp == "C":
+  cel = (tp*9/5)+32
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+C ou F:digite a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C ou F:digite a temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+C ou F:digite a temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:13:44)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if tp == "C":
+  cel = (tp*9/5)+32
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+C ou F:digite a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C ou F:digite a temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+C ou F:digite a temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:24:54)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if tp == "C":
+  cel = (tp * 9/5)+ 32.0
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+C ou F:digite a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C ou F:digite a temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+C ou F:digite a temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:26:36)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if tp.upper() == "C":
+  cel = (tp * 9.0/5.0)+ 32.0
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if tp.upper() == "C":
+       ^^^^^^^^
+AttributeError: 'float' object has no attribute 'upper'
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if tp.upper() == "C":
+       ^^^^^^^^
+AttributeError: 'float' object has no attribute 'upper'
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if tp.upper() == "C":
+       ^^^^^^^^
+AttributeError: 'float' object has no attribute 'upper'
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if tp.upper() == "C":
+       ^^^^^^^^
+AttributeError: 'float' object has no attribute 'upper'
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if tp.upper() == "C":
+       ^^^^^^^^
+AttributeError: 'float' object has no attribute 'upper'
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if tp.upper() == "C":
+       ^^^^^^^^
+AttributeError: 'float' object has no attribute 'upper'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:14:03)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if tp == "C":
+  cel = (tp*5/9)+32
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+C ou F:digite a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C ou F:digite a temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+C ou F:digite a temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:26:04)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if tp == "C":
+  cel = (tp * 9.0/5.0)+ 32.0
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+C ou F:digite a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C ou F:digite a temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+C ou F:digite a temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:13:38)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if tp == "C":
+  cel = (tp*9/5)+32
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+C ou F:digite a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C ou F:digite a temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+C ou F:digite a temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:14:25)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if tp == "C":
+  cel = (tp*9/5)+32
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+C ou F:digite a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C ou F:digite a temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+C ou F:digite a temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:14:04)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if tp == "C":
+  cel = (tp*5/9)+32
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+C ou F:digite a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C ou F:digite a temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+C ou F:digite a temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:02:25)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if tp == "C":
+  cel = (tp * 9/5) + 32
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+C ou F:digite a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C ou F:digite a temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+C ou F:digite a temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:04:47)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if tp == "C":
+  cel = (tp * 9/5) * 32
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+C ou F:digite a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C ou F:digite a temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+C ou F:digite a temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:25:33)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if tp == "C":
+  cel = (tp * 9.0/5)+ 32.0
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+C ou F:digite a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C ou F:digite a temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+C ou F:digite a temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:02:41)
+-- CODE: 
+es=input("C ou F:")
+tp=float(input("digite a temperatura: "))
+
+if tp == "C":
+  cel = (tp * 9/5) + 32
+  print(round(cel,2))
+else:
+  feh = (tp - 32)* 5/9
+  print(round(feh,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+C ou F:digite a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+C ou F:digite a temperatura: 160.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+C ou F:digite a temperatura: -17.78
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+C ou F:digite a temperatura: -1.11
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

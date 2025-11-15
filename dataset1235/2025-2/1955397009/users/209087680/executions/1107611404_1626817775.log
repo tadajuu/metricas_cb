@@ -1,0 +1,2188 @@
+== RUN (2025-08-19 13:18:43)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+ptint(math.sqrt(4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:23:08)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+x=input("insira o raio: ")
+b= pi
+A= b*x**2
+V= (4/3) b *x**3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:24:09)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+x=input("insira o raio: ")
+b= (pi)
+A= b*x**2
+V= (4/3)*b*x**3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    A= b*x**2
+         ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    A= b*x**2
+         ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    A= b*x**2
+         ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    A= b*x**2
+         ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    A= b*x**2
+         ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    A= b*x**2
+         ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:24:35)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+x=float(input("insira o raio: "))
+b= (pi)
+A= b*x**2
+V= (4/3)*b*x**3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+0.004
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+381.704
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+7871.076
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+5575.28
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+1279110.151
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+33.51
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:18:43)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+ptint(math.sqrt(4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:24:00)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+x=input("insira o raio: ")
+b= (pi)
+A= b*x**2
+V= (4/3) b*x**3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b*x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b*x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b*x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b*x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b*x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b*x**3
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:17:03)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+pi
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:18:40)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+ptint(math.sqrt(4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:23:25)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+x=input("insira o raio: ")
+b= math.pi
+A= b*x**2
+V= (4/3) b *x**3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:23:02)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import 
+x=input("insira o raio: ")
+b= pi
+A= b*x**2
+V= (4/3) b *x**3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+File "XXXX", line 4
+    from math import 
+                     ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+File "XXXX", line 4
+    from math import 
+                     ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+File "XXXX", line 4
+    from math import 
+                     ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+File "XXXX", line 4
+    from math import 
+                     ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+File "XXXX", line 4
+    from math import 
+                     ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+File "XXXX", line 4
+    from math import 
+                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:16:51)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+File "XXXX", line 4
+    from math import
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+File "XXXX", line 4
+    from math import
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+File "XXXX", line 4
+    from math import
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+File "XXXX", line 4
+    from math import
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+File "XXXX", line 4
+    from math import
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+File "XXXX", line 4
+    from math import
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:16:57)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 13:16:43)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:18:50)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+print(math.sqrt(4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:17:18)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+print(pi)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+3.141592653589793
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+3.141592653589793
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+3.141592653589793
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+3.141592653589793
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+3.141592653589793
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+3.141592653589793
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:23:24)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+x=input("insira o raio: ")
+b= math.pi
+A= b*x**2
+V= (4/3) b *x**3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:18:42)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+ptint(math.sqrt(4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(math.sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:18:51)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+print(math.sqrt(4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:18:59)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+print(sqrt(4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+2.0
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+2.0
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+2.0
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+2.0
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+2.0
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+2.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:18:32)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+ptint(sqrt(4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ptint(sqrt(4))
+    ^^^^^
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:18:52)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+print(math.sqrt(4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(math.sqrt(4))
+          ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 13:24:41)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+x=float(input("insira o raio: "))
+b= (pi)
+A= b*x**2
+V= (4/3)*b*x**3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+0.004
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+381.704
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+7871.076
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+5575.28
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+1279110.151
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+33.51
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:17:05)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+pi
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:22:49)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+x=input("insira o raio: ")
+b=pi
+A= b*x**2
+V= (4/3) b *x**3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:23:50)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+x=input("insira o raio: ")
+b= (pi)
+A= b*x**2
+V= (4/3) b *x**3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:22:21)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+x=input("insira o raio: ")
+A= pi*x**2
+V= (4/3) pi *x**3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+File "XXXX", line 7
+    V= (4/3) pi *x**3
+             ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+File "XXXX", line 7
+    V= (4/3) pi *x**3
+             ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+File "XXXX", line 7
+    V= (4/3) pi *x**3
+             ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+File "XXXX", line 7
+    V= (4/3) pi *x**3
+             ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+File "XXXX", line 7
+    V= (4/3) pi *x**3
+             ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+File "XXXX", line 7
+    V= (4/3) pi *x**3
+             ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:16:47)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:23:25)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+x=input("insira o raio: ")
+b= math.pi
+A= b*x**2
+V= (4/3) b *x**3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+File "XXXX", line 8
+    V= (4/3) b *x**3
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:22:11)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import *
+x=input("insira o raio: ")
+A= pi*x**2
+V= (4/3)pi*x**3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+File "XXXX", line 7
+    V= (4/3)pi*x**3
+            ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+File "XXXX", line 7
+    V= (4/3)pi*x**3
+            ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+File "XXXX", line 7
+    V= (4/3)pi*x**3
+            ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+File "XXXX", line 7
+    V= (4/3)pi*x**3
+            ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+File "XXXX", line 7
+    V= (4/3)pi*x**3
+            ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+File "XXXX", line 7
+    V= (4/3)pi*x**3
+            ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

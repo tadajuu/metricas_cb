@@ -1,0 +1,292 @@
+== SUBMISSION (2025-08-21 22:35:39)
+-- CODE: 
+litros = float(input("abastecido: "))
+total = ((litros*2.86 + 50 ) + (litros*2.86 + 50(34/100)))
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+XXXX:2: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  total = ((litros*2.86 + 50 ) + (litros*2.86 + 50(34/100)))
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    total = ((litros*2.86 + 50 ) + (litros*2.86 + 50(34/100)))
+                                                  ^^^^^^^^^^
+TypeError: 'int' object is not callable
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+XXXX:2: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  total = ((litros*2.86 + 50 ) + (litros*2.86 + 50(34/100)))
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    total = ((litros*2.86 + 50 ) + (litros*2.86 + 50(34/100)))
+                                                  ^^^^^^^^^^
+TypeError: 'int' object is not callable
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+XXXX:2: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  total = ((litros*2.86 + 50 ) + (litros*2.86 + 50(34/100)))
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    total = ((litros*2.86 + 50 ) + (litros*2.86 + 50(34/100)))
+                                                  ^^^^^^^^^^
+TypeError: 'int' object is not callable
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+XXXX:2: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  total = ((litros*2.86 + 50 ) + (litros*2.86 + 50(34/100)))
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    total = ((litros*2.86 + 50 ) + (litros*2.86 + 50(34/100)))
+                                                  ^^^^^^^^^^
+TypeError: 'int' object is not callable
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+XXXX:2: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  total = ((litros*2.86 + 50 ) + (litros*2.86 + 50(34/100)))
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    total = ((litros*2.86 + 50 ) + (litros*2.86 + 50(34/100)))
+                                                  ^^^^^^^^^^
+TypeError: 'int' object is not callable
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+XXXX:2: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  total = ((litros*2.86 + 50 ) + (litros*2.86 + 50(34/100)))
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    total = ((litros*2.86 + 50 ) + (litros*2.86 + 50(34/100)))
+                                                  ^^^^^^^^^^
+TypeError: 'int' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 22:33:03)
+-- CODE: 
+litros = float(input("abastecido: "))
+total = litros*2.86 + (50 * (34/100))
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+abastecido: 46.74
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+abastecido: 440.77
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+abastecido: 160.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+abastecido: 266.96
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+abastecido: 698.34
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+abastecido: 139.06
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 22:36:40)
+-- CODE: 
+litros = float(input("abastecido: "))
+total = ((litros*2.86 + 50 ) + ((litros*2.86 + 50)*(34/100)))
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+abastecido: 106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+abastecido: 634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+abastecido: 258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+abastecido: 401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+abastecido: 979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+abastecido: 230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:34:49)
+-- CODE: 
+litros = float(input("abastecido: "))
+total = ((litros*2.86 + 50 )* (34/100))
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+abastecido: 27.11
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+abastecido: 161.08
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+abastecido: 65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+abastecido: 101.99
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+abastecido: 248.65
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+abastecido: 58.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:33:05)
+-- CODE: 
+litros = float(input("abastecido: "))
+total = litros*2.86 + (50 * (34/100))
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+abastecido: 46.74
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+abastecido: 440.77
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+abastecido: 160.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+abastecido: 266.96
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+abastecido: 698.34
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+abastecido: 139.06
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

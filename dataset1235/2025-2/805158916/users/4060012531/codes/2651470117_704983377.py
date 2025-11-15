@@ -1,0 +1,7 @@
+div=int(input("Dividendo:"))
+divs=int(input("Divisor:"))
+print(div//divs)
+print(div%divs)
+print(div/divs)
+print(div*divs)
+print(divs**3)

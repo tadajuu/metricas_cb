@@ -1,0 +1,1 @@
+print("O valor total da conta é:",35*20)

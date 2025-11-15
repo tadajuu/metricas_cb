@@ -1,0 +1,92 @@
+== RUN (2025-08-12 18:28:00)
+-- CODE: 
+valor = 250/6
+print(round(valor))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-12 18:28:33)
+-- CODE: 
+valor = 250/6
+print(round(valor,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 18:27:39)
+-- CODE: 
+valor = 250/6
+round(print(valor))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round(print(valor))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round(print(valor))
+TypeError: type NoneType doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 18:28:32)
+-- CODE: 
+valor = 250/6
+print(round(valor,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

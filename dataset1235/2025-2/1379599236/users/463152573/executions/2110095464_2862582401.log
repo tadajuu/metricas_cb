@@ -1,0 +1,59 @@
+== SUBMISSION (2025-08-25 18:41:36)
+-- CODE: 
+nome_do_objeto = input()
+N = int(input())
+feitico = ("Abra " + nome_do_objeto + " ") * N
+print(feitico)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra carro Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra casa Abra casa Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra porta Abra porta Abra porta Abra porta
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

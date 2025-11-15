@@ -1,0 +1,404 @@
+== RUN (2025-08-20 18:18:00)
+-- CODE: 
+1 = 1.1
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 1
+    1 = 1.1
+    ^
+SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 1
+    1 = 1.1
+    ^
+SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 1
+    1 = 1.1
+    ^
+SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 1
+    1 = 1.1
+    ^
+SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 1
+    1 = 1.1
+    ^
+SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 1
+    1 = 1.1
+    ^
+SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 18:24:38)
+-- CODE: 
+n = float(input())
+print(round(27/100 * n,2))
+print(round(n + 42/100 * n,2))
+print(round(n - 63/100 * n,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 18:17:15)
+-- CODE: 
+x 1 = 1.23
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 1
+    x 1 = 1.23
+      ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 1
+    x 1 = 1.23
+      ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 1
+    x 1 = 1.23
+      ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 1
+    x 1 = 1.23
+      ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 1
+    x 1 = 1.23
+      ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 1
+    x 1 = 1.23
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 18:18:13)
+-- CODE: 
+1 == 1.1
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 18:18:11)
+-- CODE: 
+1 == 1.1
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 18:28:15)
+-- CODE: 
+n = float(input())
+print(round(27/100 * n,2))
+print(round(n + 42/100 * n,2))
+print(round(n - 63/100 * n,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

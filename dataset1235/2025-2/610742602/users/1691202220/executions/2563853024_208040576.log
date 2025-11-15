@@ -1,0 +1,888 @@
+== RUN (2025-09-02 20:30:06)
+-- CODE: 
+preco = float(input())
+preco_final = 15 / 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:48:49)
+-- CODE: 
+preco = float(input())
+preco_final = 15 % 100 / preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+0.0125
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+0.15
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+1.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+0.075
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+0.75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:32:26)
+-- CODE: 
+preco = float(input())
+preco_final = 15 % 100 + preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+1215.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+115.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+30.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+25.0
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+215.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+35.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:31:55)
+-- CODE: 
+preco = float(input())
+preco_final = 15 % 100 - preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+-1185.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+-85.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+0.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+5.0
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+-185.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+-5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:40:38)
+-- CODE: 
+preco = float(input())
+preco_final = 15 % 100 - preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+-1185.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+-85.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+0.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+5.0
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+-185.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+-5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:41:18)
+-- CODE: 
+preco = float(input())
+preco_final = (15 % 100) - preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+-1185.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+-85.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+0.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+5.0
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+-185.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+-5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:50:18)
+-- CODE: 
+preco = float(input())
+preco_final = 100 % 15 - preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+-1190.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+-90.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+-5.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+0.0
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+-190.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+-10.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:31:40)
+-- CODE: 
+preco = float(input())
+preco_final = 15 % 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+18000.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+1500.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+225.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+150.0
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+3000.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+300.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:32:59)
+-- CODE: 
+preco = float(input())
+preco_final = 15 % 100 / preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+0.0125
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+0.15
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+1.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+0.075
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+0.75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:42:45)
+-- CODE: 
+preco = float(input())
+preco_final = 15 % 100 - preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+-1185.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+-85.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+0.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+5.0
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+-185.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+-5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:48:34)
+-- CODE: 
+preco = float(input())
+preco_final = 15 % 100 = preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = 15 % 100 = preco
+                  ^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = 15 % 100 = preco
+                  ^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+-- ERROR:
+File "XXXX", line 2
+    preco_final = 15 % 100 = preco
+                  ^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+-- ERROR:
+File "XXXX", line 2
+    preco_final = 15 % 100 = preco
+                  ^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = 15 % 100 = preco
+                  ^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = 15 % 100 = preco
+                  ^^^^^^^^
+SyntaxError: cannot assign to expression
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:31:14)
+-- CODE: 
+preco = float(input())
+preco_final = 15 / 100 - preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+-1199.85
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+-99.85
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+-14.85
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+-9.85
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+-199.85
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+-19.85
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:49:36)
+-- CODE: 
+preco = float(input())
+preco_final = 15 % 200 - preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+-1185.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+-85.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+0.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+5.0
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+-185.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+-5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 20:33:28)
+-- CODE: 
+preco = float(input())
+preco_final = 15 % 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+18000.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+1500.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+225.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+150.0
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+3000.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+300.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:33:31)
+-- CODE: 
+preco = float(input())
+preco_final = 15 % 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+18000.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+1500.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+225.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+150.0
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+3000.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+300.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:42:27)
+-- CODE: 
+preco = float(input())
+preco_final = (15 %) - preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (15 %) - preco
+                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (15 %) - preco
+                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (15 %) - preco
+                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (15 %) - preco
+                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (15 %) - preco
+                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (15 %) - preco
+                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:51:06)
+-- CODE: 
+preco = float(input())
+preco_final = 100 % 15 - preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+-1190.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+-90.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+-5.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+0.0
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+-190.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+-10.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

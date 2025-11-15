@@ -1,0 +1,112 @@
+== SUBMISSION (2025-08-21 16:13:59)
+-- CODE: 
+litros = float(input("Digite quantos litros deseja: "))
+litro_gasolina = 2.86
+troca_oleo = 50.00
+valor_abastecimento = litros * litro_gasolina
+total = troca_oleo + valor_abastecimento
+valor_total = total * 1.34
+valor_total_arredondamento = round(valor_total, 2)
+print(valor_total_arredondamento)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Digite quantos litros deseja: 106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Digite quantos litros deseja: 634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Digite quantos litros deseja: 258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Digite quantos litros deseja: 401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Digite quantos litros deseja: 979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Digite quantos litros deseja: 230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 16:10:28)
+-- CODE: 
+litros = float(input("Digite quantos litros deseja: "))
+litro_gasolina = 2.86
+troca_oleo = 50.00
+valor_abastecimento = litros * litro_gasolina
+total = troca_oleo + valor_abastecimento
+valor_total = total * 1.34
+valor_total_arredondamento = round(valor_total, 2)
+print(valor_total_arredondamento)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Digite quantos litros deseja: 106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Digite quantos litros deseja: 634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Digite quantos litros deseja: 258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Digite quantos litros deseja: 401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Digite quantos litros deseja: 979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Digite quantos litros deseja: 230.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

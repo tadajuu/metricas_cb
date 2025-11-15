@@ -1,0 +1,642 @@
+== RUN (2025-08-26 20:47:00)
+-- CODE: 
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:47:05)
+-- CODE: 
+1
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:47:06)
+-- CODE: 
+1
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:12:52)
+-- CODE: 
+celsius = float(input())
+
+kelvin = celsius + 273.15
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:12:05)
+-- CODE: 
+celsius = float(input)
+
+kelvin = celsius + 273.15
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:12:50)
+-- CODE: 
+celsius = float(input())
+
+kelvin = celsius + 273.15
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:15:28)
+-- CODE: 
+celsius = float(input())
+
+kelvin = celsius + 273.15
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:12:07)
+-- CODE: 
+celsius = float(input)
+
+kelvin = celsius + 273.15
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:12:03)
+-- CODE: 
+celsius = float(input)
+
+kelvin = celsius + 273.15
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    celsius = float(input)
+              ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:30:49)
+-- CODE: 
+celsius = float(input())
+
+kelvin = celsius + 273.15
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:15:26)
+-- CODE: 
+celsius = float(input())
+
+kelvin = celsius + 273.15
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,760 @@
+== RUN (2025-08-20 14:20:29)
+-- CODE: 
+nome = input("Insira seu nome:")
+
+idade = int(input("Insira sua idade:"))
+altura = input(float("Insira sua altura:"))
+
+print(nome)
+print(idade)
+print(altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    altura = input(float("Insira sua altura:"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira sua altura:'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    altura = input(float("Insira sua altura:"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira sua altura:'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    altura = input(float("Insira sua altura:"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira sua altura:'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    altura = input(float("Insira sua altura:"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira sua altura:'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:15:32)
+-- CODE: 
+input("Insira seu nome:")
+input("Insira sua idade:")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Insira seu nome:Insira sua idade:
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Insira seu nome:Insira sua idade:
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Insira seu nome:Insira sua idade:
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Insira seu nome:Insira sua idade:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:10:34)
+-- CODE: 
+nome = input("Insira seu nome:")
+
+idade = int(input("Insira sua idade:"))
+altura = float(input("Insira sua altura (em metros):"))
+
+print("Nome:",nome)
+print("Idade:",idade)
+print("Altura:",altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:15:17)
+-- CODE: 
+input("Insira seu nome:")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Insira seu nome:
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Insira seu nome:
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Insira seu nome:
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Insira seu nome:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:28:47)
+-- CODE: 
+nome = input("Insira seu nome:")
+
+idade = int(input("Insira sua idade:"))
+altura = float(input("Insira sua altura:"))
+
+print(nome)
+print(idade)
+print(altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:17:02)
+-- CODE: 
+nome = input("Insira seu nome:")
+
+idade = int(input("Insira sua idade:"))
+altura = float(input("Insira sua altura (em metros):"))
+
+print("Nome:",nome)
+print("Idade:",idade)
+print("Altura:",altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:16:41)
+-- CODE: 
+nome = input("Insira seu nome:")
+
+idade = int(input("Insira sua idade:"))
+altura = float(input("Insira sua altura (em metros):"))
+
+print("Nome:",nome)
+print("Idade:",idade)
+print("Altura:",altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:30:46)
+-- CODE: 
+nome = input("Insira seu nome:")
+
+idade = int(input("Insira sua idade:"))
+altura = float(input("Insira sua altura:"))
+
+print("Nome:",nome)
+print("Idade:",idade)
+print("Altura:",altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:31:14)
+-- CODE: 
+nome = input("Insira seu nome:")
+
+idade = int(input("Insira sua idade:"))
+altura = float(input("Insira sua altura (em metros):"))
+
+print("Nome:",nome)
+print("Idade:",idade)
+print("Altura:",altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:17:49)
+-- CODE: 
+nome = input("Insira seu nome:")
+
+input("Insira sua idade:")
+input("Insira sua altura:")
+
+print(nome)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Insira seu nome:Insira sua idade:Insira sua altura:Teresa
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Insira seu nome:Insira sua idade:Insira sua altura:Marcelo
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Insira seu nome:Insira sua idade:Insira sua altura:Larissa
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Insira seu nome:Insira sua idade:Insira sua altura:Jose
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 14:31:40)
+-- CODE: 
+nome = input("Insira seu nome:")
+
+idade = int(input("Insira sua idade:"))
+altura = float(input("Insira sua altura (em metros):"))
+
+print("Nome:",nome)
+print("Idade:",idade)
+print("Altura:",altura)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:20:00)
+-- CODE: 
+nome = input("Insira seu nome:")
+
+idade = int(input("Insira sua idade:"))
+altura = input(float("Insira sua altura:"))
+
+print(nome)
+print(idade)
+print(altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    altura = input(float("Insira sua altura:"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira sua altura:'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    altura = input(float("Insira sua altura:"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira sua altura:'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    altura = input(float("Insira sua altura:"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira sua altura:'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    altura = input(float("Insira sua altura:"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira sua altura:'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:30:31)
+-- CODE: 
+nome = input("Insira seu nome:")
+
+idade = int(input("Insira sua idade:"))
+altura = float(input("Insira sua altura:"))
+
+print("Nome:",nome)
+print("Idade:",idade)
+print("Altura:",altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

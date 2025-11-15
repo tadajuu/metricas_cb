@@ -1,0 +1,1160 @@
+== RUN (2025-08-27 18:35:52)
+-- CODE: 
+a= float(input())
+b= float(input())
+c= float(input())
+print(a**2+b**2+c**2)/(a+b+c)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 18:31:07)
+-- CODE: 
+a= input()
+b= input()
+c= input()
+print = a 
+print = b 
+print = c
+print=round(a**2+b**2+c**2)/(a+b+c, 7))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 18:32:55)
+-- CODE: 
+a= float(input())
+b= float(input())
+c= float(input())
+print = a 
+print = b 
+print = c
+print =(a**2+b**2+c**2)/(a+b+c)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 18:31:08)
+-- CODE: 
+a= input()
+b= input()
+c= input()
+print = a 
+print = b 
+print = c
+print=round(a**2+b**2+c**2)/(a+b+c, 7))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 18:37:23)
+-- CODE: 
+a= float(input())
+b= float(input())
+c= float(input())
+print(round((a**2+b**2+c**2)/(a+b+c), 7))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+---- user output:
+2.3333333
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+---- user output:
+25.6666667
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+---- user output:
+342.8680203
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+---- user output:
+106.1509434
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+---- user output:
+83.3333333
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+---- user output:
+-3.75
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 18:30:36)
+-- CODE: 
+a= input()
+b= input()
+c= input()
+print = a 
+print = b 
+print = c
+print=round((a**2+b**2+c**2)/(a+b+c), 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c), 2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c), 2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c), 2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c), 2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c), 2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c), 2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 18:36:47)
+-- CODE: 
+a= float(input())
+b= float(input())
+c= float(input())
+print((a**2+b**2+c**2)/(a+b+c))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+---- user output:
+2.3333333333333335
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+---- user output:
+25.666666666666668
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+---- user output:
+342.8680203045685
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+---- user output:
+106.15094339622641
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+---- user output:
+83.33333333333333
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+---- user output:
+-3.75
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 18:31:07)
+-- CODE: 
+a= input()
+b= input()
+c= input()
+print = a 
+print = b 
+print = c
+print=round(a**2+b**2+c**2)/(a+b+c, 7))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+File "XXXX", line 7
+    print=round(a**2+b**2+c**2)/(a+b+c, 7))
+                                          ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 18:34:04)
+-- CODE: 
+a= float(input())
+b= float(input())
+c= float(input())
+print(a) 
+print (b) 
+print (c)
+print(a**2+b**2+c**2)/(a+b+c)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 18:35:53)
+-- CODE: 
+a= float(input())
+b= float(input())
+c= float(input())
+print(a**2+b**2+c**2)/(a+b+c)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a**2+b**2+c**2)/(a+b+c)
+    ~~~~~~~~~~~~~~~~~~~~~^^~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 18:33:08)
+-- CODE: 
+a= float(input())
+b= float(input())
+c= float(input())
+print = a 
+print = b 
+print = c
+print =(a**2+b**2+c**2)/(a+b+c)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 18:30:47)
+-- CODE: 
+a= input()
+b= input()
+c= input()
+print = a 
+print = b 
+print = c
+print=round((a**2+b**2+c**2)/(a+b+c),7)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c),7)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c),7)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c),7)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c),7)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c),7)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c),7)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 18:30:29)
+-- CODE: 
+a= input()
+b= input()
+c= input()
+print = a 
+print = b 
+print = c
+print=round((a**2+b**2+c**2)/(a+b+c),2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c),2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c),2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c),2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c),2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c),2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c),2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 18:30:37)
+-- CODE: 
+a= input()
+b= input()
+c= input()
+print = a 
+print = b 
+print = c
+print=round((a**2+b**2+c**2)/(a+b+c), 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c), 2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c), 2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c), 2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c), 2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c), 2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print=round((a**2+b**2+c**2)/(a+b+c), 2)
+                 ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

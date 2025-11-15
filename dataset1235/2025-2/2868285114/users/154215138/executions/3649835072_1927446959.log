@@ -1,0 +1,170 @@
+== RUN (2025-08-20 16:56:16)
+-- CODE: 
+n = float(input("Digite um numero: "))
+porcentagem_em_27 = n * 0.27
+porcentagem_em_27_arredondado = round(porcentagem_em_27, 2)
+
+acrescimo_em_42 = n * 1.42
+acrescimo_em_42_arredondado = round(acrescimo_em_42, 2)
+
+desconto_em_63 = n * 0.37 # 100 - 63 = 37
+desconto_em_63_arredondado = round (desconto_em_63, 2)
+
+print(porcentagem_em_27_arredondado)
+print(porcentagem_em_42_arredondado)
+print(porcentagem_em_63_arredondado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(porcentagem_em_42_arredondado)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'porcentagem_em_42_arredondado' is not defined. Did you mean: 'porcentagem_em_27_arredondado'?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(porcentagem_em_42_arredondado)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'porcentagem_em_42_arredondado' is not defined. Did you mean: 'porcentagem_em_27_arredondado'?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(porcentagem_em_42_arredondado)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'porcentagem_em_42_arredondado' is not defined. Did you mean: 'porcentagem_em_27_arredondado'?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(porcentagem_em_42_arredondado)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'porcentagem_em_42_arredondado' is not defined. Did you mean: 'porcentagem_em_27_arredondado'?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(porcentagem_em_42_arredondado)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'porcentagem_em_42_arredondado' is not defined. Did you mean: 'porcentagem_em_27_arredondado'?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(porcentagem_em_42_arredondado)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'porcentagem_em_42_arredondado' is not defined. Did you mean: 'porcentagem_em_27_arredondado'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 16:59:04)
+-- CODE: 
+n = float(input("Digite um numero: "))
+porcentagem_em_27 = n * 0.27
+porcentagem_em_27_arredondado = round(porcentagem_em_27, 2)
+
+acrescimo_em_42 = n * 1.42
+acrescimo_em_42_arredondado = round(acrescimo_em_42, 2)
+
+desconto_em_63 = n * 0.37 # 100 - 63 = 37
+desconto_em_63_arredondado = round (desconto_em_63, 2)
+
+print(porcentagem_em_27_arredondado)
+print(acrescimo_em_42_arredondado)
+print(desconto_em_63_arredondado)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

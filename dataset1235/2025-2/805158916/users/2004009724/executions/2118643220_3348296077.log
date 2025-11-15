@@ -1,0 +1,1508 @@
+== RUN (2025-09-01 15:25:36)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF)* (20/100)
+print(round(V, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:26:32)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF)* (20/100)
+V = (Taxa + TF + ICMS)
+print(round(ICMS, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+Tempo de estacionamento em horas4.0
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+Tempo de estacionamento em horas22.0
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+Tempo de estacionamento em horas28.0
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+Tempo de estacionamento em horas10.0
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+Tempo de estacionamento em horas16.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+Tempo de estacionamento em horas76.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:26:33)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF)* (20/100)
+V = (Taxa + TF + ICMS)
+print(round(ICMS, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+Tempo de estacionamento em horas4.0
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+Tempo de estacionamento em horas22.0
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+Tempo de estacionamento em horas28.0
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+Tempo de estacionamento em horas10.0
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+Tempo de estacionamento em horas16.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+Tempo de estacionamento em horas76.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:21:39)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE + 15)
+TF = 5.00
+ICMS = (Taxa + TF + ICMS)
+print(round(V, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:19:44)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF + ICMS)
+print(round(V, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:25:45)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF)* (20/100)
+print(round(ICMS, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+Tempo de estacionamento em horas4.0
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+Tempo de estacionamento em horas22.0
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+Tempo de estacionamento em horas28.0
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+Tempo de estacionamento em horas10.0
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+Tempo de estacionamento em horas16.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+Tempo de estacionamento em horas76.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:24:53)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF)*(20/100)
+print(round(ICMS, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+Tempo de estacionamento em horas4.0
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+Tempo de estacionamento em horas22.0
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+Tempo de estacionamento em horas28.0
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+Tempo de estacionamento em horas10.0
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+Tempo de estacionamento em horas16.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+Tempo de estacionamento em horas76.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:25:29)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF )* (20/100)
+print(round(V, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:19:46)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF + ICMS)
+print(round(V, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:25:31)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF )* (20/100)
+print(round(V, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:25:00)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF)*(20/100)
+print(round(V, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:21:40)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE + 15)
+TF = 5.00
+ICMS = (Taxa + TF + ICMS)
+print(round(V, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:25:44)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF)* (20/100)
+print(round(ICMS, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+Tempo de estacionamento em horas4.0
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+Tempo de estacionamento em horas22.0
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+Tempo de estacionamento em horas28.0
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+Tempo de estacionamento em horas10.0
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+Tempo de estacionamento em horas16.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+Tempo de estacionamento em horas76.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:24:53)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF)*(20/100)
+print(round(ICMS, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+Tempo de estacionamento em horas4.0
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+Tempo de estacionamento em horas22.0
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+Tempo de estacionamento em horas28.0
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+Tempo de estacionamento em horas10.0
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+Tempo de estacionamento em horas16.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+Tempo de estacionamento em horas76.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:26:41)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF)* (20/100)
+V = (Taxa + TF + ICMS)
+
+print(round(V, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+Tempo de estacionamento em horas24.0
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+Tempo de estacionamento em horas132.0
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+Tempo de estacionamento em horas168.0
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+Tempo de estacionamento em horas60.0
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+Tempo de estacionamento em horas96.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+Tempo de estacionamento em horas456.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:25:36)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF)* (20/100)
+print(round(V, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:26:42)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF)* (20/100)
+V = (Taxa + TF + ICMS)
+
+print(round(V, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+Tempo de estacionamento em horas24.0
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+Tempo de estacionamento em horas132.0
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+Tempo de estacionamento em horas168.0
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+Tempo de estacionamento em horas60.0
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+Tempo de estacionamento em horas96.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+Tempo de estacionamento em horas456.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:23:12)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF + ICMS)
+print(round(ICMS, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:23:11)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF + ICMS)
+print(round(ICMS, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:23:38)
+-- CODE: 
+TE = float(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF + ICMS)
+print(round(ICMS, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:25:01)
+-- CODE: 
+TE = int(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF)*(20/100)
+print(round(V, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(V, 2))
+                ^
+NameError: name 'V' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:23:37)
+-- CODE: 
+TE = float(input("Tempo de estacionamento em horas"))
+Taxa = (TE * 15)
+TF = 5.00
+ICMS = (Taxa + TF + ICMS)
+print(round(ICMS, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    ICMS = (Taxa + TF + ICMS)
+                        ^^^^
+NameError: name 'ICMS' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

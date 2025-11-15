@@ -1,0 +1,510 @@
+== RUN (2025-09-02 23:18:31)
+-- CODE: 
+qtd_s = int(input("Quantidade de suco: "))
+qtd_sa = int(input("Quantidade de salgado: "))
+valor_disp = float(input("Digite o valor disponível: "))
+valortotal = (qtd_s + qtd_sa) * valor_disp
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0
+5
+12.60
+---- correct output:
+17.5
+Nao
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível:
+-- TEST CASE 2:
+---- input:
+2
+2
+15.0
+---- correct output:
+13.0
+Sim
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível:
+-- TEST CASE 3:
+---- input:
+3
+3
+20.0
+---- correct output:
+19.5
+Sim
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível:
+-- TEST CASE 4:
+---- input:
+10
+2
+15.00
+---- correct output:
+37.0
+Nao
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível:
+-- TEST CASE 5:
+---- input:
+3
+5
+25.50
+---- correct output:
+26.5
+Nao
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível:
+-- TEST CASE 6:
+---- input:
+1
+2
+8.0
+---- correct output:
+10.0
+Nao
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:10:47)
+-- CODE: 
+qtd_s = int(input("Quantidade de suco: "))
+qtd_sa = int(input("Quantidade de salgado: "))
+valor_disp = float(input("Digite o valor disponível: "))
+valor_disp_arredondado = round(valor_disp,2)
+print(valor_disp_arredondado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0
+5
+12.60
+---- correct output:
+17.5
+Nao
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível: 12.6
+-- TEST CASE 2:
+---- input:
+2
+2
+15.0
+---- correct output:
+13.0
+Sim
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível: 15.0
+-- TEST CASE 3:
+---- input:
+3
+3
+20.0
+---- correct output:
+19.5
+Sim
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível: 20.0
+-- TEST CASE 4:
+---- input:
+10
+2
+15.00
+---- correct output:
+37.0
+Nao
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível: 15.0
+-- TEST CASE 5:
+---- input:
+3
+5
+25.50
+---- correct output:
+26.5
+Nao
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível: 25.5
+-- TEST CASE 6:
+---- input:
+1
+2
+8.0
+---- correct output:
+10.0
+Nao
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível: 8.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:26:42)
+-- CODE: 
+qtd_s = int(input("Quantidade de suco: "))
+qtd_sa = int(input("Quantidade de salgado: "))
+valor_disp = float(input("Digite o valor disponível: "))
+valortotal = (3.00 * qtd_s) + (3.50 * qtd_sa)
+valortotalarredondado = round(valortotal,2)
+print(valortotalarredondado)
+if valortotalarredondado > valor_disp:
+  print("Nao")
+else:
+  print("Sim")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0
+5
+12.60
+---- correct output:
+17.5
+Nao
+---- user output:
+Nao
+-- TEST CASE 2:
+---- input:
+2
+2
+15.0
+---- correct output:
+13.0
+Sim
+---- user output:
+Sim
+-- TEST CASE 3:
+---- input:
+3
+3
+20.0
+---- correct output:
+19.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 4:
+---- input:
+10
+2
+15.00
+---- correct output:
+37.0
+Nao
+---- user output:
+Nao
+-- TEST CASE 5:
+---- input:
+3
+5
+25.50
+---- correct output:
+26.5
+Nao
+---- user output:
+Nao
+-- TEST CASE 6:
+---- input:
+1
+2
+8.0
+---- correct output:
+10.0
+Nao
+---- user output:
+Nao
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:09:30)
+-- CODE: 
+qtd_s = int(input("Quantidade de suco: "))
+qtd_sa = int(input("Quantidade de salgado: "))
+valor_disp = float(input("Digite o valor disponível: "))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0
+5
+12.60
+---- correct output:
+17.5
+Nao
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível:
+-- TEST CASE 2:
+---- input:
+2
+2
+15.0
+---- correct output:
+13.0
+Sim
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível:
+-- TEST CASE 3:
+---- input:
+3
+3
+20.0
+---- correct output:
+19.5
+Sim
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível:
+-- TEST CASE 4:
+---- input:
+10
+2
+15.00
+---- correct output:
+37.0
+Nao
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível:
+-- TEST CASE 5:
+---- input:
+3
+5
+25.50
+---- correct output:
+26.5
+Nao
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível:
+-- TEST CASE 6:
+---- input:
+1
+2
+8.0
+---- correct output:
+10.0
+Nao
+---- user output:
+Quantidade de suco: Quantidade de salgado: Digite o valor disponível:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:12:34)
+-- CODE: 
+qtd_s = int(input("Quantidade de suco: "))
+qtd_sa = int(input("Quantidade de salgado: "))
+valor_disp = float(input("Digite o valor disponível: "))
+valor_disp_arredondado = round(valor_disp,2)
+print(valor_disp_arredondado)
+if valor_disp_arredondado > 6.5:
+  print("sim")
+else:
+  print("nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0
+5
+12.60
+---- correct output:
+17.5
+Nao
+---- user output:
+sim
+-- TEST CASE 2:
+---- input:
+2
+2
+15.0
+---- correct output:
+13.0
+Sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+3
+3
+20.0
+---- correct output:
+19.5
+Sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+10
+2
+15.00
+---- correct output:
+37.0
+Nao
+---- user output:
+sim
+-- TEST CASE 5:
+---- input:
+3
+5
+25.50
+---- correct output:
+26.5
+Nao
+---- user output:
+sim
+-- TEST CASE 6:
+---- input:
+1
+2
+8.0
+---- correct output:
+10.0
+Nao
+---- user output:
+sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:26:05)
+-- CODE: 
+qtd_s = int(input("Quantidade de suco: "))
+qtd_sa = int(input("Quantidade de salgado: "))
+valor_disp = float(input("Digite o valor disponível: "))
+valortotal = (3.00 * qtd_s) + (3.50 * qtd_sa)
+valortotalarredondado = round(valortotal,2)
+print(valortotalarredondado)
+if valortotalarredondado > valor_disp:
+  print("nao")
+else:
+  print("sim")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0
+5
+12.60
+---- correct output:
+17.5
+Nao
+---- user output:
+nao
+-- TEST CASE 2:
+---- input:
+2
+2
+15.0
+---- correct output:
+13.0
+Sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+3
+3
+20.0
+---- correct output:
+19.5
+Sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+10
+2
+15.00
+---- correct output:
+37.0
+Nao
+---- user output:
+nao
+-- TEST CASE 5:
+---- input:
+3
+5
+25.50
+---- correct output:
+26.5
+Nao
+---- user output:
+nao
+-- TEST CASE 6:
+---- input:
+1
+2
+8.0
+---- correct output:
+10.0
+Nao
+---- user output:
+nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:25:55)
+-- CODE: 
+qtd_s = int(input("Quantidade de suco: "))
+qtd_sa = int(input("Quantidade de salgado: "))
+valor_disp = float(input("Digite o valor disponível: "))
+valortotal = (3.00 * qtd_s) + (3.50 * qtd_sa)
+valortotalarredondado = round(valortotal,2)
+print(valortotalarredondado)
+if valortotalarredondado > valor_disp:
+  print("nao")
+else:
+  print("sim")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0
+5
+12.60
+---- correct output:
+17.5
+Nao
+---- user output:
+nao
+-- TEST CASE 2:
+---- input:
+2
+2
+15.0
+---- correct output:
+13.0
+Sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+3
+3
+20.0
+---- correct output:
+19.5
+Sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+10
+2
+15.00
+---- correct output:
+37.0
+Nao
+---- user output:
+nao
+-- TEST CASE 5:
+---- input:
+3
+5
+25.50
+---- correct output:
+26.5
+Nao
+---- user output:
+nao
+-- TEST CASE 6:
+---- input:
+1
+2
+8.0
+---- correct output:
+10.0
+Nao
+---- user output:
+nao
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

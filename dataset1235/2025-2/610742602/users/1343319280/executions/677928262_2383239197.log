@@ -1,0 +1,399 @@
+== RUN (2025-08-27 17:58:07)
+-- CODE: 
+from math import *
+# Entrada 
+a = float (input("Distancia da primeira árvore: "))
+b = float (input("Distancia da segunda árvore: ")) 
+ang = float (input("Angulo entre as duas distancias: "))
+
+rad = math.radians(ang)
+
+c = math.sqrt(a ** 2 + b ** 2 - 2 * a * b * math.cos(rad))
+
+# Saída 
+print(round(c , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    rad = math.radians(ang)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    rad = math.radians(ang)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    rad = math.radians(ang)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    rad = math.radians(ang)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    rad = math.radians(ang)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    rad = math.radians(ang)
+          ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:58:25)
+-- CODE: 
+from math import *
+# Entrada 
+a = float (input("Distancia da primeira árvore: "))
+b = float (input("Distancia da segunda árvore: ")) 
+ang = float (input("Angulo entre as duas distancias: "))
+
+rad = math.radians(ang)
+
+c = math.sqrt(a ** 2 + b ** 2 - 2 * a * b * math.cos(rad))
+
+# Saída 
+print(round(c , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    rad = math.radians(ang)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    rad = math.radians(ang)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    rad = math.radians(ang)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    rad = math.radians(ang)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    rad = math.radians(ang)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    rad = math.radians(ang)
+          ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:45:11)
+-- CODE: 
+from math import *
+# Entrada 
+a = float (input("Distancia da primeira árvore: "))
+b = float (input("Distancia da segunda árvore: ")) 
+ang = float (input("Angulo entre as duas distancias: "))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias:
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias:
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias:
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias:
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias:
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 18:00:12)
+-- CODE: 
+import math
+# Entrada 
+a = float (input("Distancia da primeira árvore: "))
+b = float (input("Distancia da segunda árvore: ")) 
+ang = float (input("Angulo entre as duas distancias: "))
+
+rad = math.radians(ang)
+
+c = math.sqrt(a ** 2 + b ** 2 - 2 * a * b * math.cos(rad))
+
+# Saída 
+print(round(c , 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias: 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias: 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias: 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias: 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias: 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias: 9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 18:00:03)
+-- CODE: 
+import math
+# Entrada 
+a = float (input("Distancia da primeira árvore: "))
+b = float (input("Distancia da segunda árvore: ")) 
+ang = float (input("Angulo entre as duas distancias: "))
+
+rad = math.radians(ang)
+
+c = math.sqrt(a ** 2 + b ** 2 - 2 * a * b * math.cos(rad))
+
+# Saída 
+print(round(c , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias: 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias: 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias: 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias: 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias: 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Distancia da primeira árvore: Distancia da segunda árvore: Angulo entre as duas distancias: 9.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

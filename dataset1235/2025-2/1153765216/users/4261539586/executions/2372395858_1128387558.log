@@ -1,0 +1,779 @@
+== RUN (2025-08-28 18:08:51)
+-- CODE: 
+dolar = float(input("digite um valor: "))
+
+valor_em_reais = valor_em_dolar * 2,96
+print(round(valor_em_reais, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+20.72
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_em_reais = valor_em_dolar * 2,96
+                     ^^^^^^^^^^^^^^
+NameError: name 'valor_em_dolar' is not defined
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+2.96
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_em_reais = valor_em_dolar * 2,96
+                     ^^^^^^^^^^^^^^
+NameError: name 'valor_em_dolar' is not defined
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+23.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_em_reais = valor_em_dolar * 2,96
+                     ^^^^^^^^^^^^^^
+NameError: name 'valor_em_dolar' is not defined
+-- TEST CASE 4:
+---- input:
+19
+---- correct output:
+56.24
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_em_reais = valor_em_dolar * 2,96
+                     ^^^^^^^^^^^^^^
+NameError: name 'valor_em_dolar' is not defined
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+62.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_em_reais = valor_em_dolar * 2,96
+                     ^^^^^^^^^^^^^^
+NameError: name 'valor_em_dolar' is not defined
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+5.92
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_em_reais = valor_em_dolar * 2,96
+                     ^^^^^^^^^^^^^^
+NameError: name 'valor_em_dolar' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:21:37)
+-- CODE: 
+valorEmDolarNeozelandes = int(input("digite um valor: "))
+
+valorEmReais = valorEmDolarNeozelandes * 2.96
+print(round(valorEmReais, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+20.72
+---- user output:
+digite um valor: 20.72
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+2.96
+---- user output:
+digite um valor: 2.96
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+23.68
+---- user output:
+digite um valor: 23.68
+-- TEST CASE 4:
+---- input:
+19
+---- correct output:
+56.24
+---- user output:
+digite um valor: 56.24
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+62.16
+---- user output:
+digite um valor: 62.16
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+5.92
+---- user output:
+digite um valor: 5.92
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:09:32)
+-- CODE: 
+dolar = float(input("digite um valor: "))
+
+valorEmReais = valorEmDolar * 2,96
+print(round(valorEmReais, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+20.72
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valorEmReais = valorEmDolar * 2,96
+                   ^^^^^^^^^^^^
+NameError: name 'valorEmDolar' is not defined
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+2.96
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valorEmReais = valorEmDolar * 2,96
+                   ^^^^^^^^^^^^
+NameError: name 'valorEmDolar' is not defined
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+23.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valorEmReais = valorEmDolar * 2,96
+                   ^^^^^^^^^^^^
+NameError: name 'valorEmDolar' is not defined
+-- TEST CASE 4:
+---- input:
+19
+---- correct output:
+56.24
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valorEmReais = valorEmDolar * 2,96
+                   ^^^^^^^^^^^^
+NameError: name 'valorEmDolar' is not defined
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+62.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valorEmReais = valorEmDolar * 2,96
+                   ^^^^^^^^^^^^
+NameError: name 'valorEmDolar' is not defined
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+5.92
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valorEmReais = valorEmDolar * 2,96
+                   ^^^^^^^^^^^^
+NameError: name 'valorEmDolar' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:12:06)
+-- CODE: 
+valorEmDolarNeozelandes = float(input("digite um valor: "))
+
+valorEmReais = valorEmDolarNeozelandes * 2,96
+print(round(valorEmReais, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+20.72
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+2.96
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+23.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+19
+---- correct output:
+56.24
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+62.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+5.92
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:09:48)
+-- CODE: 
+dolar = float(input("digite um valor: "))
+
+valorEmReais = dolar * 2,96
+print(round(valorEmReais, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+20.72
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+2.96
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+23.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+19
+---- correct output:
+56.24
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+62.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+5.92
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:11:24)
+-- CODE: 
+valorEmDolarNeozelandes = float(input("digite um valor: "))
+
+valorEmReais = valorEmDolarNeozelandes * 2,96
+print(round(valorEmReais, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+20.72
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+2.96
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+23.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+19
+---- correct output:
+56.24
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+62.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+5.92
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:10:06)
+-- CODE: 
+dolar = float(input("digite um valor: "))
+
+reais = dolar * 2,96
+print(round(reais, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+20.72
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(reais, 2))
+          ^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+2.96
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(reais, 2))
+          ^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+23.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(reais, 2))
+          ^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+19
+---- correct output:
+56.24
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(reais, 2))
+          ^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+62.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(reais, 2))
+          ^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+5.92
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(reais, 2))
+          ^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:08:53)
+-- CODE: 
+dolar = float(input("digite um valor: "))
+
+valor_em_reais = valor_em_dolar * 2,96
+print(round(valor_em_reais, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+20.72
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_em_reais = valor_em_dolar * 2,96
+                     ^^^^^^^^^^^^^^
+NameError: name 'valor_em_dolar' is not defined
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+2.96
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_em_reais = valor_em_dolar * 2,96
+                     ^^^^^^^^^^^^^^
+NameError: name 'valor_em_dolar' is not defined
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+23.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_em_reais = valor_em_dolar * 2,96
+                     ^^^^^^^^^^^^^^
+NameError: name 'valor_em_dolar' is not defined
+-- TEST CASE 4:
+---- input:
+19
+---- correct output:
+56.24
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_em_reais = valor_em_dolar * 2,96
+                     ^^^^^^^^^^^^^^
+NameError: name 'valor_em_dolar' is not defined
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+62.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_em_reais = valor_em_dolar * 2,96
+                     ^^^^^^^^^^^^^^
+NameError: name 'valor_em_dolar' is not defined
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+5.92
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_em_reais = valor_em_dolar * 2,96
+                     ^^^^^^^^^^^^^^
+NameError: name 'valor_em_dolar' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:12:05)
+-- CODE: 
+valorEmDolarNeozelandes = float(input("digite um valor: "))
+
+valorEmReais = valorEmDolarNeozelandes * 2,96
+print(round(valorEmReais, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+20.72
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+2.96
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+23.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+19
+---- correct output:
+56.24
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+62.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+5.92
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:21:31)
+-- CODE: 
+valorEmDolarNeozelandes = int(input("digite um valor: "))
+
+valorEmReais = valorEmDolarNeozelandes * 2.96
+print(round(valorEmReais, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+20.72
+---- user output:
+digite um valor: 20.72
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+2.96
+---- user output:
+digite um valor: 2.96
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+23.68
+---- user output:
+digite um valor: 23.68
+-- TEST CASE 4:
+---- input:
+19
+---- correct output:
+56.24
+---- user output:
+digite um valor: 56.24
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+62.16
+---- user output:
+digite um valor: 62.16
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+5.92
+---- user output:
+digite um valor: 5.92
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:12:15)
+-- CODE: 
+valorEmDolarNeozelandes = int(input("digite um valor: "))
+
+valorEmReais = valorEmDolarNeozelandes * 2,96
+print(round(valorEmReais, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+20.72
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+2.96
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+23.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+19
+---- correct output:
+56.24
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+62.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+5.92
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(valorEmReais, 2))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

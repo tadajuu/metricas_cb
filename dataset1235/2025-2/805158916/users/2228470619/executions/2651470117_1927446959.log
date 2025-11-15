@@ -1,0 +1,987 @@
+== RUN (2025-08-25 15:21:45)
+-- CODE: 
+n = float(input("Insira o número: "))
+
+print("\n27% de ",n,": ",round(n*(27/100),2))
+print("\nAcréscimo: ",round(n+(n*(42/100)),2))
+print("\nDesconto: ",round(n-(n*(63/100)),2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Desconto:  45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Desconto:  9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Desconto:  120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Desconto:  1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Desconto:  2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Desconto:  4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:12:11)
+-- CODE: 
+n = float(input("Insira o número: "))
+m = (n*(27/100))
+
+print("\n27% de ",n,": ",round(m,2))
+print("\nAcréscimo: ",round(n+(n*(42/100)),2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Acréscimo:  174.86
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Acréscimo:  35.5
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Acréscimo:  462.35
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Acréscimo:  5066.42
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Acréscimo:  7705.2
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Acréscimo:  17.25
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:16:38)
+-- CODE: 
+n = float(input("Insira o número: "))
+m = (n*(27/100))
+
+print("\n27% de ",n,": ",round(m,2))
+print("\nAcréscimo: ",round(n+(n*(42/100)),2))
+print("\nDesconto: ",round(n-(n*(63/100)),2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Desconto:  45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Desconto:  9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Desconto:  120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Desconto:  1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Desconto:  2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Desconto:  4.5
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:21:10)
+-- CODE: 
+n = float(input("Insira o número: "))
+
+print("\n27% de ",n,": ",round(n*(27/100),2))
+print("\nAcréscimo: ",round(n+(n*(42/100)),2))
+print("\nDesconto: ",round(n-(n*(63/100)),2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Desconto:  45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Desconto:  9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Desconto:  120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Desconto:  1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Desconto:  2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Desconto:  4.5
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:25:12)
+-- CODE: 
+n = float(input("Insira o número: "))
+
+print(round(n*(27/100),2))
+print(round(n+(n*(42/100)),2))
+print(round(n*37/100),2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:21:41)
+-- CODE: 
+n = float(input("Insira o número: "))
+
+print("\n27% de ",n,": ",round(n*(27/100),2))
+print("\nAcréscimo: ",round(n+(n*(42/100)),2))
+print("\nDesconto: ",round(n-(n*(63/100)),2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Desconto:  45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Desconto:  9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Desconto:  120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Desconto:  1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Desconto:  2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Desconto:  4.5
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:23:53)
+-- CODE: 
+n = float(input("Insira o número: "))
+
+print(round(n*(27/100),2))
+print(round(n+(n*(42/100)),2))
+print(round(n-(n*(63/100)),2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:25:10)
+-- CODE: 
+n = float(input("Insira o número: "))
+
+print(round(n*(27/100),2))
+print(round(n+(n*(42/100)),2))
+print(round(n*37/100),2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:25:11)
+-- CODE: 
+n = float(input("Insira o número: "))
+
+print(round(n*(27/100),2))
+print(round(n+(n*(42/100)),2))
+print(round(n*37/100),2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100),2))
+                            ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:20:47)
+-- CODE: 
+n = float(input("Insira o número: "))
+
+print("\n27% de ",n,": ",round(n*(27/100),2))
+print("\nAcréscimo: ",round(n+(n*(42/100)),2))
+print("\nDesconto: ",round(n-(n*(63/100)),2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Desconto:  45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Desconto:  9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Desconto:  120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Desconto:  1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Desconto:  2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Desconto:  4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:24:25)
+-- CODE: 
+n = float(input("Insira o número: "))
+
+print(round(n*(27/100),2))
+print(round(n+(n*(42/100)),2))
+print(round(n*37/100)),2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100)),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100)),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100)),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100)),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100)),2))
+                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 5
+    print(round(n*37/100)),2))
+                            ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:23:27)
+-- CODE: 
+n = float(input("Insira o número: "))
+
+print("27% de ",n,": ",round(n*(27/100),2))
+print("Acréscimo: ",round(n+(n*(42/100)),2))
+print("Desconto: ",round(n-(n*(63/100)),2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Desconto:  45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Desconto:  9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Desconto:  120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Desconto:  1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Desconto:  2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Desconto:  4.5
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:25:35)
+-- CODE: 
+n = float(input("Insira o número: "))
+
+print(round(n*(27/100),2))
+print(round(n+(n*(42/100)),2))
+print(round(n*37/100,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:25:33)
+-- CODE: 
+n = float(input("Insira o número: "))
+
+print(round(n*(27/100),2))
+print(round(n+(n*(42/100)),2))
+print(round(n*37/100,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

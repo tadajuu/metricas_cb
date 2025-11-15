@@ -1,0 +1,478 @@
+== RUN (2025-08-31 20:05:17)
+-- CODE: 
+import math
+n = int(input("Numero: "))
+
+num = math.factorial(365)
+den = math.factorial (365-n)
+
+p = 1 - (num/den) * 1/(365**n)  
+
+result = p*100
+
+print(round(result, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+---- user output:
+Numero: 97.04
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+---- user output:
+Numero: 50.73
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+Numero: 16.7
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+Numero: 100.0
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+---- user output:
+Numero: 86.41
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+Numero: 53.83
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:58:19)
+-- CODE: 
+num = int(input("Numero: "))
+
+p = 1 - ((365!)/(365-n)!) * 1/(365**n)
+
+print(p)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+-- ERROR:
+File "XXXX", line 3
+    p = 1 - ((365!)/(365-n)!) * 1/(365**n)
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+-- ERROR:
+File "XXXX", line 3
+    p = 1 - ((365!)/(365-n)!) * 1/(365**n)
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+-- ERROR:
+File "XXXX", line 3
+    p = 1 - ((365!)/(365-n)!) * 1/(365**n)
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+-- ERROR:
+File "XXXX", line 3
+    p = 1 - ((365!)/(365-n)!) * 1/(365**n)
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+-- ERROR:
+File "XXXX", line 3
+    p = 1 - ((365!)/(365-n)!) * 1/(365**n)
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+-- ERROR:
+File "XXXX", line 3
+    p = 1 - ((365!)/(365-n)!) * 1/(365**n)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-31 20:05:24)
+-- CODE: 
+import math
+n = int(input("Numero: "))
+
+num = math.factorial(365)
+den = math.factorial (365-n)
+
+p = 1 - (num/den) * 1/(365**n)  
+
+result = p*100
+
+print(round(result, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+---- user output:
+Numero: 97.04
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+---- user output:
+Numero: 50.73
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+Numero: 16.7
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+Numero: 100.0
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+---- user output:
+Numero: 86.41
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+Numero: 53.83
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 20:03:04)
+-- CODE: 
+n = int(input("Numero: "))
+
+num = factorial(365)
+den = factorial (365-n)
+p = 1 - (num/den) * 1/(365**n)
+
+print(round(p, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    num = factorial(365)
+          ^^^^^^^^^
+NameError: name 'factorial' is not defined
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    num = factorial(365)
+          ^^^^^^^^^
+NameError: name 'factorial' is not defined
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    num = factorial(365)
+          ^^^^^^^^^
+NameError: name 'factorial' is not defined
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    num = factorial(365)
+          ^^^^^^^^^
+NameError: name 'factorial' is not defined
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    num = factorial(365)
+          ^^^^^^^^^
+NameError: name 'factorial' is not defined
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    num = factorial(365)
+          ^^^^^^^^^
+NameError: name 'factorial' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 20:04:26)
+-- CODE: 
+n = int(input("Numero: "))
+
+num = math.factorial(365)
+den = math.factorial (365-n)
+p = 1 - (num/den) * 1/(365**n)
+
+print(round(p, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    num = math.factorial(365)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    num = math.factorial(365)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    num = math.factorial(365)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    num = math.factorial(365)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    num = math.factorial(365)
+          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    num = math.factorial(365)
+          ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 20:03:31)
+-- CODE: 
+import math
+n = int(input("Numero: "))
+
+num = factorial(365)
+den = factorial (365-n)
+p = 1 - (num/den) * 1/(365**n)
+
+print(round(p, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    num = factorial(365)
+          ^^^^^^^^^
+NameError: name 'factorial' is not defined
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    num = factorial(365)
+          ^^^^^^^^^
+NameError: name 'factorial' is not defined
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    num = factorial(365)
+          ^^^^^^^^^
+NameError: name 'factorial' is not defined
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    num = factorial(365)
+          ^^^^^^^^^
+NameError: name 'factorial' is not defined
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    num = factorial(365)
+          ^^^^^^^^^
+NameError: name 'factorial' is not defined
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    num = factorial(365)
+          ^^^^^^^^^
+NameError: name 'factorial' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 20:04:42)
+-- CODE: 
+import math
+n = int(input("Numero: "))
+
+num = math.factorial(365)
+den = math.factorial (365-n)
+p = 1 - (num/den) * 1/(365**n)
+
+print(round(p, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+---- user output:
+Numero: 0.97
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+---- user output:
+Numero: 0.51
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+Numero: 0.17
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+Numero: 1.0
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+---- user output:
+Numero: 0.86
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+Numero: 0.54
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

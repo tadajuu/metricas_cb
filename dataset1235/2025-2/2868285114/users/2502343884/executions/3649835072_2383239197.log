@@ -1,0 +1,1494 @@
+== SUBMISSION (2025-08-28 17:55:25)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad = math.radians(gamma)
+c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(ga))
+print(f"{c:2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(ga))
+                                                   ^^
+NameError: name 'ga' is not defined. Did you mean: 'a'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(ga))
+                                                   ^^
+NameError: name 'ga' is not defined. Did you mean: 'a'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(ga))
+                                                   ^^
+NameError: name 'ga' is not defined. Did you mean: 'a'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(ga))
+                                                   ^^
+NameError: name 'ga' is not defined. Did you mean: 'a'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(ga))
+                                                   ^^
+NameError: name 'ga' is not defined. Did you mean: 'a'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(ga))
+                                                   ^^
+NameError: name 'ga' is not defined. Did you mean: 'a'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:06:36)
+-- CODE: 
+base = float(input("Digite o tamanho da base"))
+altura = float(input("Digite o tamanho da altura"))
+area = base*altura
+print(area)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite o tamanho da baseDigite o tamanho da altura1282.2600000000002
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite o tamanho da baseDigite o tamanho da altura215.0
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite o tamanho da baseDigite o tamanho da altura411.71999999999997
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite o tamanho da baseDigite o tamanho da altura9.5297
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite o tamanho da baseDigite o tamanho da altura165.0
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite o tamanho da baseDigite o tamanho da altura80.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:10:23)
+-- CODE: 
+base = float(input("Digite o tamanho da base: "))
+altura = float(input("Digite o tamanho da altura: "))
+area = base*altura
+print(area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 1282.2600000000002
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 215.0
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 411.71999999999997
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 9.5297
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 165.0
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 80.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:07:49)
+-- CODE: 
+base = float(input("Digite o tamanho da base: "))
+altura = float(input("Digite o tamanho da altura: "))
+area = base*altura
+print(area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 1282.2600000000002
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 215.0
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 411.71999999999997
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 9.5297
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 165.0
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 80.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 17:55:40)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad = math.radians(gamma)
+c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(gamma_rad))
+print(f"{c:2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+87.540445
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+16.422066
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+17.143810
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.880186
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+54.434707
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+9.165151
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:12:46)
+-- CODE: 
+base = float(input("Digite o tamanho da base: "))
+altura = float(input("Digite o tamanho da altura: "))
+area = base*altura
+print(area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 1282.2600000000002
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 215.0
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 411.71999999999997
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 9.5297
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 165.0
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 80.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:07:08)
+-- CODE: 
+base = float(input("Digite o tamanho da base: "))
+altura = float(input("Digite o tamanho da altura: "))
+area = base*altura
+print(area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 1282.2600000000002
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 215.0
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 411.71999999999997
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 9.5297
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 165.0
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 80.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:12:14)
+-- CODE: 
+base = float(input("Digite o tamanho da base: "))
+altura = float(input("Digite o tamanho da altura: "))
+area = base*altura
+print(area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 1282.2600000000002
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 215.0
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 411.71999999999997
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 9.5297
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 165.0
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 80.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:09:34)
+-- CODE: 
+base = float(input("Digite o tamanho da base: "))
+altura = float(input("Digite o tamanho da altura: "))
+area = base*altura
+print(round(area))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 1282
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 215
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 412
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 10
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 165
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 80
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 17:56:01)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad = math.radians(gamma)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_rad))
+print(f"{c:2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+87.540445
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+16.422066
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+17.143810
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.880186
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+54.434707
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+9.165151
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:06:39)
+-- CODE: 
+base = float(input("Digite o tamanho da base"))
+altura = float(input("Digite o tamanho da altura"))
+area = base*altura
+print(area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite o tamanho da baseDigite o tamanho da altura1282.2600000000002
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite o tamanho da baseDigite o tamanho da altura215.0
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite o tamanho da baseDigite o tamanho da altura411.71999999999997
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite o tamanho da baseDigite o tamanho da altura9.5297
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite o tamanho da baseDigite o tamanho da altura165.0
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite o tamanho da baseDigite o tamanho da altura80.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:07:10)
+-- CODE: 
+base = float(input("Digite o tamanho da base: "))
+altura = float(input("Digite o tamanho da altura: "))
+area = base*altura
+print(area)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 1282.2600000000002
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 215.0
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 411.71999999999997
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 9.5297
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 165.0
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 80.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:08:07)
+-- CODE: 
+base = float(input("Digite o tamanho da base: "))
+altura = float(input("Digite o tamanho da altura: "))
+area = base*altura
+print(area)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 1282.2600000000002
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 215.0
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 411.71999999999997
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 9.5297
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 165.0
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 80.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 17:55:24)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad = math.radians(gamma)
+c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(ga))
+print(f"{c:2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(ga))
+                                                   ^^
+NameError: name 'ga' is not defined. Did you mean: 'a'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(ga))
+                                                   ^^
+NameError: name 'ga' is not defined. Did you mean: 'a'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(ga))
+                                                   ^^
+NameError: name 'ga' is not defined. Did you mean: 'a'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(ga))
+                                                   ^^
+NameError: name 'ga' is not defined. Did you mean: 'a'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(ga))
+                                                   ^^
+NameError: name 'ga' is not defined. Did you mean: 'a'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = math.sqrt(a**2 + b**2-2 * a * b * math.cos(ga))
+                                                   ^^
+NameError: name 'ga' is not defined. Did you mean: 'a'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:10:24)
+-- CODE: 
+base = float(input("Digite o tamanho da base: "))
+altura = float(input("Digite o tamanho da altura: "))
+area = base*altura
+print(area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 1282.2600000000002
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 215.0
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 411.71999999999997
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 9.5297
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 165.0
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 80.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 17:56:04)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad = math.radians(gamma)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_rad))
+print(f"{c:2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+87.540445
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+16.422066
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+17.143810
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.880186
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+54.434707
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+9.165151
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 17:56:01)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad = math.radians(gamma)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_rad))
+print(f"{c:2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+87.540445
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+16.422066
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+17.143810
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.880186
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+54.434707
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+9.165151
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:08:05)
+-- CODE: 
+base = float(input("Digite o tamanho da base: "))
+altura = float(input("Digite o tamanho da altura: "))
+area = base*altura
+print(area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 1282.2600000000002
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 215.0
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 411.71999999999997
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 9.5297
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 165.0
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 80.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 17:55:59)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad = math.radians(gamma)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_rad))
+print(f"{c:2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+87.540445
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+16.422066
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+17.143810
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.880186
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+54.434707
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+9.165151
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:07:07)
+-- CODE: 
+base = float(input("Digite o tamanho da base: "))
+altura = float(input("Digite o tamanho da altura: "))
+area = base*altura
+print(area)
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 1282.2600000000002
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 215.0
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 411.71999999999997
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 9.5297
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 165.0
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 80.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:10:39)
+-- CODE: 
+base = float(input("Digite o tamanho da base: "))
+altura = float(input("Digite o tamanho da altura: "))
+area = base*altura
+print(area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 1282.2600000000002
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 215.0
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 411.71999999999997
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 9.5297
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 165.0
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite o tamanho da base: Digite o tamanho da altura: 80.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 17:56:37)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad = math.radians(gamma)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_rad))
+print(f"{c:.2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

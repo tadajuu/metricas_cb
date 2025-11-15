@@ -1,0 +1,1409 @@
+== SUBMISSION (2025-08-19 12:47:31)
+-- CODE: 
+X = int(input("Entre com o valor de X:"))
+Y = int(input("Entre com o valor de Y"))
+
+
+print(X // Y)
+print(X % Y)
+print(X / Y)
+print(X * Y)
+print(Y ** 3)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 17:48:24)
+-- CODE: 
+X = 14
+Y = 7
+QI = 14//7
+RT = X % Y
+QR = 14/7
+Produto = X * Y
+Potencia = Y ** 3
+print(QI)
+print(RT)
+print(QR)
+print(produto)
+print(Potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(produto)
+          ^^^^^^^
+NameError: name 'produto' is not defined. Did you mean: 'Produto'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(produto)
+          ^^^^^^^
+NameError: name 'produto' is not defined. Did you mean: 'Produto'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(produto)
+          ^^^^^^^
+NameError: name 'produto' is not defined. Did you mean: 'Produto'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(produto)
+          ^^^^^^^
+NameError: name 'produto' is not defined. Did you mean: 'Produto'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(produto)
+          ^^^^^^^
+NameError: name 'produto' is not defined. Did you mean: 'Produto'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(produto)
+          ^^^^^^^
+NameError: name 'produto' is not defined. Did you mean: 'Produto'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-16 18:33:33)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+QI = X // Y
+RI = X % Y
+QR = X / Y
+Produto = X * Y
+Potência = Y ** 3
+
+print(QI)
+print(RI)
+print(QR)
+print(Produto)
+print(Potência)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 18:28:59)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+Quociente da divisão inteira = 14 // 7
+Resto da divisão inteira = X % Y
+Quociente da divisão real = 14 / 7
+Produto de X vezes Y = X * Y
+O valor de Y elevado a terceira potência = Y ** 3
+
+print(Quociente da divisão inteira)
+print(Resto da divisão inteira)
+print(Quociente da divisão real)
+print(Produto de X vezes Y)
+print(O valor de Y elevado a terceira potência)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 18:28:49)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+Quociente da divisão inteira = 14 // 7
+Resto da divisão inteira = X % Y
+Quociente da divisão real = 14 / 7
+Produto de X vezes Y = X * Y
+O valor de Y elevado a terceira potência = Y ** 3
+
+print(Quociente da divisão inteira)
+print(Resto da divisão inteira)
+print(Quociente da divisão real)
+print(Produto de X vezes Y)
+print(O valor de Y elevado a terceira potência)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 18:32:43)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+QI = X // Y
+RI = X % Y
+QR = X / Y
+Produto = X * Y
+Potência = Y ** 3
+
+print(QI)
+print(RI)
+print(QR)
+print(Produto)
+print(Potência)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 18:28:46)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+Quociente da divisão inteira = 14 // 7
+Resto da divisão inteira = X % Y
+Quociente da divisão real = 14 / 7
+Produto de X vezes Y = X * Y
+O valor de Y elevado a terceira potência = Y ** 3
+
+print(Quociente da divisão inteira)
+print(Resto da divisão inteira)
+print(Quociente da divisão real)
+print(Produto de X vezes Y)
+print(O valor de Y elevado a terceira potência)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 18:27:13)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+Quociente da divisão inteira = 14 // 7
+Resto da divisão inteira = X % Y
+Quociente da divisão real = 14 / 7
+Produto de X vezes Y = X * Y
+O valor de Y elevado a terceira potência = Y ** 3
+
+print(Quocientedadivisãointeira)
+print(Restodadivisãointeira)
+print(Quocientedadivisãoreal)
+print(ProdutodeXvezesY)
+print(OvalordeYelevadoaterceirapotência)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 18:28:51)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+Quociente da divisão inteira = 14 // 7
+Resto da divisão inteira = X % Y
+Quociente da divisão real = 14 / 7
+Produto de X vezes Y = X * Y
+O valor de Y elevado a terceira potência = Y ** 3
+
+print(Quociente da divisão inteira)
+print(Resto da divisão inteira)
+print(Quociente da divisão real)
+print(Produto de X vezes Y)
+print(O valor de Y elevado a terceira potência)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 17:54:47)
+-- CODE: 
+X = 14
+Y = 7
+QI = 14//7
+RT = X % Y
+QR = 14/7
+Produto = X * Y
+Potencia = Y ** 3
+print(QI)
+print(RT)
+print(QR)
+print(Produto)
+print(Potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+343
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+343
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+343
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+343
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+343
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+343
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 18:28:53)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+Quociente da divisão inteira = 14 // 7
+Resto da divisão inteira = X % Y
+Quociente da divisão real = 14 / 7
+Produto de X vezes Y = X * Y
+O valor de Y elevado a terceira potência = Y ** 3
+
+print(Quociente da divisão inteira)
+print(Resto da divisão inteira)
+print(Quociente da divisão real)
+print(Produto de X vezes Y)
+print(O valor de Y elevado a terceira potência)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 4
+    Quociente da divisão inteira = 14 // 7
+              ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-16 17:57:43)
+-- CODE: 
+X = 14
+Y = 7
+QI = 14//7
+RT = X % Y
+QR = 14/7
+Produto = X * Y
+Potencia = Y ** 3
+print(QI)
+print(RT)
+print(QR)
+print(Produto)
+print(Potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+343
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+343
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+343
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+343
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+343
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+343
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:46:24)
+-- CODE: 
+X = int(input("Entre com o valor de X:"))
+Y = int(input("Entre com o valor de Y"))
+
+
+print(X // Y)
+print(X % Y)
+print(X / Y)
+print(X * Y)
+print(X ** Y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+196
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+32768
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+100000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+2809
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+119716
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+120409
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 21:47:13)
+-- CODE: 
+X = int(input("Escreva um valor para X:"))
+Y = int(input("Ëscreva um valor para Y"))
+
+QI = X // Y
+RT = X % Y
+QR = X / Y
+Pro = X * Y
+Po = Y ** 3 
+
+print(QI)
+print(RT)
+print(QR)
+print(Pro)
+print(Po)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

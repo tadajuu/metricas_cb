@@ -1,0 +1,7 @@
+y = float(input("digite um número real: "))
+ponc1 = y * (27/100)
+ponc2 = y + (y * 42/100)
+ponc3 = y - (y * 63/100)
+print(round(ponc1,2))
+print(round(ponc2,2))
+print(round(ponc3,2))

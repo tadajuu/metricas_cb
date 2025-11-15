@@ -1,0 +1,7 @@
+X = int(input("Entre com valor de X "))
+Y = int(input("Entre com valor de Y"))
+print(X//Y)
+print(X % Y)
+print(X/Y)
+print(X*Y)
+print(Y**3)

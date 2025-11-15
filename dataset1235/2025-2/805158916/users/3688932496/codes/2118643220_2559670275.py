@@ -1,0 +1,6 @@
+peso = float (input("Informe o peso da ração:"))
+print("")
+quant = float(input(" Informe a quantidade diária que os alimenta:"))
+restante = peso -  (7 * quant)
+print(" A quantidade de ração em gramas que restará no saco em gramas é de :")
+print(round(restante,3))

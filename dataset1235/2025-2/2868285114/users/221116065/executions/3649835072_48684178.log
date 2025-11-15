@@ -1,0 +1,750 @@
+== RUN (2025-08-23 23:08:56)
+-- CODE: 
+total = float(input("Qual o total de vendas?: "))
+
+lucro = (30 / 100) * total
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+Qual o total de vendas?:
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+Qual o total de vendas?:
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+Qual o total de vendas?:
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+Qual o total de vendas?:
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+Qual o total de vendas?:
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+Qual o total de vendas?:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-23 23:04:31)
+-- CODE: 
+total = float(input("Qual o total de vendas?: "))
+
+porcentagem = total / 100
+
+valor = total + porcentagem
+
+print(round(valor, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+Qual o total de vendas?: 1467.41
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+Qual o total de vendas?: 707.5
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+Qual o total de vendas?: 202.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+Qual o total de vendas?: 455.0
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+Qual o total de vendas?: 556.53
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+Qual o total de vendas?: 1912.93
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-23 23:07:08)
+-- CODE: 
+total = float(input("Qual o total de vendas?: "))
+
+porcentagem = total / 100
+
+valor = total + total * porcentagem
+
+print(round(valor, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+Qual o total de vendas?: 22561.48
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+Qual o total de vendas?: 5607.5
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+Qual o total de vendas?: 600.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+Qual o total de vendas?: 2480.0
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+Qual o total de vendas?: 3587.25
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+Qual o total de vendas?: 37765.97
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-23 23:04:17)
+-- CODE: 
+total = float(input("Qual o total de vendas?: "))
+
+porcentagem = total / 100
+
+valor = total + porcentagem
+
+print(round(valor, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+Qual o total de vendas?: 1467.41
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+Qual o total de vendas?: 707.5
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+Qual o total de vendas?: 202.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+Qual o total de vendas?: 455.0
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+Qual o total de vendas?: 556.53
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+Qual o total de vendas?: 1912.93
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-23 23:04:41)
+-- CODE: 
+total = float(input("Qual o total de vendas?: "))
+
+porcentagem = total / 100
+
+valor = total - porcentagem
+
+print(round(valor, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+Qual o total de vendas?: 1438.35
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+Qual o total de vendas?: 693.5
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+Qual o total de vendas?: 198.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+Qual o total de vendas?: 446.0
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+Qual o total de vendas?: 545.51
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+Qual o total de vendas?: 1875.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-23 23:09:28)
+-- CODE: 
+total = float(input("Qual o total de vendas?: "))
+
+lucro = (30 / 100) * total
+
+valor = total + lucro
+
+print(lucro)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+Qual o total de vendas?: 435.86400000000003
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+Qual o total de vendas?: 210.15
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+Qual o total de vendas?: 60.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+Qual o total de vendas?: 135.15
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+Qual o total de vendas?: 165.30599999999998
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+Qual o total de vendas?: 568.197
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-23 23:04:03)
+-- CODE: 
+total = float(input("Qual o total de vendas?: "))
+
+porcentagem = total / 100
+
+valor = total + porcentagem
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+Qual o total de vendas?:
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+Qual o total de vendas?:
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+Qual o total de vendas?:
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+Qual o total de vendas?:
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+Qual o total de vendas?:
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+Qual o total de vendas?:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 23:09:47)
+-- CODE: 
+total = float(input("Qual o total de vendas?: "))
+
+lucro = (30 / 100) * total
+
+valor = total + lucro
+
+print(round(lucro,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+Qual o total de vendas?: 435.86
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+Qual o total de vendas?: 210.15
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+Qual o total de vendas?: 60.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+Qual o total de vendas?: 135.15
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+Qual o total de vendas?: 165.31
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+Qual o total de vendas?: 568.2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-23 23:09:14)
+-- CODE: 
+total = float(input("Qual o total de vendas?: "))
+
+lucro = (30 / 100) * total
+
+print(lucro)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+Qual o total de vendas?: 435.86400000000003
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+Qual o total de vendas?: 210.15
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+Qual o total de vendas?: 60.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+Qual o total de vendas?: 135.15
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+Qual o total de vendas?: 165.30599999999998
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+Qual o total de vendas?: 568.197
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-23 23:09:46)
+-- CODE: 
+total = float(input("Qual o total de vendas?: "))
+
+lucro = (30 / 100) * total
+
+valor = total + lucro
+
+print(round(lucro,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+Qual o total de vendas?: 435.86
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+Qual o total de vendas?: 210.15
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+Qual o total de vendas?: 60.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+Qual o total de vendas?: 135.15
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+Qual o total de vendas?: 165.31
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+Qual o total de vendas?: 568.2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-23 23:09:08)
+-- CODE: 
+total = float(input("Qual o total de vendas?: "))
+
+lucro = (30 / 100) * total
+
+print(lucro)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+Qual o total de vendas?: 435.86400000000003
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+Qual o total de vendas?: 210.15
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+Qual o total de vendas?: 60.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+Qual o total de vendas?: 135.15
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+Qual o total de vendas?: 165.30599999999998
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+Qual o total de vendas?: 568.197
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 23:09:32)
+-- CODE: 
+total = float(input("Qual o total de vendas?: "))
+
+lucro = (30 / 100) * total
+
+valor = total + lucro
+
+print(lucro)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+Qual o total de vendas?: 435.86400000000003
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+Qual o total de vendas?: 210.15
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+Qual o total de vendas?: 60.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+Qual o total de vendas?: 135.15
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+Qual o total de vendas?: 165.30599999999998
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+Qual o total de vendas?: 568.197
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-23 23:06:52)
+-- CODE: 
+total = float(input("Qual o total de vendas?: "))
+
+porcentagem = total / 100
+
+valor = total + porcentagem
+
+print(round(valor, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+Qual o total de vendas?: 1467.41
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+Qual o total de vendas?: 707.5
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+Qual o total de vendas?: 202.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+Qual o total de vendas?: 455.0
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+Qual o total de vendas?: 556.53
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+Qual o total de vendas?: 1912.93
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-23 23:08:19)
+-- CODE: 
+total = float(input("Qual o total de vendas?: "))
+
+porcentagem = total + (30/100)
+
+valor = total + porcentagem
+
+print(round(valor, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+Qual o total de vendas?: 2906.06
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+Qual o total de vendas?: 1401.3
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+Qual o total de vendas?: 400.3
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+Qual o total de vendas?: 901.3
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+Qual o total de vendas?: 1102.34
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+Qual o total de vendas?: 3788.28
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

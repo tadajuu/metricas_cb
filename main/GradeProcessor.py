@@ -21,8 +21,8 @@ class GradeProcessor:
         self.DECIMAL_PLACES = 3
 
     def process(self):
-        arq1 = "../aux_files/USER-IDS-2023-2.txt"
-        arq2 = "../aux_files/cache_notas_2023-2.csv"
+        arq1 = "../aux_files/USER-IDS.txt"
+        arq2 = "../aux_files/cache_notas.csv"
         arq3 = "../reports/MODULE_GRADES.csv"
         self.buscar_linhas_e_copiar(arq1, arq2, arq3)
 

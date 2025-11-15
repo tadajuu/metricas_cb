@@ -1,0 +1,872 @@
+== RUN (2025-08-27 17:35:23)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina abastecidos: "))
+
+litro = 2.86
+oleo = 50.00
+icms = 34 / 100
+
+gasolina = valor * litro
+servico = gasolina + oleo
+total = servico * (1 + icms)
+
+# Saída 
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina abastecidos: 106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina abastecidos: 634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina abastecidos: 258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina abastecidos: 401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina abastecidos: 979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina abastecidos: 230.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:16:59)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina foram abastecidos: "))
+
+litro = valor / 2.86
+total_servicos = litro + 50.0 
+acrescimo = (total_servicos + (34/100))
+
+# Saída 
+print(round(acrescimo , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina foram abastecidos: 53.98
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina foram abastecidos: 102.15
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina foram abastecidos: 67.82
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina foram abastecidos: 80.9
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina foram abastecidos: 133.64
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina foram abastecidos: 65.26
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:33:20)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina abastecidos: "))
+
+litro = 2.86
+oleo = 50.00
+icms = 0.34
+
+gasolina = valor * litro
+servico = gasolina + oleo
+
+
+# Saída 
+print(round(servico, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina abastecidos: 79.74
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina abastecidos: 473.77
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina abastecidos: 193.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina abastecidos: 299.96
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina abastecidos: 731.34
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina abastecidos: 172.06
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:13:19)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina foram abastecidos? "))
+
+litro = valor / 2.86
+total_servicos = litro + 50 
+acrescimo = (total_servicos * (34/100))
+
+# Saída 
+print(round(total_servicos , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 53.64
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 101.81
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 67.48
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 80.56
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 133.3
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 64.92
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:34:47)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina abastecidos: "))
+
+litro = 2.86
+oleo = 50.00
+icms = 34 / 100
+
+gasolina = valor * litro
+servico = gasolina + oleo
+total = servico * icms
+
+# Saída 
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina abastecidos: 27.11
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina abastecidos: 161.08
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina abastecidos: 65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina abastecidos: 101.99
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina abastecidos: 248.65
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina abastecidos: 58.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:14:04)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina foram abastecidos? "))
+
+litro = valor / 2.86
+total_servicos = litro + 50 
+acrescimo = (total_servicos * (34/100))
+
+# Saída 
+print(round(acrescimo , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 18.24
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 34.61
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 22.94
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 27.39
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 45.32
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 22.07
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:24:11)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina abastecidos: "))
+
+litro = 2.86
+oleo = 50.00
+icms = 0.34
+
+gasolina = valor * litro
+completo = gasolina + oleo
+total = completo * icms
+
+# Saída 
+print(round(total , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina abastecidos: 27.11
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina abastecidos: 161.08
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina abastecidos: 65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina abastecidos: 101.99
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina abastecidos: 248.65
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina abastecidos: 58.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:06:00)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina foram abastecidos? "))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina foram abastecidos?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina foram abastecidos?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina foram abastecidos?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina foram abastecidos?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina foram abastecidos?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina foram abastecidos?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:25:02)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina abastecidos: "))
+
+litro = 2.86
+oleo = 50.00
+icms = 0.34
+
+gasolina = valor * litro
+
+
+# Saída 
+print(round(gasolina, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina abastecidos: 29.74
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina abastecidos: 423.77
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina abastecidos: 143.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina abastecidos: 249.96
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina abastecidos: 681.34
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina abastecidos: 122.06
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:31:21)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina abastecidos: "))
+
+litro = 2.86
+oleo = 50.00
+icms = 0.34
+
+gasolina = valor * litro
+
+
+
+# Saída 
+print(round(gasolina, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina abastecidos: 29.74
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina abastecidos: 423.77
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina abastecidos: 143.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina abastecidos: 249.96
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina abastecidos: 681.34
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina abastecidos: 122.06
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:25:36)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina abastecidos: "))
+
+litro = 2.86
+oleo = 50.00
+icms = 0.34
+
+gasolina = valor / litro
+
+
+# Saída 
+print(round(gasolina, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina abastecidos: 3.64
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina abastecidos: 51.81
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina abastecidos: 17.48
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina abastecidos: 30.56
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina abastecidos: 83.3
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina abastecidos: 14.92
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 17:36:22)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina abastecidos: "))
+
+litro = 2.86
+oleo = 50.00
+icms = 34 / 100
+
+gasolina = valor * litro
+servico = gasolina + oleo
+total = servico * (1 + icms)
+
+# Saída 
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina abastecidos: 106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina abastecidos: 634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina abastecidos: 258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina abastecidos: 401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina abastecidos: 979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina abastecidos: 230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:22:21)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina abastecidos: "))
+
+litro = 2.86
+oleo = 50.0
+icms = 0.34
+
+gasolina = valor * litro
+completo = gasolina + oleo
+total = completo * 0.34
+
+# Saída 
+print(round(total , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina abastecidos: 27.11
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina abastecidos: 161.08
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina abastecidos: 65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina abastecidos: 101.99
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina abastecidos: 248.65
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina abastecidos: 58.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:34:16)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina abastecidos: "))
+
+litro = 2.86
+oleo = 50.00
+icms = 0.34
+
+gasolina = valor * litro
+servico = gasolina + oleo
+total = servico * icms
+
+# Saída 
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina abastecidos: 27.11
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina abastecidos: 161.08
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina abastecidos: 65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina abastecidos: 101.99
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina abastecidos: 248.65
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina abastecidos: 58.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 17:11:41)
+-- CODE: 
+# Entrada 
+valor = float(input("Quantidade de litros de gasolina foram abastecidos? "))
+
+total_servicos = (valor + 50)
+acrescimo = (total_servicos * (34/100))
+
+# Saída 
+print(round(total_servicos , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 60.4
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 198.17
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 100.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 137.4
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 288.23
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Quantidade de litros de gasolina foram abastecidos? 92.68
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

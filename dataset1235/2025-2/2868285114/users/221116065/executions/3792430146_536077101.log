@@ -1,0 +1,1107 @@
+== SUBMISSION (2025-09-02 23:23:37)
+-- CODE: 
+Refri = 3.00
+Bolo = 2.50
+Salgado = 3.50
+
+comida = input("Qual o produto? (B ou S)?: ").upper()
+quantidade = int(input("Qual a quantidade?: "))
+quantidade_refri = int(input("Qual a quantidade de refrigerante?: "))
+disponivel = float(input("Qual o valor disponivel?: "))
+
+if comida == "B":
+  calculo = (Bolo * quantidade) + (Refri * quantidade_refri)
+  if disponivel >= calculo:
+    print(calculo)
+    print("Sim")
+  else:
+    print(calculo)
+    print("Nao")
+
+else:
+  calculo = (Salgado * quantidade) + (Refri * quantidade_refri)
+  if disponivel >= calculo:
+    print(calculo)
+    print("Sim")
+  else:
+    print(calculo)
+    print("Nao")
+  
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+Nao
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+Nao
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:19:02)
+-- CODE: 
+Refri = 3.00
+Bolo = 2.50
+Salgado = 3.50
+
+comida = input("Qual o produto? (B ou S)?: ").upper()
+quantidade = int(input("Qual a quantidade?: "))
+quantidade_refri = int(input("Qual a quantidade de refrigerante?: "))
+disponivel = float(input("Qual o valor disponivel?: "))
+
+if comida == "B":
+  calculo = (Bolo * quantidade) + (Refri * quantidade_refri)
+  if disponivel >= calculo:
+    print(calculo)
+    (print("Sim")) 
+  else:
+    print(calculo)
+    print("Nao")
+  
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?:
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?:
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+Nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:17:41)
+-- CODE: 
+Refri = 3.00
+Bolo = 2.50
+Salgado = 3.50
+
+comida = input("Qual o produto? (B ou S)?: ").upper()
+quantidade = int(input("Qual a quantidade?: "))
+quantidade_refri = int(input("Qual a quantidade de refrigerante?: "))
+disponivel = float(input("Qual o valor disponivel?: "))
+
+if comida == "B":
+  calculo = (Bolo * quantidade) + (Refri * quantidade_refri)
+  if disponivel >= calculo
+    print(calculo)
+    (print("Sim"))
+else:
+print(calculo)
+print("Nao")
+  
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+-- ERROR:
+File "XXXX", line 12
+    if disponivel >= calculo
+                            ^
+SyntaxError: expected ':'
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+-- ERROR:
+File "XXXX", line 12
+    if disponivel >= calculo
+                            ^
+SyntaxError: expected ':'
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+-- ERROR:
+File "XXXX", line 12
+    if disponivel >= calculo
+                            ^
+SyntaxError: expected ':'
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+-- ERROR:
+File "XXXX", line 12
+    if disponivel >= calculo
+                            ^
+SyntaxError: expected ':'
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+-- ERROR:
+File "XXXX", line 12
+    if disponivel >= calculo
+                            ^
+SyntaxError: expected ':'
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+-- ERROR:
+File "XXXX", line 12
+    if disponivel >= calculo
+                            ^
+SyntaxError: expected ':'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:19:18)
+-- CODE: 
+Refri = 3.00
+Bolo = 2.50
+Salgado = 3.50
+
+comida = input("Qual o produto? (B ou S)?: ").upper()
+quantidade = int(input("Qual a quantidade?: "))
+quantidade_refri = int(input("Qual a quantidade de refrigerante?: "))
+disponivel = float(input("Qual o valor disponivel?: "))
+
+if comida == "B":
+  calculo = (Bolo * quantidade) + (Refri * quantidade_refri)
+  if disponivel >= calculo:
+    print(calculo)
+    (print("Sim")) 
+  else:
+    print(calculo)
+    print("Nao")
+  
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?:
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?:
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+Nao
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:18:26)
+-- CODE: 
+Refri = 3.00
+Bolo = 2.50
+Salgado = 3.50
+
+comida = input("Qual o produto? (B ou S)?: ").upper()
+quantidade = int(input("Qual a quantidade?: "))
+quantidade_refri = int(input("Qual a quantidade de refrigerante?: "))
+disponivel = float(input("Qual o valor disponivel?: "))
+
+if comida == "B":
+  calculo = (Bolo * quantidade) + (Refri * quantidade_refri)
+  if disponivel >= calculo:
+    print(calculo)
+    (print("Sim")) 
+  else:
+    print(calculo)
+    print("Nao")
+  
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?:
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?:
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+Nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:14:49)
+-- CODE: 
+Refri = 3.00
+Bolo = 2.50
+Salgado = 3.50
+
+comida = input("Qual o produto? (B ou S)?: ").upper()
+quantidade = int(input("Qual a quantidade?: "))
+quantidade_refri = int(input("Qual a quantidade de refrigerante?: "))
+disponivel = float(input("Qual o valor disponivel?: "))
+
+
+if comida == "B":
+  calculo = (Bolo * quantidade) + (Refri * quantidade_refri)
+  print(calculo)
+  (print("Sim"))
+  
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?:
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?:
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:14:31)
+-- CODE: 
+Refri = 3.00
+Bolo = 2.50
+Salgado = 3.50
+
+comida = input("Qual o produto? (B ou S)?: ").upper()
+quantidade = int(input("Qual a quantidade?: "))
+quantidade_refri = int(input("Qual a quantidade de refrigerante?: "))
+disponivel = float(input("Qual o valor disponivel?: "))
+
+
+if comida == "B":
+  calculo = (Bolo * quantidade) + (Refri * quantidade_refri)
+  print(calculo)
+  (print("Sim"))
+  
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?:
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?:
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:20:49)
+-- CODE: 
+Refri = 3.00
+Bolo = 2.50
+Salgado = 3.50
+
+comida = input("Qual o produto? (B ou S)?: ").upper()
+quantidade = int(input("Qual a quantidade?: "))
+quantidade_refri = int(input("Qual a quantidade de refrigerante?: "))
+disponivel = float(input("Qual o valor disponivel?: "))
+
+if comida == "B":
+  calculo = (Bolo * quantidade) + (Refri * quantidade_refri)
+  if disponivel >= calculo:
+    print(calculo)
+    print("Sim")
+  else:
+    print(calculo)
+    print("Nao")
+  
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?:
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?:
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+Nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:17:51)
+-- CODE: 
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:11:43)
+-- CODE: 
+Refri = 3.00
+Bolo = 2.50
+Salgado = 3.50
+
+comida = input("Qual o produto? (B ou S)?: ").upper()
+quantidade = int(input("Qual a quantidade?: "))
+quantidade_refri = int(input("Qual a quantidade de refrigerante?: "))
+disponivel = float(input("Qual o valor disponivel?: "))
+
+if comida == "B":
+  calculo = (Bolo * quantidade) + (Refri * quantidade_refri)
+  print(calculo)
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?: 11.0
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?:
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?:
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?: 18.5
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?: 13.5
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+Qual o produto? (B ou S)?: Qual a quantidade?: Qual a quantidade de refrigerante?: Qual o valor disponivel?: 11.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:23:30)
+-- CODE: 
+Refri = 3.00
+Bolo = 2.50
+Salgado = 3.50
+
+comida = input("Qual o produto? (B ou S)?: ").upper()
+quantidade = int(input("Qual a quantidade?: "))
+quantidade_refri = int(input("Qual a quantidade de refrigerante?: "))
+disponivel = float(input("Qual o valor disponivel?: "))
+
+if comida == "B":
+  calculo = (Bolo * quantidade) + (Refri * quantidade_refri)
+  if disponivel >= calculo:
+    print(calculo)
+    print("Sim")
+  else:
+    print(calculo)
+    print("Nao")
+
+else:
+  calculo = (Salgado * quantidade) + (Refri * quantidade_refri)
+  if disponivel >= calculo:
+    print(calculo)
+    print("Sim")
+  else:
+    print(calculo)
+    print("Nao")
+  
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+Nao
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+Nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:14:19)
+-- CODE: 
+Refri = 3.00
+Bolo = 2.50
+Salgado = 3.50
+
+comida = input("Qual o produto? (B ou S)?: ").upper()
+quantidade = int(input("Qual a quantidade?: "))
+quantidade_refri = int(input("Qual a quantidade de refrigerante?: "))
+disponivel = float(input("Qual o valor disponivel?: "))
+
+
+if comida == "B":
+  calculo = (Bolo * quantidade) + (Refri * quantidade_refri)
+  print(calculo)
+  (print("Sim"))
+
+else:
+  valor
+  
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 17, in <module>
+    valor
+NameError: name 'valor' is not defined
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 17, in <module>
+    valor
+NameError: name 'valor' is not defined
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

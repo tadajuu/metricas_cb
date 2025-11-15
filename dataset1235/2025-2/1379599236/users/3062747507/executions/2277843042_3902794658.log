@@ -1,0 +1,323 @@
+== RUN (2025-08-13 19:50:58)
+-- CODE: 
+nome = input ("qual seu nome?")
+nome = int(input ("qual sua idade?"))
+nome = float(input ("qual sua altura?"))
+print ("Nome: ", nome)
+print ("Idade: ", idade)
+print ("Altura: ", altura
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 6
+    print ("Altura: ", altura
+          ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 6
+    print ("Altura: ", altura
+          ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 6
+    print ("Altura: ", altura
+          ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 6
+    print ("Altura: ", altura
+          ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 19:51:34)
+-- CODE: 
+nome = input ("qual seu nome?")
+nome = int(input ("qual sua idade?"))
+nome = float(input ("qual sua altura?"))
+print ("Nome: ", nome)
+print ("Idade: ", idade)
+print ("Altura: ", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print ("Idade: ", idade)
+                      ^^^^^
+NameError: name 'idade' is not defined
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print ("Idade: ", idade)
+                      ^^^^^
+NameError: name 'idade' is not defined
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print ("Idade: ", idade)
+                      ^^^^^
+NameError: name 'idade' is not defined
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print ("Idade: ", idade)
+                      ^^^^^
+NameError: name 'idade' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-13 19:52:51)
+-- CODE: 
+nome = input ("qual seu nome?")
+idade = int(input ("qual sua idade?"))
+altura = float(input ("qual sua altura?"))
+print ("Nome: ", nome)
+print ("Idade: ", idade)
+print ("Altura: ", altura)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura:  1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura:  1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura:  1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura:  1.89
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-13 19:52:39)
+-- CODE: 
+nome = input ("qual seu nome?")
+idade = int(input ("qual sua idade?"))
+altura = float(input ("qual sua altura?"))
+print ("Nome: ", nome)
+print ("Idade: ", idade)
+print ("Altura: ", altura)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura:  1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura:  1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura:  1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura:  1.89
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 19:51:06)
+-- CODE: 
+nome = input ("qual seu nome?")
+nome = int(input ("qual sua idade?"))
+nome = float(input ("qual sua altura?"))
+print ("Nome: ", nome)
+print ("Idade: ", idade)
+print ("Altura: ", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print ("Idade: ", idade)
+                      ^^^^^
+NameError: name 'idade' is not defined
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print ("Idade: ", idade)
+                      ^^^^^
+NameError: name 'idade' is not defined
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print ("Idade: ", idade)
+                      ^^^^^
+NameError: name 'idade' is not defined
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print ("Idade: ", idade)
+                      ^^^^^
+NameError: name 'idade' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,1667 @@
+== RUN (2025-08-28 19:03:39)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 5.00
+total = 1h + taxa + 20%
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 4
+    total = 1h + taxa + 20%
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 4
+    total = 1h + taxa + 20%
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 4
+    total = 1h + taxa + 20%
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 4
+    total = 1h + taxa + 20%
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 4
+    total = 1h + taxa + 20%
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 4
+    total = 1h + taxa + 20%
+            ^
+SyntaxError: invalid decimal literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:06:57)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 5.00
+total = 20 * (20/100)
+total1 = hora + taxa +
+print(round(total1, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa +
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa +
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa +
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa +
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa +
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa +
+                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:04:03)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 5.00
+total = hora + taxa
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:03:39)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 5.00
+total = 1h + taxa + 20%
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 4
+    total = 1h + taxa + 20%
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 4
+    total = 1h + taxa + 20%
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 4
+    total = 1h + taxa + 20%
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 4
+    total = 1h + taxa + 20%
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 4
+    total = 1h + taxa + 20%
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 4
+    total = 1h + taxa + 20%
+            ^
+SyntaxError: invalid decimal literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:04:04)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 5.00
+total = hora + taxa
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:12:43)
+-- CODE: 
+input(round())
+hora = 15
+taxa = 5 
+total = 20 * 0.20
+total1 = total
+print(round(total1, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:11:33)
+-- CODE: 
+input(round())
+hora = 15
+taxa = 5 
+total = 20 * 0.20
+total1 = total
+print(round(float(total1, 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:08:39)
+-- CODE: 
+input(round())
+hora = 15
+taxa = 5 * (20/100)
+total1 = hora + taxa 
+print(round(total1, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 5
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 5
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 5
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 5
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 5
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 5
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:03:23)
+-- CODE: 
+input(round())
+1h = 15.00
+taxa = 5.00
+total = 1h + taxa + 20%
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 2
+    1h = 15.00
+    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 2
+    1h = 15.00
+    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 2
+    1h = 15.00
+    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 2
+    1h = 15.00
+    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 2
+    1h = 15.00
+    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 2
+    1h = 15.00
+    ^
+SyntaxError: invalid decimal literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:08:32)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 5 * (20/100)
+total1 = hora + taxa 
+print(round(total1, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 5
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 5
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 5
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 5
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 5
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 5
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:06:44)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 5.00
+total = 20 8 (20/100)
+total1 = hora + taxa +
+print(round(total1, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 4
+    total = 20 8 (20/100)
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 4
+    total = 20 8 (20/100)
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 4
+    total = 20 8 (20/100)
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 4
+    total = 20 8 (20/100)
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 4
+    total = 20 8 (20/100)
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 4
+    total = 20 8 (20/100)
+               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:09:56)
+-- CODE: 
+input(round())
+hora = 15
+taxa = 5 
+total = 20 * (20/100)
+total1 = hora + taxa = total
+print(round(total1, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:03:50)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 5.00
+total = hora + taxa + 20%
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 4
+    total = hora + taxa + 20%
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 4
+    total = hora + taxa + 20%
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 4
+    total = hora + taxa + 20%
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 4
+    total = hora + taxa + 20%
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 4
+    total = hora + taxa + 20%
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 4
+    total = hora + taxa + 20%
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:03:49)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 5.00
+total = hora + taxa + 20%
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 4
+    total = hora + taxa + 20%
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 4
+    total = hora + taxa + 20%
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 4
+    total = hora + taxa + 20%
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 4
+    total = hora + taxa + 20%
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 4
+    total = hora + taxa + 20%
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 4
+    total = hora + taxa + 20%
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:10:46)
+-- CODE: 
+input(round())
+hora = 15
+taxa = 5 
+total = 20 * 0.20
+total1 = hora + taxa = total
+print(round(total1, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:11:09)
+-- CODE: 
+input(round())
+hora = 15
+taxa = 5 
+total = 20 * 0.20
+total1 = total
+print(round(total1, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 6
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 6
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 6
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 6
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 6
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 6
+    print(round(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:05:02)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 5.00
+total = hora + taxa + 40
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:07:52)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 20 * (20/100)
+total1 = hora + taxa 
+print(round()(total1, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 5
+    print(round()(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 5
+    print(round()(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 5
+    print(round()(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 5
+    print(round()(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 5
+    print(round()(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 5
+    print(round()(total1, 2)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:05:03)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 5.00
+total = hora + taxa + 40
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:07:22)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 20 * (20/100)
+total1 = hora + taxa 
+print(round(total1, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:10:45)
+-- CODE: 
+input(round())
+hora = 15
+taxa = 5 
+total = 20 * 0.20
+total1 = hora + taxa = total
+print(round(total1, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa = total
+             ^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:06:58)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 5.00
+total = 20 * (20/100)
+total1 = hora + taxa +
+print(round(total1, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa +
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa +
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa +
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa +
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa +
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+File "XXXX", line 5
+    total1 = hora + taxa +
+                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:05:14)
+-- CODE: 
+input(round())
+hora = 15.00
+taxa = 5.00
+total = hora + taxa + 30
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(round())
+          ^^^^^^^
+TypeError: round() missing required argument 'number' (pos 1)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

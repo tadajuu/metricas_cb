@@ -1,0 +1,227 @@
+== RUN (2025-08-27 22:57:02)
+-- CODE: 
+TC = float(input("temperatura em celsius"))
+TK = TC + 273.15
+print(round(TK,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+temperatura em celsius293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+temperatura em celsius263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+temperatura em celsius233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+temperatura em celsius373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+temperatura em celsius273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+temperatura em celsius303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 22:57:19)
+-- CODE: 
+TC = float(input("temperatura em celsius"))
+TK = TC + 273.15
+print(round(TK,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+temperatura em celsius293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+temperatura em celsius263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+temperatura em celsius233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+temperatura em celsius373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+temperatura em celsius273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+temperatura em celsius303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 22:56:08)
+-- CODE: 
+TC = float(input("temperatura em celsius"))
+TK = float(input("temperatura em kelvin"))
+TK = TC + 273.15
+print(round(TK,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TK = float(input("temperatura em kelvin"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TK = float(input("temperatura em kelvin"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TK = float(input("temperatura em kelvin"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TK = float(input("temperatura em kelvin"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TK = float(input("temperatura em kelvin"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TK = float(input("temperatura em kelvin"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 22:57:00)
+-- CODE: 
+TC = float(input("temperatura em celsius"))
+TK = TC + 273.15
+print(round(TK,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+temperatura em celsius293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+temperatura em celsius263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+temperatura em celsius233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+temperatura em celsius373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+temperatura em celsius273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+temperatura em celsius303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

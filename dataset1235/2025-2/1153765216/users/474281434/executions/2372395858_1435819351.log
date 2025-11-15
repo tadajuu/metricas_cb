@@ -1,0 +1,2331 @@
+== RUN (2025-08-28 18:56:36)
+-- CODE: 
+saco = float(input( "digite a qauntidade: "))
+quantidade = float(input ("digite a quantidade: "))
+
+
+quantidade_semanal = quantidade_diaria * 5
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 5
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 5
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 5
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 5
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 5
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 5
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:55:15)
+-- CODE: 
+saco = float(input( "digite o saco: "))
+quantidade = float(input ("digite a quantidade: "))
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:45:52)
+-- CODE: 
+saco = float(input "digite a quantidade")
+quantidade = float(input "digite a quantidade: ")
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite a quantidade")
+                       ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite a quantidade")
+                       ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite a quantidade")
+                       ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite a quantidade")
+                       ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite a quantidade")
+                       ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite a quantidade")
+                       ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:49:31)
+-- CODE: 
+saco = float(input( "digite o saco"))
+quantidade = float(input "digite a quantidade: ")
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade: ")
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade: ")
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade: ")
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade: ")
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade: ")
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade: ")
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:45:02)
+-- CODE: 
+saco = float(input "digite o saco")
+quantidade = float(input "digite a quantidade: ")
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:36:47)
+-- CODE: 
+saco = flot(input "digite o peso")
+quantidade = quantidade_diaria(float(input "digite a quantidade"))
+quantidade_semanal = quantidade_diaria * 6
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o peso")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o peso")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o peso")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o peso")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o peso")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o peso")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:50:20)
+-- CODE: 
+saco = float(input( "digite o peso"))
+quantidade = float(input "digite a quantidade: ")
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade: ")
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade: ")
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade: ")
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade: ")
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade: ")
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade: ")
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:28:05)
+-- CODE: 
+saco = float(input( "digite a qauntidade: "))
+quantidade_diaria = float(input ("digite a quantidade: "))
+
+resto = saco - quantidade_semanal
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resto = saco - quantidade_semanal
+                   ^^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_semanal' is not defined. Did you mean: 'quantidade_diaria'?
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resto = saco - quantidade_semanal
+                   ^^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_semanal' is not defined. Did you mean: 'quantidade_diaria'?
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resto = saco - quantidade_semanal
+                   ^^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_semanal' is not defined. Did you mean: 'quantidade_diaria'?
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resto = saco - quantidade_semanal
+                   ^^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_semanal' is not defined. Did you mean: 'quantidade_diaria'?
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resto = saco - quantidade_semanal
+                   ^^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_semanal' is not defined. Did you mean: 'quantidade_diaria'?
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resto = saco - quantidade_semanal
+                   ^^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_semanal' is not defined. Did you mean: 'quantidade_diaria'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:51:49)
+-- CODE: 
+saco = float(input( "digite o saco"))
+quantidade = float(input ("digite a quantidade: "))
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:51:26)
+-- CODE: 
+saco = float(input( "digite o saco"))
+quantidade = float(input "digite a quantidade")
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:48:29)
+-- CODE: 
+saco = float(input "digite o saco")
+quantidade = float(input "digite a quantidade: ")
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:55:16)
+-- CODE: 
+saco = float(input( "digite o saco: "))
+quantidade = float(input ("digite a quantidade: "))
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:51:28)
+-- CODE: 
+saco = float(input( "digite o saco"))
+quantidade = float(input "digite a quantidade")
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:36:18)
+-- CODE: 
+saco = flot(input "digite o saco")
+quantidade = quantidade_diaria(float(input "digite a quantidade"))
+quantidade_semanal = quantidade_diaria * 6
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o saco")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o saco")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o saco")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o saco")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o saco")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o saco")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:41:04)
+-- CODE: 
+saco = float(input "digite o saco")
+quantidade = (float(input "digite a quantidade"))
+quantidade_semanal = quantidade_diaria * 6
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 19:28:03)
+-- CODE: 
+saco = float(input( "digite a qauntidade: "))
+quantidade_diaria = float(input ("digite a quantidade: "))
+
+resto = saco - quantidade_semanal
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resto = saco - quantidade_semanal
+                   ^^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_semanal' is not defined. Did you mean: 'quantidade_diaria'?
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resto = saco - quantidade_semanal
+                   ^^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_semanal' is not defined. Did you mean: 'quantidade_diaria'?
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resto = saco - quantidade_semanal
+                   ^^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_semanal' is not defined. Did you mean: 'quantidade_diaria'?
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resto = saco - quantidade_semanal
+                   ^^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_semanal' is not defined. Did you mean: 'quantidade_diaria'?
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resto = saco - quantidade_semanal
+                   ^^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_semanal' is not defined. Did you mean: 'quantidade_diaria'?
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    resto = saco - quantidade_semanal
+                   ^^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_semanal' is not defined. Did you mean: 'quantidade_diaria'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 20:11:57)
+-- CODE: 
+saco = float(input( "digite a qauntidade: "))
+quantidade_diaria = float(input ("digite a quantidade: "))
+
+resto - saco = quantidade_semanal
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 4
+    resto - saco = quantidade_semanal
+    ^^^^^^^^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 4
+    resto - saco = quantidade_semanal
+    ^^^^^^^^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 4
+    resto - saco = quantidade_semanal
+    ^^^^^^^^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 4
+    resto - saco = quantidade_semanal
+    ^^^^^^^^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 4
+    resto - saco = quantidade_semanal
+    ^^^^^^^^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 4
+    resto - saco = quantidade_semanal
+    ^^^^^^^^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:45:01)
+-- CODE: 
+saco = float(input "digite o saco")
+quantidade = float(input "digite a quantidade: ")
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:56:20)
+-- CODE: 
+saco = float(input( "digite a qauntidade: "))
+quantidade = float(input ("digite a quantidade: "))
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:51:27)
+-- CODE: 
+saco = float(input( "digite o saco"))
+quantidade = float(input "digite a quantidade")
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 2
+    quantidade = float(input "digite a quantidade")
+                             ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:51:50)
+-- CODE: 
+saco = float(input( "digite o saco"))
+quantidade = float(input ("digite a quantidade: "))
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:39:13)
+-- CODE: 
+saco = float(input "digite o saco")
+quantidade = quantidade_diaria(float(input "digite a quantidade"))
+quantidade_semanal = quantidade_diaria * 6
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:36:49)
+-- CODE: 
+saco = flot(input "digite o peso")
+quantidade = quantidade_diaria(float(input "digite a quantidade"))
+quantidade_semanal = quantidade_diaria * 6
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o peso")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o peso")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o peso")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o peso")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o peso")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 1
+    saco = flot(input "digite o peso")
+                      ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:42:01)
+-- CODE: 
+saco = float(input "digite o saco")
+quantidade = float(input "digite a quantidade: ")
+quantidade_semanal = quantidade_diaria * 6
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:51:46)
+-- CODE: 
+saco = float(input( "digite o saco"))
+quantidade = float(input ("digite a quantidade: "))
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 6
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:53:46)
+-- CODE: 
+saco = float(input( "digite o saco: "))
+quantidade = float(input ("digite a quantidade: "))
+
+
+quantidade_semanal = quantidade_diaria * 5
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 5
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 5
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 5
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 5
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 5
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quantidade_semanal = quantidade_diaria * 5
+                         ^^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_diaria' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:41:07)
+-- CODE: 
+saco = float(input "digite o saco")
+quantidade = (float(input "digite a quantidade"))
+quantidade_semanal = quantidade_diaria * 6
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:41:41)
+-- CODE: 
+saco = float(input "digite o saco")
+quantidade = float(input "digite a quantidade")
+quantidade_semanal = quantidade_diaria * 6
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco")
+                       ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:46:06)
+-- CODE: 
+saco = float(input "digite o saco: ")
+quantidade = float(input "digite a quantidade: ")
+
+
+quantidade_semanal = quantidade_diaria * 6
+
+
+print(round(resto, 5))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco: ")
+                       ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco: ")
+                       ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco: ")
+                       ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco: ")
+                       ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco: ")
+                       ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+File "XXXX", line 1
+    saco = float(input "digite o saco: ")
+                       ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

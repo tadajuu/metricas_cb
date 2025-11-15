@@ -1,0 +1,2732 @@
+== RUN (2025-08-25 14:11:06)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#Valor em 27%
+EQ = numero * (27/100)
+print(EQ,2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:20:39)
+-- CODE: 
+#Início
+numero = float(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:19:46)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:20:55)
+-- CODE: 
+#Início
+numero = float(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:19:26)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:17:20)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:11:45)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#Valor em 27%
+EQ = numero * (27/100)
+print(round(EQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:24:13)
+-- CODE: 
+#Início
+numero = float(input("Insira o valor: "))
+#Valor de 27%
+EQ = numero * (27/100)
+print(round(EQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Insira o valor: 33.25
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Insira o valor: 6.75
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Insira o valor: 87.91
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Insira o valor: 963.33
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Insira o valor: 1465.07
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Insira o valor: 3.28
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:20:46)
+-- CODE: 
+#Início
+numero = float(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:19:39)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:19:25)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:15:03)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#Valor em 27%
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+print(round(VQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:19:03)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:09:32)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#Valor em 27%
+EQ = numero * (27/100)
+prin(EQ)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:19:15)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:10:03)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#Valor em 27%
+EQ = numero * (27/100)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:19:22)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:25:35)
+-- CODE: 
+#Início
+numero = float(input("Insira o valor: "))
+#Valor de 27%
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * 42/100)
+print(round(VQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Insira o valor: 174.86
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Insira o valor: 35.5
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Insira o valor: 462.35
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Insira o valor: 5066.42
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Insira o valor: 7705.2
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Insira o valor: 17.25
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:20:29)
+-- CODE: 
+#Início
+numero = float(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:19:27)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:19:24)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:04:05)
+-- CODE: 
+#Início
+input("Insira o número: ")
+print(input)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Insira o número: <built-in function input>
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Insira o número: <built-in function input>
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Insira o número: <built-in function input>
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Insira o número: <built-in function input>
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Insira o número: <built-in function input>
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Insira o número: <built-in function input>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:19:30)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:10:56)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#Valor em 27%
+EQ = numero * (27/100)
+print(EQ, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:14:37)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#Valor em 27%
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+prin(round(VQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:28:07)
+-- CODE: 
+#Início
+numero = float(input("Insira o valor: "))
+#Valor de 27%
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * 42/100)
+#Valor descontado de 63%
+DQ = numero - (numero * 63/100)
+print(round(DQ,2))
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:28:11)
+-- CODE: 
+#Início
+numero = float(input("Insira o valor: "))
+#Valor de 27%
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * 42/100)
+#Valor descontado de 63%
+DQ = numero - (numero * 63/100)
+print(round(DQ,2))
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:07:39)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+print(numero)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:10:22)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#Valor em 27%
+EQ = numero * (27/100)
+print(EQ)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:17:41)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:26:48)
+-- CODE: 
+#Início
+numero = float(input("Insira o valor: "))
+#Valor de 27%
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * 42/100)
+#Valor descontado de 63%
+DQ = numero - (numero * 63/100)
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Insira o valor: 45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Insira o valor: 9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Insira o valor: 120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Insira o valor: 1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Insira o valor: 2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Insira o valor: 4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:19:28)
+-- CODE: 
+#Início
+numero = int(input("Insira o número: "))
+#27% do valor
+EQ = numero * (27/100)
+#Valor acrescido de 42%
+VQ = numero + (numero * (42/100))
+#Valor com desconto de 63%
+DQ = numero - (numero * 63/100)
+#Impressão dos valores
+print(round(EQ,2))
+print(round(VQ,2))
+print(round(DQ,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    numero = int(input("Insira o número: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

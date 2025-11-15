@@ -1,0 +1,3079 @@
+== RUN (2025-09-01 17:53:25)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 21:46:28)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço_jogo = float(input("Qual o valor unitario do jogo? "))
+dinheiro_disponivel = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+quantidade_de_jogos = 8
+frete = 45
+custo_total = (preço_jogo * quantidade_de_jogos) + frete
+dinheiro_restante = dimheiro_disponivel - custo_total
+
+
+
+# Impressao do valor total e do saldo:
+print(round(custo_total,1))
+print(round(dinheiro_restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    dinheiro_restante = dimheiro_disponivel - custo_total
+                        ^^^^^^^^^^^^^^^^^^^
+NameError: name 'dimheiro_disponivel' is not defined. Did you mean: 'dinheiro_disponivel'?
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    dinheiro_restante = dimheiro_disponivel - custo_total
+                        ^^^^^^^^^^^^^^^^^^^
+NameError: name 'dimheiro_disponivel' is not defined. Did you mean: 'dinheiro_disponivel'?
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    dinheiro_restante = dimheiro_disponivel - custo_total
+                        ^^^^^^^^^^^^^^^^^^^
+NameError: name 'dimheiro_disponivel' is not defined. Did you mean: 'dinheiro_disponivel'?
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    dinheiro_restante = dimheiro_disponivel - custo_total
+                        ^^^^^^^^^^^^^^^^^^^
+NameError: name 'dimheiro_disponivel' is not defined. Did you mean: 'dinheiro_disponivel'?
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    dinheiro_restante = dimheiro_disponivel - custo_total
+                        ^^^^^^^^^^^^^^^^^^^
+NameError: name 'dimheiro_disponivel' is not defined. Did you mean: 'dinheiro_disponivel'?
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    dinheiro_restante = dimheiro_disponivel - custo_total
+                        ^^^^^^^^^^^^^^^^^^^
+NameError: name 'dimheiro_disponivel' is not defined. Did you mean: 'dinheiro_disponivel'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:51:19)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 17:56:47)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 10,25
+saldo = 45
+jogos = preço * total
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:50:20)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(tumba,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+845.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+309.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+2893.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+991941.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+54.6
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+205.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:57:21)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 10,25
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:56:46)
+-- CODE: 
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 17:52:01)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 21:46:40)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço_jogo = float(input("Qual o valor unitario do jogo? "))
+dinheiro_disponivel = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+quantidade_de_jogos = 8
+frete = 45
+custo_total = (preço_jogo * quantidade_de_jogos) + frete
+dinheiro_restante = dinheiro_disponivel - custo_total
+
+
+
+# Impressao do valor total e do saldo:
+print(round(custo_total,1))
+print(round(dinheiro_restante,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:50:20)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(tumba,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+845.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+309.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+2893.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+991941.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+54.6
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+205.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:51:19)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:55:36)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 10,25
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:57:13)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 10,25
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:56:46)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 10,25
+saldo = 45
+jogos = preço * total
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:49:54)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+45
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+45
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+45
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+45
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+45
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+45
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:49:55)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+45
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+45
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+45
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+45
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+45
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+45
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:56:44)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 10,25
+saldo = 45
+jogos = preço * total
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    jogos = preço * total
+            ~~~~~~^~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:57:11)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 10,25
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:49:55)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+45
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+45
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+45
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+45
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+45
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+45
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 17:47:39)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+jogos = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+45
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+45
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+45
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+45
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+45
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+45
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:50:22)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(tumba,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+845.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+309.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+2893.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+991941.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+54.6
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+205.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:51:18)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 17:57:41)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:50:18)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(tumba,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+845.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+309.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+2893.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+991941.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+54.6
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+205.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:50:21)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(tumba,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+845.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+309.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+2893.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+991941.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+54.6
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+205.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:57:13)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 10,25
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:50:20)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(tumba,1))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+845.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+309.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+2893.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+991941.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+54.6
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+205.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:57:40)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:47:37)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+jogos = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+45
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+45
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+45
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+45
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+45
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+45
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:50:19)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(tumba,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+845.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+309.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+2893.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+991941.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+54.6
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+205.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 17:57:22)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 10,25
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:57:14)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 10,25
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    tumba = jogos + saldo
+            ~~~~~~^~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 17:55:38)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 10,25
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:50:22)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(tumba,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+845.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+309.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+2893.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+991941.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+54.6
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+205.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:50:23)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(tumba,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+845.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+309.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+2893.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+991941.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+54.6
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+205.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:55:37)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 10,25
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+restante = valor - tumba
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(restante,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 17:50:22)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+preço = float(input("Qual o valor unitario do jogo? "))
+valor = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8
+saldo = 45
+jogos = preço * 8
+tumba = jogos + saldo
+
+# Impressao do valor total e do saldo:
+print(round(jogos,1))
+print(round(tumba,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+845.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+309.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+2893.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+991941.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+54.6
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+205.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

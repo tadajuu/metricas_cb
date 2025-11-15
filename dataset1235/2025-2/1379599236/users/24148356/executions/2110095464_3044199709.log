@@ -1,0 +1,348 @@
+== SUBMISSION (2025-09-01 16:32:31)
+-- CODE: 
+import math
+numero_de_pessoas = int(input())
+p = 1 - math.factorial(365) / math.factorial(365 - numero_de_pessoas) * (1 / 365**numero_de_pessoas)
+print(round(p, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+---- user output:
+0.97
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+---- user output:
+0.51
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+0.17
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+1.0
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+---- user output:
+0.86
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+0.54
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 16:36:44)
+-- CODE: 
+from import math
+numero_de_pessoas = int(input())
+p = 1 - math.factorial(365) / math.factorial(365 - numero_de_pessoas) * (1 / 365**numero_de_pessoas)
+print(round(p, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+-- ERROR:
+File "XXXX", line 1
+    from import math
+         ^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+-- ERROR:
+File "XXXX", line 1
+    from import math
+         ^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+-- ERROR:
+File "XXXX", line 1
+    from import math
+         ^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+-- ERROR:
+File "XXXX", line 1
+    from import math
+         ^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+-- ERROR:
+File "XXXX", line 1
+    from import math
+         ^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+-- ERROR:
+File "XXXX", line 1
+    from import math
+         ^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 16:38:31)
+-- CODE: 
+import math
+numero_de_pessoas = int(input())
+p = 1 - math.factorial(365) / math.factorial(365 - numero_de_pessoas) * (1 / 365**numero_de_pessoas)
+print(float(round(p, 2)))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+---- user output:
+0.97
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+---- user output:
+0.51
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+0.17
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+1.0
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+---- user output:
+0.86
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+0.54
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:45:48)
+-- CODE: 
+import math
+numero_de_pessoas = int(input())
+p = 1 - math.factorial(365) / math.factorial(365 - numero_de_pessoas)) * (1 / 365**numero_de_pessoas)
+print(round(p, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+-- ERROR:
+File "XXXX", line 3
+    p = 1 - math.factorial(365) / math.factorial(365 - numero_de_pessoas)) * (1 / 365**numero_de_pessoas)
+                                                                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+-- ERROR:
+File "XXXX", line 3
+    p = 1 - math.factorial(365) / math.factorial(365 - numero_de_pessoas)) * (1 / 365**numero_de_pessoas)
+                                                                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+-- ERROR:
+File "XXXX", line 3
+    p = 1 - math.factorial(365) / math.factorial(365 - numero_de_pessoas)) * (1 / 365**numero_de_pessoas)
+                                                                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+-- ERROR:
+File "XXXX", line 3
+    p = 1 - math.factorial(365) / math.factorial(365 - numero_de_pessoas)) * (1 / 365**numero_de_pessoas)
+                                                                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+-- ERROR:
+File "XXXX", line 3
+    p = 1 - math.factorial(365) / math.factorial(365 - numero_de_pessoas)) * (1 / 365**numero_de_pessoas)
+                                                                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+-- ERROR:
+File "XXXX", line 3
+    p = 1 - math.factorial(365) / math.factorial(365 - numero_de_pessoas)) * (1 / 365**numero_de_pessoas)
+                                                                         ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 16:42:07)
+-- CODE: 
+import math
+numero_de_pessoas = int(input())
+p = (1 - (math.factorial(365) / math.factorial(365 - numero_de_pessoas) * (1 / 365**numero_de_pessoas)))*100
+print(round(p, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+---- user output:
+97.04
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+---- user output:
+50.73
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+16.7
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+100.0
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+---- user output:
+86.41
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+53.83
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 16:32:27)
+-- CODE: 
+import math
+numero_de_pessoas = int(input())
+p = 1 - math.factorial(365) / math.factorial(365 - numero_de_pessoas) * (1 / 365**numero_de_pessoas)
+print(round(p, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+---- user output:
+0.97
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+---- user output:
+0.51
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+0.17
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+1.0
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+---- user output:
+0.86
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+0.54
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

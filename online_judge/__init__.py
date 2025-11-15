@@ -258,12 +258,17 @@ def load_LUT_assessment_types(path_classes: str):
                         #     print("continue")
                         continue
 
-                elif "---- type: homework" in data:
+                elif "---- type: HOMEWORK" in data:
                     assessment_type = "Lab " + str(homework_number)
                     got_assessment_type = True
                     continue
 
-                elif "---- type: exam" in data:
+                elif "---- type: ASSIGNMENT" in data:
+                    assessment_type = "Lab " + str(homework_number)
+                    got_assessment_type = True
+                    continue
+
+                elif "---- type: EXAM" in data:
                     if (assessment_title[:2] == "TP" and not assessment_title[3].isnumeric()) or assessment_title[:5].upper() == "PROVA":  # TP Substitutivo ou Prova Final
                         jump_assessment = True
                         break
@@ -550,7 +555,8 @@ cb_log = CodebenchLog()
 
 print("Carregando LUT_assessment_types...")
 #classes_path = "/Users/fcoelho/dataset-cb/2022-2/"
-classes_path = "../dataset-cb/2022-2/"
+classes_path = "../dataset123/2025-2/"
+#classes_path = "C:/Users/jerem/Documents/cb_new/cb_dataset_generator/dataset123/2025-2/"
 LUT_assessments = load_LUT_assessment_types(classes_path)
 
 

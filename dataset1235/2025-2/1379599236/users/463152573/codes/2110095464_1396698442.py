@@ -1,0 +1,6 @@
+xA = float(input())
+yA = float(input())
+xB = float(input())
+yB = float(input())
+distancia = ((xB - xA)**2 + (yB - yA)**2)**(1/2)
+print(round(distancia,3))

@@ -1,0 +1,262 @@
+== RUN (2025-09-02 01:10:05)
+-- CODE: 
+from math import *
+
+lado=float(input("comprimento lado:"))
+apotema=lado/(2*(pi/10))
+area=lado*5*apotema
+print(round(area,2))
+# faça seu código aqui!
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+123.11
+---- user output:
+comprimento lado:127.32
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+30.78
+---- user output:
+comprimento lado:31.83
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+276.99
+---- user output:
+comprimento lado:286.48
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+377.02
+---- user output:
+comprimento lado:389.93
+-- TEST CASE 5:
+---- input:
+3
+---- correct output:
+69.25
+---- user output:
+comprimento lado:71.62
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+192.36
+---- user output:
+comprimento lado:198.94
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 01:01:53)
+-- CODE: 
+from math import *
+
+lado=float(input("comprimento lado:"))
+
+apo=lado/2tan()*pi/10
+
+# faça seu código aqui!
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+123.11
+-- ERROR:
+File "XXXX", line 5
+    apo=lado/2tan()*pi/10
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+30.78
+-- ERROR:
+File "XXXX", line 5
+    apo=lado/2tan()*pi/10
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+276.99
+-- ERROR:
+File "XXXX", line 5
+    apo=lado/2tan()*pi/10
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+377.02
+-- ERROR:
+File "XXXX", line 5
+    apo=lado/2tan()*pi/10
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+3
+---- correct output:
+69.25
+-- ERROR:
+File "XXXX", line 5
+    apo=lado/2tan()*pi/10
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+192.36
+-- ERROR:
+File "XXXX", line 5
+    apo=lado/2tan()*pi/10
+             ^
+SyntaxError: invalid decimal literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 01:11:04)
+-- CODE: 
+from math import *
+
+lado=float(input("comprimento lado:"))
+apotema=lado/(2*tan(pi/10))
+area=lado*5*apotema
+print(round(area,2))
+# faça seu código aqui!
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+123.11
+---- user output:
+comprimento lado:123.11
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+30.78
+---- user output:
+comprimento lado:30.78
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+276.99
+---- user output:
+comprimento lado:276.99
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+377.02
+---- user output:
+comprimento lado:377.02
+-- TEST CASE 5:
+---- input:
+3
+---- correct output:
+69.25
+---- user output:
+comprimento lado:69.25
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+192.36
+---- user output:
+comprimento lado:192.36
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 01:07:18)
+-- CODE: 
+from math import *
+
+lado=float(input("comprimento lado:"))
+apotema=lado/2*tan()(pi/10)
+area=lado*5*apo
+# faça seu código aqui!
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+123.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    apotema=lado/2*tan()(pi/10)
+                   ^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+30.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    apotema=lado/2*tan()(pi/10)
+                   ^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+276.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    apotema=lado/2*tan()(pi/10)
+                   ^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+377.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    apotema=lado/2*tan()(pi/10)
+                   ^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 5:
+---- input:
+3
+---- correct output:
+69.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    apotema=lado/2*tan()(pi/10)
+                   ^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+192.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    apotema=lado/2*tan()(pi/10)
+                   ^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

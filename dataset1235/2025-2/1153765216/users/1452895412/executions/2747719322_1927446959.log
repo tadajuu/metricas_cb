@@ -1,0 +1,426 @@
+== SUBMISSION (2025-08-28 01:13:25)
+-- CODE: 
+n = float(input(print("Digite o numero: ")))
+valor1 = n * (27 / 100)
+valor2 = n * (42 / 100)
+valor3 = n * (63 / 100)
+round(print(valor1, 2))
+round(print(valor2, 2))
+round(print(valor3, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    round(print(valor1, 2))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    round(print(valor1, 2))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    round(print(valor1, 2))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    round(print(valor1, 2))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    round(print(valor1, 2))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    round(print(valor1, 2))
+TypeError: type NoneType doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 01:10:44)
+-- CODE: 
+n = float(input(print("Digite o numero: ")))
+valor1 = n * (n * 27 / 100)
+valor2 = n * (n * 42 / 100)
+valor3 = n * (n * 63 / 100)
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+9552.98
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+393.75
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+66789.68
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+8019843.56
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+18549497.26
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+93.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 01:17:46)
+-- CODE: 
+n = float(input(print("Digite o numero: ")))
+valor1 = n * 27 / 100
+valor2 = n * 42 / 100
+valor3 = n * 63 / 100
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+77.58
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+15.75
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+205.13
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+2247.78
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+3418.51
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+7.65
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 01:19:40)
+-- CODE: 
+n = float(input(print("Digite o numero: ")))
+valor1 = n * (27 / 100)
+valor2 = n + (n * 42 / 100)
+valor3 = n * (37 / 100)
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 01:16:01)
+-- CODE: 
+n = float(input(print("Digite o numero: ")))
+valorq = n * (27 / 100)
+valorw = n * (42 / 100)
+valore = n * (63 / 100)
+print(round(valorq, 2))
+print(round(valorw, 2))
+print(round(valore, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+77.58
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+15.75
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+205.13
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+2247.78
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+3418.51
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+7.65
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 01:11:21)
+-- CODE: 
+n = float(input(print("Digite o numero: ")))
+valor1 = n * (27 / 100)
+valor2 = n * (42 / 100)
+valor3 = n * (63 / 100)
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+77.58
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+15.75
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+205.13
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+2247.78
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+3418.51
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+7.65
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

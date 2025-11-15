@@ -1,0 +1,634 @@
+== SUBMISSION (2025-08-19 12:53:52)
+-- CODE: 
+tempC = float(input("Entre com a temperatura em Celsius: "))
+tempK = tempC + 273.15
+
+print("A temperatura convertida para Kelvin é: ", round(tempK,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:51:45)
+-- CODE: 
+celsius = float(input("Entre com a temperatura em Celsius: "))
+kelvin = celsius + 273.15
+
+print("A temperatura convertida para Kelvin é: ", round(kelvin,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:51:11)
+-- CODE: 
+celsius = float(input("Entre com a temperatura em Celsius: "))
+kelvin = celsius + 273.15
+kelvinarrend = round(kelvin,2)
+
+print("A temperatura convertida para Kelvin é: ", kelvinarrend)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:50:36)
+-- CODE: 
+celsius = input("Entre com a temperatura em Celsius: ")
+kelvin = celsius + 273.15
+kelvinarrend = round(kelvin,2)
+
+print("A temperatura convertida para Kelvin é: ", kelvinarrend)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:53:02)
+-- CODE: 
+tempC = float(input("Entre com a temperatura em Celsius: "))
+tempK = tempC + 273.15
+
+print("A temperatura convertida para Kelvin é: ", round(tempK,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:51:41)
+-- CODE: 
+celsius = float(input("Entre com a temperatura em Celsius: "))
+kelvin = celsius + 273.15
+
+print("A temperatura convertida para Kelvin é: ", round(kelvin,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+Entre com a temperatura em Celsius: A temperatura convertida para Kelvin é:  303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:49:26)
+-- CODE: 
+celsius = input("Entre com a temperatura em Celsius: ")
+kelvin = celsius + 273.15
+
+print("A temperatura convertida para Kelvin é: ", round(kelvin,2), kelvin)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:49:20)
+-- CODE: 
+celsius = input("Entre com a temperatura em Celsius: ")
+kelvin = celsius + 273.15
+
+print("A temperatura convertida para Kelvin é: ", round(kelvin,2), kelvin)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:48:23)
+-- CODE: 
+celsius = input("Entre com a temperatura em Celsius: ")
+kelvin = celsius + 273.15
+
+print("A temperatura convertida para Kelvin é: ", round(kelvin,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:48:32)
+-- CODE: 
+celsius = input("Entre com a temperatura em Celsius: ")
+kelvin = celsius + 273.15
+
+print("A temperatura convertida para Kelvin é: ", round(kelvin,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

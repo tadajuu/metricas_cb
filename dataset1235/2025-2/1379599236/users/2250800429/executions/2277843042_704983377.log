@@ -1,0 +1,1147 @@
+== RUN (2025-08-18 17:34:11)
+-- CODE: 
+def main():
+x = int(input("Digite o valor de x (dividendo):"))
+y = int(input("Digite o valor de y (divisor):"))
+
+#cálculos
+quociente_inteiro = x // y 
+resto = x % y
+quociente_real = x / y
+produto = x * y
+potencia = y ** 3
+
+# saida
+print(quaciente_inteiro)
+print(resto)
+print(quociente_real)
+print(produto)
+print(potencia)
+
+if __name__ == "__main__":
+  main()
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 17:35:13)
+-- CODE: 
+
+x = int(input("Digite o valor de x (dividendo):"))
+y = int(input("Digite o valor de y (divisor):"))
+
+#cálculos
+quociente_inteiro = x // y 
+resto = x % y
+quociente_real = x / y
+produto = x * y
+potencia = y ** 3
+
+#saida
+print(quociente_inteiro)
+print(resto)
+print(quociente_real)
+print(produto)
+print(potencia)
+
+
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 17:33:15)
+-- CODE: 
+x = int(input("digite o valor de x (dividendo):"))
+y = int(input("digite o valor de y (divisor):"))
+
+#cálculos
+quociente_inteiro = x // y 
+resto = x % y
+quociente_real = x / y
+produto = x * y
+potencia = y ** 3
+
+# saida
+print(quaciente_inteiro)
+print(resto)
+print(quociente_real)
+print(produto)
+print(potencia)
+
+if __name__ == "__main__":
+  main()
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 17:34:47)
+-- CODE: 
+
+x = int(input("Digite o valor de x (dividendo):"))
+y = int(input("Digite o valor de y (divisor):"))
+
+#cálculos
+quociente_inteiro = x // y 
+resto = x % y
+quociente_real = x / y
+produto = x * y
+potencia = y ** 3
+
+#saida
+print(quaciente_inteiro)
+print(resto)
+print(quociente_real)
+print(produto)
+print(potencia)
+
+
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 17:34:39)
+-- CODE: 
+
+x = int(input("Digite o valor de x (dividendo):"))
+y = int(input("Digite o valor de y (divisor):"))
+
+#cálculos
+quociente_inteiro = x // y 
+resto = x % y
+quociente_real = x / y
+produto = x * y
+potencia = y ** 3
+
+#saida
+print(quaciente_inteiro)
+print(resto)
+print(quociente_real)
+print(produto)
+print(potencia)
+
+if __name__ == "__main__":
+  main()
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-18 17:34:31)
+-- CODE: 
+def main():
+x = int(input("Digite o valor de x (dividendo):"))
+y = int(input("Digite o valor de y (divisor):"))
+
+#cálculos
+quociente_inteiro = x // y 
+resto = x % y
+quociente_real = x / y
+produto = x * y
+potencia = y ** 3
+
+#saida
+print(quaciente_inteiro)
+print(resto)
+print(quociente_real)
+print(produto)
+print(potencia)
+
+if __name__ == "__main__":
+  main()
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 17:34:26)
+-- CODE: 
+def main():
+x = int(input("Digite o valor de x (dividendo):"))
+y = int(input("Digite o valor de y (divisor):"))
+
+#cálculos
+quociente_inteiro = x // y 
+resto = x % y
+quociente_real = x / y
+produto = x * y
+potencia = y ** 3
+
+# saida
+print(quaciente_inteiro)
+print(resto)
+print(quociente_real)
+print(produto)
+print(potencia)
+
+if __name__ == "__main__":
+  main()
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-18 17:35:24)
+-- CODE: 
+
+x = int(input("Digite o valor de x (dividendo):"))
+y = int(input("Digite o valor de y (divisor):"))
+
+#cálculos
+quociente_inteiro = x // y 
+resto = x % y
+quociente_real = x / y
+produto = x * y
+potencia = y ** 3
+
+#saida
+print(quociente_inteiro)
+print(resto)
+print(quociente_real)
+print(produto)
+print(potencia)
+
+
+  
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 17:33:40)
+-- CODE: 
+x = int(input("Digite o valor de x (dividendo):"))
+y = int(input("Digite o valor de y (divisor):"))
+
+#cálculos
+quociente_inteiro = x // y 
+resto = x % y
+quociente_real = x / y
+produto = x * y
+potencia = y ** 3
+
+# saida
+print(quaciente_inteiro)
+print(resto)
+print(quociente_real)
+print(produto)
+print(potencia)
+
+if __name__ == "__main__":
+  main()
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(quaciente_inteiro)
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'quaciente_inteiro' is not defined. Did you mean: 'quociente_inteiro'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 17:34:08)
+-- CODE: 
+def main():
+x = int(input("Digite o valor de x (dividendo):"))
+y = int(input("Digite o valor de y (divisor):"))
+
+#cálculos
+quociente_inteiro = x // y 
+resto = x % y
+quociente_real = x / y
+produto = x * y
+potencia = y ** 3
+
+# saida
+print(quaciente_inteiro)
+print(resto)
+print(quociente_real)
+print(produto)
+print(potencia)
+
+if __name__ == "__main__":
+  main()
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 2
+    x = int(input("Digite o valor de x (dividendo):"))
+    ^
+IndentationError: expected an indented block after function definition on line 1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

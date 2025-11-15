@@ -1,0 +1,53 @@
+== SUBMISSION (2025-08-28 19:05:48)
+-- CODE: 
+kwh = float(input("digite um valor: "))
+formula = (0.43 * kwh) + 10 
+total = formula + formula*(25/100)
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+---- correct output:
+66.25
+---- user output:
+digite um valor: 66.25
+-- TEST CASE 2:
+---- input:
+45.28
+---- correct output:
+36.84
+---- user output:
+digite um valor: 36.84
+-- TEST CASE 3:
+---- input:
+16.58
+---- correct output:
+21.41
+---- user output:
+digite um valor: 21.41
+-- TEST CASE 4:
+---- input:
+289.45
+---- correct output:
+168.08
+---- user output:
+digite um valor: 168.08
+-- TEST CASE 5:
+---- input:
+284.14
+---- correct output:
+165.23
+---- user output:
+digite um valor: 165.23
+-- TEST CASE 6:
+---- input:
+450.35
+---- correct output:
+254.56
+---- user output:
+digite um valor: 254.56
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

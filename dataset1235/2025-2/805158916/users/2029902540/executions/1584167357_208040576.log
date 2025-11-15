@@ -1,0 +1,404 @@
+== RUN (2025-09-01 12:30:12)
+-- CODE: 
+preco = float(input("preco normal do produto: "))
+desconto = 15/100 * preco
+preco_final = preco - desconto
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+preco normal do produto: 1020.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+preco normal do produto: 85.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+preco normal do produto: 12.75
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+preco normal do produto: 8.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+preco normal do produto: 170.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+preco normal do produto: 17.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:25:43)
+-- CODE: 
+preco = float(input("preco normal do produto: "))
+preco_final = preco * 15 / 100
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+preco normal do produto: 180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+preco normal do produto: 15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+preco normal do produto: 2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+preco normal do produto: 1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+preco normal do produto: 30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+preco normal do produto: 3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:30:31)
+-- CODE: 
+preco = float(input("preco normal do produto: "))
+preco_final = (preco - 15/100) 
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+preco normal do produto: 1199.85
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+preco normal do produto: 99.85
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+preco normal do produto: 14.85
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+preco normal do produto: 9.85
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+preco normal do produto: 199.85
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+preco normal do produto: 19.85
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:31:38)
+-- CODE: 
+preco = float(input("preco normal do produto: "))
+preco_final = 15/100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+preco normal do produto: 180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+preco normal do produto: 15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+preco normal do produto: 2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+preco normal do produto: 1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+preco normal do produto: 30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+preco normal do produto: 3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:25:33)
+-- CODE: 
+preco = float(input("preco normal do produto: "))
+preco_final = preco - 15 / 100
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+preco normal do produto: 1199.85
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+preco normal do produto: 99.85
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+preco normal do produto: 14.85
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+preco normal do produto: 9.85
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+preco normal do produto: 199.85
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+preco normal do produto: 19.85
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:24:19)
+-- CODE: 
+preco = float(input("preco normal do produto: "))
+preco_final = (15 / 100) * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+preco normal do produto: 180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+preco normal do produto: 15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+preco normal do produto: 2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+preco normal do produto: 1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+preco normal do produto: 30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+preco normal do produto: 3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:33:23)
+-- CODE: 
+preco = float(input("preco normal do produto: "))
+desconto = 15/100 * preco
+preco_final = preco - desconto
+print(preco_final)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+preco normal do produto: 1020.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+preco normal do produto: 85.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+preco normal do produto: 12.75
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+preco normal do produto: 8.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+preco normal do produto: 170.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+preco normal do produto: 17.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:25:18)
+-- CODE: 
+preco = float(input("preco normal do produto: "))
+preco_final = preco - (15 / 100) 
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+preco normal do produto: 1199.85
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+preco normal do produto: 99.85
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+preco normal do produto: 14.85
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+preco normal do produto: 9.85
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+preco normal do produto: 199.85
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+preco normal do produto: 19.85
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

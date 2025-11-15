@@ -1,0 +1,2241 @@
+== RUN (2025-08-25 14:59:36)
+-- CODE: 
+temperatura_C = int(input())
+
+
+
+temperatura_K = temperatura_C + 273
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:05:42)
+-- CODE: 
+Celsius = int(input())
+
+Kelvin = float(Celsius  + 273.15)
+
+print(Kelvin)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:03:51)
+-- CODE: 
+temperatura_C = int(input())
+
+temperatura_K = float(temperatura_C  + 273,2)
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:59:00)
+-- CODE: 
+temperatura_C = int(input())
+
+
+
+temperatura_K = temperatura_C + 273
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:59:10)
+-- CODE: 
+temperatura_C = int(input())
+
+
+
+int temperatura_K = temperatura_C + 273
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 5
+    int temperatura_K = temperatura_C + 273
+        ^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 5
+    int temperatura_K = temperatura_C + 273
+        ^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 5
+    int temperatura_K = temperatura_C + 273
+        ^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 5
+    int temperatura_K = temperatura_C + 273
+        ^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 5
+    int temperatura_K = temperatura_C + 273
+        ^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 5
+    int temperatura_K = temperatura_C + 273
+        ^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:08:23)
+-- CODE: 
+Celsius = float(input())
+
+Kelvin = Celsius  + 273.15
+Kelvin_arrendodado = round(Kelvin,2)
+print(Kelvin_arrendodado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:59:20)
+-- CODE: 
+temperatura_C = int(input())
+
+
+
+ temperatura_K = temperatura_C + 273
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 5
+    temperatura_K = temperatura_C + 273
+IndentationError: unexpected indent
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 5
+    temperatura_K = temperatura_C + 273
+IndentationError: unexpected indent
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 5
+    temperatura_K = temperatura_C + 273
+IndentationError: unexpected indent
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 5
+    temperatura_K = temperatura_C + 273
+IndentationError: unexpected indent
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 5
+    temperatura_K = temperatura_C + 273
+IndentationError: unexpected indent
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 5
+    temperatura_K = temperatura_C + 273
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:59:51)
+-- CODE: 
+temperatura_C = int(input())
+
+
+
+temperatura_K = temperatura_C + 273
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:05:43)
+-- CODE: 
+Celsius = int(input())
+
+Kelvin = float(Celsius  + 273.15)
+
+print(Kelvin)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:58:36)
+-- CODE: 
+temperatura_C = print(input())
+
+
+
+temperatura_K = temperatura_C + 273
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    temperatura_K = temperatura_C + 273
+                    ~~~~~~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    temperatura_K = temperatura_C + 273
+                    ~~~~~~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    temperatura_K = temperatura_C + 273
+                    ~~~~~~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    temperatura_K = temperatura_C + 273
+                    ~~~~~~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    temperatura_K = temperatura_C + 273
+                    ~~~~~~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    temperatura_K = temperatura_C + 273
+                    ~~~~~~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:05:40)
+-- CODE: 
+Celsius = int(input())
+
+Kelvin = float(Celsius  + 273.15)
+
+print(Kelvin)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:06:23)
+-- CODE: 
+Celsius = int(input())
+
+Kelvin = Celsius  + 273.15
+
+print(Kelvin)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:59:19)
+-- CODE: 
+temperatura_C = int(input())
+
+
+
+ temperatura_K = temperatura_C + 273
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 5
+    temperatura_K = temperatura_C + 273
+IndentationError: unexpected indent
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 5
+    temperatura_K = temperatura_C + 273
+IndentationError: unexpected indent
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 5
+    temperatura_K = temperatura_C + 273
+IndentationError: unexpected indent
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 5
+    temperatura_K = temperatura_C + 273
+IndentationError: unexpected indent
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 5
+    temperatura_K = temperatura_C + 273
+IndentationError: unexpected indent
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 5
+    temperatura_K = temperatura_C + 273
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:04:25)
+-- CODE: 
+temperatura_C = int(input())
+
+temperatura_K = float(temperatura_C  + 273.15)
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:03:03)
+-- CODE: 
+temperatura_C = int(input())
+
+temperatura_K = float(temperatura_C  + 273)
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:00:34)
+-- CODE: 
+temperatura_C = int(input())
+
+
+
+float(temperatura_K = temperatura_C + 273)
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:08:35)
+-- CODE: 
+Celsius = float(input())
+
+Kelvin = Celsius  + 273.15
+Kelvin_arrendodado = round(Kelvin,2)
+print(Kelvin_arrendodado)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:06:21)
+-- CODE: 
+Celsius = int(input())
+
+Kelvin = Celsius  + 273.15
+
+print(Kelvin)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:03:19)
+-- CODE: 
+temperatura_C = int(input())
+
+temperatura_K = float(temperatura_C  + 273,2)
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:07:59)
+-- CODE: 
+Celsius = float(input())
+
+Kelvin = Celsius  + 273.15
+Kelvin_arrendodado = round(kelvin,2)
+print(Kelvin_arrendodado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Kelvin_arrendodado = round(kelvin,2)
+                               ^^^^^^
+NameError: name 'kelvin' is not defined. Did you mean: 'Kelvin'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Kelvin_arrendodado = round(kelvin,2)
+                               ^^^^^^
+NameError: name 'kelvin' is not defined. Did you mean: 'Kelvin'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Kelvin_arrendodado = round(kelvin,2)
+                               ^^^^^^
+NameError: name 'kelvin' is not defined. Did you mean: 'Kelvin'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Kelvin_arrendodado = round(kelvin,2)
+                               ^^^^^^
+NameError: name 'kelvin' is not defined. Did you mean: 'Kelvin'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Kelvin_arrendodado = round(kelvin,2)
+                               ^^^^^^
+NameError: name 'kelvin' is not defined. Did you mean: 'Kelvin'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Kelvin_arrendodado = round(kelvin,2)
+                               ^^^^^^
+NameError: name 'kelvin' is not defined. Did you mean: 'Kelvin'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:59:45)
+-- CODE: 
+temperatura_C = int(input())
+
+
+
+temperatura_K = temperatura_C + 273
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:06:15)
+-- CODE: 
+Celsius = int(input())
+
+Kelvin = Celsius  + 273.15
+
+print(Kelvin)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:06:24)
+-- CODE: 
+Celsius = int(input())
+
+Kelvin = Celsius  + 273.15
+
+print(Kelvin)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:05:35)
+-- CODE: 
+Celsius = int(input())
+
+Kelvin = float(Celsius  + 273.15)
+
+print(Kelvin)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:03:10)
+-- CODE: 
+temperatura_C = int(input())
+
+temperatura_K = float(temperatura_C  + 273)
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:03:54)
+-- CODE: 
+temperatura_C = int(input())
+
+temperatura_K = float(temperatura_C  + 273,2)
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:03:51)
+-- CODE: 
+temperatura_C = int(input())
+
+temperatura_K = float(temperatura_C  + 273,2)
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:04:17)
+-- CODE: 
+temperatura_C = int(input())
+
+temperatura_K = float(temperatura_C  + 273.15)
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    temperatura_C = int(input())
+                    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:05:43)
+-- CODE: 
+Celsius = int(input())
+
+Kelvin = float(Celsius  + 273.15)
+
+print(Kelvin)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:05:09)
+-- CODE: 
+Celsius = int(input())
+
+Kelvin = float(temperatura_C  + 273.15)
+
+print(temperatura_K)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Celsius = int(input())
+              ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

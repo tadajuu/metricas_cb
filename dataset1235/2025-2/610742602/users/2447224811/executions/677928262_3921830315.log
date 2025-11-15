@@ -1,0 +1,775 @@
+== RUN (2025-08-28 17:54:34)
+-- CODE: 
+litros_abastecidos = float(input())
+preco = litros_abastecidos * 2.86 + 50
+servico = preco * (34/100)
+total = preco + servico
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+230.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 17:50:12)
+-- CODE: 
+litros_abastecidos = float(input())
+preco = litros_abastecidos * 2.86 + 50
+servico = preco + servico
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 17:51:36)
+-- CODE: 
+litros_abastecidos = float(input())
+preco = litros_abastecidos * 2.86 + 50
+servico = preco * (34/10)
+total = preco + servico
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+350.87
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+2084.57
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+849.2
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+1319.84
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+3217.89
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+757.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 17:54:31)
+-- CODE: 
+litros_abastecidos = float(input())
+preco = litros_abastecidos * 2.86 + 50
+servico = preco * (34/100)
+total = preco + servico
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 17:53:16)
+-- CODE: 
+litros_abastecidos = float(input())
+preco = litros_abastecidos * 2.86 + 50
+servico = preco * (34/10)
+total = preco + servico
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+350.87
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+2084.57
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+849.2
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+1319.84
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+3217.89
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+757.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 17:53:25)
+-- CODE: 
+litros_abastecidos = float(input())
+preco = litros_abastecidos * 2.86 + 50
+servico = preco * (34/10)
+total = preco + servico
+print(round(total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+350.87
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+2084.57
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+849.2
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+1319.84
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+3217.89
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+757.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 17:51:11)
+-- CODE: 
+litros_abastecidos = float(input())
+preco = litros_abastecidos * 2.86 + 50
+servico = preco * (34/100)
+servico = preco + servico
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(total,2))
+                ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(total,2))
+                ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(total,2))
+                ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(total,2))
+                ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(total,2))
+                ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(total,2))
+                ^^^^^
+NameError: name 'total' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 17:51:47)
+-- CODE: 
+litros_abastecidos = float(input())
+preco = litros_abastecidos * 2.86 + 50
+servico = preco * (34/10)
+total = preco + servico
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+350.87
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+2084.57
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+849.2
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+1319.84
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+3217.89
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+757.09
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 17:50:08)
+-- CODE: 
+litros_abastecidos = float(input())
+preco = litros_abastecidos * 2.86 + 50
+servico = preco + servico
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 17:51:45)
+-- CODE: 
+litros_abastecidos = float(input())
+preco = litros_abastecidos * 2.86 + 50
+servico = preco * (34/10)
+total = preco + servico
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+350.87
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+2084.57
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+849.2
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+1319.84
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+3217.89
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+757.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 17:50:15)
+-- CODE: 
+litros_abastecidos = float(input())
+preco = litros_abastecidos * 2.86 + 50
+servico = preco + servico
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    servico = preco + servico
+                      ^^^^^^^
+NameError: name 'servico' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 17:54:30)
+-- CODE: 
+litros_abastecidos = float(input())
+preco = litros_abastecidos * 2.86 + 50
+servico = preco * (34/100)
+total = preco + servico
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+230.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 17:52:16)
+-- CODE: 
+litros_abastecidos = float(input())
+preco = litros_abastecidos * 2.86 + 50
+servico = preco * (34/10)
+total = preco + servico
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+350.87
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+2084.57
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+849.2
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+1319.84
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+3217.89
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+757.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,327 @@
+== SUBMISSION (2025-09-02 22:47:59)
+-- CODE: 
+suco = int(input("Qual a quantidade de sucos?: "))
+salgado = int(input("Qual a quantidade de salgado?: "))
+valor_disponivel = float(input("Qual o valor disponivel?: "))
+
+valor_suco = 3.00
+valor_salgado = 3.50
+
+calculo_suco = suco * valor_suco
+calculo_salgado = salgado * valor_salgado
+
+total = calculo_suco + calculo_salgado
+
+if valor_disponivel >= total:
+  print(total)
+  print("Sim")
+
+else:
+  print(total)
+  print("Nao")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0
+5
+12.60
+---- correct output:
+17.5
+Nao
+---- user output:
+Nao
+-- TEST CASE 2:
+---- input:
+2
+2
+15.0
+---- correct output:
+13.0
+Sim
+---- user output:
+Sim
+-- TEST CASE 3:
+---- input:
+3
+3
+20.0
+---- correct output:
+19.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 4:
+---- input:
+10
+2
+15.00
+---- correct output:
+37.0
+Nao
+---- user output:
+Nao
+-- TEST CASE 5:
+---- input:
+3
+5
+25.50
+---- correct output:
+26.5
+Nao
+---- user output:
+Nao
+-- TEST CASE 6:
+---- input:
+1
+2
+8.0
+---- correct output:
+10.0
+Nao
+---- user output:
+Nao
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 22:45:18)
+-- CODE: 
+suco = int(input("Qual a quantidade de sucos?: "))
+salgado = int(input("Qual a quantidade de salgado?: "))
+
+valor_suco = 3.00
+valor_salgado = 3.50
+
+calculo_suco = suco * valor_suco
+calculo_salgado = salgado * valor_salgado
+
+total = calculo_suco + calculo_salgado
+
+print(total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0
+5
+12.60
+---- correct output:
+17.5
+Nao
+---- user output:
+Qual a quantidade de sucos?: Qual a quantidade de salgado?: 17.5
+-- TEST CASE 2:
+---- input:
+2
+2
+15.0
+---- correct output:
+13.0
+Sim
+---- user output:
+Qual a quantidade de sucos?: Qual a quantidade de salgado?: 13.0
+-- TEST CASE 3:
+---- input:
+3
+3
+20.0
+---- correct output:
+19.5
+Sim
+---- user output:
+Qual a quantidade de sucos?: Qual a quantidade de salgado?: 19.5
+-- TEST CASE 4:
+---- input:
+10
+2
+15.00
+---- correct output:
+37.0
+Nao
+---- user output:
+Qual a quantidade de sucos?: Qual a quantidade de salgado?: 37.0
+-- TEST CASE 5:
+---- input:
+3
+5
+25.50
+---- correct output:
+26.5
+Nao
+---- user output:
+Qual a quantidade de sucos?: Qual a quantidade de salgado?: 26.5
+-- TEST CASE 6:
+---- input:
+1
+2
+8.0
+---- correct output:
+10.0
+Nao
+---- user output:
+Qual a quantidade de sucos?: Qual a quantidade de salgado?: 10.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 22:47:18)
+-- CODE: 
+suco = int(input("Qual a quantidade de sucos?: "))
+salgado = int(input("Qual a quantidade de salgado?: "))
+valor_disponivel = float(input("Qual o valor disponivel?: "))
+
+valor_suco = 3.00
+valor_salgado = 3.50
+
+calculo_suco = suco * valor_suco
+calculo_salgado = salgado * valor_salgado
+
+total = calculo_suco + calculo_salgado
+
+if valor_disponivel >= total:
+  print(total)
+  print("sim")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0
+5
+12.60
+---- correct output:
+17.5
+Nao
+---- user output:
+Qual a quantidade de sucos?: Qual a quantidade de salgado?: Qual o valor disponivel?:
+-- TEST CASE 2:
+---- input:
+2
+2
+15.0
+---- correct output:
+13.0
+Sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+3
+3
+20.0
+---- correct output:
+19.5
+Sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+10
+2
+15.00
+---- correct output:
+37.0
+Nao
+---- user output:
+Qual a quantidade de sucos?: Qual a quantidade de salgado?: Qual o valor disponivel?:
+-- TEST CASE 5:
+---- input:
+3
+5
+25.50
+---- correct output:
+26.5
+Nao
+---- user output:
+Qual a quantidade de sucos?: Qual a quantidade de salgado?: Qual o valor disponivel?:
+-- TEST CASE 6:
+---- input:
+1
+2
+8.0
+---- correct output:
+10.0
+Nao
+---- user output:
+Qual a quantidade de sucos?: Qual a quantidade de salgado?: Qual o valor disponivel?:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 22:47:51)
+-- CODE: 
+suco = int(input("Qual a quantidade de sucos?: "))
+salgado = int(input("Qual a quantidade de salgado?: "))
+valor_disponivel = float(input("Qual o valor disponivel?: "))
+
+valor_suco = 3.00
+valor_salgado = 3.50
+
+calculo_suco = suco * valor_suco
+calculo_salgado = salgado * valor_salgado
+
+total = calculo_suco + calculo_salgado
+
+if valor_disponivel >= total:
+  print(total)
+  print("Sim")
+
+else:
+  print(total)
+  print("Nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0
+5
+12.60
+---- correct output:
+17.5
+Nao
+---- user output:
+Nao
+-- TEST CASE 2:
+---- input:
+2
+2
+15.0
+---- correct output:
+13.0
+Sim
+---- user output:
+Sim
+-- TEST CASE 3:
+---- input:
+3
+3
+20.0
+---- correct output:
+19.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 4:
+---- input:
+10
+2
+15.00
+---- correct output:
+37.0
+Nao
+---- user output:
+Nao
+-- TEST CASE 5:
+---- input:
+3
+5
+25.50
+---- correct output:
+26.5
+Nao
+---- user output:
+Nao
+-- TEST CASE 6:
+---- input:
+1
+2
+8.0
+---- correct output:
+10.0
+Nao
+---- user output:
+Nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

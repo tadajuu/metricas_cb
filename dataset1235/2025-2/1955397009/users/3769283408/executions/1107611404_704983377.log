@@ -1,0 +1,941 @@
+== RUN (2025-08-19 12:44:08)
+-- CODE: 
+x = int(input("entre com o valor de x:"))
+y = int(input("entre com o valor de y:"))
+
+Q1 = x // y
+R = x % y
+Q2 = x / y
+Pr = x * y
+Pot = y ** 3
+
+print(Q1)
+print(R)
+print(Q2)
+print(Pr)
+print(Pot)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:39:50)
+-- CODE: 
+x = int(input("entre com o valor de x:"))
+y = int(imput("entre com o valor de y:"))
+
+Q1 = X // y
+R = x % y
+Q2 = x / y
+Pr = x * y
+Pot = y ** 3
+
+print(Q1)
+print(R)
+print(Q2)
+print(Pr)
+print(Pot)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 12:44:25)
+-- CODE: 
+x = int(input("entre com o valor de x:"))
+y = int(input("entre com o valor de y:"))
+
+Q1 = x // y
+R = x % y
+Q2 = x / y
+Pr = x * y
+Pot = y ** 3
+
+print(Q1)
+print(R)
+print(Q2)
+print(Pr)
+print(Pot)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:40:02)
+-- CODE: 
+x = int(input("entre com o valor de x:"))
+y = int(imput("entre com o valor de y:"))
+
+Q1 = X // y
+R = x % y
+Q2 = x / y
+Pr = x * y
+Pot = y ** 3
+
+print(Q1)
+print(R)
+print(Q2)
+print(Pr)
+print(Pot)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:42:29)
+-- CODE: 
+x = int(input("entre com o valor de x: 20 "))
+y = int(input("entre com o valor de y: 3 "))
+
+Q1 = x // y
+R = x % y
+Q2 = x / y
+Pr = x * y
+Pot = y ** 3
+
+print(Q1)
+print(R)
+print(Q2)
+print(Pr)
+print(Pot)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:42:00)
+-- CODE: 
+x = int(input("entre com o valor de x:20"))
+y = int(input("entre com o valor de y:3"))
+
+Q1 = x // y
+R = x % y
+Q2 = x / y
+Pr = x * y
+Pot = y ** 3
+
+print(Q1)
+print(R)
+print(Q2)
+print(Pr)
+print(Pot)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:39:38)
+-- CODE: 
+x = int(input("entre com o vaor de x:"))
+y = int(imput("entre com o valor de y:"))
+
+Q1 = X // y
+R = x % y
+Q2 = x / y
+Pr = x * y
+Pot = y ** 3
+
+print(Q1)
+print(R)
+print(Q2)
+print(Pr)
+print(Pot)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:40:45)
+-- CODE: 
+x = int(input("entre com o valor de x:20"))
+y = int(imput("entre com o valor de y:30"))
+
+Q1 = x // y
+R = x % y
+Q2 = x / y
+Pr = x * y
+Pot = y ** 3
+
+print(Q1)
+print(R)
+print(Q2)
+print(Pr)
+print(Pot)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:30"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:30"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:30"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:30"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:30"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:30"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:41:01)
+-- CODE: 
+x = int(input("entre com o valor de x:20"))
+y = int(imput("entre com o valor de y:3"))
+
+Q1 = x // y
+R = x % y
+Q2 = x / y
+Pr = x * y
+Pot = y ** 3
+
+print(Q1)
+print(R)
+print(Q2)
+print(Pr)
+print(Pot)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:3"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:3"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:3"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:3"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:3"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    y = int(imput("entre com o valor de y:3"))
+            ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

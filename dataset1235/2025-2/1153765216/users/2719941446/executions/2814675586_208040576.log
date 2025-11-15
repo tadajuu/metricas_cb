@@ -1,0 +1,1118 @@
+== RUN (2025-08-26 18:57:55)
+-- CODE: 
+preco = float(input("Preço: "))
+preco_final = 15/100*preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço: 180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço: 15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço: 2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço: 1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço: 30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço: 3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:57:15)
+-- CODE: 
+preco = float(input("Preço: "))
+preco_final = (5 / 100 *preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 *preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 *preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 *preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 *preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 *preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 *preco
+                  ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 18:59:21)
+-- CODE: 
+preco = float(input("Preço: "))
+desconto = (15/100)* preco
+print(preco-desconto)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço: 1020.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço: 85.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço: 12.75
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço: 8.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço: 170.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço: 17.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 18:56:37)
+-- CODE: 
+preco = float(input("Preço: "))
+preco_final = (15 / 100) * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço: 180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço: 15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço: 2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço: 1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço: 30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço: 3.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 18:57:21)
+-- CODE: 
+preco = float(input("Preço: "))
+preco_final = (5 / 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 * preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 * preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 * preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 * preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 * preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 * preco
+                  ^
+SyntaxError: '(' was never closed
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:57:03)
+-- CODE: 
+preco = float(input("Preço: "))
+preco_final = (5 / 100 * (preco))
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço: 60.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço: 5.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço: 0.75
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço: 0.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço: 10.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço: 1.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:58:09)
+-- CODE: 
+preco = float(input("Preço: "))
+preco_final = (15/100)*preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço: 180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço: 15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço: 2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço: 1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço: 30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço: 3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:57:16)
+-- CODE: 
+preco = float(input("Preço: "))
+preco_final = (5 / 100 *preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 *preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 *preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 *preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 *preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 *preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 *preco
+                  ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:55:32)
+-- CODE: 
+preco = float(input("Preço: "))
+desconto=preco*0,15
+
+total=preco-desconto
+
+print(total)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    total=preco-desconto
+          ~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    total=preco-desconto
+          ~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    total=preco-desconto
+          ~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    total=preco-desconto
+          ~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    total=preco-desconto
+          ~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    total=preco-desconto
+          ~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'tuple'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:59:16)
+-- CODE: 
+preco = float(input("Preço: "))
+desconto = (15/100)* preco
+print(preco-desconto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço: 1020.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço: 85.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço: 12.75
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço: 8.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço: 170.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço: 17.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:58:24)
+-- CODE: 
+preco = float(input("Preço: "))
+preco_final = (15/100)-preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço: -1199.85
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço: -99.85
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço: -14.85
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço: -9.85
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço: -199.85
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço: -19.85
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:53:27)
+-- CODE: 
+preco = float(input("Preço: "))
+
+print(preco*0,15-preco)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço: 0.0 -1185.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço: 0.0 -85.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço: 0.0 0.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço: 0.0 5.0
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço: 0.0 -185.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço: 0.0 -5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:56:36)
+-- CODE: 
+preco = float(input("Preço: "))
+preco_final = (15 / 100) * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço: 180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço: 15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço: 2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço: 1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço: 30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço: 3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:53:07)
+-- CODE: 
+preco = float(input("Preço: "))
+
+print(preco*0,15)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço: 0.0 15
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço: 0.0 15
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço: 0.0 15
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço: 0.0 15
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço: 0.0 15
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço: 0.0 15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:57:32)
+-- CODE: 
+preco = float(input("Preço: "))
+preco_final = 5/100*preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço: 60.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço: 5.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço: 0.75
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço: 0.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço: 10.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço: 1.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:52:27)
+-- CODE: 
+preco = float(input("Preço: "))
+preco_final = 15 / 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço: 180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço: 15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço: 2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço: 1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço: 30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço: 3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:57:19)
+-- CODE: 
+preco = float(input("Preço: "))
+preco_final = (5 / 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 * preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 * preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 * preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 * preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 * preco
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = (5 / 100 * preco
+                  ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:56:23)
+-- CODE: 
+preco = float(input("Preço: "))
+preco_final = 15 / 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço: 180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço: 15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço: 2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço: 1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço: 30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço: 3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:56:47)
+-- CODE: 
+preco = float(input("Preço: "))
+preco_final = (15 / 100) * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Preço: 180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Preço: 15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Preço: 2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Preço: 1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Preço: 30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Preço: 3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:59:09)
+-- CODE: 
+preco = float(input("Preço: "))
+desconto = (15/100)* preco
+ print(preco-desconto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+-- ERROR:
+File "XXXX", line 3
+    print(preco-desconto)
+IndentationError: unexpected indent
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+-- ERROR:
+File "XXXX", line 3
+    print(preco-desconto)
+IndentationError: unexpected indent
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+-- ERROR:
+File "XXXX", line 3
+    print(preco-desconto)
+IndentationError: unexpected indent
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+-- ERROR:
+File "XXXX", line 3
+    print(preco-desconto)
+IndentationError: unexpected indent
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+-- ERROR:
+File "XXXX", line 3
+    print(preco-desconto)
+IndentationError: unexpected indent
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+-- ERROR:
+File "XXXX", line 3
+    print(preco-desconto)
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

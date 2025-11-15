@@ -1,0 +1,8224 @@
+== RUN (2025-09-01 15:37:44)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(round(conversao, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 4
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 4
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 4
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 4
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 4
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 4
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:48:47)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+conversao = peso_argentino * 0.018
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso_argentino: 0.018
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso_argentino: 0.036
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso_argentino: 0.144
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso_argentino: 0.37799999999999995
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso_argentino: 0.34199999999999997
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso_argentino: 0.16199999999999998
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:41:52)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:36:29)
+-- CODE: 
+peso = int(input("Quantidade de peso: "))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso: (0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:58:17)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,018
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:48:03)
+-- CODE: 
+valor = float(input("Digite o numero"))
+real = peso_argentino * 0,018
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:43:02)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = (peso * 0,18)
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:42:14)
+-- CODE: 
+peso_argentino = float(input("Digite o numero"))
+real = peso_argentino * 0,018
+valor
+print(round(valor, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:00:15)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,018
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:34:53)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:38:27)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:50:26)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+conversao = peso_argentino * 0.018
+print(round(peso_argentino, 3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:40:43)
+-- CODE: 
+peso_argentino = float(input("Digite o numero em peso_argentino"))
+real = peso_argentino * 0,018
+valor = 
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:50:58)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+peso_argentino = conversao * 0.018
+print(round(peso_argentino, 3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:59:12)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,018
+
+print(round(peso, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:37:58)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18) 2
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18) 2
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18) 2
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18) 2
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18) 2
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18) 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:37:09)
+-- CODE: 
+vr = float(input("Digite o numero em vr"))
+real = (peso_argentino * 0,018)
+print(round(real , 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = (peso_argentino * 0,018)
+                               ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = (peso_argentino * 0,018)
+                               ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = (peso_argentino * 0,018)
+                               ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = (peso_argentino * 0,018)
+                               ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = (peso_argentino * 0,018)
+                               ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = (peso_argentino * 0,018)
+                               ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:42:52)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso *0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:48:03)
+-- CODE: 
+valor = float(input("Digite o numero"))
+real = peso_argentino * 0,018
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:50:05)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+conversao = peso_argentino * 0.018
+print(round(conversao, 2)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:35:12)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,018
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:51:28)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+conversao = peso_argentino * 0.018
+print(round(, 3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 3
+    print(round(, 3)
+                ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 3
+    print(round(, 3)
+                ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 3
+    print(round(, 3)
+                ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 3
+    print(round(, 3)
+                ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 3
+    print(round(, 3)
+                ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 3
+    print(round(, 3)
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:59:11)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,018
+
+print(round(peso, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:42:14)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:36:57)
+-- CODE: 
+peso = float(input("Quantidade de peso "))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso (0.0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso (0.0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso (0.0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso (0.0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso (0.0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso (0.0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:36:19)
+-- CODE: 
+peso = int(input("Quantidade de peso: "))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso: (0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:40:52)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = 1 * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:42:13)
+-- CODE: 
+peso_argentino = float(input("Digite o numero"))
+real = peso_argentino * 0,018
+valor
+print(round(valor, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:37:03)
+-- CODE: 
+peso = float(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0.0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0.0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0.0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0.0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0.0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0.0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:35:45)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:35:43)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:33:14)
+-- CODE: 
+peso_argentino = float(input("Digite o numero em real"))
+real = peso_argentino * 0,018
+print(round(real , 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:35:46)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:36:00)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:13)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino"))
+
+conversao = peso * 0.018
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = peso * 0.018
+                ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = peso * 0.018
+                ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = peso * 0.018
+                ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = peso * 0.018
+                ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = peso * 0.018
+                ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = peso * 0.018
+                ^^^^
+NameError: name 'peso' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:45:48)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino"))
+conversao = (peso_argentino * 0.018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso_argentino0.018
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso_argentino0.036
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso_argentino0.144
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso_argentino0.37799999999999995
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso_argentino0.34199999999999997
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso_argentino0.16199999999999998
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:38:29)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:29:46)
+-- CODE: 
+mod = float(input("Digite o numero em real"))
+real = peso_argentino * 0,018
+print(round(real, 3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:50:04)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+conversao = peso_argentino * 0.018
+print(round(conversao, 2)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:36:30)
+-- CODE: 
+peso = int(input("Quantidade de peso: "))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso: (0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:35:22)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:29:44)
+-- CODE: 
+mod = float(input("Digite o numero em real"))
+real = peso_argentino * 0,018
+print(round(real, 3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:45:38)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+conversao = (peso_argentino * 0.018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso_argentino: 0.018
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso_argentino: 0.036
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso_argentino: 0.144
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso_argentino: 0.37799999999999995
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso_argentino: 0.34199999999999997
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso_argentino: 0.16199999999999998
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:39:31)
+-- CODE: 
+peso = int(input("Quantidade de peso; "))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso; (0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:48:09)
+-- CODE: 
+valor = float(input("Digite o numero"))
+real = peso_argentino * 0,018
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:36:24)
+-- CODE: 
+peso = int(input("Quantidade de peso: "))
+conversao = peso * 0,018
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:01:35)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,018
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:36:02)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:41:27)
+-- CODE: 
+peso_argentino = float(input())
+real = peso_argentino * 0,018
+valor = real
+print(round(valor, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:50:57)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+peso_argentino = conversao * 0.018
+print(round(peso_argentino, 3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:44:38)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = (peso * 0,018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    conversao = (peso * 0,018)
+                          ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    conversao = (peso * 0,018)
+                          ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    conversao = (peso * 0,018)
+                          ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    conversao = (peso * 0,018)
+                          ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    conversao = (peso * 0,018)
+                          ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    conversao = (peso * 0,018)
+                          ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:48:39)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino"))
+conversao = peso_argentino * 0.018
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso_argentino0.018
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso_argentino0.036
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso_argentino0.144
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso_argentino0.37799999999999995
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso_argentino0.34199999999999997
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso_argentino0.16199999999999998
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:36:17)
+-- CODE: 
+peso = int(input("Quantidade de peso: "))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso: (0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:38:57)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:37:08)
+-- CODE: 
+vr = float(input("Digite o numero em vr"))
+real = (peso_argentino * 0,018)
+print(round(real , 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = (peso_argentino * 0,018)
+                               ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = (peso_argentino * 0,018)
+                               ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = (peso_argentino * 0,018)
+                               ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = (peso_argentino * 0,018)
+                               ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = (peso_argentino * 0,018)
+                               ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = (peso_argentino * 0,018)
+                               ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:47:01)
+-- CODE: 
+vr = float(input("Digite o numero"))
+vp
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    vp
+NameError: name 'vp' is not defined. Did you mean: 'vr'?
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    vp
+NameError: name 'vp' is not defined. Did you mean: 'vr'?
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    vp
+NameError: name 'vp' is not defined. Did you mean: 'vr'?
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    vp
+NameError: name 'vp' is not defined. Did you mean: 'vr'?
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    vp
+NameError: name 'vp' is not defined. Did you mean: 'vr'?
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    vp
+NameError: name 'vp' is not defined. Did you mean: 'vr'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:51:53)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+conversao = peso_argentino * 0.018
+print(round(conversao, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso_argentino: 0.02
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso_argentino: 0.04
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso_argentino: 0.14
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso_argentino: 0.38
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso_argentino: 0.34
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso_argentino: 0.16
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:40:51)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = 1 * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:49:51)
+-- CODE: 
+valor = float(input("Digite o numero"))
+real = peso_argentino * 0,018
+print(round(0,018 ,  2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:22)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino"))
+
+conversao = (peso * 0.018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:36:44)
+-- CODE: 
+vr = float(input("Digite o numero em vr"))
+real = peso_argentino * 0,018
+print(round(real , 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:22)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino"))
+
+conversao = (peso * 0.018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:36:19)
+-- CODE: 
+peso = int(input("Quantidade de peso: "))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso: (0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:42:22)
+-- CODE: 
+vr = float(input("Digite o numero"))
+real = peso_argentino * 0,018
+valor
+print(round(valor, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:36:35)
+-- CODE: 
+peso = int(input("Quantidade de peso; "))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso; (0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:51:52)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+conversao = peso_argentino * 0.018
+print(round(conversao, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso_argentino: 0.02
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso_argentino: 0.04
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso_argentino: 0.14
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso_argentino: 0.38
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso_argentino: 0.34
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso_argentino: 0.16
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:39:37)
+-- CODE: 
+peso = int(input("Quantidade de peso: "))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso: (0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:41:28)
+-- CODE: 
+peso_argentino = float(input())
+real = peso_argentino * 0,018
+valor = real
+print(round(valor, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:24)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino"))
+
+conversao = (peso * 0.018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:59:11)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,018
+
+print(round(peso, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:48)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+conversao = peso_argentino * 0.018
+print(conversao)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso_argentino: 0.018
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso_argentino: 0.036
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso_argentino: 0.144
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso_argentino: 0.37799999999999995
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso_argentino: 0.34199999999999997
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso_argentino: 0.16199999999999998
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:50:10)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+conversao = peso_argentino * 0.018
+print(round(conversao, 3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 3)
+         ^
+SyntaxError: '(' was never closed
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:22:27)
+-- CODE: 
+real = float(input())
+real = peso_argentino * 0,018
+print(round(real, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:41:39)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(round(conversao, 1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 1))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 1))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 1))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 1))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 1))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 1))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:00:15)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,018
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:35:40)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:22:28)
+-- CODE: 
+real = float(input())
+real = peso_argentino * 0,018
+print(round(real, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:48:12)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino"))
+
+conversao = peso * 0.018
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = peso * 0.018
+                ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = peso * 0.018
+                ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = peso * 0.018
+                ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = peso * 0.018
+                ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = peso * 0.018
+                ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = peso * 0.018
+                ^^^^
+NameError: name 'peso' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:45:37)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+conversao = (peso_argentino * 0.018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso_argentino: 0.018
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso_argentino: 0.036
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso_argentino: 0.144
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso_argentino: 0.37799999999999995
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso_argentino: 0.34199999999999997
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso_argentino: 0.16199999999999998
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:50:25)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+conversao = peso_argentino * 0.018
+print(round(peso_argentino, 3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 3
+    print(round(peso_argentino, 3)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:42:49)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso *0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:45:42)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino; "))
+conversao = (peso_argentino * 0.018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso_argentino; 0.018
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso_argentino; 0.036
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso_argentino; 0.144
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso_argentino; 0.37799999999999995
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso_argentino; 0.34199999999999997
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso_argentino; 0.16199999999999998
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:45:25)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino; "))
+conversao = (peso * 0.018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:49:50)
+-- CODE: 
+valor = float(input("Digite o numero"))
+real = peso_argentino * 0,018
+print(round(0,018 ,  2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:40:53)
+-- CODE: 
+peso_argentino = float(input())
+real = peso_argentino * 0,018
+valor = 
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:41:38)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(round(conversao, 1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 1))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 1))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 1))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 1))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 1))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 1))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:39:34)
+-- CODE: 
+vr = float(input("Digite o numero em vr"))
+real = peso_argentino * 0,018
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:43:01)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = (peso * 0,18)
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:36:24)
+-- CODE: 
+peso = int(input("Quantidade de peso: "))
+conversao = peso * 0,018
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:40:00)
+-- CODE: 
+peso_argentino = float(input("Digite o numero em peso_argentino"))
+real = peso_argentino * 0,018
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:41:31)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(round(conversao, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:45:24)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino; "))
+conversao = (peso * 0.018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:20:42)
+-- CODE: 
+peso_argentino = float(input())
+real = peso_argentino * 0,018
+print(round(real, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:35:08)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:09:52)
+-- CODE: 
+peso_argentino = int(input())
+real = peso_argentino * 0,018
+print(round(x,n))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:36:57)
+-- CODE: 
+peso = float(input("Quantidade de peso "))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso (0.0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso (0.0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso (0.0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso (0.0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso (0.0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso (0.0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:34:54)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:49:51)
+-- CODE: 
+valor = float(input("Digite o numero"))
+real = peso_argentino * 0,018
+print(round(0,018 ,  2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:35:40)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:58:15)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,018
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    conversao = peso * 0,018
+                         ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:45:43)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino; "))
+conversao = (peso_argentino * 0.018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso_argentino; 0.018
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso_argentino; 0.036
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso_argentino; 0.144
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso_argentino; 0.37799999999999995
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso_argentino; 0.34199999999999997
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso_argentino; 0.16199999999999998
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:40:54)
+-- CODE: 
+peso_argentino = float(input())
+real = peso_argentino * 0,018
+valor = 
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:38:53)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:35:22)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:50:09)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino: "))
+conversao = peso_argentino * 0.018
+print(round(conversao, 3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 3
+    print(round(conversao, 3)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:39:38)
+-- CODE: 
+peso = int(input("Quantidade de peso: "))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso: (0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:09:53)
+-- CODE: 
+peso_argentino = int(input())
+real = peso_argentino * 0,018
+print(round(x,n))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:48:40)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino"))
+conversao = peso_argentino * 0.018
+print(conversao)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso_argentino0.018
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso_argentino0.036
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso_argentino0.144
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso_argentino0.37799999999999995
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso_argentino0.34199999999999997
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso_argentino0.16199999999999998
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:08:44)
+-- CODE: 
+peso_argentino = int(input())
+real = peso_argentino * 0,018
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:38:42)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0.18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso0.18
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso0.36
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso1.44
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso3.78
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso3.42
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso1.6199999999999999
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:36:17)
+-- CODE: 
+peso = int(input("Quantidade de peso: "))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso: (0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso: (0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:43:38)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = (peso * 0,18)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:20:42)
+-- CODE: 
+peso_argentino = float(input())
+real = peso_argentino * 0,018
+print(round(real, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:18:42)
+-- CODE: 
+peso_argentino = float(input())
+real = peso_argentino * 0,018
+print(real)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:23:30)
+-- CODE: 
+peso_argentino = float(input())
+real = peso_argentino * 0,018
+print(round(real, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:39:59)
+-- CODE: 
+peso_argentino = float(input("Digite o numero em peso_argentino"))
+real = peso_argentino * 0,018
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:32:52)
+-- CODE: 
+mod = float(input("Digite o numero em real"))
+real = peso_argentino * 0,018
+print(round(real , 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:45:48)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino"))
+conversao = (peso_argentino * 0.018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso_argentino0.018
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso_argentino0.036
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso_argentino0.144
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso_argentino0.37799999999999995
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso_argentino0.34199999999999997
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso_argentino0.16199999999999998
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:47:35)
+-- CODE: 
+vr = float(input("Digite o numero"))
+vr = peso_argentino * 0,018
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    vr = peso_argentino * 0,018
+                            ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    vr = peso_argentino * 0,018
+                            ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    vr = peso_argentino * 0,018
+                            ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    vr = peso_argentino * 0,018
+                            ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    vr = peso_argentino * 0,018
+                            ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    vr = peso_argentino * 0,018
+                            ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:47:49)
+-- CODE: 
+valor = float(input("Digite o numero"))
+ = peso_argentino * 0,018
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    = peso_argentino * 0,018
+IndentationError: unexpected indent
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    = peso_argentino * 0,018
+IndentationError: unexpected indent
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    = peso_argentino * 0,018
+IndentationError: unexpected indent
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    = peso_argentino * 0,018
+IndentationError: unexpected indent
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    = peso_argentino * 0,018
+IndentationError: unexpected indent
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    = peso_argentino * 0,018
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:48:23)
+-- CODE: 
+peso_argentino = int(input("Quantidade de peso_argentino"))
+
+conversao = (peso * 0.018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    conversao = (peso * 0.018)
+                 ^^^^
+NameError: name 'peso' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:37:03)
+-- CODE: 
+peso = float(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0.0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0.0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0.0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0.0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0.0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0.0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:41:53)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:44:54)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = (peso * 0.018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso0.018
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso0.036
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso0.144
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso0.37799999999999995
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso0.34199999999999997
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso0.16199999999999998
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:08:45)
+-- CODE: 
+peso_argentino = int(input())
+real = peso_argentino * 0,018
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:44:52)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = (peso * 0.018)
+
+print(conversao)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso0.018
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso0.036
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso0.144
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso0.37799999999999995
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso0.34199999999999997
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso0.16199999999999998
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:41:30)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(round(conversao, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(conversao, 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:36:35)
+-- CODE: 
+peso = int(input("Quantidade de peso; "))
+conversao = peso * 0,18
+
+print(conversao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso; (0, 18)
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso; (0, 18)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:37:58)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(conversao, 2)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+Quantidade de peso(0, 18) 2
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+Quantidade de peso(0, 18) 2
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+Quantidade de peso(0, 18) 2
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+Quantidade de peso(0, 18) 2
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+Quantidade de peso(0, 18) 2
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+Quantidade de peso(0, 18) 2
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:33:13)
+-- CODE: 
+peso_argentino = float(input("Digite o numero em real"))
+real = peso_argentino * 0,018
+print(round(real , 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:37:45)
+-- CODE: 
+peso = int(input("Quantidade de peso"))
+conversao = peso * 0,18
+
+print(round(conversao, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 4
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 4
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 4
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 4
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 4
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 4
+    print(round(conversao, 2)
+         ^
+SyntaxError: '(' was never closed
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:18:41)
+-- CODE: 
+peso_argentino = float(input())
+real = peso_argentino * 0,018
+print(real)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+File "XXXX", line 2
+    real = peso_argentino * 0,018
+                              ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

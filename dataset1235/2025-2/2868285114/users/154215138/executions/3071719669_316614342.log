@@ -1,0 +1,163 @@
+== RUN (2025-08-28 22:28:16)
+-- CODE: 
+import math
+lado = float(input())
+apotema = lado/(2*math.tan(math.pi/7))
+area = (7/2)*lado*apotema
+areaarredondado = round(area,2)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 22:28:39)
+-- CODE: 
+import math
+lado = float(input())
+apotema = lado/(2*math.tan(math.pi/7))
+area = (7/2)*lado*apotema
+areaarredondado = round(area,2)
+print(areaarredondado)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:28:48)
+-- CODE: 
+import math
+lado = float(input())
+apotema = lado/(2*math.tan(math.pi/7))
+area = (7/2)*lado*apotema
+areaarredondado = round(area,2)
+print(areaarredondado)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+130.82
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

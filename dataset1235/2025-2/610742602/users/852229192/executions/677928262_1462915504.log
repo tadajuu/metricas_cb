@@ -1,0 +1,56 @@
+== SUBMISSION (2025-08-28 17:15:23)
+-- CODE: 
+from math import tan, radians
+
+lado = float(input('qual o comprmento de um lado?:'))
+apotema = lado/ (2*tan(radians(36)))
+area = 5 * lado * apotema /2
+
+print(round(area , 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+qual o comprmento de um lado?:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+qual o comprmento de um lado?:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+qual o comprmento de um lado?:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+qual o comprmento de um lado?:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+qual o comprmento de um lado?:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+qual o comprmento de um lado?:172.05
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

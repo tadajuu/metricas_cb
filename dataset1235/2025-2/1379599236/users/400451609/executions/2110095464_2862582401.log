@@ -1,0 +1,831 @@
+== RUN (2025-08-25 18:40:44)
+-- CODE: 
+nome = input("Qual o nome do objeto? ")
+rep = int("Qual o número de repetições do feitiço? ")
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:52:05)
+-- CODE: 
+nome = input("Qual o nome do objeto? ")
+rep = int(input("Qual o número de repetições do feitiço? "))
+
+feitico = ("Abra " + nome + " ")*rep 
+
+print(feitico)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra carro Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra casa Abra casa Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra porta Abra porta Abra porta Abra porta
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:49:27)
+-- CODE: 
+nome = input("Qual o nome do objeto? ")
+rep = int(input("Qual o número de repetições do feitiço? "))
+
+print(("Abra ", nome)*rep, " ")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? ('Abra ', 'carro', 'Abra ', 'carro')
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? ('Abra ', 'caixa')
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? ('Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola')
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? ('Abra ', 'casa', 'Abra ', 'casa', 'Abra ', 'casa')
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? ('Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro')
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? ('Abra ', 'porta', 'Abra ', 'porta', 'Abra ', 'porta', 'Abra ', 'porta')
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:48:45)
+-- CODE: 
+nome = input("Qual o nome do objeto? ")
+rep = int(input("Qual o número de repetições do feitiço? "))
+
+print("Abra ", nome*rep, " ")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra  carrocarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra  caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra  sacolasacolasacolasacolasacolasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra  casacasacasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra  livrolivrolivrolivrolivrolivrolivrolivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra  portaportaportaporta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:38:35)
+-- CODE: 
+nome = input("Qual o nome do objeto? ")
+rep = int("Qual o número de repetições? ")
+
+print("Abra ", rep*nome)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições? '
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições? '
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições? '
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições? '
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições? '
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições? '
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:47:36)
+-- CODE: 
+nome = input("Qual o nome do objeto? ")
+rep = int("Qual o número de repetições do feitiço? ")
+
+feitico = nome * rep
+
+print(feitico)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:47:51)
+-- CODE: 
+nome = input("Qual o nome do objeto? ")
+rep = int("Qual o número de repetições do feitiço? ")
+
+feitico = nome * rep
+
+print(feitico)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:48:31)
+-- CODE: 
+nome = input("Qual o nome do objeto? ")
+rep = int(input("Qual o número de repetições do feitiço? "))
+
+print("Abra ", nome*rep)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra  carrocarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra  caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra  sacolasacolasacolasacolasacolasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra  casacasacasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra  livrolivrolivrolivrolivrolivrolivrolivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra  portaportaportaporta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:51:44)
+-- CODE: 
+nome = input("Qual o nome do objeto? ")
+rep = int(input("Qual o número de repetições do feitiço? "))
+
+feitico = ("Abra " + nome)*rep
+
+print(feitico, " ")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra carroAbra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra sacolaAbra sacolaAbra sacolaAbra sacolaAbra sacolaAbra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra casaAbra casaAbra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra livroAbra livroAbra livroAbra livroAbra livroAbra livroAbra livroAbra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra portaAbra portaAbra portaAbra porta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:50:11)
+-- CODE: 
+nome = input("Qual o nome do objeto? ")
+rep = int(input("Qual o número de repetições do feitiço? "))
+
+print(("Abra ", nome)*rep)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? ('Abra ', 'carro', 'Abra ', 'carro')
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? ('Abra ', 'caixa')
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? ('Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola')
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? ('Abra ', 'casa', 'Abra ', 'casa', 'Abra ', 'casa')
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? ('Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro')
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? ('Abra ', 'porta', 'Abra ', 'porta', 'Abra ', 'porta', 'Abra ', 'porta')
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:47:20)
+-- CODE: 
+nome = input("Qual o nome do objeto? ")
+rep = int("Qual o número de repetições do feitiço? ")
+
+feitiço = nome * rep
+
+print(feitiço)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    rep = int("Qual o número de repetições do feitiço? ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Qual o número de repetições do feitiço? '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:51:34)
+-- CODE: 
+nome = input("Qual o nome do objeto? ")
+rep = int(input("Qual o número de repetições do feitiço? "))
+
+feitico = ("Abra " + nome)*rep
+
+print(feitico)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra carroAbra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra sacolaAbra sacolaAbra sacolaAbra sacolaAbra sacolaAbra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra casaAbra casaAbra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra livroAbra livroAbra livroAbra livroAbra livroAbra livroAbra livroAbra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Qual o nome do objeto? Qual o número de repetições do feitiço? Abra portaAbra portaAbra portaAbra porta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

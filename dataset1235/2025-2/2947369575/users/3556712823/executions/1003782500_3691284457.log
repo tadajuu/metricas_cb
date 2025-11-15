@@ -1,0 +1,365 @@
+== RUN (2025-08-27 23:31:36)
+-- CODE: 
+av1 = float(input("Qual a nota da av1?"))
+av2 = float(input("Qual a nota da av2?"))
+av3 = float(input("Qual a nota da av3?"))
+av4 = float(input("Qual a nota da av4?"))
+
+média = float((av1*1 + av2*2 + av3*3 + av4*4)/(1*2*3*4))
+
+print (round (média, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?3.31
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?3.42
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?2.92
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?2.79
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?12.5
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?3.25
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 23:32:44)
+-- CODE: 
+av1 = float(input("Qual a nota da av1?"))
+av2 = float(input("Qual a nota da av2?"))
+av3 = float(input("Qual a nota da av3?"))
+av4 = float(input("Qual a nota da av4?"))
+
+média = float((av1*1 + av2*2 + av3*3 + av4*4)/(1+2+3+4))
+
+print (round (média, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?7.94
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?8.2
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?7.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?6.7
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?30.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?7.8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:32:19)
+-- CODE: 
+av1 = float(input("Qual a nota da av1?"))
+av2 = float(input("Qual a nota da av2?"))
+av3 = float(input("Qual a nota da av3?"))
+av4 = float(input("Qual a nota da av4?"))
+
+média = float((av1*1 + av2*2 + av3*3 + av4*4)/(1+2+3+4))
+
+print (round (média, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?7.94
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?8.2
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?7.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?6.7
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?30.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?7.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:28:47)
+-- CODE: 
+av1 = float(input("Qual a nota da av1?"))
+av2 = float(input("Qual a nota da av2?"))
+av3 = float(input("Qual a nota da av3?"))
+av4 = float(input("Qual a nota da av4?"))
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:31:17)
+-- CODE: 
+av1 = float(input("Qual a nota da av1?"))
+av2 = float(input("Qual a nota da av2?"))
+av3 = float(input("Qual a nota da av3?"))
+av4 = float(input("Qual a nota da av4?"))
+
+média = float((av1*1 + av2*2 + av3*3 + av4*4)/1*2*3*4)
+
+print (round (média, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?1904.64
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?1968.0
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?1680.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?1608.0
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?7200.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Qual a nota da av1?Qual a nota da av2?Qual a nota da av3?Qual a nota da av4?1872.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,533 @@
+== RUN (2025-08-26 21:55:24)
+-- CODE: 
+from math import *
+A= float(input("insira a quantidade de A;"))
+B= float(input("insira a quantidade de B;"))
+G= float(input("insira a quantidade do angulo;"))
+
+J=radians(G)
+
+C=(sqrt(A**2)+(B**2)-2*A*B*cos(J))
+
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;7509.82
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;125.93
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;-40.73
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;0.44
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;-6.86
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;28.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:05:59)
+-- CODE: 
+from math import *
+A= float(input("insira a quantidade de A;"))
+B= float(input("insira a quantidade de B;"))
+G= float(input("insira a quantidade do angulo;"))
+
+J=radians(G)
+
+C=sqrt((A**2)+(B**2)-2*A*B*cos(J))
+
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;9.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 02:06:48)
+-- CODE: 
+from math import *
+A= float(input("insira a quantidade de A;"))
+B= float(input("insira a quantidade de B;"))
+G= float(input("insira a quantidade do angulo;"))
+
+J=radians(G)
+
+C=sqrt((A**2)+(B**2)-2*A*B*cos(J))
+
+print(round(C,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:53:34)
+-- CODE: 
+from math import *
+A= float(input("insira a quantidade de A;"))
+B= float(input("insira a quantidade de B;"))
+G= float(input("insira a quantidade do angulo;"))
+
+J=radians(G)
+
+C=sqrt(A**2)+(B**2)-(2*A*B*cos(J))
+
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;7509.82
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;125.93
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;-40.73
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;0.44
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;-6.86
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;28.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:06:20)
+-- CODE: 
+from math import *
+A= float(input("insira a quantidade de A;"))
+B= float(input("insira a quantidade de B;"))
+G= float(input("insira a quantidade do angulo;"))
+
+J=radians(G)
+
+C=sqrt((A**2)+(B**2)-2*A*B*cos(J))
+
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+insira a quantidade de A;insira a quantidade de B;insira a quantidade do angulo;9.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:49:11)
+-- CODE: 
+from math import *
+A= float(input("insira a quantidade de A;"))
+B= float(input("insira a quantidade de B;"))
+G= float(input("insira a quantidade do angulo;"))
+
+J=radians(G)
+
+C=sqrt(a**2)+(b**2)-(2*A*B*cos(J))
+
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    C=sqrt(a**2)+(b**2)-(2*A*B*cos(J))
+           ^
+NameError: name 'a' is not defined. Did you mean: 'A'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    C=sqrt(a**2)+(b**2)-(2*A*B*cos(J))
+           ^
+NameError: name 'a' is not defined. Did you mean: 'A'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    C=sqrt(a**2)+(b**2)-(2*A*B*cos(J))
+           ^
+NameError: name 'a' is not defined. Did you mean: 'A'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    C=sqrt(a**2)+(b**2)-(2*A*B*cos(J))
+           ^
+NameError: name 'a' is not defined. Did you mean: 'A'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    C=sqrt(a**2)+(b**2)-(2*A*B*cos(J))
+           ^
+NameError: name 'a' is not defined. Did you mean: 'A'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    C=sqrt(a**2)+(b**2)-(2*A*B*cos(J))
+           ^
+NameError: name 'a' is not defined. Did you mean: 'A'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:47:56)
+-- CODE: 
+from math import *
+A= float(input("insira a quantidade de A"))
+B= float(input("insira a quantidade de B"))
+G= float(input("insira a quantidade de G"))
+
+J=radians(G)
+
+C=sqrt(a**2)+(b**2)-(2*A*B*cos(J))
+
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    C=sqrt(a**2)+(b**2)-(2*A*B*cos(J))
+           ^
+NameError: name 'a' is not defined. Did you mean: 'A'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    C=sqrt(a**2)+(b**2)-(2*A*B*cos(J))
+           ^
+NameError: name 'a' is not defined. Did you mean: 'A'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    C=sqrt(a**2)+(b**2)-(2*A*B*cos(J))
+           ^
+NameError: name 'a' is not defined. Did you mean: 'A'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    C=sqrt(a**2)+(b**2)-(2*A*B*cos(J))
+           ^
+NameError: name 'a' is not defined. Did you mean: 'A'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    C=sqrt(a**2)+(b**2)-(2*A*B*cos(J))
+           ^
+NameError: name 'a' is not defined. Did you mean: 'A'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    C=sqrt(a**2)+(b**2)-(2*A*B*cos(J))
+           ^
+NameError: name 'a' is not defined. Did you mean: 'A'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

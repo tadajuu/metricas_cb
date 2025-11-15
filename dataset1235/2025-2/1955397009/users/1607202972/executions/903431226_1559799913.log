@@ -1,0 +1,176 @@
+== RUN (2025-08-26 12:06:38)
+-- CODE: 
+numero = int (input())
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+---- user output:
+4
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+---- user output:
+0
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+---- user output:
+1000000
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+---- user output:
+100
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+---- user output:
+225
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+---- user output:
+14400
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 12:04:48)
+-- CODE: 
+numero = input()
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 12:06:58)
+-- CODE: 
+numero = int (input())
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+---- user output:
+4
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+---- user output:
+0
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+---- user output:
+1000000
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+---- user output:
+100
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+---- user output:
+225
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+---- user output:
+14400
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

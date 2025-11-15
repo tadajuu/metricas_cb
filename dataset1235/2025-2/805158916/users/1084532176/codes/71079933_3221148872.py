@@ -1,0 +1,1 @@
+print("O valor total é:",40+35)

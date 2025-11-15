@@ -1,0 +1,73 @@
+== SUBMISSION (2025-08-27 20:28:42)
+-- CODE: 
+a = float(input("a: "))
+b = float(input("b: "))
+c = float(input("c: "))
+
+a1 = (a ** 2)
+b2 = (b ** 2)
+c3 = (c ** 2)
+
+x = a1  + b2 + c3 
+y = a + b + c 
+
+print(round(x/y, 7))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+---- user output:
+a: b: c: 2.3333333
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+---- user output:
+a: b: c: 25.6666667
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+---- user output:
+a: b: c: 342.8680203
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+---- user output:
+a: b: c: 106.1509434
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+---- user output:
+a: b: c: 83.3333333
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+---- user output:
+a: b: c: -3.75
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

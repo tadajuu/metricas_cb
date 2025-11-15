@@ -230,7 +230,8 @@ class Assertiveness(Metric):
          uma ou mais sessões de codificação de um exercício ou prova no Codebench.
         :return: lista de ItemDict.
         """
-        PATTERN_TEXTFIELD_REMOVEDFIELD_ORIGINFIELD = '\"text\":\[\".*\"\],\"removed\":\[\".*\"\],\"origin\":.*\"'
+        PATTERN_TEXTFIELD_REMOVEDFIELD_ORIGINFIELD = '\"inserted\": \[\".*\"\]'
+        #PATTERN_TEXTFIELD_REMOVEDFIELD_ORIGINFIELD = '\"text\":\[\".*\"\],\"removed\":\[\".*\"\],\"origin\":.*\"'
         keystrokesfile.load_text()
         dirty_keystrokes: list = re.findall(PATTERN_TEXTFIELD_REMOVEDFIELD_ORIGINFIELD, keystrokesfile.text)
         keystrokes_fields: list[dict] = self._extract_keystrokes_fields(dirty_keystrokes)
@@ -246,16 +247,19 @@ class Assertiveness(Metric):
         """
         keystrokes_fields = []
         for line in dirty_keystrokes:
-            textfield_value = self._extract_textfield_value(line)
-            removedfield_value = self._extract_removedfield_value(line)
-            originfield_value = self._extract_originfield_value(line)
+            inserted_value = self._extract_textfield_value(line)
+            #textfield_value = self._extract_textfield_value(line)
+            #removedfield_value = self._extract_removedfield_value(line)
+            #originfield_value = self._extract_originfield_value(line)
 
             # Elimina aspas dos extremos
-            textfield_value = textfield_value[1:-1]
-            removedfield_value = removedfield_value[1:-1]
-            originfield_value = originfield_value[1:-1]
+            #textfield_value = textfield_value[1:-1]
+            #removedfield_value = removedfield_value[1:-1]
+            #originfield_value = originfield_value[1:-1]
 
-            dict_log = {'text': textfield_value, 'removed': removedfield_value, 'origin': originfield_value}
+            inserted_value = inserted_value[1:-1]
+            dict_log = {'text': inserted_value}
+            #dict_log = {'text': textfield_value, 'removed': removedfield_value, 'origin': originfield_value}
             keystrokes_fields.append(dict_log)
         return keystrokes_fields
 
@@ -265,9 +269,11 @@ class Assertiveness(Metric):
         :param line: uma string contendo o campo 'text' e seu valor (uma ou mais keystrokes).
         :return: string com keystrokes.
         """
-        PATTERN_TEXTFIELD = '\"text\":.*\"\],"r'
+        PATTERN_TEXTFIELD = '\"inserted\": \[\".*\"\]'
+        #PATTERN_TEXTFIELD = '\"text\":.*\"\],"r'
         dirty_textfield = re.findall(PATTERN_TEXTFIELD, line)
-        textfield = dirty_textfield[0][0:len(dirty_textfield[0]) - 3]
+        #textfield = dirty_textfield[0][0:len(dirty_textfield[0]) - 3]
+        textfield = dirty_textfield[0]
         PATTERN_BRACKETS = '\[.*\]'
         dirty_textfield_value = re.findall(PATTERN_BRACKETS, textfield)
         textfield_value = dirty_textfield_value[0][1:-1]
@@ -308,22 +314,28 @@ class Assertiveness(Metric):
         ItemDict = {'text': textfield_value, 'removed': removedfield_value, 'origin': originfield_value}
         :return: tupla com keystrokes adicionadas e keystrokes deletadas.
         """
-        especial_chars = {'single_quote': '\\"', 'enter': '","', 'tab': ' ', 'delete': '""'}
+        especial_chars = {'single_quote': '\\"', 'enter': '", "', 'tab': ' ', 'delete': '""'}
         count_adds = 0
         count_dels = 0
+
         for keystrokes_field in keystrokes_fields:
             text_field = keystrokes_field['text']
-            removed_field = keystrokes_field['removed']
-
-            text_field_modified = ""
-            removed_field_modified = ""
             if text_field != "":
                 text_field_modified = self._prepare_field_for_counting(text_field, especial_chars)
-            if removed_field != "":
-                removed_field_modified = self._prepare_field_for_counting(removed_field, especial_chars)
+                count_adds += len(keystrokes_field['text'])
+            else:
+                count_dels += 1
+            #removed_field = keystrokes_field['removed']
 
-            count_adds += len(text_field_modified)
-            count_dels += len(removed_field_modified)
+            #text_field_modified = ""
+            #removed_field_modified = ""
+            #if text_field != "":
+                #text_field_modified = self._prepare_field_for_counting(text_field, especial_chars)
+            #if removed_field != "":
+                #removed_field_modified = self._prepare_field_for_counting(removed_field, especial_chars)
+
+            #count_adds += len(text_field_modified)
+            #count_dels += len(removed_field_modified)
 
         # count_ks: int = count_adds - count_dels
         return count_adds, count_dels

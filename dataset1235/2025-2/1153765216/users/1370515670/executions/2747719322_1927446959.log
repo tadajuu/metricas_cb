@@ -1,0 +1,753 @@
+== RUN (2025-08-24 03:17:59)
+-- CODE: 
+n= 3567.90
+
+# calculo das porcentagem
+pocentagem_27 = round (n* 0.27,2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 03:24:40)
+-- CODE: 
+n= 3567.90
+
+# calculo das porcentagem
+porcentagem_27 = round(n* 27/100,2)
+
+porcentagem_42 = round(n* 42/100,2)
+
+porcentagem_63 = round(n* 63/100,2)
+
+#resultado 
+print(input("porcentagem_27"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+porcentagem_27123.14
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+porcentagem_2725.00
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+porcentagem_27325.60
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+porcentagem_273567.90
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+porcentagem_275426.20
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+porcentagem_2712.15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 03:24:04)
+-- CODE: 
+n= 3567.90
+
+# calculo das porcentagem
+porcentagem_27 = round(n* 27/100,2)
+
+porcentagem_42 = round(n* 42/100,2)
+
+porcentagem_63 = round(n* 63/100,2)
+
+#resultado 
+print(input("porcentagem_27"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+porcentagem_27123.14
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+porcentagem_2725.00
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+porcentagem_27325.60
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+porcentagem_273567.90
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+porcentagem_275426.20
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+porcentagem_2712.15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 21:03:35)
+-- CODE: 
+n= 3567.90
+
+# calculo das porcentagem
+x = input(round(n * 0.27,2))
+y = input(round(n * 1.42,2))
+z = input(round(n * 0.37,2))
+
+#impressão do resultado 
+print(x)
+print(y)
+print(z)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 04:02:45)
+-- CODE: 
+n= 3567.90
+
+# calculo das porcentagem
+x = input(round(n * 0.27,2))
+y = input(round(n * 1.42,2))
+z = input(round(n * 0.37,2))
+
+#impressão do resultado 
+print(x)
+print(y)
+print(z)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 03:47:02)
+-- CODE: 
+n= 3567.90
+
+# calculo das porcentagem
+x = input(round(n * (0.27,2))
+y = input(round(n * (1.42,2))
+z = input(round(n * (0.37,2))
+
+#impressão do resultado 
+print("x")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 4
+    x = input(round(n * (0.27,2))
+              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 4
+    x = input(round(n * (0.27,2))
+              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 4
+    x = input(round(n * (0.27,2))
+              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 4
+    x = input(round(n * (0.27,2))
+              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 4
+    x = input(round(n * (0.27,2))
+              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 4
+    x = input(round(n * (0.27,2))
+              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 04:01:33)
+-- CODE: 
+n= 3567.90
+
+# calculo das porcentagem
+x = input(round(n *(0.27,2))
+y = input(round(n *(1.42,2))
+z = input(round(n *(0.37,2))
+
+#impressão do resultado 
+print(x)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 4
+    x = input(round(n *(0.27,2))
+              ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 4
+    x = input(round(n *(0.27,2))
+              ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 4
+    x = input(round(n *(0.27,2))
+              ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 4
+    x = input(round(n *(0.27,2))
+              ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 4
+    x = input(round(n *(0.27,2))
+              ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 4
+    x = input(round(n *(0.27,2))
+              ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 04:02:37)
+-- CODE: 
+n= 3567.90
+
+# calculo das porcentagem
+x = input(round(n * 0.27,2))
+y = input(round(n * 1.42,2))
+z = input(round(n * 0.37,2))
+
+#impressão do resultado 
+print(x)
+print(y)
+print(z)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 1.42,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 03:36:10)
+-- CODE: 
+n= 3567.90
+
+# calculo das porcentagem
+x = input(round(n * 27/100,2))
+y = input(round(n * 42/100,2))
+z = input(round(n * 63/100,2))
+
+#impressão do resultado 
+print(round(n * 27/100,2))
+print(round(n * 42/100,2))
+print(round(n * 63/100,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 42/100,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 42/100,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 42/100,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 42/100,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 42/100,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = input(round(n * 42/100,2))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,7 @@
+n = float(input("valor do produto: "))
+p = n *(27/100)
+p2 = n + n*(42/100)
+p3 = n - n*(63/100)
+print(round(p,2))
+print(round(p2,2))
+print(round(p3,2))

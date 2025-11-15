@@ -1,0 +1,495 @@
+== RUN (2025-08-21 19:09:02)
+-- CODE: 
+l = float(input("quantidade de litros abstecidos: "))
+vt = round(((l*2.86+50)*34/100),2)
+print(vt)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+quantidade de litros abstecidos: 27.11
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+quantidade de litros abstecidos: 161.08
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+quantidade de litros abstecidos: 65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+quantidade de litros abstecidos: 101.99
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+quantidade de litros abstecidos: 248.65
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+quantidade de litros abstecidos: 58.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 19:16:26)
+-- CODE: 
+l = float(input("quantidade de litros abstecidos: "))
+v = (2.86*l)+50
+vt = v+(v*34/100)
+print round(vt,2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+File "XXXX", line 4
+    print round(vt,2)
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+File "XXXX", line 4
+    print round(vt,2)
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+File "XXXX", line 4
+    print round(vt,2)
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+File "XXXX", line 4
+    print round(vt,2)
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+File "XXXX", line 4
+    print round(vt,2)
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+File "XXXX", line 4
+    print round(vt,2)
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 19:15:03)
+-- CODE: 
+l = float(input("quantidade de litros abstecidos: "))
+v = 2.86*l
+vt = round(((v+50)+v+50*34/100),2)
+print(vt)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+quantidade de litros abstecidos: 126.49
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+quantidade de litros abstecidos: 914.53
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+quantidade de litros abstecidos: 353.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+quantidade de litros abstecidos: 566.93
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+quantidade de litros abstecidos: 1429.68
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+quantidade de litros abstecidos: 311.13
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 19:16:39)
+-- CODE: 
+l = float(input("quantidade de litros abstecidos: "))
+v = (2.86*l)+50
+vt = v+(v*34/100)
+print(round(vt,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+quantidade de litros abstecidos: 106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+quantidade de litros abstecidos: 634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+quantidade de litros abstecidos: 258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+quantidade de litros abstecidos: 401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+quantidade de litros abstecidos: 979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+quantidade de litros abstecidos: 230.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 19:16:45)
+-- CODE: 
+l = float(input("quantidade de litros abstecidos: "))
+v = (2.86*l)+50
+vt = v+(v*34/100)
+print(round(vt,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+quantidade de litros abstecidos: 106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+quantidade de litros abstecidos: 634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+quantidade de litros abstecidos: 258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+quantidade de litros abstecidos: 401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+quantidade de litros abstecidos: 979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+quantidade de litros abstecidos: 230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 19:13:39)
+-- CODE: 
+l = float(input("quantidade de litros abstecidos: "))
+v = 2.86*l
+vt = (v+50)*34/100
+print(vt)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+quantidade de litros abstecidos: 27.112959999999998
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+quantidade de litros abstecidos: 161.08050799999998
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+quantidade de litros abstecidos: 65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+quantidade de litros abstecidos: 101.98776
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+quantidade de litros abstecidos: 248.65485199999995
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+quantidade de litros abstecidos: 58.502032
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 19:10:29)
+-- CODE: 
+l = float(input("quantidade de litros abstecidos: "))
+vt = round(((l*2.86+50)+2*(34/100)),2)
+print(vt)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+quantidade de litros abstecidos: 80.42
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+quantidade de litros abstecidos: 474.45
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+quantidade de litros abstecidos: 193.68
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+quantidade de litros abstecidos: 300.64
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+quantidade de litros abstecidos: 732.02
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+quantidade de litros abstecidos: 172.74
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 19:16:28)
+-- CODE: 
+l = float(input("quantidade de litros abstecidos: "))
+v = (2.86*l)+50
+vt = v+(v*34/100)
+print round(vt,2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+File "XXXX", line 4
+    print round(vt,2)
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+File "XXXX", line 4
+    print round(vt,2)
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+File "XXXX", line 4
+    print round(vt,2)
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+File "XXXX", line 4
+    print round(vt,2)
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+File "XXXX", line 4
+    print round(vt,2)
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+File "XXXX", line 4
+    print round(vt,2)
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 19:16:10)
+-- CODE: 
+l = float(input("quantidade de litros abstecidos: "))
+v = (2.86*l)+50
+vt = v+(v*34/100)
+print(vt)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+quantidade de litros abstecidos: 106.85696
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+quantidade de litros abstecidos: 634.8467079999999
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+quantidade de litros abstecidos: 258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+quantidade de litros abstecidos: 401.95176
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+quantidade de litros abstecidos: 979.9926519999999
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+quantidade de litros abstecidos: 230.56683199999998
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

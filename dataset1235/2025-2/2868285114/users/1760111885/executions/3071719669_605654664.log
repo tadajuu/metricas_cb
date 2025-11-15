@@ -1,0 +1,2774 @@
+== RUN (2025-08-28 23:02:54)
+-- CODE: 
+frete = float(input())
+
+gasto = frete + 25
+imposto = gasto + gasto * 0.62
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+56.7
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+329.67
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+74.2
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+559.94
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+68.41
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+102.08
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:42:00)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*15 + 5
+imposto = gasto + gasto*(20/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:53:24)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43.21 + 25.00
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 22:53:24)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43.21 + 25.00
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 23:07:12)
+-- CODE: 
+frete = int(input())
+
+valormercadoria = frete*43.21+25.00
+imposto = gasto + gasto * (62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:45:12)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43.21 + 25
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 23:06:02)
+-- CODE: 
+frete = float(input())
+
+valormercadoria = frete*43.21+25.00
+imposto = gasto + gasto * (62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = gasto + gasto * (62/100)
+              ^^^^^
+NameError: name 'gasto' is not defined
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = gasto + gasto * (62/100)
+              ^^^^^
+NameError: name 'gasto' is not defined
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = gasto + gasto * (62/100)
+              ^^^^^
+NameError: name 'gasto' is not defined
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = gasto + gasto * (62/100)
+              ^^^^^
+NameError: name 'gasto' is not defined
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = gasto + gasto * (62/100)
+              ^^^^^
+NameError: name 'gasto' is not defined
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = gasto + gasto * (62/100)
+              ^^^^^
+NameError: name 'gasto' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:56:39)
+-- CODE: 
+tempo = int (input())
+
+gasto = peso*43.21 + 25
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 23:07:15)
+-- CODE: 
+frete = int(input())
+
+valormercadoria = frete*43.21+25.00
+imposto = gasto + gasto * (62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:45:17)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43.21 + 25
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:59:38)
+-- CODE: 
+peso = float(input())
+
+gasto = peso + 25
+imposto = gasto + gasto * 0.62
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+56.7
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+329.67
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+74.2
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+559.94
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+68.41
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+102.08
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 22:43:18)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43,21 + 25
+imposto = gasto + gasto*(25/100)
+
+print(round(imposto,62))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 23:07:11)
+-- CODE: 
+frete = int(input())
+
+valormercadoria = frete*43.21+25.00
+imposto = gasto + gasto * (62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 23:00:46)
+-- CODE: 
+peso = float(input())
+
+gasto = peso + 25
+imposto = gasto + gasto * 1.62
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+91.7
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+533.17
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+120.0
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+905.58
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+110.64
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+165.09
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:44:25)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43,21 + 25
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:44:41)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43,21 + 25
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 23:08:21)
+-- CODE: 
+frete = int(input())
+valormercadoria = frete*43.21+25.00
+imposto = gasto + gasto * (62/100)
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 23:01:07)
+-- CODE: 
+peso = float(input())
+
+gasto = peso + 25
+imposto = gasto + gasto * 1.62
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+91.7
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+533.17
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+120.0
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+905.58
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+110.64
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+165.09
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:59:44)
+-- CODE: 
+peso = float(input())
+
+gasto = peso + 25
+imposto = gasto + gasto * 0.62
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+56.7
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+329.67
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+74.2
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+559.94
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+68.41
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+102.08
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:43:19)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43,21 + 25
+imposto = gasto + gasto*(25/100)
+
+print(round(imposto,62))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 23:00:47)
+-- CODE: 
+peso = float(input())
+
+gasto = peso + 25
+imposto = gasto + gasto * 1.62
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+91.7
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+533.17
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+120.0
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+905.58
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+110.64
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+165.09
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:43:37)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43,21 + 25
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 23:08:15)
+-- CODE: 
+frete = int(input())
+valormercadoria = frete*43.21+25.00
+imposto = gasto + gasto * (62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 23:06:00)
+-- CODE: 
+frete = float(input())
+
+valormercadoria = frete*43.21+25.00
+imposto = gasto + gasto * (62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = gasto + gasto * (62/100)
+              ^^^^^
+NameError: name 'gasto' is not defined
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = gasto + gasto * (62/100)
+              ^^^^^
+NameError: name 'gasto' is not defined
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = gasto + gasto * (62/100)
+              ^^^^^
+NameError: name 'gasto' is not defined
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = gasto + gasto * (62/100)
+              ^^^^^
+NameError: name 'gasto' is not defined
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = gasto + gasto * (62/100)
+              ^^^^^
+NameError: name 'gasto' is not defined
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    imposto = gasto + gasto * (62/100)
+              ^^^^^
+NameError: name 'gasto' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 22:59:37)
+-- CODE: 
+peso = float(input())
+
+gasto = peso + 25
+imposto = gasto + gasto * 0.62
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+56.7
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+329.67
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+74.2
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+559.94
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+68.41
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+102.08
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 22:45:19)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43.21 + 25
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 22:43:36)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43,21 + 25
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 23:08:20)
+-- CODE: 
+frete = int(input())
+valormercadoria = frete*43.21+25.00
+imposto = gasto + gasto * (62/100)
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 23:08:16)
+-- CODE: 
+frete = int(input())
+valormercadoria = frete*43.21+25.00
+imposto = gasto + gasto * (62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:45:13)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43.21 + 25
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 23:07:14)
+-- CODE: 
+frete = int(input())
+
+valormercadoria = frete*43.21+25.00
+imposto = gasto + gasto * (62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    frete = int(input())
+            ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 23:02:55)
+-- CODE: 
+frete = float(input())
+
+gasto = frete + 25
+imposto = gasto + gasto * 0.62
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+56.7
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+329.67
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+74.2
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+559.94
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+68.41
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+102.08
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 22:44:02)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43,21 + 25
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 22:45:30)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43.21 + 25.00
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 22:45:16)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43.21 + 25
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:45:31)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43.21 + 25.00
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:45:19)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*43.21 + 25
+imposto = gasto + gasto*(62/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 22:41:59)
+-- CODE: 
+tempo = int (input())
+
+gasto = tempo*15 + 5
+imposto = gasto + gasto*(20/100)
+
+print(round(imposto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '178.50'
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.8'
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '320.64'
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '17.23'
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    tempo = int (input())
+            ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '38.01'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

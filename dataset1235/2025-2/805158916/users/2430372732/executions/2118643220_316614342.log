@@ -1,0 +1,523 @@
+== RUN (2025-09-01 14:32:06)
+-- CODE: 
+from math import *
+
+# faça seu código aqui!
+
+lado = float(input("LADO"))
+
+apt1 = pi / 7
+print (apt1)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+LADO0.4487989505128276
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+LADO0.4487989505128276
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+LADO0.4487989505128276
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+LADO0.4487989505128276
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+LADO0.4487989505128276
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+LADO0.4487989505128276
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:30:11)
+-- CODE: 
+from math import *
+
+# faça seu código aqui!
+
+lado = float(input("LADO"))
+
+pis7 = pi / 7
+
+apt = float(lado / 2 * tan, pis7)
+
+area = float(3.5 * lado * apt)
+
+print (area)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    apt = float(lado / 2 * tan, pis7)
+                ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for *: 'float' and 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    apt = float(lado / 2 * tan, pis7)
+                ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for *: 'float' and 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    apt = float(lado / 2 * tan, pis7)
+                ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for *: 'float' and 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    apt = float(lado / 2 * tan, pis7)
+                ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for *: 'float' and 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    apt = float(lado / 2 * tan, pis7)
+                ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for *: 'float' and 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    apt = float(lado / 2 * tan, pis7)
+                ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for *: 'float' and 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:37:55)
+-- CODE: 
+from math import *
+
+# faça seu código aqui!
+
+lado = float(input("LADO"))
+
+apt1 = float(pi / 7)
+apt2 = float(tan (apt1))
+apt3 = float(2 * apt2)
+
+apt = float(lado / apt3)
+
+area = float(3.5001 * lado * apt)
+
+print (area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+LADO178.0667972334995
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+LADO32.70614643064276
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+LADO130.82458572257104
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+LADO90.85040675178546
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+LADO58.14426032114269
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+LADO130.82458572257104
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:34:40)
+-- CODE: 
+from math import *
+
+# faça seu código aqui!
+
+lado = float(input("LADO"))
+
+apt1 = pi / 7
+apt2 = tan (apt1)
+apt3 = 2 * apt2
+
+apt = float(lado / apt3)
+
+area = float(3.5 * lado * apt)
+
+print (area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+LADO178.06170975607787
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+LADO32.7052119960143
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+LADO130.8208479840572
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+LADO90.84781110003972
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+LADO58.14259910402543
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+LADO130.8208479840572
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:39:36)
+-- CODE: 
+from math import *
+
+# faça seu código aqui!
+
+lado = float(input("LADO"))
+
+apt1 = float(pi / 7)
+apt2 = float(tan (apt1))
+apt3 = float(2 * apt2)
+
+apt = float(lado / apt3)
+
+area = float(3.50 * lado * apt)
+
+print (round(area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+LADO178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+LADO32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+LADO130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+LADO90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+LADO58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+LADO130.82
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:39:34)
+-- CODE: 
+from math import *
+
+# faça seu código aqui!
+
+lado = float(input("LADO"))
+
+apt1 = float(pi / 7)
+apt2 = float(tan (apt1))
+apt3 = float(2 * apt2)
+
+apt = float(lado / apt3)
+
+area = float(3.50 * lado * apt)
+
+print (round(area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+LADO178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+LADO32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+LADO130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+LADO90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+LADO58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+LADO130.82
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:38:39)
+-- CODE: 
+from math import *
+
+# faça seu código aqui!
+
+lado = float(input("LADO"))
+
+apt1 = float(pi / 7)
+apt2 = float(tan (apt1))
+apt3 = float(2 * apt2)
+
+apt = float(lado / apt3)
+
+area = float(3.5001 * lado * apt)
+
+print (round(area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+LADO178.07
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+LADO32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+LADO130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+LADO90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+LADO58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+LADO130.82
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:38:27)
+-- CODE: 
+from math import *
+
+# faça seu código aqui!
+
+lado = float(input("LADO"))
+
+apt1 = float(pi / 7)
+apt2 = float(tan (apt1))
+apt3 = float(2 * apt2)
+
+apt = float(lado / apt3)
+
+area = float(3.5001 * lado * apt)
+
+print (round(area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+LADO178.07
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+LADO32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+LADO130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+LADO90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+LADO58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+LADO130.82
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

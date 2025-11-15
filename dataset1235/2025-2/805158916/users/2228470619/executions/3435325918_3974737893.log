@@ -1,0 +1,371 @@
+== SUBMISSION (2025-09-03 14:27:53)
+-- CODE: 
+x = int(input("Informe o primeiro número: "))
+y = int(input("Informe o segundo número: "))
+
+if(x%y==0):
+  print("Sim, ", x//y)
+
+else:
+    print("Não, ", x%y)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+Informe o primeiro número: Informe o segundo número: Não,  3
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+Informe o primeiro número: Informe o segundo número: Sim,  144
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+Informe o primeiro número: Informe o segundo número: Sim,  2
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+Informe o primeiro número: Informe o segundo número: Sim,  0
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+Informe o primeiro número: Informe o segundo número: Não,  11
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+Informe o primeiro número: Informe o segundo número: Não,  1
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-03 15:05:07)
+-- CODE: 
+x = int(input("Informe o primeiro número: "))
+y = int(input("Informe o segundo número: "))
+
+if(x%y==0):
+  print(x//y)
+  print("sim")
+
+else:
+  print(x%y)
+  print("nao")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+nao
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+sim
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+nao
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+nao
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-03 14:29:20)
+-- CODE: 
+x = int(input("Informe o primeiro número: "))
+y = int(input("Informe o segundo número: "))
+
+if(x%y==0):
+  print("", x//y)
+  print("sim")
+
+else:
+  print("", x%y)
+  print("nao")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+nao
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+sim
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+nao
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+nao
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-03 14:29:06)
+-- CODE: 
+x = int(input("Informe o primeiro número: "))
+y = int(input("Informe o segundo número: "))
+
+if(x%y==0):
+  print("", x//y)
+  print("sim")
+
+else:
+  print("", x%y)
+  print("Não")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+Não
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+sim
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+Não
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+Não
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-03 14:28:26)
+-- CODE: 
+x = int(input("Informe o primeiro número: "))
+y = int(input("Informe o segundo número: "))
+
+if(x%y==0):
+  print("", x//y)
+  print("sim")
+
+else:
+    print("", x%y)
+  print("Não")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+-- ERROR:
+File "XXXX", line 10
+    print("Não")
+                ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+-- ERROR:
+File "XXXX", line 10
+    print("Não")
+                ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+-- ERROR:
+File "XXXX", line 10
+    print("Não")
+                ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+-- ERROR:
+File "XXXX", line 10
+    print("Não")
+                ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+-- ERROR:
+File "XXXX", line 10
+    print("Não")
+                ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+-- ERROR:
+File "XXXX", line 10
+    print("Não")
+                ^
+IndentationError: unindent does not match any outer indentation level
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

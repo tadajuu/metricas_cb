@@ -1,0 +1,156 @@
+== RUN (2025-08-21 17:22:39)
+-- CODE: 
+# x% é x/100 então 18% é 18/100
+n = float(input("Valor de entrada:"))
+x = int(input("Sua porcentagem de desconto/multa:")) faria uso disso no lugar de 27 q ja foi dado pelo enunciado
+opção = input("É desconto ou é multa?")
+print(float(round(n*x/100,2)))
+print(float(round(n+n*x/100,2)))
+print(float(round(n-n*x/100,2)))
+
+
+# caso pedisse para fazer com um input do proprio usuario, por ex, input("A porcentagem") poderia usar aquela ideia q eu coloquei tbm como anotação. pelo menos só p um caso de operação especifica ja que eu n sei fazer um jeito de fazer o usuario escolher a operação q ele quer q seja usada.
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 3
+    x = int(input("Sua porcentagem de desconto/multa:")) faria uso disso no lugar de 27 q ja foi dado pelo enunciado
+                                                         ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 3
+    x = int(input("Sua porcentagem de desconto/multa:")) faria uso disso no lugar de 27 q ja foi dado pelo enunciado
+                                                         ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 3
+    x = int(input("Sua porcentagem de desconto/multa:")) faria uso disso no lugar de 27 q ja foi dado pelo enunciado
+                                                         ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 3
+    x = int(input("Sua porcentagem de desconto/multa:")) faria uso disso no lugar de 27 q ja foi dado pelo enunciado
+                                                         ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 3
+    x = int(input("Sua porcentagem de desconto/multa:")) faria uso disso no lugar de 27 q ja foi dado pelo enunciado
+                                                         ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 3
+    x = int(input("Sua porcentagem de desconto/multa:")) faria uso disso no lugar de 27 q ja foi dado pelo enunciado
+                                                         ^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 17:23:06)
+-- CODE: 
+# x% é x/100 então 18% é 18/100
+n = float(input("Valor de entrada:"))
+# x = int(input("Sua porcentagem de desconto/multa:")) faria uso disso no lugar de 27 q ja foi dado pelo enunciado
+print(float(round(n*27/100,2)))
+print(float(round(n+n*42/100,2)))
+print(float(round(n-n*63/100,2)))
+
+
+# caso pedisse para fazer com um input do proprio usuario, por ex, input("A porcentagem") poderia usar aquela ideia q eu coloquei tbm como anotação. pelo menos só p um caso de operação especifica ja que eu n sei fazer um jeito de fazer o usuario escolher a operação q ele quer q seja usada.
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:44:22)

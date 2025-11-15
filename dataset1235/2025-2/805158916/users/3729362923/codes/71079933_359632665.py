@@ -1,0 +1,1 @@
+print("O valor que cada um deve desembolsar é:", round(250/6,2))

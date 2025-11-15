@@ -1,0 +1,420 @@
+== RUN (2025-08-13 13:52:22)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.AdaLovelacefoiaprimeiraprogramadoradahistoria.upper(converter para maisculo))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.AdaLovelacefoiaprimeiraprogramadoradahistoria.upper(converter para maisculo))
+                                                                    ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.AdaLovelacefoiaprimeiraprogramadoradahistoria.upper(converter para maisculo))
+                                                                    ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:59:56)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper(string "Ada Lovelace foi a primeira programadora da historia."))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(string "Ada Lovelace foi a primeira programadora da historia."))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(string "Ada Lovelace foi a primeira programadora da historia."))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:59:32)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper(string""Ada Lovelace foi a primeira programadora da historia."))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(string""Ada Lovelace foi a primeira programadora da historia."))
+                                                                                   ^
+SyntaxError: unterminated string literal (detected at line 2)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(string""Ada Lovelace foi a primeira programadora da historia."))
+                                                                                   ^
+SyntaxError: unterminated string literal (detected at line 2)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:51:59)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.Ada Lovelace foi a primeira programadora da historia.upper(converter para maisculo))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.Ada Lovelace foi a primeira programadora da historia.upper(converter para maisculo))
+          ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.Ada Lovelace foi a primeira programadora da historia.upper(converter para maisculo))
+          ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:58:49)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper(string(Ada Lovelace foi a primeira programadora da historia.)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(string(Ada Lovelace foi a primeira programadora da historia.)))
+                             ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(string(Ada Lovelace foi a primeira programadora da historia.)))
+                             ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:09:43)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+<built-in method upper of str object at 0x000002719F3DCF10>
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+<built-in method upper of str object at 0x0000022A41C3CF10>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:58:07)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper(Ada Lovelace foi a primeira programadora da historia.))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(Ada Lovelace foi a primeira programadora da historia.))
+                      ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(Ada Lovelace foi a primeira programadora da historia.))
+                      ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:05:32)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper(Ada Lovelace foi a primeira programadora da historia.))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(Ada Lovelace foi a primeira programadora da historia.))
+                      ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(Ada Lovelace foi a primeira programadora da historia.))
+                      ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:09:51)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:02:43)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.variavel.upper("converter para maiusculo".lower)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.variavel.upper("converter para maiusculo".lower)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.variavel.upper("converter para maiusculo".lower)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-13 14:10:00)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper())
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:00:11)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper(string("Ada Lovelace foi a primeira programadora da historia.")))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper(string("Ada Lovelace foi a primeira programadora da historia.")))
+                      ^^^^^^
+NameError: name 'string' is not defined
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper(string("Ada Lovelace foi a primeira programadora da historia.")))
+                      ^^^^^^
+NameError: name 'string' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:50:38)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper(converter para maisculo.lower))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(converter para maisculo.lower))
+                      ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(converter para maisculo.lower))
+                      ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:05:44)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper("Ada Lovelace foi a primeira programadora da historia."))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da historia."))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da historia."))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:08:43)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.string(Ada)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.string(Ada)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.string(Ada)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:50:46)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper(converter para maisculo))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(converter para maisculo))
+                      ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(converter para maisculo))
+                      ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

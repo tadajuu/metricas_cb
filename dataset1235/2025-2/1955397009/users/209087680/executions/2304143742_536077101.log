@@ -1,0 +1,543 @@
+== SUBMISSION (2025-09-02 13:18:38)
+-- CODE: 
+x=input()
+y=int(input())
+z=float(input())
+a=float(input())
+c=(z*3)
+if (x=='S'):
+  b=(y*3.50)
+else:
+  b=(y*2.50)
+
+  
+if (b+c<a):
+  print(b+c)
+  print("Sim")
+else:
+  print(b+c)
+  print('Nao')
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+Nao
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+Nao
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 13:14:52)
+-- CODE: 
+x=input()
+y=int(input())
+z=float(input())
+a=float(input())
+c=(z*3)
+if (x=='S'):
+  b=(y*3.50)
+else:
+  b=(y*2.50)
+  print(b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+5.0
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+12.5
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+7.5
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 13:15:05)
+-- CODE: 
+x=input()
+y=int(input())
+z=float(input())
+a=float(input())
+c=(z*3)
+if (x=='S'):
+  b=(y*3.50)
+else:
+  b=(y*2.50)
+print(b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+5.0
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+10.5
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+10.5
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+12.5
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+7.5
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 13:14:18)
+-- CODE: 
+x=input()
+y=int(input())
+z=float(input())
+a=float(input())
+c=(z*3)
+if (x==S):
+  b=(y*3.50)
+else:
+  b=(y*2.50)
+  print(b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    if (x==S):
+           ^
+NameError: name 'S' is not defined
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    if (x==S):
+           ^
+NameError: name 'S' is not defined
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    if (x==S):
+           ^
+NameError: name 'S' is not defined
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    if (x==S):
+           ^
+NameError: name 'S' is not defined
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    if (x==S):
+           ^
+NameError: name 'S' is not defined
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    if (x==S):
+           ^
+NameError: name 'S' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 13:13:39)
+-- CODE: 
+x=input()
+y=int(input())
+z=int(input)
+a=float(input())
+c=(z*3)
+if (x==S):
+  b=(y*3.50)
+else:
+  b=(y*2.50)
+  print(b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    z=int(input)
+      ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    z=int(input)
+      ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    z=int(input)
+      ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    z=int(input)
+      ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    z=int(input)
+      ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    z=int(input)
+      ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 13:14:38)
+-- CODE: 
+x=input()
+y=int(input())
+z=float(input())
+a=float(input())
+c=(z*3)
+if (x=='S'):
+  b=(y*3.50)
+else:
+  b=(y*2.50)
+  print(b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+5.0
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+12.5
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+7.5
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

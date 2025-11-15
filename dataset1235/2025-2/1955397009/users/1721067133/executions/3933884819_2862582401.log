@@ -1,0 +1,1742 @@
+== RUN (2025-08-31 22:14:20)
+-- CODE: 
+objeto = str(input())
+nrepet = int(input())
+
+print ("Abra ", objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra  carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra  caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra  sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra  casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra  livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra  porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:18:11)
+-- CODE: 
+objeto = str(input())
+nrepet = int(input())
+
+feitico = ("Abra "+ objeto)
+print (feitico * nrepet + " ")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra carroAbra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra sacolaAbra sacolaAbra sacolaAbra sacolaAbra sacolaAbra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra casaAbra casaAbra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra livroAbra livroAbra livroAbra livroAbra livroAbra livroAbra livroAbra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra portaAbra portaAbra portaAbra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:05:11)
+-- CODE: 
+nome_objeto = str(input())
+num_repeticoes = int(input())
+
+print("Abra ", nome_objeto "" * (num_repeticoes))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 4
+    print("Abra ", nome_objeto "" * (num_repeticoes))
+                               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 4
+    print("Abra ", nome_objeto "" * (num_repeticoes))
+                               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 4
+    print("Abra ", nome_objeto "" * (num_repeticoes))
+                               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 4
+    print("Abra ", nome_objeto "" * (num_repeticoes))
+                               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 4
+    print("Abra ", nome_objeto "" * (num_repeticoes))
+                               ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 4
+    print("Abra ", nome_objeto "" * (num_repeticoes))
+                               ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:13:47)
+-- CODE: 
+nome = str(input())
+n = int(input())
+
+print ("Abra ", nome)
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra  carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra  caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra  sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra  casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra  livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra  porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 13:05:42)
+-- CODE: 
+nome_objeto = str(input())
+num_repeticoes = int(input())
+
+print(nome_objeto)
+print(num_repeticoes)
+
+print(("Abra ", (nome_objeto))*(num_repeticoes)" ")
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 7
+    print(("Abra ", (nome_objeto))*(num_repeticoes)" ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 7
+    print(("Abra ", (nome_objeto))*(num_repeticoes)" ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 7
+    print(("Abra ", (nome_objeto))*(num_repeticoes)" ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 7
+    print(("Abra ", (nome_objeto))*(num_repeticoes)" ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 7
+    print(("Abra ", (nome_objeto))*(num_repeticoes)" ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 7
+    print(("Abra ", (nome_objeto))*(num_repeticoes)" ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:16:18)
+-- CODE: 
+objeto = str(input())
+#nrepet = int(input())
+
+feitico = ("Abra", objeto)
+print (feitico)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+('Abra', 'carro')
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+('Abra', 'caixa')
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+('Abra', 'sacola')
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+('Abra', 'casa')
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+('Abra', 'livro')
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+('Abra', 'porta')
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:08:32)
+-- CODE: 
+nobj = str(input())
+nrepet = int(input())
+
+repet = str("Abra") 
+print (str)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+<class 'str'>
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+<class 'str'>
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+<class 'str'>
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+<class 'str'>
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+<class 'str'>
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+<class 'str'>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:13:28)
+-- CODE: 
+nome = str(input())
+n = int(input())
+
+print ("Abra ", nome)
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra  carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra  caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra  sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra  casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra  livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra  porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 13:04:53)
+-- CODE: 
+nome_objeto = str(input())
+num_repeticoes = int(input())
+
+print(nome_objeto)
+print(num_repeticoes)
+
+print(("Abra ", (nome_objeto)) *(num_repeticoes))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+('Abra ', 'carro', 'Abra ', 'carro')
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+('Abra ', 'caixa')
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+('Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola')
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+('Abra ', 'casa', 'Abra ', 'casa', 'Abra ', 'casa')
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+('Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro')
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+('Abra ', 'porta', 'Abra ', 'porta', 'Abra ', 'porta', 'Abra ', 'porta')
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:15:55)
+-- CODE: 
+objeto = str(input())
+#nrepet = int(input())
+
+feitico =  str("Abra", objeto)
+print feitico
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 5
+    print feitico
+    ^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 5
+    print feitico
+    ^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 5
+    print feitico
+    ^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 5
+    print feitico
+    ^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 5
+    print feitico
+    ^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 5
+    print feitico
+    ^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:08:24)
+-- CODE: 
+nobj = str(input())
+nrepet = int(input())
+
+repet = str("Abra") 
+print str
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 5
+    print str
+    ^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 5
+    print str
+    ^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 5
+    print str
+    ^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 5
+    print str
+    ^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 5
+    print str
+    ^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 5
+    print str
+    ^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 13:01:00)
+-- CODE: 
+nome_objeto = str(input())
+num_repeticoes = int(input())
+
+print(nome_objeto)
+print(num_repeticoes)
+
+print("Abra ", nome_objeto)
+print("ABC"*5)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+ABCABCABCABCABC
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+ABCABCABCABCABC
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+ABCABCABCABCABC
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+ABCABCABCABCABC
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+ABCABCABCABCABC
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+ABCABCABCABCABC
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:16:03)
+-- CODE: 
+objeto = str(input())
+#nrepet = int(input())
+
+feitico =  str("Abra", objeto)
+print (feitico)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico =  str("Abra", objeto)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: decoding str is not supported
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico =  str("Abra", objeto)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: decoding str is not supported
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico =  str("Abra", objeto)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: decoding str is not supported
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico =  str("Abra", objeto)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: decoding str is not supported
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico =  str("Abra", objeto)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: decoding str is not supported
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico =  str("Abra", objeto)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: decoding str is not supported
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 13:02:39)
+-- CODE: 
+nome_objeto = str(input())
+num_repeticoes = int(input())
+
+print(nome_objeto)
+print(num_repeticoes)
+
+print(" Abra ", (nome_objeto)*(num_repeticoes))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+ Abra  carrocarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+ Abra  caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+ Abra  sacolasacolasacolasacolasacolasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+ Abra  casacasacasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+ Abra  livrolivrolivrolivrolivrolivrolivrolivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+ Abra  portaportaportaporta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:15:03)
+-- CODE: 
+objeto = str(input())
+nrepet = int(input())
+
+print ("Abra" + objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abracarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abracaixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abrasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abracasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abralivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abraporta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 12:59:14)
+-- CODE: 
+nome_objeto = str(input())
+num_repeticoes = int(input())
+
+print(nome_objeto)
+print(num_repeticoes)
+
+print("Abra ", nome_objeto)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra  carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra  caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra  sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra  casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra  livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra  porta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:08:53)
+-- CODE: 
+nobj = str(input())
+nrepet = int(input())
+
+repet = str("Abra") 
+print (repet)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:11:09)
+-- CODE: 
+nobj = str(input())
+nrepet = int(input())
+
+repet = str("Abra ") 
+print (repet, nobj * nrepet)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra  carrocarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra  caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra  sacolasacolasacolasacolasacolasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra  casacasacasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra  livrolivrolivrolivrolivrolivrolivrolivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra  portaportaportaporta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:03:57)
+-- CODE: 
+nome_objeto = str(input())
+num_repeticoes = int(input())
+
+print(("Abra ", nome_objeto) * (num_repeticoes))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+('Abra ', 'carro', 'Abra ', 'carro')
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+('Abra ', 'caixa')
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+('Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola')
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+('Abra ', 'casa', 'Abra ', 'casa', 'Abra ', 'casa')
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+('Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro')
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+('Abra ', 'porta', 'Abra ', 'porta', 'Abra ', 'porta', 'Abra ', 'porta')
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 13:07:00)
+-- CODE: 
+nome_objeto = str(input())
+num_repeticoes = int(input())
+
+print(nome_objeto)
+print(num_repeticoes)
+
+print(("Abra ", nome_objeto) * (num_repeticoes))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+('Abra ', 'carro', 'Abra ', 'carro')
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+('Abra ', 'caixa')
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+('Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola')
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+('Abra ', 'casa', 'Abra ', 'casa', 'Abra ', 'casa')
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+('Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro')
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+('Abra ', 'porta', 'Abra ', 'porta', 'Abra ', 'porta', 'Abra ', 'porta')
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 13:06:45)
+-- CODE: 
+nome_objeto = str(input())
+num_repeticoes = int(input())
+
+print(nome_objeto)
+print(num_repeticoes)
+
+print(("Abra ", nome_objeto) * (num_repeticoes), " ")
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+('Abra ', 'carro', 'Abra ', 'carro')
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+('Abra ', 'caixa')
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+('Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola', 'Abra ', 'sacola')
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+('Abra ', 'casa', 'Abra ', 'casa', 'Abra ', 'casa')
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+('Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro', 'Abra ', 'livro')
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+('Abra ', 'porta', 'Abra ', 'porta', 'Abra ', 'porta', 'Abra ', 'porta')
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:15:10)
+-- CODE: 
+objeto = str(input())
+#nrepet = int(input())
+
+print ("Abra" + objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abracarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abracaixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abrasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abracasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abralivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abraporta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:16:43)
+-- CODE: 
+objeto = str(input())
+#nrepet = int(input())
+
+feitico = ("Abra "+ objeto)
+print (feitico)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 12:55:55)
+-- CODE: 
+nome_objeto = str(input())
+print(nome_objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:16:37)
+-- CODE: 
+objeto = str(input())
+#nrepet = int(input())
+
+feitico = ("Abra"+ objeto)
+print (feitico)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abracarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abracaixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abrasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abracasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abralivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abraporta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 22:14:40)
+-- CODE: 
+objeto = str(input())
+nrepet = int(input())
+
+print ("Abra", objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 12:55:30)
+-- CODE: 
+nome_objeto = str(input())
+print(nome_objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-31 22:18:56)
+-- CODE: 
+objeto = str(input())
+nrepet = int(input())
+
+feitico = ("Abra " + objeto + " ")
+print (feitico * nrepet)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra carro Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra casa Abra casa Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra porta Abra porta Abra porta Abra porta
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

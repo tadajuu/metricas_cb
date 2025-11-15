@@ -1,0 +1,1650 @@
+== RUN (2025-08-31 17:39:29)
+-- CODE: 
+nome_objeto = input()
+n = int(input())
+
+frase_magica: "Abra" + nome_objeto + ""
+
+print(frase_magica * 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * 2)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * 2)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * 2)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * 2)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * 2)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * 2)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-31 17:36:42)
+-- CODE: 
+nome_objeto = input("Digite o nome do objeto: ")
+n = int(input("Digite o numero de repeticoes do feitiço: "))
+
+print("Abra", nome_objeto)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra porta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 18:55:08)
+-- CODE: 
+nome_objeto = input()
+n = int(input())
+
+frase = "Abra" + nome_objeto + ""
+
+print(frase*n)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+AbracarroAbracarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abracaixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+AbrasacolaAbrasacolaAbrasacolaAbrasacolaAbrasacolaAbrasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+AbracasaAbracasaAbracasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+AbralivroAbralivroAbralivroAbralivroAbralivroAbralivroAbralivroAbralivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+AbraportaAbraportaAbraportaAbraporta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:37:42)
+-- CODE: 
+nome_objeto = input("Digite o nome do objeto: ")
+n = int(input("Digite o numero de repeticoes do feitiço: "))
+
+for i in range(n):
+  
+print("Abra", nome_objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:35:46)
+-- CODE: 
+nome_objeto = input("Digite o nome do objeto: ")
+n= int(input("Digite o numero de repeticoes do feitiço: "))
+
+for i in range(n):
+
+print("Abra", nome_objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:37:15)
+-- CODE: 
+nome_objeto = input("Digite o nome do objeto: ")
+n = int(input("Digite o numero de repeticoes do feitiço: "))
+
+print("Abra", nome_objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:34:04)
+-- CODE: 
+nome_objeto = input("Digite o nome do objeto: ")
+n= input("Digite o numero de repeticoes do feitiço: ")
+
+for i in range(n)
+
+print("Abra", nome_objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 4
+    for i in range(n)
+                     ^
+SyntaxError: expected ':'
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 4
+    for i in range(n)
+                     ^
+SyntaxError: expected ':'
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 4
+    for i in range(n)
+                     ^
+SyntaxError: expected ':'
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 4
+    for i in range(n)
+                     ^
+SyntaxError: expected ':'
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 4
+    for i in range(n)
+                     ^
+SyntaxError: expected ':'
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 4
+    for i in range(n)
+                     ^
+SyntaxError: expected ':'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 18:59:30)
+-- CODE: 
+nome_objeto = input()
+n = int(input())
+
+frase = "Abra" + nome_objeto + ""
+
+print(frase*n)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+AbracarroAbracarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abracaixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+AbrasacolaAbrasacolaAbrasacolaAbrasacolaAbrasacolaAbrasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+AbracasaAbracasaAbracasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+AbralivroAbralivroAbralivroAbralivroAbralivroAbralivroAbralivroAbralivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+AbraportaAbraportaAbraportaAbraporta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:00:05)
+-- CODE: 
+nome_objeto = input()
+n = int(input())
+
+frase = "Abra " + nome_objeto + " "
+
+print(frase*n)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra carro Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra casa Abra casa Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra porta Abra porta Abra porta Abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-31 19:00:02)
+-- CODE: 
+nome_objeto = input()
+n = int(input())
+
+frase = "Abra " + nome_objeto + " "
+
+print(frase*n)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra carro Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra casa Abra casa Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra porta Abra porta Abra porta Abra porta
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:36:45)
+-- CODE: 
+nome_objeto = input("Digite o nome do objeto: ")
+n = int(input("Digite o numero de repeticoes do feitiço: "))
+
+print("Abra", nome_objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:33:50)
+-- CODE: 
+nome_objeto = input("Digite o nome do objeto: ")
+n= input("Digite o numero de repeticoes do feitiço: ")
+
+from i in range(n)
+
+print("Abra", nome_objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 4
+    from i in range(n)
+           ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 4
+    from i in range(n)
+           ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 4
+    from i in range(n)
+           ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 4
+    from i in range(n)
+           ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 4
+    from i in range(n)
+           ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 4
+    from i in range(n)
+           ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:34:56)
+-- CODE: 
+nome_objeto = input("Digite o nome do objeto: ")
+n= int(input("Digite o numero de repeticoes do feitiço: "))
+
+for i in range(n):
+
+print("Abra", nome_objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-31 17:37:29)
+-- CODE: 
+nome_objeto = input("Digite o nome do objeto: ")
+n = int(input("Digite o numero de repeticoes do feitiço: "))
+
+print("Abra", nome_objeto)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra porta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:34:18)
+-- CODE: 
+nome_objeto = input("Digite o nome do objeto: ")
+n= input("Digite o numero de repeticoes do feitiço: ")
+
+for i in range(n):
+
+print("Abra", nome_objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:41:05)
+-- CODE: 
+nome_objeto = input()
+n = int(input())
+
+frase_magica: "Abra " + nome_objeto + " "
+
+print(frase_magica * n)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * n)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * n)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * n)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * n)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * n)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * n)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:35:13)
+-- CODE: 
+nome_objeto = input("Digite o nome do objeto: ")
+n= int(input("Digite o numero de repeticoes do feitiço: "))
+
+for i in range(n):
+
+print("Abra", nome_objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:36:05)
+-- CODE: 
+nome_objeto = input("Digite o nome do objeto: ")
+n= int(input("Digite o numero de repeticoes do feitiço: "))
+
+for i in range(n):
+
+print("Abra", nome_objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:34:57)
+-- CODE: 
+nome_objeto = input("Digite o nome do objeto: ")
+n= int(input("Digite o numero de repeticoes do feitiço: "))
+
+for i in range(n):
+
+print("Abra", nome_objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 6
+    print("Abra", nome_objeto)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:40:02)
+-- CODE: 
+nome_objeto = input()
+n = int(input())
+
+frase_magica: "Abra" + nome_objeto + ""
+
+print(frase_magica * n)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * n)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * n)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * n)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * n)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * n)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(frase_magica * n)
+          ^^^^^^^^^^^^
+NameError: name 'frase_magica' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-31 19:00:26)
+-- CODE: 
+nome_objeto = input()
+n = int(input())
+
+frase = "Abra  " + nome_objeto + " "
+
+print(frase*n)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra  carro Abra  carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra  caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra  sacola Abra  sacola Abra  sacola Abra  sacola Abra  sacola Abra  sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra  casa Abra  casa Abra  casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra  livro Abra  livro Abra  livro Abra  livro Abra  livro Abra  livro Abra  livro Abra  livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra  porta Abra  porta Abra  porta Abra  porta
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 17:36:25)
+-- CODE: 
+nome_objeto = input("Digite o nome do objeto: ")
+n = int(input("Digite o numero de repeticoes do feitiço: "))
+
+print("Abra", nome_objeto)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Digite o nome do objeto: Digite o numero de repeticoes do feitiço: Abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 18:59:46)
+-- CODE: 
+nome_objeto = input()
+n = int(input())
+
+frase = "Abra" + nome_objeto + ""
+
+print(frase*n)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+AbracarroAbracarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abracaixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+AbrasacolaAbrasacolaAbrasacolaAbrasacolaAbrasacolaAbrasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+AbracasaAbracasaAbracasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+AbralivroAbralivroAbralivroAbralivroAbralivroAbralivroAbralivroAbralivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+AbraportaAbraportaAbraportaAbraporta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-31 18:59:43)
+-- CODE: 
+nome_objeto = input()
+n = int(input())
+
+frase = "Abra" + nome_objeto + ""
+
+print(frase*n)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+AbracarroAbracarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abracaixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+AbrasacolaAbrasacolaAbrasacolaAbrasacolaAbrasacolaAbrasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+AbracasaAbracasaAbracasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+AbralivroAbralivroAbralivroAbralivroAbralivroAbralivroAbralivroAbralivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+AbraportaAbraportaAbraportaAbraporta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

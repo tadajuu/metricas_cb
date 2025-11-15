@@ -1,0 +1,72 @@
+== SUBMISSION (2025-09-02 13:36:45)
+-- CODE: 
+quant = int(input("Quantos jogos deseja comprar? (1/2)"))
+
+if quant == 1:
+  jogo1 = float(input("Informe o valor do jogo: "))
+  print("Total",jogo1)
+elif quant == 2:
+  jogo0 = float(input("Informe o valor do jogo 1: "))
+  jogo2 = float(input("Informe o valor do jogo 2: "))
+  total = jogo0 + jogo2 * 0.75
+  print(round(total, 2))
+else:
+  print("Informe as informações novamente")
+  
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2
+55.50
+100.25
+---- correct output:
+130.69
+---- user output:
+Quantos jogos deseja comprar? (1/2)Informe o valor do jogo 1: Informe o valor do jogo 2: 130.69
+-- TEST CASE 2:
+---- input:
+2
+50.00
+100.00
+---- correct output:
+125.0
+---- user output:
+Quantos jogos deseja comprar? (1/2)Informe o valor do jogo 1: Informe o valor do jogo 2: 125.0
+-- TEST CASE 3:
+---- input:
+1
+100.50
+---- correct output:
+100.5
+---- user output:
+Quantos jogos deseja comprar? (1/2)Informe o valor do jogo: Total 100.5
+-- TEST CASE 4:
+---- input:
+2
+99.99
+120.25
+---- correct output:
+190.18
+---- user output:
+Quantos jogos deseja comprar? (1/2)Informe o valor do jogo 1: Informe o valor do jogo 2: 190.18
+-- TEST CASE 5:
+---- input:
+2
+10.00
+20.00
+---- correct output:
+25.0
+---- user output:
+Quantos jogos deseja comprar? (1/2)Informe o valor do jogo 1: Informe o valor do jogo 2: 25.0
+-- TEST CASE 6:
+---- input:
+1
+72.65
+---- correct output:
+72.65
+---- user output:
+Quantos jogos deseja comprar? (1/2)Informe o valor do jogo: Total 72.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,966 @@
+== RUN (2025-08-13 19:42:15)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = int(input("Digite sua altura: ")),2)
+
+print("Nome: ", nome)
+print("Idade: ", idade, " anos")
+print("Altura: ", altura, "m")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 3
+    altura = int(input("Digite sua altura: ")),2)
+                                                ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 3
+    altura = int(input("Digite sua altura: ")),2)
+                                                ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 3
+    altura = int(input("Digite sua altura: ")),2)
+                                                ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 3
+    altura = int(input("Digite sua altura: ")),2)
+                                                ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 19:39:42)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = int(input("Digite sua altura (Em metros): "),2)
+
+print("Nome: ", nome)
+print("Idade: ", idade)
+print("Altura: ", altura, "m")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("Digite sua altura (Em metros): "),2)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 2: '1.45'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("Digite sua altura (Em metros): "),2)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 2: '1.79'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("Digite sua altura (Em metros): "),2)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 2: '1.68'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("Digite sua altura (Em metros): "),2)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 2: '1.89'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-13 19:43:08)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = (input("Digite sua altura: "))
+
+print("Nome: ", nome)
+print("Idade: ", idade, " anos")
+print("Altura: ", altura, "m")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura:  1.45 m
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura:  1.79 m
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura:  1.68 m
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura:  1.89 m
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 19:37:06)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = input("Digite sua altura: ")
+
+print("Nome: ")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura: Nome:
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura: Nome:
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura: Nome:
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura: Nome:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 19:42:50)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = (input("Digite sua altura: "))
+
+print("Nome: ", nome)
+print("Idade: ", idade, " anos")
+print("Altura: ", altura, "m")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura:  1.45 m
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura:  1.79 m
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura:  1.68 m
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura:  1.89 m
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 19:35:33)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+Altura = input("Digite sua altura: ")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura:
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura:
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura:
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 19:42:38)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = (input("Digite sua altura: "))
+
+print("Nome: ", nome)
+print("Idade: ", idade, " anos")
+print("Altura: ", altura, "m")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura:  1.45 m
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura:  1.79 m
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura:  1.68 m
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura:  1.89 m
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 19:37:27)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = input("Digite sua altura: ")
+
+print("Nome: " nome)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 5
+    print("Nome: " nome)
+          ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 5
+    print("Nome: " nome)
+          ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 5
+    print("Nome: " nome)
+          ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 5
+    print("Nome: " nome)
+          ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 19:43:32)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = (input("Digite sua altura: "))
+
+print("Nome: ", nome)
+print("Idade: ", idade, ")
+print("Altura: ", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 6
+    print("Idade: ", idade, ")
+                            ^
+SyntaxError: unterminated string literal (detected at line 6)
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 6
+    print("Idade: ", idade, ")
+                            ^
+SyntaxError: unterminated string literal (detected at line 6)
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 6
+    print("Idade: ", idade, ")
+                            ^
+SyntaxError: unterminated string literal (detected at line 6)
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 6
+    print("Idade: ", idade, ")
+                            ^
+SyntaxError: unterminated string literal (detected at line 6)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 19:43:46)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = (input("Digite sua altura: "))
+
+print("Nome: ", nome)
+print("Idade: ", idade)
+print("Altura: ", altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura:  1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura:  1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura:  1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura:  1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-13 19:43:49)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = (input("Digite sua altura: "))
+
+print("Nome: ", nome)
+print("Idade: ", idade)
+print("Altura: ", altura)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura:  1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura:  1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura:  1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura:  1.89
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 19:37:41)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = input("Digite sua altura: ")
+
+print("Nome: ", nome)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura: Nome:  Teresa
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura: Nome:  Marcelo
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura: Nome:  Larissa
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura: Nome:  Jose
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 19:37:49)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = input("Digite sua altura: ")
+
+print("Nome: ", nome)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura: Nome:  Teresa
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura: Nome:  Marcelo
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura: Nome:  Larissa
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Digite seu nome: Digite sua idade: Digite sua altura: Nome:  Jose
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-18 15:43:29)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = (input("Digite sua altura: "))
+
+print("Nome: ", nome)
+print("Idade: ", idade)
+print("Altura: ", altura)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura:  1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura:  1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura:  1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura:  1.89
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 19:42:14)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = int(input("Digite sua altura: ")),2)
+
+print("Nome: ", nome)
+print("Idade: ", idade, " anos")
+print("Altura: ", altura, "m")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 3
+    altura = int(input("Digite sua altura: ")),2)
+                                                ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 3
+    altura = int(input("Digite sua altura: ")),2)
+                                                ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 3
+    altura = int(input("Digite sua altura: ")),2)
+                                                ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 3
+    altura = int(input("Digite sua altura: ")),2)
+                                                ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 19:40:51)
+-- CODE: 
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+altura = int(input("Digite sua altura (Em metros): ")),2)
+
+print("Nome: ", nome)
+print("Idade: ", idade, " anos")
+print("Altura: ", altura, "m")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 3
+    altura = int(input("Digite sua altura (Em metros): ")),2)
+                                                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 3
+    altura = int(input("Digite sua altura (Em metros): ")),2)
+                                                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 3
+    altura = int(input("Digite sua altura (Em metros): ")),2)
+                                                            ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 3
+    altura = int(input("Digite sua altura (Em metros): ")),2)
+                                                            ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

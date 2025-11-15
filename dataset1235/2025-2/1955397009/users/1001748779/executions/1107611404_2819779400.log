@@ -1,0 +1,272 @@
+== RUN (2025-08-16 20:11:02)
+-- CODE: 
+#Quantidade de jogos; valores dos jogos e do frete
+Qu = int(input("qual a quantidade de jogos a serem encomendados?"))
+Va = float(input("qual o valor unitario de cada jogo?"))
+Fr = float(input("qual o valor do frete?"))
+
+#Preco total a ser pago por Estanislau
+total = (Qu * Va + Fr)
+
+#Impressao do valor total
+print(total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?1642.5
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?240171.0
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?540.0
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?765.0
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?162.56
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-16 20:12:43)
+-- CODE: 
+#Quantidade de jogos; valores dos jogos e do frete
+Qu = int(input("qual a quantidade de jogos a serem encomendados?"))
+Va = float(input("qual o valor unitario de cada jogo?"))
+Fr = float(input("qual o valor do frete?"))
+
+#Preco total a ser pago por Estanislau
+total = (Qu * Va + Fr)
+
+#Impressao do valor total
+print(total)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?1642.5
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?240171.0
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?540.0
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?765.0
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?162.56
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?618.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 22:29:58)
+-- CODE: 
+jogos = int(input("Escreva a quantidade de jogos a serem encomendados:"))
+valor = float(input("Escreva o valr unitario de cada jogo:"))
+frete = float(input("Escreva o valor do frete:"))
+
+print(jogos * valor + frete)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+Escreva a quantidade de jogos a serem encomendados:Escreva o valr unitario de cada jogo:Escreva o valor do frete:1642.5
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+Escreva a quantidade de jogos a serem encomendados:Escreva o valr unitario de cada jogo:Escreva o valor do frete:240171.0
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+Escreva a quantidade de jogos a serem encomendados:Escreva o valr unitario de cada jogo:Escreva o valor do frete:540.0
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+Escreva a quantidade de jogos a serem encomendados:Escreva o valr unitario de cada jogo:Escreva o valor do frete:765.0
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+Escreva a quantidade de jogos a serem encomendados:Escreva o valr unitario de cada jogo:Escreva o valor do frete:162.56
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+Escreva a quantidade de jogos a serem encomendados:Escreva o valr unitario de cada jogo:Escreva o valor do frete:618.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 20:09:23)
+-- CODE: 
+#Quantidade de jogos; valores dos jogos e do frete
+Qu = int(input("qual a quantidade de jogos a serem encomendados?"))
+Va = float(input("qual o valor unitario de cada jogo?"))
+Fr = float(input("qual o valor do frete?"))
+
+#Preco total a ser pago por Estanislau
+total = (Qu * Va + Fr)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+qual a quantidade de jogos a serem encomendados?qual o valor unitario de cada jogo?qual o valor do frete?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

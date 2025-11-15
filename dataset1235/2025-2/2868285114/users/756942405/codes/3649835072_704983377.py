@@ -1,0 +1,7 @@
+x = int(input("X: "))
+y = int(input("Y: "))
+print(x // y)
+print(x % y)
+print(x / y)
+print(x*y)
+print(y**3)

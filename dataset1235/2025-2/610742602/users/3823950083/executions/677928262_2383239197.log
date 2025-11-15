@@ -1,0 +1,1207 @@
+== RUN (2025-08-24 04:14:25)
+-- CODE: 
+import math
+dist_a = float(input("Informe a distancia 'a': "))
+dist_b = float(input("Informe a distancia 'b': "))
+Y = float(input("Informe o ângulo 'Y': "))
+
+dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+                   (2*dist_a*dist_b * math.cos(math.radians(Y))))
+
+print (round(dist_c,2))
+
+                   
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 9.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 04:08:58)
+-- CODE: 
+dist_a = float(input("Informe a distancia 'a': "))
+dist_b = float(input("Informe a distancia 'b': "))
+angulo = float(input("Informe o ângulo 'Y': "))
+
+dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+                   (2*dist_a*dist_b * math.cos(Y)))
+
+print (round(dist_c,2))
+
+                   
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 04:14:20)
+-- CODE: 
+import math
+dist_a = float(input("Informe a distancia 'a': "))
+dist_b = float(input("Informe a distancia 'b': "))
+Y = float(input("Informe o ângulo 'Y': "))
+
+dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+                   (2*dist_a*dist_b * math.cos(math.radians(Y))))
+
+print (round(dist_c,2))
+
+                   
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 04:09:27)
+-- CODE: 
+dist_a = float(input("Informe a distancia 'a': "))
+dist_b = float(input("Informe a distancia 'b': "))
+angulo = float(input("Informe o ângulo 'Y': "))
+
+dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+                   (2*dist_a*dist_b * math.cos(angulo)))
+
+print (round(dist_c,2))
+
+                   
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 04:10:08)
+-- CODE: 
+dist_a = float(input("Informe a distancia 'a': "))
+dist_b = float(input("Informe a distancia 'b': "))
+angulo = math.radians(input("Informe o ângulo 'Y': "))
+
+dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+                   (2*dist_a*dist_b * math.cos(angulo)))
+
+print (round(dist_c,2))
+
+                   
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    angulo = math.radians(input("Informe o ângulo 'Y': "))
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    angulo = math.radians(input("Informe o ângulo 'Y': "))
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    angulo = math.radians(input("Informe o ângulo 'Y': "))
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    angulo = math.radians(input("Informe o ângulo 'Y': "))
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    angulo = math.radians(input("Informe o ângulo 'Y': "))
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    angulo = math.radians(input("Informe o ângulo 'Y': "))
+             ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 04:09:25)
+-- CODE: 
+dist_a = float(input("Informe a distancia 'a': "))
+dist_b = float(input("Informe a distancia 'b': "))
+angulo = float(input("Informe o ângulo 'Y': "))
+
+dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+                   (2*dist_a*dist_b * math.cos(angulo)))
+
+print (round(dist_c,2))
+
+                   
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 04:12:21)
+-- CODE: 
+import math
+dist_a = float(input("Informe a distancia 'a': "))
+dist_b = float(input("Informe a distancia 'b': "))
+Y = float(input("Informe o ângulo 'Y': "))
+
+dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+                   (2*dist_a*dist_b * math.cos(Y)))
+
+print (round(dist_c,2))
+
+                   
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 04:09:28)
+-- CODE: 
+dist_a = float(input("Informe a distancia 'a': "))
+dist_b = float(input("Informe a distancia 'b': "))
+angulo = float(input("Informe o ângulo 'Y': "))
+
+dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+                   (2*dist_a*dist_b * math.cos(angulo)))
+
+print (round(dist_c,2))
+
+                   
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 04:09:00)
+-- CODE: 
+dist_a = float(input("Informe a distancia 'a': "))
+dist_b = float(input("Informe a distancia 'b': "))
+angulo = float(input("Informe o ângulo 'Y': "))
+
+dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+                   (2*dist_a*dist_b * math.cos(Y)))
+
+print (round(dist_c,2))
+
+                   
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+             ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 04:13:30)
+-- CODE: 
+import math
+dist_a = float(input("Informe a distancia 'a': "))
+dist_b = float(input("Informe a distancia 'b': "))
+Y = float(math.radians(input("Informe o ângulo 'Y': ")))
+
+dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+                   (2*dist_a*dist_b * math.cos(Y)))
+
+print (round(dist_c,2))
+
+                   
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Y = float(math.radians(input("Informe o ângulo 'Y': ")))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Y = float(math.radians(input("Informe o ângulo 'Y': ")))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Y = float(math.radians(input("Informe o ângulo 'Y': ")))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Y = float(math.radians(input("Informe o ângulo 'Y': ")))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Y = float(math.radians(input("Informe o ângulo 'Y': ")))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Y = float(math.radians(input("Informe o ângulo 'Y': ")))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 04:12:18)
+-- CODE: 
+import math
+dist_a = float(input("Informe a distancia 'a': "))
+dist_b = float(input("Informe a distancia 'b': "))
+Y = float(input("Informe o ângulo 'Y': "))
+
+dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+                   (2*dist_a*dist_b * math.cos(Y)))
+
+print (round(dist_c,2))
+
+                   
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 17.79
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 04:13:48)
+-- CODE: 
+import math
+dist_a = float(input("Informe a distancia 'a': "))
+dist_b = float(input("Informe a distancia 'b': "))
+Y = float(input("Informe o ângulo 'Y': "))
+
+dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+                   (2*dist_a*dist_b * math.cos(Y)))
+
+print (round(dist_c,2))
+
+                   
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Informe a distancia 'a': Informe a distancia 'b': Informe o ângulo 'Y': 17.79
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 04:10:07)
+-- CODE: 
+dist_a = float(input("Informe a distancia 'a': "))
+dist_b = float(input("Informe a distancia 'b': "))
+angulo = math.radians(input("Informe o ângulo 'Y': "))
+
+dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+                   (2*dist_a*dist_b * math.cos(angulo)))
+
+print (round(dist_c,2))
+
+                   
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    angulo = math.radians(input("Informe o ângulo 'Y': "))
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    angulo = math.radians(input("Informe o ângulo 'Y': "))
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    angulo = math.radians(input("Informe o ângulo 'Y': "))
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    angulo = math.radians(input("Informe o ângulo 'Y': "))
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    angulo = math.radians(input("Informe o ângulo 'Y': "))
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    angulo = math.radians(input("Informe o ângulo 'Y': "))
+             ^^^^
+NameError: name 'math' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 04:13:02)
+-- CODE: 
+import math
+dist_a = float(input("Informe a distancia 'a': "))
+dist_b = float(input("Informe a distancia 'b': "))
+Y = math.radians(input("Informe o ângulo 'Y': "))
+
+dist_c = math.sqrt((dist_a**2) + (dist_b**2) - 
+                   (2*dist_a*dist_b * math.cos(Y)))
+
+print (round(dist_c,2))
+
+                   
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Y = math.radians(input("Informe o ângulo 'Y': "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Y = math.radians(input("Informe o ângulo 'Y': "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Y = math.radians(input("Informe o ângulo 'Y': "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Y = math.radians(input("Informe o ângulo 'Y': "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Y = math.radians(input("Informe o ângulo 'Y': "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Y = math.radians(input("Informe o ângulo 'Y': "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

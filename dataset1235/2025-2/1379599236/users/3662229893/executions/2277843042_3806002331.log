@@ -1,0 +1,194 @@
+== SUBMISSION (2025-08-27 19:48:54)
+-- CODE: 
+quantidade_combustivel = float(input("digite o  litro: "))
+#preço do litro
+preco_litro= 2.86 
+#custo do litro
+custo_combustivel = quantidade_combustivel * preco_litro
+#preço da troca de oleo
+custo_troca_oleo = 50.00
+custo_combustivel_e_oleo = custo_troca_oleo + custo_combustivel
+icms = custo_combustivel_e_oleo*(34/100)
+total= custo_combustivel_e_oleo + icms
+print (round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+digite o  litro: 979.99
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+digite o  litro: 401.95
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+digite o  litro: 258.62
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+digite o  litro: 106.86
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+digite o  litro: 634.85
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+digite o  litro: 2500.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:33:55)
+-- CODE: 
+n = float(input("digite o  litro: "))
+#preço do litro
+L= 2.86 
+#custo do litro
+c = n * L 
+#preço da troca de oleo
+o = 50.00
+x = c + o
+ICMS = x*(34/100)
+print (round(valor total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+File "XXXX", line 10
+    print (round(valor total,2))
+                 ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+File "XXXX", line 10
+    print (round(valor total,2))
+                 ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+File "XXXX", line 10
+    print (round(valor total,2))
+                 ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+File "XXXX", line 10
+    print (round(valor total,2))
+                 ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+File "XXXX", line 10
+    print (round(valor total,2))
+                 ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+-- ERROR:
+File "XXXX", line 10
+    print (round(valor total,2))
+                 ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 19:32:25)
+-- CODE: 
+n = float(input("digite o  litro: "))
+#preço do litro
+L= 2.86 
+#custo do litro
+c = n * L 
+#preço da troca de oleo
+o = 50.00
+x = c + o
+ICMS = x*(34/100)
+print (round(ICMS,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+digite o  litro: 248.65
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+digite o  litro: 101.99
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+digite o  litro: 65.62
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+digite o  litro: 27.11
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+digite o  litro: 161.08
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+digite o  litro: 634.33
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

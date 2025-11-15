@@ -1,0 +1,1661 @@
+== RUN (2025-08-27 19:59:33)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra "+x+" "
+print(z*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+abra carro abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+abra sacola abra sacola abra sacola abra sacola abra sacola abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+abra casa abra casa abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+abra livro abra livro abra livro abra livro abra livro abra livro abra livro abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+abra porta abra porta abra porta abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:55:08)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra "+x
+print(z*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+abra carroabra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+abra sacolaabra sacolaabra sacolaabra sacolaabra sacolaabra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+abra casaabra casaabra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+abra livroabra livroabra livroabra livroabra livroabra livroabra livroabra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+abra portaabra portaabra portaabra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:55:35)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra "+x" "
+print(z*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" "
+               ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" "
+               ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" "
+               ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" "
+               ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" "
+               ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" "
+               ^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:58:44)
+-- CODE: 
+x=input()
+y=int(input())
+z=("abra "+x " ")
+print(a*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 3
+    z=("abra "+x " ")
+       ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 3
+    z=("abra "+x " ")
+       ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 3
+    z=("abra "+x " ")
+       ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 3
+    z=("abra "+x " ")
+       ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 3
+    z=("abra "+x " ")
+       ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 3
+    z=("abra "+x " ")
+       ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:53:00)
+-- CODE: 
+x=input()
+y=int(input())
+print(x*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+carrocarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+sacolasacolasacolasacolasacolasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+casacasacasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+livrolivrolivrolivrolivrolivrolivrolivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+portaportaportaporta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 19:59:51)
+-- CODE: 
+x=input()
+y=int(input())
+z="Abra "+x+" "
+print(z*y)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra carro Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra casa Abra casa Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra porta Abra porta Abra porta Abra porta
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 20:00:14)
+-- CODE: 
+x=input()
+y=int(input())
+z="Abra "+x+" "
+print(z*y)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra carro Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra casa Abra casa Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra porta Abra porta Abra porta Abra porta
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:56:29)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra +x "
+print(z*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+abra +x abra +x
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+abra +x
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+abra +x abra +x abra +x abra +x abra +x abra +x
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+abra +x abra +x abra +x
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+abra +x abra +x abra +x abra +x abra +x abra +x abra +x abra +x
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+abra +x abra +x abra +x abra +x
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 19:54:09)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra"+x
+print(z*y)
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+abracarroabracarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+abracaixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+abrasacolaabrasacolaabrasacolaabrasacolaabrasacolaabrasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+abracasaabracasaabracasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+abralivroabralivroabralivroabralivroabralivroabralivroabralivroabralivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+abraportaabraportaabraportaabraporta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 19:59:30)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra "+x+" "
+print(z*y)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+abra carro abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+abra sacola abra sacola abra sacola abra sacola abra sacola abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+abra casa abra casa abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+abra livro abra livro abra livro abra livro abra livro abra livro abra livro abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+abra porta abra porta abra porta abra porta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:56:02)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra "+x" 
+print(z*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" 
+               ^
+SyntaxError: unterminated string literal (detected at line 3)
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" 
+               ^
+SyntaxError: unterminated string literal (detected at line 3)
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" 
+               ^
+SyntaxError: unterminated string literal (detected at line 3)
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" 
+               ^
+SyntaxError: unterminated string literal (detected at line 3)
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" 
+               ^
+SyntaxError: unterminated string literal (detected at line 3)
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" 
+               ^
+SyntaxError: unterminated string literal (detected at line 3)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:59:17)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra "+x+" "
+print(a*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a*y)
+          ^
+NameError: name 'a' is not defined
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a*y)
+          ^
+NameError: name 'a' is not defined
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a*y)
+          ^
+NameError: name 'a' is not defined
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a*y)
+          ^
+NameError: name 'a' is not defined
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a*y)
+          ^
+NameError: name 'a' is not defined
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(a*y)
+          ^
+NameError: name 'a' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:54:42)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra"+x
+print(z" "*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:55:52)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra "+x" """
+print(z*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" """
+               ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" """
+               ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" """
+               ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" """
+               ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" """
+               ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x" """
+               ^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:57:47)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra "+x
+a=z ' '
+print(z*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 4
+    a=z ' '
+        ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 4
+    a=z ' '
+        ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 4
+    a=z ' '
+        ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 4
+    a=z ' '
+        ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 4
+    a=z ' '
+        ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 4
+    a=z ' '
+        ^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:58:07)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra "+x
+a='z '
+print(a*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+z z
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+z
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+z z z z z z
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+z z z
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+z z z z z z z z
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+z z z z
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:56:20)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra +x "
+print(z*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+abra +x abra +x
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+abra +x
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+abra +x abra +x abra +x abra +x abra +x abra +x
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+abra +x abra +x abra +x
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+abra +x abra +x abra +x abra +x abra +x abra +x abra +x abra +x
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+abra +x abra +x abra +x abra +x
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:53:55)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra"+x
+print(z*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+abracarroabracarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+abracaixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+abrasacolaabrasacolaabrasacolaabrasacolaabrasacolaabrasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+abracasaabracasaabracasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+abralivroabralivroabralivroabralivroabralivroabralivroabralivroabralivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+abraportaabraportaabraportaabraporta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:54:33)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra"+x
+print(z""*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 4
+    print(z""*y)
+           ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 4
+    print(z""*y)
+           ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 4
+    print(z""*y)
+           ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 4
+    print(z""*y)
+           ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 4
+    print(z""*y)
+           ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 4
+    print(z""*y)
+           ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:59:53)
+-- CODE: 
+x=input()
+y=int(input())
+z="Abra "+x+" "
+print(z*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra carro Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Abra casa Abra casa Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Abra porta Abra porta Abra porta Abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:57:39)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra "x
+a=z ' '
+print(z*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 3
+    z="abra "x
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 3
+    z="abra "x
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 3
+    z="abra "x
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 3
+    z="abra "x
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 3
+    z="abra "x
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 3
+    z="abra "x
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:54:43)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra"+x
+print(z" "*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:56:13)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra "+x "
+print(z*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x "
+                ^
+SyntaxError: unterminated string literal (detected at line 3)
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x "
+                ^
+SyntaxError: unterminated string literal (detected at line 3)
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x "
+                ^
+SyntaxError: unterminated string literal (detected at line 3)
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x "
+                ^
+SyntaxError: unterminated string literal (detected at line 3)
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x "
+                ^
+SyntaxError: unterminated string literal (detected at line 3)
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 3
+    z="abra "+x "
+                ^
+SyntaxError: unterminated string literal (detected at line 3)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 19:55:18)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra "+x
+print(z*y)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+abra carroabra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+abra sacolaabra sacolaabra sacolaabra sacolaabra sacolaabra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+abra casaabra casaabra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+abra livroabra livroabra livroabra livroabra livroabra livroabra livroabra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+abra portaabra portaabra portaabra porta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 19:54:45)
+-- CODE: 
+x=input()
+y=int(input())
+z="abra"+x
+print(z" "*y)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 4
+    print(z" "*y)
+           ^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

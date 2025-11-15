@@ -1,0 +1,389 @@
+== SUBMISSION (2025-08-20 15:52:16)
+-- CODE: 
+um = float(input("Insira sua primeira nota:"))
+dois = float(input("Insira sua segunda nota:"))
+tres = float(input("Insira sua terceira nota:"))
+quatro = float(input("Insira sua quarta nota:"))
+soma = um*1 + dois*2 + tres*3 + quatro*4
+print(round(soma/10,2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:Insira sua terceira nota:Insira sua quarta nota:7.94
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:Insira sua terceira nota:Insira sua quarta nota:8.2
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:Insira sua terceira nota:Insira sua quarta nota:7.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:Insira sua terceira nota:Insira sua quarta nota:6.7
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:Insira sua terceira nota:Insira sua quarta nota:30.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:Insira sua terceira nota:Insira sua quarta nota:7.8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 15:41:35)
+-- CODE: 
+input(int("Insira sua primeira nota:")
+input(int("Insira sua segunda nota:")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+-- ERROR:
+File "XXXX", line 2
+    input(int("Insira sua segunda nota:")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+-- ERROR:
+File "XXXX", line 2
+    input(int("Insira sua segunda nota:")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+-- ERROR:
+File "XXXX", line 2
+    input(int("Insira sua segunda nota:")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+-- ERROR:
+File "XXXX", line 2
+    input(int("Insira sua segunda nota:")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+-- ERROR:
+File "XXXX", line 2
+    input(int("Insira sua segunda nota:")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+-- ERROR:
+File "XXXX", line 2
+    input(int("Insira sua segunda nota:")
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 15:41:41)
+-- CODE: 
+input(int("Insira sua primeira nota:"))
+input(int("Insira sua segunda nota:"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(int("Insira sua primeira nota:"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira sua primeira nota:'
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(int("Insira sua primeira nota:"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira sua primeira nota:'
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(int("Insira sua primeira nota:"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira sua primeira nota:'
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(int("Insira sua primeira nota:"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira sua primeira nota:'
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(int("Insira sua primeira nota:"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira sua primeira nota:'
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(int("Insira sua primeira nota:"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira sua primeira nota:'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 15:50:42)
+-- CODE: 
+um = float(input("Insira sua primeira nota:"))
+dois = float(input("Insira sua segunda nota:"))
+tres = float(input("Insira sua terceira nota:"))
+quatro = float(input("Insira sua quarta nota:"))
+soma = um*1 + dois*2 + tres*3 + quatro*4
+print(soma)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:Insira sua terceira nota:Insira sua quarta nota:79.36000000000001
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:Insira sua terceira nota:Insira sua quarta nota:82.0
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:Insira sua terceira nota:Insira sua quarta nota:70.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:Insira sua terceira nota:Insira sua quarta nota:67.0
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:Insira sua terceira nota:Insira sua quarta nota:300.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:Insira sua terceira nota:Insira sua quarta nota:78.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 15:42:06)
+-- CODE: 
+float(input("Insira sua primeira nota:"))
+float(input("Insira sua segunda nota:"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Insira sua primeira nota:Insira sua segunda nota:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,60 @@
+== SUBMISSION (2025-08-28 12:30:28)
+-- CODE: 
+horas = float(input("Informe o tempo em horas: "))
+
+valor_sem_imposto = 5 + 15 * horas
+
+total = valor_sem_imposto * 1.20
+
+total_arredondado = round(total, 2)
+
+print(total_arredondado)
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+Informe o tempo em horas: 24.0
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+Informe o tempo em horas: 132.0
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+Informe o tempo em horas: 168.0
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+Informe o tempo em horas: 60.0
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+Informe o tempo em horas: 96.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+Informe o tempo em horas: 456.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,909 @@
+== RUN (2025-08-20 13:59:52)
+-- CODE: 
+texto = "Leonardo"
+print(texto)
+texto2 = "18"
+print(texto2)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+18
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+18
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+18
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+18
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:37:25)
+-- CODE: 
+# Inicio
+nome   = input("Insira seu nome: ")
+idade  = int(input("Insira sua idade: "))
+altura = float(input("Insira sua altura: "))
+# Saída
+print("nome: ",nome)
+print("idade: ",idade)
+print("altura: ",altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+altura:  1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+altura:  1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+altura:  1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+altura:  1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 14:43:44)
+-- CODE: 
+# Inicio
+nome   = input("Insira seu nome: ")
+idade  = int(input("Insira sua idade: "))
+altura = float(input("Insira sua altura: "))
+# Saída
+print("nome: ",nome)
+print("idade: ",idade)
+print("altura: ",altura)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+altura:  1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+altura:  1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+altura:  1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+altura:  1.89
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:17:29)
+-- CODE: 
+Nome = input("Insira seu nome: Leonardo")
+print("Nome: ", Nome)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Insira seu nome: LeonardoNome:  Teresa
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Insira seu nome: LeonardoNome:  Marcelo
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Insira seu nome: LeonardoNome:  Larissa
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Insira seu nome: LeonardoNome:  Jose
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:14:13)
+-- CODE: 
+Nome = input("Insira seu nome: ")
+Idade = int(input("Insira sua idade: "))
+Altura = flotat(input("Insira sua altura"))
+print(Nome,Idade,Altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura"))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura"))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura"))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura"))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 14:44:05)
+-- CODE: 
+# Inicio
+nome   = input("Insira seu nome: ")
+idade  = int(input("Insira sua idade: "))
+altura = float(input("Insira sua altura: "))
+# Saída
+print("Nome: ",nome)
+print("Idade: ",idade)
+print("Altura: ",altura)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura:  1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura:  1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura:  1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura:  1.89
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:05:23)
+-- CODE: 
+nome = input("digite seu nome: ")
+print(nome)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+digite seu nome: Teresa
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+digite seu nome: Marcelo
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+digite seu nome: Larissa
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+digite seu nome: Jose
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 14:41:00)
+-- CODE: 
+# Inicio
+nome   = input()
+idade  = int(input())
+altura = float(input())
+# Saída
+print("nome: ",nome)
+print("idade: ",idade)
+print("altura: ",altura)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+altura:  1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+altura:  1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+altura:  1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+altura:  1.89
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:38:50)
+-- CODE: 
+# Inicio
+nome   = input("Insira seu nome: ")
+idade  = int(input("Insira sua idade: "))
+altura = float(input("Insira sua altura: "))
+# Saída
+
+print("nome: ",nome)
+print("idade: ",idade)
+print("altura: ",altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+altura:  1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+altura:  1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+altura:  1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+altura:  1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:15:38)
+-- CODE: 
+Nome = input()
+Idade = int(input())
+Altura = flotat(input())
+print(Nome,Idade,Altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input())
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input())
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input())
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input())
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:14:32)
+-- CODE: 
+Nome = input("Insira seu nome: ")
+Idade = int(input("Insira sua idade: "))
+Altura = flotat(input("Insira sua altura"))
+print(Nome,Idade,Altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura"))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura"))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura"))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura"))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:13:49)
+-- CODE: 
+Nome = input("Insira seu nome: ")
+Idade = int(input("Insira sua idade: "))
+Altura = flotat(input("Insira sua altura"))
+print(Nome,Idade,Altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura"))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura"))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura"))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura"))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 14:39:54)
+-- CODE: 
+# Inicio
+nome   = input("Insira seu nome: ")
+idade  = int(input("Insira sua idade: "))
+altura = float(input("Insira sua altura: "))
+# Saída
+print("nome: ",nome)
+print("idade: ",idade)
+print("altura: ",altura)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+altura:  1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+altura:  1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+altura:  1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+altura:  1.89
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:40:39)
+-- CODE: 
+# Inicio
+nome   = input()
+idade  = int(input())
+altura = float(input())
+# Saída
+print("nome: ",nome)
+print("idade: ",idade)
+print("altura: ",altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+altura:  1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+altura:  1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+altura:  1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+altura:  1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 14:14:57)
+-- CODE: 
+Nome = input("Insira seu nome: ")
+Idade = int(input("Insira sua idade: "))
+Altura = flotat(input("Insira sua altura: "))
+print(Nome,Idade,Altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura: "))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura: "))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura: "))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Altura = flotat(input("Insira sua altura: "))
+             ^^^^^^
+NameError: name 'flotat' is not defined. Did you mean: 'float'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

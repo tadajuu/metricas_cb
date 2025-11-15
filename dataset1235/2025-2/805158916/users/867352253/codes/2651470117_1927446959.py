@@ -1,0 +1,7 @@
+n=float(input("entre com o valor de n: "))
+resultado1=round((n*(27/100)),2)
+resultado2=round(n+(n*(42/100)),2)
+resultado3=round(n-(n*(63/100)),2)
+print(resultado1)
+print(resultado2)
+print(resultado3)

@@ -1,0 +1,846 @@
+== RUN (2025-08-26 00:20:04)
+-- CODE: 
+x=a
+y=b
+soma(a+b)
+resultado= print(a+b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=a
+      ^
+NameError: name 'a' is not defined
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=a
+      ^
+NameError: name 'a' is not defined
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=a
+      ^
+NameError: name 'a' is not defined
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=a
+      ^
+NameError: name 'a' is not defined
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=a
+      ^
+NameError: name 'a' is not defined
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=a
+      ^
+NameError: name 'a' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 00:20:38)
+-- CODE: 
+a=("5")
+x=a
+y=b
+soma(a+b)
+resultado= print(a+b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    y=b
+      ^
+NameError: name 'b' is not defined
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    y=b
+      ^
+NameError: name 'b' is not defined
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    y=b
+      ^
+NameError: name 'b' is not defined
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    y=b
+      ^
+NameError: name 'b' is not defined
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    y=b
+      ^
+NameError: name 'b' is not defined
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    y=b
+      ^
+NameError: name 'b' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 00:22:02)
+-- CODE: 
+a=("5")
+x=a
+b=("8")
+y=b
+soma(a+b)= import math "a+b"
+
+resultado= print(a+b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math "a+b"
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math "a+b"
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math "a+b"
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math "a+b"
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math "a+b"
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math "a+b"
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 00:21:46)
+-- CODE: 
+a=("5")
+x=a
+b=("8")
+y=b
+soma(a+b)= import math a+b
+resultado= print(a+b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math a+b
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math a+b
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math a+b
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math a+b
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math a+b
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math a+b
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 00:16:39)
+-- CODE: 
+xuxu = "meu xuuuuxuuu"
+print(xuxu.upper())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+MEU XUUUUXUUU
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+MEU XUUUUXUUU
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+MEU XUUUUXUUU
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+MEU XUUUUXUUU
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+MEU XUUUUXUUU
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+MEU XUUUUXUUU
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 00:28:35)
+-- CODE: 
+celsius = float(input()) 
+
+kelvin= celsius + 273.15
+print(f"{kelvin:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+293.40
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 00:22:03)
+-- CODE: 
+a=("5")
+x=a
+b=("8")
+y=b
+soma(a+b)= import math "a+b"
+
+resultado= print(a+b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math "a+b"
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math "a+b"
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math "a+b"
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math "a+b"
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math "a+b"
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 5
+    soma(a+b)= import math "a+b"
+    ^^^^^^^^^
+SyntaxError: cannot assign to function call
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 00:20:10)
+-- CODE: 
+x=a
+y=b
+soma(a+b)
+resultado= print(a+b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=a
+      ^
+NameError: name 'a' is not defined
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=a
+      ^
+NameError: name 'a' is not defined
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=a
+      ^
+NameError: name 'a' is not defined
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=a
+      ^
+NameError: name 'a' is not defined
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=a
+      ^
+NameError: name 'a' is not defined
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=a
+      ^
+NameError: name 'a' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 00:17:57)
+-- CODE: 
+xuxu = "meu xuuuuxuuu"
+print(xuxu.lower())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+meu xuuuuxuuu
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+meu xuuuuxuuu
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+meu xuuuuxuuu
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+meu xuuuuxuuu
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+meu xuuuuxuuu
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+meu xuuuuxuuu
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 00:27:48)
+-- CODE: 
+celsius = float(input()) 
+
+kelvin= celsius + 273.15
+print(f"{kelvin:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+293.40
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 00:28:55)
+-- CODE: 
+celsius = float(input()) 
+
+kelvin= celsius + 273.15
+print(f"{kelvin:.2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+293.40
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 00:19:47)
+-- CODE: 
+x= a
+y=b
+soma(a+b)
+resultado= print(a+b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x= a
+       ^
+NameError: name 'a' is not defined
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x= a
+       ^
+NameError: name 'a' is not defined
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x= a
+       ^
+NameError: name 'a' is not defined
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x= a
+       ^
+NameError: name 'a' is not defined
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x= a
+       ^
+NameError: name 'a' is not defined
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x= a
+       ^
+NameError: name 'a' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 00:20:53)
+-- CODE: 
+a=("5")
+x=a
+b=("8")
+y=b
+soma(a+b)
+resultado= print(a+b)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    soma(a+b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    soma(a+b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    soma(a+b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    soma(a+b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    soma(a+b)
+    ^^^^
+NameError: name 'soma' is not defined
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    soma(a+b)
+    ^^^^
+NameError: name 'soma' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

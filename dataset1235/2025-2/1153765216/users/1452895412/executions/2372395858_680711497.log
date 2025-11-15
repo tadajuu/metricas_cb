@@ -1,0 +1,183 @@
+== SUBMISSION (2025-08-28 18:21:59)
+-- CODE: 
+import math
+lado = float(input(print("Digite o comprimento do lado: ")))
+area = (6 * lado) / (math.tag(math.pi / 12))
+print(round(area, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+548.61
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    area = (6 * lado) / (math.tag(math.pi / 12))
+                         ^^^^^^^^
+AttributeError: module 'math' has no attribute 'tag'. Did you mean: 'tan'?
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+100.77
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    area = (6 * lado) / (math.tag(math.pi / 12))
+                         ^^^^^^^^
+AttributeError: module 'math' has no attribute 'tag'. Did you mean: 'tan'?
+-- TEST CASE 3:
+---- input:
+4
+---- correct output:
+179.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    area = (6 * lado) / (math.tag(math.pi / 12))
+                         ^^^^^^^^
+AttributeError: module 'math' has no attribute 'tag'. Did you mean: 'tan'?
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+279.9
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    area = (6 * lado) / (math.tag(math.pi / 12))
+                         ^^^^^^^^
+AttributeError: module 'math' has no attribute 'tag'. Did you mean: 'tan'?
+-- TEST CASE 5:
+---- input:
+6
+---- correct output:
+403.06
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    area = (6 * lado) / (math.tag(math.pi / 12))
+                         ^^^^^^^^
+AttributeError: module 'math' has no attribute 'tag'. Did you mean: 'tan'?
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+44.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    area = (6 * lado) / (math.tag(math.pi / 12))
+                         ^^^^^^^^
+AttributeError: module 'math' has no attribute 'tag'. Did you mean: 'tan'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:21:19)
+-- CODE: 
+import math
+lado = float(input(print("Digite o comprimento do lado: ")))
+area = (6 * lado) / (math.tan(math.pi / 12))
+print(round(area, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+548.61
+---- user output:
+None156.75
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+100.77
+---- user output:
+None67.18
+-- TEST CASE 3:
+---- input:
+4
+---- correct output:
+179.14
+---- user output:
+None89.57
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+279.9
+---- user output:
+None111.96
+-- TEST CASE 5:
+---- input:
+6
+---- correct output:
+403.06
+---- user output:
+None134.35
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+44.78
+---- user output:
+None44.78
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:25:16)
+-- CODE: 
+import math
+lado = float(input(print("Digite o comprimento do lado: ")))
+area = (3 * (lado ** 2)) / (math.tan(math.pi / 12))
+print(round(area, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+548.61
+---- user output:
+None548.61
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+100.77
+---- user output:
+None100.77
+-- TEST CASE 3:
+---- input:
+4
+---- correct output:
+179.14
+---- user output:
+None179.14
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+279.9
+---- user output:
+None279.9
+-- TEST CASE 5:
+---- input:
+6
+---- correct output:
+403.06
+---- user output:
+None403.06
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+44.78
+---- user output:
+None44.78
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

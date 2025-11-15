@@ -1,0 +1,611 @@
+== SUBMISSION (2025-08-27 03:18:22)
+-- CODE: 
+#Entrada
+C = int(input("digite o valor de gra celsius:"))
+K = C+273.15
+#saída
+print(round(K,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    C = int(input("digite o valor de gra celsius:"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    C = int(input("digite o valor de gra celsius:"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    C = int(input("digite o valor de gra celsius:"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    C = int(input("digite o valor de gra celsius:"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    C = int(input("digite o valor de gra celsius:"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    C = int(input("digite o valor de gra celsius:"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 03:26:37)
+-- CODE: 
+#conversão de Celsius para Kelvin
+#entrada
+celsius = float(input("digite a temperatura em graus celsius:"))
+#conversão
+kelvin = celsius+273.15
+#saída (arredondada para 2 casas decimais)
+print("temperatura em kelvin:",round(kelvin,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 03:25:16)
+-- CODE: 
+#conversão de Celsius para Kelvin
+#entrada
+celsius = float(input("digite a temperatura em graus celsius:"))
+#conversão
+kelvin = celsius+273.15
+#saída (arredondada para 2 casas decimais)
+print("temperatura em kelvin:",round(kelvin,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 03:16:30)
+-- CODE: 
+#Entrada
+°C = int(input("digite o valor de gra celsius:"))
+°K = °C+273.15
+#saída
+print(round(°K,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 2
+    °C = int(input("digite o valor de gra celsius:"))
+    ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 2
+    °C = int(input("digite o valor de gra celsius:"))
+    ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 2
+    °C = int(input("digite o valor de gra celsius:"))
+    ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 2
+    °C = int(input("digite o valor de gra celsius:"))
+    ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 2
+    °C = int(input("digite o valor de gra celsius:"))
+    ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 2
+    °C = int(input("digite o valor de gra celsius:"))
+    ^
+SyntaxError: invalid character '°' (U+00B0)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:17:26)
+-- CODE: 
+#Entrada
+°C = int(input("digite o valor de gra celsius:"))
+°K = °C+273.15
+#saída
+print(round(°K,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 2
+    °C = int(input("digite o valor de gra celsius:"))
+    ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 2
+    °C = int(input("digite o valor de gra celsius:"))
+    ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 2
+    °C = int(input("digite o valor de gra celsius:"))
+    ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 2
+    °C = int(input("digite o valor de gra celsius:"))
+    ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 2
+    °C = int(input("digite o valor de gra celsius:"))
+    ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 2
+    °C = int(input("digite o valor de gra celsius:"))
+    ^
+SyntaxError: invalid character '°' (U+00B0)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 03:18:14)
+-- CODE: 
+#Entrada
+C = int(input("digite o valor de gra celsius:"))
+K = °C+273.15
+#saída
+print(round(K,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 3
+    K = °C+273.15
+        ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 3
+    K = °C+273.15
+        ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 3
+    K = °C+273.15
+        ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 3
+    K = °C+273.15
+        ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 3
+    K = °C+273.15
+        ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 3
+    K = °C+273.15
+        ^
+SyntaxError: invalid character '°' (U+00B0)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 03:19:24)
+-- CODE: 
+#Entrada
+Celsius = int(input("digite o valor de grau celsius:"))
+Kelvin = C+273.15
+#saída
+print(round(Kelvin,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    Celsius = int(input("digite o valor de grau celsius:"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    Celsius = int(input("digite o valor de grau celsius:"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    Celsius = int(input("digite o valor de grau celsius:"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    Celsius = int(input("digite o valor de grau celsius:"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    Celsius = int(input("digite o valor de grau celsius:"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    Celsius = int(input("digite o valor de grau celsius:"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:26:27)
+-- CODE: 
+#conversão de Celsius para Kelvin
+#entrada
+celsius = float(input("digite a temperatura em graus celsius:"))
+#conversão
+kelvin = celsius+273.15
+#saída (arredondada para 2 casas decimais)
+print("temperatura em kelvin:",round(kelvin,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+digite a temperatura em graus celsius:temperatura em kelvin: 303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 03:17:58)
+-- CODE: 
+#Entrada
+C = int(input("digite o valor de gra celsius:"))
+K = °C+273.15
+#saída
+print(round(K,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 3
+    K = °C+273.15
+        ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 3
+    K = °C+273.15
+        ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 3
+    K = °C+273.15
+        ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 3
+    K = °C+273.15
+        ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 3
+    K = °C+273.15
+        ^
+SyntaxError: invalid character '°' (U+00B0)
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 3
+    K = °C+273.15
+        ^
+SyntaxError: invalid character '°' (U+00B0)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

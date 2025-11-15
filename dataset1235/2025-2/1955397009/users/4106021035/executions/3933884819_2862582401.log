@@ -1,0 +1,446 @@
+== RUN (2025-08-31 19:45:35)
+-- CODE: 
+nome = char(input("Nome: "))
+num = int(input("Vezes: "))
+
+fetico = "Abra" + nome + " "
+resultado = fetico*num
+
+print(resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nome = char(input("Nome: "))
+           ^^^^
+NameError: name 'char' is not defined. Did you mean: 'chr'?
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nome = char(input("Nome: "))
+           ^^^^
+NameError: name 'char' is not defined. Did you mean: 'chr'?
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nome = char(input("Nome: "))
+           ^^^^
+NameError: name 'char' is not defined. Did you mean: 'chr'?
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nome = char(input("Nome: "))
+           ^^^^
+NameError: name 'char' is not defined. Did you mean: 'chr'?
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nome = char(input("Nome: "))
+           ^^^^
+NameError: name 'char' is not defined. Did you mean: 'chr'?
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nome = char(input("Nome: "))
+           ^^^^
+NameError: name 'char' is not defined. Did you mean: 'chr'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:46:35)
+-- CODE: 
+nome = input("Nome: ")
+num = int(input("Vezes: "))
+
+fetico = "Abra " + nome + " "
+resultado = fetico*num
+
+print(resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome: Vezes: Abra carro Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome: Vezes: Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome: Vezes: Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome: Vezes: Abra casa Abra casa Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome: Vezes: Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome: Vezes: Abra porta Abra porta Abra porta Abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-31 19:46:45)
+-- CODE: 
+nome = input("Nome: ")
+num = int(input("Vezes: "))
+
+fetico = "Abra " + nome + " "
+resultado = fetico*num
+
+print(resultado)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome: Vezes: Abra carro Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome: Vezes: Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome: Vezes: Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome: Vezes: Abra casa Abra casa Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome: Vezes: Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome: Vezes: Abra porta Abra porta Abra porta Abra porta
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:46:13)
+-- CODE: 
+nome = input("Nome: ")
+num = int(input("Vezes: "))
+
+fetico = "Abra" + nome + " "
+resultado = fetico*num
+
+print(resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome: Vezes: Abracarro Abracarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome: Vezes: Abracaixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome: Vezes: Abrasacola Abrasacola Abrasacola Abrasacola Abrasacola Abrasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome: Vezes: Abracasa Abracasa Abracasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome: Vezes: Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome: Vezes: Abraporta Abraporta Abraporta Abraporta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:46:24)
+-- CODE: 
+nome = input("Nome: ")
+num = int(input("Vezes: "))
+
+fetico = "Abra" + nome + " "
+resultado = fetico*num
+
+print(resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome: Vezes: Abracarro Abracarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome: Vezes: Abracaixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome: Vezes: Abrasacola Abrasacola Abrasacola Abrasacola Abrasacola Abrasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome: Vezes: Abracasa Abracasa Abracasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome: Vezes: Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome: Vezes: Abraporta Abraporta Abraporta Abraporta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:45:44)
+-- CODE: 
+nome = input("Nome: ")
+num = int(input("Vezes: "))
+
+fetico = "Abra" + nome + " "
+resultado = fetico*num
+
+print(resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome: Vezes: Abracarro Abracarro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome: Vezes: Abracaixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome: Vezes: Abrasacola Abrasacola Abrasacola Abrasacola Abrasacola Abrasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome: Vezes: Abracasa Abracasa Abracasa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome: Vezes: Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome: Vezes: Abraporta Abraporta Abraporta Abraporta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:45:57)
+-- CODE: 
+nome = input("Nome: ")
+num = int(input("Vezes: "))
+
+fetico = "Abra " + nome + " "
+resultado = fetico*num
+
+print(resultado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome: Vezes: Abra carro Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome: Vezes: Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome: Vezes: Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome: Vezes: Abra casa Abra casa Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome: Vezes: Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome: Vezes: Abra porta Abra porta Abra porta Abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

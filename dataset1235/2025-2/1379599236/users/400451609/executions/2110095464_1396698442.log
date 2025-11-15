@@ -1,0 +1,77 @@
+== SUBMISSION (2025-08-25 19:11:10)
+-- CODE: 
+import math
+
+x_a = float(input("Qual o valor de Xa? "))
+y_a = float(input("Qual o valor de Ya? "))
+x_b = float(input("Qual o valor de Xb? "))
+y_b = float(input("Qual o valor de Yb? "))
+
+dist = math.sqrt((x_b-x_a)**2 + (y_b-y_a)**2)
+
+print(round(dist,3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+4.0
+---- correct output:
+2.828
+---- user output:
+Qual o valor de Xa? Qual o valor de Ya? Qual o valor de Xb? Qual o valor de Yb? 2.828
+-- TEST CASE 2:
+---- input:
+1.22
+2.33
+3.44
+4.55
+---- correct output:
+3.14
+---- user output:
+Qual o valor de Xa? Qual o valor de Ya? Qual o valor de Xb? Qual o valor de Yb? 3.14
+-- TEST CASE 3:
+---- input:
+2.5
+3.0
+5.0
+1.8
+---- correct output:
+2.773
+---- user output:
+Qual o valor de Xa? Qual o valor de Ya? Qual o valor de Xb? Qual o valor de Yb? 2.773
+-- TEST CASE 4:
+---- input:
+-1.3
+5.0
+-4.2
+6.8
+---- correct output:
+3.413
+---- user output:
+Qual o valor de Xa? Qual o valor de Ya? Qual o valor de Xb? Qual o valor de Yb? 3.413
+-- TEST CASE 5:
+---- input:
+-11.2
+6.7
+10.4
+-8.7
+---- correct output:
+26.528
+---- user output:
+Qual o valor de Xa? Qual o valor de Ya? Qual o valor de Xb? Qual o valor de Yb? 26.528
+-- TEST CASE 6:
+---- input:
+2.5
+3.0
+5.0
+1.8
+---- correct output:
+2.773
+---- user output:
+Qual o valor de Xa? Qual o valor de Ya? Qual o valor de Xb? Qual o valor de Yb? 2.773
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

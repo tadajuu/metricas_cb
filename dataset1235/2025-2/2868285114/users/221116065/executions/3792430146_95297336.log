@@ -1,0 +1,390 @@
+== RUN (2025-09-02 23:00:13)
+-- CODE: 
+Escala = input("Qual a escala? (F) ou (C)?: ").upper()
+valor = float(input("Qual o valor da temperatura?: "))
+
+if Escala == "C":
+  Farenheit = (Valor * 9/5) + 32
+  print(round(Farenheit, 2))
+
+else:
+  Celsius = valor - 32 * 5/9
+  print(round(Celsius, 2))
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 302.22
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 82.22
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Farenheit = (Valor * 9/5) + 32
+                 ^^^^^
+NameError: name 'Valor' is not defined. Did you mean: 'valor'?
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Farenheit = (Valor * 9/5) + 32
+                 ^^^^^
+NameError: name 'Valor' is not defined. Did you mean: 'valor'?
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Farenheit = (Valor * 9/5) + 32
+                 ^^^^^
+NameError: name 'Valor' is not defined. Did you mean: 'valor'?
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 12.22
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:01:06)
+-- CODE: 
+Escala = input("Qual a escala? (F) ou (C)?: ").upper()
+valor = float(input("Qual o valor da temperatura?: "))
+
+if Escala == "C":
+  Farenheit = (valor * 9/5) + 32
+  print(round(Farenheit, 2))
+
+else:
+  Celsius = (valor - 32) * 5/9
+  print(round(Celsius, 2))
+  
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: -1.11
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:00:28)
+-- CODE: 
+Escala = input("Qual a escala? (F) ou (C)?: ").upper()
+valor = float(input("Qual o valor da temperatura?: "))
+
+if Escala == "C":
+  Farenheit = (valor * 9/5) + 32
+  print(round(Farenheit, 2))
+
+else:
+  Celsius = valor - 32 * 5/9
+  print(round(Celsius, 2))
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 302.22
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 82.22
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 12.22
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:00:53)
+-- CODE: 
+Escala = input("Qual a escala? (F) ou (C)?: ").upper()
+valor = float(input("Qual o valor da temperatura?: "))
+
+if Escala == "C":
+  Farenheit = (valor * 9/5) + 32
+  print(round(Farenheit, 2))
+
+else:
+  Celsius = (valor - 32) * 5/9
+  print(round(Celsius, 2))
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: -1.11
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:00:36)
+-- CODE: 
+Escala = input("Qual a escala? (F) ou (C)?: ").upper()
+valor = float(input("Qual o valor da temperatura?: "))
+
+if Escala == "C":
+  Farenheit = (valor * 9/5) + 32
+  print(round(Farenheit, 2))
+
+else:
+  Celsius = valor - 32 * 5/9
+  print(round(Celsius, 2))
+  
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 302.22
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 82.22
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Qual a escala? (F) ou (C)?: Qual o valor da temperatura?: 12.22
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 22:50:37)
+-- CODE: 
+Escala = input("Qual a escala? (F) ou (C)?: ").upper()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Qual a escala? (F) ou (C)?:
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Qual a escala? (F) ou (C)?:
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+Qual a escala? (F) ou (C)?:
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+Qual a escala? (F) ou (C)?:
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+Qual a escala? (F) ou (C)?:
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Qual a escala? (F) ou (C)?:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

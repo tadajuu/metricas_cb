@@ -1,0 +1,84 @@
+== SUBMISSION (2025-08-19 03:00:52)
+-- CODE: 
+# Grade
+primeira_av= float(input())
+segunda_av= float(input())
+terceira_av= float(input())
+quarta_av= float(input())
+
+# Intermitum
+av1_peso= primeira_av * 1
+av2_peso= segunda_av * 2
+av3_peso= terceira_av * 3
+av4_peso= quarta_av * 4
+peso_total= av1_peso + av2_peso + av3_peso + av4_peso
+nota_final= peso_total/10
+
+# Conclusion
+print(round(nota_final,2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+7.94
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+8.2
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+7.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+6.7
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+30.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+7.8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

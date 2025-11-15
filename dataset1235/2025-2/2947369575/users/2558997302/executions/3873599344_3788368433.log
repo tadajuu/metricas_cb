@@ -1,0 +1,423 @@
+== RUN (2025-08-20 23:09:23)
+-- CODE: 
+var = input()
+print(var)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+---- user output:
+Gandalf
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+---- user output:
+Donald Knuth
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+---- user output:
+Python
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+---- user output:
+Ada Lovelace
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+---- user output:
+Teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 23:05:55)
+-- CODE: 
+input("Gandalf" <nome>)
+var = nome
+print(var)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 1
+    input("Gandalf" <nome>)
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 1
+    input("Gandalf" <nome>)
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 1
+    input("Gandalf" <nome>)
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 1
+    input("Gandalf" <nome>)
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 1
+    input("Gandalf" <nome>)
+                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 23:04:12)
+-- CODE: 
+input("Átila", <nome>)
+var = nome
+print(var)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 1
+    input("Átila", <nome>)
+                   ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 1
+    input("Átila", <nome>)
+                   ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 1
+    input("Átila", <nome>)
+                   ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 1
+    input("Átila", <nome>)
+                   ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 1
+    input("Átila", <nome>)
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 23:03:50)
+-- CODE: 
+input("Átila", nome)
+var = nome
+print(var)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input("Átila", nome)
+                   ^^^^
+NameError: name 'nome' is not defined. Did you mean: 'None'?
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input("Átila", nome)
+                   ^^^^
+NameError: name 'nome' is not defined. Did you mean: 'None'?
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input("Átila", nome)
+                   ^^^^
+NameError: name 'nome' is not defined. Did you mean: 'None'?
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input("Átila", nome)
+                   ^^^^
+NameError: name 'nome' is not defined. Did you mean: 'None'?
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input("Átila", nome)
+                   ^^^^
+NameError: name 'nome' is not defined. Did you mean: 'None'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 23:04:48)
+-- CODE: 
+input(<Átila>, nome)
+var = nome
+print(var)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 1
+    input(<Átila>, nome)
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 1
+    input(<Átila>, nome)
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 1
+    input(<Átila>, nome)
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 1
+    input(<Átila>, nome)
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 1
+    input(<Átila>, nome)
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 23:09:44)
+-- CODE: 
+var = input()
+print(var)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+---- user output:
+Gandalf
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+---- user output:
+Donald Knuth
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+---- user output:
+Python
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+---- user output:
+Ada Lovelace
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+---- user output:
+Teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 23:04:58)
+-- CODE: 
+input(<Átila> nome)
+var = nome
+print(var)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 1
+    input(<Átila> nome)
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 1
+    input(<Átila> nome)
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 1
+    input(<Átila> nome)
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 1
+    input(<Átila> nome)
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 1
+    input(<Átila> nome)
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 23:10:04)
+-- CODE: 
+var = input()
+print(var)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+---- user output:
+Gandalf
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+---- user output:
+Donald Knuth
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+---- user output:
+Python
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+---- user output:
+Ada Lovelace
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+---- user output:
+Teste
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

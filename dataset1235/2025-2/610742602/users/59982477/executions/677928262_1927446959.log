@@ -1,0 +1,1290 @@
+== SUBMISSION (2025-08-27 15:25:22)
+-- CODE: 
+#Leitura da entrada
+n = float(input())
+#1. Calcular 27% de n 
+valor1 = n * (27/100)
+#2. Calcular n acrescido de 42%
+valor2 = n + n * (42/100)
+#3. Calcular n com desconto de 63%
+valor3 = n - n * (63/100)
+#Imprimir resultados arredondados com 2 casas decimais 
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 15:20:37)
+-- CODE: 
+#lê uma linha, aceita "1.58" ou "1,58"
+entrada = input().strip().replace(',',',')
+#Converte para float (assume que a entrada será numérica)
+n = float(entrada)
+#1) 27% de n 
+valor1 = n * (27 / 100)
+#2) n acrescido de 42%
+valor2= n + n * (42 / 100) 
+#3) n com desconto de 63%
+valor3 = n - n * (63 / 100)
+#imprime somente os valores (2 casas decimais) - formato geralmente exigido pelo judge
+print("{:.2f}".format(valor1))
+print("{:.2f}".format(valor2))
+print("{:.2f}".format(valor3))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.50
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 15:24:46)
+-- CODE: 
+#Leitura da entrada
+n = float(input())
+#1. Calcular 27% de n 
+valor1 = n * (27/100)
+#2. Calcular n acrescido de 42%
+valor2 = n + n (42/100)
+#3. Calcular n com desconto de 63%
+valor3 = n - n * (63/100)
+#Imprimir resultados arredondados com 2 casas decimais 
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 15:24:24)
+-- CODE: 
+#Leitura da entrada
+n = float(input())
+#1. Calcular 27% de n 
+valor1 = n * (27/100)
+#2. Calcular n acrescido de 42%
+valor2 = n + n (42/100)
+#3. Calcular n com desconto de 63%
+valor3 = n - n * (63/100)
+#Imprimir resultados arredondados com 2 casas decimais 
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 15:24:45)
+-- CODE: 
+#Leitura da entrada
+n = float(input())
+#1. Calcular 27% de n 
+valor1 = n * (27/100)
+#2. Calcular n acrescido de 42%
+valor2 = n + n (42/100)
+#3. Calcular n com desconto de 63%
+valor3 = n - n * (63/100)
+#Imprimir resultados arredondados com 2 casas decimais 
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 15:24:47)
+-- CODE: 
+#Leitura da entrada
+n = float(input())
+#1. Calcular 27% de n 
+valor1 = n * (27/100)
+#2. Calcular n acrescido de 42%
+valor2 = n + n (42/100)
+#3. Calcular n com desconto de 63%
+valor3 = n - n * (63/100)
+#Imprimir resultados arredondados com 2 casas decimais 
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 15:08:36)
+-- CODE: 
+#Entrada de Dados 
+n = float(input())
+
+#1. 27% de n 
+valor1 = n * (27 / 100)
+#2. n acrescido de 42%
+valor2 = n + n * (42 / 100)
+#3. n com desconto de 63%
+valor3 = n - n * (63 / 100)
+
+#Saída com 2 casas decimais 
+print("{:.2f}".format(valor1))
+print("{:.2f}".format(valor2))
+print("{:.2f}".format(valor3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.50
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 15:24:40)
+-- CODE: 
+#Leitura da entrada
+n = float(input())
+#1. Calcular 27% de n 
+valor1 = n * (27/100)
+#2. Calcular n acrescido de 42%
+valor2 = n + n (42/100)
+#3. Calcular n com desconto de 63%
+valor3 = n - n * (63/100)
+#Imprimir resultados arredondados com 2 casas decimais 
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 15:10:51)
+-- CODE: 
+#Entrada de Dados 
+n = float(input())
+#1. 27% de n 
+valor1 = n * (27 / 100)
+#2. n acrescido de 42%
+valor2 = n + n * (42 / 100)
+#3. n com desconto de 63%
+valor3 = n - n * (63 / 100)
+#Saída com 2 casas decimais 
+print("{:.2f}".format(valor1))
+print("{:.2f}".format(valor2))
+print("{:.2f}".format(valor3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.50
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 15:24:23)
+-- CODE: 
+#Leitura da entrada
+n = float(input())
+#1. Calcular 27% de n 
+valor1 = n * (27/100)
+#2. Calcular n acrescido de 42%
+valor2 = n + n (42/100)
+#3. Calcular n com desconto de 63%
+valor3 = n - n * (63/100)
+#Imprimir resultados arredondados com 2 casas decimais 
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 15:24:45)
+-- CODE: 
+#Leitura da entrada
+n = float(input())
+#1. Calcular 27% de n 
+valor1 = n * (27/100)
+#2. Calcular n acrescido de 42%
+valor2 = n + n (42/100)
+#3. Calcular n com desconto de 63%
+valor3 = n - n * (63/100)
+#Imprimir resultados arredondados com 2 casas decimais 
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 15:20:35)
+-- CODE: 
+#lê uma linha, aceita "1.58" ou "1,58"
+entrada = input().strip().replace(',',',')
+#Converte para float (assume que a entrada será numérica)
+n = float(entrada)
+#1) 27% de n 
+valor1 = n * (27 / 100)
+#2) n acrescido de 42%
+valor2= n + n * (42 / 100) 
+#3) n com desconto de 63%
+valor3 = n - n * (63 / 100)
+#imprime somente os valores (2 casas decimais) - formato geralmente exigido pelo judge
+print("{:.2f}".format(valor1))
+print("{:.2f}".format(valor2))
+print("{:.2f}".format(valor3))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.50
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 15:24:45)
+-- CODE: 
+#Leitura da entrada
+n = float(input())
+#1. Calcular 27% de n 
+valor1 = n * (27/100)
+#2. Calcular n acrescido de 42%
+valor2 = n + n (42/100)
+#3. Calcular n com desconto de 63%
+valor3 = n - n * (63/100)
+#Imprimir resultados arredondados com 2 casas decimais 
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    valor2 = n + n (42/100)
+                 ^^^^^^^^^^
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 15:08:55)
+-- CODE: 
+#Entrada de Dados 
+n = float(input())
+
+#1. 27% de n 
+valor1 = n * (27 / 100)
+#2. n acrescido de 42%
+valor2 = n + n * (42 / 100)
+#3. n com desconto de 63%
+valor3 = n - n * (63 / 100)
+
+#Saída com 2 casas decimais 
+print("{:.2f}".format(valor1))
+print("{:.2f}".format(valor2))
+print("{:.2f}".format(valor3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.50
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 15:10:54)
+-- CODE: 
+#Entrada de Dados 
+n = float(input())
+#1. 27% de n 
+valor1 = n * (27 / 100)
+#2. n acrescido de 42%
+valor2 = n + n * (42 / 100)
+#3. n com desconto de 63%
+valor3 = n - n * (63 / 100)
+#Saída com 2 casas decimais 
+print("{:.2f}".format(valor1))
+print("{:.2f}".format(valor2))
+print("{:.2f}".format(valor3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.50
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

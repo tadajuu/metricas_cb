@@ -1,0 +1,978 @@
+== RUN (2025-08-19 12:55:50)
+-- CODE: 
+tempc = float(input("temperatura em celcius"))
+tempk = float(input("temperatura em kelvin"))
+
+tempc = tempk + 273.15
+
+print(round x, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:56:54)
+-- CODE: 
+tempc = float(input("temperatura em celcius"))
+tempk = float(input("temperatura em kelvin"))
+
+tempc = tempk + 273.15
+
+print(round(tempk, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    tempk = float(input("temperatura em kelvin"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    tempk = float(input("temperatura em kelvin"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    tempk = float(input("temperatura em kelvin"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    tempk = float(input("temperatura em kelvin"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    tempk = float(input("temperatura em kelvin"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    tempk = float(input("temperatura em kelvin"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:55:52)
+-- CODE: 
+tempc = float(input("temperatura em celcius"))
+tempk = float(input("temperatura em kelvin"))
+
+tempc = tempk + 273.15
+
+print(round x, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:58:03)
+-- CODE: 
+tempc = float(input("temperatura em celcius"))
+
+tempc = tempk + 273.15
+
+print(round(tempk, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:58:15)
+-- CODE: 
+tempc = float(input("temperatura em celcius"))
+
+tempc = tempk + 273.15
+
+print(round(tempk, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:58:12)
+-- CODE: 
+tempc = float(input("temperatura em celcius"))
+
+tempc = tempk + 273.15
+
+print(round(tempk, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:55:45)
+-- CODE: 
+tempc = float(input("temperatura em celcius"))
+tempk = float(input("temperatura em kelvin"))
+
+tempc = tempk + 273.15
+
+print(round x, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 12:59:57)
+-- CODE: 
+tempc = float(input("temperatura em celsius:"))
+
+tempk = tempc + 273.15
+
+print(round(tempk, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+temperatura em celsius:293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+temperatura em celsius:263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+temperatura em celsius:233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+temperatura em celsius:373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+temperatura em celsius:273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+temperatura em celsius:303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:57:38)
+-- CODE: 
+tempc = float(input("temperatura em celcius"))
+tempk = float(input("temperatura em kelvin"))
+
+tempc = tempk + 273.15
+
+print(round(tempk, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    tempk = float(input("temperatura em kelvin"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    tempk = float(input("temperatura em kelvin"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    tempk = float(input("temperatura em kelvin"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    tempk = float(input("temperatura em kelvin"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    tempk = float(input("temperatura em kelvin"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    tempk = float(input("temperatura em kelvin"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:58:34)
+-- CODE: 
+tempc = float(input("temperatura em celcius"))
+
+tempc = tempk + 273.15
+
+print(round(tempk, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 13:01:12)
+-- CODE: 
+tempc = float(input("temperatura em celsius:"))
+
+tempk = tempc + 273.15
+
+print(round(tempk, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+temperatura em celsius:293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+temperatura em celsius:263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+temperatura em celsius:233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+temperatura em celsius:373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+temperatura em celsius:273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+temperatura em celsius:303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:59:46)
+-- CODE: 
+tempc = float(input("temperatura em celsius:"))
+
+tempk = tempc + 273.15
+
+print(round(tempk, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+temperatura em celsius:293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+temperatura em celsius:263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+temperatura em celsius:233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+temperatura em celsius:373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+temperatura em celsius:273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+temperatura em celsius:303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:55:51)
+-- CODE: 
+tempc = float(input("temperatura em celcius"))
+tempk = float(input("temperatura em kelvin"))
+
+tempc = tempk + 273.15
+
+print(round x, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 6
+    print(round x, 2)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 12:59:14)
+-- CODE: 
+tempc = float(input("temperatura em celsius:"))
+
+tempc = tempk + 273.15
+
+print(round(tempk, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    tempc = tempk + 273.15
+            ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'tempc'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

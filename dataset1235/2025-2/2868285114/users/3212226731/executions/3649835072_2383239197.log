@@ -1,0 +1,648 @@
+== RUN (2025-08-15 03:29:15)
+-- CODE: 
+from math import *
+a = float(input())
+b = float(input())
+y = float(input())
+c_quadrado = a**2 + b**2 - 2*a*b*cos(y)
+c = sqrt(c_quadrado)
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 18:36:33)
+-- CODE: 
+from math import *
+a = float(input())
+b = float(input())
+y = float(input())
+c_quadrado = (a**2 + b**2) - cos(y)
+c = sqrt(c_quadrado)
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+100.24
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+21.27
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+28.86
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+4.6
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+55.09
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+12.84
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 03:20:39)
+-- CODE: 
+from math import *
+a = float(input())
+b = float(input())
+y = float(input())
+c = sqrt(a** + b** - 2*a*b*cos(y))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = sqrt(a** + b** - 2*a*b*cos(y))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = sqrt(a** + b** - 2*a*b*cos(y))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+12.78
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+3.11
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = sqrt(a** + b** - 2*a*b*cos(y))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = sqrt(a** + b** - 2*a*b*cos(y))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 18:36:29)
+-- CODE: 
+from math import *
+a = float(input())
+b = float(input())
+y = float(input())
+c_quadrado = (a**2 + b**2) - cos(y)
+c = sqrt(c_quadrado)
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+100.24
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+21.27
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+28.86
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+4.6
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+55.09
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+12.84
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 03:24:21)
+-- CODE: 
+from math import *
+a = float(input())
+b = float(input())
+y = float(input())
+c_quadrado = a**2 + b**2 - 2*a*b*cos(y)
+c = sqrt(c_quadrado)
+print(round(c,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+17.79
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 03:20:06)
+-- CODE: 
+from math import *
+a = float(input())
+b = float(input())
+y = float(input())
+c = sqrt(a**2 + b**2 - 2*a*b*cos(y))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+17.79
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 19:04:50)
+-- CODE: 
+from math import *
+a = float(input())
+b = float(input())
+gamma = float(input())
+c_quadrado = a**2 + b**2 - 2*(a*b*cos(radians(gamma)))
+c = sqrt(c_quadrado)
+print(round(c,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 03:19:24)
+-- CODE: 
+from math import sqrt, cos
+a = float(input())
+b = float(input())
+y = float(input())
+c = sqrt(a** + b** - 2*a*b*cos(y))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.00333333
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = sqrt(a** + b** - 2*a*b*cos(y))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = sqrt(a** + b** - 2*a*b*cos(y))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+12.78
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+3.11
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = sqrt(a** + b** - 2*a*b*cos(y))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = sqrt(a** + b** - 2*a*b*cos(y))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 03:20:36)
+-- CODE: 
+from math import *
+a = float(input())
+b = float(input())
+y = float(input())
+c = sqrt(a** + b** - 2*a*b*cos(y))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.00333333
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = sqrt(a** + b** - 2*a*b*cos(y))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = sqrt(a** + b** - 2*a*b*cos(y))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+12.78
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+3.11
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = sqrt(a** + b** - 2*a*b*cos(y))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = sqrt(a** + b** - 2*a*b*cos(y))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

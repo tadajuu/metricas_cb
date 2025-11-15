@@ -1,0 +1,7 @@
+X = int(input("53"))
+Y = int(input("2"))
+print(X // Y)
+print(X%Y)
+print(X/Y)
+print(X*Y)
+print(Y**3)

@@ -1,0 +1,1782 @@
+== RUN (2025-08-27 03:19:08)
+-- CODE: 
+from math import *
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*tan()*math.pi)/5
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*tan()*math.pi)/5
+                        ^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*tan()*math.pi)/5
+                        ^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*tan()*math.pi)/5
+                        ^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*tan()*math.pi)/5
+                        ^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*tan()*math.pi)/5
+                        ^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*tan()*math.pi)/5
+                        ^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:33:25)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+area = (5*comp_l**2)/(4*math.tan(math.pi/5)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 5
+    area = (5*comp_l**2)/(4*math.tan(math.pi/5)
+                         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 5
+    area = (5*comp_l**2)/(4*math.tan(math.pi/5)
+                         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 5
+    area = (5*comp_l**2)/(4*math.tan(math.pi/5)
+                         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 5
+    area = (5*comp_l**2)/(4*math.tan(math.pi/5)
+                         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 5
+    area = (5*comp_l**2)/(4*math.tan(math.pi/5)
+                         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 5
+    area = (5*comp_l**2)/(4*math.tan(math.pi/5)
+                         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 03:41:19)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo "))
+apotema = comp_l/(2*math.tan(math.pi/5))
+area = (5 *comp_l* apotema)/2
+print(round(area, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Comprimento dos lados do pentagolo 139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Comprimento dos lados do pentagolo 61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Comprimento dos lados do pentagolo 208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Comprimento dos lados do pentagolo 110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Comprimento dos lados do pentagolo 27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Comprimento dos lados do pentagolo 172.05
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:39:22)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo "))
+apotema = comp_l/(2*math.tan(math.pi/5))
+area = (5 *comp_l* apotema)/2
+print(area)
+area = round(area, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Comprimento dos lados do pentagolo 139.35866944770635
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Comprimento dos lados do pentagolo 61.93718642120282
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Comprimento dos lados do pentagolo 208.17776547126502
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Comprimento dos lados do pentagolo 110.1105536376939
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Comprimento dos lados do pentagolo 27.527638409423474
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Comprimento dos lados do pentagolo 172.04774005889672
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:30:21)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tan*math.pi)/5
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*math.pi)/5
+                      ~^~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*math.pi)/5
+                      ~^~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*math.pi)/5
+                      ~^~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*math.pi)/5
+                      ~^~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*math.pi)/5
+                      ~^~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*math.pi)/5
+                      ~^~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:41:13)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo "))
+apotema = comp_l/(2*math.tan(math.pi/5))
+area = (5 *comp_l* apotema)/2
+print(round(area, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Comprimento dos lados do pentagolo 139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Comprimento dos lados do pentagolo 61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Comprimento dos lados do pentagolo 208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Comprimento dos lados do pentagolo 110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Comprimento dos lados do pentagolo 27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Comprimento dos lados do pentagolo 172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:29:15)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tan(math.pi)/5)
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Comprimento dos lados do pentagolo-1.837264427234479e+17
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Comprimento dos lados do pentagolo-1.2248429514896526e+17
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Comprimento dos lados do pentagolo-2.2455454110643632e+17
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Comprimento dos lados do pentagolo-1.633123935319537e+17
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Comprimento dos lados do pentagolo-8.165619676597685e+16
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Comprimento dos lados do pentagolo-2.041404919149421e+17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:36:57)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tan(math.pi/5)
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 5
+    apotema = comp_l/(2*math.tan(math.pi/5)
+                     ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 5
+    apotema = comp_l/(2*math.tan(math.pi/5)
+                     ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 5
+    apotema = comp_l/(2*math.tan(math.pi/5)
+                     ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 5
+    apotema = comp_l/(2*math.tan(math.pi/5)
+                     ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 5
+    apotema = comp_l/(2*math.tan(math.pi/5)
+                     ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 5
+    apotema = comp_l/(2*math.tan(math.pi/5)
+                     ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:39:17)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tan(math.pi/5))
+area = (5 *comp_l* apotema)/2
+print(area)
+area = round(area, 2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Comprimento dos lados do pentagolo139.35866944770635
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Comprimento dos lados do pentagolo61.93718642120282
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Comprimento dos lados do pentagolo208.17776547126502
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Comprimento dos lados do pentagolo110.1105536376939
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Comprimento dos lados do pentagolo27.527638409423474
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Comprimento dos lados do pentagolo172.04774005889672
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:38:28)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tan(math.pi/5))
+area = (5 *comp_l* apotema)/2
+print(area)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Comprimento dos lados do pentagolo139.35866944770635
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Comprimento dos lados do pentagolo61.93718642120282
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Comprimento dos lados do pentagolo208.17776547126502
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Comprimento dos lados do pentagolo110.1105536376939
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Comprimento dos lados do pentagolo27.527638409423474
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Comprimento dos lados do pentagolo172.04774005889672
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:27:10)
+-- CODE: 
+from math import *
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tan*(math.pi)/5)
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                        ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:31:24)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tan()*math.pi)/5
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:18:48)
+-- CODE: 
+from math import *
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tan()*math.pi)/5
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:17:17)
+-- CODE: 
+
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tan()*math.pi)/5
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tan()*math.pi)/5
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 03:36:05)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+area = ((5*comp_l**2)/(4*math.tan(math.pi/5)))
+area = round(area, 2)
+print(area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Comprimento dos lados do pentagolo139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Comprimento dos lados do pentagolo61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Comprimento dos lados do pentagolo208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Comprimento dos lados do pentagolo110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Comprimento dos lados do pentagolo27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Comprimento dos lados do pentagolo172.05
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 03:33:45)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+area = (5*comp_l**2)/(4*math.tan(math.pi/5))
+print(area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Comprimento dos lados do pentagolo139.35866944770635
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Comprimento dos lados do pentagolo61.93718642120282
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Comprimento dos lados do pentagolo208.17776547126502
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Comprimento dos lados do pentagolo110.1105536376939
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Comprimento dos lados do pentagolo27.527638409423474
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Comprimento dos lados do pentagolo172.04774005889672
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:27:24)
+-- CODE: 
+from math import 
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tan*(math.pi)/5)
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 1
+    from math import 
+                     ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 1
+    from math import 
+                     ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 1
+    from math import 
+                     ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 1
+    from math import 
+                     ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 1
+    from math import 
+                     ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 1
+    from math import 
+                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:28:57)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tan*(math.pi)/5)
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                      ~^~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                      ~^~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                      ~^~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                      ~^~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                      ~^~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                      ~^~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:16:18)
+-- CODE: 
+from math import *
+
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tang()*math.pi)/5
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tang()*math.pi)/5
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tang()*math.pi)/5
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tang()*math.pi)/5
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tang()*math.pi)/5
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tang()*math.pi)/5
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tang()*math.pi)/5
+                        ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:37:12)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tan(math.pi/5))
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Comprimento dos lados do pentagolo6.193718642120282
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Comprimento dos lados do pentagolo4.129145761413521
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Comprimento dos lados do pentagolo7.570100562591455
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Comprimento dos lados do pentagolo5.505527681884695
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Comprimento dos lados do pentagolo2.7527638409423476
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Comprimento dos lados do pentagolo6.881909602355869
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:33:47)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+area = (5*comp_l**2)/(4*math.tan(math.pi/5))
+print(area)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Comprimento dos lados do pentagolo139.35866944770635
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Comprimento dos lados do pentagolo61.93718642120282
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Comprimento dos lados do pentagolo208.17776547126502
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Comprimento dos lados do pentagolo110.1105536376939
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Comprimento dos lados do pentagolo27.527638409423474
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Comprimento dos lados do pentagolo172.04774005889672
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:17:00)
+-- CODE: 
+
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tang()*math.pi)/5
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tang()*math.pi)/5
+                        ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tang()*math.pi)/5
+                        ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tang()*math.pi)/5
+                        ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tang()*math.pi)/5
+                        ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tang()*math.pi)/5
+                        ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    apotema = comp_l/(2*math.tang()*math.pi)/5
+                        ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:35:55)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+area = ((5*comp_l**2)/(4*math.tan(math.pi/5)))
+area = round(area, 2)
+print(area)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Comprimento dos lados do pentagolo139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Comprimento dos lados do pentagolo61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Comprimento dos lados do pentagolo208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Comprimento dos lados do pentagolo110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Comprimento dos lados do pentagolo27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Comprimento dos lados do pentagolo172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:27:45)
+-- CODE: 
+from math import *
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(2*math.tan*(math.pi)/5)
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = comp_l/(2*math.tan*(math.pi)/5)
+                        ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:41:06)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo "))
+apotema = comp_l/(2*math.tan(math.pi/5))
+area = (5 *comp_l* apotema)/2
+print(round(area, 2)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 7
+    print(round(area, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 7
+    print(round(area, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 7
+    print(round(area, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 7
+    print(round(area, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 7
+    print(round(area, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 7
+    print(round(area, 2)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:35:07)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+area = round((5*comp_l**2)/(4*math.tan(math.pi/5)) area, 2)
+print(area)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 5
+    area = round((5*comp_l**2)/(4*math.tan(math.pi/5)) area, 2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 5
+    area = round((5*comp_l**2)/(4*math.tan(math.pi/5)) area, 2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 5
+    area = round((5*comp_l**2)/(4*math.tan(math.pi/5)) area, 2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 5
+    area = round((5*comp_l**2)/(4*math.tan(math.pi/5)) area, 2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 5
+    area = round((5*comp_l**2)/(4*math.tan(math.pi/5)) area, 2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 5
+    area = round((5*comp_l**2)/(4*math.tan(math.pi/5)) area, 2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:29:29)
+-- CODE: 
+import math
+# faça seu código aqui!
+
+comp_l = float(input("Comprimento dos lados do pentagolo"))
+apotema = comp_l/(4*math.tan(math.pi)/5)
+print(apotema)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Comprimento dos lados do pentagolo-9.186322136172395e+16
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Comprimento dos lados do pentagolo-6.124214757448263e+16
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Comprimento dos lados do pentagolo-1.1227727055321816e+17
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Comprimento dos lados do pentagolo-8.165619676597685e+16
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Comprimento dos lados do pentagolo-4.0828098382988424e+16
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Comprimento dos lados do pentagolo-1.0207024595747106e+17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

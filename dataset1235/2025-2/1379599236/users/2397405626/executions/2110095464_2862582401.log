@@ -1,0 +1,1624 @@
+== RUN (2025-08-25 18:52:06)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = input("Numero de repeticoes do feitici: ")
+
+feitico = print("Abra ",objeto)*repeticao
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'NoneType'
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'NoneType'
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'NoneType'
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'NoneType'
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'NoneType'
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'NoneType'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:54:40)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print(("Abra",objeto)*repeticao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'carro', 'Abra', 'carro')
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'caixa')
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'sacola', 'Abra', 'sacola', 'Abra', 'sacola', 'Abra', 'sacola', 'Abra', 'sacola', 'Abra', 'sacola')
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'casa', 'Abra', 'casa', 'Abra', 'casa')
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro')
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'porta', 'Abra', 'porta', 'Abra', 'porta', 'Abra', 'porta')
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:57:45)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print((" Abra "+objeto+".")*repeticao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra carro. Abra carro.
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra caixa.
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra sacola. Abra sacola. Abra sacola. Abra sacola. Abra sacola. Abra sacola.
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra casa. Abra casa. Abra casa.
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra livro. Abra livro. Abra livro. Abra livro. Abra livro. Abra livro. Abra livro. Abra livro.
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra porta. Abra porta. Abra porta. Abra porta.
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:53:40)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print("Abra ",objeto)*repeticao
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:59:44)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+feitico = print((" Abra "+objeto+" ")*repeticao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra carro  Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra sacola  Abra sacola  Abra sacola  Abra sacola  Abra sacola  Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra casa  Abra casa  Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra porta  Abra porta  Abra porta  Abra porta
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:56:07)
+-- CODE: 
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:55:15)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print(("Abra "+ objeto)*repeticao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: Abra carroAbra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: Abra sacolaAbra sacolaAbra sacolaAbra sacolaAbra sacolaAbra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: Abra casaAbra casaAbra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: Abra livroAbra livroAbra livroAbra livroAbra livroAbra livroAbra livroAbra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: Abra portaAbra portaAbra portaAbra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:57:18)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print((" Abra "+objeto)*repeticao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra carro Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra casa Abra casa Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra porta Abra porta Abra porta Abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:51:53)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = input("Numero de repeticoes do feitici: ")
+
+feitico = print("Abra ",objeto)*repeticao
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'NoneType'
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'NoneType'
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'NoneType'
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'NoneType'
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'NoneType'
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'NoneType'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:56:41)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print(" Abra "+ objeto)*repeticao
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print(" Abra "+ objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print(" Abra "+ objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print(" Abra "+ objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print(" Abra "+ objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print(" Abra "+ objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print(" Abra "+ objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:59:18)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+feitico = print((" Abra "+objeto+" ")*repeticao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra carro  Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra sacola  Abra sacola  Abra sacola  Abra sacola  Abra sacola  Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra casa  Abra casa  Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra porta  Abra porta  Abra porta  Abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:58:56)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print((" Abra "+objeto+" ")*repeticao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra carro  Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra sacola  Abra sacola  Abra sacola  Abra sacola  Abra sacola  Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra casa  Abra casa  Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra porta  Abra porta  Abra porta  Abra porta
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:59:43)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+feitico = print((" Abra "+objeto+" ")*repeticao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra carro  Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra sacola  Abra sacola  Abra sacola  Abra sacola  Abra sacola  Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra casa  Abra casa  Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra porta  Abra porta  Abra porta  Abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:54:24)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print(("Abra",objeto)*repeticao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'carro', 'Abra', 'carro')
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'caixa')
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'sacola', 'Abra', 'sacola', 'Abra', 'sacola', 'Abra', 'sacola', 'Abra', 'sacola', 'Abra', 'sacola')
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'casa', 'Abra', 'casa', 'Abra', 'casa')
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro')
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'porta', 'Abra', 'porta', 'Abra', 'porta', 'Abra', 'porta')
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:56:07)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print("("Abra "+ objeto)*repeticao. ")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 4
+    feitico = print("("Abra "+ objeto)*repeticao. ")
+                    ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 4
+    feitico = print("("Abra "+ objeto)*repeticao. ")
+                    ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 4
+    feitico = print("("Abra "+ objeto)*repeticao. ")
+                    ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 4
+    feitico = print("("Abra "+ objeto)*repeticao. ")
+                    ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 4
+    feitico = print("("Abra "+ objeto)*repeticao. ")
+                    ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 4
+    feitico = print("("Abra "+ objeto)*repeticao. ")
+                    ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:53:58)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print("Abra",objeto)*repeticao
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:57:38)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print((" Abra "+objeto+".")*repeticao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra carro. Abra carro.
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra caixa.
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra sacola. Abra sacola. Abra sacola. Abra sacola. Abra sacola. Abra sacola.
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra casa. Abra casa. Abra casa.
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra livro. Abra livro. Abra livro. Abra livro. Abra livro. Abra livro. Abra livro. Abra livro.
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra porta. Abra porta. Abra porta. Abra porta.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:58:42)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print((" Abra "+objeto+".")*repeticao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra carro. Abra carro.
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra caixa.
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra sacola. Abra sacola. Abra sacola. Abra sacola. Abra sacola. Abra sacola.
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra casa. Abra casa. Abra casa.
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra livro. Abra livro. Abra livro. Abra livro. Abra livro. Abra livro. Abra livro. Abra livro.
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra porta. Abra porta. Abra porta. Abra porta.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:56:32)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print(" Abra "+ objeto)*repeticao.
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 4
+    feitico = print(" Abra "+ objeto)*repeticao.
+                                                ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 4
+    feitico = print(" Abra "+ objeto)*repeticao.
+                                                ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 4
+    feitico = print(" Abra "+ objeto)*repeticao.
+                                                ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 4
+    feitico = print(" Abra "+ objeto)*repeticao.
+                                                ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 4
+    feitico = print(" Abra "+ objeto)*repeticao.
+                                                ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 4
+    feitico = print(" Abra "+ objeto)*repeticao.
+                                                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:55:58)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print(""("Abra "+ objeto)*repeticao. ")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+File "XXXX", line 4
+    feitico = print(""("Abra "+ objeto)*repeticao. ")
+                                                   ^
+SyntaxError: unterminated string literal (detected at line 4)
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+File "XXXX", line 4
+    feitico = print(""("Abra "+ objeto)*repeticao. ")
+                                                   ^
+SyntaxError: unterminated string literal (detected at line 4)
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+File "XXXX", line 4
+    feitico = print(""("Abra "+ objeto)*repeticao. ")
+                                                   ^
+SyntaxError: unterminated string literal (detected at line 4)
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+File "XXXX", line 4
+    feitico = print(""("Abra "+ objeto)*repeticao. ")
+                                                   ^
+SyntaxError: unterminated string literal (detected at line 4)
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+File "XXXX", line 4
+    feitico = print(""("Abra "+ objeto)*repeticao. ")
+                                                   ^
+SyntaxError: unterminated string literal (detected at line 4)
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+File "XXXX", line 4
+    feitico = print(""("Abra "+ objeto)*repeticao. ")
+                                                   ^
+SyntaxError: unterminated string literal (detected at line 4)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:57:16)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print((" Abra "+objeto)*repeticao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra carro Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra casa Abra casa Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra porta Abra porta Abra porta Abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:59:30)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+feitico = print((" Abra "+objeto+" ")*repeticao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra carro  Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra sacola  Abra sacola  Abra sacola  Abra sacola  Abra sacola  Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra casa  Abra casa  Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro  Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra porta  Abra porta  Abra porta  Abra porta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:58:38)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print((" Abra "+objeto+".")*repeticao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra carro. Abra carro.
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra caixa.
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra sacola. Abra sacola. Abra sacola. Abra sacola. Abra sacola. Abra sacola.
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra casa. Abra casa. Abra casa.
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra livro. Abra livro. Abra livro. Abra livro. Abra livro. Abra livro. Abra livro. Abra livro.
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico:  Abra porta. Abra porta. Abra porta. Abra porta.
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:53:50)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print("Abra ",objeto)*repeticao
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    feitico = print("Abra ",objeto)*repeticao
+              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:54:55)
+-- CODE: 
+objeto = input("Nome do objeto: ")
+repeticao = int(input("Numero de repeticoes do feitico: "))
+
+feitico = print(("Abra",objeto)*repeticao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'carro', 'Abra', 'carro')
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'caixa')
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'sacola', 'Abra', 'sacola', 'Abra', 'sacola', 'Abra', 'sacola', 'Abra', 'sacola', 'Abra', 'sacola')
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'casa', 'Abra', 'casa', 'Abra', 'casa')
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro', 'Abra', 'livro')
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Nome do objeto: Numero de repeticoes do feitico: ('Abra', 'porta', 'Abra', 'porta', 'Abra', 'porta', 'Abra', 'porta')
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

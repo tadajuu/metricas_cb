@@ -1,0 +1,226 @@
+== RUN (2025-09-02 00:44:12)
+-- CODE: 
+pesos = input()
+reais = pesos * 0.28
+print (reais)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+0.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    reais = pesos * 0.28
+            ~~~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+19
+---- correct output:
+5.32
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    reais = pesos * 0.28
+            ~~~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+2.24
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    reais = pesos * 0.28
+            ~~~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+1
+---- correct output:
+0.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    reais = pesos * 0.28
+            ~~~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+2.52
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    reais = pesos * 0.28
+            ~~~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+21
+---- correct output:
+5.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    reais = pesos * 0.28
+            ~~~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 00:41:46)
+-- CODE: 
+pesos = input()
+reais = pesos * 0,28
+print (reais)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+0.56
+---- user output:
+('', 28)
+-- TEST CASE 2:
+---- input:
+19
+---- correct output:
+5.32
+---- user output:
+('', 28)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+2.24
+---- user output:
+('', 28)
+-- TEST CASE 4:
+---- input:
+1
+---- correct output:
+0.28
+---- user output:
+('', 28)
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+2.52
+---- user output:
+('', 28)
+-- TEST CASE 6:
+---- input:
+21
+---- correct output:
+5.88
+---- user output:
+('', 28)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 00:42:59)
+-- CODE: 
+pesos = input(1)
+reais = pesos * 0,28
+print (reais)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+0.56
+---- user output:
+1('', 28)
+-- TEST CASE 2:
+---- input:
+19
+---- correct output:
+5.32
+---- user output:
+1('', 28)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+2.24
+---- user output:
+1('', 28)
+-- TEST CASE 4:
+---- input:
+1
+---- correct output:
+0.28
+---- user output:
+1('', 28)
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+2.52
+---- user output:
+1('', 28)
+-- TEST CASE 6:
+---- input:
+21
+---- correct output:
+5.88
+---- user output:
+1('', 28)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 00:46:26)
+-- CODE: 
+pesos = float(input())
+reais = pesos * 0.28
+print (round(reais,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+0.56
+---- user output:
+0.56
+-- TEST CASE 2:
+---- input:
+19
+---- correct output:
+5.32
+---- user output:
+5.32
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+2.24
+---- user output:
+2.24
+-- TEST CASE 4:
+---- input:
+1
+---- correct output:
+0.28
+---- user output:
+0.28
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+2.52
+---- user output:
+2.52
+-- TEST CASE 6:
+---- input:
+21
+---- correct output:
+5.88
+---- user output:
+5.88
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

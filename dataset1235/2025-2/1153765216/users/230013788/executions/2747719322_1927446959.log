@@ -1,0 +1,4163 @@
+== SUBMISSION (2025-08-25 18:21:15)
+-- CODE: 
+n = float(input("Digite um numero : "))
+valor_27 = n * (27/100)
+valor_acrescido = n + (n*(42/100))
+valor_desconto = n - (n*(63/100))
+print("\n=== Resultados ===")
+print("27% de", n, "é:", round(valor_27, 2))
+print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+print(O valor com desconto de 63% é:", round(valor_desconto, 2)) )
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 16:55:26)
+-- CODE: 
+nr = float(input("insira nr: "))
+v1 = print(float(round(nr * (27/100 , 2)))
+v2 = print(float(round(nr + nr*(42/100) , 2)))
+v3 - print(float(round(nr - nr*(63/100) , 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    v1 = print(float(round(nr * (27/100 , 2)))
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    v1 = print(float(round(nr * (27/100 , 2)))
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    v1 = print(float(round(nr * (27/100 , 2)))
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    v1 = print(float(round(nr * (27/100 , 2)))
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    v1 = print(float(round(nr * (27/100 , 2)))
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    v1 = print(float(round(nr * (27/100 , 2)))
+              ^
+SyntaxError: '(' was never closed
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:30:33)
+-- CODE: 
+valorFinal = 130,00 + 130,00*(12/100)=145,60
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:21:19)
+-- CODE: 
+n = float(input("Digite um numero : "))
+valor_27 = n * (27/100)
+valor_acrescido = n + (n*(42/100))
+valor_desconto = n - (n*(63/100))
+print("\n=== Resultados ===")
+print("27% de", n, "é:", round(valor_27, 2))
+print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+print(O valor com desconto de 63% é:", round(valor_desconto, 2)) )
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:31:49)
+-- CODE: 
+valorFinal = 130,00 + 130,00*(12/100)
+valorFinal = 27/100
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 17:36:26)
+-- CODE: 
+valor=int(200,00*(85/100))
+else(valor=130,00*12%)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%)
+    ^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%)
+    ^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%)
+    ^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%)
+    ^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%)
+    ^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%)
+    ^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:30:56)
+-- CODE: 
+valorFinal = 130,00 + 130,00*(12/100) =
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:21:18)
+-- CODE: 
+n = float(input("Digite um numero : "))
+valor_27 = n * (27/100)
+valor_acrescido = n + (n*(42/100))
+valor_desconto = n - (n*(63/100))
+print("\n=== Resultados ===")
+print("27% de", n, "é:", round(valor_27, 2))
+print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+print(O valor com desconto de 63% é:", round(valor_desconto, 2)) )
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 17:50:44)
+-- CODE: 
+nr = float(input("insira nr: "))
+v1 = print(float(round(nr * (27/100) , 2)))
+v2 = print(float(round(nr + nr*(42/100) , 2)))
+v3 = print(float(round(nr - nr*(63/100) , 2)))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:35:04)
+-- CODE: 
+valor=int(200,00*(85/100))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 17:39:36)
+-- CODE: 
+nr = float(input("insira nr: "))
+v1 = print(float(round(nr * (27/100) , 2)))
+v2 = print(float(round(nr + nr*(42/100) , 2)))
+v3 - print(float(round(nr - nr*(63/100) , 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 17:39:34)
+-- CODE: 
+nr = float(input("insira nr: "))
+v1 = print(float(round(nr * (27/100) , 2)))
+v2 = print(float(round(nr + nr*(42/100) , 2)))
+v3 - print(float(round(nr - nr*(63/100) , 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:21:19)
+-- CODE: 
+n = float(input("Digite um numero : "))
+valor_27 = n * (27/100)
+valor_acrescido = n + (n*(42/100))
+valor_desconto = n - (n*(63/100))
+print("\n=== Resultados ===")
+print("27% de", n, "é:", round(valor_27, 2))
+print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+print(O valor com desconto de 63% é:", round(valor_desconto, 2)) )
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:36:55)
+-- CODE: 
+valor=int(200,00*(85/100))
+valor=130,00*12%
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:36:44)
+-- CODE: 
+valor=int(200,00*(85/100))
+valor=130,00*12%)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%)
+                    ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%)
+                    ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%)
+                    ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%)
+                    ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%)
+                    ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%)
+                    ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:36:27)
+-- CODE: 
+valor=int(200,00*(85/100))
+else(valor=130,00*12%)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%)
+    ^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%)
+    ^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%)
+    ^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%)
+    ^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%)
+    ^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%)
+    ^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 17:31:51)
+-- CODE: 
+valorFinal = 130,00 + 130,00*(12/100)
+valorFinal = 27/100
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:21:20)
+-- CODE: 
+n = float(input("Digite um numero : "))
+valor_27 = n * (27/100)
+valor_acrescido = n + (n*(42/100))
+valor_desconto = n - (n*(63/100))
+print("\n=== Resultados ===")
+print("27% de", n, "é:", round(valor_27, 2))
+print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+print(O valor com desconto de 63% é:", round(valor_desconto, 2)) )
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:31:04)
+-- CODE: 
+valorFinal = 130,00 + 130,00*(12/100)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 16:56:04)
+-- CODE: 
+nr = float(input("insira nr: "))
+v1 = print(float(round(nr * (27/100) , 2)))
+v2 = print(float(round(nr + nr*(42/100) , 2)))
+v3 - print(float(round(nr - nr*(63/100) , 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:21:19)
+-- CODE: 
+n = float(input("Digite um numero : "))
+valor_27 = n * (27/100)
+valor_acrescido = n + (n*(42/100))
+valor_desconto = n - (n*(63/100))
+print("\n=== Resultados ===")
+print("27% de", n, "é:", round(valor_27, 2))
+print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+print(O valor com desconto de 63% é:", round(valor_desconto, 2)) )
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:21:18)
+-- CODE: 
+n = float(input("Digite um numero : "))
+valor_27 = n * (27/100)
+valor_acrescido = n + (n*(42/100))
+valor_desconto = n - (n*(63/100))
+print("\n=== Resultados ===")
+print("27% de", n, "é:", round(valor_27, 2))
+print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+print(O valor com desconto de 63% é:", round(valor_desconto, 2)) )
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:37:55)
+-- CODE: 
+valor=int(200,00*(85/100))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:37:57)
+-- CODE: 
+valor=int(200,00*(85/100))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:30:38)
+-- CODE: 
+valorFinal = 130,00 + 130,00*(12/100)=145,60
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:55:28)
+-- CODE: 
+nr = float(input("insira nr: "))
+v1 = print(float(round(nr * (27/100 , 2)))
+v2 = print(float(round(nr + nr*(42/100) , 2)))
+v3 - print(float(round(nr - nr*(63/100) , 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    v1 = print(float(round(nr * (27/100 , 2)))
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    v1 = print(float(round(nr * (27/100 , 2)))
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    v1 = print(float(round(nr * (27/100 , 2)))
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    v1 = print(float(round(nr * (27/100 , 2)))
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    v1 = print(float(round(nr * (27/100 , 2)))
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    v1 = print(float(round(nr * (27/100 , 2)))
+              ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:36:18)
+-- CODE: 
+valor=int(200,00*(85/100))
+else(valor=130,00*12%))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:37:48)
+-- CODE: 
+valor=int(200,00*(85/100))
+print(int(27/12=145,60/100))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    print(int(27/12=145,60/100))
+              ^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    print(int(27/12=145,60/100))
+              ^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    print(int(27/12=145,60/100))
+              ^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    print(int(27/12=145,60/100))
+              ^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    print(int(27/12=145,60/100))
+              ^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    print(int(27/12=145,60/100))
+              ^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:30:58)
+-- CODE: 
+valorFinal = 130,00 + 130,00*(12/100) =
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:21:19)
+-- CODE: 
+n = float(input("Digite um numero : "))
+valor_27 = n * (27/100)
+valor_acrescido = n + (n*(42/100))
+valor_desconto = n - (n*(63/100))
+print("\n=== Resultados ===")
+print("27% de", n, "é:", round(valor_27, 2))
+print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+print(O valor com desconto de 63% é:", round(valor_desconto, 2)) )
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:21:16)
+-- CODE: 
+n = float(input("Digite um numero : "))
+valor_27 = n * (27/100)
+valor_acrescido = n + (n*(42/100))
+valor_desconto = n - (n*(63/100))
+print("\n=== Resultados ===")
+print("27% de", n, "é:", round(valor_27, 2))
+print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+print(O valor com desconto de 63% é:", round(valor_desconto, 2)) )
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:31:07)
+-- CODE: 
+valorFinal = 130,00 + 130,00*(12/100)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 17:36:19)
+-- CODE: 
+valor=int(200,00*(85/100))
+else(valor=130,00*12%))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:37:57)
+-- CODE: 
+valor=int(200,00*(85/100))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:21:18)
+-- CODE: 
+n = float(input("Digite um numero : "))
+valor_27 = n * (27/100)
+valor_acrescido = n + (n*(42/100))
+valor_desconto = n - (n*(63/100))
+print("\n=== Resultados ===")
+print("27% de", n, "é:", round(valor_27, 2))
+print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+print(O valor com desconto de 63% é:", round(valor_desconto, 2)) )
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 7
+    print(O valor acrescido de 42% é:", round(valor_acrescido, 2))
+                                     ^
+SyntaxError: unterminated string literal (detected at line 7)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 17:31:48)
+-- CODE: 
+valorFinal = 130,00 + 130,00*(12/100)
+valorFinal = 27/100
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:56:05)
+-- CODE: 
+nr = float(input("insira nr: "))
+v1 = print(float(round(nr * (27/100) , 2)))
+v2 = print(float(round(nr + nr*(42/100) , 2)))
+v3 - print(float(round(nr - nr*(63/100) , 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 17:30:55)
+-- CODE: 
+valorFinal = 130,00 + 130,00*(12/100) =
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100) =
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:57:17)
+-- CODE: 
+nr = float(input("insira nr: "))
+v1 = print(float(round(nr * (27/100) , 2)))
+v2 = print(float(round(nr + nr*(42/100) , 2)))
+v3 - print(float(round(nr - nr*(63/100) , 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:39:06)
+-- CODE: 
+valor=int(200,00*(85/100))
+float=(130,00 + 12/100)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:36:20)
+-- CODE: 
+valor=int(200,00*(85/100))
+else(valor=130,00*12%))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    else(valor=130,00*12%))
+                          ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:36:53)
+-- CODE: 
+valor=int(200,00*(85/100))
+valor=130,00*12%
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 17:36:54)
+-- CODE: 
+valor=int(200,00*(85/100))
+valor=130,00*12%
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 17:30:34)
+-- CODE: 
+valorFinal = 130,00 + 130,00*(12/100)=145,60
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 1
+    valorFinal = 130,00 + 130,00*(12/100)=145,60
+    ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:37:58)
+-- CODE: 
+valor=int(200,00*(85/100))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 17:31:03)
+-- CODE: 
+valorFinal = 130,00 + 130,00*(12/100)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:38:58)
+-- CODE: 
+valor=int(200,00*(85/100))
+float=(130,00 + 12/100
+      )
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 16:57:16)
+-- CODE: 
+nr = float(input("insira nr: "))
+v1 = print(float(round(nr * (27/100) , 2)))
+v2 = print(float(round(nr + nr*(42/100) , 2)))
+v3 - print(float(round(nr - nr*(63/100) , 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v3 - print(float(round(nr - nr*(63/100) , 2)))
+    ^^
+NameError: name 'v3' is not defined. Did you mean: 'v1'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 17:31:05)
+-- CODE: 
+valorFinal = 130,00 + 130,00*(12/100)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:37:56)
+-- CODE: 
+valor=int(200,00*(85/100))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 17:36:51)
+-- CODE: 
+valor=int(200,00*(85/100))
+valor=130,00*12%
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    valor=130,00*12%
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 17:35:02)
+-- CODE: 
+valor=int(200,00*(85/100))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valor=int(200,00*(85/100))
+          ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,7 @@
+x = int(input())
+Y = inti(input())
+print(x // y)
+ptint(x % y)
+print(x / y)
+print(x * y)
+ptint(y ** 3)

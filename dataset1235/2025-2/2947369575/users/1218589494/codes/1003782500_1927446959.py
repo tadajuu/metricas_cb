@@ -1,0 +1,7 @@
+n = float(input("valor real:"))
+cont1 = n*(27/100)
+cont2 = n+n*(42/100)
+cont3 = n-n*(63/100)
+print(round(cont1,2))
+print(round(cont2,2))
+print(round(cont3,2))

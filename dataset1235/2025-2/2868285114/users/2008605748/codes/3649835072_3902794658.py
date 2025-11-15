@@ -1,0 +1,6 @@
+nome = input()
+idade = input()
+altura = input()
+print(f"Nome: {nome}")
+print(f"Idade:  {idade}")
+print(f"Altura:  {altura}")

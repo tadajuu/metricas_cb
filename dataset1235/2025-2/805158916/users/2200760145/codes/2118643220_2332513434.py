@@ -1,0 +1,6 @@
+float(input())
+x = int(input())
+coroas_dinamarquesas = (x * 0,70)
+valor = (coroas_dinamarquesas * 0,70)
+print(round, 1)
+print(valor)

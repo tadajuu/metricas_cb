@@ -1,0 +1,7 @@
+n = float(input("valor de n:"))
+ci1 = n*(27/100)
+ci2 = n + n*(42/100)
+ci3 = n - n*(63/100)
+print(round(ci1,2))
+print(round(ci2,2))
+print(round(ci3,2))

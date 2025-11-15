@@ -1,0 +1,53 @@
+== SUBMISSION (2025-09-01 14:36:32)
+-- CODE: 
+min = float(input("Informe a quantidade de minutos excedentes: "))
+valor1 = 45+(0.97*min)
+valor_final = valor1+(valor1*(42/100))
+print("O valor final a ser pago é: ",round(valor_final,2))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+100.0
+---- correct output:
+201.64
+---- user output:
+Informe a quantidade de minutos excedentes: O valor final a ser pago é:  201.64
+-- TEST CASE 2:
+---- input:
+95.33
+---- correct output:
+195.21
+---- user output:
+Informe a quantidade de minutos excedentes: O valor final a ser pago é:  195.21
+-- TEST CASE 3:
+---- input:
+10.07
+---- correct output:
+77.77
+---- user output:
+Informe a quantidade de minutos excedentes: O valor final a ser pago é:  77.77
+-- TEST CASE 4:
+---- input:
+129.35
+---- correct output:
+242.07
+---- user output:
+Informe a quantidade de minutos excedentes: O valor final a ser pago é:  242.07
+-- TEST CASE 5:
+---- input:
+278.25
+---- correct output:
+447.16
+---- user output:
+Informe a quantidade de minutos excedentes: O valor final a ser pago é:  447.16
+-- TEST CASE 6:
+---- input:
+84.06
+---- correct output:
+179.68
+---- user output:
+Informe a quantidade de minutos excedentes: O valor final a ser pago é:  179.68
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

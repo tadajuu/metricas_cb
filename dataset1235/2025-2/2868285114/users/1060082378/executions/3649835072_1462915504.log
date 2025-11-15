@@ -1,0 +1,476 @@
+== RUN (2025-08-28 02:39:39)
+-- CODE: 
+from math import *
+import math
+# faça seu código aqui!
+lado = float(input("digite um numero para comprimento: "))
+apotema = lado / (2 * math.tan (math.pi / 5))
+area = (5 / 2) * lado * apotema
+print(round(area, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite um numero para comprimento: 139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite um numero para comprimento: 61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite um numero para comprimento: 208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite um numero para comprimento: 110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite um numero para comprimento: 27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite um numero para comprimento: 172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:35:21)
+-- CODE: 
+from math import *
+
+# faça seu código aqui!
+lado = float(input("digite um numero para comprimento: "))
+apotema = lado / (2 * math.tan(math.pi / 5))
+area = (5 / 2) * lado * apotema
+print(area)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * math.tan(math.pi / 5))
+                          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * math.tan(math.pi / 5))
+                          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * math.tan(math.pi / 5))
+                          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * math.tan(math.pi / 5))
+                          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * math.tan(math.pi / 5))
+                          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * math.tan(math.pi / 5))
+                          ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:36:46)
+-- CODE: 
+from math import *
+
+# faça seu código aqui!
+lado = float(input("digite um numero para comprimento: "))
+apotema = lado / (2 * math.tan * (math.pi / 5))
+area = (5 / 2) * lado * apotema
+print(area)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * math.tan * (math.pi / 5))
+                          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * math.tan * (math.pi / 5))
+                          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * math.tan * (math.pi / 5))
+                          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * math.tan * (math.pi / 5))
+                          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * math.tan * (math.pi / 5))
+                          ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    apotema = lado / (2 * math.tan * (math.pi / 5))
+                          ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:30:28)
+-- CODE: 
+from math import *
+
+# faça seu código aqui!
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:38:36)
+-- CODE: 
+from math import *
+import math
+# faça seu código aqui!
+lado = float(input("digite um numero para comprimento: "))
+apotema = lado / (2 * math.tan (math.pi / 5))
+area = (5 / 2) * lado * apotema
+print(area)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite um numero para comprimento: 139.35866944770635
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite um numero para comprimento: 61.93718642120282
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite um numero para comprimento: 208.17776547126502
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite um numero para comprimento: 110.1105536376939
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite um numero para comprimento: 27.527638409423474
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite um numero para comprimento: 172.04774005889672
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:30:28)
+-- CODE: 
+from math import *
+
+# faça seu código aqui!
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 02:39:47)
+-- CODE: 
+from math import *
+import math
+# faça seu código aqui!
+lado = float(input("digite um numero para comprimento: "))
+apotema = lado / (2 * math.tan (math.pi / 5))
+area = (5 / 2) * lado * apotema
+print(round(area, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite um numero para comprimento: 139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite um numero para comprimento: 61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite um numero para comprimento: 208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite um numero para comprimento: 110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite um numero para comprimento: 27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite um numero para comprimento: 172.05
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 02:38:47)
+-- CODE: 
+from math import *
+import math
+# faça seu código aqui!
+lado = float(input("digite um numero para comprimento: "))
+apotema = lado / (2 * math.tan (math.pi / 5))
+area = (5 / 2) * lado * apotema
+print(area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite um numero para comprimento: 139.35866944770635
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite um numero para comprimento: 61.93718642120282
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite um numero para comprimento: 208.17776547126502
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite um numero para comprimento: 110.1105536376939
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite um numero para comprimento: 27.527638409423474
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite um numero para comprimento: 172.04774005889672
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

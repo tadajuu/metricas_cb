@@ -1,0 +1,2290 @@
+== SUBMISSION (2025-08-20 17:16:07)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+c = float(input())
+y = int(input())
+g_rad = math.radians(y)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = int(input())
+            ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = int(input())
+            ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = int(input())
+            ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = int(input())
+            ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = int(input())
+            ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = int(input())
+            ^^^^^^^
+EOFError: EOF when reading a line
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 17:20:04)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+g_rad= float(input())
+g_rad = math.radians(g)
+c = math.sqrt((a**2) + (b**2) - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:10:51)
+-- CODE: 
+from math import *
+a = float(input())
+b = float(input())
+ang = float(input())
+c = ((a**2) + (b**2) - 2*a*b* cos(radians(ang)))
+print(round(c,2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+7663.33
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+269.68
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+293.91
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+3.54
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+2963.14
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+84.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:10:52)
+-- CODE: 
+from math import *
+a = float(input())
+b = float(input())
+ang = float(input())
+c = ((a**2) + (b**2) - 2*a*b* cos(radians(ang)))
+print(round(c,2))
+
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+7663.33
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+269.68
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+293.91
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+3.54
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+2963.14
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+84.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 17:17:37)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+c = float(input())
+y = int(input())
+g_rad = math.radians(y)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = int(input())
+            ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = int(input())
+            ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = int(input())
+            ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = int(input())
+            ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = int(input())
+            ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = int(input())
+            ^^^^^^^
+EOFError: EOF when reading a line
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 17:16:52)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+c = float(input())
+y = float(input())
+g_rad = math.radians(y)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 17:16:24)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+c = float(input())
+y = float(input())
+g_rad = math.radians(y)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 17:18:06)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+y = int(input())
+g_rad = math.radians(y)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '21.66'
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '64.9'
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '49.1'
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.3'
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '77.6'
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '60.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 17:14:45)
+-- CODE: 
+import math
+a = int(input())
+b = int(input())
+c = int(input())
+y = int(input())
+g_rad = math.radians(y)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(c)
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.9'
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.5'
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '18.8'
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.33'
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '55.0'
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 17:18:04)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+y = int(input())
+g_rad = math.radians(y)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '21.66'
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '64.9'
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '49.1'
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.3'
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '77.6'
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '60.0'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 17:17:10)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+c = float(input())
+y = float(input())
+g_rad = math.radians(y)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = float(input())
+              ^^^^^^^
+EOFError: EOF when reading a line
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 17:14:23)
+-- CODE: 
+import math
+a = int(input())
+b = int(input())
+c = int(input())
+y = int(input())
+g_rad = math.radians(g)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(c)
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.9'
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.5'
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '18.8'
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.33'
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '55.0'
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 17:21:08)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+g_rad = float(input())
+g_rad = math.radians(g)
+c = math.sqrt((a**2) + (b**2) - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 17:15:25)
+-- CODE: 
+import math
+a = int(input())
+b = int(input())
+c = int(input())
+y = int(input())
+g_rad = math.radians(y)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.9'
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.5'
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '18.8'
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.33'
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '55.0'
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8.0'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 17:18:27)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+g_rad= int(input())
+g_rad = math.radians(g)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    g_rad= int(input())
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '21.66'
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    g_rad= int(input())
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '64.9'
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    g_rad= int(input())
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '49.1'
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    g_rad= int(input())
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.3'
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    g_rad= int(input())
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '77.6'
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    g_rad= int(input())
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '60.0'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 17:18:33)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+g_rad= int(input())
+g_rad = math.radians(g)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    g_rad= int(input())
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '21.66'
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    g_rad= int(input())
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '64.9'
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    g_rad= int(input())
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '49.1'
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    g_rad= int(input())
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.3'
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    g_rad= int(input())
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '77.6'
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    g_rad= int(input())
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '60.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 17:18:44)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+g_rad= float(input())
+g_rad = math.radians(g)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 17:18:08)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+y = int(input())
+g_rad = math.radians(y)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '21.66'
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '64.9'
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '49.1'
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.3'
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '77.6'
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '60.0'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 17:18:46)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+g_rad= float(input())
+g_rad = math.radians(g)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 17:12:50)
+-- CODE: 
+import math
+a = int(input())
+b = int(input())
+c = int(input())
+y = int(input())
+
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(c)
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.9'
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.5'
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '18.8'
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.33'
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '55.0'
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 17:18:02)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+y = int(input())
+g_rad = math.radians(y)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '21.66'
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '64.9'
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '49.1'
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.3'
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '77.6'
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '60.0'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:11:27)
+-- CODE: 
+from math import *
+a = float(input())
+b = float(input())
+ang = float(input())
+c = ((a**2) + (b**2) - 2*a*b* cos(radians(ang))) ** (1/2)
+print(round(c,2))
+
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 17:15:11)
+-- CODE: 
+import math
+a = int(input())
+b = int(input())
+c = int(input())
+y = int(input())
+g_rad = math.radians(y)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.9'
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.5'
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '18.8'
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.33'
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '55.0'
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    a = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 17:18:01)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+y = int(input())
+g_rad = math.radians(y)
+c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '21.66'
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '64.9'
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '49.1'
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.3'
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '77.6'
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y = int(input())
+        ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '60.0'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 17:21:09)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+g_rad = float(input())
+g_rad = math.radians(g)
+c = math.sqrt((a**2) + (b**2) - 2*a*b*math.cos(g_rad))
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    g_rad = math.radians(g)
+                         ^
+NameError: name 'g' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

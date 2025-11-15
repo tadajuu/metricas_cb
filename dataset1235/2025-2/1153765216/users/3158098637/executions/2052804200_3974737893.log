@@ -1,0 +1,971 @@
+== SUBMISSION (2025-09-03 13:08:57)
+-- CODE: 
+x = int(input())
+y = int(input())
+if x%y == 0:
+  print(x/y)
+  print("sim")
+else:
+  print(x%y)
+  print("nao")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+nao
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+sim
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+nao
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+nao
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 13:09:00)
+-- CODE: 
+x = int(input())
+y = int(input())
+if x%y == 0:
+  print(x/y)
+  print("sim")
+else:
+  print(x%y)
+  print("nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+nao
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+sim
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+nao
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 12:59:25)
+-- CODE: 
+x = int(input())
+y = int(input())
+if x % y = 0:
+print(x/y, "sim")
+else:
+print(x%y, "nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+-- ERROR:
+File "XXXX", line 3
+    if x % y = 0:
+       ^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+-- ERROR:
+File "XXXX", line 3
+    if x % y = 0:
+       ^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+-- ERROR:
+File "XXXX", line 3
+    if x % y = 0:
+       ^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+-- ERROR:
+File "XXXX", line 3
+    if x % y = 0:
+       ^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+-- ERROR:
+File "XXXX", line 3
+    if x % y = 0:
+       ^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+-- ERROR:
+File "XXXX", line 3
+    if x % y = 0:
+       ^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 13:01:55)
+-- CODE: 
+x = int(input())
+y = int(input())
+if x%y == 0:
+print(x/y, "sim")
+else:
+print(x%y, "nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+-- ERROR:
+File "XXXX", line 4
+    print(x/y, "sim")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 3
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+-- ERROR:
+File "XXXX", line 4
+    print(x/y, "sim")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 3
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+-- ERROR:
+File "XXXX", line 4
+    print(x/y, "sim")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 3
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+-- ERROR:
+File "XXXX", line 4
+    print(x/y, "sim")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 3
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+-- ERROR:
+File "XXXX", line 4
+    print(x/y, "sim")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 3
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+-- ERROR:
+File "XXXX", line 4
+    print(x/y, "sim")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 13:02:16)
+-- CODE: 
+x = int(input())
+y = int(input())
+if x%y == 0:
+  print(x/y, "sim")
+else:
+print(x%y, "nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 13:08:02)
+-- CODE: 
+x = int(input())
+y = int(input())
+if x%y == 0:
+  print(x/y, "sim")
+else:
+  print(x%y, "nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+3 nao
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+144.0 sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+2.0 sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+0.0 sim
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+11 nao
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+1 nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-03 13:09:10)
+-- CODE: 
+x = int(input())
+y = int(input())
+if x%y == 0:
+  print(x/y)
+  print("sim")
+else:
+  print(x%y)
+  print("nao")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+nao
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+sim
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+nao
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+nao
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 13:04:53)
+-- CODE: 
+x = int(input())
+y = int(input())
+if x%y == 0:
+  print(x/y, "sim")
+else:
+print(x%y, "nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 13:07:05)
+-- CODE: 
+x = int(input())
+y = int(input())
+if x%y == 0:
+  print(x/y, "sim")
+else:
+print(x%y, "nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+-- ERROR:
+File "XXXX", line 6
+    print(x%y, "nao")
+    ^
+IndentationError: expected an indented block after 'else' statement on line 5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-03 13:10:15)
+-- CODE: 
+x = int(input())
+y = int(input())
+if x%y == 0:
+  print(x//y)
+  print("sim")
+else:
+  print(x%y)
+  print("nao")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+nao
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+sim
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+nao
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+nao
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-03 13:08:12)
+-- CODE: 
+x = int(input())
+y = int(input())
+if x%y == 0:
+  print(x/y, "sim")
+else:
+  print(x%y, "nao")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+3 nao
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+144.0 sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+2.0 sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+0.0 sim
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+11 nao
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+1 nao
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 12:59:47)
+-- CODE: 
+x = int(input())
+y = int(input())
+if x%y == 0:
+print(x/y, "sim")
+else:
+print(x%y, "nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+-- ERROR:
+File "XXXX", line 4
+    print(x/y, "sim")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 3
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+-- ERROR:
+File "XXXX", line 4
+    print(x/y, "sim")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 3
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+-- ERROR:
+File "XXXX", line 4
+    print(x/y, "sim")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 3
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+-- ERROR:
+File "XXXX", line 4
+    print(x/y, "sim")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 3
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+-- ERROR:
+File "XXXX", line 4
+    print(x/y, "sim")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 3
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+-- ERROR:
+File "XXXX", line 4
+    print(x/y, "sim")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 13:10:07)
+-- CODE: 
+x = int(input())
+y = int(input())
+if x%y == 0:
+  print(x//y)
+  print("sim")
+else:
+  print(x%y)
+  print("nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+nao
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+sim
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+nao
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

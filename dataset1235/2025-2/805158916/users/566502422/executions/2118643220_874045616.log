@@ -1,0 +1,116 @@
+== RUN (2025-09-01 14:06:30)
+-- CODE: 
+peso = float(input("digite o peso em gramas:"))
+quantidade = float(input("digite a quantidade diaria em gramas"))
+resto = peso - 4*quantidade
+print(round(resto,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100000.3333
+20000.11
+---- correct output:
+19999.89
+---- user output:
+digite o peso em gramas:digite a quantidade diaria em gramas19999.89
+-- TEST CASE 2:
+---- input:
+6367.24
+19.56
+---- correct output:
+6289.0
+---- user output:
+digite o peso em gramas:digite a quantidade diaria em gramas6289.0
+-- TEST CASE 3:
+---- input:
+5670.23
+24.64
+---- correct output:
+5571.67
+---- user output:
+digite o peso em gramas:digite a quantidade diaria em gramas5571.67
+-- TEST CASE 4:
+---- input:
+200000.3333
+30000.11
+---- correct output:
+79999.89
+---- user output:
+digite o peso em gramas:digite a quantidade diaria em gramas79999.89
+-- TEST CASE 5:
+---- input:
+2286.23
+19.75
+---- correct output:
+2207.23
+---- user output:
+digite o peso em gramas:digite a quantidade diaria em gramas2207.23
+-- TEST CASE 6:
+---- input:
+1403.30
+16.98
+---- correct output:
+1335.38
+---- user output:
+digite o peso em gramas:digite a quantidade diaria em gramas1335.38
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:06:57)
+-- CODE: 
+peso = float(input("digite o peso em gramas:"))
+quantidade = float(input("digite a quantidade diaria em gramas"))
+resto = peso - 4*quantidade
+print(round(resto,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100000.3333
+20000.11
+---- correct output:
+19999.89
+---- user output:
+digite o peso em gramas:digite a quantidade diaria em gramas19999.89
+-- TEST CASE 2:
+---- input:
+6367.24
+19.56
+---- correct output:
+6289.0
+---- user output:
+digite o peso em gramas:digite a quantidade diaria em gramas6289.0
+-- TEST CASE 3:
+---- input:
+5670.23
+24.64
+---- correct output:
+5571.67
+---- user output:
+digite o peso em gramas:digite a quantidade diaria em gramas5571.67
+-- TEST CASE 4:
+---- input:
+200000.3333
+30000.11
+---- correct output:
+79999.89
+---- user output:
+digite o peso em gramas:digite a quantidade diaria em gramas79999.89
+-- TEST CASE 5:
+---- input:
+2286.23
+19.75
+---- correct output:
+2207.23
+---- user output:
+digite o peso em gramas:digite a quantidade diaria em gramas2207.23
+-- TEST CASE 6:
+---- input:
+1403.30
+16.98
+---- correct output:
+1335.38
+---- user output:
+digite o peso em gramas:digite a quantidade diaria em gramas1335.38
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

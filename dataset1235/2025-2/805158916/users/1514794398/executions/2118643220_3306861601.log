@@ -1,0 +1,702 @@
+== RUN (2025-09-01 15:03:52)
+-- CODE: 
+from math import *
+
+lado = int(input("comprimento do lado"))
+
+apotema = lado / (2*tan(pi/9))
+
+area = 4,5 * lado * apotema 
+
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(round(area,2))
+          ^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(round(area,2))
+          ^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(round(area,2))
+          ^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(round(area,2))
+          ^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(round(area,2))
+          ^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(round(area,2))
+          ^^^^^^^^^^^^^
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:04:49)
+-- CODE: 
+from math import *
+
+lado = int(input("comprimento do lado"))
+
+apotema = lado / (2*tan(pi/9))
+
+area = 9 * lado * apotema 
+
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+comprimento do lado111.27
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+comprimento do lado1496.0
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+comprimento do lado791.27
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+comprimento do lado445.09
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+comprimento do lado197.82
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+comprimento do lado309.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:02:43)
+-- CODE: 
+from math import *
+
+lado = int(input("comprimento do lado"))
+
+apotema = lado / (2*tan(pi/9))
+
+area = 4 * lado * apotema 
+
+print(round(area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+comprimento do lado49.45
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+comprimento do lado664.89
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+comprimento do lado351.68
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+comprimento do lado197.82
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+comprimento do lado87.92
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+comprimento do lado137.37
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:20:30)
+-- CODE: 
+from math import *
+
+lado = int(input("comprimento do lado"))
+
+apotema = lado / (2*tan(pi/9))
+
+area = 9/2* lado * apotema 
+
+print(round(area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+comprimento do lado55.64
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+comprimento do lado748.0
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+comprimento do lado395.64
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+comprimento do lado222.55
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+comprimento do lado98.91
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+comprimento do lado154.55
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:04:04)
+-- CODE: 
+from math import *
+
+lado = int(input("comprimento do lado"))
+
+apotema = lado / (2*tan(pi/9))
+
+area = 4 * lado * apotema 
+
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+comprimento do lado49.45
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+comprimento do lado664.89
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+comprimento do lado351.68
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+comprimento do lado197.82
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+comprimento do lado87.92
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+comprimento do lado137.37
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:03:21)
+-- CODE: 
+from math import *
+
+lado = int(input("comprimento do lado"))
+
+apotema = lado / (2*tan(pi/9))
+
+area = 4 * lado * apotema 
+
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+comprimento do lado49.45
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+comprimento do lado664.89
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+comprimento do lado351.68
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+comprimento do lado197.82
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+comprimento do lado87.92
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+comprimento do lado137.37
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:05:05)
+-- CODE: 
+from math import *
+
+lado = int(input("comprimento do lado"))
+
+apotema = lado / (2*tan(pi/9))
+
+area = 3 * lado * apotema 
+
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+comprimento do lado37.09
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+comprimento do lado498.67
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+comprimento do lado263.76
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+comprimento do lado148.36
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+comprimento do lado65.94
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+comprimento do lado103.03
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:05:30)
+-- CODE: 
+from math import *
+
+lado = int(input("comprimento do lado"))
+
+apotema = lado / (2*tan(pi/9))
+
+area = 4 * lado * apotema 
+
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+comprimento do lado49.45
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+comprimento do lado664.89
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+comprimento do lado351.68
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+comprimento do lado197.82
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+comprimento do lado87.92
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+comprimento do lado137.37
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:05:07)
+-- CODE: 
+from math import *
+
+lado = int(input("comprimento do lado"))
+
+apotema = lado / (2*tan(pi/9))
+
+area = 3 * lado * apotema 
+
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+comprimento do lado37.09
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+comprimento do lado498.67
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+comprimento do lado263.76
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+comprimento do lado148.36
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+comprimento do lado65.94
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+comprimento do lado103.03
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:05:01)
+-- CODE: 
+from math import *
+
+lado = int(input("comprimento do lado"))
+
+apotema = lado / (2*tan(pi/9))
+
+area = 3 * lado * apotema 
+
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+comprimento do lado37.09
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+comprimento do lado498.67
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+comprimento do lado263.76
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+comprimento do lado148.36
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+comprimento do lado65.94
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+comprimento do lado103.03
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:03:37)
+-- CODE: 
+from math import *
+
+lado = int(input("comprimento do lado"))
+
+apotema = lado / (2*tan(pi/9))
+
+area = 5 * lado * apotema 
+
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+comprimento do lado61.82
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+comprimento do lado831.11
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+comprimento do lado439.6
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+comprimento do lado247.27
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+comprimento do lado109.9
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+comprimento do lado171.72
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:18:12)
+-- CODE: 
+from math import *
+
+lado = int(input("comprimento do lado"))
+
+apotema = lado / (2*tan(pi/9))
+
+area = 4 * lado * apotema 
+
+print(round(area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+comprimento do lado49.45
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+comprimento do lado664.89
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+comprimento do lado351.68
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+comprimento do lado197.82
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+comprimento do lado87.92
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+comprimento do lado137.37
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

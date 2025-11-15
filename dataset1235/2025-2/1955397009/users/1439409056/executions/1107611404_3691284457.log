@@ -1,0 +1,294 @@
+== RUN (2025-08-22 20:40:40)
+-- CODE: 
+u = float(input("Insira nota 1"))
+d = float(input("Insira nota 2"))
+t = float(input("Insira nota 3"))
+q = float(input("Insira nota 4"))
+
+media = (u*1+d*2+t*3+q*4)/1+2+3+4
+
+print(round(media,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Insira nota 1Insira nota 2Insira nota 3Insira nota 488.36
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Insira nota 1Insira nota 2Insira nota 3Insira nota 491.0
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Insira nota 1Insira nota 2Insira nota 3Insira nota 479.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Insira nota 1Insira nota 2Insira nota 3Insira nota 476.0
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Insira nota 1Insira nota 2Insira nota 3Insira nota 4309.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Insira nota 1Insira nota 2Insira nota 3Insira nota 487.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-22 20:42:31)
+-- CODE: 
+u = float(input("Insira nota 1: "))
+d = float(input("Insira nota 2: "))
+t = float(input("Insira nota 3: "))
+q = float(input("Insira nota 4: "))
+
+media = (u*1+d*2+t*3+q*4)/10
+
+print(round(media,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 7.94
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 8.2
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 7.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 6.7
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 30.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 7.8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-22 20:40:58)
+-- CODE: 
+u = float(input("Insira nota 1: "))
+d = float(input("Insira nota 2: "))
+t = float(input("Insira nota 3: "))
+q = float(input("Insira nota 4: "))
+
+media = (u*1+d*2+t*3+q*4)/1+2+3+4
+
+print(round(media,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 88.36
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 91.0
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 79.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 76.0
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 309.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 87.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-22 20:41:05)
+-- CODE: 
+u = float(input("Insira nota 1: "))
+d = float(input("Insira nota 2: "))
+t = float(input("Insira nota 3: "))
+q = float(input("Insira nota 4: "))
+
+media = (u*1+d*2+t*3+q*4)/1+2+3+4
+
+print(round(media,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 88.36
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 91.0
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 79.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 76.0
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 309.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Insira nota 1: Insira nota 2: Insira nota 3: Insira nota 4: 87.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

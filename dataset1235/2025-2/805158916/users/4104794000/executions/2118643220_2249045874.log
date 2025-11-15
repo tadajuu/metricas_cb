@@ -1,0 +1,57 @@
+== SUBMISSION (2025-09-01 14:37:04)
+-- CODE: 
+from math import pi 
+from math import tan
+
+lado = float(input("comprimento do lado"))
+
+area = 4 * lado * (lado / (2 * tan (pi/8)))
+
+print(round(area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+---- user output:
+comprimento do lado77.25
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+---- user output:
+comprimento do lado309.02
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+comprimento do lado120.71
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+comprimento do lado120.71
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+---- user output:
+comprimento do lado391.1
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+---- user output:
+comprimento do lado173.82
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

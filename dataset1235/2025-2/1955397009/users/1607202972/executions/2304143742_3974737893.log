@@ -1,0 +1,138 @@
+== SUBMISSION (2025-09-02 12:53:44)
+-- CODE: 
+x=int(input())
+y=int(input())
+if(x%y==0):
+  print("sim")
+  print(x//y)
+else:
+  print("nao")
+  print(x%y)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+3
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+144
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+2
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+0
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+11
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+1
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 12:54:50)
+-- CODE: 
+x=int(input())
+y=int(input())
+if(x%y==0):
+  print(x//y)
+  print("sim")
+else:
+  print(x%y)
+  print("nao")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+nao
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+sim
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+nao
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+nao
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

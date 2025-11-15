@@ -1,0 +1,6 @@
+aa=float(input("notaa:"))
+ab=float(input("notab:"))
+ac=float(input("notac:"))
+ad=float(input("notad:"))
+media=((aa+ab*2+ac*3+ad*4)/10)
+print(round(media,2))

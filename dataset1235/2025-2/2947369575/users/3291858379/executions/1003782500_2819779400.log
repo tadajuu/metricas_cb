@@ -1,0 +1,1722 @@
+== RUN (2025-08-27 22:38:28)
+-- CODE: 
+quantidade = int(input("quantidade de jogos"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+quantidade de jogos
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+quantidade de jogos
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+quantidade de jogos
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+quantidade de jogos
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+quantidade de jogos
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+quantidade de jogos
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 23:07:29)
+-- CODE: 
+quantidade = int(input("quantidade de jogos: "))
+valor_unitario = float(input("valor unitario: "))
+frete = float(input("valor do frete: "))
+total= quantidade * valor_unitario + frete
+print(total)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 1642.5
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 240171.0
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 540.0
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 765.0
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 162.56
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 618.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 22:45:18)
+-- CODE: 
+quantidade = int(input("quantidade de jogos"))
+valor unitario = float(input("valor unitario"))
+frete = float(input("valor do frete"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 22:58:17)
+-- CODE: 
+quantidade = int(input("quantidade de jogos: "))
+valor_unitario = float(input("valor unitario: "))
+frete = float(input("valor do frete: "))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+quantidade de jogos: valor unitario: valor do frete:
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete:
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete:
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete:
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+quantidade de jogos: valor unitario: valor do frete:
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 22:45:57)
+-- CODE: 
+quantidade = int(input("quantidade de jogos"))
+valor unitario = float(input("valor unitario"))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:07:06)
+-- CODE: 
+quantidade = int(input("quantidade de jogos: "))
+valor_unitario = float(input("valor unitario: "))
+frete = float(input("valor do frete: "))
+total= quantidade * valor_unitario + frete
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+quantidade de jogos: valor unitario: valor do frete:
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete:
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete:
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete:
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+quantidade de jogos: valor unitario: valor do frete:
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:07:31)
+-- CODE: 
+quantidade = int(input("quantidade de jogos: "))
+valor_unitario = float(input("valor unitario: "))
+frete = float(input("valor do frete: "))
+total= quantidade * valor_unitario + frete
+print(total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 1642.5
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 240171.0
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 540.0
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 765.0
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 162.56
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 23:04:35)
+-- CODE: 
+quantidade = int(input("quantidade de jogos: "))
+valor_unitario = float(input("valor unitario: "))
+frete = float(input("valor do frete: "))
+total= float(input("preço total"))
+print(input)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    total= float(input("preço total"))
+                 ^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    total= float(input("preço total"))
+                 ^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    total= float(input("preço total"))
+                 ^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    total= float(input("preço total"))
+                 ^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    total= float(input("preço total"))
+                 ^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    total= float(input("preço total"))
+                 ^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 22:45:19)
+-- CODE: 
+quantidade = int(input("quantidade de jogos"))
+valor unitario = float(input("valor unitario"))
+frete = float(input("valor do frete"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 22:45:01)
+-- CODE: 
+quantidade = int(input("quantidade de jogos"))
+valor unitario = float(input("valor unitario"))
+frete = float(input(valor do frete))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 22:45:41)
+-- CODE: 
+quantidade = int(input("quantidade de jogos"))
+valor unitario = float(input("valor unitario"))
+frete = float(input("valor do frete"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 22:48:42)
+-- CODE: 
+quantidade = int(input("quantidade de jogos"))
+valor unitario = float(input("valor unitario"))
+frete = float(input("valor do frete"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 22:45:20)
+-- CODE: 
+quantidade = int(input("quantidade de jogos"))
+valor unitario = float(input("valor unitario"))
+frete = float(input("valor do frete"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 22:45:17)
+-- CODE: 
+quantidade = int(input("quantidade de jogos"))
+valor unitario = float(input("valor unitario"))
+frete = float(input("valor do frete"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 22:57:57)
+-- CODE: 
+quantidade = int(input("quantidade de jogos: "))
+valor unitario = float(input("valor unitario: "))
+frete = float(input("valor do frete: "))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario: "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario: "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario: "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario: "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario: "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario: "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 23:08:01)
+-- CODE: 
+quantidade = int(input("quantidade de jogos: "))
+valor_unitario = float(input("valor unitario: "))
+frete = float(input("valor do frete: "))
+total= quantidade * valor_unitario + frete
+print(total)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 1642.5
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 240171.0
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 540.0
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 765.0
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 162.56
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+quantidade de jogos: valor unitario: valor do frete: 618.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 22:34:24)
+-- CODE: 
+quantidade = input()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 22:38:26)
+-- CODE: 
+quantidade = int(input("quantidade de jogos"))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+quantidade de jogos
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+quantidade de jogos
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+quantidade de jogos
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+quantidade de jogos
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+quantidade de jogos
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+quantidade de jogos
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 22:45:55)
+-- CODE: 
+quantidade = int(input("quantidade de jogos"))
+valor unitario = float(input("valor unitario"))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 22:45:56)
+-- CODE: 
+quantidade = int(input("quantidade de jogos"))
+valor unitario = float(input("valor unitario"))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 22:48:42)
+-- CODE: 
+quantidade = int(input("quantidade de jogos"))
+valor unitario = float(input("valor unitario"))
+frete = float(input("valor do frete"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 22:45:00)
+-- CODE: 
+quantidade = int(input("quantidade de jogos"))
+valor unitario = float(input("valor unitario"))
+frete = float(input(valor do frete))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 22:49:29)
+-- CODE: 
+quantidade = int(input("quantidade de jogos: "))
+valor unitario = float(input("valor unitario: "))
+frete = float(input("valor do frete: "))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario: "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario: "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario: "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario: "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario: "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitario = float(input("valor unitario: "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

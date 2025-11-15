@@ -18,13 +18,10 @@ class Readiness(Metric):
 
     def calculate(self, keystrokesfile: KeystrokesFile, limit: float = 60.0) -> None:
         self.value: float = 0.0
-        self.has_files_consistents: bool = keystrokesfile.is_consistent
-
-        if keystrokesfile.is_consistent:
-            self.limit = limit
-            keystrokesfile.load_text()
-            text = keystrokesfile.text.splitlines()
-            self.value = self._counting_active_time(text, limit, keystrokesfile)
+        self.limit = limit
+        keystrokesfile.load_text()
+        text = keystrokesfile.text.splitlines()
+        self.value = self._counting_active_time(text, limit, keystrokesfile)
 
     def _counting_active_time(self, text: str, limit: float, keystrokesfile: KeystrokesFile) -> float:
         dummy_datetime = keystrokesfile.dummy_datetime

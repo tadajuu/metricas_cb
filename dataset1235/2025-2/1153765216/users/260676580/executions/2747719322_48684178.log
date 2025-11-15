@@ -1,0 +1,179 @@
+== RUN (2025-08-26 16:57:15)
+-- CODE: 
+venda = float(input())
+lucro_bruto=vendas*0.30
+lucro_arredondado = round(lucro_bruto,2)
+print(lucro_arredondado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    lucro_bruto=vendas*0.30
+                ^^^^^^
+NameError: name 'vendas' is not defined. Did you mean: 'venda'?
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    lucro_bruto=vendas*0.30
+                ^^^^^^
+NameError: name 'vendas' is not defined. Did you mean: 'venda'?
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    lucro_bruto=vendas*0.30
+                ^^^^^^
+NameError: name 'vendas' is not defined. Did you mean: 'venda'?
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    lucro_bruto=vendas*0.30
+                ^^^^^^
+NameError: name 'vendas' is not defined. Did you mean: 'venda'?
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    lucro_bruto=vendas*0.30
+                ^^^^^^
+NameError: name 'vendas' is not defined. Did you mean: 'venda'?
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    lucro_bruto=vendas*0.30
+                ^^^^^^
+NameError: name 'vendas' is not defined. Did you mean: 'venda'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:58:06)
+-- CODE: 
+venda = float(input())
+Lucro_bruto=venda*0.30
+Lucro_arredondado = round(Lucro_bruto,2)
+print(Lucro_arredondado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+435.86
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+210.15
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+60.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+135.15
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+165.31
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+568.2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 16:58:08)
+-- CODE: 
+venda = float(input())
+Lucro_bruto=venda*0.30
+Lucro_arredondado = round(Lucro_bruto,2)
+print(Lucro_arredondado)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+435.86
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+210.15
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+60.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+135.15
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+165.31
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+568.2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

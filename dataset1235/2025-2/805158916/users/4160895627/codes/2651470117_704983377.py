@@ -1,0 +1,12 @@
+nx= int(input("Digite um numero:"));
+ny= int(input("Digite um numero:"));
+soma= nx//ny;
+resto= nx%ny;
+real= nx/ny;
+multi= nx*ny;
+ponten= ny**3;
+print(soma);
+print(resto);
+print(real);
+print(multi);
+print(ponten);

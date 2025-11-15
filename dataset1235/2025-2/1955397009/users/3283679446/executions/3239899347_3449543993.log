@@ -1,0 +1,116 @@
+== RUN (2025-08-28 12:24:21)
+-- CODE: 
+from math import *
+
+lado = float(input("Informe o tamanho do lado: "))
+
+den = 2 * tan(18)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+123.11
+---- user output:
+Informe o tamanho do lado:
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+30.78
+---- user output:
+Informe o tamanho do lado:
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+276.99
+---- user output:
+Informe o tamanho do lado:
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+377.02
+---- user output:
+Informe o tamanho do lado:
+-- TEST CASE 5:
+---- input:
+3
+---- correct output:
+69.25
+---- user output:
+Informe o tamanho do lado:
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+192.36
+---- user output:
+Informe o tamanho do lado:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 12:26:52)
+-- CODE: 
+from math import *
+
+lado = float(input("Informe o tamanho do lado: "))
+
+den = 2 * tan(pi/10)
+
+apot = lado/den
+
+area = 5 * lado * apot
+
+area_arredondada = round(area, 2)
+
+print(area_arredondada)
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+123.11
+---- user output:
+Informe o tamanho do lado: 123.11
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+30.78
+---- user output:
+Informe o tamanho do lado: 30.78
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+276.99
+---- user output:
+Informe o tamanho do lado: 276.99
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+377.02
+---- user output:
+Informe o tamanho do lado: 377.02
+-- TEST CASE 5:
+---- input:
+3
+---- correct output:
+69.25
+---- user output:
+Informe o tamanho do lado: 69.25
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+192.36
+---- user output:
+Informe o tamanho do lado: 192.36
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

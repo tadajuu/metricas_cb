@@ -1,0 +1,224 @@
+== SUBMISSION (2025-08-26 17:46:21)
+-- CODE: 
+litros = float(input("litros abastecidos: "))
+
+vl = 2.86
+ptrocadeoleo = 50.00
+percentualicms = 34 / 100
+
+vlcombustivel = litros * vl 
+vlbruto = vlcombustivel + ptrocadeoleo
+vltotalicms = vlbruto * percentualicms
+vltotal = vlbruto + vltotalicms
+print(round(vltotal , 2))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+litros abastecidos: 106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+litros abastecidos: 634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+litros abastecidos: 258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+litros abastecidos: 401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+litros abastecidos: 979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+litros abastecidos: 230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 17:45:11)
+-- CODE: 
+litros = float(input("litros abastecidos: "))
+
+vl = 2.86
+ptrocadeoleo = 50.00
+percentualicms = 34 / 100
+
+vlcombustivel = litros * vl 
+vlbruto = vlcombustivel + ptrocadeoleo
+vltotalicms = vlbruto * percentualicms
+vltotal = vlbruto + vltotalicmsprint(round(vltotal , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    vltotal = vlbruto + vltotalicmsprint(round(vltotal , 2))
+                        ^^^^^^^^^^^^^^^^
+NameError: name 'vltotalicmsprint' is not defined. Did you mean: 'vltotalicms'?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    vltotal = vlbruto + vltotalicmsprint(round(vltotal , 2))
+                        ^^^^^^^^^^^^^^^^
+NameError: name 'vltotalicmsprint' is not defined. Did you mean: 'vltotalicms'?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    vltotal = vlbruto + vltotalicmsprint(round(vltotal , 2))
+                        ^^^^^^^^^^^^^^^^
+NameError: name 'vltotalicmsprint' is not defined. Did you mean: 'vltotalicms'?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    vltotal = vlbruto + vltotalicmsprint(round(vltotal , 2))
+                        ^^^^^^^^^^^^^^^^
+NameError: name 'vltotalicmsprint' is not defined. Did you mean: 'vltotalicms'?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    vltotal = vlbruto + vltotalicmsprint(round(vltotal , 2))
+                        ^^^^^^^^^^^^^^^^
+NameError: name 'vltotalicmsprint' is not defined. Did you mean: 'vltotalicms'?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    vltotal = vlbruto + vltotalicmsprint(round(vltotal , 2))
+                        ^^^^^^^^^^^^^^^^
+NameError: name 'vltotalicmsprint' is not defined. Did you mean: 'vltotalicms'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 17:45:12)
+-- CODE: 
+litros = float(input("litros abastecidos: "))
+
+vl = 2.86
+ptrocadeoleo = 50.00
+percentualicms = 34 / 100
+
+vlcombustivel = litros * vl 
+vlbruto = vlcombustivel + ptrocadeoleo
+vltotalicms = vlbruto * percentualicms
+vltotal = vlbruto + vltotalicmsprint(round(vltotal , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    vltotal = vlbruto + vltotalicmsprint(round(vltotal , 2))
+                        ^^^^^^^^^^^^^^^^
+NameError: name 'vltotalicmsprint' is not defined. Did you mean: 'vltotalicms'?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    vltotal = vlbruto + vltotalicmsprint(round(vltotal , 2))
+                        ^^^^^^^^^^^^^^^^
+NameError: name 'vltotalicmsprint' is not defined. Did you mean: 'vltotalicms'?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    vltotal = vlbruto + vltotalicmsprint(round(vltotal , 2))
+                        ^^^^^^^^^^^^^^^^
+NameError: name 'vltotalicmsprint' is not defined. Did you mean: 'vltotalicms'?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    vltotal = vlbruto + vltotalicmsprint(round(vltotal , 2))
+                        ^^^^^^^^^^^^^^^^
+NameError: name 'vltotalicmsprint' is not defined. Did you mean: 'vltotalicms'?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    vltotal = vlbruto + vltotalicmsprint(round(vltotal , 2))
+                        ^^^^^^^^^^^^^^^^
+NameError: name 'vltotalicmsprint' is not defined. Did you mean: 'vltotalicms'?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    vltotal = vlbruto + vltotalicmsprint(round(vltotal , 2))
+                        ^^^^^^^^^^^^^^^^
+NameError: name 'vltotalicmsprint' is not defined. Did you mean: 'vltotalicms'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,2962 @@
+== RUN (2025-08-28 02:32:26)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:")*5)
+apotema=(l/2*tan(pi/5))
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:7265279972.2745495
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:3229013321.010911
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:8.969660837778423e+17
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:5740468126.241619
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:1435117031.5604048
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:7.412942841139192e+17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:33:00)
+-- CODE: 
+from math import *
+l=float(input(("digite o lado:")*5))
+apotema=(l/2*tan(pi/5))
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:digite o lado:digite o lado:digite o lado:digite o lado:58.84994476843422
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:digite o lado:digite o lado:digite o lado:digite o lado:26.15553100819299
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:digite o lado:digite o lado:digite o lado:digite o lado:87.91164588864866
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:digite o lado:digite o lado:digite o lado:digite o lado:46.49872179234309
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:digite o lado:digite o lado:digite o lado:digite o lado:11.624680448085773
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:digite o lado:digite o lado:digite o lado:digite o lado:72.65425280053607
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:47:46)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l*tan(pi/5))/2
+AREA=(5*l*apotema)/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:73.56
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:32.69
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:109.89
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:58.12
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:14.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:90.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:44:43)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=(5*l*apotema)/2
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:73.56243096054278
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:32.69441376024124
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:109.88955736081083
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:58.12340224042886
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:14.530850560107215
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:90.81781600067009
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:25:40)
+-- CODE: 
+from math import *
+l=float(input("digite o lado"))
+apotema=l//2*tang(pi//5)
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=l//2*tang(pi//5)
+                 ^^^^
+NameError: name 'tang' is not defined. Did you mean: 'tan'?
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=l//2*tang(pi//5)
+                 ^^^^
+NameError: name 'tang' is not defined. Did you mean: 'tan'?
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=l//2*tang(pi//5)
+                 ^^^^
+NameError: name 'tang' is not defined. Did you mean: 'tan'?
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=l//2*tang(pi//5)
+                 ^^^^
+NameError: name 'tang' is not defined. Did you mean: 'tan'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=l//2*tang(pi//5)
+                 ^^^^
+NameError: name 'tang' is not defined. Did you mean: 'tan'?
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=l//2*tang(pi//5)
+                 ^^^^
+NameError: name 'tang' is not defined. Did you mean: 'tan'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:43:12)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=(5//2*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:58.84994476843422
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:26.15553100819299
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:87.91164588864866
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:46.49872179234309
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:11.624680448085773
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:72.65425280053607
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:41:12)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=((l/(2*tan(pi/5))
+AREA=((5//2)*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:46:11)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=(l*tan(pi/5))/2
+AREA=(5*l*apotema)/2
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:73.56243096054278
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:32.69441376024124
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:109.88955736081083
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:58.12340224042886
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:14.530850560107215
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:90.81781600067009
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:42:03)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=((l/2*tan(pi/5))
+AREA=((5//2)*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:51:59)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=5*(l*apotema)/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:73.56
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:32.69
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:109.89
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:58.12
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:14.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:90.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:41:10)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=((l/(2*tan(pi/5))
+AREA=((5//2)*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 03:01:43)
+-- CODE: 
+from math import *
+l=float(input("digite o comprimento:"))
+apotema=(l/(2*tan(pi/5)))
+AREA=5*(l*apotema)/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o comprimento:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o comprimento:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o comprimento:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o comprimento:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o comprimento:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o comprimento:172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:22:02)
+-- CODE: 
+from math import *
+l=float(input("digite o lado"))
+apotema=l//2*tang(pi//5)
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=l//2*tang(pi//5)
+                 ^^^^
+NameError: name 'tang' is not defined. Did you mean: 'tan'?
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=l//2*tang(pi//5)
+                 ^^^^
+NameError: name 'tang' is not defined. Did you mean: 'tan'?
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=l//2*tang(pi//5)
+                 ^^^^
+NameError: name 'tang' is not defined. Did you mean: 'tan'?
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=l//2*tang(pi//5)
+                 ^^^^
+NameError: name 'tang' is not defined. Did you mean: 'tan'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=l//2*tang(pi//5)
+                 ^^^^
+NameError: name 'tang' is not defined. Did you mean: 'tan'?
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=l//2*tang(pi//5)
+                 ^^^^
+NameError: name 'tang' is not defined. Did you mean: 'tan'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:40:58)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=((l//(2*tan(pi/5))
+AREA=((5//2)*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l//(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l//(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l//(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l//(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l//(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l//(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:58:19)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(36))
+AREA=5*(l*apotema)/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:784.74
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:348.77
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:1172.26
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:620.04
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:155.01
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:968.81
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:45:41)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=(l*tan(pi/5)/2)
+AREA=(5*l*apotema)/2
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:73.56243096054278
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:32.69441376024124
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:109.88955736081083
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:58.12340224042886
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:14.530850560107215
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:90.81781600067009
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:37:48)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=((l/2)*tan(pi/5))
+AREA=((5//2)*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:58.84994476843422
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:26.15553100819299
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:87.91164588864866
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:46.49872179234309
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:11.624680448085773
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:72.65425280053607
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 03:00:05)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(pi//5))
+AREA=5*(l*apotema)/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:0.0
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:0.0
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:0.0
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:0.0
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:0.0
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:51:32)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=(5*(l*apotema)/2)
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:73.56
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:32.69
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:109.89
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:58.12
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:14.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:90.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:41:42)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=((l/(2*tan(pi/5)))
+AREA=((5//2)*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5)))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5)))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5)))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5)))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5)))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5)))
+            ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:30:22)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l//2*tan(pi//5))
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:0.0
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:0.0
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:0.0
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:0.0
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:0.0
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:42:02)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=((l/2*tan(pi/5))
+AREA=((5//2)*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:56:01)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+
+AREA=5*(l*apotema)/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    AREA=5*(l*apotema)/2
+              ^^^^^^^
+NameError: name 'apotema' is not defined
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    AREA=5*(l*apotema)/2
+              ^^^^^^^
+NameError: name 'apotema' is not defined
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    AREA=5*(l*apotema)/2
+              ^^^^^^^
+NameError: name 'apotema' is not defined
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    AREA=5*(l*apotema)/2
+              ^^^^^^^
+NameError: name 'apotema' is not defined
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    AREA=5*(l*apotema)/2
+              ^^^^^^^
+NameError: name 'apotema' is not defined
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    AREA=5*(l*apotema)/2
+              ^^^^^^^
+NameError: name 'apotema' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:43:02)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=(5//2*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:58.84994476843422
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:26.15553100819299
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:87.91164588864866
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:46.49872179234309
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:11.624680448085773
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:72.65425280053607
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:38:50)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=((l/2)*tan(pi/5))
+AREA=((5//2)*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:58.84994476843422
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:26.15553100819299
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:87.91164588864866
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:46.49872179234309
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:11.624680448085773
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:72.65425280053607
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:41:00)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=((l//(2*tan(pi/5))
+AREA=((5//2)*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l//(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l//(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l//(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l//(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l//(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l//(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:27:20)
+-- CODE: 
+from math import *
+l=float(input("digite o lado"))
+apotema=(l//2*tag(pi//5))
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l//2*tag(pi//5))
+                  ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l//2*tag(pi//5))
+                  ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l//2*tag(pi//5))
+                  ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l//2*tag(pi//5))
+                  ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l//2*tag(pi//5))
+                  ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l//2*tag(pi//5))
+                  ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:42:06)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=((l/2*tan(pi/5))
+AREA=((5//2)*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/2*tan(pi/5))
+            ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:28:05)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l//2*tag(pi//5))
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l//2*tag(pi//5))
+                  ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l//2*tag(pi//5))
+                  ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l//2*tag(pi//5))
+                  ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l//2*tag(pi//5))
+                  ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l//2*tag(pi//5))
+                  ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l//2*tag(pi//5))
+                  ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:34:43)
+-- CODE: 
+from math import *
+l=float(input(("digite o lado:")*5))
+apotema=(l/2*tan(pi/5))
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:digite o lado:digite o lado:digite o lado:digite o lado:58.84994476843422
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:digite o lado:digite o lado:digite o lado:digite o lado:26.15553100819299
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:digite o lado:digite o lado:digite o lado:digite o lado:87.91164588864866
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:digite o lado:digite o lado:digite o lado:digite o lado:46.49872179234309
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:digite o lado:digite o lado:digite o lado:digite o lado:11.624680448085773
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:digite o lado:digite o lado:digite o lado:digite o lado:72.65425280053607
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 02:35:07)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:58.84994476843422
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:26.15553100819299
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:87.91164588864866
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:46.49872179234309
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:11.624680448085773
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:72.65425280053607
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 03:01:05)
+-- CODE: 
+from math import *
+l=float(input("digite o comprimento:"))
+apotema=(l/2*tan(pi/5))
+AREA=5*(l*apotema)/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o comprimento:73.56
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o comprimento:32.69
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o comprimento:109.89
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o comprimento:58.12
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o comprimento:14.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o comprimento:90.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:35:20)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:58.84994476843422
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:26.15553100819299
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:87.91164588864866
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:46.49872179234309
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:11.624680448085773
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:72.65425280053607
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:48:56)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=5*l*apotema/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:73.56
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:32.69
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:109.89
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:58.12
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:14.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:90.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:31:41)
+-- CODE: 
+from math import pi *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 1
+    from math import pi *
+                        ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 1
+    from math import pi *
+                        ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 1
+    from math import pi *
+                        ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 1
+    from math import pi *
+                        ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 1
+    from math import pi *
+                        ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 1
+    from math import pi *
+                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:41:11)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=((l/(2*tan(pi/5))
+AREA=((5//2)*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 3
+    apotema=((l/(2*tan(pi/5))
+             ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 03:02:00)
+-- CODE: 
+from math import *
+l=float(input("digite o comprimento:"))
+apotema=(l/(2*tan(pi/5)))
+AREA=5*(l*apotema)/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o comprimento:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o comprimento:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o comprimento:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o comprimento:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o comprimento:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o comprimento:172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:53:56)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(5/2*tan(pi/5))
+AREA=5*(l*apotema)/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:40.87
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:27.25
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:49.95
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:36.33
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:18.16
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:45.41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:48:33)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=(5*l*apotema)/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:73.56
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:32.69
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:109.89
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:58.12
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:14.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:90.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 03:00:19)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=5*(l*apotema)/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:73.56
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:32.69
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:109.89
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:58.12
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:14.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:90.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 03:03:11)
+-- CODE: 
+from math import *
+l=float(input("digite o comprimento:"))
+apotema=(l/(2*tan(pi/5)))
+AREA=5*(l*apotema)/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o comprimento:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o comprimento:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o comprimento:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o comprimento:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o comprimento:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o comprimento:172.05
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:30:47)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:58.84994476843422
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:26.15553100819299
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:87.91164588864866
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:46.49872179234309
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:11.624680448085773
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:72.65425280053607
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:38:58)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=((l/2)*tan(pi/5))
+AREA=((5//2)*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:58.84994476843422
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:26.15553100819299
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:87.91164588864866
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:46.49872179234309
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:11.624680448085773
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:72.65425280053607
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:42:25)
+-- CODE: 
+from math import *
+l=int(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=((5//2)*l*apotema)
+print(AREA)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:58.84994476843422
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:26.15553100819299
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:87.91164588864866
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:46.49872179234309
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:11.624680448085773
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:72.65425280053607
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:31:51)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:58.84994476843422
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:26.15553100819299
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:87.91164588864866
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:46.49872179234309
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:11.624680448085773
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:72.65425280053607
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:28:54)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tag(pi/5))
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l/2*tag(pi/5))
+                 ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l/2*tag(pi/5))
+                 ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l/2*tag(pi/5))
+                 ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l/2*tag(pi/5))
+                 ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l/2*tag(pi/5))
+                 ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    apotema=(l/2*tag(pi/5))
+                 ^^^
+NameError: name 'tag' is not defined. Did you mean: 'tan'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:56:59)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=5*(l*apotema)/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:73.56
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:32.69
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:109.89
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:58.12
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:14.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:90.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:29:42)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=(5//2*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:58.84994476843422
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:26.15553100819299
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:87.91164588864866
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:46.49872179234309
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:11.624680448085773
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:72.65425280053607
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:59:27)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*7.75)
+AREA=5*(l*apotema)/2
+print(round(AREA,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:784.69
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:348.75
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:1172.19
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:620.0
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:155.0
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:968.75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 02:36:36)
+-- CODE: 
+from math import *
+l=float(input("digite o lado:"))
+apotema=(l/2*tan(pi/5))
+AREA=((5//2)*l*apotema)
+print(AREA)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+digite o lado:58.84994476843422
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+digite o lado:26.15553100819299
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+digite o lado:87.91164588864866
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+digite o lado:46.49872179234309
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+digite o lado:11.624680448085773
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+digite o lado:72.65425280053607
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

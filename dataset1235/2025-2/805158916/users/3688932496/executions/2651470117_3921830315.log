@@ -1,0 +1,194 @@
+== RUN (2025-08-25 03:01:50)
+-- CODE: 
+#entrada : litros abastecidos.
+litros = float(input("Informe a quantidade de litros anastecidos, e logo em seguinda iremos fornece o total a ser pago: "))
+#valores fixos
+gasolina = 2.86
+troca_oleo = 50.0
+icms_percentual = 34/100 #34%
+#calculo do valor abastecido
+valor_combustivel = litros * gasolina
+#subtotal sem icms
+subtotal = valor_combustivel + troca_oleo
+#calculo do ICMS
+icms = subtotal * icms_percentual
+#total com icms
+total_icms = subtotal + icms
+#saida
+print(round(total_icms,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Informe a quantidade de litros anastecidos, e logo em seguinda iremos fornece o total a ser pago: 106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Informe a quantidade de litros anastecidos, e logo em seguinda iremos fornece o total a ser pago: 634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Informe a quantidade de litros anastecidos, e logo em seguinda iremos fornece o total a ser pago: 258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Informe a quantidade de litros anastecidos, e logo em seguinda iremos fornece o total a ser pago: 401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Informe a quantidade de litros anastecidos, e logo em seguinda iremos fornece o total a ser pago: 979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Informe a quantidade de litros anastecidos, e logo em seguinda iremos fornece o total a ser pago: 230.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 03:02:18)
+-- CODE: 
+#entrada : litros abastecidos.
+litros = float(input("Informe a quantidade de litros anastecidos, e logo em seguinda iremos fornece o total a ser pago: "))
+#valores fixos
+gasolina = 2.86
+troca_oleo = 50.0
+icms_percentual = 34/100 #34%
+#calculo do valor abastecido
+valor_combustivel = litros * gasolina
+#subtotal sem icms
+subtotal = valor_combustivel + troca_oleo
+#calculo do ICMS
+icms = subtotal * icms_percentual
+#total com icms
+total_icms = subtotal + icms
+#saida
+print(round(total_icms,2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Informe a quantidade de litros anastecidos, e logo em seguinda iremos fornece o total a ser pago: 106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Informe a quantidade de litros anastecidos, e logo em seguinda iremos fornece o total a ser pago: 634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Informe a quantidade de litros anastecidos, e logo em seguinda iremos fornece o total a ser pago: 258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Informe a quantidade de litros anastecidos, e logo em seguinda iremos fornece o total a ser pago: 401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Informe a quantidade de litros anastecidos, e logo em seguinda iremos fornece o total a ser pago: 979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Informe a quantidade de litros anastecidos, e logo em seguinda iremos fornece o total a ser pago: 230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 02:59:39)
+-- CODE: 
+#entrada : litros abastecidos.
+litros = float(input())
+#valores fixos
+gasolina = 2.86
+troca_oleo = 50.0
+icms_percentual = 34/100 #34%
+#calculo do valor abastecido
+valor_combustivel = litros * gasolina
+#subtotal sem icms
+subtotal = valor_combustivel + troca_oleo
+#calculo do ICMS
+icms = subtotal * icms_percentual
+#total com icms
+total_icms = subtotal + icms
+#saida
+print(round(total_icms,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+230.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

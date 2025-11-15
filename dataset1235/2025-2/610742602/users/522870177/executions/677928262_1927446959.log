@@ -1,0 +1,152 @@
+== RUN (2025-08-27 15:19:00)
+-- CODE: 
+# Leitura da entrada
+n = float(input())
+
+# 1. Calcular 27% de n
+valor1 = n * (27/100)
+
+# 2. Calcular n acrescido de 42%
+valor2 = n + n * (42/100)
+
+# 3. Calcular n com desconto de 63%
+valor3 = n - n * (63/100)
+
+# Imprimir resultados arredondados com 2 casas decimais
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 15:19:03)
+-- CODE: 
+# Leitura da entrada
+n = float(input())
+
+# 1. Calcular 27% de n
+valor1 = n * (27/100)
+
+# 2. Calcular n acrescido de 42%
+valor2 = n + n * (42/100)
+
+# 3. Calcular n com desconto de 63%
+valor3 = n - n * (63/100)
+
+# Imprimir resultados arredondados com 2 casas decimais
+print(round(valor1, 2))
+print(round(valor2, 2))
+print(round(valor3, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

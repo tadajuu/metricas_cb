@@ -1,0 +1,1 @@
+print("O valor que cada amigo vai pagar é:",180/4)

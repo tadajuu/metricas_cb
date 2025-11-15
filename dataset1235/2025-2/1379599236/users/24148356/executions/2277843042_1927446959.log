@@ -1,0 +1,574 @@
+== RUN (2025-08-20 16:29:41)
+-- CODE: 
+n = input("numero: ")
+
+print(round(n * (27/100), 2))
+      
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round(n * (27/100), 2))
+                ~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round(n * (27/100), 2))
+                ~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round(n * (27/100), 2))
+                ~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round(n * (27/100), 2))
+                ~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round(n * (27/100), 2))
+                ~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round(n * (27/100), 2))
+                ~~^~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 16:35:53)
+-- CODE: 
+n = float(input("numero: "))
+
+print(round(n * (27/100), 2))
+
+n2 = n * (42/100)
+
+print(round(n + n2, 2))
+
+n3 = n * (63/100)
+
+print(round(n - n3, 2))
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 16:33:37)
+-- CODE: 
+n = float(input("numero: "))
+
+print(round(n * (27/100), 2))
+
+n2 = n * (42/100)
+
+print(round(n + n2, 2))
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+174.86
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+35.5
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+462.35
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+5066.42
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+7705.2
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+17.25
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 16:32:02)
+-- CODE: 
+n = int(input("numero: "))
+
+print(round(n * (27/100), 2))
+
+n2 = n * (42/100)
+
+print(n + n2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int(input("numero: "))
+        ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int(input("numero: "))
+        ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int(input("numero: "))
+        ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int(input("numero: "))
+        ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int(input("numero: "))
+        ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int(input("numero: "))
+        ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 16:28:59)
+-- CODE: 
+n - input("numero: ")
+
+print(round(n * (27/100), 2)
+      
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 3
+    print(round(n * (27/100), 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 3
+    print(round(n * (27/100), 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 3
+    print(round(n * (27/100), 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 3
+    print(round(n * (27/100), 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 3
+    print(round(n * (27/100), 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 3
+    print(round(n * (27/100), 2)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 16:30:21)
+-- CODE: 
+n = int(input("numero: "))
+
+print(round(n * (27/100), 2))
+      
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int(input("numero: "))
+        ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123.14'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int(input("numero: "))
+        ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '25.00'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int(input("numero: "))
+        ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '325.60'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int(input("numero: "))
+        ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3567.90'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int(input("numero: "))
+        ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5426.20'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int(input("numero: "))
+        ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.15'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 16:29:26)
+-- CODE: 
+n - input("numero: ")
+
+print(round(n * (27/100), 2))
+      
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n - input("numero: ")
+    ^
+NameError: name 'n' is not defined
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n - input("numero: ")
+    ^
+NameError: name 'n' is not defined
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n - input("numero: ")
+    ^
+NameError: name 'n' is not defined
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n - input("numero: ")
+    ^
+NameError: name 'n' is not defined
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n - input("numero: ")
+    ^
+NameError: name 'n' is not defined
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n - input("numero: ")
+    ^
+NameError: name 'n' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

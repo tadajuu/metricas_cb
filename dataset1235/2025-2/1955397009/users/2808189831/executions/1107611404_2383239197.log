@@ -1,0 +1,659 @@
+== SUBMISSION (2025-08-21 13:23:37)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad =math.radians (gamma)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_rad))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 16:57:38)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad =math.radians (gamma)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_rad))
+print(round(c,2))
+
+print(roud(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(c,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(c,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(c,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(c,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(c,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(c,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:57:35)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad =math.radians (gamma)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_rad))
+print(round(c,2))
+
+print(roud(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(c,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(c,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(c,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(c,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(c,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(c,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 13:22:59)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad =math.radians (gamma)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_rad))
+prnt(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    prnt(round(c,2))
+    ^^^^
+NameError: name 'prnt' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    prnt(round(c,2))
+    ^^^^
+NameError: name 'prnt' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    prnt(round(c,2))
+    ^^^^
+NameError: name 'prnt' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    prnt(round(c,2))
+    ^^^^
+NameError: name 'prnt' is not defined. Did you mean: 'print'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    prnt(round(c,2))
+    ^^^^
+NameError: name 'prnt' is not defined. Did you mean: 'print'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    prnt(round(c,2))
+    ^^^^
+NameError: name 'prnt' is not defined. Did you mean: 'print'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 13:22:48)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad =math.radians (gamma)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_rad))
+prnt(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    prnt(round(c,2))
+    ^^^^
+NameError: name 'prnt' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    prnt(round(c,2))
+    ^^^^
+NameError: name 'prnt' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    prnt(round(c,2))
+    ^^^^
+NameError: name 'prnt' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    prnt(round(c,2))
+    ^^^^
+NameError: name 'prnt' is not defined. Did you mean: 'print'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    prnt(round(c,2))
+    ^^^^
+NameError: name 'prnt' is not defined. Did you mean: 'print'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    prnt(round(c,2))
+    ^^^^
+NameError: name 'prnt' is not defined. Did you mean: 'print'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 13:18:16)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gama = float(input())
+gama_rad =math.radians (gama)
+c = math.sqrt(a**2 + b**2 - 2 * a * b =math.cos(gama_rad))
+prnt(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 6
+    c = math.sqrt(a**2 + b**2 - 2 * a * b =math.cos(gama_rad))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 6
+    c = math.sqrt(a**2 + b**2 - 2 * a * b =math.cos(gama_rad))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 6
+    c = math.sqrt(a**2 + b**2 - 2 * a * b =math.cos(gama_rad))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 6
+    c = math.sqrt(a**2 + b**2 - 2 * a * b =math.cos(gama_rad))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 6
+    c = math.sqrt(a**2 + b**2 - 2 * a * b =math.cos(gama_rad))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 6
+    c = math.sqrt(a**2 + b**2 - 2 * a * b =math.cos(gama_rad))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 13:23:13)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad =math.radians (gamma)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_rad))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 16:57:48)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma = float(input())
+gamma_rad =math.radians (gamma)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_rad))
+print(round(c,2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

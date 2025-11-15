@@ -1,0 +1,120 @@
+== RUN (2025-08-25 02:12:56)
+-- CODE: 
+preco_gasolina = 2.86
+servico_troca_oleo = 50.00
+icms = 0.34
+
+litros = float(input("Digite a quantidade de litros abastecidos: "))
+
+valor_gasolina = litros * preco_gasolina
+subtotal = valor_gasolina + servico_troca_oleo
+
+total_com_icms = subtotal * (1 + icms)
+
+print(f"Valor total a ser pago: R${total_com_icms: .2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Digite a quantidade de litros abastecidos: Valor total a ser pago: R$ 979.99
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Digite a quantidade de litros abastecidos: Valor total a ser pago: R$ 401.95
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Digite a quantidade de litros abastecidos: Valor total a ser pago: R$ 258.62
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Digite a quantidade de litros abastecidos: Valor total a ser pago: R$ 106.86
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Digite a quantidade de litros abastecidos: Valor total a ser pago: R$ 634.85
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+Digite a quantidade de litros abastecidos: Valor total a ser pago: R$ 2500.00
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 02:13:22)
+-- CODE: 
+preco_gasolina = 2.86
+servico_troca_oleo = 50.00
+icms = 0.34
+
+litros = float(input("Digite a quantidade de litros abastecidos: "))
+
+valor_gasolina = litros * preco_gasolina
+subtotal = valor_gasolina + servico_troca_oleo
+
+total_com_icms = subtotal * (1 + icms)
+
+print(f"Valor total a ser pago: R${total_com_icms: .2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Digite a quantidade de litros abastecidos: Valor total a ser pago: R$ 979.99
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Digite a quantidade de litros abastecidos: Valor total a ser pago: R$ 401.95
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Digite a quantidade de litros abastecidos: Valor total a ser pago: R$ 258.62
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Digite a quantidade de litros abastecidos: Valor total a ser pago: R$ 106.86
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Digite a quantidade de litros abastecidos: Valor total a ser pago: R$ 634.85
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+Digite a quantidade de litros abastecidos: Valor total a ser pago: R$ 2500.00
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

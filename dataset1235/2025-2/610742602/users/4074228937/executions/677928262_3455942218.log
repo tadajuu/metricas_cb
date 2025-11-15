@@ -1,0 +1,1077 @@
+== RUN (2025-08-22 16:30:17)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valorUnitario = int(input("Qual o valor unitario do jogo? "))
+valorDisponível = int(input("Qual o valor disponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = valorUnitario*8+45
+saldo = valorDisponivel-total
+
+# Impressao do valor total e do saldo:
+print(total)
+print(saldo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    valorUnitario = int(input("Qual o valor unitario do jogo? "))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    valorUnitario = int(input("Qual o valor unitario do jogo? "))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '33.0'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    valorUnitario = int(input("Qual o valor unitario do jogo? "))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '356.0'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    valorUnitario = int(input("Qual o valor unitario do jogo? "))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123987.0'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    valorUnitario = int(input("Qual o valor unitario do jogo? "))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.2'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    valorUnitario = int(input("Qual o valor unitario do jogo? "))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-22 17:15:21)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+x = float(input("Qual o valor unitario do jogo? "))
+y = float(input("Qual o valor disponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = x*8+45
+saldo = y-total
+
+# Impressao do valor total e do saldo:
+print(round(total, 1))
+print(round(saldo, 1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-22 16:36:11)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+x = float(input("Qual o valor unitario do jogo? "))
+y = float(input("Qual o valor disponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = x*8+45
+saldo = y-total
+
+# Impressao do valor total e do saldo:
+print(total)
+print(saldo)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.399999999999999
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-22 17:15:18)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+x = float(input("Qual o valor unitario do jogo? "))
+y = float(input("Qual o valor disponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = x*8+45
+saldo = y-total
+
+# Impressao do valor total e do saldo:
+print(round(total, 1))
+print(round(saldo, 1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-22 16:29:08)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valorUnitario = float(input("Qual o valor unitario do jogo? "))
+valorDisponível = float(input("Qual o valor disponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = valorUnitario*8+45
+saldo = valorDisponivel-total
+
+# Impressao do valor total e do saldo:
+print(total)
+print(saldo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = valorDisponivel-total
+            ^^^^^^^^^^^^^^^
+NameError: name 'valorDisponivel' is not defined. Did you mean: 'valorDisponível'?
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = valorDisponivel-total
+            ^^^^^^^^^^^^^^^
+NameError: name 'valorDisponivel' is not defined. Did you mean: 'valorDisponível'?
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = valorDisponivel-total
+            ^^^^^^^^^^^^^^^
+NameError: name 'valorDisponivel' is not defined. Did you mean: 'valorDisponível'?
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = valorDisponivel-total
+            ^^^^^^^^^^^^^^^
+NameError: name 'valorDisponivel' is not defined. Did you mean: 'valorDisponível'?
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = valorDisponivel-total
+            ^^^^^^^^^^^^^^^
+NameError: name 'valorDisponivel' is not defined. Did you mean: 'valorDisponível'?
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = valorDisponivel-total
+            ^^^^^^^^^^^^^^^
+NameError: name 'valorDisponivel' is not defined. Did you mean: 'valorDisponível'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-22 16:32:14)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+x = int(input("Qual o valor unitario do jogo? "))
+y = int(input("Qual o valor disponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = x*8+45
+saldo = y-total
+
+# Impressao do valor total e do saldo:
+print(total)
+print(saldo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    x = int(input("Qual o valor unitario do jogo? "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    x = int(input("Qual o valor unitario do jogo? "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '33.0'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    x = int(input("Qual o valor unitario do jogo? "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '356.0'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    x = int(input("Qual o valor unitario do jogo? "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '123987.0'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    x = int(input("Qual o valor unitario do jogo? "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.2'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    x = int(input("Qual o valor unitario do jogo? "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-22 16:35:07)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+x = float(input("Qual o valor unitario do jogo? "))
+y = float(input("Qual o valor disponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = x*8+45
+saldo = y-total
+
+# Impressao do valor total e do saldo:
+print(total)
+print(saldo)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.399999999999999
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-22 16:34:21)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+x = float(input("Qual o valor unitario do jogo? "))
+y = float(input("Qual o valor disponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = x*8+45
+saldo = y-total
+
+# Impressao do valor total e do saldo:
+print(total)
+print(saldo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.399999999999999
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-22 16:29:22)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valorUnitario = float(input("Qual o valor unitario do jogo? "))
+valorDisponível = float(input("Qual o valor disponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = valorUnitario*8+45
+saldo = valorDisponivel-total
+
+# Impressao do valor total e do saldo:
+print(total)
+print(saldo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = valorDisponivel-total
+            ^^^^^^^^^^^^^^^
+NameError: name 'valorDisponivel' is not defined. Did you mean: 'valorDisponível'?
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = valorDisponivel-total
+            ^^^^^^^^^^^^^^^
+NameError: name 'valorDisponivel' is not defined. Did you mean: 'valorDisponível'?
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = valorDisponivel-total
+            ^^^^^^^^^^^^^^^
+NameError: name 'valorDisponivel' is not defined. Did you mean: 'valorDisponível'?
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = valorDisponivel-total
+            ^^^^^^^^^^^^^^^
+NameError: name 'valorDisponivel' is not defined. Did you mean: 'valorDisponível'?
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = valorDisponivel-total
+            ^^^^^^^^^^^^^^^
+NameError: name 'valorDisponivel' is not defined. Did you mean: 'valorDisponível'?
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = valorDisponivel-total
+            ^^^^^^^^^^^^^^^
+NameError: name 'valorDisponivel' is not defined. Did you mean: 'valorDisponível'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-22 16:40:05)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+x = float(input("Qual o valor unitario do jogo? "))
+y = float(input("Qual o valor disponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = x*8+45
+saldo = y-total
+
+# Impressao do valor total e do saldo:
+print(total)
+print(saldo)
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.399999999999999
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-22 17:13:48)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+x = float(input("Qual o valor unitario do jogo? "))
+y = float(input("Qual o valor disponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = x*8+45
+saldo = y-total
+
+# Impressao do valor total e do saldo:
+print(total)
+print(saldo)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.399999999999999
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-22 17:14:45)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+x = float(input("Qual o valor unitario do jogo? "))
+y = float(input("Qual o valor disponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = x*8+45
+saldo = y-total
+
+# Impressao do valor total e do saldo:
+print(total.1f)
+print(saldo.1f)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 13
+    print(total.1f)
+                ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 13
+    print(total.1f)
+                ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 13
+    print(total.1f)
+                ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 13
+    print(total.1f)
+                ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 13
+    print(total.1f)
+                ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 13
+    print(total.1f)
+                ^
+SyntaxError: invalid decimal literal
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-22 17:13:45)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+x = float(input("Qual o valor unitario do jogo? "))
+y = float(input("Qual o valor disponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = x*8+45
+saldo = y-total
+
+# Impressao do valor total e do saldo:
+print(total)
+print(saldo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.399999999999999
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,1793 @@
+== SUBMISSION (2025-08-15 00:11:56)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+Lado = float(input("Informe o lado do pentágono"))
+Apt = Lado/T
+Area = 5*Lado*Apt/2
+Print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Area,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Area,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Area,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Area,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Area,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Area,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 02:26:53)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Apt = 
+Area = 5*Lado**2/(2T)
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 7
+    Area = 5*Lado**2/(2T)
+                      ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 7
+    Area = 5*Lado**2/(2T)
+                      ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 7
+    Area = 5*Lado**2/(2T)
+                      ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 7
+    Area = 5*Lado**2/(2T)
+                      ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 7
+    Area = 5*Lado**2/(2T)
+                      ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 7
+    Area = 5*Lado**2/(2T)
+                      ^
+SyntaxError: invalid decimal literal
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 01:36:48)
+-- CODE: 
+from math import pi 
+from math import tan 
+
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Apotema = Lado/(2T)
+Area = 5*Lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 8
+    Apotema = Lado/(2T)
+                    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 8
+    Apotema = Lado/(2T)
+                    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 8
+    Apotema = Lado/(2T)
+                    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 8
+    Apotema = Lado/(2T)
+                    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 8
+    Apotema = Lado/(2T)
+                    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 8
+    Apotema = Lado/(2T)
+                    ^
+SyntaxError: invalid decimal literal
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:12:15)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+Lado = float(input("Informe o lado do pentágono"))
+Apt = Lado/T
+Area = 5*Lado*Apt/2
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Informe o lado do pentágono139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Informe o lado do pentágono61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Informe o lado do pentágono208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Informe o lado do pentágono110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Informe o lado do pentágono27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Informe o lado do pentágono172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 01:38:24)
+-- CODE: 
+from math import pi 
+from math import tan 
+
+
+# faça seu código aqui!
+T = 2*tan(pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+
+Apotema = Lado/(2*T)
+Area = 5*Lado*Apotema
+
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Informe o lado do pentágono:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Informe o lado do pentágono:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Informe o lado do pentágono:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Informe o lado do pentágono:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Informe o lado do pentágono:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Informe o lado do pentágono:172.05
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:12:01)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+Lado = float(input("Informe o lado do pentágono"))
+Apt = Lado/T
+Area = 5*Lado*Apt/2
+Print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Area,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Area,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Area,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Area,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Area,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Area,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:28:19)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Area = 5*Lado**2/(2*T)
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Informe o lado do pentágono:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Informe o lado do pentágono:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Informe o lado do pentágono:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Informe o lado do pentágono:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Informe o lado do pentágono:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Informe o lado do pentágono:172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:09:30)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+print(T)
+Lado = float(input("Informe o lado do pentágono"))
+Apotm = lado/2
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    Apotm = lado/2
+            ^^^^
+NameError: name 'lado' is not defined. Did you mean: 'Lado'?
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    Apotm = lado/2
+            ^^^^
+NameError: name 'lado' is not defined. Did you mean: 'Lado'?
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    Apotm = lado/2
+            ^^^^
+NameError: name 'lado' is not defined. Did you mean: 'Lado'?
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    Apotm = lado/2
+            ^^^^
+NameError: name 'lado' is not defined. Did you mean: 'Lado'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    Apotm = lado/2
+            ^^^^
+NameError: name 'lado' is not defined. Did you mean: 'Lado'?
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    Apotm = lado/2
+            ^^^^
+NameError: name 'lado' is not defined. Did you mean: 'Lado'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:47:08)
+-- CODE: 
+from math import pi 
+from math import tan 
+
+
+# faça seu código aqui!
+T = 2*tan(pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+
+Apotema = Lado/T
+Area = 5* Lado*Apotema/2
+
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Informe o lado do pentágono:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Informe o lado do pentágono:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Informe o lado do pentágono:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Informe o lado do pentágono:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Informe o lado do pentágono:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Informe o lado do pentágono:172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:28:12)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Area = 5*Lado**2/(2*T)
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    T = 2*math.tan(pi/5)
+                   ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    T = 2*math.tan(pi/5)
+                   ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    T = 2*math.tan(pi/5)
+                   ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    T = 2*math.tan(pi/5)
+                   ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    T = 2*math.tan(pi/5)
+                   ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    T = 2*math.tan(pi/5)
+                   ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:50:06)
+-- CODE: 
+from math import pi 
+from math import tan 
+
+
+# faça seu código aqui!
+T = 2*tan(pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+
+Apotema = Lado/T
+Area = 5*Lado*Apotema/2
+
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Informe o lado do pentágono:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Informe o lado do pentágono:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Informe o lado do pentágono:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Informe o lado do pentágono:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Informe o lado do pentágono:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Informe o lado do pentágono:172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:39:00)
+-- CODE: 
+from math import pi 
+from math import tan 
+
+
+# faça seu código aqui!
+T = 2*tan(pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+
+Apotema = Lado/(T)
+Area = 5*Lado*Apotema/2
+
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Informe o lado do pentágono:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Informe o lado do pentágono:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Informe o lado do pentágono:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Informe o lado do pentágono:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Informe o lado do pentágono:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Informe o lado do pentágono:172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 01:37:14)
+-- CODE: 
+from math import pi 
+from math import tan 
+
+
+# faça seu código aqui!
+T = 2*tan(pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Apotema = Lado/(2*T)
+Area = 5*Lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Informe o lado do pentágono:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Informe o lado do pentágono:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Informe o lado do pentágono:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Informe o lado do pentágono:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Informe o lado do pentágono:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Informe o lado do pentágono:172.05
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:12:43)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Apt = Lado/T
+Area = 5*Lado*Apt/2
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Informe o lado do pentágono:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Informe o lado do pentágono:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Informe o lado do pentágono:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Informe o lado do pentágono:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Informe o lado do pentágono:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Informe o lado do pentágono:172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:09:17)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2math.tan(math.pi/5)
+print(T)
+Lado = float(input("Informe o lado do pentágono"))
+Apotm = lado/2
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 4
+    T = 2math.tan(math.pi/5)
+        ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 4
+    T = 2math.tan(math.pi/5)
+        ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 4
+    T = 2math.tan(math.pi/5)
+        ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 4
+    T = 2math.tan(math.pi/5)
+        ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 4
+    T = 2math.tan(math.pi/5)
+        ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 4
+    T = 2math.tan(math.pi/5)
+        ^
+SyntaxError: invalid decimal literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 02:27:04)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Apt = 
+Area = 5*Lado**2/(2*T)
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 02:27:26)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Area = 5*Lado**2/(2*T)
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Informe o lado do pentágono:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Informe o lado do pentágono:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Informe o lado do pentágono:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Informe o lado do pentágono:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Informe o lado do pentágono:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Informe o lado do pentágono:172.05
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:48:58)
+-- CODE: 
+from math import pi 
+from math import tan 
+
+
+# faça seu código aqui!
+T = 2*tan(pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+
+Apotema = Lado/T
+Area = 5*Lado*Apotema/2
+
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Informe o lado do pentágono:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Informe o lado do pentágono:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Informe o lado do pentágono:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Informe o lado do pentágono:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Informe o lado do pentágono:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Informe o lado do pentágono:172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:27:03)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Apt = 
+Area = 5*Lado**2/(2*T)
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:48:53)
+-- CODE: 
+from math import pi 
+from math import tan 
+
+
+# faça seu código aqui!
+T = 2*tan(pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+
+Apotema = Lado/T
+Area = 5*Lado*Apotema/2
+
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Informe o lado do pentágono:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Informe o lado do pentágono:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Informe o lado do pentágono:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Informe o lado do pentágono:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Informe o lado do pentágono:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Informe o lado do pentágono:172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 02:27:07)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Apt = 
+Area = 5*Lado**2/(2*T)
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:27:47)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*tan(pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Area = 5*Lado**2/(2*T)
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    T = 2*tan(pi/5)
+          ^^^
+NameError: name 'tan' is not defined
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    T = 2*tan(pi/5)
+          ^^^
+NameError: name 'tan' is not defined
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    T = 2*tan(pi/5)
+          ^^^
+NameError: name 'tan' is not defined
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    T = 2*tan(pi/5)
+          ^^^
+NameError: name 'tan' is not defined
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    T = 2*tan(pi/5)
+          ^^^
+NameError: name 'tan' is not defined
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    T = 2*tan(pi/5)
+          ^^^
+NameError: name 'tan' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:27:16)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Apt = 
+Area = 5*Lado**2/(2*T)
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 6
+    Apt = 
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:37:03)
+-- CODE: 
+from math import pi 
+from math import tan 
+
+
+# faça seu código aqui!
+T = 2*tan(pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Apotema = Lado/(2T)
+Area = 5*Lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+-- ERROR:
+File "XXXX", line 8
+    Apotema = Lado/(2T)
+                    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+-- ERROR:
+File "XXXX", line 8
+    Apotema = Lado/(2T)
+                    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+-- ERROR:
+File "XXXX", line 8
+    Apotema = Lado/(2T)
+                    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+-- ERROR:
+File "XXXX", line 8
+    Apotema = Lado/(2T)
+                    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+-- ERROR:
+File "XXXX", line 8
+    Apotema = Lado/(2T)
+                    ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+-- ERROR:
+File "XXXX", line 8
+    Apotema = Lado/(2T)
+                    ^
+SyntaxError: invalid decimal literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:12:51)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Apt = Lado/T
+Area = 5*Lado*Apt/2
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Informe o lado do pentágono:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Informe o lado do pentágono:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Informe o lado do pentágono:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Informe o lado do pentágono:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Informe o lado do pentágono:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Informe o lado do pentágono:172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:37:09)
+-- CODE: 
+from math import pi 
+from math import tan 
+
+
+# faça seu código aqui!
+T = 2*tan(pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Apotema = Lado/(2*T)
+Area = 5*Lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Informe o lado do pentágono:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Informe o lado do pentágono:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Informe o lado do pentágono:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Informe o lado do pentágono:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Informe o lado do pentágono:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Informe o lado do pentágono:172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 00:12:38)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+T = 2*math.tan(math.pi/5)
+Lado = float(input("Informe o lado do pentágono:"))
+Apt = Lado/T
+Area = 5*Lado*Apt/2
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Informe o lado do pentágono:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Informe o lado do pentágono:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Informe o lado do pentágono:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Informe o lado do pentágono:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Informe o lado do pentágono:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Informe o lado do pentágono:172.05
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

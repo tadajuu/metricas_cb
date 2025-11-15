@@ -1,0 +1,779 @@
+== RUN (2025-08-25 14:55:31)
+-- CODE: 
+#x = int(imput("digite o valor :"))
+TempC = float(imput("Temperatura em Celsius: "))
+TempK  =  TempC + 273,15
+Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius: "))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius: "))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius: "))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius: "))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius: "))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius: "))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:57:52)
+-- CODE: 
+#x = int(imput("digite o valor :"))
+TempC = float(input("Temperatura em Celsius: "))
+tempK  =  TempC + 273.15
+print(round (tempK,2))# o virgula 2 é porque é pra duas casas decimais 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+Temperatura em Celsius: 293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+Temperatura em Celsius: 263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+Temperatura em Celsius: 233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+Temperatura em Celsius: 373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+Temperatura em Celsius: 273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+Temperatura em Celsius: 303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:55:18)
+-- CODE: 
+#x = int(imput("digite o valor :"))
+TempC = float(imput("Temperatura em Celsius:"))
+TempK  =  TempC + 273,15
+Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:54:41)
+-- CODE: 
+#x = int(imput("digite o valor :"))
+TempC = float(imput("Temperatura em Celsius:"))
+TempK  =  TempC + 273,15
+Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:55:47)
+-- CODE: 
+#x = int(imput("digite o valor :"))
+TempC = float(input("Temperatura em Celsius: "))
+TempK  =  TempC + 273,15
+Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:53:48)
+-- CODE: 
+#x = int(imput("digite o valor :"))
+TempC = float(imput("digite o valor"))
+TempK  =  TempC + 273,15
+Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("digite o valor"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("digite o valor"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("digite o valor"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("digite o valor"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("digite o valor"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("digite o valor"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:55:18)
+-- CODE: 
+#x = int(imput("digite o valor :"))
+TempC = float(imput("Temperatura em Celsius:"))
+TempK  =  TempC + 273,15
+Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:57:59)
+-- CODE: 
+#x = int(imput("digite o valor :"))
+TempC = float(input("Temperatura em Celsius: "))
+tempK  =  TempC + 273.15
+print(round (tempK,2))# o virgula 2 é porque é pra duas casas decimais 
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+Temperatura em Celsius: 293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+Temperatura em Celsius: 263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+Temperatura em Celsius: 233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+Temperatura em Celsius: 373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+Temperatura em Celsius: 273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+Temperatura em Celsius: 303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:56:29)
+-- CODE: 
+#x = int(imput("digite o valor :"))
+TempC = float(input("Temperatura em Celsius: "))
+TempK  =  TempC + 273.15
+Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:57:14)
+-- CODE: 
+#x = int(imput("digite o valor :"))
+TempC = float(input("Temperatura em Celsius: "))
+TempK  =  TempC + 273.15
+print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+                 ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'TempK'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+                 ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'TempK'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+                 ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'TempK'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+                 ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'TempK'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+                 ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'TempK'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+                 ^^^^^
+NameError: name 'tempk' is not defined. Did you mean: 'TempK'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:54:45)
+-- CODE: 
+#x = int(imput("digite o valor :"))
+TempC = float(imput("Temperatura em Celsius:"))
+TempK  =  TempC + 273,15
+Print(round (tempk,2))# o virgula 2 é porque é pra duas casas decimais 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    TempC = float(imput("Temperatura em Celsius:"))
+                  ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

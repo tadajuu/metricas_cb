@@ -1,0 +1,478 @@
+== RUN (2025-09-02 23:11:47)
+-- CODE: 
+x = float(input("numero para X: "))
+y = float(input("numero para Y: "))
+
+
+if (x/y):
+  a = (x//y)
+  print(a)
+  print("sim")
+else:
+  b = x%y
+  print(b)
+  print("nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+sim
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+nao
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+sim
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:14:22)
+-- CODE: 
+x = float(input("numero para X: "))
+y = float(input("numero para Y: "))
+
+
+if p == (x/y):
+  a = (x//y)
+  print(a)
+  print("sim")
+else:
+  b = (p%a)
+  print(b)
+  print("nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    if p == (x/y):
+       ^
+NameError: name 'p' is not defined
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    if p == (x/y):
+       ^
+NameError: name 'p' is not defined
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    if p == (x/y):
+       ^
+NameError: name 'p' is not defined
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    if p == (x/y):
+       ^
+NameError: name 'p' is not defined
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    if p == (x/y):
+       ^
+NameError: name 'p' is not defined
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    if p == (x/y):
+       ^
+NameError: name 'p' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 23:07:34)
+-- CODE: 
+x = float(input("numero para X: "))
+y = float(input("numero para Y: "))
+
+
+if (x/y):
+  
+  a = x//y
+  print(a)
+  print("sim")
+else:
+  b = x%y
+  print(b)
+  print("nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+sim
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+nao
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+sim
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:11:48)
+-- CODE: 
+x = float(input("numero para X: "))
+y = float(input("numero para Y: "))
+
+
+if (x/y):
+  a = (x//y)
+  print(a)
+  print("sim")
+else:
+  b = x%y
+  print(b)
+  print("nao")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+sim
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+nao
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+sim
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+sim
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:14:24)
+-- CODE: 
+x = float(input("numero para X: "))
+y = float(input("numero para Y: "))
+
+
+if p == (x/y):
+  a = (x//y)
+  print(a)
+  print("sim")
+else:
+  b = (p%a)
+  print(b)
+  print("nao")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    if p == (x/y):
+       ^
+NameError: name 'p' is not defined
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    if p == (x/y):
+       ^
+NameError: name 'p' is not defined
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    if p == (x/y):
+       ^
+NameError: name 'p' is not defined
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    if p == (x/y):
+       ^
+NameError: name 'p' is not defined
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    if p == (x/y):
+       ^
+NameError: name 'p' is not defined
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    if p == (x/y):
+       ^
+NameError: name 'p' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 23:28:55)
+-- CODE: 
+x = int(input("numero para X: "))
+y = int(input("numero para Y: "))
+
+if x%y == 0:
+  print(x//y)
+  print("sim")
+else:
+  print(x%y)
+  print("nao")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1243
+5
+---- correct output:
+3
+nao
+---- user output:
+nao
+-- TEST CASE 2:
+---- input:
+432
+3
+---- correct output:
+144
+sim
+---- user output:
+sim
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+sim
+---- user output:
+sim
+-- TEST CASE 4:
+---- input:
+0
+12
+---- correct output:
+0
+sim
+---- user output:
+sim
+-- TEST CASE 5:
+---- input:
+239
+12
+---- correct output:
+11
+nao
+---- user output:
+nao
+-- TEST CASE 6:
+---- input:
+9
+2
+---- correct output:
+1
+nao
+---- user output:
+nao
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

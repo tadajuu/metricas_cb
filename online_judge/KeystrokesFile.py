@@ -33,21 +33,35 @@ class KeystrokesFile(File):
         """
         Retorna a última linha do arquivo contendo uma datetime.
         Adaptado de: https://www.codingem.com/how-to-read-the-last-line-of-a-file-in-python/
-        https://stackoverflow.com/questions/3346430/what-is-the-most-efficient-way-to-get-first-and-last-line-of-a-text-file#:~:text=use%20f.,Line%20Before%20Last%20Line...
         """
         last_line_str = ""
         try:
-            PATTERN_DATE = r'\d+-\d+-\d+'
-            PATTERN_TIME = r'\d+:\d+:\d+\.\d+'
-            PATTERN_DATETIME = PATTERN_DATE + ' ' + PATTERN_TIME
+            PATTERN_DATE = r'\d{4}-\d{2}-\d{2}'
+            PATTERN_TIME = r'\d{2}:\d{2}:\d{2}\.\d{3}'
+            PATTERN_DATETIME = PATTERN_DATE + r'T' + PATTERN_TIME + r'Z'
             file.seek(0, os.SEEK_END)  # Jump to end of file.
+
+            # Verificar se o arquivo tem apenas uma linha
+            file_position = file.tell()  # Obtém a posição atual no arquivo
+            file.seek(0, os.SEEK_SET)  # Voltar para o início do arquivo
+            content = file.read()  # Ler todo o conteúdo
+
+            # Se o arquivo tiver apenas uma linha, retornamos essa linha
+            if file_position == len(content):
+                return content.decode().strip()  # Decodifica para string e remove quebras de linha
+
+            # Se o arquivo tem mais de uma linha, podemos continuar a busca pela última linha
             while not bool(re.search(PATTERN_DATETIME, last_line_str)):
-                file.seek(-len(last_line_str) - 2, os.SEEK_CUR)  # ... jump back
+                file.seek(-len(last_line_str) - 2, os.SEEK_CUR)  # Volta no arquivo
                 count = 0
-                while file.read(1) != b"\n":  # Until EOL is found ...
-                    file.seek(-2, os.SEEK_CUR)  # ... jump back, over the read byte plus one more.
+                while True:
+                    byte = file.read(1)
+                    if byte == b"\n" or not byte:  # Até encontrar o fim da linha ou EOF
+                        break
+                    file.seek(-2, os.SEEK_CUR)  # Volta sobre o byte lido e mais um
                     count += 1
-                last_line_str = file.read(count).decode()
+                last_line_str = file.read(count).decode()  # Decodifica para string
+
             return last_line_str
         except OSError:
             file.seek(0)
@@ -58,7 +72,7 @@ class KeystrokesFile(File):
         time_str = KeystrokesFile.extract_time(line)
         datetime_str = date_str + " " + time_str
         try:
-            if time_str[-1] == "#":
+            if time_str[-1] == "Z":
                 # for debugging: print(datetime_str[:-1])       # debug
                 _datetime = datetime.fromisoformat(datetime_str[:-1])
             else:
@@ -111,7 +125,8 @@ class KeystrokesFile(File):
 
     @staticmethod
     def extract_time(line: str) -> str:
-        PATTERN_TIME = r'\d+:\d+:\d+\.\d+#'
+        #PATTERN_TIME = r'\d+:\d+:\d+\.\d+#'
+        PATTERN_TIME = r'\d+:\d+:\d+\.\d+Z'
         time_lst = re.findall(PATTERN_TIME, line)
         if time_lst:
             time_str = time_lst[0]

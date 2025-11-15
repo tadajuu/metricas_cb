@@ -1,0 +1,3 @@
+
+var = imput()
+print (var)

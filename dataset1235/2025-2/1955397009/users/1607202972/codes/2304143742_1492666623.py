@@ -1,0 +1,9 @@
+sucos=float(input())
+salgados=float(input())
+dinheiro=float(input())
+if((sucos*3)+(salgados*3.50)<=dinheiro):
+  print((sucos*3)+(salgados*3.50))
+  print("Sim")
+else:
+  print((sucos*3)+(salgados*3.50))
+  print("Nao")

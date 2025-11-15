@@ -1,0 +1,964 @@
+== SUBMISSION (2025-08-27 01:15:28)
+-- CODE: 
+#entrada de dados
+X = int(input("Digite o valor de X(dividendo):"))
+Y = int(input("Digite o valoder de Y(divisor):"))
+#operações aritméticas
+Quociente_Inteiro=X//Y  #divisão inteira
+Resto=X%Y               #resto da divisão
+Quociente_Real=X/Y       #divisão real
+Produto=X*Y             #multiplicação
+Potência=Y**3           #Potenciação(y elevado ao cubo)
+#saída de dados
+print(Quociente_Inteiro"Quociente da divisão inteira")
+print(Resto"Resto da divisão inteira")
+print(Quociente_Real"Quociente da deivisão real")
+print(Produto"Produto de X vezes Y")
+print(Potência"Y elevado a terceira potência")
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 11
+    print(Quociente_Inteiro"Quociente da divisão inteira")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 11
+    print(Quociente_Inteiro"Quociente da divisão inteira")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 11
+    print(Quociente_Inteiro"Quociente da divisão inteira")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 11
+    print(Quociente_Inteiro"Quociente da divisão inteira")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 11
+    print(Quociente_Inteiro"Quociente da divisão inteira")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 11
+    print(Quociente_Inteiro"Quociente da divisão inteira")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:11:30)
+-- CODE: 
+#entrada de dados
+X = int(input("Digite o valor de X(dividendo):"))
+Y = int(input("Digite o valoder de Y(divisor):"))
+#operações aritméticas
+Quociente_Inteiro = X//Y  #divisão inteira
+Resto = X%Y               #resto da divisão
+Quociente_Real= X/Y       #divisão real
+Produto = X*Y             #multiplicação
+Potência = Y**3           #Potenciação(y elevado ao cubo)
+#saída de dados
+print("Quociente da divisão inteira:",Quociente_Inteiro)
+print("Resto da divisão inteira:",Resto)
+print("Quociente da divisão real:",Quociente_Real)
+print("Produto de X vezes Y:",Produto)
+print("Y elevado à terceira potência:",Potência)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 01:12:58)
+-- CODE: 
+#entrada de dados
+X = int(input("Digite o valor de X(dividendo):"))
+Y = int(input("Digite o valoder de Y(divisor):"))
+#operações aritméticas
+Quociente_Inteiro=X//Y  #divisão inteira
+Resto=X%Y               #resto da divisão
+Quociente_Real=X/Y       #divisão real
+Produto=X*Y             #multiplicação
+Potência=Y**3           #Potenciação(y elevado ao cubo)
+#saída de dados
+print(Quociente_Inteiro)
+print(Resto)
+print(Quociente_Real)
+print(Produto)
+print(Potência)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 01:10:59)
+-- CODE: 
+#entrada de dados
+X = int(input("Digite o valor de X(dividendo):"))
+Y = int(input("Digite o valoder de Y(divisor):"))
+#operações aritméticas
+Quociente_Inteiro = X//Y  #divisão inteira
+Resto = X%Y               #resto da divisão
+Quociente_Real= X/Y       #divisão real
+Produto = X*Y             #multiplicação
+Potência = Y**3           #Potenciação(y elevado ao cubo)
+#saída de dados
+print("Quociente da divisão inteira",Quociente_Inteiro)
+print("Resto da divisão inteira",Resto)
+print("Quociente da divisão real",Quociente_Real)
+print("Produto de X vezes Y",Produto)
+print("Y elevado à terceira potência",Potência)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 01:15:55)
+-- CODE: 
+#entrada de dados
+X = int(input("Digite o valor de X(dividendo):"))
+Y = int(input("Digite o valoder de Y(divisor):"))
+#operações aritméticas
+Quociente_Inteiro=X//Y  #divisão inteira
+Resto=X%Y               #resto da divisão
+Quociente_Real=X/Y       #divisão real
+Produto=X*Y             #multiplicação
+Potência=Y**3           #Potenciação(y elevado ao cubo)
+#saída de dados
+print(Quociente_Inteiro)
+print(Resto)
+print(Quociente_Real)
+print(Produto)
+print(Potência)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 01:15:17)
+-- CODE: 
+#entrada de dados
+X = int(input("Digite o valor de X(dividendo):"))
+Y = int(input("Digite o valoder de Y(divisor):"))
+#operações aritméticas
+Quociente_Inteiro=X//Y  #divisão inteira
+Resto=X%Y               #resto da divisão
+Quociente_Real=X/Y       #divisão real
+Produto=X*Y             #multiplicação
+Potência=Y**3           #Potenciação(y elevado ao cubo)
+#saída de dados
+print(Quociente_Inteiro,"Quociente da divisão inteira")
+print(Resto,"Resto da divisão inteira")
+print(Quociente_Real,"Quociente da deivisão real")
+print(Produto,"Produto de X vezes Y")
+print(Potência,"Y elevado a terceira potência")
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8 Y elevado a terceira potência
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125 Y elevado a terceira potência
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125 Y elevado a terceira potência
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8 Y elevado a terceira potência
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8 Y elevado a terceira potência
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8 Y elevado a terceira potência
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 01:11:27)
+-- CODE: 
+#entrada de dados
+X = int(input("Digite o valor de X(dividendo):"))
+Y = int(input("Digite o valoder de Y(divisor):"))
+#operações aritméticas
+Quociente_Inteiro = X//Y  #divisão inteira
+Resto = X%Y               #resto da divisão
+Quociente_Real= X/Y       #divisão real
+Produto = X*Y             #multiplicação
+Potência = Y**3           #Potenciação(y elevado ao cubo)
+#saída de dados
+print("Quociente da divisão inteira:",Quociente_Inteiro)
+print("Resto da divisão inteira:",Resto)
+print("Quociente da divisão real:",Quociente_Real)
+print("Produto de X vezes Y:",Produto)
+print("Y elevado à terceira potência:",Potência)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:10:56)
+-- CODE: 
+#entrada de dados
+X = int(input("Digite o valor de X(dividendo):"))
+Y = int(input("Digite o valoder de Y(divisor):"))
+#operações aritméticas
+Quociente_Inteiro = X//Y  #divisão inteira
+Resto = X%Y               #resto da divisão
+Quociente_Real= X/Y       #divisão real
+Produto = X*Y             #multiplicação
+Potência = Y**3           #Potenciação(y elevado ao cubo)
+#saída de dados
+print("Quociente da divisão inteira",Quociente_Inteiro)
+print("Resto da divisão inteira",Resto)
+print("Quociente da divisão real",Quociente_Real)
+print("Produto de X vezes Y",Produto)
+print("Y elevado à terceira potência",Potência)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 01:15:03)
+-- CODE: 
+#entrada de dados
+X = int(input("Digite o valor de X(dividendo):"))
+Y = int(input("Digite o valoder de Y(divisor):"))
+#operações aritméticas
+Quociente_Inteiro=X//Y  #divisão inteira
+Resto=X%Y               #resto da divisão
+Quociente_Real=X/Y       #divisão real
+Produto=X*Y             #multiplicação
+Potência=Y**3           #Potenciação(y elevado ao cubo)
+#saída de dados
+print(Quociente_Inteiro,"Quociente da divisão inteira:")
+print(Resto,"Resto da divisão inteira:")
+print(Quociente_Real,"Quociente da deivisão real:")
+print(Produto,"Produto de X vezes Y:")
+print(Potência,"Y elevado a terceira potência:")
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8 Y elevado a terceira potência:
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125 Y elevado a terceira potência:
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125 Y elevado a terceira potência:
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8 Y elevado a terceira potência:
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8 Y elevado a terceira potência:
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8 Y elevado a terceira potência:
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 01:12:25)
+-- CODE: 
+#entrada de dados
+X = int(input("Digite o valor de X(dividendo):"))
+Y = int(input("Digite o valoder de Y(divisor):"))
+#operações aritméticas
+Quociente_Inteiro=X//Y  #divisão inteira
+Resto=X%Y               #resto da divisão
+Quociente_Real=X/Y       #divisão real
+Produto=X*Y             #multiplicação
+Potência=Y**3           #Potenciação(y elevado ao cubo)
+#saída de dados
+print("Quociente da divisão inteira:",Quociente_Inteiro)
+print("Resto da divisão inteira:",Resto)
+print("Quociente da divisão real:",Quociente_Real)
+print("Produto de X vezes Y:",Produto)
+print("Y elevado à terceira potência:",Potência)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,5 @@
+x=float(input("mumero total de jogos:"))
+y=float(input("valor total:"))
+z=float(input("valor total:"))
+tt=(x*y+z)
+print("valor total é:", tt)

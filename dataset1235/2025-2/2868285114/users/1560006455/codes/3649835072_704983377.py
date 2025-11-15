@@ -1,0 +1,7 @@
+x = int(input("insira o numero: "))
+y = int(input("insira numero: "))
+print(x//y)
+print(x%y)
+print(x/y)
+print(x*y)
+print(y**3)

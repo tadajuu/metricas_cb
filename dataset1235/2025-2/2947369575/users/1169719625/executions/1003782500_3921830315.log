@@ -1,0 +1,226 @@
+== RUN (2025-08-27 20:11:50)
+-- CODE: 
+litros = float(input("Digite a quantidade de litros abastecidos: "))
+
+preco_gasolina = 2.86 
+troca_de_oleo = 50.00
+icms = 34
+
+valor_abastecimento = litros * preco_gasolina
+
+total_sem_icms = valor_abastecimento + troca_de_oleo
+
+print(round(valor_total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 20:11:58)
+-- CODE: 
+litros = float(input("Digite a quantidade de litros abastecidos: "))
+
+preco_gasolina = 2.86 
+troca_de_oleo = 50.00
+icms = 34
+
+valor_abastecimento = litros * preco_gasolina
+
+total_sem_icms = valor_abastecimento + troca_de_oleo
+
+print(round(valor_total, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(valor_total, 2))
+                ^^^^^^^^^^^
+NameError: name 'valor_total' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 20:14:01)
+-- CODE: 
+litros = float(input("Digite a quantidade de litros abastecidos: "))
+
+preco_gasolina = 2.86 
+troca_oleo = 50.00
+icms = 34
+
+valor_abastecimento = litros * preco_gasolina
+
+total_sem_icms = valor_abastecimento + troca_oleo
+
+valor_total = total_sem_icms * (1 + icms / 100)
+
+print(round(valor_total, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Digite a quantidade de litros abastecidos: 106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Digite a quantidade de litros abastecidos: 634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Digite a quantidade de litros abastecidos: 258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Digite a quantidade de litros abastecidos: 401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Digite a quantidade de litros abastecidos: 979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Digite a quantidade de litros abastecidos: 230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

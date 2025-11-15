@@ -41,6 +41,7 @@ class SyntaxProcessor:
         mls_value_list = []
         scores_normalized_list = []
         total_pairs_list = []
+        lista_seq = []
 
         semesters = self.cb_log.semesters.values()
         for semester in semesters:
@@ -61,11 +62,9 @@ class SyntaxProcessor:
                     if user.user_id in online_judge.LUT_tutors_monitors_professors:
                         # print("Pula tutores!")
                         continue
-
                     for codefile in user.codefiles.values():
                         exercise_id = int(online_judge.Helper.extract_exercise_id(codefile.id))
                         assessment_id = int(online_judge.Helper.extract_assessment_id(codefile.id))
-
                         # Salta o Simulado 2: retirar quando for processar o período 2023/2
                         if assessment_id == 4527:
                             continue
@@ -106,6 +105,7 @@ class SyntaxProcessor:
                             mls_value_list.append(mls.value)
                             scores_normalized_list.append(mls.scores_normalized)
                             total_pairs_list.append(mls.total_pairs)
+                            lista_seq.append(mls.lista_seq)
                             i += 1
 
         self.max_mls_value = np.max(mls_value_list)
@@ -122,6 +122,7 @@ class SyntaxProcessor:
                                'MLS_VALUE': mls_value_normalized_list,
                                'SCORES_NORMALIZED': scores_normalized_list,
                                'TOTAL_PAIRS': total_pairs_list,
+                               'LISTA_SEQ': lista_seq
                                })
         # df_MLS.to_csv('../reports/REPORT_MLS_BY_STUDENT_EXERCISE.csv', encoding='utf-8', index=False)
         return df_MLS
@@ -141,15 +142,14 @@ class SyntaxProcessor:
         user_id_list = []
         MLS_value_list = []
         MLS_IRBO_grade_list = []
-
         max_mls_value = np.max(df_MLS_exercise['MLS_VALUE'])
         first_time = True
         user_pred = ''
         sum_scores_normalized = 0.0
         sum_total_pairs = 0
+        total_lista_seq = []
         i: int = 1  # conta registros
         for index, row in df_MLS_exercise.iterrows():
-
             if not bool(row['CONSISTENCY']):
                 continue
 
@@ -175,11 +175,35 @@ class SyntaxProcessor:
             if user_pred == row['USER_ID'] and assessment_pred == row['ASSESSMENT_TYPE']:
                 sum_scores_normalized += float(row['SCORES_NORMALIZED'])
                 sum_total_pairs += float(row['TOTAL_PAIRS'])
+                for num in (row['LISTA_SEQ']):
+                    total_lista_seq.append(float(num))
             else:
                 if sum_total_pairs > 0.0:
-                    mls = (1.0 - (sum_scores_normalized / sum_total_pairs)) / max_mls_value
+                    #calcular mean_p_i:
+                    conjuntos = []
+                    l_soma = 0
+                    mean_p_i = 0
+                    size_conjunto = 0
+                    iniciou = False
+                    for num in total_lista_seq:
+                        if num == 11:
+                            if iniciou:
+                                size_conjunto += 1
+                            else:
+                                iniciou = True
+                                size_conjunto += 1
+                        else:
+                            if iniciou:
+                                if size_conjunto > 1:
+                                    conjuntos.append(size_conjunto)
+                                size_conjunto = 0
+                                iniciou = False
+                    for seq in conjuntos:
+                        l_soma += seq
+                    mean_p_i = (l_soma + len(conjuntos)) / (2 * sum_total_pairs)
+                    #print(f"sum_scores = {sum_scores_normalized} pairs = {sum_total_pairs} mean_p_i = {mean_p_i}")
+                    mls = (1.0 - pow((sum_scores_normalized / sum_total_pairs),1 - mean_p_i)) / max_mls_value
                     if mls > 1.0:
-                        # print("Overflow MSL:", mls)
                         mls = 1.0
                 else:
                     mls = 0.0
@@ -197,12 +221,12 @@ class SyntaxProcessor:
                 # chamados de grade.
                 num_score = round(mls, self.DECIMAL_PLACES)
                 MLS_value_list.append(num_score * 10) # *10 para num_score ficar entre 0.0 e 10.0
-
                 # Obtém um conceito IRBO a partir do valor da assertividade, isto é, num_score.
                 MLS_IRBO_grade_list.append(Helper.IRBO_scale("S", num_score * 10))  # *10 para num_score ficar entre 0.0 e 10.0
 
                 # Reinicia
                 sum_scores_normalized = float(row['SCORES_NORMALIZED'])
+                total_lista_seq = row['LISTA_SEQ']
                 sum_total_pairs = float(row['TOTAL_PAIRS'])
                 date_start_pred = row['DATE_START']
                 semester_pred = row['SEMESTER_ID']
@@ -214,7 +238,28 @@ class SyntaxProcessor:
 
         # Processamento do último aluno do arquivo/relatório
         if sum_total_pairs > 0.0:
-            mls = (1.0 - (sum_scores_normalized / sum_total_pairs)) / max_mls_value
+            conjuntos = []
+            l_soma = 0
+            mean_p_i = 0
+            iniciou = False
+            size_conjunto = 0
+            for num in total_lista_seq:
+                if num == 11:
+                    if iniciou:
+                        size_conjunto += 1
+                    else:
+                        iniciou = True
+                        size_conjunto += 1
+                else:
+                    if iniciou:
+                        if size_conjunto > 1:
+                            conjuntos.append(size_conjunto)
+                        size_conjunto = 0
+                        iniciou = False
+            for seq in conjuntos:
+                l_soma += seq
+            mean_p_i = (l_soma + len(conjuntos)) / (2 * sum_total_pairs)
+            mls = (1.0 - pow((sum_scores_normalized / sum_total_pairs), 1 - mean_p_i)) / max_mls_value
             if mls > 1.0:
                 # print("Overflow MSL:", mls)
                 mls = 1.0
@@ -230,7 +275,7 @@ class SyntaxProcessor:
         assessments_id_list.append(assessment_id_pred)
         user_id_list.append(user_pred)
         num_score = round(mls, self.DECIMAL_PLACES)
-        MLS_value_list.append(num_score)
+        MLS_value_list.append(num_score *10)
         MLS_IRBO_grade_list.append(Helper.IRBO_scale("S", num_score * 10))  # *10 para num_score ficar entre 0.0 e 10.0
 
         df = pd.DataFrame({'ID': id_list,

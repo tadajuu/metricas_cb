@@ -1,0 +1,240 @@
+== RUN (2025-08-19 18:02:08)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(.upper(frase))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(.upper(frase))
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(.upper(frase))
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 18:02:51)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+Ada Lovelace foi a primeira programadora da historia.
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+Ada Lovelace foi a primeira programadora da historia.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 18:01:35)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+<built-in method upper of str object at 0x00000225DF75CF10>
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+<built-in method upper of str object at 0x000001D9A890CF10>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 18:03:34)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(.upper((frase))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(.upper((frase))
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(.upper((frase))
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 19:20:10)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper())
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 18:02:40)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+<built-in method upper of str object at 0x000001C30732CF10>
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+<built-in method upper of str object at 0x000001F03B40CF10>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 19:20:08)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 18:05:46)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper(2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper(2))
+          ^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper(2))
+          ^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 18:05:21)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+<built-in method upper of str object at 0x000001CF54F0CF10>
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+<built-in method upper of str object at 0x000001A85B30CF10>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 18:01:48)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print.upper(frase)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print.upper(frase)
+    ^^^^^^^^^^^
+AttributeError: 'builtin_function_or_method' object has no attribute 'upper'
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print.upper(frase)
+    ^^^^^^^^^^^
+AttributeError: 'builtin_function_or_method' object has no attribute 'upper'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

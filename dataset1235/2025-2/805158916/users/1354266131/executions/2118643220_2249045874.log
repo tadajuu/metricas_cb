@@ -1,0 +1,825 @@
+== RUN (2025-09-01 14:25:31)
+-- CODE: 
+
+# faça seu código aqui!
+
+lado = float(input())
+from math import pi
+from math import tan
+apotema = lado/2*tan(pi/8)
+A = 4* lado * apotema
+print(A)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+---- user output:
+13.254833995939041
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+---- user output:
+53.019335983756164
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+20.71067811865475
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+20.71067811865475
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+---- user output:
+67.1025971044414
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+---- user output:
+29.823376490862845
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:26:02)
+-- CODE: 
+
+# faça seu código aqui!
+
+lado = float(input())
+from math import pi
+from math import tan
+apotema = lado/(2*tan(pi/8))
+A = 4* lado * apotema
+print(A)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+---- user output:
+77.25483399593904
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+---- user output:
+309.01933598375615
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+120.71067811865476
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+120.71067811865476
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+---- user output:
+391.1025971044414
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+---- user output:
+173.82337649086287
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:27:18)
+-- CODE: 
+
+# faça seu código aqui!
+
+lado = float(input())
+from math import pi
+from math import tan
+apotema = lado/(2*tan(pi/8))
+A = 4 * lado * apotema
+print(round(A,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+---- user output:
+77.25
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+---- user output:
+309.02
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+120.71
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+120.71
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+---- user output:
+391.1
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+---- user output:
+173.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:26:43)
+-- CODE: 
+
+# faça seu código aqui!
+
+lado = float(input())
+from math import pi
+from math import tan
+apotema = lado/(2*tan(pi/8))
+A = 4* lado * apotema
+print(round(A,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+---- user output:
+77.25
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+---- user output:
+309.02
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+120.71
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+120.71
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+---- user output:
+391.1
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+---- user output:
+173.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:24:12)
+-- CODE: 
+
+# faça seu código aqui!
+
+lado = float(input())
+from math import * pi
+from math import * tan
+apotema = lado/2*tan(pi/8)
+A = 4* lado * apotema
+print(A)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:26:32)
+-- CODE: 
+
+# faça seu código aqui!
+
+lado = float(input())
+from math import pi
+from math import tan
+apotema = lado/(2*tan(pi/8))
+A = 4* lado * apotema
+print(roud(A,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(A,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(A,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(A,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(A,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(A,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(roud(A,2))
+          ^^^^
+NameError: name 'roud' is not defined. Did you mean: 'round'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:24:13)
+-- CODE: 
+
+# faça seu código aqui!
+
+lado = float(input())
+from math import * pi
+from math import * tan
+apotema = lado/2*tan(pi/8)
+A = 4* lado * apotema
+print(A)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:29:36)
+-- CODE: 
+
+# faça seu código aqui!
+
+lado = float(input())
+from math import pi
+from math import tan
+apotema = lado/(2*tan(pi/8))
+A = 4 * lado * apotema
+print(round(A,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+---- user output:
+77.25
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+---- user output:
+309.02
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+120.71
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+120.71
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+---- user output:
+391.1
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+---- user output:
+173.82
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:24:13)
+-- CODE: 
+
+# faça seu código aqui!
+
+lado = float(input())
+from math import * pi
+from math import * tan
+apotema = lado/2*tan(pi/8)
+A = 4* lado * apotema
+print(A)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+-- ERROR:
+File "XXXX", line 5
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:27:08)
+-- CODE: 
+
+# faça seu código aqui!
+
+lado = float(input())
+from math import pi
+from math import tan
+apotema = lado/(2*tan(pi/8))
+A = 4 * lado * apotema
+print(round(A,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+---- user output:
+77.25
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+---- user output:
+309.02
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+120.71
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+120.71
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+---- user output:
+391.1
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+---- user output:
+173.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:24:57)
+-- CODE: 
+
+# faça seu código aqui!
+
+lado = float(input())
+from math import pi
+from math import tan
+apotema = lado/2*tan(pi/8)
+A = 4* lado * apotema
+print(A)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+---- user output:
+13.254833995939041
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+---- user output:
+53.019335983756164
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+20.71067811865475
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+20.71067811865475
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+---- user output:
+67.1025971044414
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+---- user output:
+29.823376490862845
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:27:13)
+-- CODE: 
+
+# faça seu código aqui!
+
+lado = float(input())
+from math import pi
+from math import tan
+apotema = lado/(2*tan(pi/8))
+A = 4 * lado * apotema
+print(round(A,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+---- user output:
+77.25
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+---- user output:
+309.02
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+120.71
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+120.71
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+---- user output:
+391.1
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+---- user output:
+173.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:23:56)
+-- CODE: 
+from math import * pi
+from math import * tan
+# faça seu código aqui!
+
+lado = float(input())
+apotema = lado/2*tan(pi/8)
+A = 4* lado * apotema
+print(A)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+-- ERROR:
+File "XXXX", line 1
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+-- ERROR:
+File "XXXX", line 1
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+-- ERROR:
+File "XXXX", line 1
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+-- ERROR:
+File "XXXX", line 1
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+-- ERROR:
+File "XXXX", line 1
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+-- ERROR:
+File "XXXX", line 1
+    from math import * pi
+                       ^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

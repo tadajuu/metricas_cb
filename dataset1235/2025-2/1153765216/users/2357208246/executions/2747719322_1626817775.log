@@ -1,0 +1,318 @@
+== RUN (2025-08-14 19:13:51)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+pi = math.pi
+raio = float(input())
+area = pi * raio
+volume = (4/3) * pi * (raio**2)
+print(round(raio, 3), round(area, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+0.1 0.314
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+4.5 14.137
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+12.34 38.767
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+11.0 34.558
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+67.34 211.555
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+2.0 6.283
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 19:14:11)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+pi = math.pi
+raio = float(input())
+area = pi * raio
+volume = (4/3) * pi * (raio**2)
+print(round(area, 3), round(volume, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+0.314 0.042
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+14.137 84.823
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+38.767 637.851
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+34.558 506.844
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+211.555 18994.805
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+6.283 16.755
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 19:16:46)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+pi = math.pi
+raio = float(input())
+area = pi * (raio**2)
+volume = (4/3) * pi * (raio**3)
+print(round(area, 3), round(volume, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+0.031 0.004
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+63.617 381.704
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+478.388 7871.076
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+380.133 5575.28
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+14246.104 1279110.151
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+12.566 33.51
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 19:14:38)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+pi = math.pi
+raio = float(input())
+area = pi * raio
+volume = (4/3) * pi * (raio**2)
+print(round(area, 3), round(volume, 3))
+print(pi)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+3.141592653589793
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+3.141592653589793
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+3.141592653589793
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+3.141592653589793
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+3.141592653589793
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+3.141592653589793
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-14 19:16:52)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+pi = math.pi
+raio = float(input())
+area = pi * (raio**2)
+volume = (4/3) * pi * (raio**3)
+print(round(area, 3), round(volume, 3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+0.031 0.004
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+63.617 381.704
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+478.388 7871.076
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+380.133 5575.28
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+14246.104 1279110.151
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+12.566 33.51
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

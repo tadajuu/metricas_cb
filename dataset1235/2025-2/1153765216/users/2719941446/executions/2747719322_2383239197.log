@@ -1,0 +1,1249 @@
+== RUN (2025-08-25 20:47:23)
+-- CODE: 
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+ang_y=float(input("Angulo Y: "))
+
+rad=math.radians(ang_y)
+
+c=math.sqrt(dist_a**2+dist_b**2-2*dist_a*dist_b*math.cos(rad))
+
+print(round(c,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(ang_y)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(ang_y)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(ang_y)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(ang_y)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(ang_y)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(ang_y)
+        ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:47:30)
+-- CODE: 
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+ang=float(input("Digite o angulo de Y: "))
+
+ang_rad=math.radians(ang)
+
+print(round(ang_rad,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang_rad=math.radians(ang)
+            ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang_rad=math.radians(ang)
+            ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang_rad=math.radians(ang)
+            ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang_rad=math.radians(ang)
+            ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang_rad=math.radians(ang)
+            ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang_rad=math.radians(ang)
+            ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:52:26)
+-- CODE: 
+import math
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+ang=float(input("Digite o angulo de Y: "))
+
+ang_rad=math.radians(ang)
+
+c=math.sqrt(dist_a**2+dist_b**2-2*dist_a*dist_b*math.cos(ang_rad))
+
+print(round(c,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 9.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 16:52:44)
+-- CODE: 
+import math
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+ang=float(input("Digite o angulo de Y: "))
+
+ang_rad=math.radians(ang)
+
+c=math.sqrt(dist_a**2+dist_b**2-2*dist_a*dist_b*math.cos(ang_rad))
+
+print(round(c,2))
+
+-- EXECUTION TIME: 
+0.0166667
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:41:57)
+-- CODE: 
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+gama=float(input("Angulo Y: "))
+
+gama_rad=math.radians(gama)
+
+c=math.sqrt(dist_a**2+dist_b**2-2*dist_a*dist_b*math.cos(gama_rad))
+
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radians(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radians(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radians(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radians(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radians(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radians(gama)
+             ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:47:19)
+-- CODE: 
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+ang=float(inpu("Digite o angulo de Y: "))
+
+ang_rad=math.radians(ang)
+
+print(round(ang_rad,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    ang=float(inpu("Digite o angulo de Y: "))
+              ^^^^
+NameError: name 'inpu' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    ang=float(inpu("Digite o angulo de Y: "))
+              ^^^^
+NameError: name 'inpu' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    ang=float(inpu("Digite o angulo de Y: "))
+              ^^^^
+NameError: name 'inpu' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    ang=float(inpu("Digite o angulo de Y: "))
+              ^^^^
+NameError: name 'inpu' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    ang=float(inpu("Digite o angulo de Y: "))
+              ^^^^
+NameError: name 'inpu' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    ang=float(inpu("Digite o angulo de Y: "))
+              ^^^^
+NameError: name 'inpu' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:51:08)
+-- CODE: 
+import math
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+ang=float(input("Digite o angulo de Y: "))
+
+ang_rad=math.radians(ang)
+
+c=math.sqrt(dist_a**2+dist_b**2-2-dist_a*dist_b*math.cos(ang_rad))
+
+print(round(c,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 94.09
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 18.94
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 23.7
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 3.29
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 54.74
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 11.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:31:42)
+-- CODE: 
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+gama=float(input("Angulo Y: "))
+
+rad=math.radians(gama)
+
+c=math.sqrt(dist_a**2+dist_b**2-2*dist_a*dist_b*math.cos(rad))
+
+print(round(c,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(gama)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(gama)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(gama)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(gama)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(gama)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(gama)
+        ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:48:57)
+-- CODE: 
+import math
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+ang=float(input("Digite o angulo de Y: "))
+
+ang_rad=math.radians(ang)
+
+print(round(ang_rad,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 0.38
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 1.13
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 0.86
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 0.21
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 1.35
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 1.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:51:36)
+-- CODE: 
+import math
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+ang=float(input("Digite o angulo de Y: "))
+
+ang_rad=math.radians(ang)
+
+c=math.sqrt(dist_a**2+dist_b**2-2-dist_a*dist_b*math.cos(ang_rad))
+
+print(round(c,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 94.09
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 18.94
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 23.7
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 3.29
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 54.74
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 11.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:44:19)
+-- CODE: 
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+gama=float(input("Angulo Y: "))
+
+gama_rad=math.radians(gama)
+
+c=math.sqrt(dist_a**2+dist_b**2-2*dist_a*dist_b*math.cos(gama_rad))
+
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radians(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radians(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radians(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radians(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radians(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radians(gama)
+             ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 16:51:38)
+-- CODE: 
+import math
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+ang=float(input("Digite o angulo de Y: "))
+
+ang_rad=math.radians(ang)
+
+c=math.sqrt(dist_a**2+dist_b**2-2-dist_a*dist_b*math.cos(ang_rad))
+
+print(round(c,2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 94.09
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 18.94
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 23.7
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 3.29
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 54.74
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Distancia a: Distancia b : Digite o angulo de Y: 11.05
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 20:49:07)
+-- CODE: 
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+gama=float(input("Angulo Y: "))
+
+rad=math.radians(gama)
+
+c=math.sqrt(dist_a**2+dist_b**2-2*dist_a*dist_b*math.cos(rad))
+
+print(round(c,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(gama)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(gama)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(gama)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(gama)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(gama)
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    rad=math.radians(gama)
+        ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:43:52)
+-- CODE: 
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+gama=float(input("Angulo Y: "))
+
+gama_rad= math.radians(gama)
+
+c=math.sqrt(dist_a**2+dist_b**2-2*dist_a*dist_b*math.cos(gama_rad))
+
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad= math.radians(gama)
+              ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad= math.radians(gama)
+              ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad= math.radians(gama)
+              ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad= math.radians(gama)
+              ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad= math.radians(gama)
+              ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad= math.radians(gama)
+              ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:44:09)
+-- CODE: 
+dist_a=float(input("Distancia a: "))
+dist_b=float(input("Distancia b : "))
+gama=float(input("Angulo Y: "))
+
+gama_rad=math.radian(gama)
+
+c=math.sqrt(dist_a**2+dist_b**2-2*dist_a*dist_b*math.cos(gama_rad))
+
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radian(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radian(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radian(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radian(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radian(gama)
+             ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gama_rad=math.radian(gama)
+             ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

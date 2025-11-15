@@ -1,0 +1,429 @@
+== SUBMISSION (2025-08-19 22:45:09)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor uni = float(input(" "))
+disponivel = float(input(" "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (valor_uni)*8+45
+saldo = disponivel + total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 22:45:32)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input(" "))
+disponivel = float(input(" "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (valor_uni)*8+45
+saldo = disponivel + total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+1745.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+619.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+7093.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+1991941.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+124.6
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+605.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 22:45:55)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input(" "))
+disponivel = float(input(" "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (valor_uni)*8+45
+saldo = disponivel - total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 22:44:50)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor uni = float(input(" "))
+disponivel = float(input(" "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (valor_ uni)*8+45
+saldo = disponivel + total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 22:45:08)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor uni = float(input(" "))
+disponivel = float(input(" "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (valor_uni)*8+45
+saldo = disponivel + total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 5
+    valor uni = float(input(" "))
+          ^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

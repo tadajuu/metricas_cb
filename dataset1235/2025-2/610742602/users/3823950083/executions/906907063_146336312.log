@@ -1,0 +1,549 @@
+== RUN (2025-08-19 21:43:13)
+-- CODE: 
+print (50//3, "&n" ,50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16 &n 2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16 &n 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:42:31)
+-- CODE: 
+print (50//3, &p 50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3, &p 50%3)
+                  ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3, &p 50%3)
+                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:42:53)
+-- CODE: 
+print (50//3, &n ,50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3, &n ,50%3)
+                  ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3, &n ,50%3)
+                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:43:37)
+-- CODE: 
+print (50//3 ,breakpoint, 50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16 <built-in function breakpoint> 2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16 <built-in function breakpoint> 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:22:22)
+-- CODE: 
+print ("Os guerreiros vão recever", 50//3, "moedas")
+print ("O informante recebe", 50%3, "moedas")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+O informante recebe 2 moedas
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+O informante recebe 2 moedas
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:42:42)
+-- CODE: 
+print (50//3,"&n" 50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3,"&n" 50%3)
+                 ^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3,"&n" 50%3)
+                 ^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:42:41)
+-- CODE: 
+print (50//3,"&n" 50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3,"&n" 50%3)
+                 ^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3,"&n" 50%3)
+                 ^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 21:22:16)
+-- CODE: 
+print ("Os guerreiros vão recever", 50//3, "moedas")
+print ("O informante recebe", 50%3, "moedas")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+O informante recebe 2 moedas
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+O informante recebe 2 moedas
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:42:58)
+-- CODE: 
+print (50//3, &p ,50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3, &p ,50%3)
+                  ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3, &p ,50%3)
+                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:42:47)
+-- CODE: 
+print (50//3,&n 50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3,&n 50%3)
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3,&n 50%3)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:43:12)
+-- CODE: 
+print (50//3, "&n" ,50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16 &n 2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16 &n 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:43:21)
+-- CODE: 
+print (50//3, +&n+ ,50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3, +&n+ ,50%3)
+                   ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3, +&n+ ,50%3)
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:42:08)
+-- CODE: 
+print (50//3, 50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16 2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:43:08)
+-- CODE: 
+print (50//3, "&p" ,50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16 &p 2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16 &p 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 21:42:16)
+-- CODE: 
+print (50//3, 50%3)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16 2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16 2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 21:23:08)
+-- CODE: 
+print (50//3)
+print(50%3)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:42:53)
+-- CODE: 
+print (50//3, &n ,50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3, &n ,50%3)
+                  ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3, &n ,50%3)
+                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:43:47)
+-- CODE: 
+print (50//3, 50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16 2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:23:06)
+-- CODE: 
+print (50//3)
+print(50%3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:43:30)
+-- CODE: 
+print (50//3 breakpoint 50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3 breakpoint 50%3)
+           ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3 breakpoint 50%3)
+           ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 21:43:43)
+-- CODE: 
+print (50//3 50%3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3 50%3)
+           ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+16
+2
+-- ERROR:
+File "XXXX", line 1
+    print (50//3 50%3)
+           ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

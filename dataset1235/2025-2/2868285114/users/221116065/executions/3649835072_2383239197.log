@@ -1,0 +1,1790 @@
+== RUN (2025-08-24 01:39:07)
+-- CODE: 
+a = float(input("Qual a distancia entre "a" e o observador?"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 1
+    a = float(input("Qual a distancia entre "a" e o observador?"))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 1
+    a = float(input("Qual a distancia entre "a" e o observador?"))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 1
+    a = float(input("Qual a distancia entre "a" e o observador?"))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 1
+    a = float(input("Qual a distancia entre "a" e o observador?"))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 1
+    a = float(input("Qual a distancia entre "a" e o observador?"))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 1
+    a = float(input("Qual a distancia entre "a" e o observador?"))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:43:17)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:43:16)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 01:49:52)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt((A**2 + B**2) - (2 * A * B) * (cos(radians(Y))))
+
+print(round(C, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:43:23)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt.(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt.(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt.(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt.(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt.(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt.(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt.(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:43:17)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 01:48:35)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt((A**2 + B**2) - (2 * A * B) * (cos(radians(Y))))
+
+print(round(C, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:46:51)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt((A**2 + B**2) - (2 * A * B) * (cos(radians(Y))))
+
+print(C)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 87.54044513177011
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 16.42206589377482
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 17.14381008855948
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 1.8801855170723265
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 54.43470714567012
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 9.16515138991168
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:47:31)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt((A**2 + B**2) - (2 * A * B) * (cos(radians(Y))))
+
+print(round(C, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 9.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:41:28)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input(radians("Qual o angulo entre A e B?: ")))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Y = float(input(radians("Qual o angulo entre A e B?: ")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Y = float(input(radians("Qual o angulo entre A e B?: ")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Y = float(input(radians("Qual o angulo entre A e B?: ")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Y = float(input(radians("Qual o angulo entre A e B?: ")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Y = float(input(radians("Qual o angulo entre A e B?: ")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Y = float(input(radians("Qual o angulo entre A e B?: ")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:43:57)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+
+print(C)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:39:23)
+-- CODE: 
+A = float(input("Qual a distancia entre A e o observador?: "))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distancia entre A e o observador?:
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distancia entre A e o observador?:
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distancia entre A e o observador?:
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distancia entre A e o observador?:
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distancia entre A e o observador?:
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distancia entre A e o observador?:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:43:12)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:43:34)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:46:36)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt((A**2 + B**2) - (2 * A * B) * (cos(radians(Y)))
+
+print(C)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt((A**2 + B**2) - (2 * A * B) * (cos(radians(Y)))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt((A**2 + B**2) - (2 * A * B) * (cos(radians(Y)))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt((A**2 + B**2) - (2 * A * B) * (cos(radians(Y)))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt((A**2 + B**2) - (2 * A * B) * (cos(radians(Y)))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt((A**2 + B**2) - (2 * A * B) * (cos(radians(Y)))
+            ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt((A**2 + B**2) - (2 * A * B) * (cos(radians(Y)))
+            ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:43:54)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+
+print(C)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:44:45)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt((A**2 + B**2) - (2 * A * B) * (cos(Y)))
+
+print(C)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 111.67792274106135
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 25.636740839321515
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 22.546877024453973
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 1.9415908793182832
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 56.821465920594505
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 17.787244780078364
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:45:06)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt((A**2 + B**2) - (2 * A * B) * (radians(cos(Y))))
+
+print(C)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 100.44449971524399
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 21.34644200469216
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 28.76426810273862
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 4.6729094134098865
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 55.11259193096328
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distancia entre A e o observador?: Qual a distancia entre A e o observador?: Qual o angulo entre A e B?: 12.90967229543478
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:43:46)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    C = sqrt(A**2 + B**2 - 2 * A * B (cos(Y)))
+                                   ^^^^^^^^^^
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:43:31)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:39:14)
+-- CODE: 
+A = float(input("Qual a distancia entre A e o observador?"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distancia entre A e o observador?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distancia entre A e o observador?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distancia entre A e o observador?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distancia entre A e o observador?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distancia entre A e o observador?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distancia entre A e o observador?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:39:21)
+-- CODE: 
+A = float(input("Qual a distancia entre A e o observador?: "))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distancia entre A e o observador?:
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distancia entre A e o observador?:
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distancia entre A e o observador?:
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distancia entre A e o observador?:
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distancia entre A e o observador?:
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distancia entre A e o observador?:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 01:43:35)
+-- CODE: 
+from math import *
+
+A = float(input("Qual a distancia entre A e o observador?: "))
+B = float(input("Qual a distancia entre A e o observador?: "))
+Y = float(input("Qual o angulo entre A e B?: "))
+
+C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    C = sqrt(A**2 + B**2 - 2 * A * B radians(cos(Y)))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

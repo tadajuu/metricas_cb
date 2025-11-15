@@ -1,0 +1,1684 @@
+== SUBMISSION (2025-08-24 16:19:30)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:23:15)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(round(float(kelvin, 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:21:49)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(float(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 13
+    print(float(round(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 13
+    print(float(round(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 13
+    print(float(round(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 13
+    print(float(round(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 13
+    print(float(round(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 13
+    print(float(round(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 16:23:17)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(round(float(kelvin, 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:12:39)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+
+
+# 3 saida
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 16:34:27)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = float(input("10.00"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+10.00293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+10.00263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+10.00233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+10.00373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+10.00273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+10.00303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:27:56)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+float(round(print(kelvin, 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:22:32)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(round(float(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:22:31)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(round(float(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:22:30)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(round(float(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 13
+    print(round(float(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:21:46)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(float(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 13
+    print(float(round(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 13
+    print(float(round(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 13
+    print(float(round(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 13
+    print(float(round(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 13
+    print(float(round(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 13
+    print(float(round(kelvin, 2))
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 16:35:53)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = float(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+10293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+10263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+10233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+10373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+10273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+10303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:19:28)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 16:25:31)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(float(round(kelvin, 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:35:51)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = float(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+10293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+10263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+10233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+10373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+10273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+10303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 16:33:25)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = float(input("10.00"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+10.00293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+10.00263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+10.00233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+10.00373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+10.00273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+10.00303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 19:22:31)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = float(input("10"))
+
+# 2 comando
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+10293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+10263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+10233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+10373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+10273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+10303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:33:21)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = float(input("10.00"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+10.00293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+10.00263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+10.00233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+10.00373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+10.00273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+10.00303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:09:13)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+kelvin round
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 13
+    kelvin round
+           ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 13
+    kelvin round
+           ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 13
+    kelvin round
+           ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 13
+    kelvin round
+           ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 13
+    kelvin round
+           ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 13
+    kelvin round
+           ^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:25:29)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+print(float(round(kelvin, 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 16:15:23)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 16:27:59)
+-- CODE: 
+# conversao entre diferentes escalas de temperatura
+
+# 1 entrada
+
+celsius = int(input("10"))
+
+# 2 operacao
+
+kelvin = celsius + 273.15
+
+# 3 saida
+
+float(round(print(kelvin, 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.25'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-10.0'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-40.0'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100.0'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    celsius = int(input("10"))
+              ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '30.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

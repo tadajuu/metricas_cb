@@ -1,0 +1,1792 @@
+== RUN (2025-08-14 12:43:02)
+-- CODE: 
+Nome = input(maria)
+Idade = int(input(20))
+Altura = float(input(1.54))
+
+print(f"Nome: (maria"))
+print(f"Idade:(20"))
+print(f"Altura:(1.54.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome: (maria"))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome: (maria"))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome: (maria"))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome: (maria"))
+                          ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:55:14)
+-- CODE: 
+Nome = input("Digite seu nome:")
+Idade = int(input("Digite sua idade"))
+Altura = float(input("Digte sua altura"))
+
+print(f"Nome: {maria}")
+print(f"Idade: {20}")
+print(f"Altura: {1.54:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"Nome: {maria}")
+                   ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"Nome: {maria}")
+                   ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"Nome: {maria}")
+                   ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"Nome: {maria}")
+                   ^^^^^
+NameError: name 'maria' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:48:56)
+-- CODE: 
+Nome = input(maria)
+Idade = int(input(20))
+Altura = float(input(1.54))
+
+print(f"Nome: {maria}")
+print(f"Idade: {20}")
+print(f"Altura: {1.54:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Nome = input(maria)
+                 ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Nome = input(maria)
+                 ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Nome = input(maria)
+                 ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Nome = input(maria)
+                 ^^^^^
+NameError: name 'maria' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:47:06)
+-- CODE: 
+Nome = input(maria)
+Idade = int(input(20))
+Altura = float(input(1.54))
+
+print(f"Nome: {maria}")
+print(f"Idade: {20}")
+print(f"Altura: {1.54.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 7
+    (1.54.2f)
+          ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 7
+    (1.54.2f)
+          ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 7
+    (1.54.2f)
+          ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 7
+    (1.54.2f)
+          ^
+SyntaxError: invalid decimal literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:47:55)
+-- CODE: 
+Nome = input(maria)
+Idade = int(input(20))
+Altura = float(input(1.54))
+
+print(f"Nome: {maria}")
+print(f"Idade: {20}")
+print(f"Altura: {1.54 .2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 7
+    (1.54 .2f)
+           ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 7
+    (1.54 .2f)
+           ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 7
+    (1.54 .2f)
+           ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 7
+    (1.54 .2f)
+           ^
+SyntaxError: invalid decimal literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:43:18)
+-- CODE: 
+Nome = input(maria)
+Idade = int(input(20))
+Altura = float(input(1.54))
+
+print(f"Nome:(maria"))
+print(f"Idade:(20"))
+print(f"Altura:(1.54.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome:(maria"))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome:(maria"))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome:(maria"))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome:(maria"))
+                         ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 13:10:43)
+-- CODE: 
+nome = ["maria"]
+Nome = input("Digite seu nome:")
+Idade = int(input("Digite sua idade"))
+Altura = float(input("Digte sua altura"))
+
+print("Nome:",Nome,Idade,Altura)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Digite seu nome:Digite sua idadeDigte sua alturaNome: Teresa 13 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Digite seu nome:Digite sua idadeDigte sua alturaNome: Marcelo 34 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Digite seu nome:Digite sua idadeDigte sua alturaNome: Larissa 23 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Digite seu nome:Digite sua idadeDigte sua alturaNome: Jose 45 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 13:03:10)
+-- CODE: 
+nome = ["maria"]
+Nome = input("Digite seu nome:")
+Idade = int(input("Digite sua idade"))
+Altura = float(input("Digte sua altura"))
+
+print(f"\nNome:{maria}")
+print(f"Idade: {20}")
+print(f"Altura: {1.54:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(f"\nNome:{maria}")
+                    ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(f"\nNome:{maria}")
+                    ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(f"\nNome:{maria}")
+                    ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(f"\nNome:{maria}")
+                    ^^^^^
+NameError: name 'maria' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 13:13:07)
+-- CODE: 
+nome = ["maria"]
+Nome = input("Digite seu nome:")
+Idade = int(input("Digite sua idade"))
+Altura = float(input("Digte sua altura"))
+
+print("Nome:",Nome,"Idade:",Idade,"Altura:",Altura)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Digite seu nome:Digite sua idadeDigte sua alturaNome: Teresa Idade: 13 Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Digite seu nome:Digite sua idadeDigte sua alturaNome: Marcelo Idade: 34 Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Digite seu nome:Digite sua idadeDigte sua alturaNome: Larissa Idade: 23 Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Digite seu nome:Digite sua idadeDigte sua alturaNome: Jose Idade: 45 Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:33:04)
+-- CODE: 
+Nome: <Maria>
+Idade: <20>
+Altura: 1,54
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 1
+    Nome: <Maria>
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 1
+    Nome: <Maria>
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 1
+    Nome: <Maria>
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 1
+    Nome: <Maria>
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 13:05:16)
+-- CODE: 
+nome = ["maria"]
+Nome = input("Digite seu nome:")
+Idade = int(input("Digite sua idade"))
+Altura = float(input("Digte sua altura"))
+
+print("Nome:")
+print("Idade:")
+print("Altura:")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura:
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura:
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura:
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:43:03)
+-- CODE: 
+Nome = input(maria)
+Idade = int(input(20))
+Altura = float(input(1.54))
+
+print(f"Nome: (maria"))
+print(f"Idade:(20"))
+print(f"Altura:(1.54.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome: (maria"))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome: (maria"))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome: (maria"))
+                          ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome: (maria"))
+                          ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:57:47)
+-- CODE: 
+Nome = input("Digite seu nome:")
+Idade = int(input("Digite sua idade"))
+Altura = float(input("Digte sua altura"))
+
+print(f"Nome: {maria}")
+print(f"Idade: {20}")
+print(f"Altura: {1.54:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"Nome: {maria}")
+                   ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"Nome: {maria}")
+                   ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"Nome: {maria}")
+                   ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"Nome: {maria}")
+                   ^^^^^
+NameError: name 'maria' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:44:44)
+-- CODE: 
+Nome = input(maria)
+Idade = int(input(20))
+Altura = float(input(1.54))
+
+print(f"Nome:{maria"})
+print(f"Idade:{20"})
+print(f"Altura:{1.54.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome:{maria"})
+                        ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome:{maria"})
+                        ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome:{maria"})
+                        ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome:{maria"})
+                        ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 13:03:58)
+-- CODE: 
+nome = ["maria"]
+Nome = input("Digite seu nome:")
+Idade = int(input("Digite sua idade"))
+Altura = float(input("Digte sua altura"))
+
+print(f"Nome:{maria}")
+print(f"Idade: {20}")
+print(f"Altura: {1.54:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(f"Nome:{maria}")
+                  ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(f"Nome:{maria}")
+                  ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(f"Nome:{maria}")
+                  ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(f"Nome:{maria}")
+                  ^^^^^
+NameError: name 'maria' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 13:03:07)
+-- CODE: 
+nome = ["maria"]
+Nome = input("Digite seu nome:")
+Idade = int(input("Digite sua idade"))
+Altura = float(input("Digte sua altura"))
+
+print(f"\nNome:{maria}")
+print(f"Idade: {20}")
+print(f"Altura: {1.54:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(f"\nNome:{maria}")
+                    ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(f"\nNome:{maria}")
+                    ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(f"\nNome:{maria}")
+                    ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(f"\nNome:{maria}")
+                    ^^^^^
+NameError: name 'maria' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:33:50)
+-- CODE: 
+Nome: <Maria>
+Idade: <20>
+Altura: 1.54
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 1
+    Nome: <Maria>
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 1
+    Nome: <Maria>
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 1
+    Nome: <Maria>
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 1
+    Nome: <Maria>
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 13:07:30)
+-- CODE: 
+nome = ["maria"]
+Nome = input("Digite seu nome:")
+Idade = int(input("Digite sua idade"))
+Altura = float(input("Digte sua altura"))
+
+print(Nome,Idade,Altura)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Digite seu nome:Digite sua idadeDigte sua alturaTeresa 13 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Digite seu nome:Digite sua idadeDigte sua alturaMarcelo 34 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Digite seu nome:Digite sua idadeDigte sua alturaLarissa 23 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Digite seu nome:Digite sua idadeDigte sua alturaJose 45 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:46:40)
+-- CODE: 
+Nome = input(maria)
+Idade = int(input(20))
+Altura = float(input(1.54))
+
+print(f"Nome: {maria}")
+print(f"Idade: {20"})
+print(f"Altura: {1.54.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 6
+    print(f"Idade: {20"})
+                       ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 6
+    print(f"Idade: {20"})
+                       ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 6
+    print(f"Idade: {20"})
+                       ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 6
+    print(f"Idade: {20"})
+                       ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-14 13:29:42)
+-- CODE: 
+nome = ["maria"]
+Nome = input("Digite seu nome:")
+Idade = int(input("Digite sua idade"))
+Altura = float(input("Digte sua altura"))
+
+print("Nome:",Nome,)
+print("Idade:",Idade)
+print("Altura:",Altura)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:52:26)
+-- CODE: 
+Nome = input("Digite seu nome:")
+Idade = int(input("Digite sua idade"))
+Altura = float(input("Digte sua altura")
+
+print(f"Nome: {maria}")
+print(f"Idade: {20}")
+print(f"Altura: {1.54:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 3
+    Altura = float(input("Digte sua altura")
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 3
+    Altura = float(input("Digte sua altura")
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 3
+    Altura = float(input("Digte sua altura")
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 3
+    Altura = float(input("Digte sua altura")
+                  ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:33:52)
+-- CODE: 
+Nome: <Maria>
+Idade: <20>
+Altura: 1.54
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 1
+    Nome: <Maria>
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 1
+    Nome: <Maria>
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 1
+    Nome: <Maria>
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 1
+    Nome: <Maria>
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 13:17:16)
+-- CODE: 
+nome = ["maria"]
+Nome = input("Digite seu nome:")
+Idade = int(input("Digite sua idade"))
+Altura = float(input("Digte sua altura"))
+
+print("Nome:",Nome,)
+print("Idade:",Idade)
+print("Altura:",Altura)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:46:42)
+-- CODE: 
+Nome = input(maria)
+Idade = int(input(20))
+Altura = float(input(1.54))
+
+print(f"Nome: {maria}")
+print(f"Idade: {20"})
+print(f"Altura: {1.54.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 6
+    print(f"Idade: {20"})
+                       ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 6
+    print(f"Idade: {20"})
+                       ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 6
+    print(f"Idade: {20"})
+                       ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 6
+    print(f"Idade: {20"})
+                       ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:59:24)
+-- CODE: 
+Nome = input("Digite seu nome:")
+Idade = int(input("Digite sua idade"))
+Altura = float(input("Digte sua altura"))
+
+print(f"\nNome:{maria}")
+print(f"Idade: {20}")
+print(f"Altura: {1.54:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"\nNome:{maria}")
+                    ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"\nNome:{maria}")
+                    ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"\nNome:{maria}")
+                    ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"\nNome:{maria}")
+                    ^^^^^
+NameError: name 'maria' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:43:20)
+-- CODE: 
+Nome = input(maria)
+Idade = int(input(20))
+Altura = float(input(1.54))
+
+print(f"Nome:(maria"))
+print(f"Idade:(20"))
+print(f"Altura:(1.54.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome:(maria"))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome:(maria"))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome:(maria"))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 5
+    print(f"Nome:(maria"))
+                         ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 12:53:05)
+-- CODE: 
+Nome = input("Digite seu nome:")
+Idade = int(input("Digite sua idade"))
+Altura = float(input("Digte sua altura"))
+
+print(f"Nome: {maria}")
+print(f"Idade: {20}")
+print(f"Altura: {1.54:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"Nome: {maria}")
+                   ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"Nome: {maria}")
+                   ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"Nome: {maria}")
+                   ^^^^^
+NameError: name 'maria' is not defined
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(f"Nome: {maria}")
+                   ^^^^^
+NameError: name 'maria' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

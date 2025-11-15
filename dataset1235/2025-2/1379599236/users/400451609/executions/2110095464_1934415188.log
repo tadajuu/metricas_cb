@@ -1,0 +1,277 @@
+== SUBMISSION (2025-08-25 18:32:39)
+-- CODE: 
+km = float(input("Qual a distância percorrida? "))
+l = float(input("Quandos litros de combustível foi consumido? "))
+
+consumo = km / l
+
+print(round(consumo,3),"km/l")
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+4554
+464.6
+---- correct output:
+9.802 km/l
+---- user output:
+Qual a distância percorrida? Quandos litros de combustível foi consumido? 9.802 km/l
+-- TEST CASE 2:
+---- input:
+1.0
+0.5
+---- correct output:
+2.0 km/l
+---- user output:
+Qual a distância percorrida? Quandos litros de combustível foi consumido? 2.0 km/l
+-- TEST CASE 3:
+---- input:
+28.572
+2
+---- correct output:
+14.286 km/l
+---- user output:
+Qual a distância percorrida? Quandos litros de combustível foi consumido? 14.286 km/l
+-- TEST CASE 4:
+---- input:
+500.0
+35.0
+---- correct output:
+14.286 km/l
+---- user output:
+Qual a distância percorrida? Quandos litros de combustível foi consumido? 14.286 km/l
+-- TEST CASE 5:
+---- input:
+2254
+124.4
+---- correct output:
+18.119 km/l
+---- user output:
+Qual a distância percorrida? Quandos litros de combustível foi consumido? 18.119 km/l
+-- TEST CASE 6:
+---- input:
+10.0
+2.0
+---- correct output:
+5.0 km/l
+---- user output:
+Qual a distância percorrida? Quandos litros de combustível foi consumido? 5.0 km/l
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:29:50)
+-- CODE: 
+km = float(input("Qual a distância percorrida? "))
+l = float(input("Quandos litros de combustível foi consumido? "))
+
+consumo = km/l
+
+print((round(consumo,3)) "km/l")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4554
+464.6
+---- correct output:
+9.802 km/l
+-- ERROR:
+File "XXXX", line 6
+    print((round(consumo,3)) "km/l")
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+1.0
+0.5
+---- correct output:
+2.0 km/l
+-- ERROR:
+File "XXXX", line 6
+    print((round(consumo,3)) "km/l")
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+28.572
+2
+---- correct output:
+14.286 km/l
+-- ERROR:
+File "XXXX", line 6
+    print((round(consumo,3)) "km/l")
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+500.0
+35.0
+---- correct output:
+14.286 km/l
+-- ERROR:
+File "XXXX", line 6
+    print((round(consumo,3)) "km/l")
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+2254
+124.4
+---- correct output:
+18.119 km/l
+-- ERROR:
+File "XXXX", line 6
+    print((round(consumo,3)) "km/l")
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+10.0
+2.0
+---- correct output:
+5.0 km/l
+-- ERROR:
+File "XXXX", line 6
+    print((round(consumo,3)) "km/l")
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:29:34)
+-- CODE: 
+km = float(input("Qual a distância percorrida? "))
+l = float(input("Quandos litros de combustível foi consumido? "))
+
+consumo = km/l
+
+print(round(consumo,3) "km/l")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+4554
+464.6
+---- correct output:
+9.802 km/l
+-- ERROR:
+File "XXXX", line 6
+    print(round(consumo,3) "km/l")
+          ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+1.0
+0.5
+---- correct output:
+2.0 km/l
+-- ERROR:
+File "XXXX", line 6
+    print(round(consumo,3) "km/l")
+          ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+28.572
+2
+---- correct output:
+14.286 km/l
+-- ERROR:
+File "XXXX", line 6
+    print(round(consumo,3) "km/l")
+          ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+500.0
+35.0
+---- correct output:
+14.286 km/l
+-- ERROR:
+File "XXXX", line 6
+    print(round(consumo,3) "km/l")
+          ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+2254
+124.4
+---- correct output:
+18.119 km/l
+-- ERROR:
+File "XXXX", line 6
+    print(round(consumo,3) "km/l")
+          ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+10.0
+2.0
+---- correct output:
+5.0 km/l
+-- ERROR:
+File "XXXX", line 6
+    print(round(consumo,3) "km/l")
+          ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:30:38)
+-- CODE: 
+km = float(input("Qual a distância percorrida? "))
+l = float(input("Quandos litros de combustível foi consumido? "))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+4554
+464.6
+---- correct output:
+9.802 km/l
+---- user output:
+Qual a distância percorrida? Quandos litros de combustível foi consumido?
+-- TEST CASE 2:
+---- input:
+1.0
+0.5
+---- correct output:
+2.0 km/l
+---- user output:
+Qual a distância percorrida? Quandos litros de combustível foi consumido?
+-- TEST CASE 3:
+---- input:
+28.572
+2
+---- correct output:
+14.286 km/l
+---- user output:
+Qual a distância percorrida? Quandos litros de combustível foi consumido?
+-- TEST CASE 4:
+---- input:
+500.0
+35.0
+---- correct output:
+14.286 km/l
+---- user output:
+Qual a distância percorrida? Quandos litros de combustível foi consumido?
+-- TEST CASE 5:
+---- input:
+2254
+124.4
+---- correct output:
+18.119 km/l
+---- user output:
+Qual a distância percorrida? Quandos litros de combustível foi consumido?
+-- TEST CASE 6:
+---- input:
+10.0
+2.0
+---- correct output:
+5.0 km/l
+---- user output:
+Qual a distância percorrida? Quandos litros de combustível foi consumido?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

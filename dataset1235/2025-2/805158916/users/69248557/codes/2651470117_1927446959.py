@@ -1,0 +1,8 @@
+x = float(input("insira um numero:"))
+x = round(x, 2)
+valor1 = round(x * 0.27, 2)
+valor2 = round(x * 1.42, 2)
+valor3 = round(x * (1- 0.63), 2)
+print(valor1)
+print(valor2)
+print(valor3)

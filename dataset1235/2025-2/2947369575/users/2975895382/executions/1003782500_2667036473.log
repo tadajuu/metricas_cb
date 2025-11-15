@@ -1,0 +1,116 @@
+== SUBMISSION (2025-08-25 23:12:21)
+-- CODE: 
+
+
+def conversor(celsius):
+  kelvin = celsius + 273.15
+  return round(kelvin, 2)
+
+temp = float(input("Digie a temperatura em C: "))
+
+res = conversor(temp)
+print(res)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+Digie a temperatura em C: 293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+Digie a temperatura em C: 263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+Digie a temperatura em C: 233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+Digie a temperatura em C: 373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+Digie a temperatura em C: 273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+Digie a temperatura em C: 303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 23:11:51)
+-- CODE: 
+
+
+def conversor(celsius):
+  kelvin = celsius + 273.15
+  return round(kelvin, 2)
+
+temp = float(input("Digie a temperatura em C: "))
+
+res = conversor(temp)
+print(res)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+Digie a temperatura em C: 293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+Digie a temperatura em C: 263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+Digie a temperatura em C: 233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+Digie a temperatura em C: 373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+Digie a temperatura em C: 273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+Digie a temperatura em C: 303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

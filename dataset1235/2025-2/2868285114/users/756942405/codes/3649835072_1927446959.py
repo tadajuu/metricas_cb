@@ -1,0 +1,7 @@
+valor1 = float(input("Valor 1: "))
+v1 = valor1 * (27/100)
+print(round(v1, 2))
+v2 = valor1 + valor1 * (42/100)
+print(round(v2, 2))
+v3 = valor1 - valor1 *(63/100)
+print(round(v3, 2))

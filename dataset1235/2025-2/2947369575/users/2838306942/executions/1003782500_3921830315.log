@@ -1,0 +1,254 @@
+== SUBMISSION (2025-09-01 21:37:28)
+-- CODE: 
+litros = float(input())
+
+preco_litro = 2.86
+troca_oleo = 50.00
+icms_porcentagem = 34/100
+total_bruto = (litros * preco_litro) + troca_oleo
+icms = total_bruto * icms_porcentagem
+total_final = total_bruto + icms_porcentagem
+print(round(total_final,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+80.08
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+474.11
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+193.34
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+300.3
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+731.68
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+172.4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 21:41:50)
+-- CODE: 
+litros = float(input())
+
+preco_litro = 2.86
+troca_oleo = 50.00
+icms_porcentagem = 34/100
+total_bruto = (litros * preco_litro) + troca_oleo
+icms = total_bruto * icms_porcentagem
+total_final = total_bruto + icms_porcentagem
+print(round(total_final,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+80.08
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+474.11
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+193.34
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+300.3
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+731.68
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+172.4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 21:42:19)
+-- CODE: 
+litros = float(input())
+
+preco_litro = 2.86
+troca_oleo = 50.00
+icms_porcentagem = 34/100
+total_bruto = (litros * preco_litro) + troca_oleo
+icms = total_bruto * icms_porcentagem
+total_final = total_bruto + icms
+print(round(total_final,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 21:36:45)
+-- CODE: 
+litros = float(input())
+
+preco_litro = 2.86
+troca_oleo = 50.00
+icms_porcentagem = 34/100
+total_bruto = (litros * preco_litro) + troca_oleo
+icms = total_bruto * icms_percentual
+total_final = total_bruto + icms_porcentagem
+print(round(total_final,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    icms = total_bruto * icms_percentual
+                         ^^^^^^^^^^^^^^^
+NameError: name 'icms_percentual' is not defined. Did you mean: 'icms_porcentagem'?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    icms = total_bruto * icms_percentual
+                         ^^^^^^^^^^^^^^^
+NameError: name 'icms_percentual' is not defined. Did you mean: 'icms_porcentagem'?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    icms = total_bruto * icms_percentual
+                         ^^^^^^^^^^^^^^^
+NameError: name 'icms_percentual' is not defined. Did you mean: 'icms_porcentagem'?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    icms = total_bruto * icms_percentual
+                         ^^^^^^^^^^^^^^^
+NameError: name 'icms_percentual' is not defined. Did you mean: 'icms_porcentagem'?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    icms = total_bruto * icms_percentual
+                         ^^^^^^^^^^^^^^^
+NameError: name 'icms_percentual' is not defined. Did you mean: 'icms_porcentagem'?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    icms = total_bruto * icms_percentual
+                         ^^^^^^^^^^^^^^^
+NameError: name 'icms_percentual' is not defined. Did you mean: 'icms_porcentagem'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

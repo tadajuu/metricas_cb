@@ -1,0 +1,522 @@
+== RUN (2025-08-21 18:59:20)
+-- CODE: 
+celsius = float(input("digite a temperatura em graus Celsius: "))
+conversão = celsius + 273.15
+print(f"round(x,2){conversão}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)233.14999999999998
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 19:01:05)
+-- CODE: 
+celsius = float(input("digite a temperatura em graus Celsius: "))
+conversão = celsius + 273.15
+print("round(x,2){conversão}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+digite a temperatura em graus Celsius: round(x,2){conversão}
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2){conversão}
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2){conversão}
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2){conversão}
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2){conversão}
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+digite a temperatura em graus Celsius: round(x,2){conversão}
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 19:00:45)
+-- CODE: 
+celsius = float(input("digite a temperatura em graus Celsius: "))
+conversão = celsius + 273.15
+print(round(x,2)f"{conversão}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 3
+    print(round(x,2)f"{conversão}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 3
+    print(round(x,2)f"{conversão}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 3
+    print(round(x,2)f"{conversão}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 3
+    print(round(x,2)f"{conversão}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 3
+    print(round(x,2)f"{conversão}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 3
+    print(round(x,2)f"{conversão}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 19:09:24)
+-- CODE: 
+celsius = float(input("digite a temperatura em graus Celsius: "))
+conversão = celsius + 273.15
+print(round(conversão,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+digite a temperatura em graus Celsius: 293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+digite a temperatura em graus Celsius: 263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+digite a temperatura em graus Celsius: 233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+digite a temperatura em graus Celsius: 373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+digite a temperatura em graus Celsius: 273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+digite a temperatura em graus Celsius: 303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 21:02:16)
+-- CODE: 
+celsius = float(input("digite a temperatura em graus Celsius: "))
+conversão = celsius + 273.15
+print(round(conversão,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+digite a temperatura em graus Celsius: 293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+digite a temperatura em graus Celsius: 263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+digite a temperatura em graus Celsius: 233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+digite a temperatura em graus Celsius: 373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+digite a temperatura em graus Celsius: 273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+digite a temperatura em graus Celsius: 303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 19:06:44)
+-- CODE: 
+celsius = float(input("digite a temperatura em graus Celsius: "))
+conversão = celsius + 273.15
+print("round(conversão,2)")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+digite a temperatura em graus Celsius: round(conversão,2)
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+digite a temperatura em graus Celsius: round(conversão,2)
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+digite a temperatura em graus Celsius: round(conversão,2)
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+digite a temperatura em graus Celsius: round(conversão,2)
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+digite a temperatura em graus Celsius: round(conversão,2)
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+digite a temperatura em graus Celsius: round(conversão,2)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 19:09:01)
+-- CODE: 
+celsius = float(input("digite a temperatura em graus Celsius: "))
+conversão = celsius + 273.15
+print(round(conversão,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+digite a temperatura em graus Celsius: 293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+digite a temperatura em graus Celsius: 263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+digite a temperatura em graus Celsius: 233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+digite a temperatura em graus Celsius: 373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+digite a temperatura em graus Celsius: 273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+digite a temperatura em graus Celsius: 303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 18:57:56)
+-- CODE: 
+celsius = float(input("digite a temperatura em graus Celsius: "))
+conversão = celsius + 273.15
+print(f"round(x,2){celsius}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)20.25
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)-10.0
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)-40.0
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)100.0
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)0.0
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)30.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 19:07:57)
+-- CODE: 
+celsius = float(input("digite a temperatura em graus Celsius: "))
+conversão = celsius + 273.15
+print(f"round({conversão},2)")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+digite a temperatura em graus Celsius: round(293.4,2)
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+digite a temperatura em graus Celsius: round(263.15,2)
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+digite a temperatura em graus Celsius: round(233.14999999999998,2)
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+digite a temperatura em graus Celsius: round(373.15,2)
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+digite a temperatura em graus Celsius: round(273.15,2)
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+digite a temperatura em graus Celsius: round(303.65,2)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 18:58:14)
+-- CODE: 
+celsius = float(input("digite a temperatura em graus Celsius: "))
+conversão = celsius + 273.15
+print(f"round(x,2){celsius}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)20.25
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)-10.0
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)-40.0
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)100.0
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)0.0
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+digite a temperatura em graus Celsius: round(x,2)30.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

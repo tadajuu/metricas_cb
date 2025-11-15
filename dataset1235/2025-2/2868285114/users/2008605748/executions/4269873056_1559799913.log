@@ -1,0 +1,1236 @@
+== RUN (2025-08-26 22:25:15)
+-- CODE: 
+numero =  input(int)
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 22:31:53)
+-- CODE: 
+numero = int(input())
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+---- user output:
+4
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+---- user output:
+0
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+---- user output:
+1000000
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+---- user output:
+100
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+---- user output:
+225
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+---- user output:
+14400
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:22:18)
+-- CODE: 
+numero = int input()
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+File "XXXX", line 1
+    numero = int input()
+                 ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+File "XXXX", line 1
+    numero = int input()
+                 ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+File "XXXX", line 1
+    numero = int input()
+                 ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+File "XXXX", line 1
+    numero = int input()
+                 ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+File "XXXX", line 1
+    numero = int input()
+                 ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+File "XXXX", line 1
+    numero = int input()
+                 ^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:26:57)
+-- CODE: 
+numero = float(input))
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:26:35)
+-- CODE: 
+numero = float(input))
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:28:54)
+-- CODE: 
+numero = float(input))
+quadrado = numero**2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:31:50)
+-- CODE: 
+numero = int(input())
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+---- user output:
+4
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+---- user output:
+0
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+---- user output:
+1000000
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+---- user output:
+100
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+---- user output:
+225
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+---- user output:
+14400
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:26:24)
+-- CODE: 
+numero = float(input)
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = float(input)
+             ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = float(input)
+             ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = float(input)
+             ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = float(input)
+             ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = float(input)
+             ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = float(input)
+             ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:25:29)
+-- CODE: 
+numero = int(input)
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:28:53)
+-- CODE: 
+numero = float(input))
+quadrado = numero**2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 22:25:16)
+-- CODE: 
+numero =  input(int)
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:26:25)
+-- CODE: 
+numero = float(input)
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = float(input)
+             ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = float(input)
+             ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = float(input)
+             ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = float(input)
+             ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = float(input)
+             ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = float(input)
+             ^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:26:34)
+-- CODE: 
+numero = float(input))
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:25:31)
+-- CODE: 
+numero = int(input)
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:25:32)
+-- CODE: 
+numero = int(input)
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input)
+             ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:26:56)
+-- CODE: 
+numero = float(input))
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 22:22:20)
+-- CODE: 
+numero = int input()
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+File "XXXX", line 1
+    numero = int input()
+                 ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+File "XXXX", line 1
+    numero = int input()
+                 ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+File "XXXX", line 1
+    numero = int input()
+                 ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+File "XXXX", line 1
+    numero = int input()
+                 ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+File "XXXX", line 1
+    numero = int input()
+                 ^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+File "XXXX", line 1
+    numero = int input()
+                 ^^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:26:55)
+-- CODE: 
+numero = float(input))
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+File "XXXX", line 1
+    numero = float(input))
+                         ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

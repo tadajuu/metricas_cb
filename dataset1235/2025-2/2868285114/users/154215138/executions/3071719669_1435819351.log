@@ -1,0 +1,202 @@
+== RUN (2025-08-28 22:16:15)
+-- CODE: 
+pesoracao = float(input())
+quantdias = float(input())
+consumo_5_dias = quantdias * 5
+restante = pesoracao - consumo_5_dias
+restantearredondado = round(restante, 2)
+print(restantearredondado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+---- user output:
+941.65
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+---- user output:
+1318.05
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+---- user output:
+2606.0
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+899.78
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+---- user output:
+7899.78
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+---- user output:
+2803.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:16:29)
+-- CODE: 
+pesoracao = float(input())
+quantdias = float(input())
+consumo_5_dias = quantdias * 5
+restante = pesoracao - consumo_5_dias
+restantearredondado = round(restante, 2)
+print(restantearredondado)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+---- user output:
+941.65
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+---- user output:
+1318.05
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+---- user output:
+2606.0
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+899.78
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+---- user output:
+7899.78
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+---- user output:
+2803.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 22:12:04)
+-- CODE: 
+pesoracao = float(input())
+quantdias = int(input())
+total = pesoracao * quantdias
+totalarredondado = round(total, 2)
+print(totalarredondado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantdias = int(input())
+                ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '18.55'
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantdias = int(input())
+                ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '21.91'
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantdias = int(input())
+                ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '40.38'
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantdias = int(input())
+                ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.11'
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantdias = int(input())
+                ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.11'
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantdias = int(input())
+                ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '21.80'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

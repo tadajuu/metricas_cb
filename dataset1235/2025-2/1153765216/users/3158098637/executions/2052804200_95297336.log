@@ -1,0 +1,166 @@
+== RUN (2025-09-03 13:51:42)
+-- CODE: 
+e = input("")
+t = float(input())
+
+if t==C:
+  co = (5/9*-32-t)*-1
+print(co)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if t==C:
+          ^
+NameError: name 'C' is not defined
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if t==C:
+          ^
+NameError: name 'C' is not defined
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if t==C:
+          ^
+NameError: name 'C' is not defined
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if t==C:
+          ^
+NameError: name 'C' is not defined
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if t==C:
+          ^
+NameError: name 'C' is not defined
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if t==C:
+          ^
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-03 13:52:11)
+-- CODE: 
+e = input("")
+t = float(input())
+
+if t==("C"):
+  co = (5/9*-32-t)*-1
+print(co)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(co)
+          ^^
+NameError: name 'co' is not defined
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(co)
+          ^^
+NameError: name 'co' is not defined
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(co)
+          ^^
+NameError: name 'co' is not defined
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(co)
+          ^^
+NameError: name 'co' is not defined
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(co)
+          ^^
+NameError: name 'co' is not defined
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(co)
+          ^^
+NameError: name 'co' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

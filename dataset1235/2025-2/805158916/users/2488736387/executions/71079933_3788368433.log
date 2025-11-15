@@ -1,0 +1,1537 @@
+== RUN (2025-08-13 15:08:05)
+-- CODE: 
+# Use este codigo como ponto de partida
+input(Var.string("Leonardo"))
+# Leitura de valores de entrada
+var = Leonardo
+
+# Impressao de saidas
+print()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Var.string("Leonardo"))
+          ^^^
+NameError: name 'Var' is not defined. Did you mean: 'vars'?
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Var.string("Leonardo"))
+          ^^^
+NameError: name 'Var' is not defined. Did you mean: 'vars'?
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Var.string("Leonardo"))
+          ^^^
+NameError: name 'Var' is not defined. Did you mean: 'vars'?
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Var.string("Leonardo"))
+          ^^^
+NameError: name 'Var' is not defined. Did you mean: 'vars'?
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Var.string("Leonardo"))
+          ^^^
+NameError: name 'Var' is not defined. Did you mean: 'vars'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:14:49)
+-- CODE: 
+# Use este codigo como ponto de partida
+
+# Leitura de valores de entrada
+var = "Leonardo"
+
+# Impressao de saidas
+print(var())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(var())
+          ^^^^^
+TypeError: 'str' object is not callable
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(var())
+          ^^^^^
+TypeError: 'str' object is not callable
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(var())
+          ^^^^^
+TypeError: 'str' object is not callable
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(var())
+          ^^^^^
+TypeError: 'str' object is not callable
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(var())
+          ^^^^^
+TypeError: 'str' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:35:46)
+-- CODE: 
+# Use este codigo como ponto de partida
+
+# Leitura de valores de entrada
+var = Leonardo
+
+# Impressao de saidas
+print(Leonardo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = Leonardo
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = Leonardo
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = Leonardo
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = Leonardo
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = Leonardo
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:46:43)
+-- CODE: 
+# Use este codigo como ponto de partida
+input(String.)
+# Leitura de valores de entrada
+var = Leonardo
+
+# Impressao de saidas
+print(""Leonardo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 7
+    print(""Leonardo")
+                    ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 7
+    print(""Leonardo")
+                    ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 7
+    print(""Leonardo")
+                    ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 7
+    print(""Leonardo")
+                    ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 7
+    print(""Leonardo")
+                    ^
+SyntaxError: unterminated string literal (detected at line 7)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:46:50)
+-- CODE: 
+# Use este codigo como ponto de partida
+input(String.)
+# Leitura de valores de entrada
+var = Leonardo
+
+# Impressao de saidas
+print(Leonardo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 7
+    print(Leonardo")
+                  ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 7
+    print(Leonardo")
+                  ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 7
+    print(Leonardo")
+                  ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 7
+    print(Leonardo")
+                  ^
+SyntaxError: unterminated string literal (detected at line 7)
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 7
+    print(Leonardo")
+                  ^
+SyntaxError: unterminated string literal (detected at line 7)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:35:12)
+-- CODE: 
+# Use este codigo como ponto de partida
+
+# Leitura de valores de entrada
+var = input(Leonardo)
+
+# Impressao de saidas
+print(Leonardo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = input(Leonardo)
+                ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = input(Leonardo)
+                ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = input(Leonardo)
+                ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = input(Leonardo)
+                ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = input(Leonardo)
+                ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 15:08:12)
+-- CODE: 
+# Use este codigo como ponto de partida
+input(Vars.string("Leonardo"))
+# Leitura de valores de entrada
+var = Leonardo
+
+# Impressao de saidas
+print()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Vars.string("Leonardo"))
+          ^^^^
+NameError: name 'Vars' is not defined. Did you mean: 'vars'?
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Vars.string("Leonardo"))
+          ^^^^
+NameError: name 'Vars' is not defined. Did you mean: 'vars'?
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Vars.string("Leonardo"))
+          ^^^^
+NameError: name 'Vars' is not defined. Did you mean: 'vars'?
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Vars.string("Leonardo"))
+          ^^^^
+NameError: name 'Vars' is not defined. Did you mean: 'vars'?
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Vars.string("Leonardo"))
+          ^^^^
+NameError: name 'Vars' is not defined. Did you mean: 'vars'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:15:07)
+-- CODE: 
+# Use este codigo como ponto de partida
+
+# Leitura de valores de entrada
+var = "Leonardo"
+
+# Impressao de saidas
+print()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 15:10:51)
+-- CODE: 
+# Use este codigo como ponto de partida
+input(Leia)
+# Leitura de valores de entrada
+var = 
+
+# Impressao de saidas
+print()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:30:46)
+-- CODE: 
+# Use este codigo como ponto de partida
+input(Leonardo)
+# Leitura de valores de entrada
+var = "Leonardo"
+
+# Impressao de saidas
+print()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Leonardo)
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Leonardo)
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Leonardo)
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Leonardo)
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Leonardo)
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 15:15:30)
+-- CODE: 
+# Use este codigo como ponto de partida
+print("Gandalf")
+# Leitura de valores de entrada
+var = input(print("Gandalf"))
+
+# Impressao de saidas
+print(var)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+---- user output:
+NoneGandalf
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+---- user output:
+NoneDonald Knuth
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+---- user output:
+NonePython
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+---- user output:
+NoneAda Lovelace
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+---- user output:
+NoneTeste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:49:36)
+-- CODE: 
+# Use este codigo como ponto de partida
+input(Leonardo)
+# Leitura de valores de entrada
+var = imput()
+
+# Impressao de saidas
+print()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Leonardo)
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Leonardo)
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Leonardo)
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Leonardo)
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Leonardo)
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-13 15:15:37)
+-- CODE: 
+# Use este codigo como ponto de partida
+print("Gandalf")
+# Leitura de valores de entrada
+var = input(print("Gandalf"))
+
+# Impressao de saidas
+print(var)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+---- user output:
+NoneGandalf
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+---- user output:
+NoneDonald Knuth
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+---- user output:
+NonePython
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+---- user output:
+NoneAda Lovelace
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+---- user output:
+NoneTeste
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 15:15:21)
+-- CODE: 
+# Use este codigo como ponto de partida
+print("Gandalf")
+# Leitura de valores de entrada
+var = input(print("Gandalf""))
+
+# Impressao de saidas
+print()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 4
+    var = input(print("Gandalf""))
+                               ^
+SyntaxError: unterminated string literal (detected at line 4)
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 4
+    var = input(print("Gandalf""))
+                               ^
+SyntaxError: unterminated string literal (detected at line 4)
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 4
+    var = input(print("Gandalf""))
+                               ^
+SyntaxError: unterminated string literal (detected at line 4)
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 4
+    var = input(print("Gandalf""))
+                               ^
+SyntaxError: unterminated string literal (detected at line 4)
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 4
+    var = input(print("Gandalf""))
+                               ^
+SyntaxError: unterminated string literal (detected at line 4)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:47:03)
+-- CODE: 
+# Use este codigo como ponto de partida
+
+# Leitura de valores de entrada
+var = Leonardo
+
+# Impressao de saidas
+print("Leonardo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = Leonardo
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = Leonardo
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = Leonardo
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = Leonardo
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    var = Leonardo
+          ^^^^^^^^
+NameError: name 'Leonardo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:46:54)
+-- CODE: 
+# Use este codigo como ponto de partida
+input(String.)
+# Leitura de valores de entrada
+var = Leonardo
+
+# Impressao de saidas
+print("Leonardo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 2
+    input(String.)
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 2
+    input(String.)
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 2
+    input(String.)
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 2
+    input(String.)
+                 ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 2
+    input(String.)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:14:40)
+-- CODE: 
+# Use este codigo como ponto de partida
+
+# Leitura de valores de entrada
+var = "Leonardo"
+
+# Impressao de saidas
+print(var)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+---- user output:
+Leonardo
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+---- user output:
+Leonardo
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+---- user output:
+Leonardo
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+---- user output:
+Leonardo
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+---- user output:
+Leonardo
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 15:15:25)
+-- CODE: 
+# Use este codigo como ponto de partida
+print("Gandalf")
+# Leitura de valores de entrada
+var = input(print("Gandalf""))
+
+# Impressao de saidas
+print(var)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 4
+    var = input(print("Gandalf""))
+                               ^
+SyntaxError: unterminated string literal (detected at line 4)
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 4
+    var = input(print("Gandalf""))
+                               ^
+SyntaxError: unterminated string literal (detected at line 4)
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 4
+    var = input(print("Gandalf""))
+                               ^
+SyntaxError: unterminated string literal (detected at line 4)
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 4
+    var = input(print("Gandalf""))
+                               ^
+SyntaxError: unterminated string literal (detected at line 4)
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 4
+    var = input(print("Gandalf""))
+                               ^
+SyntaxError: unterminated string literal (detected at line 4)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 14:35:21)
+-- CODE: 
+# Use este codigo como ponto de partida
+
+# Leitura de valores de entrada
+var = 
+
+# Impressao de saidas
+print(Leonardo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 15:13:49)
+-- CODE: 
+# Use este codigo como ponto de partida
+print("Leonardo"_"Joab"_"Vinicius".)
+# Leitura de valores de entrada
+var = input("Leia um nome")
+
+# Impressao de saidas
+print(var)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 2
+    print("Leonardo"_"Joab"_"Vinicius".)
+          ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 2
+    print("Leonardo"_"Joab"_"Vinicius".)
+          ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 2
+    print("Leonardo"_"Joab"_"Vinicius".)
+          ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 2
+    print("Leonardo"_"Joab"_"Vinicius".)
+          ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 2
+    print("Leonardo"_"Joab"_"Vinicius".)
+          ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 15:07:42)
+-- CODE: 
+# Use este codigo como ponto de partida
+input(Var)
+# Leitura de valores de entrada
+var = Leonardo
+
+# Impressao de saidas
+print()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Var)
+          ^^^
+NameError: name 'Var' is not defined. Did you mean: 'vars'?
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Var)
+          ^^^
+NameError: name 'Var' is not defined. Did you mean: 'vars'?
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Var)
+          ^^^
+NameError: name 'Var' is not defined. Did you mean: 'vars'?
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Var)
+          ^^^
+NameError: name 'Var' is not defined. Did you mean: 'vars'?
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    input(Var)
+          ^^^
+NameError: name 'Var' is not defined. Did you mean: 'vars'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 15:10:44)
+-- CODE: 
+# Use este codigo como ponto de partida
+input()
+# Leitura de valores de entrada
+var = 
+
+# Impressao de saidas
+print()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 15:10:53)
+-- CODE: 
+# Use este codigo como ponto de partida
+input(Leia)
+# Leitura de valores de entrada
+var = 
+
+# Impressao de saidas
+print()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 4
+    var = 
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 15:13:27)
+-- CODE: 
+# Use este codigo como ponto de partida
+prin("Leonardo", "Joab", "Vinicius".)
+# Leitura de valores de entrada
+var = input("Leia um nome")
+
+# Impressao de saidas
+print(var)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 2
+    prin("Leonardo", "Joab", "Vinicius".)
+                                        ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 2
+    prin("Leonardo", "Joab", "Vinicius".)
+                                        ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 2
+    prin("Leonardo", "Joab", "Vinicius".)
+                                        ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 2
+    prin("Leonardo", "Joab", "Vinicius".)
+                                        ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 2
+    prin("Leonardo", "Joab", "Vinicius".)
+                                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 15:13:33)
+-- CODE: 
+# Use este codigo como ponto de partida
+print("Leonardo", "Joab", "Vinicius".)
+# Leitura de valores de entrada
+var = input("Leia um nome")
+
+# Impressao de saidas
+print(var)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Gandalf
+---- correct output:
+Gandalf
+-- ERROR:
+File "XXXX", line 2
+    print("Leonardo", "Joab", "Vinicius".)
+                                         ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+Donald Knuth
+---- correct output:
+Donald Knuth
+-- ERROR:
+File "XXXX", line 2
+    print("Leonardo", "Joab", "Vinicius".)
+                                         ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+Python
+---- correct output:
+Python
+-- ERROR:
+File "XXXX", line 2
+    print("Leonardo", "Joab", "Vinicius".)
+                                         ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+Ada Lovelace
+---- correct output:
+Ada Lovelace
+-- ERROR:
+File "XXXX", line 2
+    print("Leonardo", "Joab", "Vinicius".)
+                                         ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+Teste
+---- correct output:
+Teste
+-- ERROR:
+File "XXXX", line 2
+    print("Leonardo", "Joab", "Vinicius".)
+                                         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

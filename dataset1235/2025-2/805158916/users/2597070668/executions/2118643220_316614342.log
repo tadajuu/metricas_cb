@@ -1,0 +1,1437 @@
+== RUN (2025-09-01 14:29:41)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:28:15)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:27:18)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/9))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento235.6
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento43.27
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento173.09
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento120.2
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento76.93
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento173.09
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:25:02)
+-- CODE: 
+from math import *
+lado = float(input ("Digite o comprimento do lado do comprimento"))
+
+apotema = lado/(2*tan (pi/9))
+Area = (7/2)*lado*apotema
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:26:49)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+apotema = lado/(2*tan (pi/9))
+Area = (7/2)*lado*apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento235.6
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento43.27
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento173.09
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento120.2
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento76.93
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento173.09
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:28:16)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:27:59)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:29:48)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:26:12)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+apotema = lado/(2*tan (pi/9))
+Area = (7/2)*lado*apotema
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:28:22)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:27:40)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:28:21)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:29:44)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:28:24)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:56:32)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:28:19)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:27:35)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:28:15)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:27:45)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:28:26)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:28:21)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:28:18)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:29:46)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:28:24)
+-- CODE: 
+from math import *
+
+lado = float(input("Digite o comprimento do lado do comprimento"))
+
+Apotema = lado/(2*tan (pi/7))
+Area = (7/2)*lado*Apotema
+print(round(Area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+---- user output:
+Digite o comprimento do lado do comprimento178.06
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+---- user output:
+Digite o comprimento do lado do comprimento32.71
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+---- user output:
+Digite o comprimento do lado do comprimento90.85
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+---- user output:
+Digite o comprimento do lado do comprimento58.14
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+---- user output:
+Digite o comprimento do lado do comprimento130.82
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:25:12)
+-- CODE: 
+from math import *
+
+lado = float(input ("Digite o comprimento do lado do comprimento"))
+
+apotema = lado/(2*tan (pi/9))
+Area = (7/2)*lado*apotema
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+178.06
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+32.71
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+130.82
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+90.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+58.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+130.82
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(area,2))
+                ^^^^
+NameError: name 'area' is not defined. Did you mean: 'Area'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

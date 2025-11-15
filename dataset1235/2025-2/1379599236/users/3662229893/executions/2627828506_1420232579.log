@@ -1,0 +1,1466 @@
+== RUN (2025-09-01 18:59:33)
+-- CODE: 
+input = float("valorEmreais_valorEmCoroasSuecas")
+
+x = converter("valorEmReais = valorEmCoroasSuecas*0,46")
+y = converter("valorEmCoroasSuecas*0,46 = valorEmReais**1")
+
+print = round(valorEmreais = ValorEmCoroasSuecas/0,2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+File "XXXX", line 6
+    print = round(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+File "XXXX", line 6
+    print = round(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+File "XXXX", line 6
+    print = round(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+File "XXXX", line 6
+    print = round(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+File "XXXX", line 6
+    print = round(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+File "XXXX", line 6
+    print = round(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 18:38:30)
+-- CODE: 
+float = input("CoroasSuecas")
+y = ("valorEmReais = valorEmCoroasSuecas*0,46")
+x = ("valorEmReais**1 = valorEmCoroasSuecas**0,46") 
+round (print("valorEmReais = valorEmCoroasSuecas"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSuecas"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSuecas"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSuecas"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSuecas"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSuecas"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSuecas"))
+TypeError: type NoneType doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 18:54:37)
+-- CODE: 
+input = (float("CoroasSuecas"))
+
+x = ("valorEmReais = valorEmCoroasSuecas*0,46")
+y = converter("valorEmReais = valorEmCoroasSuecas*0,46")
+
+round = print (valorEmreais = ValorEmCoroasSuecas)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 18:54:19)
+-- CODE: 
+input = (float("CoroasSuecas"))
+
+x = ("valorEmReais = valorEmCoroasSuecas*0,46")
+y = converter("valorEmReais = valorEmCoroasSuecas*0,46")
+
+round = print (valorConvertidoEmreais = ValorEmCoroasSuecas)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 18:59:32)
+-- CODE: 
+input = float("valorEmreais_valorEmCoroasSuecas")
+
+x = converter("valorEmReais = valorEmCoroasSuecas*0,46")
+y = converter("valorEmCoroasSuecas*0,46 = valorEmReais**1")
+
+print = round(valorEmreais = ValorEmCoroasSuecas/0,2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+File "XXXX", line 6
+    print = round(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+File "XXXX", line 6
+    print = round(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+File "XXXX", line 6
+    print = round(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+File "XXXX", line 6
+    print = round(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+File "XXXX", line 6
+    print = round(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+File "XXXX", line 6
+    print = round(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 18:46:11)
+-- CODE: 
+input = (float("CoroasSuecas"))
+
+x = ("valorEmReais = valorEmCoroasSuecas*0,46")
+y = ("Converter = valorEmReais = valorEmCoroasSuecas*0,46") 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("CoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'CoroasSuecas'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 18:38:50)
+-- CODE: 
+float = input("CoroasSuecas")
+y = ("valorEmReais = valorEmCoroasSuecas*0,46")
+x = ("valorEmReais**1 = valorEmCoroasSuecas**0,46") 
+round (print("valorEmReais = valorEmCoroasSuecas , 0,2"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSuecas , 0,2"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSuecas , 0,2"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSuecas , 0,2"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSuecas , 0,2"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSuecas , 0,2"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSuecas , 0,2"))
+TypeError: type NoneType doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 18:55:46)
+-- CODE: 
+input = float("valorEmreais_valorEmCoroasSuecas")
+
+x = ("valorEmReais = valorEmCoroasSuecas*0,46")
+y = converter("valorEmReais = valorEmCoroasSuecas*0,46")
+
+round = print (valorEmreais = ValorEmCoroasSuecas)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = float("valorEmreais_valorEmCoroasSuecas")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = float("valorEmreais_valorEmCoroasSuecas")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = float("valorEmreais_valorEmCoroasSuecas")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = float("valorEmreais_valorEmCoroasSuecas")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = float("valorEmreais_valorEmCoroasSuecas")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = float("valorEmreais_valorEmCoroasSuecas")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 18:59:05)
+-- CODE: 
+input = float("valorEmreais_valorEmCoroasSuecas")
+
+x = converter("valorEmReais = valorEmCoroasSuecas*0,46")
+y = converter("valorEmCoroasSuecas*0,46 = valorEmReais**1")
+
+round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 18:58:23)
+-- CODE: 
+input = float("valorEmreais_valorEmCoroasSuecas")
+
+x = ("valorEmReais = valorEmCoroasSuecas*0,46")
+y = converter("valorEmCoroasSuecas*0,46 = valorEmReais**1")
+
+round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 18:38:20)
+-- CODE: 
+float = input("CoroasSuecas")
+y = ("valorEmReais = valorEmCoroasSuecas*0,46")
+x = ("valorEmReais**1 = valorEmCoroasSuecas**0,46") 
+round (print("valorEmReais = valorEmCoroasSueca"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSueca"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSueca"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSueca"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSueca"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSueca"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroasSueca"))
+TypeError: type NoneType doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 18:56:51)
+-- CODE: 
+input = float("valorEmreais_valorEmCoroasSuecas")
+
+x = ("valorEmReais = valorEmCoroasSuecas*0,46")
+y = converter("valorEmReais = valorEmCoroasSuecas*0,46")
+
+round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 18:38:00)
+-- CODE: 
+float = input("CoroasSuecas")
+y = ("valorEmReais = valorEmCoroasSuecas*0,46")
+x = ("valorEmReais**1 = valorEmCoroasSuecas**0,46") 
+round (print("valorEmReais = valorEmCoroaSueca"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroaSueca"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroaSueca"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroaSueca"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroaSueca"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroaSueca"))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    round (print("valorEmReais = valorEmCoroaSueca"))
+TypeError: type NoneType doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 18:58:06)
+-- CODE: 
+input = float("valorEmreais_valorEmCoroasSuecas")
+
+x = ("valorEmReais = valorEmCoroasSuecas*0,46")
+y = converter("valorEmCoroasSuecas*0,46 = valorEmReais**1")
+
+round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 18:55:48)
+-- CODE: 
+input = float("valorEmreais_valorEmCoroasSuecas")
+
+x = ("valorEmReais = valorEmCoroasSuecas*0,46")
+y = converter("valorEmReais = valorEmCoroasSuecas*0,46")
+
+round = print (valorEmreais = ValorEmCoroasSuecas)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = float("valorEmreais_valorEmCoroasSuecas")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = float("valorEmreais_valorEmCoroasSuecas")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = float("valorEmreais_valorEmCoroasSuecas")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = float("valorEmreais_valorEmCoroasSuecas")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = float("valorEmreais_valorEmCoroasSuecas")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = float("valorEmreais_valorEmCoroasSuecas")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 18:56:53)
+-- CODE: 
+input = float("valorEmreais_valorEmCoroasSuecas")
+
+x = ("valorEmReais = valorEmCoroasSuecas*0,46")
+y = converter("valorEmReais = valorEmCoroasSuecas*0,46")
+
+round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+File "XXXX", line 6
+    round = print (valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                         ^
+SyntaxError: positional argument follows keyword argument
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 18:45:08)
+-- CODE: 
+input = (float("CoroasSuecas"))
+
+x = ("valorEmReais = valorEmCoroasSuecas*0,46")
+y = (converter = valorEmReais = valorEmCoroasSuecas*0,46) 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+File "XXXX", line 4
+    y = (converter = valorEmReais = valorEmCoroasSuecas*0,46) 
+                   ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+File "XXXX", line 4
+    y = (converter = valorEmReais = valorEmCoroasSuecas*0,46) 
+                   ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+File "XXXX", line 4
+    y = (converter = valorEmReais = valorEmCoroasSuecas*0,46) 
+                   ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+File "XXXX", line 4
+    y = (converter = valorEmReais = valorEmCoroasSuecas*0,46) 
+                   ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+File "XXXX", line 4
+    y = (converter = valorEmReais = valorEmCoroasSuecas*0,46) 
+                   ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+File "XXXX", line 4
+    y = (converter = valorEmReais = valorEmCoroasSuecas*0,46) 
+                   ^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 18:27:09)
+-- CODE: 
+float = input("coroas suecas")
+valor_em_reais = valor_em_Coroas_suecas**0,46
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_em_reais = valor_em_Coroas_suecas**0,46
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valor_em_Coroas_suecas' is not defined
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_em_reais = valor_em_Coroas_suecas**0,46
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valor_em_Coroas_suecas' is not defined
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_em_reais = valor_em_Coroas_suecas**0,46
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valor_em_Coroas_suecas' is not defined
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_em_reais = valor_em_Coroas_suecas**0,46
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valor_em_Coroas_suecas' is not defined
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_em_reais = valor_em_Coroas_suecas**0,46
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valor_em_Coroas_suecas' is not defined
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valor_em_reais = valor_em_Coroas_suecas**0,46
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valor_em_Coroas_suecas' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 18:59:04)
+-- CODE: 
+input = float("valorEmreais_valorEmCoroasSuecas")
+
+x = converter("valorEmReais = valorEmCoroasSuecas*0,46")
+y = converter("valorEmCoroasSuecas*0,46 = valorEmReais**1")
+
+round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+File "XXXX", line 6
+    round = print(valorEmreais = ValorEmCoroasSuecas/0,2)
+                                                        ^
+SyntaxError: positional argument follows keyword argument
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 18:55:29)
+-- CODE: 
+input = (float("valorEmreais_valorEmCoroasSuecas"))
+
+x = ("valorEmReais = valorEmCoroasSuecas*0,46")
+y = converter("valorEmReais = valorEmCoroasSuecas*0,46")
+
+round = print (valorEmreais = ValorEmCoroasSuecas)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+2.3
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("valorEmreais_valorEmCoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+5.52
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("valorEmreais_valorEmCoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+0.46
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("valorEmreais_valorEmCoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+3.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("valorEmreais_valorEmCoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+9.66
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("valorEmreais_valorEmCoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+4.6
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input = (float("valorEmreais_valorEmCoroasSuecas"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'valorEmreais_valorEmCoroasSuecas'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

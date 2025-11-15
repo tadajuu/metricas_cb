@@ -1,0 +1,150 @@
+== SUBMISSION (2025-08-27 16:59:53)
+-- CODE: 
+# Leitura dos valores de entrada
+distancia = float(input())
+combustivel = float(input())
+
+# Cálculo do consumo médio
+consumo = distancia / combustivel
+
+# Saída formatada com arredondamento
+print(round(consumo, 3), "km/l")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+0.09 km/l
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+0.042 km/l
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+0.005 km/l
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+0.015 km/l
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+0.003 km/l
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+0.015 km/l
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 17:02:56)
+-- CODE: 
+# Leitura dos dados de entrada
+tempo = float(input())
+velocidade = float(input())
+
+# Cálculo da distância percorrida
+distancia = tempo * velocidade
+
+# Cálculo do consumo de combustível
+autonomia = 12.0
+litros_usados = distancia / autonomia
+
+# Exibição dos resultados
+print(distancia)
+print(litros_usados)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+75.0
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+50.0
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+4.166666666666667
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+8.0
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+0.25
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+12.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,4432 @@
+== RUN (2025-09-01 15:50:52)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas "))
+QPD = float(input("Quantidade diaria de racao em gramas"))
+
+QQR = QPD - (7 * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:21:38)
+-- CODE: 
+saco = int(input("Peso do saco da racao: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco - (7 * racaodiaria)
+print(round(Restante, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:41:32)
+-- CODE: 
+saco = int(input("Peso do saco da racao: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco - (7 * racaodiaria)
+print(round(restante, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:07:26)
+-- CODE: 
+saco = int(input("Peso do saco da racao em gramas: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco - (7 * racaodiaria)
+print(round(restante, ))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:15:13)
+-- CODE: 
+saco =int(input("Peso do saco da racao: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco - (7* racaodiaria)
+print(round(Restant, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:25:14)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas: "))
+QPD = float(input("Quantidade de racao diaria em gramas: "))
+
+QQR = PSR - (7 * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:51:05)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas "))
+QPD = float(input("Quantidade diaria de racao em gramas "))
+
+QQR = QPD - (7 * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:30:46)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas: "))
+QRD = int(input("Quantidade diaria de racao em gramas: "))
+
+QQR = PSR - (5 * QRD)
+
+print(round(QQR, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:54:18)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas "))
+QPD = float(input("Quantidade diaria de racao em gramas "))
+
+QQR = QPD - (7 * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:22:55)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas: "))
+QPD = float(input("Quantidade de racao diaria em gramas: "))
+
+QQR = PSR - (7 * racaodiaria)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:51:01)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas "))
+QPD = float(input("Quantidade diaria de racao em gramas "))
+
+QQR = QPD - (7 * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:44:29)
+-- CODE: 
+saco = int(input("Peso do saco da racao: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco - (7 * racaodiaria)
+print(round(restante, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:55:54)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas"))
+QPD = float(input("Quantidade diaria de racao em gramas"))
+
+QQR = (PSR * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:37:54)
+-- CODE: 
+peso = int(input("Peso do saco da racao em gramas: "))
+racaodiaria = float(input("Quantidade diaria de racao em gramas: "))
+
+restante = peso - (7 * racaodiaria)
+
+print(round(restante, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:15:17)
+-- CODE: 
+saco =int(input("Peso do saco da racao: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco - (7* racaodiaria)
+print(round(Restant, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:21:34)
+-- CODE: 
+QPR = int(input("Peso do saco da racao em gramas: "))
+QRD = float(input("Quantidade de racao diaria em gramas: "))
+QQR = saco - (7 * racaodiaria)
+print(round(restante, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    QPR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    QPR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    QPR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    QPR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    QPR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    QPR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:50:03)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas"))
+QPD = float(input("Quantidade diaria de racao em gramas"))
+
+QQR = peso - (7 * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:59:08)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas"))
+QPD = float(input("Quantidade diaria de racao em gramas "))
+
+QQR = PSR * QPD
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:19:42)
+-- CODE: 
+peso = int(input("Peso do saco da racao em gramas: "))
+racaodiaria = float(input("Quantidade de racao diaria em gramas: "))
+restante = saco - (7 * racaodiaria)
+print(round(restante, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:39:32)
+-- CODE: 
+peso = int(input("Peso do saco da racao em gramas:"))
+racaodiaria = float(input("Quantidade diaria de racao em gramas:"))
+
+resto = peso - (7 * racaodiaria)
+
+print(round(resto, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:22:59)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas: "))
+QPD = float(input("Quantidade de racao diaria em gramas: "))
+
+QQR = PSR - (7 * racaodiaria)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:23:21)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas: "))
+QPD = float(input("Quantidade de racao diaria em gramas: "))
+
+QQR = PSR - (7 * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:28:53)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas: "))
+QRD = float(input("Quantidade de racao diaria de racao: "))
+
+QQR = PSR - (5 * QRD)
+
+print(round(QQR, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:46:57)
+-- CODE: 
+peso = int(input("Peso do saco da racao em gramas:"))
+racaodiaria = float(input("Quantidade diaria de racao em gramas:"))
+
+QQR = peso - (7 * racaodiaria)
+
+print(round(QQR, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:07:48)
+-- CODE: 
+saco = int(input("Peso do saco da racao em gramas: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco - (7 * racaodiaria)
+print(round(restante, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:32:13)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas: "))
+QRD = float(input("Quantidade diaria de racao em gramas: "))
+
+QQR = PSR - (7 * QRD)
+
+print(round(QQR, 4))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:41:00)
+-- CODE: 
+saco = int(input("Peso do saco da racao: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco - 7 * racaodiaria
+print(round(restante, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:57:36)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas"))
+QPD = float(input("Quantidade diaria de racao em gramas"))
+
+QQR = PSR * QPD
+
+print(round(QQR, 2)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+File "XXXX", line 6
+    print(round(QQR, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+File "XXXX", line 6
+    print(round(QQR, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+File "XXXX", line 6
+    print(round(QQR, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+File "XXXX", line 6
+    print(round(QQR, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+File "XXXX", line 6
+    print(round(QQR, 2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+File "XXXX", line 6
+    print(round(QQR, 2)
+         ^
+SyntaxError: '(' was never closed
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:59:04)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas"))
+QPD = float(input("Quantidade diaria de racao em gramas "))
+
+QQR = PSR * QPD
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:37:35)
+-- CODE: 
+peso = int(input("Peso do saco da racao em gramas: "))
+racaodiaria = float(input("Quantidade diaria de racao em gramas: "))
+
+restante = peso - (7 * racaodiaria)
+
+print(round(QQR, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:15:39)
+-- CODE: 
+saco =int(input("Peso do saco da racao: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco - (5 * racaodiaria)
+print(round(Restant, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:07:49)
+-- CODE: 
+saco = int(input("Peso do saco da racao em gramas: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco - (7 * racaodiaria)
+print(round(restante, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao em gramas: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:15:01)
+-- CODE: 
+saco =int(input("Peso do saco da racao: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco - (7* racaodiaria)
+print(round(Restant, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:26:34)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas: "))
+QPD = float(input("Quantidade de racao diaria de racao: "))
+
+QQR = PSR - (7 * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:48:50)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas"))
+QPD = float(input("Quantidade diaria de racao em gramas"))
+
+QQR = peso - (7 * QPD)
+
+print(round(QQR, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:54:11)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas "))
+QPD = float(input("Quantidade diaria de racao em gramas "))
+
+QQR = QPD - (7 * QPD)
+
+print(round(QQR, 1))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:50:29)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas"))
+QPD = float(input("Quantidade diaria de racao em gramas"))
+
+QQR = QPD - (7 * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:48:36)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas:"))
+QPD = float(input("Quantidade diaria de racao em gramas:"))
+
+QQR = peso - (7 * QPD)
+
+print(round(QQR, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas:"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas:"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas:"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas:"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas:"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas:"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:38:44)
+-- CODE: 
+saco = int(input("Peso do saco da racao: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco * (7 * racaodiaria)
+print(round(restante, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:38:08)
+-- CODE: 
+peso = int(input("Peso do saco da racao em gramas:"))
+racaodiaria = float(input("Quantidade diaria de racao em gramas:"))
+
+restante = peso - (7 * racaodiaria)
+
+print(round(restante, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:40:55)
+-- CODE: 
+saco = int(input("Peso do saco da racao: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco - 7 * racaodiaria
+print(round(restante, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("Peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:42:52)
+-- CODE: 
+peso = int(input("Peso do saco da racao em gramas:"))
+racaodiaria = float(input("Quantidade diaria de racao em gramas:"))
+
+QQR = peso - (7 * racaodiaria)
+
+print(round(QQR, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    peso = int(input("Peso do saco da racao em gramas:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:51:03)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas "))
+QPD = float(input("Quantidade diaria de racao em gramas "))
+
+QQR = QPD - (7 * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:19:47)
+-- CODE: 
+saco =int(input("Peso do saco da racao: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco * (7 * racaodiaria)
+print(round(Restante, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:54:28)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas"))
+QPD = float(input("Quantidade diaria de racao em gramas"))
+
+QQR = QPD - (7 * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:16:08)
+-- CODE: 
+saco =int(input("Peso do saco da racao: "))
+racaodiaria = float(input("Quantidade de racao diaria: "))
+restante = saco - (5 * racaodiaria)
+print(round(Restante, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco =int(input("Peso do saco da racao: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:50:58)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas "))
+QPD = float(input("Quantidade diaria de racao em gramas "))
+
+QQR = QPD - (7 * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:31:57)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas: "))
+QRD = float(input("Quantidade diaria de racao em gramas: "))
+
+QQR = PSR - (7 * QRD)
+
+print(round(QQR, 4))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:26:30)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas: "))
+QPD = float(input("Quantidade de racao diaria de racao: "))
+
+QQR = PSR - (7 * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:51:34)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas "))
+QPD = int(input("Quantidade diaria de racao em gramas "))
+
+QQR = QPD - (7 * QPD)
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:42:55)
+-- CODE: 
+saco = int(input("peso do saco da racao: "))
+racaodiaria = float(input("racaodiaria: "))
+restante = saco - (7 * racaodiaria)
+print(round(restante, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    saco = int(input("peso do saco da racao: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:59:53)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas"))
+QPD = float(input("Quantidade diaria de racao em gramas "))
+
+QQR = PSR * QPD
+
+print(round(QQR, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:30:14)
+-- CODE: 
+PSR = int(input("Peso do saco da racao em gramas: "))
+QRD = float(input("Quantidade diaria de racao em gramas: "))
+
+QQR = PSR - (5 * QRD)
+
+print(round(QQR, 3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2660.00'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1700.60'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2000.3333'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3250.00'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1850.70'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    PSR = int(input("Peso do saco da racao em gramas: "))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

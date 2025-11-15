@@ -1,0 +1,770 @@
+== RUN (2025-08-27 14:32:57)
+-- CODE: 
+numero = int(input("digite o numero"))
+quadrado = numero ** 2
+print(round("quadrado")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:29:57)
+-- CODE: 
+numero = int(input("digite o numero"))
+quadrado = numero ** 2
+print("quadrado")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+---- user output:
+digite o numeroquadrado
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:34:10)
+-- CODE: 
+numero = int(input("digite o numero"))
+quadrado = numero ** 2
+print(round("quadrado"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round("quadrado"))
+          ^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round("quadrado"))
+          ^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round("quadrado"))
+          ^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round("quadrado"))
+          ^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round("quadrado"))
+          ^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round("quadrado"))
+          ^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:25:15)
+-- CODE: 
+numero = int(input("digite o numero"))
+quadrado = numero ** 2
+print("quadrado")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+---- user output:
+digite o numeroquadrado
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:23:45)
+-- CODE: 
+numero = input()
+quadrado = numero ** 2
+print("quadrado")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:33:35)
+-- CODE: 
+numero = int(input("digite o numero"))
+quadrado = (numero) ** 2
+print(round("quadrado")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:33:05)
+-- CODE: 
+numero = int(input("digite o numero"))
+quadrado = numero ** 2
+print(round("quadrado")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:24:56)
+-- CODE: 
+numero = int(input("digite o numero"))
+quadrado = numero ** 2
+print("quadrado")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+---- user output:
+digite o numeroquadrado
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+---- user output:
+digite o numeroquadrado
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:33:43)
+-- CODE: 
+numero = int(input("digite o numero"))
+quadrado = (numero) ** 2
+print(round("quadrado")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:45:27)
+-- CODE: 
+numero = int(input("digite o numero"))
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+---- user output:
+digite o numero4
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+---- user output:
+digite o numero0
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+---- user output:
+digite o numero1000000
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+---- user output:
+digite o numero100
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+---- user output:
+digite o numero225
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+---- user output:
+digite o numero14400
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:33:39)
+-- CODE: 
+numero = int(input("digite o numero"))
+quadrado = (numero) ** 2
+print(round("quadrado")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+File "XXXX", line 3
+    print(round("quadrado")
+         ^
+SyntaxError: '(' was never closed
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:24:34)
+-- CODE: 
+numero = input("digite o numero")
+quadrado = numero ** 2
+print("quadrado")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2
+---- correct output:
+4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+1000
+---- correct output:
+1000000
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+-10
+---- correct output:
+100
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+-15
+---- correct output:
+225
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+120
+---- correct output:
+14400
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quadrado = numero ** 2
+               ~~~~~~~^^~~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

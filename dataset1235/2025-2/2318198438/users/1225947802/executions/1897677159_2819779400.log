@@ -1,0 +1,128 @@
+== RUN (2025-08-26 00:44:33)
+-- CODE: 
+quantida= input("Digite quantidade de jogos:")
+preço= input("digite o valor do jogo:")
+custo = input("Digite o valor do frente:")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+Digite quantidade de jogos:digite o valor do jogo:Digite o valor do frente:
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+Digite quantidade de jogos:digite o valor do jogo:Digite o valor do frente:
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+Digite quantidade de jogos:digite o valor do jogo:Digite o valor do frente:
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+Digite quantidade de jogos:digite o valor do jogo:Digite o valor do frente:
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+Digite quantidade de jogos:digite o valor do jogo:Digite o valor do frente:
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+Digite quantidade de jogos:digite o valor do jogo:Digite o valor do frente:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 00:52:36)
+-- CODE: 
+quantida= int(input("Digite quantidade de jogos:"))
+preço= float( input("digite o valor do jogo:"))
+custo = float(input("Digite o valor do frente:"))
+
+print(quantida *preço + custo)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+Digite quantidade de jogos:digite o valor do jogo:Digite o valor do frente:1642.5
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+Digite quantidade de jogos:digite o valor do jogo:Digite o valor do frente:240171.0
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+Digite quantidade de jogos:digite o valor do jogo:Digite o valor do frente:540.0
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+Digite quantidade de jogos:digite o valor do jogo:Digite o valor do frente:765.0
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+Digite quantidade de jogos:digite o valor do jogo:Digite o valor do frente:162.56
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+Digite quantidade de jogos:digite o valor do jogo:Digite o valor do frente:618.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

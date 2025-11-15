@@ -1,0 +1,806 @@
+== RUN (2025-08-11 15:34:58)
+-- CODE: 
+print((250/6)(round 41.6666664.3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print((250/6)(round 41.6666664.3))
+                  ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print((250/6)(round 41.6666664.3))
+                  ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-13 13:51:03)
+-- CODE: 
+valor_total=250
+num_amigos = 6
+valor_por_amigo=round(valor_total/num_amigos,2)
+print("valor que cada amigo deve pagar e")
+print(valor_por_amigo)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:36:54)
+-- CODE: 
+print(250/6)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:34:33)
+-- CODE: 
+print(250/6 round 41.6666664.3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(250/6 round 41.6666664.3)
+          ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(250/6 round 41.6666664.3)
+          ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:37:03)
+-- CODE: 
+print(250/6)=valor
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(250/6)=valor
+    ^^^^^^^^^^^^
+SyntaxError: cannot assign to function call here. Maybe you meant '==' instead of '='?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(250/6)=valor
+    ^^^^^^^^^^^^
+SyntaxError: cannot assign to function call here. Maybe you meant '==' instead of '='?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:46:59)
+-- CODE: 
+print(valor-total=250)
+print(num-amigos=6)
+valor-por-amigo=round(valor-total/num-amigos,2)
+print (valor-por-amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(valor-total=250)
+          ^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(valor-total=250)
+          ^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 15:03:40)
+-- CODE: 
+valor_total=250
+num_amigos = 6
+valor_por_amigo=round(valor_total/num_amigos,2)
+print("valor que cada amigo deve pagar e")
+print(valor_por_amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:36:49)
+-- CODE: 
+print(250/6=valor)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(250/6=valor)
+          ^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(250/6=valor)
+          ^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:48:48)
+-- CODE: 
+print(valor_total=250)
+print(num_amigos = 6)
+print(valor_por_amigo=round(valor_total/num_amigos,2)
+print (valor_por_amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 3
+    print(valor_por_amigo=round(valor_total/num_amigos,2)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 3
+    print(valor_por_amigo=round(valor_total/num_amigos,2)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:42:28)
+-- CODE: 
+print(250/6)
+print (vars)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+<built-in function vars>
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+<built-in function vars>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:47:01)
+-- CODE: 
+print(valor-total=250)
+print(num-amigos=6)
+valor-por-amigo=round(valor-total/num-amigos,2)
+print (valor-por-amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(valor-total=250)
+          ^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(valor-total=250)
+          ^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:44:56)
+-- CODE: 
+valor-total=250
+num-amigos=6
+valor-por-amigo=round(valor-total/num-amigos,2)
+print (valor-po-amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    valor-total=250
+    ^^^^^^^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    valor-total=250
+    ^^^^^^^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:50:54)
+-- CODE: 
+valor_total=250
+num_amigos = 6
+valor_por_amigo=round(valor_total/num_amigos,2)
+print("valor que cada amigo deve pagar e")
+print(valor_por_amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:49:23)
+-- CODE: 
+valor_total=250
+num_amigos = 6
+(valor_por_amigo=round(valor_total/num_amigos,2)
+print(valor_por_amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 3
+    (valor_por_amigo=round(valor_total/num_amigos,2)
+    ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 3
+    (valor_por_amigo=round(valor_total/num_amigos,2)
+    ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:50:12)
+-- CODE: 
+valor_total=250
+num_amigos = 6
+valor_por_amigo=round(valor_total/num_amigos,2)
+print(o)
+print(valor_por_amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(o)
+          ^
+NameError: name 'o' is not defined
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(o)
+          ^
+NameError: name 'o' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:40:22)
+-- CODE: 
+print(250/6)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:49:33)
+-- CODE: 
+valor_total=250
+num_amigos = 6
+valor_por_amigo=round(valor_total/num_amigos,2)
+print(valor_por_amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:30:29)
+-- CODE: 
+print(6/250)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+0.024
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+0.024
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:45:56)
+-- CODE: 
+print(valor-total=250)
+print(num-amigos=6)
+valor-por-amigo=round(valor-total/num-amigos,2)
+print (valor-po-amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(valor-total=250)
+          ^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(valor-total=250)
+          ^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:31:39)
+-- CODE: 
+print(round 250/6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(round 250/6)
+          ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(round 250/6)
+          ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:33:10)
+-- CODE: 
+print(250/6)
+round(x,n)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round(x,n)
+          ^
+NameError: name 'x' is not defined
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round(x,n)
+          ^
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:34:25)
+-- CODE: 
+print(250/6)(round 41.6666664.3)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(250/6)(round 41.6666664.3)
+                 ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(250/6)(round 41.6666664.3)
+                 ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:47:29)
+-- CODE: 
+print(valor-total=250)
+print(num-amigos=6)
+print(valor-por-amigo=round(valor-total/num-amigos,2)
+print (valor-por-amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(valor-total=250)
+          ^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(valor-total=250)
+          ^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:48:21)
+-- CODE: 
+print(valor_total=250)
+print(num-amigos = 6)
+print(valor-por-amigo=round(valor-total/num-amigos,2)
+print (valor-por-amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 2
+    print(num-amigos = 6)
+          ^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 2
+    print(num-amigos = 6)
+          ^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:30:43)
+-- CODE: 
+print(250/6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:47:37)
+-- CODE: 
+print(valor-total=250)
+print(num-amigos = 6)
+print(valor-por-amigo=round(valor-total/num-amigos,2)
+print (valor-por-amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(valor-total=250)
+          ^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(valor-total=250)
+          ^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:45:40)
+-- CODE: 
+print(valor-total=250)
+num-amigos=6
+valor-por-amigo=round(valor-total/num-amigos,2)
+print (valor-po-amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(valor-total=250)
+          ^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(valor-total=250)
+          ^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:31:52)
+-- CODE: 
+print((round 250/6))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print((round 250/6))
+           ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print((round 250/6))
+           ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-13 13:50:01)
+-- CODE: 
+valor_total=250
+num_amigos = 6
+valor_por_amigo=round(valor_total/num_amigos,2)
+print(o valor qu caa amigo deve pagar)
+print(valor_por_amigo)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 4
+    print(o valor qu caa amigo deve pagar)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 4
+    print(o valor qu caa amigo deve pagar)
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-11 15:33:15)
+-- CODE: 
+print(250/6)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

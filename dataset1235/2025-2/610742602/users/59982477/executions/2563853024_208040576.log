@@ -1,0 +1,272 @@
+== RUN (2025-09-02 20:31:13)
+-- CODE: 
+preco = float(input("Digite o valor do produto:"))
+preco_final = preco - (preco * 15%)
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = preco - (preco * 15%)
+                                      ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = preco - (preco * 15%)
+                                      ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+-- ERROR:
+File "XXXX", line 2
+    preco_final = preco - (preco * 15%)
+                                      ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+-- ERROR:
+File "XXXX", line 2
+    preco_final = preco - (preco * 15%)
+                                      ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = preco - (preco * 15%)
+                                      ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+-- ERROR:
+File "XXXX", line 2
+    preco_final = preco - (preco * 15%)
+                                      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:43:53)
+-- CODE: 
+preco = float(input("Digite o valor do produto:"))
+preco_final = preco - (preco / 15)
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Digite o valor do produto:1120.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Digite o valor do produto:93.33333333333333
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Digite o valor do produto:14.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Digite o valor do produto:9.333333333333334
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Digite o valor do produto:186.66666666666666
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Digite o valor do produto:18.666666666666668
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 20:46:54)
+-- CODE: 
+preco = float(input("Digite o valor do produto:"))
+preco_final = preco - (preco * 0.15)
+print(preco_final)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Digite o valor do produto:1020.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Digite o valor do produto:85.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Digite o valor do produto:12.75
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Digite o valor do produto:8.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Digite o valor do produto:170.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Digite o valor do produto:17.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:29:10)
+-- CODE: 
+preco = float(input("Digite o valor unitário:"))
+preco_final = 15 / 100 * preco
+print(preco_final)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Digite o valor unitário:180.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Digite o valor unitário:15.0
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Digite o valor unitário:2.25
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Digite o valor unitário:1.5
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Digite o valor unitário:30.0
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Digite o valor unitário:3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 20:43:56)
+-- CODE: 
+preco = float(input("Digite o valor do produto:"))
+preco_final = preco - (preco / 15)
+print(preco_final)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1200.00
+---- correct output:
+1020.0
+---- user output:
+Digite o valor do produto:1120.0
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+85.0
+---- user output:
+Digite o valor do produto:93.33333333333333
+-- TEST CASE 3:
+---- input:
+15.0
+---- correct output:
+12.75
+---- user output:
+Digite o valor do produto:14.0
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+8.5
+---- user output:
+Digite o valor do produto:9.333333333333334
+-- TEST CASE 5:
+---- input:
+200.0
+---- correct output:
+170.0
+---- user output:
+Digite o valor do produto:186.66666666666666
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+17.0
+---- user output:
+Digite o valor do produto:18.666666666666668
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

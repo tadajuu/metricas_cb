@@ -1,0 +1,6 @@
+nome = input("nome")
+idade = input("idade")
+altura = input("altura")
+print("Nome: ",nome)
+print("Idade: ",idade)
+print("Altura:", altura)

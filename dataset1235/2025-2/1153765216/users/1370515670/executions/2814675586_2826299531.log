@@ -1,0 +1,352 @@
+== RUN (2025-08-26 18:34:17)
+-- CODE: 
+valor_compra = float(input(10.0))
+valor_pago = float(input(10.0))
+troco = "valor_pago - valorcompra"
+print(troco)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+10.0
+---- correct output:
+0.0
+---- user output:
+10.010.0valor_pago - valorcompra
+-- TEST CASE 2:
+---- input:
+97.25
+100.0
+---- correct output:
+2.75
+---- user output:
+10.010.0valor_pago - valorcompra
+-- TEST CASE 3:
+---- input:
+32.0
+50.0
+---- correct output:
+18.0
+---- user output:
+10.010.0valor_pago - valorcompra
+-- TEST CASE 4:
+---- input:
+181.0
+200.0
+---- correct output:
+19.0
+---- user output:
+10.010.0valor_pago - valorcompra
+-- TEST CASE 5:
+---- input:
+1.25
+5.0
+---- correct output:
+3.75
+---- user output:
+10.010.0valor_pago - valorcompra
+-- TEST CASE 6:
+---- input:
+48.0
+100.0
+
+---- correct output:
+52.0
+---- user output:
+10.010.0valor_pago - valorcompra
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:36:00)
+-- CODE: 
+valor_compra = float(input(10.0))
+valor_pago = float(input(10.0))
+troco = valor_pago - valorcompra
+print(troco)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+10.0
+---- correct output:
+0.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    troco = valor_pago - valorcompra
+                         ^^^^^^^^^^^
+NameError: name 'valorcompra' is not defined. Did you mean: 'valor_compra'?
+-- TEST CASE 2:
+---- input:
+97.25
+100.0
+---- correct output:
+2.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    troco = valor_pago - valorcompra
+                         ^^^^^^^^^^^
+NameError: name 'valorcompra' is not defined. Did you mean: 'valor_compra'?
+-- TEST CASE 3:
+---- input:
+32.0
+50.0
+---- correct output:
+18.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    troco = valor_pago - valorcompra
+                         ^^^^^^^^^^^
+NameError: name 'valorcompra' is not defined. Did you mean: 'valor_compra'?
+-- TEST CASE 4:
+---- input:
+181.0
+200.0
+---- correct output:
+19.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    troco = valor_pago - valorcompra
+                         ^^^^^^^^^^^
+NameError: name 'valorcompra' is not defined. Did you mean: 'valor_compra'?
+-- TEST CASE 5:
+---- input:
+1.25
+5.0
+---- correct output:
+3.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    troco = valor_pago - valorcompra
+                         ^^^^^^^^^^^
+NameError: name 'valorcompra' is not defined. Did you mean: 'valor_compra'?
+-- TEST CASE 6:
+---- input:
+48.0
+100.0
+
+---- correct output:
+52.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    troco = valor_pago - valorcompra
+                         ^^^^^^^^^^^
+NameError: name 'valorcompra' is not defined. Did you mean: 'valor_compra'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:35:44)
+-- CODE: 
+valor_compra = int(float(input(10.0))
+valor_pago = int(float(input(10.0))
+troco = valor_pago - valorcompra
+print(troco)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+10.0
+---- correct output:
+0.0
+-- ERROR:
+File "XXXX", line 1
+    valor_compra = int(float(input(10.0))
+                       ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+97.25
+100.0
+---- correct output:
+2.75
+-- ERROR:
+File "XXXX", line 1
+    valor_compra = int(float(input(10.0))
+                       ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+32.0
+50.0
+---- correct output:
+18.0
+-- ERROR:
+File "XXXX", line 1
+    valor_compra = int(float(input(10.0))
+                       ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+181.0
+200.0
+---- correct output:
+19.0
+-- ERROR:
+File "XXXX", line 1
+    valor_compra = int(float(input(10.0))
+                       ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+1.25
+5.0
+---- correct output:
+3.75
+-- ERROR:
+File "XXXX", line 1
+    valor_compra = int(float(input(10.0))
+                       ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+48.0
+100.0
+
+---- correct output:
+52.0
+-- ERROR:
+File "XXXX", line 1
+    valor_compra = int(float(input(10.0))
+                       ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 18:36:26)
+-- CODE: 
+valor_compra = float(input(10.0))
+valor_pago = float(input(10.0))
+troco = valor_pago - valor_compra
+print(troco)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+10.0
+---- correct output:
+0.0
+---- user output:
+10.010.00.0
+-- TEST CASE 2:
+---- input:
+97.25
+100.0
+---- correct output:
+2.75
+---- user output:
+10.010.02.75
+-- TEST CASE 3:
+---- input:
+32.0
+50.0
+---- correct output:
+18.0
+---- user output:
+10.010.018.0
+-- TEST CASE 4:
+---- input:
+181.0
+200.0
+---- correct output:
+19.0
+---- user output:
+10.010.019.0
+-- TEST CASE 5:
+---- input:
+1.25
+5.0
+---- correct output:
+3.75
+---- user output:
+10.010.03.75
+-- TEST CASE 6:
+---- input:
+48.0
+100.0
+
+---- correct output:
+52.0
+---- user output:
+10.010.052.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:35:40)
+-- CODE: 
+valor_compra = int(float(input(10.0))
+valor_pago = int(float(input(10.0))
+troco = valor_pago - valorcompra
+print(troco)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+10.0
+---- correct output:
+0.0
+-- ERROR:
+File "XXXX", line 1
+    valor_compra = int(float(input(10.0))
+                       ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+97.25
+100.0
+---- correct output:
+2.75
+-- ERROR:
+File "XXXX", line 1
+    valor_compra = int(float(input(10.0))
+                       ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+32.0
+50.0
+---- correct output:
+18.0
+-- ERROR:
+File "XXXX", line 1
+    valor_compra = int(float(input(10.0))
+                       ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+181.0
+200.0
+---- correct output:
+19.0
+-- ERROR:
+File "XXXX", line 1
+    valor_compra = int(float(input(10.0))
+                       ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+1.25
+5.0
+---- correct output:
+3.75
+-- ERROR:
+File "XXXX", line 1
+    valor_compra = int(float(input(10.0))
+                       ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+48.0
+100.0
+
+---- correct output:
+52.0
+-- ERROR:
+File "XXXX", line 1
+    valor_compra = int(float(input(10.0))
+                       ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,49 @@
+== SUBMISSION (2025-09-01 14:23:52)
+-- CODE: 
+NP = int(input("número de pedagios: "))
+taxa = NP * 9.80
+tf = 20.00
+ICMS = (taxa + tf) * 15/100
+vt = taxa + tf + ICMS
+
+print(round(vt,2))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+número de pedagios: 56.81
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+número de pedagios: 34.27
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+número de pedagios: 79.35
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+número de pedagios: 124.43
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+número de pedagios: 45.54
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

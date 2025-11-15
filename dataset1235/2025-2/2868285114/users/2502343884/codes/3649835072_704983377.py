@@ -1,0 +1,7 @@
+x =int(input("digite o valor:"))
+y =int(input("digite o valor:"))  
+print(x//y)
+print(x%y)  
+print(round( x/y, 2))
+print(x*y)
+print(y**3)

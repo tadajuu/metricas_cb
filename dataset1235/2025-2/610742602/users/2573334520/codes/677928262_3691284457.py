@@ -1,0 +1,6 @@
+x=float(input())
+y=float(input())
+z=float(input())
+t=float(input())
+m=(x*1+y*2+z*3+t*4)/(1+2+3+4)
+print(round(m,2))

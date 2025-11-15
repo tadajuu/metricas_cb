@@ -1,0 +1,354 @@
+== RUN (2025-08-28 22:10:37)
+-- CODE: 
+pesos = int(input())
+valorEmPesosArgentinos = 0.018
+valorEmReais = valorEmPesosArgentinos * 0.018
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 22:06:50)
+-- CODE: 
+valorEmReais = valorEmPesosArgentinos * 0.018
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valorEmReais = valorEmPesosArgentinos * 0.018
+                   ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valorEmPesosArgentinos' is not defined
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valorEmReais = valorEmPesosArgentinos * 0.018
+                   ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valorEmPesosArgentinos' is not defined
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valorEmReais = valorEmPesosArgentinos * 0.018
+                   ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valorEmPesosArgentinos' is not defined
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valorEmReais = valorEmPesosArgentinos * 0.018
+                   ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valorEmPesosArgentinos' is not defined
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valorEmReais = valorEmPesosArgentinos * 0.018
+                   ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valorEmPesosArgentinos' is not defined
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valorEmReais = valorEmPesosArgentinos * 0.018
+                   ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valorEmPesosArgentinos' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:11:15)
+-- CODE: 
+pesos = int(input())
+valorEmPesosArgentinos = 0.018
+valorEmReais = valorEmPesosArgentinos * 0.018
+print (round(valorEmReais,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+0.0
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+0.0
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+0.0
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+0.0
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+0.0
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:12:14)
+-- CODE: 
+pesos = int(input())
+
+valorEmReais = pesos * 0.018
+print (round(valorEmReais,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+0.02
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+0.04
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+0.14
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+0.38
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+0.34
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+0.16
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 22:06:47)
+-- CODE: 
+valorEmReais = valorEmPesosArgentinos * 0.018
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valorEmReais = valorEmPesosArgentinos * 0.018
+                   ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valorEmPesosArgentinos' is not defined
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valorEmReais = valorEmPesosArgentinos * 0.018
+                   ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valorEmPesosArgentinos' is not defined
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valorEmReais = valorEmPesosArgentinos * 0.018
+                   ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valorEmPesosArgentinos' is not defined
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valorEmReais = valorEmPesosArgentinos * 0.018
+                   ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valorEmPesosArgentinos' is not defined
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valorEmReais = valorEmPesosArgentinos * 0.018
+                   ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valorEmPesosArgentinos' is not defined
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    valorEmReais = valorEmPesosArgentinos * 0.018
+                   ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'valorEmPesosArgentinos' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:11:58)
+-- CODE: 
+pesos = int(input())
+pesos = 0.018
+valorEmReais = pesos * 0.018
+print (round(valorEmReais,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+0.02
+---- user output:
+0.0
+-- TEST CASE 2:
+---- input:
+2
+---- correct output:
+0.04
+---- user output:
+0.0
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+0.14
+---- user output:
+0.0
+-- TEST CASE 4:
+---- input:
+21
+---- correct output:
+0.38
+---- user output:
+0.0
+-- TEST CASE 5:
+---- input:
+19
+---- correct output:
+0.34
+---- user output:
+0.0
+-- TEST CASE 6:
+---- input:
+9
+---- correct output:
+0.16
+---- user output:
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

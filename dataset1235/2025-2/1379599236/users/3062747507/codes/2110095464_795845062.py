@@ -1,0 +1,5 @@
+ml = float(input())
+mt = float(input())
+mp = float(input())
+mT = (0.25 * ml) + (0.30 * mt) + (0.45 * mp)
+print(round(mT,2))

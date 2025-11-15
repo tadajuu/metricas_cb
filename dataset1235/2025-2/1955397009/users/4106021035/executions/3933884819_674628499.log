@@ -1,0 +1,1747 @@
+== SUBMISSION (2025-09-02 01:24:48)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+
+t1 = float(input("T1: "))
+g1 = float(input("G1: "))
+t2 = float(input("T2: "))
+g2 = float(input("G2: "))
+
+t1 = math.radians(t1)
+g1 = math.radians(g1)
+t2 = math.radians(t2)
+g2 = math.radians(g2)
+
+
+R = 6371.01
+dist = R * math.acos(math.sin(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2)* math.cos(g1-g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+---- user output:
+T1: G1: T2: G2: 10596.85
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+---- user output:
+T1: G1: T2: G2: 8380.92
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+---- user output:
+T1: G1: T2: G2: 3580.98
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+---- user output:
+T1: G1: T2: G2: 8448.27
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+---- user output:
+T1: G1: T2: G2: 7882.67
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+---- user output:
+T1: G1: T2: G2: 8361.17
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 01:24:45)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+
+t1 = float(input("T1: "))
+g1 = float(input("G1: "))
+t2 = float(input("T2: "))
+g2 = float(input("G2: "))
+
+t1 = math.radians(t1)
+g1 = math.radians(g1)
+t2 = math.radians(t2)
+g2 = math.radians(g2)
+
+
+R = 6371.01
+dist = R * math.acos(math.sin(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2)* math.cos(g1-g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+---- user output:
+T1: G1: T2: G2: 10596.85
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+---- user output:
+T1: G1: T2: G2: 8380.92
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+---- user output:
+T1: G1: T2: G2: 3580.98
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+---- user output:
+T1: G1: T2: G2: 8448.27
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+---- user output:
+T1: G1: T2: G2: 7882.67
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+---- user output:
+T1: G1: T2: G2: 8361.17
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 01:19:14)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+
+t1 = float(input("T1: "))
+g1 = float(input("G1: "))
+t2 = float(input("T2: "))
+g2 = float(input("G2: "))
+
+t1 = math.radians(t1)
+g1 = math.radians(g1)
+t2 = math.radians(t2)
+g2 = math.radians(g2)
+
+
+R = 6371.01
+dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 01:19:15)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+
+t1 = float(input("T1: "))
+g1 = float(input("G1: "))
+t2 = float(input("T2: "))
+g2 = float(input("G2: "))
+
+t1 = math.radians(t1)
+g1 = math.radians(g1)
+t2 = math.radians(t2)
+g2 = math.radians(g2)
+
+
+R = 6371.01
+dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 01:07:34)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+t1 = radians.math(float(input("T1: ")))
+g1 = radians.math(float(input("G1: ")))
+t2 = radians.math(float(input("T2: ")))
+g2 = radians.math(float(input("G2: ")))
+
+R = 6371.01
+dist = R * arccos.math(sin.math(t1) * sin.math(t2) + cos.math(g1) * cos.math(g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = radians.math(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = radians.math(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = radians.math(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = radians.math(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = radians.math(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = radians.math(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 01:19:24)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+
+t1 = float(input("T1: "))
+g1 = float(input("G1: "))
+t2 = float(input("T2: "))
+g2 = float(input("G2: "))
+
+t1 = math.radians(t1)
+g1 = math.radians(g1)
+t2 = math.radians(t2)
+g2 = math.radians(g2)
+
+
+R = 6371.01
+dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 01:24:49)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+
+t1 = float(input("T1: "))
+g1 = float(input("G1: "))
+t2 = float(input("T2: "))
+g2 = float(input("G2: "))
+
+t1 = math.radians(t1)
+g1 = math.radians(g1)
+t2 = math.radians(t2)
+g2 = math.radians(g2)
+
+
+R = 6371.01
+dist = R * math.acos(math.sin(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2)* math.cos(g1-g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+---- user output:
+T1: G1: T2: G2: 10596.85
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+---- user output:
+T1: G1: T2: G2: 8380.92
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+---- user output:
+T1: G1: T2: G2: 3580.98
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+---- user output:
+T1: G1: T2: G2: 8448.27
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+---- user output:
+T1: G1: T2: G2: 7882.67
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+---- user output:
+T1: G1: T2: G2: 8361.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 01:29:56)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+t1 = math.radians(float(input("T1: ")))
+g1 = math.radians(float(input("G1: ")))
+t2 = math.radians(float(input("T2: ")))
+g2 = math.radians(float(input("G2: ")))
+
+
+R = 6371.01
+dist = R * math.acos(math.sin(t1) * math.sin(t2) + math.cos(t1) * math.cos(t2)* math.cos(g1-g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = math.radians(float(input("T1: ")))
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = math.radians(float(input("T1: ")))
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = math.radians(float(input("T1: ")))
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = math.radians(float(input("T1: ")))
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = math.radians(float(input("T1: ")))
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = math.radians(float(input("T1: ")))
+         ^^^^
+NameError: name 'math' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 01:17:00)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+t1 = float(input("T1: "))
+g1 = float(input("G1: "))
+t2 = float(input("T2: "))
+g2 = float(input("G2: "))
+
+t1 = math.radians(t1)
+g1 = math.radians(g1)
+t2 = math.radians(t2)
+g2 = math.radians(g2)
+
+
+R = 6371.01
+dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    t1 = math.radians(t1)
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    t1 = math.radians(t1)
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    t1 = math.radians(t1)
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    t1 = math.radians(t1)
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    t1 = math.radians(t1)
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    t1 = math.radians(t1)
+         ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 01:20:07)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+
+t1 = float(input("T1: "))
+g1 = float(input("G1: "))
+t2 = float(input("T2: "))
+g2 = float(input("G2: "))
+
+t1 = math.radians(t1)
+g1 = math.radians(g1)
+t2 = math.radians(t2)
+g2 = math.radians(g2)
+
+
+R = 6371.01
+dist = R * math.acos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.acos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+                         ^^^
+NameError: name 'sin' is not defined. Did you mean: 'bin'?
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.acos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+                         ^^^
+NameError: name 'sin' is not defined. Did you mean: 'bin'?
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.acos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+                         ^^^
+NameError: name 'sin' is not defined. Did you mean: 'bin'?
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.acos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+                         ^^^
+NameError: name 'sin' is not defined. Did you mean: 'bin'?
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.acos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+                         ^^^
+NameError: name 'sin' is not defined. Did you mean: 'bin'?
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.acos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+                         ^^^
+NameError: name 'sin' is not defined. Did you mean: 'bin'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 01:23:25)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+
+t1 = float(input("T1: "))
+g1 = float(input("G1: "))
+t2 = float(input("T2: "))
+g2 = float(input("G2: "))
+
+t1 = math.radians(t1)
+g1 = math.radians(g1)
+t2 = math.radians(t2)
+g2 = math.radians(g2)
+
+
+R = 6371.01
+dist = R * math.acos(math.sin(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+---- user output:
+T1: G1: T2: G2: 10672.19
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+---- user output:
+T1: G1: T2: G2: 8380.92
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.acos(math.sin(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+---- user output:
+T1: G1: T2: G2: 8448.14
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+---- user output:
+T1: G1: T2: G2: 12716.99
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+---- user output:
+T1: G1: T2: G2: 8361.12
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 01:07:12)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+t1 = radians(float(input("T1: ")))
+g1 = radians(float(input("G1: ")))
+t2 = radians(float(input("T2: ")))
+g2 = radians(float(input("G2: ")))
+
+R = 6371.01
+dist = R * arccos.math(sin.math(t1) * sin.math(t2) + cos.math(g1) * cos.math(g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = radians(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = radians(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = radians(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = radians(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = radians(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = radians(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 01:29:54)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+t1 = math.radians(float(input("T1: ")))
+g1 = math.radians(float(input("G1: ")))
+t2 = math.radians(float(input("T2: ")))
+g2 = math.radians(float(input("G2: ")))
+
+
+R = 6371.01
+dist = R * math.acos(math.sin(t1) * math.sin(t2) + math.cos(t1) * math.cos(t2)* math.cos(g1-g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = math.radians(float(input("T1: ")))
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = math.radians(float(input("T1: ")))
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = math.radians(float(input("T1: ")))
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = math.radians(float(input("T1: ")))
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = math.radians(float(input("T1: ")))
+         ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1 = math.radians(float(input("T1: ")))
+         ^^^^
+NameError: name 'math' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 01:30:20)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+
+t1 = math.radians(float(input("T1: ")))
+g1 = math.radians(float(input("G1: ")))
+t2 = math.radians(float(input("T2: ")))
+g2 = math.radians(float(input("G2: ")))
+
+
+R = 6371.01
+dist = R * math.acos(math.sin(t1) * math.sin(t2) + math.cos(t1) * math.cos(t2)* math.cos(g1-g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+---- user output:
+T1: G1: T2: G2: 7417.22
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+---- user output:
+T1: G1: T2: G2: 5.26
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+---- user output:
+T1: G1: T2: G2: 4079.98
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+---- user output:
+T1: G1: T2: G2: 664.28
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+---- user output:
+T1: G1: T2: G2: 15871.77
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+---- user output:
+T1: G1: T2: G2: 50.44
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 01:19:19)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+
+t1 = float(input("T1: "))
+g1 = float(input("G1: "))
+t2 = float(input("T2: "))
+g2 = float(input("G2: "))
+
+t1 = math.radians(t1)
+g1 = math.radians(g1)
+t2 = math.radians(t2)
+g2 = math.radians(g2)
+
+
+R = 6371.01
+dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    dist = R * math.arccos(sin.math(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2))
+               ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'arccos'. Did you mean: 'acos'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 01:28:12)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+
+t1 = radians(float(input("T1: ")))
+g1 = math.radians(float(input("G1: ")))
+t2 = math.radians(float(input("T2: ")))
+g2 = math.radians(float(input("G2: ")))
+
+
+R = 6371.01
+dist = R * math.acos(math.sin(t1) * math.sin(t2) + math.cos(g1) * math.cos(g2)* math.cos(g1-g2))
+
+print(round(dist, 2))
+
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+56.5683648
+-96.78173
+-3.0953219
+-59.9858092
+
+
+---- correct output:
+7417.22
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    t1 = radians(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 2:
+---- input:
+-3.130601
+-60.02306
+-3.083550
+-60.027781
+---- correct output:
+5.26
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    t1 = radians(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 3:
+---- input:
+57.1354261
+122.1163737
+65.517364
+-157.4633791
+
+---- correct output:
+4079.98
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    t1 = radians(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 4:
+---- input:
+2.8251797
+-60.692472
+-3.1045487
+-59.9659078
+
+---- correct output:
+664.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    t1 = radians(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 5:
+---- input:
+-3.1046861
+-59.9810961
+35.6684415
+139.600782
+
+---- correct output:
+15871.77
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    t1 = radians(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 6:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    t1 = radians(float(input("T1: ")))
+         ^^^^^^^
+NameError: name 'radians' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

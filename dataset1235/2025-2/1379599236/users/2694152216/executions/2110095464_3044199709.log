@@ -1,0 +1,162 @@
+== SUBMISSION (2025-09-01 17:04:51)
+-- CODE: 
+import math
+n = int(input("Digite o número de pessoas no grupo: "))
+result = 1 - (math.factorial(365) / math.factorial(365-n) * (1/365**n))
+result2 = result*100
+
+print(round(result2, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+---- user output:
+Digite o número de pessoas no grupo: 97.04
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+---- user output:
+Digite o número de pessoas no grupo: 50.73
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+Digite o número de pessoas no grupo: 16.7
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+Digite o número de pessoas no grupo: 100.0
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+---- user output:
+Digite o número de pessoas no grupo: 86.41
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+Digite o número de pessoas no grupo: 53.83
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 17:03:12)
+-- CODE: 
+import math
+n = int(input("Digite o número de pessoas no grupo: "))
+p = 1 - (math.factorial(365) / math.factorial(365-n) * (365**n))
+
+p *= 100
+
+print(f"A probalidade é {round(p,2)}%")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+---- user output:
+Digite o número de pessoas no grupo: A probalidade é -5.0230283250378484e+256%
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+---- user output:
+Digite o número de pessoas no grupo: A probalidade é -3.614571043303052e+119%
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+Digite o número de pessoas no grupo: A probalidade é -2.6041189878881145e+63%
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+Digite o número de pessoas no grupo: A probalidade é -inf%
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+---- user output:
+Digite o número de pessoas no grupo: A probalidade é -7.371909196340561e+195%
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+Digite o número de pessoas no grupo: A probalidade é -4.512069033355199e+124%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 17:04:44)
+-- CODE: 
+import math
+n = int(input("Digite o número de pessoas no grupo: "))
+result = 1 - (math.factorial(365) / math.factorial(365-n) * (1/365**n))
+result2 = result*100
+
+print(round(result2, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+---- user output:
+Digite o número de pessoas no grupo: 97.04
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+---- user output:
+Digite o número de pessoas no grupo: 50.73
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+Digite o número de pessoas no grupo: 16.7
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+Digite o número de pessoas no grupo: 100.0
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+---- user output:
+Digite o número de pessoas no grupo: 86.41
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+Digite o número de pessoas no grupo: 53.83
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

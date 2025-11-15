@@ -1,0 +1,1 @@
+print("A conta dos amigos deu:",180/4)

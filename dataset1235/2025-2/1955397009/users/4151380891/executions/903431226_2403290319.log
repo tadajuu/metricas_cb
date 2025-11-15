@@ -1,0 +1,417 @@
+== RUN (2025-08-26 12:22:15)
+-- CODE: 
+preco = float(input("numero: a quantidade"))
+quantidade = int(input("a quantidade:"))
+
+custo_total = preco + quantidade  
+print(custo_total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2432.50
+1
+---- correct output:
+2432.5
+---- user output:
+numero: a quantidadea quantidade:2433.5
+-- TEST CASE 2:
+---- input:
+45.0
+10
+
+---- correct output:
+450.0
+---- user output:
+numero: a quantidadea quantidade:55.0
+-- TEST CASE 3:
+---- input:
+66.2
+10
+---- correct output:
+662.0
+---- user output:
+numero: a quantidadea quantidade:76.2
+-- TEST CASE 4:
+---- input:
+38.5
+2
+---- correct output:
+77.0
+---- user output:
+numero: a quantidadea quantidade:40.5
+-- TEST CASE 5:
+---- input:
+122.5
+1
+---- correct output:
+122.5
+---- user output:
+numero: a quantidadea quantidade:123.5
+-- TEST CASE 6:
+---- input:
+87.5
+4
+---- correct output:
+350.0
+---- user output:
+numero: a quantidadea quantidade:91.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 12:22:34)
+-- CODE: 
+preco = float(input("numero: a quantidade"))
+quantidade = int(input("a quantidade:"))
+
+custo_total = preco + quantidade  
+print(custo_total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2432.50
+1
+---- correct output:
+2432.5
+---- user output:
+numero: a quantidadea quantidade:2433.5
+-- TEST CASE 2:
+---- input:
+45.0
+10
+
+---- correct output:
+450.0
+---- user output:
+numero: a quantidadea quantidade:55.0
+-- TEST CASE 3:
+---- input:
+66.2
+10
+---- correct output:
+662.0
+---- user output:
+numero: a quantidadea quantidade:76.2
+-- TEST CASE 4:
+---- input:
+38.5
+2
+---- correct output:
+77.0
+---- user output:
+numero: a quantidadea quantidade:40.5
+-- TEST CASE 5:
+---- input:
+122.5
+1
+---- correct output:
+122.5
+---- user output:
+numero: a quantidadea quantidade:123.5
+-- TEST CASE 6:
+---- input:
+87.5
+4
+---- correct output:
+350.0
+---- user output:
+numero: a quantidadea quantidade:91.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 12:24:24)
+-- CODE: 
+preco = float(input("numero: a quantidade"))
+quantidade = int(input("a quantidade:"))
+
+custo_total = preco * quantidade  
+print(custo_total)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2432.50
+1
+---- correct output:
+2432.5
+---- user output:
+numero: a quantidadea quantidade:2432.5
+-- TEST CASE 2:
+---- input:
+45.0
+10
+
+---- correct output:
+450.0
+---- user output:
+numero: a quantidadea quantidade:450.0
+-- TEST CASE 3:
+---- input:
+66.2
+10
+---- correct output:
+662.0
+---- user output:
+numero: a quantidadea quantidade:662.0
+-- TEST CASE 4:
+---- input:
+38.5
+2
+---- correct output:
+77.0
+---- user output:
+numero: a quantidadea quantidade:77.0
+-- TEST CASE 5:
+---- input:
+122.5
+1
+---- correct output:
+122.5
+---- user output:
+numero: a quantidadea quantidade:122.5
+-- TEST CASE 6:
+---- input:
+87.5
+4
+---- correct output:
+350.0
+---- user output:
+numero: a quantidadea quantidade:350.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 12:24:07)
+-- CODE: 
+preco = float(input("numero: a quantidade"))
+quantidade = int(input("a quantidade:"))
+
+custo_total = preco * quantidade  
+print(custo_total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2432.50
+1
+---- correct output:
+2432.5
+---- user output:
+numero: a quantidadea quantidade:2432.5
+-- TEST CASE 2:
+---- input:
+45.0
+10
+
+---- correct output:
+450.0
+---- user output:
+numero: a quantidadea quantidade:450.0
+-- TEST CASE 3:
+---- input:
+66.2
+10
+---- correct output:
+662.0
+---- user output:
+numero: a quantidadea quantidade:662.0
+-- TEST CASE 4:
+---- input:
+38.5
+2
+---- correct output:
+77.0
+---- user output:
+numero: a quantidadea quantidade:77.0
+-- TEST CASE 5:
+---- input:
+122.5
+1
+---- correct output:
+122.5
+---- user output:
+numero: a quantidadea quantidade:122.5
+-- TEST CASE 6:
+---- input:
+87.5
+4
+---- correct output:
+350.0
+---- user output:
+numero: a quantidadea quantidade:350.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 12:21:39)
+-- CODE: 
+preco = float(input("numero: a quantidade"))
+quantidade = int(input("quantidade:"))
+
+custo_total = preco + quantidade  
+print(custo_total)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2432.50
+1
+---- correct output:
+2432.5
+---- user output:
+numero: a quantidadequantidade:2433.5
+-- TEST CASE 2:
+---- input:
+45.0
+10
+
+---- correct output:
+450.0
+---- user output:
+numero: a quantidadequantidade:55.0
+-- TEST CASE 3:
+---- input:
+66.2
+10
+---- correct output:
+662.0
+---- user output:
+numero: a quantidadequantidade:76.2
+-- TEST CASE 4:
+---- input:
+38.5
+2
+---- correct output:
+77.0
+---- user output:
+numero: a quantidadequantidade:40.5
+-- TEST CASE 5:
+---- input:
+122.5
+1
+---- correct output:
+122.5
+---- user output:
+numero: a quantidadequantidade:123.5
+-- TEST CASE 6:
+---- input:
+87.5
+4
+---- correct output:
+350.0
+---- user output:
+numero: a quantidadequantidade:91.5
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 12:20:54)
+-- CODE: 
+preco = float(input("numero: a quantidade"))
+quantidade = int(input())
+
+custo_total = preco + quantidade  
+print(custo_total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2432.50
+1
+---- correct output:
+2432.5
+---- user output:
+numero: a quantidade2433.5
+-- TEST CASE 2:
+---- input:
+45.0
+10
+
+---- correct output:
+450.0
+---- user output:
+numero: a quantidade55.0
+-- TEST CASE 3:
+---- input:
+66.2
+10
+---- correct output:
+662.0
+---- user output:
+numero: a quantidade76.2
+-- TEST CASE 4:
+---- input:
+38.5
+2
+---- correct output:
+77.0
+---- user output:
+numero: a quantidade40.5
+-- TEST CASE 5:
+---- input:
+122.5
+1
+---- correct output:
+122.5
+---- user output:
+numero: a quantidade123.5
+-- TEST CASE 6:
+---- input:
+87.5
+4
+---- correct output:
+350.0
+---- user output:
+numero: a quantidade91.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 12:23:06)
+-- CODE: 
+preco = float(input("numero: a quantidade"))
+quantidade = int(input("a quantidade:"))
+
+custo_total = preco * quantidade  
+print(custo_total)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2432.50
+1
+---- correct output:
+2432.5
+---- user output:
+numero: a quantidadea quantidade:2432.5
+-- TEST CASE 2:
+---- input:
+45.0
+10
+
+---- correct output:
+450.0
+---- user output:
+numero: a quantidadea quantidade:450.0
+-- TEST CASE 3:
+---- input:
+66.2
+10
+---- correct output:
+662.0
+---- user output:
+numero: a quantidadea quantidade:662.0
+-- TEST CASE 4:
+---- input:
+38.5
+2
+---- correct output:
+77.0
+---- user output:
+numero: a quantidadea quantidade:77.0
+-- TEST CASE 5:
+---- input:
+122.5
+1
+---- correct output:
+122.5
+---- user output:
+numero: a quantidadea quantidade:122.5
+-- TEST CASE 6:
+---- input:
+87.5
+4
+---- correct output:
+350.0
+---- user output:
+numero: a quantidadea quantidade:350.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

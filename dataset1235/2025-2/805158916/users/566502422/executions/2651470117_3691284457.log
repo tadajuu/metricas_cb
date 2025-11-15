@@ -1,0 +1,1537 @@
+== RUN (2025-08-26 02:09:53)
+-- CODE: 
+n1 = int(input("digite a nota 1"))
+n2 = int(input("digite a nota 2"))
+n3 = int(input("digite a nota 3"))
+n4 = int(input("digite a nota 4"))
+nota1 = n1*1
+nota2 = n2*2
+nota3 = n3*3
+nota4 = n4*4
+dados = (nota1,nota2,nota3,nota4)
+import statistics
+mediana = (statistics.median(dados))
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.75'
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8.0'
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '7.0'
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 02:03:31)
+-- CODE: 
+n1 = int(input("digite a nota 1"))
+n2 = int(input("digite a nota 2"))
+n3 = int(input("digite a nota 3"))
+n4 = int(input("digite a nota 4"))
+nota1 = n1*1
+nota2 = n2*2
+nota3 = n3*3
+nota4 = n4*4
+import math
+mediana = (math.mediana(nota1,nota2,nota3,nota4))
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.75'
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8.0'
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '7.0'
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:29:28)
+-- CODE: 
+n1 = float(input("digite a nota 1"))
+n2 = float(input("digite a nota 2"))
+n3 = float(input("digite a nota 3"))
+n4 = float(input("digite a nota 4"))
+nota1 = n1
+nota2 = n2 * 2
+nota3 = n3 * 3
+nota4 = n4 * 4
+media = (nota1 + nota2 + nota3 + nota4)/10
+print(round(media,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 47.94
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 48.2
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 47.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 46.7
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 430.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 47.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 02:02:32)
+-- CODE: 
+n1 = int(input("digite a nota 1"))
+n2 = int(input("digite a nota 2"))
+m3 = int(input("digite a nota 3"))
+n4 = int(input("digite a nota 4"))
+nota1 = n1*1
+nota2 = n2*2
+nota3 = n3*3
+nota4 = n4*4
+import math
+mediana = (math.mediana(nota1,nota2,nota3,nota4))
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.75'
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8.0'
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '7.0'
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:23:09)
+-- CODE: 
+n1 = float(input("digite a nota 1"))
+n2 = float(input("digite a nota 2"))
+n3 = float(input("digite a nota 3"))
+n4 = float(input("digite a nota 4"))
+nota1 = n1
+nota2 = n2 * 2
+nota3 = n3 * 3
+nota4 = n4 * 4
+dados = (nota1,nota2,nota3,nota4)/11
+import statistics
+mediana = (statistics.median(dados))
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    dados = (nota1,nota2,nota3,nota4)/11
+            ~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    dados = (nota1,nota2,nota3,nota4)/11
+            ~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    dados = (nota1,nota2,nota3,nota4)/11
+            ~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    dados = (nota1,nota2,nota3,nota4)/11
+            ~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    dados = (nota1,nota2,nota3,nota4)/11
+            ~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    dados = (nota1,nota2,nota3,nota4)/11
+            ~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+TypeError: unsupported operand type(s) for /: 'tuple' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 01:24:45)
+-- CODE: 
+n1 = float(input("digite a nota 1"))
+n2 = float(input("digite a nota 2"))
+n3 = float(input("digite a nota 3"))
+n4 = float(input("digite a nota 4"))
+nota1 = n1
+nota2 = n2 * 2
+nota3 = n3 * 3
+nota4 = n4 * 4
+dados = (nota1,nota2,nota3,nota4)
+import statistics
+mediana = (statistics.median(dados))
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.02
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 418.83
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 419.0
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 417.5
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 413.5
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 465.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 416.5
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 02:07:12)
+-- CODE: 
+n1 = int(input("digite a nota 1"))
+n2 = int(input("digite a nota 2"))
+n3 = int(input("digite a nota 3"))
+n4 = int(input("digite a nota 4"))
+nota1 = n1*1
+nota2 = n2*2
+nota3 = n3*3
+nota4 = n4*4
+import math
+mediana = (math.median(nota1,nota2,nota3,nota4))
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.75'
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8.0'
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '7.0'
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 02:08:50)
+-- CODE: 
+n1 = int(input("digite a nota 1"))
+n2 = int(input("digite a nota 2"))
+n3 = int(input("digite a nota 3"))
+n4 = int(input("digite a nota 4"))
+nota1 = n1*1
+nota2 = n2*2
+nota3 = n3*3
+nota4 = n4*4
+dados = (nota1,nota2,nota3,nota4)
+import math
+mediana = (math.median(dados)
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+-- ERROR:
+File "XXXX", line 11
+    mediana = (math.median(dados)
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+-- ERROR:
+File "XXXX", line 11
+    mediana = (math.median(dados)
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+-- ERROR:
+File "XXXX", line 11
+    mediana = (math.median(dados)
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+-- ERROR:
+File "XXXX", line 11
+    mediana = (math.median(dados)
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+-- ERROR:
+File "XXXX", line 11
+    mediana = (math.median(dados)
+              ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+-- ERROR:
+File "XXXX", line 11
+    mediana = (math.median(dados)
+              ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 02:10:42)
+-- CODE: 
+n1 = int(input("digite a nota 1"))
+n2 = int(input("digite a nota 2"))
+n3 = int(input("digite a nota 3"))
+n4 = int(input("digite a nota 4"))
+nota1 = n1
+nota2 = n2
+nota3 = n3
+nota4 = n4
+dados = (nota1,nota2,nota3,nota4)
+import statistics
+mediana = (statistics.median(dados))
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.75'
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8.0'
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '7.0'
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 01:29:39)
+-- CODE: 
+n1 = float(input("digite a nota 1"))
+n2 = float(input("digite a nota 2"))
+n3 = float(input("digite a nota 3"))
+n4 = float(input("digite a nota 4"))
+nota1 = n1
+nota2 = n2 * 2
+nota3 = n3 * 3
+nota4 = n4 * 4
+media = (nota1 + nota2 + nota3 + nota4)/10
+print(round(media,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 47.94
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 48.2
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 47.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 46.7
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 430.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 47.8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:24:48)
+-- CODE: 
+n1 = float(input("digite a nota 1"))
+n2 = float(input("digite a nota 2"))
+n3 = float(input("digite a nota 3"))
+n4 = float(input("digite a nota 4"))
+nota1 = n1
+nota2 = n2 * 2
+nota3 = n3 * 3
+nota4 = n4 * 4
+dados = (nota1,nota2,nota3,nota4)
+import statistics
+mediana = (statistics.median(dados))
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 418.83
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 419.0
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 417.5
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 413.5
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 465.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 416.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:22:27)
+-- CODE: 
+n1 = float(input("digite a nota 1"))
+n2 = float(input("digite a nota 2"))
+n3 = float(input("digite a nota 3"))
+n4 = float(input("digite a nota 4"))
+nota1 = n1
+nota2 = n2 * 2
+nota3 = n3 * 3
+nota4 = n4 * 4
+dados = (nota1,nota2,nota3,nota4)
+import statistics
+mediana = (statistics.median(dados))
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 418.83
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 419.0
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 417.5
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 413.5
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 465.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 416.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:29:05)
+-- CODE: 
+n1 = float(input("digite a nota 1"))
+n2 = float(input("digite a nota 2"))
+n3 = float(input("digite a nota 3"))
+n4 = float(input("digite a nota 4"))
+nota1 = n1
+nota2 = n2 * 2
+nota3 = n3 * 3
+nota4 = n4 * 4
+media = (nota1 + nota2 + nota3 + nota4)/10
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(round(mediana,2))
+                ^^^^^^^
+NameError: name 'mediana' is not defined. Did you mean: 'media'?
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(round(mediana,2))
+                ^^^^^^^
+NameError: name 'mediana' is not defined. Did you mean: 'media'?
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(round(mediana,2))
+                ^^^^^^^
+NameError: name 'mediana' is not defined. Did you mean: 'media'?
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(round(mediana,2))
+                ^^^^^^^
+NameError: name 'mediana' is not defined. Did you mean: 'media'?
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(round(mediana,2))
+                ^^^^^^^
+NameError: name 'mediana' is not defined. Did you mean: 'media'?
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(round(mediana,2))
+                ^^^^^^^
+NameError: name 'mediana' is not defined. Did you mean: 'media'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 02:09:03)
+-- CODE: 
+n1 = int(input("digite a nota 1"))
+n2 = int(input("digite a nota 2"))
+n3 = int(input("digite a nota 3"))
+n4 = int(input("digite a nota 4"))
+nota1 = n1*1
+nota2 = n2*2
+nota3 = n3*3
+nota4 = n4*4
+dados = (nota1,nota2,nota3,nota4)
+import math
+mediana = (math.median(dados))
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.75'
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8.0'
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '7.0'
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 02:06:38)
+-- CODE: 
+n1 = int(input("digite a nota 1"))
+n2 = int(input("digite a nota 2"))
+n3 = int(input("digite a nota 3"))
+n4 = int(input("digite a nota 4"))
+nota1 = n1*1
+nota2 = n2*2
+nota3 = n3*3
+nota4 = n4*4
+import numpy 
+mediana = (np.median(nota1,nota2,nota3,nota4))
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.75'
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8.0'
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '7.0'
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.0'
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n1 = int(input("digite a nota 1"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 02:11:34)
+-- CODE: 
+n1 = float(input("digite a nota 1"))
+n2 = float(input("digite a nota 2"))
+n3 = float(input("digite a nota 3"))
+n4 = float(input("digite a nota 4"))
+nota1 = n1
+nota2 = n2
+nota3 = n3
+nota4 = n4
+dados = (nota1,nota2,nota3,nota4)
+import statistics
+mediana = (statistics.median(dados))
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 47.43
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 48.25
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 47.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 44.5
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 425.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 47.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:21:40)
+-- CODE: 
+n1 = float(input("digite a nota 1"))
+n2 = float(input("digite a nota 2"))
+n3 = float(input("digite a nota 3"))
+n4 = float(input("digite a nota 4"))
+nota1 = n1
+nota2 = n2
+nota3 = n3
+nota4 = n4
+dados = (nota1,nota2,nota3,nota4)
+import statistics
+mediana = (statistics.median(dados))
+print(round(mediana,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 47.43
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 48.25
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 47.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 44.5
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 425.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+digite a nota 1digite a nota 2digite a nota 3digite a nota 47.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

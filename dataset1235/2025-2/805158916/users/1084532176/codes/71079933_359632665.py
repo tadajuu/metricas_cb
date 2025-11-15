@@ -1,0 +1,1 @@
+print("O valor que cada um dos seis amigos vai receber é:",round(250/6,2))

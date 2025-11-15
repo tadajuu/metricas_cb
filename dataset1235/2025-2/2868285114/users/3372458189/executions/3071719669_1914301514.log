@@ -1,0 +1,56 @@
+== SUBMISSION (2025-08-28 22:36:45)
+-- CODE: 
+minutos = float(input("Digite a quantidade de minutos: "))
+min = minutos*0.28 
+miin = min + 23
+icms = miin * (31/100) 
+total = miin + icms
+print(round(total, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+180.29
+---- correct output:
+96.26
+---- user output:
+Digite a quantidade de minutos: 96.26
+-- TEST CASE 2:
+---- input:
+100.0
+---- correct output:
+66.81
+---- user output:
+Digite a quantidade de minutos: 66.81
+-- TEST CASE 3:
+---- input:
+113.86
+---- correct output:
+71.89
+---- user output:
+Digite a quantidade de minutos: 71.89
+-- TEST CASE 4:
+---- input:
+221.31
+---- correct output:
+111.31
+---- user output:
+Digite a quantidade de minutos: 111.31
+-- TEST CASE 5:
+---- input:
+165.7
+---- correct output:
+90.91
+---- user output:
+Digite a quantidade de minutos: 90.91
+-- TEST CASE 6:
+---- input:
+72.51
+---- correct output:
+56.73
+---- user output:
+Digite a quantidade de minutos: 56.73
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,2824 @@
+== RUN (2025-08-15 01:27:07)
+-- CODE: 
+n = float(input())
+r1 = n * 0.27
+r2 = n * 1.42 
+r3 = n * (1 - 0.63)
+print(f"{r1: .2f}")
+print(f"{r2: .2f}")
+print(f"{r3: .2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+ 45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+ 9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+ 120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+ 1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+ 2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+ 4.50
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:46:28)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print(f"\nValor original: R$ {n:.2f}")
+print("Com 85% de desconto: R$ {desconto:.2f}")
+print("f \n12% de acréscimo: R${acrescimo:.2f")
+print(f"Valor com acrescimo: R$ {valor_com_acrescimo:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Valor com acrescimo: R$ 137.92
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Valor com acrescimo: R$ 28.00
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Valor com acrescimo: R$ 364.67
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Valor com acrescimo: R$ 3996.05
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Valor com acrescimo: R$ 6077.34
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Valor com acrescimo: R$ 13.61
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 01:19:30)
+-- CODE: 
+n= float (input("Digite um número real: ")
+
+parte1 = n* (27/100)
+parte2 = n + n * (42/100)
+parte3 = n - n * (63/100)
+print("{parte1:.2f}")
+print("{parte2:.2f}")
+print("{parte3:.2f}"
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 1
+    n= float (input("Digite um número real: ")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 1
+    n= float (input("Digite um número real: ")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 1
+    n= float (input("Digite um número real: ")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 1
+    n= float (input("Digite um número real: ")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 1
+    n= float (input("Digite um número real: ")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 1
+    n= float (input("Digite um número real: ")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:58:13)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("\nValor original== 325.60)
+print("Com 85% de desconto")
+print("\n12% de acréscimo")
+print("Valor com acrescimo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 5
+    print("\nValor original== 325.60)
+          ^
+SyntaxError: unterminated string literal (detected at line 5)
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 5
+    print("\nValor original== 325.60)
+          ^
+SyntaxError: unterminated string literal (detected at line 5)
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 5
+    print("\nValor original== 325.60)
+          ^
+SyntaxError: unterminated string literal (detected at line 5)
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 5
+    print("\nValor original== 325.60)
+          ^
+SyntaxError: unterminated string literal (detected at line 5)
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 5
+    print("\nValor original== 325.60)
+          ^
+SyntaxError: unterminated string literal (detected at line 5)
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 5
+    print("\nValor original== 325.60)
+          ^
+SyntaxError: unterminated string literal (detected at line 5)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 01:28:34)
+-- CODE: 
+n = float(input())
+r1 = n * 0.27
+r2 = n * 1.42 
+r3 = n * (1 - 0.63)
+print(f"{r1: .2f}")
+print(f"{r2: .2f}")
+print(f"{r3: .2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+ 45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+ 9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+ 120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+ 1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+ 2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+ 4.50
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 01:20:29)
+-- CODE: 
+n= float(input("Digite um número real: "))
+
+parte1 = n* (27/100)
+parte2 = n + n * (42/100)
+parte3 = n - n * (63/100)
+print("{parte1:.2f}")
+print("{parte2:.2f}")
+print("{parte3:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+{parte3:.2f}
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+{parte3:.2f}
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+{parte3:.2f}
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+{parte3:.2f}
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+{parte3:.2f}
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+{parte3:.2f}
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 01:37:57)
+-- CODE: 
+n = float(input())
+r1 = n * 0.27
+r2 = n * 1.42 
+r3 = n * (1 - 0.63)
+print((f"{r1: .2f}").rstrip('0').rstrip('.'))
+print((f"{r2: .2f}").rstrip('0').rstrip('.'))
+print((f"{r3: .2f}").rstrip('0').rstrip('.'))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+ 45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+ 9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+ 120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+ 1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+ 2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+ 4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 01:27:46)
+-- CODE: 
+n = float(input())
+r1 = n * 0.27
+r2 = n * 1.42 
+r3 = n * (1 - 0.63)
+print(f"{r1: .2f}")
+print(f"{r2: .2f}")
+print(f"{r3: .2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+ 45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+ 9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+ 120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+ 1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+ 2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+ 4.50
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 01:38:08)
+-- CODE: 
+n = float(input())
+r1 = n * 0.27
+r2 = n * 1.42 
+r3 = n * (1 - 0.63)
+print((f"{r1: .2f}").rstrip('0').rstrip('.'))
+print((f"{r2: .2f}").rstrip('0').rstrip('.'))
+print((f"{r3: .2f}").rstrip('0').rstrip('.'))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+ 45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+ 9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+ 120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+ 1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+ 2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+ 4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:48:40)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print(f"\nValor original: R$ {n:.2f}")
+print("Com 85% de desconto: R$ {desconto:.2f}")
+print("f \n12% de acréscimo: R$ {acréscimo:.2f")
+print(f"Valor com acrescimo: R$ {valor_com_acrescimo:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Valor com acrescimo: R$ 137.92
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Valor com acrescimo: R$ 28.00
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Valor com acrescimo: R$ 364.67
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Valor com acrescimo: R$ 3996.05
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Valor com acrescimo: R$ 6077.34
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Valor com acrescimo: R$ 13.61
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 01:37:37)
+-- CODE: 
+n = float(input())
+r1 = n * 0.27
+r2 = n * 1.42 
+r3 = n * (1 - 0.63)
+print((f"{r1: .2f}").rstrip('0').rstrip('.'))
+print((f"{r2: .2f}").rstrip('0').rstrip('.'))
+print((f"{r3: .2f}").rstrip('0'.rstrip('.'))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 7
+    print((f"{r3: .2f}").rstrip('0'.rstrip('.'))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 7
+    print((f"{r3: .2f}").rstrip('0'.rstrip('.'))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 7
+    print((f"{r3: .2f}").rstrip('0'.rstrip('.'))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 7
+    print((f"{r3: .2f}").rstrip('0'.rstrip('.'))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 7
+    print((f"{r3: .2f}").rstrip('0'.rstrip('.'))
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 7
+    print((f"{r3: .2f}").rstrip('0'.rstrip('.'))
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:58:35)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("\nValor original")
+print("Com 85% de desconto")
+print("\n12% de acréscimo")
+print("Valor com acrescimo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Valor com acrescimo
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Valor com acrescimo
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Valor com acrescimo
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Valor com acrescimo
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Valor com acrescimo
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Valor com acrescimo
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 01:08:28)
+-- CODE: 
+def main():
+  try:
+
+n= float (input("Digite o valor:"). replace(',','.'))
+desconto= valor * 0.85
+valor_com_desconto = valor - desconto
+acrescimo = valor * 0.12
+valor_com_acrescimo = valor + acrescimo
+print("\nValor original")
+print("Com 85% de desconto")
+print("\n12% de acréscimo")
+print("Valor com acrescimo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 4
+    n= float (input("Digite o valor:"). replace(',','.'))
+IndentationError: expected an indented block after 'try' statement on line 2
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 4
+    n= float (input("Digite o valor:"). replace(',','.'))
+IndentationError: expected an indented block after 'try' statement on line 2
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 4
+    n= float (input("Digite o valor:"). replace(',','.'))
+IndentationError: expected an indented block after 'try' statement on line 2
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 4
+    n= float (input("Digite o valor:"). replace(',','.'))
+IndentationError: expected an indented block after 'try' statement on line 2
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 4
+    n= float (input("Digite o valor:"). replace(',','.'))
+IndentationError: expected an indented block after 'try' statement on line 2
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 4
+    n= float (input("Digite o valor:"). replace(',','.'))
+IndentationError: expected an indented block after 'try' statement on line 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 01:07:07)
+-- CODE: 
+def main():
+  try:
+
+n= float (input("Digite o valor:"))
+desconto= valor * 0.85
+valor_com_desconto = valor - desconto
+acrescimo = valor * 0.12
+valor_com_acrescimo = valor + acrescimo
+print("\nValor original")
+print("Com 85% de desconto")
+print("\n12% de acréscimo")
+print("Valor com acrescimo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 4
+    n= float (input("Digite o valor:"))
+IndentationError: expected an indented block after 'try' statement on line 2
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 4
+    n= float (input("Digite o valor:"))
+IndentationError: expected an indented block after 'try' statement on line 2
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 4
+    n= float (input("Digite o valor:"))
+IndentationError: expected an indented block after 'try' statement on line 2
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 4
+    n= float (input("Digite o valor:"))
+IndentationError: expected an indented block after 'try' statement on line 2
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 4
+    n= float (input("Digite o valor:"))
+IndentationError: expected an indented block after 'try' statement on line 2
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 4
+    n= float (input("Digite o valor:"))
+IndentationError: expected an indented block after 'try' statement on line 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:35:45)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("Digite o valor")
+print("Com 85% de desconto:", Com 85% de desconto)
+print("Com 12% de acréscimo:", Com 12% de acréscimo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 6
+    print("Com 85% de desconto:", Com 85% de desconto)
+                                  ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 6
+    print("Com 85% de desconto:", Com 85% de desconto)
+                                  ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 6
+    print("Com 85% de desconto:", Com 85% de desconto)
+                                  ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 6
+    print("Com 85% de desconto:", Com 85% de desconto)
+                                  ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 6
+    print("Com 85% de desconto:", Com 85% de desconto)
+                                  ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 6
+    print("Com 85% de desconto:", Com 85% de desconto)
+                                  ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:35:45)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("Digite o valor")
+print("Com 85% de desconto:", Com 85% de desconto)
+print("Com 12% de acréscimo:", Com 12% de acréscimo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 6
+    print("Com 85% de desconto:", Com 85% de desconto)
+                                  ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 6
+    print("Com 85% de desconto:", Com 85% de desconto)
+                                  ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 6
+    print("Com 85% de desconto:", Com 85% de desconto)
+                                  ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 6
+    print("Com 85% de desconto:", Com 85% de desconto)
+                                  ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 6
+    print("Com 85% de desconto:", Com 85% de desconto)
+                                  ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 6
+    print("Com 85% de desconto:", Com 85% de desconto)
+                                  ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 00:38:08)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("Digite o valor")
+print("Com 85% de desconto")
+print("Com 12% de acréscimo")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Com 12% de acréscimo
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 01:28:37)
+-- CODE: 
+n = float(input())
+r1 = n * 0.27
+r2 = n * 1.42 
+r3 = n * (1 - 0.63)
+print(f"{r1: .2f}")
+print(f"{r2: .2f}")
+print(f"{r3: .2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+ 45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+ 9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+ 120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+ 1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+ 2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+ 4.50
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:47:34)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print(f"\nValor original: R$ {n:.2f}")
+print("Com 85% de desconto: R$ {desconto:.2f}")
+print("f \n12% de acréscimo: R${acrescimo:.2f")
+print(f"Valor com acrescimo: R$ {valor_com_acrescimo:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Valor com acrescimo: R$ 137.92
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Valor com acrescimo: R$ 28.00
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Valor com acrescimo: R$ 364.67
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Valor com acrescimo: R$ 3996.05
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Valor com acrescimo: R$ 6077.34
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Valor com acrescimo: R$ 13.61
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:56:19)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("\nValor original: R$ n:.2f")
+print("Com 85% de desconto: R$:.2f")
+print("\n12% de acréscimo: R$ :.2f")
+print("Valor com acrescimo: R$:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Valor com acrescimo: R$:.2f}
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Valor com acrescimo: R$:.2f}
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Valor com acrescimo: R$:.2f}
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Valor com acrescimo: R$:.2f}
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Valor com acrescimo: R$:.2f}
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Valor com acrescimo: R$:.2f}
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:36:06)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("Digite o valor")
+print("Com 85% de desconto:")
+print("Com 12% de acréscimo:", Com 12% de acréscimo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 7
+    print("Com 12% de acréscimo:", Com 12% de acréscimo)
+                                   ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 7
+    print("Com 12% de acréscimo:", Com 12% de acréscimo)
+                                   ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 7
+    print("Com 12% de acréscimo:", Com 12% de acréscimo)
+                                   ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 7
+    print("Com 12% de acréscimo:", Com 12% de acréscimo)
+                                   ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 7
+    print("Com 12% de acréscimo:", Com 12% de acréscimo)
+                                   ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 7
+    print("Com 12% de acréscimo:", Com 12% de acréscimo)
+                                   ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:37:24)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("Digite o valor")
+print("Com 85% de desconto")
+print("Com 12% de acréscimo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Com 12% de acréscimo
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 01:03:45)
+-- CODE: 
+n= float (input("Digite o valor:"))
+desconto = valor * 0.85
+valor_com_desconto = valor - desconto
+acrescimo = valor * 0.12
+valor_com_acrescimo = valor + acrescimo
+print("\nValor original")
+print("Com 85% de desconto")
+print("\n12% de acréscimo")
+print("Valor com acrescimo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    desconto = valor * 0.85
+               ^^^^^
+NameError: name 'valor' is not defined
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    desconto = valor * 0.85
+               ^^^^^
+NameError: name 'valor' is not defined
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    desconto = valor * 0.85
+               ^^^^^
+NameError: name 'valor' is not defined
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    desconto = valor * 0.85
+               ^^^^^
+NameError: name 'valor' is not defined
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    desconto = valor * 0.85
+               ^^^^^
+NameError: name 'valor' is not defined
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    desconto = valor * 0.85
+               ^^^^^
+NameError: name 'valor' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:57:58)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("\nValor original: 325.60)
+print("Com 85% de desconto")
+print("\n12% de acréscimo")
+print("Valor com acrescimo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 5
+    print("\nValor original: 325.60)
+          ^
+SyntaxError: unterminated string literal (detected at line 5)
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 5
+    print("\nValor original: 325.60)
+          ^
+SyntaxError: unterminated string literal (detected at line 5)
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 5
+    print("\nValor original: 325.60)
+          ^
+SyntaxError: unterminated string literal (detected at line 5)
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 5
+    print("\nValor original: 325.60)
+          ^
+SyntaxError: unterminated string literal (detected at line 5)
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 5
+    print("\nValor original: 325.60)
+          ^
+SyntaxError: unterminated string literal (detected at line 5)
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 5
+    print("\nValor original: 325.60)
+          ^
+SyntaxError: unterminated string literal (detected at line 5)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:29:00)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("valor original")
+print("Com 85% de desconto")
+print("Com 12% de acréscimo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Com 12% de acréscimo
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 01:04:31)
+-- CODE: 
+n= float (input("Digite o valor:"))
+desconto= valor * 0.85
+valor_com_desconto = valor - desconto
+acrescimo = valor * 0.12
+valor_com_acrescimo = valor + acrescimo
+print("\nValor original")
+print("Com 85% de desconto")
+print("\n12% de acréscimo")
+print("Valor com acrescimo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    desconto= valor * 0.85
+              ^^^^^
+NameError: name 'valor' is not defined
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    desconto= valor * 0.85
+              ^^^^^
+NameError: name 'valor' is not defined
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    desconto= valor * 0.85
+              ^^^^^
+NameError: name 'valor' is not defined
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    desconto= valor * 0.85
+              ^^^^^
+NameError: name 'valor' is not defined
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    desconto= valor * 0.85
+              ^^^^^
+NameError: name 'valor' is not defined
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    desconto= valor * 0.85
+              ^^^^^
+NameError: name 'valor' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 00:30:33)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("valor original")
+print("Com 85% de desconto")
+print("Com 12% de acréscimo")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Com 12% de acréscimo
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 01:35:42)
+-- CODE: 
+n = float(input())
+r1 = n * 0.27
+r2 = n * 1.42 
+r3 = n * (1 - 0.63)
+print(f"{r1: .2f}".rstrip('0').rstrip('.'))
+print(f"{r2: .2f}".rstrip('0').rstrip('.'))
+print(f"{r3: .2f}").rstrip('0'.rstrip('.'))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(f"{r3: .2f}").rstrip('0'.rstrip('.'))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'rstrip'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(f"{r3: .2f}").rstrip('0'.rstrip('.'))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'rstrip'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(f"{r3: .2f}").rstrip('0'.rstrip('.'))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'rstrip'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(f"{r3: .2f}").rstrip('0'.rstrip('.'))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'rstrip'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(f"{r3: .2f}").rstrip('0'.rstrip('.'))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'rstrip'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(f"{r3: .2f}").rstrip('0'.rstrip('.'))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'rstrip'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:30:05)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("valor original")
+print("Com 85% de desconto")
+print("Com 12% de acréscimo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Com 12% de acréscimo
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:53:06)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("\nValor original: R$ {n:.2f}")
+print("Com 85% de desconto: R$ {desconto:.2f}")
+print(\n12% de acréscimo: R$ {acréscimo:.2f")
+print("Valor com acrescimo: R$ {valor_com_acrescimo:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 7
+    print(\n12% de acréscimo: R$ {acréscimo:.2f")
+           ^
+SyntaxError: unexpected character after line continuation character
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 7
+    print(\n12% de acréscimo: R$ {acréscimo:.2f")
+           ^
+SyntaxError: unexpected character after line continuation character
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 7
+    print(\n12% de acréscimo: R$ {acréscimo:.2f")
+           ^
+SyntaxError: unexpected character after line continuation character
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 7
+    print(\n12% de acréscimo: R$ {acréscimo:.2f")
+           ^
+SyntaxError: unexpected character after line continuation character
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 7
+    print(\n12% de acréscimo: R$ {acréscimo:.2f")
+           ^
+SyntaxError: unexpected character after line continuation character
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 7
+    print(\n12% de acréscimo: R$ {acréscimo:.2f")
+           ^
+SyntaxError: unexpected character after line continuation character
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:53:48)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("\nValor original: R$ {n:.2f}")
+print("Com 85% de desconto: R$ {desconto:.2f}")
+print("\n12% de acréscimo: R$ {acréscimo:.2f")
+print("Valor com acrescimo: R$ {valor_com_acrescimo:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Valor com acrescimo: R$ {valor_com_acrescimo:.2f}
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Valor com acrescimo: R$ {valor_com_acrescimo:.2f}
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Valor com acrescimo: R$ {valor_com_acrescimo:.2f}
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Valor com acrescimo: R$ {valor_com_acrescimo:.2f}
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Valor com acrescimo: R$ {valor_com_acrescimo:.2f}
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Valor com acrescimo: R$ {valor_com_acrescimo:.2f}
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:47:37)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print(f"\nValor original: R$ {n:.2f}")
+print("Com 85% de desconto: R$ {desconto:.2f}")
+print("f \n12% de acréscimo: R${acrescimo:.2f")
+print(f"Valor com acrescimo: R$ {valor_com_acrescimo:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Valor com acrescimo: R$ 137.92
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Valor com acrescimo: R$ 28.00
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Valor com acrescimo: R$ 364.67
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Valor com acrescimo: R$ 3996.05
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Valor com acrescimo: R$ 6077.34
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Valor com acrescimo: R$ 13.61
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:53:03)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("\nValor original: R$ {n:.2f}")
+print("Com 85% de desconto: R$ {desconto:.2f}")
+print(\n12% de acréscimo: R$ {acréscimo:.2f")
+print("Valor com acrescimo: R$ {valor_com_acrescimo:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 7
+    print(\n12% de acréscimo: R$ {acréscimo:.2f")
+           ^
+SyntaxError: unexpected character after line continuation character
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 7
+    print(\n12% de acréscimo: R$ {acréscimo:.2f")
+           ^
+SyntaxError: unexpected character after line continuation character
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 7
+    print(\n12% de acréscimo: R$ {acréscimo:.2f")
+           ^
+SyntaxError: unexpected character after line continuation character
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 7
+    print(\n12% de acréscimo: R$ {acréscimo:.2f")
+           ^
+SyntaxError: unexpected character after line continuation character
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 7
+    print(\n12% de acréscimo: R$ {acréscimo:.2f")
+           ^
+SyntaxError: unexpected character after line continuation character
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 7
+    print(\n12% de acréscimo: R$ {acréscimo:.2f")
+           ^
+SyntaxError: unexpected character after line continuation character
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:52:20)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print(f"\nValor original: R$ {n:.2f}")
+print("Com 85% de desconto: R$ {desconto:.2f}")
+print("f \n12% de acréscimo: R$ {acréscimo:.2f")
+print(f"Valor com acrescimo: R$ {valor_com_acrescimo:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Valor com acrescimo: R$ 137.92
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Valor com acrescimo: R$ 28.00
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Valor com acrescimo: R$ 364.67
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Valor com acrescimo: R$ 3996.05
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Valor com acrescimo: R$ 6077.34
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Valor com acrescimo: R$ 13.61
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 01:27:49)
+-- CODE: 
+n = float(input())
+r1 = n * 0.27
+r2 = n * 1.42 
+r3 = n * (1 - 0.63)
+print(f"{r1: .2f}")
+print(f"{r2: .2f}")
+print(f"{r3: .2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+ 45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+ 9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+ 120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+ 1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+ 2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+ 4.50
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:38:50)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print("Digite o valor")
+print("Com 85% de desconto")
+print("Com 12% de acréscimo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Com 12% de acréscimo
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Com 12% de acréscimo
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 00:47:42)
+-- CODE: 
+n= float (input("Digite o valor:"))
+
+valor_com_desconto = n - n * (85/100)
+valor_com_acrescimo = n + n * (12/100)
+print(f"\nValor original: R$ {n:.2f}")
+print("Com 85% de desconto: R$ {desconto:.2f}")
+print("f \n12% de acréscimo: R${acrescimo:.2f")
+print(f"Valor com acrescimo: R$ {valor_com_acrescimo:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+Valor com acrescimo: R$ 137.92
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+Valor com acrescimo: R$ 28.00
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+Valor com acrescimo: R$ 364.67
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+Valor com acrescimo: R$ 3996.05
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+Valor com acrescimo: R$ 6077.34
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+Valor com acrescimo: R$ 13.61
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 01:20:15)
+-- CODE: 
+n= float(input("Digite um número real: "))
+
+parte1 = n* (27/100)
+parte2 = n + n * (42/100)
+parte3 = n - n * (63/100)
+print("{parte1:.2f}")
+print("{parte2:.2f}")
+print("{parte3:.2f}"
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 8
+    print("{parte3:.2f}"
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 8
+    print("{parte3:.2f}"
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 8
+    print("{parte3:.2f}"
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 8
+    print("{parte3:.2f}"
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 8
+    print("{parte3:.2f}"
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 8
+    print("{parte3:.2f}"
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

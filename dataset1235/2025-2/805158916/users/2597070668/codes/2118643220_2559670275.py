@@ -1,0 +1,5 @@
+peso = float(input("Digite o peso do saco em gramas: "))
+qntd = float(input("Digite a quantidade diaria em gramas: "))
+valor = peso - (qntd * 7)
+print("Saida informe o peso do saco da ração ")
+print(round(valor,3))

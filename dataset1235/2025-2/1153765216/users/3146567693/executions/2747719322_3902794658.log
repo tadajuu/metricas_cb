@@ -1,0 +1,1003 @@
+== RUN (2025-08-21 18:24:49)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = float(input("digite sua altura: "))
+print(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {altura}.")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Teresa, sua idade é 13, com uma altura de 1.45.
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Marcelo, sua idade é 34, com uma altura de 1.79.
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Larissa, sua idade é 23, com uma altura de 1.68.
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Jose, sua idade é 45, com uma altura de 1.89.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 18:45:04)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = float(input("digite sua altura: "))
+print(f"Nome: {nome}")
+print(f"Idade: {idade}")
+print(f"Altura: {altura}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 18:26:05)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = int(input("digite sua altura: "))
+print(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {altura}.")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("digite sua altura: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.45'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("digite sua altura: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.79'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("digite sua altura: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.68'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("digite sua altura: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.89'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 18:44:39)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = float(input("digite sua altura: "))
+print(f"Nome: {nome}")
+print(f"Idade: {idade}")
+print(f"Altura: {altura}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Altura: 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Altura: 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Altura: 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Altura: 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 18:43:15)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = float(input("digite sua altura: "))
+print(f"Seu nome é {nome}")
+print(f"Sua idade é {idade} anos")
+print(f"Sua altura de {altura}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Sua altura de 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Sua altura de 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Sua altura de 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Sua altura de 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 18:28:06)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = float(input("digite sua altura: "))
+print(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {altura}.")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Teresa, sua idade é 13, com uma altura de 1.45.
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Marcelo, sua idade é 34, com uma altura de 1.79.
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Larissa, sua idade é 23, com uma altura de 1.68.
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Jose, sua idade é 45, com uma altura de 1.89.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 18:31:57)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = float(input("digite sua altura: "))
+print(f"Seu nome é {nome}, sua idade é {idade} anos, com a altura de {altura}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Teresa, sua idade é 13 anos, com a altura de 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Marcelo, sua idade é 34 anos, com a altura de 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Larissa, sua idade é 23 anos, com a altura de 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Jose, sua idade é 45 anos, com a altura de 1.89
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 18:23:53)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = float(input("digite sua altura: "))
+printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {altura}.")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {altura}.")
+    ^^^^^^
+NameError: name 'printe' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {altura}.")
+    ^^^^^^
+NameError: name 'printe' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {altura}.")
+    ^^^^^^
+NameError: name 'printe' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {altura}.")
+    ^^^^^^
+NameError: name 'printe' is not defined. Did you mean: 'print'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 18:28:29)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = float(input("digite sua altura: "))
+print(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {altura}.")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Teresa, sua idade é 13, com uma altura de 1.45.
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Marcelo, sua idade é 34, com uma altura de 1.79.
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Larissa, sua idade é 23, com uma altura de 1.68.
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Jose, sua idade é 45, com uma altura de 1.89.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 18:27:04)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = int(input("digite sua altura: "))
+print(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {altura}.")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("digite sua altura: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.45'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("digite sua altura: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.79'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("digite sua altura: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.68'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("digite sua altura: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.89'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 18:23:01)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = float(input("digite sua altura: "))
+printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {}.")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 4
+    printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {}.")
+                                                                           ^
+SyntaxError: f-string: empty expression not allowed
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 4
+    printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {}.")
+                                                                           ^
+SyntaxError: f-string: empty expression not allowed
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 4
+    printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {}.")
+                                                                           ^
+SyntaxError: f-string: empty expression not allowed
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 4
+    printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {}.")
+                                                                           ^
+SyntaxError: f-string: empty expression not allowed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 18:23:33)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = float(input("digite sua altura: "))
+  printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {}.")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+File "XXXX", line 4
+    printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {}.")
+IndentationError: unexpected indent
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+File "XXXX", line 4
+    printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {}.")
+IndentationError: unexpected indent
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+File "XXXX", line 4
+    printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {}.")
+IndentationError: unexpected indent
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+File "XXXX", line 4
+    printe(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {}.")
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 18:30:26)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = float(input("digite sua altura: "))
+print(f"Seu nome é {nome}, sua idade é {idade} anos, com a altura de {altura}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Teresa, sua idade é 13 anos, com a altura de 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Marcelo, sua idade é 34 anos, com a altura de 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Larissa, sua idade é 23 anos, com a altura de 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Jose, sua idade é 45 anos, com a altura de 1.89
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 18:43:30)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = float(input("digite sua altura: "))
+print(f"Seu nome é {nome}")
+print(f"Sua idade é {idade} anos")
+print(f"Sua altura de {altura}")
+-- EXECUTION TIME: 
+0.015
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+Sua altura de 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+Sua altura de 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+Sua altura de 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+Sua altura de 1.89
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 18:33:34)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = float(input("digite sua altura: "))
+print(f"Seu nome é {nome}, sua idade é {idade} anos, com a altura de {altura}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Teresa, sua idade é 13 anos, com a altura de 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Marcelo, sua idade é 34 anos, com a altura de 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Larissa, sua idade é 23 anos, com a altura de 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Jose, sua idade é 45 anos, com a altura de 1.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 18:33:38)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = float(input("digite sua altura: "))
+print(f"Seu nome é {nome}, sua idade é {idade} anos, com a altura de {altura}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Teresa, sua idade é 13 anos, com a altura de 1.45
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Marcelo, sua idade é 34 anos, com a altura de 1.79
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Larissa, sua idade é 23 anos, com a altura de 1.68
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+---- user output:
+digite seu nome: digite sua idade: digite sua altura: Seu nome é Jose, sua idade é 45 anos, com a altura de 1.89
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 18:26:53)
+-- CODE: 
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade: "))
+altura = int(input("digite sua altura: "))
+print(f"Seu nome é {nome}, sua idade é {idade}, com uma altura de {altura}.")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+Teresa
+13
+1.45
+---- correct output:
+Nome: Teresa
+Idade: 13
+Altura: 1.45
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("digite sua altura: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.45'
+-- TEST CASE 2:
+---- input:
+Marcelo
+34
+1.79
+---- correct output:
+Nome: Marcelo
+Idade: 34
+Altura: 1.79
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("digite sua altura: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.79'
+-- TEST CASE 3:
+---- input:
+Larissa
+23
+1.68
+---- correct output:
+Nome: Larissa
+Idade: 23
+Altura: 1.68
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("digite sua altura: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.68'
+-- TEST CASE 4:
+---- input:
+Jose
+45
+1.89
+---- correct output:
+Nome: Jose
+Idade: 45
+Altura: 1.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    altura = int(input("digite sua altura: "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.89'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

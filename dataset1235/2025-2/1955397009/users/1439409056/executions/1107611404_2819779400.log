@@ -1,0 +1,136 @@
+== RUN (2025-08-21 02:41:00)
+-- CODE: 
+jogo1 = float(input("Quantos jogos ? "))
+pagar = float(input("Qual o valor do jogo ? "))
+frente = float(input("Qual o valor do frente ? ")) 
+# Calculo do valor a ser pago, incluindo o frete:
+total = (jogo1*pagar)+frente
+
+# Impressao do valor total e do saldo:
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+Quantos jogos ? Qual o valor do jogo ? Qual o valor do frente ? 1642.5
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+Quantos jogos ? Qual o valor do jogo ? Qual o valor do frente ? 240171.0
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+Quantos jogos ? Qual o valor do jogo ? Qual o valor do frente ? 540.0
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+Quantos jogos ? Qual o valor do jogo ? Qual o valor do frente ? 765.0
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+Quantos jogos ? Qual o valor do jogo ? Qual o valor do frente ? 162.56
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+Quantos jogos ? Qual o valor do jogo ? Qual o valor do frente ? 618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 02:41:35)
+-- CODE: 
+jogo1 = float(input("Quantos jogos ? "))
+pagar = float(input("Qual o valor do jogo ? "))
+frente = float(input("Qual o valor do frente ? ")) 
+# Calculo do valor a ser pago, incluindo o frete:
+total = (jogo1*pagar)+frente
+
+# Impressao do valor total e do saldo:
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+Quantos jogos ? Qual o valor do jogo ? Qual o valor do frente ? 1642.5
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+Quantos jogos ? Qual o valor do jogo ? Qual o valor do frente ? 240171.0
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+Quantos jogos ? Qual o valor do jogo ? Qual o valor do frente ? 540.0
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+Quantos jogos ? Qual o valor do jogo ? Qual o valor do frente ? 765.0
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+Quantos jogos ? Qual o valor do jogo ? Qual o valor do frente ? 162.56
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+Quantos jogos ? Qual o valor do jogo ? Qual o valor do frente ? 618.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

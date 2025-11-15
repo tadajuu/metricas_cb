@@ -1,0 +1,55 @@
+== SUBMISSION (2025-09-01 14:36:50)
+-- CODE: 
+from math import *
+lado= float(input())
+apotema=lado/(2*tan(pi/11))
+area= 11*(lado*apotema)/2
+
+print(round(area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+234.14
+---- user output:
+234.14
+-- TEST CASE 2:
+---- input:
+4
+---- correct output:
+149.85
+---- user output:
+149.85
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+337.16
+---- user output:
+337.16
+-- TEST CASE 4:
+---- input:
+2
+---- correct output:
+37.46
+---- user output:
+37.46
+-- TEST CASE 5:
+---- input:
+7
+---- correct output:
+458.92
+---- user output:
+458.92
+-- TEST CASE 6:
+---- input:
+3
+---- correct output:
+84.29
+---- user output:
+84.29
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

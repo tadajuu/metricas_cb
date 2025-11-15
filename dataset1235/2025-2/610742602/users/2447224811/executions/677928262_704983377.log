@@ -1,0 +1,7739 @@
+== RUN (2025-08-26 20:46:14)
+-- CODE: 
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:55:15)
+-- CODE: 
+x = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:28:01)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:17:39)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print('Resto da divisão inteira:',resto_inteira )
+print("quociente da divisão real:",quociente_real =,)
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:29:24)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:17:40)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print('Resto da divisão inteira:',resto_inteira )
+print("quociente da divisão real:",quociente_real =,)
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:54:12)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:54:21)
+-- CODE: 
+x = int(input("digite o valor de Y :"))
+Y = int(input("digite o valor de Y :"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:20:12)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:50:39)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:21:21)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:21:03)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // 
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 6
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 6
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 6
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 6
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 6
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 6
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:55:39)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:21:13)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // 
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 5
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 5
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 5
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 5
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 5
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 5
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:54:00)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:53:57)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:19:53)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:30:16)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:" ,potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:20:56)
+-- CODE: 
+X = int(input("digite o valor de X :")
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // 
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 1
+    X = int(input("digite o valor de X :")
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 1
+    X = int(input("digite o valor de X :")
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 1
+    X = int(input("digite o valor de X :")
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 1
+    X = int(input("digite o valor de X :")
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 1
+    X = int(input("digite o valor de X :")
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 1
+    X = int(input("digite o valor de X :")
+           ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:54:19)
+-- CODE: 
+x = int(input("digite o valor de Y :"))
+Y = int(input("digite o valor de Y :"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:30:04)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:" ,potencia )
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:48:46)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:18:39)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print('Resto da divisão inteira:',resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:17:41)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print('Resto da divisão inteira:',resto_inteira )
+print("quociente da divisão real:",quociente_real =,)
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:53:27)
+-- CODE: 
+x = int(input("digite o valor de x :"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o valor de x :
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o valor de x :
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o valor de x :
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o valor de x :
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o valor de x :
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o valor de x :
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:54:04)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:54:21)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:20:15)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:27:49)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potência )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 20, in <module>
+    print("Y elevado à terceira potência:", potência )
+                                            ^^^^^^^^
+NameError: name 'potência' is not defined. Did you mean: 'potencia'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 20, in <module>
+    print("Y elevado à terceira potência:", potência )
+                                            ^^^^^^^^
+NameError: name 'potência' is not defined. Did you mean: 'potencia'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 20, in <module>
+    print("Y elevado à terceira potência:", potência )
+                                            ^^^^^^^^
+NameError: name 'potência' is not defined. Did you mean: 'potencia'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 20, in <module>
+    print("Y elevado à terceira potência:", potência )
+                                            ^^^^^^^^
+NameError: name 'potência' is not defined. Did you mean: 'potencia'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 20, in <module>
+    print("Y elevado à terceira potência:", potência )
+                                            ^^^^^^^^
+NameError: name 'potência' is not defined. Did you mean: 'potencia'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 20, in <module>
+    print("Y elevado à terceira potência:", potência )
+                                            ^^^^^^^^
+NameError: name 'potência' is not defined. Did you mean: 'potencia'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:30:56)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:" ,potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:31:09)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:" ,potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:54:27)
+-- CODE: 
+x = int(input("digite o valor de Y :"))
+Y = int(input("digite o valor de Y :"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:31:57)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:54:22)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:48:49)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:52:32)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:32:20)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:50:39)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:49:03)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:26:44)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:55:08)
+-- CODE: 
+x = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:18:42)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print('Resto da divisão inteira:',resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:18:03)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print('Resto da divisão inteira:',resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:28:14)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:32:18)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:20:58)
+-- CODE: 
+X = int(input("digite o valor de X :")
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // 
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 1
+    X = int(input("digite o valor de X :")
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 1
+    X = int(input("digite o valor de X :")
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 1
+    X = int(input("digite o valor de X :")
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 1
+    X = int(input("digite o valor de X :")
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 1
+    X = int(input("digite o valor de X :")
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 1
+    X = int(input("digite o valor de X :")
+           ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:20:38)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:50:21)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:56:01)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:55:38)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:21:04)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // 
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 6
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 6
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 6
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 6
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 6
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 6
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:54:22)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:28:45)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:48:52)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:19:16)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print('Resto da divisão inteira:',resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:48:54)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:31:11)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:" ,potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:54:23)
+-- CODE: 
+x = int(input("digite o valor de Y :"))
+Y = int(input("digite o valor de Y :"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o valor de Y :digite o valor de Y :
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:57:28)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print(quociente_inteira)
+print(resto_inteira)
+print(quociente_real)
+print(produto)
+print(potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:32:31)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:54:45)
+-- CODE: 
+x = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:46:13)
+-- CODE: 
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:32:19)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:49:10)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:21:10)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // 
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 5
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 5
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 5
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 5
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 5
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 5
+    quociente_inteira = X // 
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:48:55)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:58:43)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:52:32)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:55:59)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:19:07)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print('Resto da divisão inteira:',resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:32:57)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:17:35)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print('Resto da divisão inteira:',resto_inteira )
+print("quociente da divisão real:",quociente_real =,)
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 19
+    print("quociente da divisão real:",quociente_real =,)
+                                                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:55:45)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:52:42)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:57:20)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print(quociente_inteira)
+print(resto_inteira)
+print(quociente_real)
+print(produto)
+print(potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:18:44)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print('Resto da divisão inteira:',resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:", potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:50:04)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira)
+print("quociente da divisão real:",quociente_real)
+print("produto de X vezes Y:",produto)
+print("Y elevado à terceira potência:",potencia)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 20:58:45)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o valor de X :digite o valor de Y :
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:30:29)
+-- CODE: 
+X = int(input("digite o valor de X :"))
+Y = int(input("digite o valor de Y :"))
+
+# 1. Quociente da divisão inteira
+quociente_inteira = X // Y
+# 2. Resto da divisão inteira
+resto_inteira = X % Y
+# 3. quociente da divisão real
+quociente_real = X / Y
+# 4. produto de X vezes Y 
+produto = X * Y 
+# 5. valor de Y elevado à terceira potência 
+potencia = Y ** 3
+
+#saida 
+print("Quociente da divisão inteira:",quociente_inteira)
+print("Resto da divisão inteira:",resto_inteira )
+print("quociente da divisão real:",quociente_real )
+print("produto de X vezes Y:",produto )
+print("Y elevado à terceira potência:",potencia )
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Y elevado à terceira potência: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Y elevado à terceira potência: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Y elevado à terceira potência: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

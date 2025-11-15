@@ -1,0 +1,342 @@
+== RUN (2025-08-26 16:18:09)
+-- CODE: 
+L = float(input("litros de poupa: "))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+3.333
+---- user output:
+litros de poupa:
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+2.333
+---- user output:
+litros de poupa:
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+1.167
+---- user output:
+litros de poupa:
+-- TEST CASE 4:
+---- input:
+15
+---- correct output:
+5.0
+---- user output:
+litros de poupa:
+-- TEST CASE 5:
+---- input:
+1.0
+---- correct output:
+0.333
+---- user output:
+litros de poupa:
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+6.667
+---- user output:
+litros de poupa:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:19:22)
+-- CODE: 
+L = float(input("litros de poupa: "))
+D1 = L - 1/3
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+3.333
+---- user output:
+litros de poupa:
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+2.333
+---- user output:
+litros de poupa:
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+1.167
+---- user output:
+litros de poupa:
+-- TEST CASE 4:
+---- input:
+15
+---- correct output:
+5.0
+---- user output:
+litros de poupa:
+-- TEST CASE 5:
+---- input:
+1.0
+---- correct output:
+0.333
+---- user output:
+litros de poupa:
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+6.667
+---- user output:
+litros de poupa:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:18:03)
+-- CODE: 
+L = float(input("litros de poupa: "))
+D1 = 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+3.333
+-- ERROR:
+File "XXXX", line 2
+    D1 = 
+         ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+2.333
+-- ERROR:
+File "XXXX", line 2
+    D1 = 
+         ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+1.167
+-- ERROR:
+File "XXXX", line 2
+    D1 = 
+         ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+15
+---- correct output:
+5.0
+-- ERROR:
+File "XXXX", line 2
+    D1 = 
+         ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+1.0
+---- correct output:
+0.333
+-- ERROR:
+File "XXXX", line 2
+    D1 = 
+         ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+6.667
+-- ERROR:
+File "XXXX", line 2
+    D1 = 
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 16:09:59)
+-- CODE: 
+L = float(input("litros de poupa: "))
+D1 = L - (2/3)
+F1 = D1
+
+print(round(F1, 3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+3.333
+---- user output:
+litros de poupa: 9.333
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+2.333
+---- user output:
+litros de poupa: 6.333
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+1.167
+---- user output:
+litros de poupa: 2.833
+-- TEST CASE 4:
+---- input:
+15
+---- correct output:
+5.0
+---- user output:
+litros de poupa: 14.333
+-- TEST CASE 5:
+---- input:
+1.0
+---- correct output:
+0.333
+---- user output:
+litros de poupa: 0.333
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+6.667
+---- user output:
+litros de poupa: 19.333
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 16:30:54)
+-- CODE: 
+l = float(input("litros de polpas compradas: "))
+d = l * 2/3
+f = l - d
+
+print(round(f, 3))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+3.333
+---- user output:
+litros de polpas compradas: 3.333
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+2.333
+---- user output:
+litros de polpas compradas: 2.333
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+1.167
+---- user output:
+litros de polpas compradas: 1.167
+-- TEST CASE 4:
+---- input:
+15
+---- correct output:
+5.0
+---- user output:
+litros de polpas compradas: 5.0
+-- TEST CASE 5:
+---- input:
+1.0
+---- correct output:
+0.333
+---- user output:
+litros de polpas compradas: 0.333
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+6.667
+---- user output:
+litros de polpas compradas: 6.667
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 16:18:04)
+-- CODE: 
+L = float(input("litros de poupa: "))
+D1 = 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+3.333
+-- ERROR:
+File "XXXX", line 2
+    D1 = 
+         ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+2.333
+-- ERROR:
+File "XXXX", line 2
+    D1 = 
+         ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+1.167
+-- ERROR:
+File "XXXX", line 2
+    D1 = 
+         ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+15
+---- correct output:
+5.0
+-- ERROR:
+File "XXXX", line 2
+    D1 = 
+         ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+1.0
+---- correct output:
+0.333
+-- ERROR:
+File "XXXX", line 2
+    D1 = 
+         ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+---- correct output:
+6.667
+-- ERROR:
+File "XXXX", line 2
+    D1 = 
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

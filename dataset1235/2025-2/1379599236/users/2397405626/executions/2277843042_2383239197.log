@@ -1,0 +1,648 @@
+== RUN (2025-08-20 19:18:49)
+-- CODE: 
+import math
+
+a = float(input("Insira a distancia ate a arvore 1 em metros: "))
+b = float(input("Insira a distancia ate a arvore 2 em metros: "))
+y = float(input("Insira o angulo em graus: "))
+
+c = (sqrt((a**2)+(b**2)-(2*(a*b)*cos(y))))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (sqrt((a**2)+(b**2)-(2*(a*b)*cos(y))))
+         ^^^^
+NameError: name 'sqrt' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (sqrt((a**2)+(b**2)-(2*(a*b)*cos(y))))
+         ^^^^
+NameError: name 'sqrt' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (sqrt((a**2)+(b**2)-(2*(a*b)*cos(y))))
+         ^^^^
+NameError: name 'sqrt' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (sqrt((a**2)+(b**2)-(2*(a*b)*cos(y))))
+         ^^^^
+NameError: name 'sqrt' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (sqrt((a**2)+(b**2)-(2*(a*b)*cos(y))))
+         ^^^^
+NameError: name 'sqrt' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (sqrt((a**2)+(b**2)-(2*(a*b)*cos(y))))
+         ^^^^
+NameError: name 'sqrt' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:20:27)
+-- CODE: 
+import math
+
+a = float(input("Insira a distancia ate a arvore 1 em metros: "))
+b = float(input("Insira a distancia ate a arvore 2 em metros: "))
+y = math.radian(float(input("Insira o angulo em graus: ")))
+
+c = (math.sqrt((a**2)+(b**2)-(2*(a*b)*math.cos(y))))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = math.radian(float(input("Insira o angulo em graus: ")))
+        ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radian'. Did you mean: 'radians'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = math.radian(float(input("Insira o angulo em graus: ")))
+        ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radian'. Did you mean: 'radians'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = math.radian(float(input("Insira o angulo em graus: ")))
+        ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radian'. Did you mean: 'radians'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = math.radian(float(input("Insira o angulo em graus: ")))
+        ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radian'. Did you mean: 'radians'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = math.radian(float(input("Insira o angulo em graus: ")))
+        ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radian'. Did you mean: 'radians'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    y = math.radian(float(input("Insira o angulo em graus: ")))
+        ^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radian'. Did you mean: 'radians'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:04:46)
+-- CODE: 
+a = float(input("Insira a distancia ate a arvore 1 em metros: "))
+b = float(input("Insira a distancia ate a arvore 2 em metros: "))
+y = float(input("Insira o angulo em graus: "))
+
+c = math(((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math(((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math(((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math(((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math(((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math(((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+        ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math(((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+        ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:20:49)
+-- CODE: 
+import math
+
+a = float(input("Insira a distancia ate a arvore 1 em metros: "))
+b = float(input("Insira a distancia ate a arvore 2 em metros: "))
+y = math.radians(float(input("Insira o angulo em graus: ")))
+
+c = (math.sqrt((a**2)+(b**2)-(2*(a*b)*math.cos(y))))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus:
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus:
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus:
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus:
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus:
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:11:12)
+-- CODE: 
+a = float(input("Insira a distancia ate a arvore 1 em metros: "))
+b = float(input("Insira a distancia ate a arvore 2 em metros: "))
+y = float(input("Insira o angulo em graus: "))
+
+c = (((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+                                 ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+                                 ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+                                 ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+                                 ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+                                 ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+                                 ^^^
+NameError: name 'cos' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:05:26)
+-- CODE: 
+a = float(input("Insira a distancia ate a arvore 1 em metros: "))
+b = float(input("Insira a distancia ate a arvore 2 em metros: "))
+y = float(input("Insira o angulo em graus: "))
+
+c = (((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+                                 ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+                                 ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+                                 ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+                                 ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+                                 ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (((a**2)+(b**2)-(2*(a*b)*cos(y)))**(1/2))
+                                 ^^^
+NameError: name 'cos' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 19:21:40)
+-- CODE: 
+import math
+
+a = float(input("Insira a distancia ate a arvore 1 em metros: "))
+b = float(input("Insira a distancia ate a arvore 2 em metros: "))
+y = math.radians(float(input("Insira o angulo em graus: ")))
+
+c = (math.sqrt((a**2)+(b**2)-(2*(a*b)*math.cos(y))))
+
+print(round(c,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus: 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus: 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus: 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus: 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus: 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus: 9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 19:21:30)
+-- CODE: 
+import math
+
+a = float(input("Insira a distancia ate a arvore 1 em metros: "))
+b = float(input("Insira a distancia ate a arvore 2 em metros: "))
+y = math.radians(float(input("Insira o angulo em graus: ")))
+
+c = (math.sqrt((a**2)+(b**2)-(2*(a*b)*math.cos(y))))
+
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus: 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus: 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus: 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus: 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus: 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Insira a distancia ate a arvore 1 em metros: Insira a distancia ate a arvore 2 em metros: Insira o angulo em graus: 9.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

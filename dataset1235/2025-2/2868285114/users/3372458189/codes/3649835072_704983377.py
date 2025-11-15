@@ -1,0 +1,7 @@
+X = int(input("Digite x: "))
+Y = int(input("Digite y: "))
+print(X//Y)
+print(X%Y)
+print(X/Y)
+print(X*Y)
+print(Y**3)

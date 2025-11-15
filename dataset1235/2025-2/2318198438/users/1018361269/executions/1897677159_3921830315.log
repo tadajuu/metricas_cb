@@ -1,0 +1,52 @@
+== RUN (2025-08-26 01:31:36)
+-- CODE: 
+x=float(input("gasolina?"))
+valpg=2.86*x
+total=valpg+50
+icm=total+0.34
+print(icm)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+gasolina?80.084
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+gasolina?474.10619999999994
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+gasolina?193.34
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+gasolina?300.304
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+gasolina?731.6777999999999
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+gasolina?172.4048
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

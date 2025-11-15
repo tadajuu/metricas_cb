@@ -17,11 +17,13 @@ class MasteryProgrammingLogic(Metric):
         self.value = 0.0
         self.sum_grades = 0.0
         self.count_grades = 0
+        self.taxa_acerto = 0
         self.grades = []
+        self.max_grade = 0
         self.has_files_consistents: bool = False
         self.has_passed_all_CTs: bool = False
 
-    def calculate(self, executionsfile: ExecutionsFile) -> None:
+    def calculate(self, executionsfile: ExecutionsFile, taxa_acertos) -> None:
         """
         Realiza o cálculo da MPL.
         :param codefile: arquivo do código fonte do programador.
@@ -50,7 +52,9 @@ class MasteryProgrammingLogic(Metric):
                 grades = self._leave_only_one_100percent_grade(grades)
                 self.grades = grades
                 average_grade, sum_grades, count_grades = self._average(grades)
-                self.value = average_grade
+                #self.value = average_grade
+                self.value = max(grades)*pow((1-0.001),pow(len(grades),1.5))
+                self.max_grade = max(grades)
                 self.sum_grades = sum_grades
                 self.count_grades = count_grades
 

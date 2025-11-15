@@ -1,0 +1,60 @@
+== SUBMISSION (2025-09-01 14:33:43)
+-- CODE: 
+from math import *
+
+# Entrada
+Lado = int(input("Digite a medida do lado do octógono:"))
+Denominador = float(2*tan(pi/8))
+Apotema = Lado/Denominador
+Área = 4*Lado*Apotema
+#Saída
+print(Lado)
+print(round(Apotema,2))
+print(round(Área,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+---- user output:
+77.25
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+---- user output:
+309.02
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+120.71
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+120.71
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+---- user output:
+391.1
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+---- user output:
+173.82
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

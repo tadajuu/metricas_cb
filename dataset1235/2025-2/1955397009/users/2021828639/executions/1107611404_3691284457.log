@@ -1,0 +1,286 @@
+== RUN (2025-08-19 13:24:51)
+-- CODE: 
+n1 = float(input("Nota 1:"))
+n2 = float(input("Nota 2:"))
+n3 = float(input("Nota 3:"))
+n4 = float(input("Nota 4:"))
+média = (1*n1+2*n2+3*n3+4*n4)/4
+print(round(média,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:19.84
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:20.5
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:17.5
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:16.75
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:75.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:19.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:25:15)
+-- CODE: 
+n1 = float(input("Nota 1:"))
+n2 = float(input("Nota 2:"))
+n3 = float(input("Nota 3:"))
+n4 = float(input("Nota 4:"))
+média = (1*n1+2*n2+3*n3+4*n4)/10
+print(round(média,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:7.94
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:8.2
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:7.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:6.7
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:30.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:7.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:24:05)
+-- CODE: 
+n1 = float(input("Nota 1:"))
+n2 = float(input("Nota 2:"))
+n3 = float(input("Nota 3:"))
+n4 = float(input("Nota 4:"))
+média = (n1+n2+n3+n4)/4
+print(round(média,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:7.4
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:8.12
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:7.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:4.75
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:25.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:6.75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 13:25:27)
+-- CODE: 
+n1 = float(input("Nota 1:"))
+n2 = float(input("Nota 2:"))
+n3 = float(input("Nota 3:"))
+n4 = float(input("Nota 4:"))
+média = (1*n1+2*n2+3*n3+4*n4)/10
+print(round(média,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:7.94
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:8.2
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:7.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:6.7
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:30.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Nota 1:Nota 2:Nota 3:Nota 4:7.8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

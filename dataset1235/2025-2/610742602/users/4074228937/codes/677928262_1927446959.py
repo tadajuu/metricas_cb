@@ -1,0 +1,7 @@
+n = float(input("Insira o valor de n: "))
+x = n* (27/100)
+print(round(x, 2))
+y = n+n*(42/100)
+print(round(y,2))
+z = n-n*(63/100)
+print(round(z,2))

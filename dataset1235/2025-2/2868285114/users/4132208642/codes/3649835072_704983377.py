@@ -1,0 +1,7 @@
+X = int(input(""))
+Y = int(input(""))
+print(round(X//Y))
+print(X%Y)
+print(X/Y)
+print(X*Y)
+print (Y**3)

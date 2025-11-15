@@ -1,0 +1,353 @@
+== RUN (2025-08-28 18:21:05)
+-- CODE: 
+peso = float(input("Digite o peso:"))
+quantidade_diaria = float(input("Digite a quantidade:"))
+quantidade_semanal = quantidade_diaria * 6
+print(round(resto, 4))
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7879.6733
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(resto, 4))
+                ^^^^^
+NameError: name 'resto' is not defined. Did you mean: 'peso'?
+-- TEST CASE 2:
+---- input:
+1962.55
+15.11
+---- correct output:
+1871.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(resto, 4))
+                ^^^^^
+NameError: name 'resto' is not defined. Did you mean: 'peso'?
+-- TEST CASE 3:
+---- input:
+2688.88
+18.68
+---- correct output:
+2576.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(resto, 4))
+                ^^^^^
+NameError: name 'resto' is not defined. Did you mean: 'peso'?
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+879.6733
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(resto, 4))
+                ^^^^^
+NameError: name 'resto' is not defined. Did you mean: 'peso'?
+-- TEST CASE 5:
+---- input:
+2697.2
+31.82
+---- correct output:
+2506.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(resto, 4))
+                ^^^^^
+NameError: name 'resto' is not defined. Did you mean: 'peso'?
+-- TEST CASE 6:
+---- input:
+1338.40
+14.10
+---- correct output:
+1253.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(resto, 4))
+                ^^^^^
+NameError: name 'resto' is not defined. Did you mean: 'peso'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:32:30)
+-- CODE: 
+saco = float(input("Digite o saco:"))
+quantidade_diaria = float(input("Digite a quantidade:"))
+quantidade_semanal = quantidade_diaria * 6
+resto = saco - quantidade_semanal
+
+print(round(resto, 4))
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7879.6733
+---- user output:
+Digite o saco:Digite a quantidade:7879.6733
+-- TEST CASE 2:
+---- input:
+1962.55
+15.11
+---- correct output:
+1871.89
+---- user output:
+Digite o saco:Digite a quantidade:1871.89
+-- TEST CASE 3:
+---- input:
+2688.88
+18.68
+---- correct output:
+2576.8
+---- user output:
+Digite o saco:Digite a quantidade:2576.8
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+879.6733
+---- user output:
+Digite o saco:Digite a quantidade:879.6733
+-- TEST CASE 5:
+---- input:
+2697.2
+31.82
+---- correct output:
+2506.28
+---- user output:
+Digite o saco:Digite a quantidade:2506.28
+-- TEST CASE 6:
+---- input:
+1338.40
+14.10
+---- correct output:
+1253.8
+---- user output:
+Digite o saco:Digite a quantidade:1253.8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:21:13)
+-- CODE: 
+peso = float(input("Digite o peso:"))
+quantidade_diaria = float(input("Digite a quantidade:"))
+quantidade_semanal = quantidade_diaria * 6
+print(round(resto, 4))
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7879.6733
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(resto, 4))
+                ^^^^^
+NameError: name 'resto' is not defined. Did you mean: 'peso'?
+-- TEST CASE 2:
+---- input:
+1962.55
+15.11
+---- correct output:
+1871.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(resto, 4))
+                ^^^^^
+NameError: name 'resto' is not defined. Did you mean: 'peso'?
+-- TEST CASE 3:
+---- input:
+2688.88
+18.68
+---- correct output:
+2576.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(resto, 4))
+                ^^^^^
+NameError: name 'resto' is not defined. Did you mean: 'peso'?
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+879.6733
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(resto, 4))
+                ^^^^^
+NameError: name 'resto' is not defined. Did you mean: 'peso'?
+-- TEST CASE 5:
+---- input:
+2697.2
+31.82
+---- correct output:
+2506.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(resto, 4))
+                ^^^^^
+NameError: name 'resto' is not defined. Did you mean: 'peso'?
+-- TEST CASE 6:
+---- input:
+1338.40
+14.10
+---- correct output:
+1253.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(resto, 4))
+                ^^^^^
+NameError: name 'resto' is not defined. Did you mean: 'peso'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:26:28)
+-- CODE: 
+saco = float(input("Digite o saco:"))
+quantidade_diaria = float(input("Digite a quantidade:"))
+resto = quantidade_diaria * 6
+
+print(round(resto, 4))
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7879.6733
+---- user output:
+Digite o saco:Digite a quantidade:120.66
+-- TEST CASE 2:
+---- input:
+1962.55
+15.11
+---- correct output:
+1871.89
+---- user output:
+Digite o saco:Digite a quantidade:90.66
+-- TEST CASE 3:
+---- input:
+2688.88
+18.68
+---- correct output:
+2576.8
+---- user output:
+Digite o saco:Digite a quantidade:112.08
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+879.6733
+---- user output:
+Digite o saco:Digite a quantidade:120.66
+-- TEST CASE 5:
+---- input:
+2697.2
+31.82
+---- correct output:
+2506.28
+---- user output:
+Digite o saco:Digite a quantidade:190.92
+-- TEST CASE 6:
+---- input:
+1338.40
+14.10
+---- correct output:
+1253.8
+---- user output:
+Digite o saco:Digite a quantidade:84.6
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:26:52)
+-- CODE: 
+saco = float(input("Digite o saco:"))
+quantidade_diaria = float(input("Digite a quantidade:"))
+resto = quantidade_diaria * 6
+
+print(round(resto, 4))
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7879.6733
+---- user output:
+Digite o saco:Digite a quantidade:120.66
+-- TEST CASE 2:
+---- input:
+1962.55
+15.11
+---- correct output:
+1871.89
+---- user output:
+Digite o saco:Digite a quantidade:90.66
+-- TEST CASE 3:
+---- input:
+2688.88
+18.68
+---- correct output:
+2576.8
+---- user output:
+Digite o saco:Digite a quantidade:112.08
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+879.6733
+---- user output:
+Digite o saco:Digite a quantidade:120.66
+-- TEST CASE 5:
+---- input:
+2697.2
+31.82
+---- correct output:
+2506.28
+---- user output:
+Digite o saco:Digite a quantidade:190.92
+-- TEST CASE 6:
+---- input:
+1338.40
+14.10
+---- correct output:
+1253.8
+---- user output:
+Digite o saco:Digite a quantidade:84.6
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

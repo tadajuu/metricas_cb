@@ -1,0 +1,3 @@
+celcius= float(input("digite uma temperatura:"))
+fahrenheit= celcius*9/5+32
+print(round(fahrenheit,2))

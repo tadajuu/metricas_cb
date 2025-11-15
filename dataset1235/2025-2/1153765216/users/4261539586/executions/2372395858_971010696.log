@@ -1,0 +1,3242 @@
+== RUN (2025-08-28 19:13:39)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso % quantidade) - 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 24.6
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 9.943
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: -3.531
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 35.222
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 20.4
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 70.3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:03:04)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) * 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 13259.25
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 4901.117
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 11672.844
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 9223.611
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 13426.0
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 62663.25
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:47:06)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso * quantidade) / 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 16552.259
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 4023.341
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 5212.099
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 82013.41
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 47550.36
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 223013.07
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:24:11)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) + 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2656.85
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 985.223
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2339.569
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1849.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2690.2
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12537.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:26:24)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso + quantidade) / 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 542.71
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 204.089
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 471.358
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 449.144
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 571.36
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2541.87
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:19:41)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso//quantidade) % 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.0
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 4.0
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.0
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 0.0
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2.0
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:26:40)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso * quantidade) / 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 16552.259
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 4023.341
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 5212.099
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 82013.41
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 47550.36
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 223013.07
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:12:43)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso * quantidade)%5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.295
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.703
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 0.493
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2.051
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 0.35
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 19:24:53)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) - 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2646.85
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 975.223
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2329.569
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1839.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2680.2
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12527.65
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:22:40)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) / 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 530.37
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 196.045
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 466.914
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 368.944
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 537.04
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2506.53
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:12:20)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso + quantidade)%5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 3.55
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 0.443
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.789
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 0.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 4.35
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:24:50)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) - 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2646.85
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 975.223
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2329.569
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1839.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2680.2
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12527.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:25:49)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso + quantidade) + 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2718.55
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1025.443
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2361.789
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2250.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2861.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12714.35
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:18:35)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso/quantidade) % 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.959
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 4.743
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.132
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 0.201
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2.296
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2.852
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:23:00)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) * 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 13259.25
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 4901.117
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 11672.844
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 9223.611
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 13426.0
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 62663.25
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:14:12)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso * quantidade) % 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.295
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.703
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 0.493
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2.051
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 0.35
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:58:30)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso + quantidade) - 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2708.55
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1015.443
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2351.789
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2240.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2851.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12704.35
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:16:55)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso * quantidade) / 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 16552.259
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 4023.341
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 5212.099
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 82013.41
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 47550.36
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 223013.07
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:21:11)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso * quantidade) / 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 16552.259
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 4023.341
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 5212.099
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 82013.41
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 47550.36
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 223013.07
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:24:54)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) - 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2646.85
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 975.223
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2329.569
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1839.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2680.2
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12527.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:46:45)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso * quantidade) / 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 16552.259
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 4023.341
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 5212.099
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 82013.41
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 47550.36
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 223013.07
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:57:16)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso + quantidade) - 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2708.55
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1015.443
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2351.789
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2240.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2851.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12704.35
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 19:25:17)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) - 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2646.85
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 975.223
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2329.569
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1839.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2680.2
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12527.65
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 19:24:47)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) - 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2646.85
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 975.223
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2329.569
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1839.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2680.2
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12527.65
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:23:24)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) * 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 13259.25
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 4901.117
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 11672.844
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 9223.611
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 13426.0
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 62663.25
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:18:57)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso * quantidade) % 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.295
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.703
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 0.493
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2.051
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 0.35
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:30:26)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso * quantidade) - 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 82756.295
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 20111.703
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 26055.493
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 410062.051
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 237746.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1115060.35
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:26:08)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso + quantidade) * 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 13567.75
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 5102.217
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 11783.944
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 11228.611
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 14284.0
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 63546.75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:01:23)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso/quantidade) * 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 434.797
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 248.715
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1055.661
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 51.003
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 161.48
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 714.261
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:07:08)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade)/5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 530.37
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 196.045
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 466.914
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 368.944
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 537.04
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2506.53
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:57:45)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso + quantidade)/5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 542.71
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 204.089
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 471.358
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 449.144
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 571.36
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2541.87
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:08:03)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso/quantidade) - 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 81.959
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 44.743
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 206.132
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 5.201
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 27.296
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 137.852
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:06:15)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) * 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 13259.25
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 4901.117
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 11672.844
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 9223.611
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 13426.0
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 62663.25
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 19:18:01)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso + quantidade) / 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 542.71
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 204.089
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 471.358
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 449.144
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 571.36
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2541.87
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:09:38)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = peso - (3*quantidade) - 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2585.15
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 935.003
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2307.349
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1438.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2508.6
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12350.95
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:57:11)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso + quantidade) - 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2708.55
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1015.443
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2351.789
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2240.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2851.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12704.35
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:28:45)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = peso * quantidade * 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 413806.475
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 100583.513
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 130302.463
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2050335.255
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1188759.0
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 5575326.75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:08:58)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = peso - quantidade - 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2646.85
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 975.223
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2329.569
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1839.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2680.2
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12527.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:25:27)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso + quantidade) - 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2708.55
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1015.443
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2351.789
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2240.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2851.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12704.35
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:30:11)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso * quantidade) - 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 82756.295
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 20111.703
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 26055.493
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 410062.051
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 237746.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1115060.35
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:17:22)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso + quantidade) / 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 542.71
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 204.089
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 471.358
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 449.144
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 571.36
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2541.87
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:15:42)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso * quantidade) - 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 82756.295
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 20111.703
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 26055.493
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 410062.051
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 237746.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1115060.35
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:45:32)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso * quantidade) - 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 82756.295
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 20111.703
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 26055.493
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 410062.051
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 237746.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1115060.35
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:14:45)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso % quantidade) * 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 148.0
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 74.717
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 7.345
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 201.111
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 127.0
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 376.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 19:24:52)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) - 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2646.85
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 975.223
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2329.569
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1839.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2680.2
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12527.65
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:23:56)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) / 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 530.37
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 196.045
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 466.914
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 368.944
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 537.04
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2506.53
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:24:33)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) - 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2646.85
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 975.223
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2329.569
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1839.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2680.2
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12527.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:30:24)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso * quantidade) - 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 82756.295
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 20111.703
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 26055.493
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 410062.051
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 237746.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1115060.35
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:01:00)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso/quantidade) / 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 17.392
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 9.949
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 42.226
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2.04
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 6.459
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 28.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:02:18)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso - quantidade) * 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 13259.25
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 4901.117
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 11672.844
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 9223.611
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 13426.0
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 62663.25
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 19:27:01)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso * quantidade) * 5
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 413806.475
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 100583.513
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 130302.463
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2050335.255
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1188759.0
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 5575326.75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:29:09)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = peso * quantidade/5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 16552.259
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 4023.341
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 5212.099
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 82013.41
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 47550.36
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 223013.07
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:56:04)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso + quantidade) / 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 542.71
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 204.089
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 471.358
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 449.144
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 571.36
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2541.87
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:56:44)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = (peso + quantidade) - 5
+
+print(round(qtd, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2708.55
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 1015.443
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2351.789
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2240.722
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 2851.8
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+---- user output:
+digite um valor de peso em gramas: digite a qtd diaria em gramas: 12704.35
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:28:37)
+-- CODE: 
+peso = float(input("digite um valor de peso em gramas: "))
+quantidade = float(input("digite a qtd diaria em gramas: "))
+
+qtd = peso * quantidade * 5
+
+print(round(qtd, 3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2682.7
+30.85
+---- correct output:
+2528.45
+-- ERROR:
+File "XXXX", line 6
+    print(round(qtd, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.783
+-- ERROR:
+File "XXXX", line 6
+    print(round(qtd, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+2345.6789
+11.11
+---- correct output:
+2290.129
+-- ERROR:
+File "XXXX", line 6
+    print(round(qtd, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+2045.2222
+200.5
+---- correct output:
+1042.722
+-- ERROR:
+File "XXXX", line 6
+    print(round(qtd, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+2771
+85.8
+---- correct output:
+2342.0
+-- ERROR:
+File "XXXX", line 6
+    print(round(qtd, 3)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+12621
+88.35
+---- correct output:
+12179.25
+-- ERROR:
+File "XXXX", line 6
+    print(round(qtd, 3)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

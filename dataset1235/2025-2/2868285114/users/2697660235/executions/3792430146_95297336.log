@@ -1,0 +1,157 @@
+== SUBMISSION (2025-09-03 04:23:01)
+-- CODE: 
+# v = entrada está sendo transformada em somente letras maiúsculas 
+#por conta das condições aceitar somente em maiusculas
+entrada = input().upper()
+temp = float (input())
+
+
+if (entrada=="C"): #condição que indica a entrada de celcius para fahrenheit
+  conversao = (9/5)*temp + 32 #calculo da condição
+  print(round( conversao,2 )) 
+
+elif (entrada=="F"): #condição que indica a entrada de fahrenheit para celcius
+  conversao=(5/9)*(temp-32) #calculo da condição
+  print(round(conversao,2))
+
+else: # saída somente ativada quando n usada C or F
+  print("entrada errada")
+
+
+
+
+  
+
+
+
+
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+-1.11
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-03 04:12:53)
+-- CODE: 
+entrada = input().upper()
+temp = float (input())
+
+if (entrada=="C"):
+  conversao =(9/5)*temp+32
+  print(round(conversao,2))
+
+elif (entrada=="F"):
+  conversao=(5/9)*(temp-32)
+  print(round(conversao,2))
+
+else: 
+  print("entrada errada")
+
+
+
+
+  
+
+
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+-1.11
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

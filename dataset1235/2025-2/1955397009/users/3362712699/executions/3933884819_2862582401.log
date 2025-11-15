@@ -1,0 +1,79 @@
+== RUN (2025-08-26 13:27:55)
+-- CODE: 
+Nome_do_objeto = input("Insira_o_nome_do_objeto: ")
+Número_de_repetições = int("Quantas_vezes_o_nome_do_objeto_deve_se_repetir? ")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    Número_de_repetições = int("Quantas_vezes_o_nome_do_objeto_deve_se_repetir? ")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Quantas_vezes_o_nome_do_objeto_deve_se_repetir? '
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    Número_de_repetições = int("Quantas_vezes_o_nome_do_objeto_deve_se_repetir? ")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Quantas_vezes_o_nome_do_objeto_deve_se_repetir? '
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    Número_de_repetições = int("Quantas_vezes_o_nome_do_objeto_deve_se_repetir? ")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Quantas_vezes_o_nome_do_objeto_deve_se_repetir? '
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    Número_de_repetições = int("Quantas_vezes_o_nome_do_objeto_deve_se_repetir? ")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Quantas_vezes_o_nome_do_objeto_deve_se_repetir? '
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    Número_de_repetições = int("Quantas_vezes_o_nome_do_objeto_deve_se_repetir? ")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Quantas_vezes_o_nome_do_objeto_deve_se_repetir? '
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    Número_de_repetições = int("Quantas_vezes_o_nome_do_objeto_deve_se_repetir? ")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Quantas_vezes_o_nome_do_objeto_deve_se_repetir? '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

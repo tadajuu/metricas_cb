@@ -1,0 +1,481 @@
+== RUN (2025-08-19 16:56:23)
+-- CODE: 
+litros = float(input())
+preco_gasolina = 2.86 
+troca_oleo = 50.0 
+total_sem_icms = (litros * preco_gasolina) + troca_oleo
+total_sem_icms = total_sem_icms * (1 + 34/100)
+print(round(total_com_icms, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 17:01:52)
+-- CODE: 
+litros = float(input())
+preco_gasolina = 2.86 
+troca_oleo = 50.0 
+total_sem_icms = (litros * preco_gasolina) + troca_oleo
+total_com_icms = total_sem_icms + (total_sem_icms 1 * 34/100)
+print(round(total_com_icms, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+File "XXXX", line 5
+    total_com_icms = total_sem_icms + (total_sem_icms 1 * 34/100)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+File "XXXX", line 5
+    total_com_icms = total_sem_icms + (total_sem_icms 1 * 34/100)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+File "XXXX", line 5
+    total_com_icms = total_sem_icms + (total_sem_icms 1 * 34/100)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+File "XXXX", line 5
+    total_com_icms = total_sem_icms + (total_sem_icms 1 * 34/100)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+File "XXXX", line 5
+    total_com_icms = total_sem_icms + (total_sem_icms 1 * 34/100)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+File "XXXX", line 5
+    total_com_icms = total_sem_icms + (total_sem_icms 1 * 34/100)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 16:47:21)
+-- CODE: 
+litros = float(input())
+preco_gasolina = 2.86 
+troca_oleo = 50.0 
+total_sem_icms = (litros * preco_gasolina) + troca_oleo
+total_sem_icms = total_sem_icms * (1 + 34/100)
+print(round(total_com_icms, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 17:01:51)
+-- CODE: 
+litros = float(input())
+preco_gasolina = 2.86 
+troca_oleo = 50.0 
+total_sem_icms = (litros * preco_gasolina) + troca_oleo
+total_com_icms = total_sem_icms + (total_sem_icms 1 * 34/100)
+print(round(total_com_icms, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+File "XXXX", line 5
+    total_com_icms = total_sem_icms + (total_sem_icms 1 * 34/100)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+File "XXXX", line 5
+    total_com_icms = total_sem_icms + (total_sem_icms 1 * 34/100)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+File "XXXX", line 5
+    total_com_icms = total_sem_icms + (total_sem_icms 1 * 34/100)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+File "XXXX", line 5
+    total_com_icms = total_sem_icms + (total_sem_icms 1 * 34/100)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+File "XXXX", line 5
+    total_com_icms = total_sem_icms + (total_sem_icms 1 * 34/100)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+File "XXXX", line 5
+    total_com_icms = total_sem_icms + (total_sem_icms 1 * 34/100)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 17:12:42)
+-- CODE: 
+litros = float(input())
+preco = 2.86 
+oleo = 50.0 
+total = (litros * preco + oleo) * 1.34
+print(f"{round(total, 2): .2f}")
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+230.57
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 17:17:53)
+-- CODE: 
+litros = float(input())
+preco = 2.86 
+oleo = 50.0 
+total = (litros * preco + oleo) * 1.34
+print(f"{round(total, 2): .2f}")
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 17:16:09)
+-- CODE: 
+litros = float(input())
+preco_gasolina = 2.86 
+troca_oleo = 50.0 
+total_sem_icms = (litros * preco_gasolina) + troca_oleo
+total_sem_icms = total_sem_icms * (1 + 34/100)
+print(round(total_com_icms, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(total_com_icms, 2))
+                ^^^^^^^^^^^^^^
+NameError: name 'total_com_icms' is not defined. Did you mean: 'total_sem_icms'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,55 @@
+== SUBMISSION (2025-08-28 22:26:58)
+-- CODE: 
+tempo = float (input())
+total_gasto = tempo *50+30
+icms = total_gasto * 0.18
+
+total = icms + total_gasto
+print(round(total,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+330.4
+---- user output:
+330.4
+-- TEST CASE 2:
+---- input:
+4
+---- correct output:
+271.4
+---- user output:
+271.4
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+566.4
+---- user output:
+566.4
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+448.4
+---- user output:
+448.4
+-- TEST CASE 5:
+---- input:
+1
+---- correct output:
+94.4
+---- user output:
+94.4
+-- TEST CASE 6:
+---- input:
+4
+---- correct output:
+271.4
+---- user output:
+271.4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

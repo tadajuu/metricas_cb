@@ -1,0 +1,57 @@
+== SUBMISSION (2025-08-28 12:34:21)
+-- CODE: 
+from math import *
+l = float(input("comprimento do lado: "))
+
+apotema = l/(2*tan(pi/9))
+
+a = (9/2)*l*apotema
+
+print(round(a,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+comprimento do lado: 55.64
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+comprimento do lado: 748.0
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+comprimento do lado: 395.64
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+comprimento do lado: 222.55
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+comprimento do lado: 98.91
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+comprimento do lado: 154.55
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

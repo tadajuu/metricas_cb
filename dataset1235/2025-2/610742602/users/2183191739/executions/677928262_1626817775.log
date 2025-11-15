@@ -1,0 +1,2672 @@
+== RUN (2025-08-21 22:43:04)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import pi
+pi=math.pi
+
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:34:34)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x= math.pi 
+print(x)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:30:29)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x=float(input("digite o raio: "))
+A=(pi)*(x**2)
+V=(4(pi)*(x**3))/3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:45:39)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+pi=math.pi
+
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+1.335
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+2.6774470192427087e+45
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V=4/3 *pi**(r**3)
+           ~~^^~~~~~~
+OverflowError: (34, 'Result too large')
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V=4/3 *pi**(r**3)
+           ~~^^~~~~~~
+OverflowError: (34, 'Result too large')
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    V=4/3 *pi**(r**3)
+           ~~^^~~~~~~
+OverflowError: (34, 'Result too large')
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+12651.375
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 22:43:09)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import pi
+
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.00333333
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+1.335
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+2.6774470192427087e+45
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    V=4/3 *pi**(r**3)
+           ~~^^~~~~~~
+OverflowError: (34, 'Result too large')
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    V=4/3 *pi**(r**3)
+           ~~^^~~~~~~
+OverflowError: (34, 'Result too large')
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    V=4/3 *pi**(r**3)
+           ~~^^~~~~~~
+OverflowError: (34, 'Result too large')
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+12651.375
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 22:46:12)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+pi=math.pi
+
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=(4/3)*(pi)*(r**3)
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+0.004
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+381.704
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+7871.076
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+5575.28
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+1279110.151
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+33.51
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 22:30:46)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x=float(input("digite o raio: "))
+A=(pi)*(x**2)
+V=(4(pi)*(x**3))/3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:35:45)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+y=pi 
+x=int(input("digite o raio: "))
+A=y*(x**2)
+V=(4*y*(x**3))/3
+print(round(A,3))
+print(round(V,3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y=pi 
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y=pi 
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y=pi 
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y=pi 
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y=pi 
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y=pi 
+      ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:41:30)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+__import__(math.pi)
+
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    __import__(math.pi)
+               ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    __import__(math.pi)
+               ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    __import__(math.pi)
+               ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    __import__(math.pi)
+               ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    __import__(math.pi)
+               ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    __import__(math.pi)
+               ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:32:10)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+pi=math.pi
+x=float(input("digite o raio: "))
+A=(pi)*(x**2)
+V=(4(pi)*(x**3))/3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:39:59)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input("digite o raio: "))
+A=math.pi*(r**2)
+V=4/3 *math.pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=math.pi*(r**2)
+      ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=math.pi*(r**2)
+      ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=math.pi*(r**2)
+      ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=math.pi*(r**2)
+      ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=math.pi*(r**2)
+      ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=math.pi*(r**2)
+      ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 22:43:12)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import pi
+
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.00333333
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+1.335
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+2.6774470192427087e+45
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    V=4/3 *pi**(r**3)
+           ~~^^~~~~~~
+OverflowError: (34, 'Result too large')
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    V=4/3 *pi**(r**3)
+           ~~^^~~~~~~
+OverflowError: (34, 'Result too large')
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    V=4/3 *pi**(r**3)
+           ~~^^~~~~~~
+OverflowError: (34, 'Result too large')
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+12651.375
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:35:06)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+y= math.pi 
+x=int(input("digite o raio: "))
+A=(y)*(x**2)
+V=(4(y)*(x**3))/3
+print(round(A,3))
+print(round(V,3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(y)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(y)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(y)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(y)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(y)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+XXXX:7: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(y)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 22:43:04)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import pi
+pi=math.pi
+
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:32:39)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x=int(input("digite o raio: "))
+A=(pi)*(x**2)
+V=(4(pi)*(x**3))/3
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x=int(input("digite o raio: "))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.1'
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x=int(input("digite o raio: "))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '4.5'
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x=int(input("digite o raio: "))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.34'
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x=int(input("digite o raio: "))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '11.0'
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x=int(input("digite o raio: "))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '67.34'
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x=int(input("digite o raio: "))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:34:35)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x= math.pi 
+print(x)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    x= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:35:27)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+y= math.pi 
+x=int(input("digite o raio: "))
+A=y*(x**2)
+V=(4*y*(x**3))/3
+print(round(A,3))
+print(round(V,3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= math.pi 
+       ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:43:01)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import pi
+pi=math.pi
+
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 22:43:16)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:40:41)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:40:40)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 22:43:16)
+-- CODE: 
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:35:39)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+y= pi 
+x=int(input("digite o raio: "))
+A=y*(x**2)
+V=(4*y*(x**3))/3
+print(round(A,3))
+print(round(V,3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= pi 
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= pi 
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= pi 
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= pi 
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= pi 
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    y= pi 
+       ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:41:31)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+__import__(math.pi)
+
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    __import__(math.pi)
+               ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    __import__(math.pi)
+               ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    __import__(math.pi)
+               ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    __import__(math.pi)
+               ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    __import__(math.pi)
+               ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    __import__(math.pi)
+               ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 22:43:10)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import pi
+
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.00333333
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+1.335
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+2.6774470192427087e+45
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    V=4/3 *pi**(r**3)
+           ~~^^~~~~~~
+OverflowError: (34, 'Result too large')
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    V=4/3 *pi**(r**3)
+           ~~^^~~~~~~
+OverflowError: (34, 'Result too large')
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    V=4/3 *pi**(r**3)
+           ~~^^~~~~~~
+OverflowError: (34, 'Result too large')
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+12651.375
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 22:43:15)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    A=pi*(r**2)
+      ^^
+NameError: name 'pi' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:29:54)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x=float(input("digite o raio: "))
+A=(pi)*(x**2)
+V=(4(pi)*(x**3))/3
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+XXXX:6: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  V=(4(pi)*(x**3))/3
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=(pi)*(x**2)
+       ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:43:02)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import pi
+pi=math.pi
+
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    pi=math.pi
+       ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:40:26)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input("digite o raio: "))
+A=math.pi*(r**2)
+V=4/3 *pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=math.pi*(r**2)
+      ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=math.pi*(r**2)
+      ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=math.pi*(r**2)
+      ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=math.pi*(r**2)
+      ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=math.pi*(r**2)
+      ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    A=math.pi*(r**2)
+      ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:46:07)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+import math
+pi=math.pi
+
+r=float(input("digite o raio: "))
+A=pi*(r**2)
+V=(4/3)*(pi)*(r**3)
+print(round(A,3))
+print(round(V,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+---- user output:
+0.004
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+---- user output:
+381.704
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+---- user output:
+7871.076
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+---- user output:
+5575.28
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+---- user output:
+1279110.151
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+---- user output:
+33.51
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 22:39:43)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=int(input("digite o raio: "))
+A=math.pi*(r**2)
+V=4/3 *math.pi**(r**3)
+print(round(A,3))
+print(round(V,3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.1
+---- correct output:
+0.031
+0.004
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    r=int(input("digite o raio: "))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.1'
+-- TEST CASE 2:
+---- input:
+4.5
+
+---- correct output:
+63.617
+381.704
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    r=int(input("digite o raio: "))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '4.5'
+-- TEST CASE 3:
+---- input:
+12.34
+---- correct output:
+478.388
+7871.076
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    r=int(input("digite o raio: "))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.34'
+-- TEST CASE 4:
+---- input:
+11.0
+---- correct output:
+380.133
+5575.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    r=int(input("digite o raio: "))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '11.0'
+-- TEST CASE 5:
+---- input:
+67.34
+---- correct output:
+14246.104
+1279110.151
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    r=int(input("digite o raio: "))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '67.34'
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+12.566
+33.51
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    r=int(input("digite o raio: "))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

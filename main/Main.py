@@ -19,6 +19,8 @@ def main():
     # dt_start = datetime.fromisoformat(dt_start_str)
     # dt_end = datetime.fromisoformat(dt_end_str)
 
+    #esse está ok! unico erro foi de escrita, já que o usuario digitou com "ç" um código,
+    # e o programa nao reconheceu!
     print("Processando relatórios de Domínio da Lógica...")
     LogicProc = LogicProcessor()
     LogicProc.process()
@@ -35,10 +37,10 @@ def main():
     gradeProc = GradeProcessor()
     gradeProc.process()
 
-    # ID_USER, ID_ASSESSMENT, ID_CLASS, YEAR, SEMESTER, ASSESSMENT_DATE_START, GRADE
-    # print("Processando valores IRBO...")
-    # irbo_proc = IRBOProcessor()
-    # irbo_proc.process()
+    #ID_USER, ID_ASSESSMENT, ID_CLASS, YEAR, SEMESTER, ASSESSMENT_DATE_START, GRADE
+    #print("Processando valores IRBO...")
+    #irbo_proc = IRBOProcessor()
+    #irbo_proc.process()
 
     print("Processando relatórios sobre Horas Semanais de Codificação...")
     WCHProc = WeeklyCodingHoursProcessor()
@@ -46,11 +48,11 @@ def main():
 
     print("Processando relatórios sobre Presteza...")
     ReadinessProc = ReadinessProcessor()
-    #ReadinessProc.process()
+    ReadinessProc.process()
 
-    # print("Executando idfixe.py...")
-    # path = "/Users/fcoelho/Documents/Dev/doutorado/cb-metrics/reports/"
-    # subprocess.run(["python3", path + "idfixe.py"])
+    #print("Executando idfixe.py...")
+    #path = "/Users/fcoelho/Documents/Dev/doutorado/cb-metrics/reports/"
+    #subprocess.run(["python3", path + "idfixe.py"])
 
 
 if __name__ == '__main__':

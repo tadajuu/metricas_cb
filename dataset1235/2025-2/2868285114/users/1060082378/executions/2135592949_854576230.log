@@ -1,0 +1,762 @@
+== RUN (2025-08-12 23:06:50)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print("frase.upper("Ada Lovelace foi a primeira programadora da historia."))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print("frase.upper("Ada Lovelace foi a primeira programadora da historia."))
+                                                                             ^
+SyntaxError: unterminated string literal (detected at line 2)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print("frase.upper("Ada Lovelace foi a primeira programadora da historia."))
+                                                                             ^
+SyntaxError: unterminated string literal (detected at line 2)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 22:53:15)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da história"
+print(.upper(Ada Lovelace foi a primeira programadora da história))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(.upper(Ada Lovelace foi a primeira programadora da história))
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(.upper(Ada Lovelace foi a primeira programadora da história))
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 23:03:26)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper("Ada Lovelace foi a primeira programadora da historia."))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da historia."))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da historia."))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 22:58:43)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da história"
+print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 23:06:01)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase .upper("Ada Lovelace foi a primeira programadora da historia."))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase .upper("Ada Lovelace foi a primeira programadora da historia."))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase .upper("Ada Lovelace foi a primeira programadora da historia."))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 22:57:52)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da história"
+print(frase.upper("Ada Lovelace foi a primeira programadora da história")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história")
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história")
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 23:03:10)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper("Ada Lovelace foi a primeira programadora da historia"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da historia"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da historia"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 23:02:56)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper("Ada Lovelace foi a primeira programadora da historia"))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da historia"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da historia"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-12 22:58:47)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da história"
+print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 22:53:41)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da história"
+print(.upper(frase = Ada Lovelace foi a primeira programadora da história))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(.upper(frase = Ada Lovelace foi a primeira programadora da história))
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(.upper(frase = Ada Lovelace foi a primeira programadora da história))
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 23:00:13)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da história"
+print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 22:58:44)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da história"
+print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 23:15:29)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase = "Ada Lovelace foi a primeira programadora da historia."print.upper()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase = "Ada Lovelace foi a primeira programadora da historia."print.upper()
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase = "Ada Lovelace foi a primeira programadora da historia."print.upper()
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 23:16:10)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 23:01:42)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da história."
+print(frase.upper(Ada Lovelace foi a primeira programadora da história.))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(Ada Lovelace foi a primeira programadora da história.))
+                      ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(Ada Lovelace foi a primeira programadora da história.))
+                      ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-12 23:16:20)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper())
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 23:01:24)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da história."
+print(frase.upper("Ada Lovelace foi a primeira programadora da história."))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história."))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história."))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 22:58:04)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da história"
+print(frase.upper(Ada Lovelace foi a primeira programadora da história)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(Ada Lovelace foi a primeira programadora da história)
+                      ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(Ada Lovelace foi a primeira programadora da história)
+                      ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 22:55:11)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da história"
+print("Ada Lovelace foi a primeira programadora da história").upper("converter para maiúsculo")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print("Ada Lovelace foi a primeira programadora da história").upper("converter para maiúsculo")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'upper'
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print("Ada Lovelace foi a primeira programadora da história").upper("converter para maiúsculo")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'upper'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 23:04:59)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper("Ada Lovelace foi a primeira programadora da historia."))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da historia."))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da historia."))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 22:53:55)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da história"
+print(.upper(frase = "Ada Lovelace foi a primeira programadora da história"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(.upper(frase = "Ada Lovelace foi a primeira programadora da história"))
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(.upper(frase = "Ada Lovelace foi a primeira programadora da história"))
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-12 23:02:53)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper("Ada Lovelace foi a primeira programadora da historia"))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da historia"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da historia"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 23:02:34)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-12 23:01:46)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da história."
+print(frase.upper(Ada Lovelace foi a primeira programadora da história.))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(Ada Lovelace foi a primeira programadora da história.))
+                      ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(frase.upper(Ada Lovelace foi a primeira programadora da história.))
+                      ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-12 23:02:36)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da história"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 22:57:05)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da história"
+print(.upper("Ada Lovelace foi a primeira programadora da história")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(.upper("Ada Lovelace foi a primeira programadora da história")
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+File "XXXX", line 2
+    print(.upper("Ada Lovelace foi a primeira programadora da história")
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-12 23:02:50)
+-- CODE: 
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase.upper("Ada Lovelace foi a primeira programadora da historia"))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da historia"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(frase.upper("Ada Lovelace foi a primeira programadora da historia"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: str.upper() takes no arguments (1 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

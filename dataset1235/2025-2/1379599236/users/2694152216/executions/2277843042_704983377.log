@@ -1,0 +1,2494 @@
+== SUBMISSION (2025-08-21 02:08:40)
+-- CODE: 
+x = input("Informe um numero: ")
+y = input("Informe outro numero: ")
+
+divisao_inteira = x//y
+resto_da_divisao = x%y
+
+divisao_real = x/y
+
+produto = x*y
+potencia = x**y
+
+print(divisao_inteira)
+print(resto_da_divisao)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    divisao_inteira = x//y
+                      ~^^~
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    divisao_inteira = x//y
+                      ~^^~
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    divisao_inteira = x//y
+                      ~^^~
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    divisao_inteira = x//y
+                      ~^^~
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    divisao_inteira = x//y
+                      ~^^~
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    divisao_inteira = x//y
+                      ~^^~
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 02:10:15)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_da_divisao = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_da_divisao)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 02:12:34)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 02:13:17)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 02:12:50)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 02:14:15)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 02:13:15)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 02:12:46)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 01:10:35)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 02:18:06)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 02:10:32)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_da_divisao)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(resto_da_divisao)
+          ^^^^^^^^^^^^^^^^
+NameError: name 'resto_da_divisao' is not defined
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(resto_da_divisao)
+          ^^^^^^^^^^^^^^^^
+NameError: name 'resto_da_divisao' is not defined
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(resto_da_divisao)
+          ^^^^^^^^^^^^^^^^
+NameError: name 'resto_da_divisao' is not defined
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(resto_da_divisao)
+          ^^^^^^^^^^^^^^^^
+NameError: name 'resto_da_divisao' is not defined
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(resto_da_divisao)
+          ^^^^^^^^^^^^^^^^
+NameError: name 'resto_da_divisao' is not defined
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(resto_da_divisao)
+          ^^^^^^^^^^^^^^^^
+NameError: name 'resto_da_divisao' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 02:17:53)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 02:14:09)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 02:10:16)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_da_divisao = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_da_divisao)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 02:13:16)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 02:11:46)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 01:12:13)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 01:11:16)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 02:10:31)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_da_divisao)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(resto_da_divisao)
+          ^^^^^^^^^^^^^^^^
+NameError: name 'resto_da_divisao' is not defined
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(resto_da_divisao)
+          ^^^^^^^^^^^^^^^^
+NameError: name 'resto_da_divisao' is not defined
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(resto_da_divisao)
+          ^^^^^^^^^^^^^^^^
+NameError: name 'resto_da_divisao' is not defined
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(resto_da_divisao)
+          ^^^^^^^^^^^^^^^^
+NameError: name 'resto_da_divisao' is not defined
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(resto_da_divisao)
+          ^^^^^^^^^^^^^^^^
+NameError: name 'resto_da_divisao' is not defined
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(resto_da_divisao)
+          ^^^^^^^^^^^^^^^^
+NameError: name 'resto_da_divisao' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 02:09:17)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_da_divisao = x%y
+
+divisao_real = x/y
+
+produto = x*y
+potencia = x**y
+
+print(divisao_inteira)
+print(resto_da_divisao)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+196
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+32768
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+100000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+2809
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+119716
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+120409
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 01:12:43)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 02:13:47)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 02:13:50)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 01:11:44)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 01:11:26)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_divisao_inteira = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_divisao_inteira)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 02:10:12)
+-- CODE: 
+x = int(input("Informe um numero: "))
+y = int(input("Informe outro numero: "))
+
+divisao_inteira = x//y
+resto_da_divisao = x%y
+
+divisao_real = x/y
+produto = x*y
+potencia = x**3
+
+print(divisao_inteira)
+print(resto_da_divisao)
+print(divisao_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+2744
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+512
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+1000
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+148877
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+41421736
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+41781923
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

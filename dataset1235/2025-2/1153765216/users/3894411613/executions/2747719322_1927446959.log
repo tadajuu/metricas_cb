@@ -1,0 +1,1001 @@
+== RUN (2025-08-24 20:47:05)
+-- CODE: 
+n = input(int("Insira n: "))
+print(round(n * (27/100) , 2))
+print(round(n + n*(42/100) , 2))
+print(round(n - n*(63/100) , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = input(int("Insira n: "))
+              ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira n: '
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = input(int("Insira n: "))
+              ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira n: '
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = input(int("Insira n: "))
+              ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira n: '
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = input(int("Insira n: "))
+              ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira n: '
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = input(int("Insira n: "))
+              ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira n: '
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = input(int("Insira n: "))
+              ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira n: '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 20:47:46)
+-- CODE: 
+n = input(int("Insira n: "))
+print(round(n * (27/100) , 2))
+print(round(n + n*(42/100) , 2))
+print(round(n - n*(63/100) , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = input(int("Insira n: "))
+              ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira n: '
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = input(int("Insira n: "))
+              ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira n: '
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = input(int("Insira n: "))
+              ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira n: '
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = input(int("Insira n: "))
+              ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira n: '
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = input(int("Insira n: "))
+              ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira n: '
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = input(int("Insira n: "))
+              ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira n: '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 21:00:02)
+-- CODE: 
+nr = float(input("insira nr: "))
+v1 = print(float(round(nr * (27/100) , 2)))
+v2 = print(float(round(nr + nr*(42/100) , 2)))
+v3 = print(float(round(nr - nr*(63/100) , 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 18:42:50)
+-- CODE: 
+n = int("numero real")
+input(float("Insira n: "))
+print(round(n * (27/100) , 2))
+print(round(n + n*(42/100) , 2))
+print(round(n - n*(63/100) , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 20:56:18)
+-- CODE: 
+nr = input(round("insira nr: " , 2))
+print(float(round(nr * (27/100) , 2)))
+print(float(round(nr + nr*(42/100) , 2)))
+print(float(round(nr - nr*(63/100) , 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(round("insira nr: " , 2))
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(round("insira nr: " , 2))
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(round("insira nr: " , 2))
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(round("insira nr: " , 2))
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(round("insira nr: " , 2))
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(round("insira nr: " , 2))
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 18:42:49)
+-- CODE: 
+n = int("numero real")
+input(float("Insira n: "))
+print(round(n * (27/100) , 2))
+print(round(n + n*(42/100) , 2))
+print(round(n - n*(63/100) , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 18:42:50)
+-- CODE: 
+n = int("numero real")
+input(float("Insira n: "))
+print(round(n * (27/100) , 2))
+print(round(n + n*(42/100) , 2))
+print(round(n - n*(63/100) , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = int("numero real")
+        ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'numero real'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 21:00:23)
+-- CODE: 
+nr = float(input("insira nr: "))
+v1 = print(float(round(nr * (27/100) , 2)))
+v2 = print(float(round(nr + nr*(42/100) , 2)))
+v3 = print(float(round(nr - nr*(63/100) , 2)))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 18:36:36)
+-- CODE: 
+input(float("Insira nr: "))
+print(round(nr * (27/100) , 2))
+print(round(nr + nr*(42/100) , 2))
+print(round(nr - nr*(63/100) , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(float("Insira nr: "))
+          ^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira nr: '
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(float("Insira nr: "))
+          ^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira nr: '
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(float("Insira nr: "))
+          ^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira nr: '
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(float("Insira nr: "))
+          ^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira nr: '
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(float("Insira nr: "))
+          ^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira nr: '
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    input(float("Insira nr: "))
+          ^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira nr: '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 20:52:37)
+-- CODE: 
+nr = input(float(round("Insira nr: " , 2)))
+print(float(round(nr * (27/100) , 2)))
+print(float(round(nr + nr*(42/100) , 2)))
+print(float(round(nr - nr*(63/100) , 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(float(round("Insira nr: " , 2)))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(float(round("Insira nr: " , 2)))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(float(round("Insira nr: " , 2)))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(float(round("Insira nr: " , 2)))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(float(round("Insira nr: " , 2)))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(float(round("Insira nr: " , 2)))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 20:48:14)
+-- CODE: 
+nr = input(int("Insira nr: "))
+print(round(nr * (27/100) , 2))
+print(round(nr + nr*(42/100) , 2))
+print(round(nr - nr*(63/100) , 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(int("Insira nr: "))
+               ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira nr: '
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(int("Insira nr: "))
+               ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira nr: '
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(int("Insira nr: "))
+               ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira nr: '
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(int("Insira nr: "))
+               ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira nr: '
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(int("Insira nr: "))
+               ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira nr: '
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(int("Insira nr: "))
+               ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Insira nr: '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 20:49:49)
+-- CODE: 
+nr = input(float("Insira nr: "))
+print(float(round(nr * (27/100) , 2)))
+print(float(round(nr + nr*(42/100) , 2)))
+print(float(round(nr - nr*(63/100) , 2)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(float("Insira nr: "))
+               ^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira nr: '
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(float("Insira nr: "))
+               ^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira nr: '
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(float("Insira nr: "))
+               ^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira nr: '
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(float("Insira nr: "))
+               ^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira nr: '
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(float("Insira nr: "))
+               ^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira nr: '
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    nr = input(float("Insira nr: "))
+               ^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Insira nr: '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,60 @@
+== SUBMISSION (2025-08-28 18:26:04)
+-- CODE: 
+#Informações Iniciais
+peso_mercadoria = float(input())
+
+# Calculo da Taxa
+preco_parcial = peso_mercadoria * 43.21 + 25.00
+taxa_ICMS = preco_parcial * 0.62
+preco_total = preco_parcial + taxa_ICMS
+
+#Dessa Forma
+print(round(preco_total,2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.0
+---- correct output:
+740.5
+---- user output:
+740.5
+-- TEST CASE 2:
+---- input:
+178.50
+---- correct output:
+12535.54
+---- user output:
+12535.54
+-- TEST CASE 3:
+---- input:
+20.8
+---- correct output:
+1496.5
+---- user output:
+1496.5
+-- TEST CASE 4:
+---- input:
+320.64
+---- correct output:
+22485.36
+---- user output:
+22485.36
+-- TEST CASE 5:
+---- input:
+17.23
+---- correct output:
+1246.6
+---- user output:
+1246.6
+-- TEST CASE 6:
+---- input:
+38.01
+---- correct output:
+2701.21
+---- user output:
+2701.21
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

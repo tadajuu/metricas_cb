@@ -1,0 +1,6 @@
+n1 = float(input("nota um: "))
+n2 = float(input("nota dois: "))
+n3 = float(input("nota tres: "))
+n4 = float(input("nota quatro: " ))
+m = ((n1 * 1) + (n2 * 2) + (n3 * 3) + (n4 * 4))/(1 + 2 + 3 + 4)
+print(round(m,2))

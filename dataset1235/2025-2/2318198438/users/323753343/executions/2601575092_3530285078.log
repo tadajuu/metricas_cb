@@ -1,0 +1,73 @@
+== RUN (2025-08-28 01:11:49)
+-- CODE: 
+string = "Augusta Ada Byron, a Condessa de Lovelace, nasceu em 1815, na Inglaterra. "
+print(string.lower())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+---- user output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+---- user output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 01:11:20)
+-- CODE: 
+sstring = "Augusta Ada Byron, a Condessa de Lovelace, nasceu em 1815, na Inglaterra. "
+pprint(string.lower())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    pprint(string.lower())
+    ^^^^^^
+NameError: name 'pprint' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    pprint(string.lower())
+    ^^^^^^
+NameError: name 'pprint' is not defined. Did you mean: 'print'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 01:11:52)
+-- CODE: 
+string = "Augusta Ada Byron, a Condessa de Lovelace, nasceu em 1815, na Inglaterra. "
+print(string.lower())
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+---- user output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+---- user output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,522 @@
+== RUN (2025-08-20 18:52:38)
+-- CODE: 
+litros = float(input("Insira a quantidade de litros abastecidos: "))
+
+preco_litros = litros*preco_gasolina
+preco_gasolina = 2.86
+preco_troca_de_oleo = 50.00
+preco_total = (preco_litros+preco_troca_de_oleo)
+preco_icms = preco_total+(preco_total*(34/100))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    preco_litros = litros*preco_gasolina
+                          ^^^^^^^^^^^^^^
+NameError: name 'preco_gasolina' is not defined
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    preco_litros = litros*preco_gasolina
+                          ^^^^^^^^^^^^^^
+NameError: name 'preco_gasolina' is not defined
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    preco_litros = litros*preco_gasolina
+                          ^^^^^^^^^^^^^^
+NameError: name 'preco_gasolina' is not defined
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    preco_litros = litros*preco_gasolina
+                          ^^^^^^^^^^^^^^
+NameError: name 'preco_gasolina' is not defined
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    preco_litros = litros*preco_gasolina
+                          ^^^^^^^^^^^^^^
+NameError: name 'preco_gasolina' is not defined
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    preco_litros = litros*preco_gasolina
+                          ^^^^^^^^^^^^^^
+NameError: name 'preco_gasolina' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 18:53:06)
+-- CODE: 
+litros = float(input("Insira a quantidade de litros abastecidos: "))
+
+preco_gasolina = 2.86
+preco_litros = litros*preco_gasolina
+preco_troca_de_oleo = 50.00
+preco_total = (preco_litros+preco_troca_de_oleo)
+preco_icms = preco_total+(preco_total*(34/100))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Insira a quantidade de litros abastecidos:
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Insira a quantidade de litros abastecidos:
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Insira a quantidade de litros abastecidos:
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Insira a quantidade de litros abastecidos:
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Insira a quantidade de litros abastecidos:
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+Insira a quantidade de litros abastecidos:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 18:53:38)
+-- CODE: 
+litros = float(input("Insira a quantidade de litros abastecidos: "))
+
+preco_gasolina = 2.86
+preco_litros = litros*preco_gasolina
+preco_troca_de_oleo = 50.00
+preco_total = (preco_litros+preco_troca_de_oleo)
+preco_icms = preco_total+(preco_total*(34/100))
+
+print(round(preco_icms),2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Insira a quantidade de litros abastecidos: 980 2
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Insira a quantidade de litros abastecidos: 402 2
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Insira a quantidade de litros abastecidos: 259 2
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Insira a quantidade de litros abastecidos: 107 2
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Insira a quantidade de litros abastecidos: 635 2
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+Insira a quantidade de litros abastecidos: 2500 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 18:47:03)
+-- CODE: 
+litros = float(input("Insira a quantidade de litros abastecidos: "))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Insira a quantidade de litros abastecidos:
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Insira a quantidade de litros abastecidos:
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Insira a quantidade de litros abastecidos:
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Insira a quantidade de litros abastecidos:
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Insira a quantidade de litros abastecidos:
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+Insira a quantidade de litros abastecidos:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 18:53:45)
+-- CODE: 
+litros = float(input("Insira a quantidade de litros abastecidos: "))
+
+preco_gasolina = 2.86
+preco_litros = litros*preco_gasolina
+preco_troca_de_oleo = 50.00
+preco_total = (preco_litros+preco_troca_de_oleo)
+preco_icms = preco_total+(preco_total*(34/100))
+
+print(round(preco_icms),2)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Insira a quantidade de litros abastecidos: 980 2
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Insira a quantidade de litros abastecidos: 402 2
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Insira a quantidade de litros abastecidos: 259 2
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Insira a quantidade de litros abastecidos: 107 2
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Insira a quantidade de litros abastecidos: 635 2
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+Insira a quantidade de litros abastecidos: 2500 2
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 18:54:34)
+-- CODE: 
+litros = float(input("Insira a quantidade de litros abastecidos: "))
+
+preco_gasolina = 2.86
+preco_litros = litros*preco_gasolina
+preco_troca_de_oleo = 50.00
+preco_total = (preco_litros+preco_troca_de_oleo)
+preco_icms = preco_total+(preco_total*(34/100))
+
+print(round(preco_icms),2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Insira a quantidade de litros abastecidos: 980 2
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Insira a quantidade de litros abastecidos: 402 2
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Insira a quantidade de litros abastecidos: 259 2
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Insira a quantidade de litros abastecidos: 107 2
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Insira a quantidade de litros abastecidos: 635 2
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+Insira a quantidade de litros abastecidos: 2500 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-20 18:54:44)
+-- CODE: 
+litros = float(input("Insira a quantidade de litros abastecidos: "))
+
+preco_gasolina = 2.86
+preco_litros = litros*preco_gasolina
+preco_troca_de_oleo = 50.00
+preco_total = (preco_litros+preco_troca_de_oleo)
+preco_icms = preco_total+(preco_total*(34/100))
+
+print(round(preco_icms),2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Insira a quantidade de litros abastecidos: 980 2
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Insira a quantidade de litros abastecidos: 402 2
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Insira a quantidade de litros abastecidos: 259 2
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Insira a quantidade de litros abastecidos: 107 2
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Insira a quantidade de litros abastecidos: 635 2
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+Insira a quantidade de litros abastecidos: 2500 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 18:55:17)
+-- CODE: 
+litros = float(input("Insira a quantidade de litros abastecidos: "))
+
+preco_gasolina = 2.86
+preco_litros = litros*preco_gasolina
+preco_troca_de_oleo = 50.00
+preco_total = (preco_litros+preco_troca_de_oleo)
+preco_icms = preco_total+(preco_total*(34/100))
+
+print(round(preco_icms),2)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Insira a quantidade de litros abastecidos: 980 2
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Insira a quantidade de litros abastecidos: 402 2
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Insira a quantidade de litros abastecidos: 259 2
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Insira a quantidade de litros abastecidos: 107 2
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Insira a quantidade de litros abastecidos: 635 2
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+Insira a quantidade de litros abastecidos: 2500 2
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 18:56:54)
+-- CODE: 
+litros = float(input("Insira a quantidade de litros abastecidos: "))
+
+preco_gasolina = 2.86
+preco_litros = litros*preco_gasolina
+preco_troca_de_oleo = 50.00
+preco_total = (preco_litros+preco_troca_de_oleo)
+preco_icms = (preco_total+(preco_total*(34/100)))
+
+print(round(preco_icms,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Insira a quantidade de litros abastecidos: 979.99
+-- TEST CASE 2:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Insira a quantidade de litros abastecidos: 401.95
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Insira a quantidade de litros abastecidos: 258.62
+-- TEST CASE 4:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Insira a quantidade de litros abastecidos: 106.86
+-- TEST CASE 5:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Insira a quantidade de litros abastecidos: 634.85
+-- TEST CASE 6:
+---- input:
+634.85
+---- correct output:
+2500.0
+---- user output:
+Insira a quantidade de litros abastecidos: 2500.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

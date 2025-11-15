@@ -1,0 +1,346 @@
+== RUN (2025-08-28 21:27:49)
+-- CODE: 
+quantidade_jogod=float(input("Qual a quantidade de jogos a serem comprados?"))
+valor_unitario=float(input("Qual o valor unitario de cada jogo?"))
+valor_frete+float(input("Qual o valor do frete?"))
+
+total_jogos=quantidade_jogos*valor_jogos
+total_frete=total_jogos+valor_frete
+
+
+print(total_frete)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_frete+float(input("Qual o valor do frete?"))
+    ^^^^^^^^^^^
+NameError: name 'valor_frete' is not defined
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_frete+float(input("Qual o valor do frete?"))
+    ^^^^^^^^^^^
+NameError: name 'valor_frete' is not defined
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_frete+float(input("Qual o valor do frete?"))
+    ^^^^^^^^^^^
+NameError: name 'valor_frete' is not defined
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_frete+float(input("Qual o valor do frete?"))
+    ^^^^^^^^^^^
+NameError: name 'valor_frete' is not defined
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_frete+float(input("Qual o valor do frete?"))
+    ^^^^^^^^^^^
+NameError: name 'valor_frete' is not defined
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_frete+float(input("Qual o valor do frete?"))
+    ^^^^^^^^^^^
+NameError: name 'valor_frete' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 21:28:36)
+-- CODE: 
+quantidade_jogod=float(input("Qual a quantidade de jogos a serem comprados?"))
+valor_unitario=float(input("Qual o valor unitario de cada jogo?"))
+valor_frete=float(input("Qual o valor do frete?"))
+
+total_jogos=quantidade_jogos * valor_unitario
+total_frete=total_jogos + valor_frete
+
+
+print(total_frete)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total_jogos=quantidade_jogos * valor_unitario
+                ^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_jogos' is not defined. Did you mean: 'quantidade_jogod'?
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total_jogos=quantidade_jogos * valor_unitario
+                ^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_jogos' is not defined. Did you mean: 'quantidade_jogod'?
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total_jogos=quantidade_jogos * valor_unitario
+                ^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_jogos' is not defined. Did you mean: 'quantidade_jogod'?
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total_jogos=quantidade_jogos * valor_unitario
+                ^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_jogos' is not defined. Did you mean: 'quantidade_jogod'?
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total_jogos=quantidade_jogos * valor_unitario
+                ^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_jogos' is not defined. Did you mean: 'quantidade_jogod'?
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    total_jogos=quantidade_jogos * valor_unitario
+                ^^^^^^^^^^^^^^^^
+NameError: name 'quantidade_jogos' is not defined. Did you mean: 'quantidade_jogod'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 21:29:12)
+-- CODE: 
+quantidade_jogos=float(input("Qual a quantidade de jogos a serem comprados?"))
+valor_unitario=float(input("Qual o valor unitario de cada jogo?"))
+valor_frete=float(input("Qual o valor do frete?"))
+
+total_jogos=quantidade_jogos * valor_unitario
+total_frete=total_jogos + valor_frete
+
+
+print(total_frete)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+Qual a quantidade de jogos a serem comprados?Qual o valor unitario de cada jogo?Qual o valor do frete?1642.5
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+Qual a quantidade de jogos a serem comprados?Qual o valor unitario de cada jogo?Qual o valor do frete?240171.0
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+Qual a quantidade de jogos a serem comprados?Qual o valor unitario de cada jogo?Qual o valor do frete?540.0
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+Qual a quantidade de jogos a serem comprados?Qual o valor unitario de cada jogo?Qual o valor do frete?765.0
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+Qual a quantidade de jogos a serem comprados?Qual o valor unitario de cada jogo?Qual o valor do frete?162.56
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+Qual a quantidade de jogos a serem comprados?Qual o valor unitario de cada jogo?Qual o valor do frete?618.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 21:27:14)
+-- CODE: 
+quantidade_jogod=float(input("Qual a quantidade de jogos a serem comprados?"))
+valor_unitario=float(input("Qual o valor unitario de cada jogo?"))
+valor_frete+float(input("Qual o valor do frete?"))
+
+total_jogos=quantidade_jogos*valor_jogos
+total_frete+total_jogos+valor_frete
+
+
+print(total_frete)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_frete+float(input("Qual o valor do frete?"))
+    ^^^^^^^^^^^
+NameError: name 'valor_frete' is not defined
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_frete+float(input("Qual o valor do frete?"))
+    ^^^^^^^^^^^
+NameError: name 'valor_frete' is not defined
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_frete+float(input("Qual o valor do frete?"))
+    ^^^^^^^^^^^
+NameError: name 'valor_frete' is not defined
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_frete+float(input("Qual o valor do frete?"))
+    ^^^^^^^^^^^
+NameError: name 'valor_frete' is not defined
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_frete+float(input("Qual o valor do frete?"))
+    ^^^^^^^^^^^
+NameError: name 'valor_frete' is not defined
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_frete+float(input("Qual o valor do frete?"))
+    ^^^^^^^^^^^
+NameError: name 'valor_frete' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

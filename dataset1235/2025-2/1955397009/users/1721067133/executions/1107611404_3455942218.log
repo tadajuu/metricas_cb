@@ -1,0 +1,2239 @@
+== SUBMISSION (2025-08-21 12:59:42)
+-- CODE: 
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunit * 8 ) + 45
+saldo = vdisp - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(total,1))
+print("Apos a compra, voce tera: ", round(saldo,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera:  55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera:  1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera:  1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera:  8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera:  15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera:  195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 13:00:49)
+-- CODE: 
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+tot = (vunit * 8 ) + 45
+sald = vdisp - tot
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(tot,1) )
+print("Apos a compra, voce tera: ", round(sald,1) )
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera:  55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera:  1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera:  1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera:  8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera:  15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera:  195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 13:01:54)
+-- CODE: 
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+tot = (vunit * 8 ) + 45.0
+sald = vdisp - tot
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(tot,1) )
+print("Apos a compra, voce tera: ", round(sald,1) )
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera:  55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera:  1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera:  1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera:  8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera:  15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera:  195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 12:53:21)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunitario = float(input("Qual o valor unitario do jogo? "))
+vdisponivel = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunitario * 8 ) + 45
+saldo = vdisponivel - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", total)
+print("Apos a compra, voce tera R$", round(saldo,1), "de saldo de dinheiro apos a compra")
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 55.0 de saldo de dinheiro apos a compra
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 1.0 de saldo de dinheiro apos a compra
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 1307.0 de saldo de dinheiro apos a compra
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 8059.0 de saldo de dinheiro apos a compra
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 15.4 de saldo de dinheiro apos a compra
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 195.0 de saldo de dinheiro apos a compra
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 13:00:28)
+-- CODE: 
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+tot = (vunit * 8 ) + 45
+sald = vdisp - tot
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(tot,1))
+print("Apos a compra, voce tera: ", round(sald,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera:  55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera:  1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera:  1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera:  8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera:  15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera:  195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 12:52:54)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunitario = float(input("Qual o valor unitario do jogo? "))
+vdisponivel = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunitario * 8 ) + 45
+saldo = vdisponivel - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", total)
+print("Apos a compra, voce tera R$", round(saldo,1), "de saldo de dinheiro apos a compra")
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 55.0 de saldo de dinheiro apos a compra
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 1.0 de saldo de dinheiro apos a compra
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 1307.0 de saldo de dinheiro apos a compra
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 8059.0 de saldo de dinheiro apos a compra
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 15.4 de saldo de dinheiro apos a compra
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 195.0 de saldo de dinheiro apos a compra
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 12:58:49)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunit * 8 ) + 45
+saldo = vdisp - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(total,1))
+print("Apos a compra, voce tera R$", round(saldo,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 13:03:50)
+-- CODE: 
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+tot = (vunit * 8 ) + 45.0
+sald = vdisp - tot
+
+# Impressao do valor total e do saldo:
+print(round(tot,1) )
+print(round(sald,1) )
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 13:01:14)
+-- CODE: 
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+tot = (vunit * 8 ) + 45
+sald = vdisp - tot
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(tot,1) )
+print("Apos a compra, voce tera: ", round(sald,1) )
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera:  55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera:  1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera:  1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera:  8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera:  15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera:  195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 13:01:56)
+-- CODE: 
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+tot = (vunit * 8 ) + 45.0
+sald = vdisp - tot
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(tot,1) )
+print("Apos a compra, voce tera: ", round(sald,1) )
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera:  55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera:  1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera:  1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera:  8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera:  15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera:  195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 12:54:32)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunitario = float(input("Qual o valor unitario do jogo? "))
+vdisponivel = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunitario * 8 ) + 45
+saldo = vdisponivel - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(total,1))
+print("Apos a compra, voce tera R$", round(saldo,1), "de saldo de dinheiro apos a compra")
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 55.0 de saldo de dinheiro apos a compra
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 1.0 de saldo de dinheiro apos a compra
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 1307.0 de saldo de dinheiro apos a compra
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 8059.0 de saldo de dinheiro apos a compra
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 15.4 de saldo de dinheiro apos a compra
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 195.0 de saldo de dinheiro apos a compra
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 12:51:37)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunitario = float(input("Qual o valor unitario do jogo? "))
+vdisponivel = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = vunitario + 45
+saldo = vdisponivel - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", total)
+print("Apos a compra, voce tera R$", round(saldo,1), "de saldo de dinheiro apos a compra")
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 755.0 de saldo de dinheiro apos a compra
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 232.0 de saldo de dinheiro apos a compra
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 3799.0 de saldo de dinheiro apos a compra
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 875968.0 de saldo de dinheiro apos a compra
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 23.8 de saldo de dinheiro apos a compra
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 335.0 de saldo de dinheiro apos a compra
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 12:58:31)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunit * 8 ) + 45
+saldo = vdisp - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(total,1))
+print("Apos a compra, voce tera R$", round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 12:53:56)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunitario = float(input("Qual o valor unitario do jogo? "))
+vdisponivel = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunitario * 8 ) + 45
+saldo = vdisponivel - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(total,1))
+print("Apos a compra, voce tera R$", round(saldo,1), "de saldo de dinheiro apos a compra")
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 55.0 de saldo de dinheiro apos a compra
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 1.0 de saldo de dinheiro apos a compra
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 1307.0 de saldo de dinheiro apos a compra
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 8059.0 de saldo de dinheiro apos a compra
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 15.4 de saldo de dinheiro apos a compra
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 195.0 de saldo de dinheiro apos a compra
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 12:59:06)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunit * 8 ) + 45
+saldo = vdisp - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(total,1))
+print("Apos a compra, voce tera R$", round(saldo,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 12:53:18)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunitario = float(input("Qual o valor unitario do jogo? "))
+vdisponivel = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunitario * 8 ) + 45
+saldo = vdisponivel - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", total)
+print("Apos a compra, voce tera R$", round(saldo,1), "de saldo de dinheiro apos a compra")
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 55.0 de saldo de dinheiro apos a compra
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 1.0 de saldo de dinheiro apos a compra
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 1307.0 de saldo de dinheiro apos a compra
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 8059.0 de saldo de dinheiro apos a compra
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 15.4 de saldo de dinheiro apos a compra
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 195.0 de saldo de dinheiro apos a compra
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 13:00:51)
+-- CODE: 
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+tot = (vunit * 8 ) + 45
+sald = vdisp - tot
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(tot,1) )
+print("Apos a compra, voce tera: ", round(sald,1) )
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera:  55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera:  1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera:  1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera:  8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera:  15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera:  195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 13:03:59)
+-- CODE: 
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+tot = (vunit * 8 ) + 45.0
+sald = vdisp - tot
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(tot,1) )
+print("Apos a compra, voce tera: ", round(sald,1) )
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera:  55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera:  1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera:  1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera:  8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera:  15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera:  195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 13:00:14)
+-- CODE: 
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+tot = (vunit * 8 ) + 45
+sald = vdisp - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(tot,1))
+print("Apos a compra, voce tera: ", round(sald,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    sald = vdisp - total
+                   ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    sald = vdisp - total
+                   ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    sald = vdisp - total
+                   ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    sald = vdisp - total
+                   ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    sald = vdisp - total
+                   ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    sald = vdisp - total
+                   ^^^^^
+NameError: name 'total' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 13:01:59)
+-- CODE: 
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+tot = (vunit * 8 ) + 45.0
+sald = vdisp - tot
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(tot,1) )
+print("Apos a compra, voce tera: ", round(sald,1) )
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera:  55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera:  1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera:  1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera:  8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera:  15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera:  195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 12:56:31)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunitario = float(input("Qual o valor unitario do jogo? "))
+vdisponivel = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunitario * 8 ) + 45
+saldo = vdisponivel - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(total,1))
+print("Apos a compra, voce tera ", round(saldo,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera  55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera  1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera  1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera  8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera  15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera  195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 12:58:28)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunit * 8 ) + 45
+saldo = vdisp - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(total,1))
+print("Apos a compra, voce tera R$", round(saldo,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 13:06:00)
+-- CODE: 
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+tot = (vunit * 8 ) + 45.0
+sald = vdisp - tot
+
+# Impressao do valor total e do saldo:
+print(round(tot,1))
+print(round(sald,1))
+
+# Na saída há nao deve haver texto senão o código estará incorreto
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 12:53:53)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunitario = float(input("Qual o valor unitario do jogo? "))
+vdisponivel = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunitario * 8 ) + 45
+saldo = vdisponivel - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(total,1))
+print("Apos a compra, voce tera R$", round(saldo,1), "de saldo de dinheiro apos a compra")
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 55.0 de saldo de dinheiro apos a compra
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 1.0 de saldo de dinheiro apos a compra
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 1307.0 de saldo de dinheiro apos a compra
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 8059.0 de saldo de dinheiro apos a compra
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 15.4 de saldo de dinheiro apos a compra
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 195.0 de saldo de dinheiro apos a compra
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 13:04:39)
+-- CODE: 
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+tot = (vunit * 8 ) + 45.0
+sald = vdisp - tot
+
+# Impressao do valor total e do saldo:
+print(round(tot,1) )
+print(round(sald,1) )
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 12:57:53)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunit = float(input("Qual o valor unitario do jogo? "))
+vdisp = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunit * 8 ) + 45
+saldo = vdisp - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(total,1))
+print("Apos a compra, voce tera R$", round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 12:54:45)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunitario = float(input("Qual o valor unitario do jogo? "))
+vdisponivel = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunitario * 8 ) + 45
+saldo = vdisponivel - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(total,1))
+print("Apos a compra, voce tera R$", round(saldo,1))
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 12:54:50)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunitario = float(input("Qual o valor unitario do jogo? "))
+vdisponivel = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunitario * 8 ) + 45
+saldo = vdisponivel - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(total,1))
+print("Apos a compra, voce tera R$", round(saldo,1))
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 12:54:44)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunitario = float(input("Qual o valor unitario do jogo? "))
+vdisponivel = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunitario * 8 ) + 45
+saldo = vdisponivel - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(total,1))
+print("Apos a compra, voce tera R$", round(saldo,1))
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera R$ 55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera R$ 1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera R$ 1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera R$ 8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera R$ 15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera R$ 195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 12:56:22)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+vunitario = float(input("Qual o valor unitario do jogo? "))
+vdisponivel = float(input("Qual o valor diponivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (vunitario * 8 ) + 45
+saldo = vdisponivel - total
+
+# Impressao do valor total e do saldo:
+print("O preco a ser pago pelos 8 jogos incluido o frete e: ", round(total,1))
+print("Apos a compra, voce tera ", round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Apos a compra, voce tera  55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Apos a compra, voce tera  1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Apos a compra, voce tera  1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Apos a compra, voce tera  8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Apos a compra, voce tera  15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Apos a compra, voce tera  195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

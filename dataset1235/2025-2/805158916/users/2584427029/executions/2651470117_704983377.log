@@ -1,0 +1,1061 @@
+== RUN (2025-08-18 20:55:10)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+quociente_inteiro = X // Y
+resto_divisaoo = X % Y
+quociente_real = X / Y
+produto = X * Y
+potencia = Y ** 3
+
+print("Quociente da divisão inteira:", quociente_inteiro)
+print("Resto da divisão inteira:", resto_divisao)
+print("Quociente da divisão real:", quociente_real)
+print("Produto:", produto)
+print("Produto:", potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print("Resto da divisão inteira:", resto_divisao)
+                                       ^^^^^^^^^^^^^
+NameError: name 'resto_divisao' is not defined. Did you mean: 'resto_divisaoo'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print("Resto da divisão inteira:", resto_divisao)
+                                       ^^^^^^^^^^^^^
+NameError: name 'resto_divisao' is not defined. Did you mean: 'resto_divisaoo'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print("Resto da divisão inteira:", resto_divisao)
+                                       ^^^^^^^^^^^^^
+NameError: name 'resto_divisao' is not defined. Did you mean: 'resto_divisaoo'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print("Resto da divisão inteira:", resto_divisao)
+                                       ^^^^^^^^^^^^^
+NameError: name 'resto_divisao' is not defined. Did you mean: 'resto_divisaoo'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print("Resto da divisão inteira:", resto_divisao)
+                                       ^^^^^^^^^^^^^
+NameError: name 'resto_divisao' is not defined. Did you mean: 'resto_divisaoo'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print("Resto da divisão inteira:", resto_divisao)
+                                       ^^^^^^^^^^^^^
+NameError: name 'resto_divisao' is not defined. Did you mean: 'resto_divisaoo'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 20:57:39)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+quociente_inteiro = X // Y
+resto_divisao = X % Y
+quociente_real = X / Y
+produto = X * Y
+potencia = Y ** 3
+
+print("Quociente da divisão inteira:", quociente_inteiro)
+print("Resto da divisão inteira:", resto_divisao)
+print("Quociente da divisão real:", quociente_real)
+print("Produto:", produto)
+print("Produto:", potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Produto: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Produto: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Produto: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Produto: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Produto: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Produto: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-18 20:58:04)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+quociente_inteiro = X // Y
+resto_divisao = X % Y
+quociente_real = X / Y
+produto = X * Y
+potencia = Y ** 3
+
+print("Quociente da divisão inteira:", quociente_inteiro)
+print("Resto da divisão inteira:", resto_divisao)
+print("Quociente da divisão real:", quociente_real)
+print("Produto:", produto)
+print("Produto:", potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Produto: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Produto: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Produto: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Produto: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Produto: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Produto: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-18 20:57:58)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+quociente_inteiro = X // Y
+resto_divisao = X % Y
+quociente_real = X / Y
+produto = X * Y
+potencia = Y ** 3
+
+print("Quociente da divisão inteira:", quociente_inteiro)
+print("Resto da divisão inteira:", resto_divisao)
+print("Quociente da divisão real:", quociente_real)
+print("Produto:", produto)
+print("Produto:", potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Produto: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Produto: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Produto: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Produto: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Produto: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Produto: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-18 20:56:32)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+quociente_inteiro = X // Y
+resto_divisao = X % Y
+quociente_real = X / Y
+produto = X * Y
+potencia = Y ** 3
+
+print("Quociente da divisão inteira:", quociente_inteiro)
+print("Resto da divisão inteira:", resto_divisao)
+print("Quociente da divisão real:", quociente_real)
+print("Produto:", produto)
+print("Produto:", potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Produto: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Produto: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Produto: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Produto: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Produto: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Produto: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 00:46:54)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+quociente_inteiro = X // Y
+resto_divisao = X % Y
+quociente_real = X / Y
+produto = X * Y
+potencia = Y ** 3
+
+print(quociente_inteiro)
+print(resto_divisao)
+print(quociente_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-18 20:57:42)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+quociente_inteiro = X // Y
+resto_divisao = X % Y
+quociente_real = X / Y
+produto = X * Y
+potencia = Y ** 3
+
+print("Quociente da divisão inteira:", quociente_inteiro)
+print("Resto da divisão inteira:", resto_divisao)
+print("Quociente da divisão real:", quociente_real)
+print("Produto:", produto)
+print("Produto:", potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Produto: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Produto: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Produto: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Produto: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Produto: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Produto: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-18 20:58:28)
+-- CODE: 
+X = int(input())
+Y = int(input())
+quociente_inteiro = X // Y
+resto_divisao = X % Y
+quociente_real = X / Y
+produto = X * Y
+potencia = Y ** 3
+print("Quociente da divisão inteira:", quociente_inteiro)
+print("Resto da divisão inteira:", resto_divisao)
+print("Quociente da divisão real:", quociente_real)
+print("Produto:", produto)
+print("Produto:", potencia)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Produto: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Produto: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Produto: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Produto: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Produto: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Produto: 8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 20:57:57)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+quociente_inteiro = X // Y
+resto_divisao = X % Y
+quociente_real = X / Y
+produto = X * Y
+potencia = Y ** 3
+
+print("Quociente da divisão inteira:", quociente_inteiro)
+print("Resto da divisão inteira:", resto_divisao)
+print("Quociente da divisão real:", quociente_real)
+print("Produto:", produto)
+print("Produto:", potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+Produto: 8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+Produto: 125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+Produto: 125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+Produto: 8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+Produto: 8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+Produto: 8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-18 20:55:13)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+quociente_inteiro = X // Y
+resto_divisaoo = X % Y
+quociente_real = X / Y
+produto = X * Y
+potencia = Y ** 3
+
+print("Quociente da divisão inteira:", quociente_inteiro)
+print("Resto da divisão inteira:", resto_divisao)
+print("Quociente da divisão real:", quociente_real)
+print("Produto:", produto)
+print("Produto:", potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print("Resto da divisão inteira:", resto_divisao)
+                                       ^^^^^^^^^^^^^
+NameError: name 'resto_divisao' is not defined. Did you mean: 'resto_divisaoo'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print("Resto da divisão inteira:", resto_divisao)
+                                       ^^^^^^^^^^^^^
+NameError: name 'resto_divisao' is not defined. Did you mean: 'resto_divisaoo'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print("Resto da divisão inteira:", resto_divisao)
+                                       ^^^^^^^^^^^^^
+NameError: name 'resto_divisao' is not defined. Did you mean: 'resto_divisaoo'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print("Resto da divisão inteira:", resto_divisao)
+                                       ^^^^^^^^^^^^^
+NameError: name 'resto_divisao' is not defined. Did you mean: 'resto_divisaoo'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print("Resto da divisão inteira:", resto_divisao)
+                                       ^^^^^^^^^^^^^
+NameError: name 'resto_divisao' is not defined. Did you mean: 'resto_divisaoo'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print("Resto da divisão inteira:", resto_divisao)
+                                       ^^^^^^^^^^^^^
+NameError: name 'resto_divisao' is not defined. Did you mean: 'resto_divisaoo'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 00:46:23)
+-- CODE: 
+X = int(input())
+Y = int(input())
+
+quociente_inteiro = X // Y
+resto_divisao = X % Y
+quociente_real = X / Y
+produto = X * Y
+potencia = Y ** 3
+
+print(quociente_inteiro)
+print(resto_divisao)
+print(quociente_real)
+print(produto)
+print(potencia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

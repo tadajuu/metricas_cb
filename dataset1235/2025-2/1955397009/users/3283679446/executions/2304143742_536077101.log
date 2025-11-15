@@ -1,0 +1,98 @@
+== SUBMISSION (2025-09-02 13:51:53)
+-- CODE: 
+bolo_salgado = input("Escreva S se quiser salgado e B se quiser bolo: ")
+
+if bolo_salgado.upper() == "B":
+  bolo = int(input("Quantos bolos:"))
+  refri = int(input("Quantos refrigerantes:"))
+  valor = float(input("Qual o valor disponível: "))
+  total = 3 * refri + 2.50 * bolo
+  print(round(total, 2))
+  diferenca = valor - total
+  if diferenca >= 0:
+    print("Sim")
+  else:
+    print("Nao")
+else:
+  salgados = int(input("Quantos salgados:"))
+  refri = int(input("Quantos refrigerantes:"))
+  valor = float(input("Qual o valor disponível: "))
+  total = 3 * refri + 3.50 * salgados
+  print(round(total, 2))
+  diferenca = valor - total
+  if diferenca >= 0:
+    print("Sim")
+  else:
+    print("Nao")
+  
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+B
+2
+2
+20.5
+---- correct output:
+11.0
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+S
+3
+2
+12
+---- correct output:
+16.5
+Nao
+---- user output:
+Nao
+-- TEST CASE 3:
+---- input:
+S
+3
+2
+60.3
+---- correct output:
+16.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 4:
+---- input:
+B
+5
+2
+73.5
+---- correct output:
+18.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 5:
+---- input:
+B
+3
+2
+55
+---- correct output:
+13.5
+Sim
+---- user output:
+Sim
+-- TEST CASE 6:
+---- input:
+B
+2
+2
+10.5
+---- correct output:
+11.0
+Nao
+---- user output:
+Nao
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

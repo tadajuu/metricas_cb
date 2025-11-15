@@ -1,0 +1,280 @@
+== RUN (2025-09-01 14:16:02)
+-- CODE: 
+pesoDoSaco = float(input("quantidade de peso: "))
+quantidadeDiaria = float(input("Quantidade de gramas diarias: "))
+QuantidadeApos5Dias = quantidadeDiaria * 5 
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+---- user output:
+quantidade de peso: Quantidade de gramas diarias:
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+---- user output:
+quantidade de peso: Quantidade de gramas diarias:
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+---- user output:
+quantidade de peso: Quantidade de gramas diarias:
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+quantidade de peso: Quantidade de gramas diarias:
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+---- user output:
+quantidade de peso: Quantidade de gramas diarias:
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+---- user output:
+quantidade de peso: Quantidade de gramas diarias:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:08:37)
+-- CODE: 
+peso = float(input("Digite o peso:"))
+print(peso)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+---- user output:
+Digite o peso:1034.4
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+---- user output:
+Digite o peso:1427.6
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+---- user output:
+Digite o peso:2807.9
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+Digite o peso:1000.3333
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+---- user output:
+Digite o peso:8000.3333
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+---- user output:
+Digite o peso:2912.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:08:05)
+-- CODE: 
+peso = float(input("Digite o peso:"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+---- user output:
+Digite o peso:
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+---- user output:
+Digite o peso:
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+---- user output:
+Digite o peso:
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+Digite o peso:
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+---- user output:
+Digite o peso:
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+---- user output:
+Digite o peso:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:17:58)
+-- CODE: 
+pesoDoSaco = float(input("quantidade de peso: "))
+quantidadeDiaria = float(input("Quantidade de gramas diarias: "))
+QuantidadeApos5Dias = quantidadeDiaria * 5 
+print(round(pesoDoSaco - QuantidadeApos5Dias, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+---- user output:
+quantidade de peso: Quantidade de gramas diarias: 941.65
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+---- user output:
+quantidade de peso: Quantidade de gramas diarias: 1318.05
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+---- user output:
+quantidade de peso: Quantidade de gramas diarias: 2606.0
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+quantidade de peso: Quantidade de gramas diarias: 899.78
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+---- user output:
+quantidade de peso: Quantidade de gramas diarias: 7899.78
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+---- user output:
+quantidade de peso: Quantidade de gramas diarias: 2803.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:11:19)
+-- CODE: 
+peso = float(input("quantidade de peso: "))
+gramasDiarias = float(input("Quantidade de gramas diarias: "))
+print(peso)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1034.4
+18.55
+---- correct output:
+941.65
+---- user output:
+quantidade de peso: Quantidade de gramas diarias: 1034.4
+-- TEST CASE 2:
+---- input:
+1427.6
+21.91
+---- correct output:
+1318.05
+---- user output:
+quantidade de peso: Quantidade de gramas diarias: 1427.6
+-- TEST CASE 3:
+---- input:
+2807.90
+40.38
+---- correct output:
+2606.0
+---- user output:
+quantidade de peso: Quantidade de gramas diarias: 2807.9
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+quantidade de peso: Quantidade de gramas diarias: 1000.3333
+-- TEST CASE 5:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7899.78
+---- user output:
+quantidade de peso: Quantidade de gramas diarias: 8000.3333
+-- TEST CASE 6:
+---- input:
+2912
+21.80
+---- correct output:
+2803.0
+---- user output:
+quantidade de peso: Quantidade de gramas diarias: 2912.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

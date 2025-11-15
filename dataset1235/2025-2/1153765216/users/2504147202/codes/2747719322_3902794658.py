@@ -1,0 +1,6 @@
+n = input("")
+i = int(input(""))
+a = float(input(""))
+print("Nome: ", n)
+print("Idade: ", i)
+print("Altura: ", a)

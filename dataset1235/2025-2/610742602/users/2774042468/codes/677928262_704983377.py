@@ -1,0 +1,7 @@
+nx=int(input("digite um numero X: "))
+ny=int(input("digite um numero Y: "))
+print(nx//ny)
+print(nx%ny)
+print(nx/ny)
+print(nx*ny)
+print(ny**3)

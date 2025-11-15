@@ -1,0 +1,13 @@
+x = int(input("Insira o primeiro número: "))
+y = int(input("Insira o segundo número: "))
+q1 = (x/y)
+r = (x%y)
+q2 = (x//y)
+prod = (x*y)
+pot = (y**3)
+
+print(q2)
+print(r)
+print(q1)
+print(prod)
+print(pot)

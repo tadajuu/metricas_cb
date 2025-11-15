@@ -1,0 +1,194 @@
+== SUBMISSION (2025-08-27 12:32:10)
+-- CODE: 
+from math import *
+
+N = int(input("Numero de pessoas: "))
+dias = factorial(365)
+diasN = factorial(365-N)
+diasP = 365**N
+pn = (1-dias/diasN*1/diasP) * 100
+
+print(round(pn, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+---- user output:
+Numero de pessoas: 97.04
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+---- user output:
+Numero de pessoas: 50.73
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+Numero de pessoas: 16.7
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+Numero de pessoas: 100.0
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+---- user output:
+Numero de pessoas: 86.41
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+Numero de pessoas: 53.83
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 20:06:26)
+-- CODE: 
+from math import *
+
+N = int(input("Numero de pessoas: "))
+
+P = 1 - factorial(365)/factorial(365-N) * 1/factorial(365**N)
+
+print(round(P, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    P = 1 - factorial(365)/factorial(365-N) * 1/factorial(365**N)
+                                                ^^^^^^^^^^^^^^^^^
+OverflowError: factorial() argument should not exceed 2147483647
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    P = 1 - factorial(365)/factorial(365-N) * 1/factorial(365**N)
+                                                ^^^^^^^^^^^^^^^^^
+OverflowError: factorial() argument should not exceed 2147483647
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    P = 1 - factorial(365)/factorial(365-N) * 1/factorial(365**N)
+                                                ^^^^^^^^^^^^^^^^^
+OverflowError: factorial() argument should not exceed 2147483647
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    P = 1 - factorial(365)/factorial(365-N) * 1/factorial(365**N)
+                                                ^^^^^^^^^^^^^^^^^
+OverflowError: factorial() argument should not exceed 2147483647
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    P = 1 - factorial(365)/factorial(365-N) * 1/factorial(365**N)
+                                                ^^^^^^^^^^^^^^^^^
+OverflowError: factorial() argument should not exceed 2147483647
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    P = 1 - factorial(365)/factorial(365-N) * 1/factorial(365**N)
+                                                ^^^^^^^^^^^^^^^^^
+OverflowError: factorial() argument should not exceed 2147483647
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 12:28:52)
+-- CODE: 
+from math import *
+
+N = int(input("Numero de pessoas: "))
+dias = factorial(365)
+diasN = factorial(365-N)
+diasP = 365**N
+print(round(1-dias/diasN*1/diasP , 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+50
+---- correct output:
+97.04
+---- user output:
+Numero de pessoas: 0.97
+-- TEST CASE 2:
+---- input:
+23
+---- correct output:
+50.73
+---- user output:
+Numero de pessoas: 0.51
+-- TEST CASE 3:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+Numero de pessoas: 0.17
+-- TEST CASE 4:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+Numero de pessoas: 1.0
+-- TEST CASE 5:
+---- input:
+38
+---- correct output:
+86.41
+---- user output:
+Numero de pessoas: 0.86
+-- TEST CASE 6:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+Numero de pessoas: 0.54
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

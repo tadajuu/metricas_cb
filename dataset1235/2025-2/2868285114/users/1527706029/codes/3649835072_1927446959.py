@@ -1,0 +1,7 @@
+real = float(input())
+vintsete = real*(27/100)
+print (round(vintsete,2))
+quatdois = real + real*(42/100)
+print (round(quatdois,2))
+seistres = real - real*(63/100)
+print (round(seistres,2))

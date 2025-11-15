@@ -1,0 +1,112 @@
+== SUBMISSION (2025-08-28 12:29:09)
+-- CODE: 
+from math import *
+
+Lado = int(input("Comprimento do lado do octógono: "))
+apotema = Lado / (2*tan(pi/8))
+Área = 4 * Lado * apotema
+
+print(Área, 2)
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+---- user output:
+Comprimento do lado do octógono: 77.25483399593904 2
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+---- user output:
+Comprimento do lado do octógono: 309.01933598375615 2
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+Comprimento do lado do octógono: 120.71067811865476 2
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+Comprimento do lado do octógono: 120.71067811865476 2
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+---- user output:
+Comprimento do lado do octógono: 391.1025971044414 2
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+---- user output:
+Comprimento do lado do octógono: 173.82337649086287 2
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 12:29:40)
+-- CODE: 
+from math import *
+
+Lado = int(input("Comprimento do lado do octógono: "))
+apotema = Lado / (2*tan(pi/8))
+Área = 4 * Lado * apotema
+
+print(round(Área, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+4
+---- correct output:
+77.25
+---- user output:
+Comprimento do lado do octógono: 77.25
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+309.02
+---- user output:
+Comprimento do lado do octógono: 309.02
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+Comprimento do lado do octógono: 120.71
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+120.71
+---- user output:
+Comprimento do lado do octógono: 120.71
+-- TEST CASE 5:
+---- input:
+9
+---- correct output:
+391.1
+---- user output:
+Comprimento do lado do octógono: 391.1
+-- TEST CASE 6:
+---- input:
+6
+---- correct output:
+173.82
+---- user output:
+Comprimento do lado do octógono: 173.82
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

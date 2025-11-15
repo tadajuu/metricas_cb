@@ -21,7 +21,6 @@ class User:
         self.executionsfiles_path: str = self.user_path + "/executions" + "/"
         self.gradesfiles_path: str = self.user_path + "/grades" + "/"
         self.loginfiles_path: str = self.user_path
-        self.gradesfiles: dict = self._load_gradesfiles_association()
         self.loginfiles: dict = self._load_loginfiles_association()
         self.codefiles, self.keystrokesfiles, self.executionsfiles, self.is_consistent = self._load_same_id_associations()
         # self.is_consistent: bool = self._update_consistency()
@@ -92,7 +91,6 @@ class User:
             executionsfiles[file_id] = executionsfile
 
             user_consistency = codefile.is_consistent and keystrokesfile.is_consistent and executionsfile.is_consistent
-
             # if file_id == "4447_1366":
             #     print("codefile.is_consistent", codefile.is_consistent)
             #     print("keystrokesfile.is_consistent", keystrokesfile.is_consistent)

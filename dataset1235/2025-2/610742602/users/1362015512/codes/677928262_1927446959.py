@@ -1,0 +1,7 @@
+var = float(input("Digite um numero:"))
+Q1 = var * (27 / 100)
+Q2 = var + (var * (42 / 100))
+Q3 = var - (var * (63 / 100))
+print(round(Q1, 2))
+print(round(Q2, 2))
+print(round(Q3, 2))

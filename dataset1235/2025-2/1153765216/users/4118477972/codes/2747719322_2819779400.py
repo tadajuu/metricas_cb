@@ -1,0 +1,5 @@
+quantidade = int(input("qual a quantidade de jogos:"))
+valor = float(input("qual o valor do jogo:"))
+frete = float(input("qual o valor do frete:"))
+total = (quantidade * valor + frete)
+print(total)

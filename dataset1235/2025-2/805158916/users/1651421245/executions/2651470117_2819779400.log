@@ -1,0 +1,774 @@
+== RUN (2025-08-27 02:48:28)
+-- CODE: 
+quantidade = int(input("digite a quantidade de jogos"))
+valor unitário = float(input("digite o valor de cada jogo"))
+frete = quantidade * valoruni + frete
+Total = quantidade * valor unitário + frete
+print(round(Total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+File "XXXX", line 2
+    valor unitário = float(input("digite o valor de cada jogo"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitário = float(input("digite o valor de cada jogo"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitário = float(input("digite o valor de cada jogo"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitário = float(input("digite o valor de cada jogo"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+File "XXXX", line 2
+    valor unitário = float(input("digite o valor de cada jogo"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+File "XXXX", line 2
+    valor unitário = float(input("digite o valor de cada jogo"))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 02:53:08)
+-- CODE: 
+quantidade = int(input("digite a quantidade de jogos"))
+valorunitario = float(input("digite o valor de cada jogo"))
+frete         = float(input("digite o valor do frete"))
+Total = quantidade * valorunitario + frete
+print(round(Total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+---- user output:
+digite a quantidade de jogosdigite o valor de cada jogodigite o valor do frete1642.5
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+digite a quantidade de jogosdigite o valor de cada jogodigite o valor do frete240171.0
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+---- user output:
+digite a quantidade de jogosdigite o valor de cada jogodigite o valor do frete540.0
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+digite a quantidade de jogosdigite o valor de cada jogodigite o valor do frete765.0
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+---- user output:
+digite a quantidade de jogosdigite o valor de cada jogodigite o valor do frete162.56
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+digite a quantidade de jogosdigite o valor de cada jogodigite o valor do frete618.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 02:52:15)
+-- CODE: 
+quantidade = int(input("digite a quantidade de jogos"))
+valorunitario = float(input("digite o valor de cada jogo"))
+frete         = float(input(quantidade * valorunitario + frete))
+Total = quantidade * valorunitario + frete
+print(round(Total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = float(input(quantidade * valorunitario + frete))
+                                                             ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = float(input(quantidade * valorunitario + frete))
+                                                             ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = float(input(quantidade * valorunitario + frete))
+                                                             ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = float(input(quantidade * valorunitario + frete))
+                                                             ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = float(input(quantidade * valorunitario + frete))
+                                                             ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = float(input(quantidade * valorunitario + frete))
+                                                             ^^^^^
+NameError: name 'frete' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 02:51:51)
+-- CODE: 
+quantidade = int(input("digite a quantidade de jogos"))
+valorunitario = float(input("digite o valor de cada jogo"))
+frete         = flot(input(quantidade * valorunitario + frete))
+Total = quantidade * valorunitario + frete
+print(round(Total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = flot(input(quantidade * valorunitario + frete))
+                    ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = flot(input(quantidade * valorunitario + frete))
+                    ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = flot(input(quantidade * valorunitario + frete))
+                    ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = flot(input(quantidade * valorunitario + frete))
+                    ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = flot(input(quantidade * valorunitario + frete))
+                    ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = flot(input(quantidade * valorunitario + frete))
+                    ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 02:50:17)
+-- CODE: 
+quantidade = int(input("digite a quantidade de jogos"))
+valorunitario = float(input("digite o valor de cada jogo"))
+frete = quantidade * valorunitario + frete
+Total = quantidade * valorunitario + frete
+print(round(Total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitario + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitario + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitario + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitario + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitario + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitario + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 02:50:21)
+-- CODE: 
+quantidade = int(input("digite a quantidade de jogos"))
+valorunitario = float(input("digite o valor de cada jogo"))
+frete = quantidade * valorunitario + frete
+Total = quantidade * valorunitario + frete
+print(round(Total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitario + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitario + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitario + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitario + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitario + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitario + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 02:49:49)
+-- CODE: 
+quantidade = int(input("digite a quantidade de jogos"))
+valorunitário = float(input("digite o valor de cada jogo"))
+frete = quantidade * valorunitário + frete
+Total = quantidade * valorunitário + frete
+print(round(Total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitário + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitário + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitário + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitário + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitário + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valorunitário + frete
+                                         ^^^^^
+NameError: name 'frete' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 02:51:47)
+-- CODE: 
+quantidade = int(input("digite a quantidade de jogos"))
+valorunitario = float(input("digite o valor de cada jogo"))
+frete         = flot(input(quantidade * valorunitario + frete))
+Total = quantidade * valorunitario + frete
+print(round(Total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = flot(input(quantidade * valorunitario + frete))
+                    ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = flot(input(quantidade * valorunitario + frete))
+                    ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = flot(input(quantidade * valorunitario + frete))
+                    ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = flot(input(quantidade * valorunitario + frete))
+                    ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = flot(input(quantidade * valorunitario + frete))
+                    ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete         = flot(input(quantidade * valorunitario + frete))
+                    ^^^^
+NameError: name 'flot' is not defined. Did you mean: 'float'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 02:49:07)
+-- CODE: 
+quantidade = int(input("digite a quantidade de jogos"))
+valorunitário = float(input("digite o valor de cada jogo"))
+frete = quantidade * valoruni + frete
+Total = quantidade * valorunitário + frete
+print(round(Total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10
+159.90
+43.50
+---- correct output:
+1642.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valoruni + frete
+                         ^^^^^^^^
+NameError: name 'valoruni' is not defined
+-- TEST CASE 2:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valoruni + frete
+                         ^^^^^^^^
+NameError: name 'valoruni' is not defined
+-- TEST CASE 3:
+---- input:
+5
+100.0
+40.0
+---- correct output:
+540.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valoruni + frete
+                         ^^^^^^^^
+NameError: name 'valoruni' is not defined
+-- TEST CASE 4:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valoruni + frete
+                         ^^^^^^^^
+NameError: name 'valoruni' is not defined
+-- TEST CASE 5:
+---- input:
+3
+50.0
+12.56
+---- correct output:
+162.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valoruni + frete
+                         ^^^^^^^^
+NameError: name 'valoruni' is not defined
+-- TEST CASE 6:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    frete = quantidade * valoruni + frete
+                         ^^^^^^^^
+NameError: name 'valoruni' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,10 @@
+Nome= input('Digite seu nome:')
+print()
+Idade= input('Digite sua idade:')
+print()
+Altura= input('Digite sua altura:')
+print()
+
+print ('Nome:',Nome)
+print ('Idade:',Idade)
+print ('Altura:',Altura)

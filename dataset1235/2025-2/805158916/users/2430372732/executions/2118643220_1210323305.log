@@ -1,0 +1,401 @@
+== RUN (2025-09-01 14:13:45)
+-- CODE: 
+Vee = float(input("Digite o Valor em Euros"))
+Vv5 = float(Vee * 5.25)
+print (vv5)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+99.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print (vv5)
+           ^^^
+NameError: name 'vv5' is not defined. Did you mean: 'Vv5'?
+-- TEST CASE 2:
+---- input:
+21
+---- correct output:
+110.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print (vv5)
+           ^^^
+NameError: name 'vv5' is not defined. Did you mean: 'Vv5'?
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print (vv5)
+           ^^^
+NameError: name 'vv5' is not defined. Did you mean: 'Vv5'?
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+36.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print (vv5)
+           ^^^
+NameError: name 'vv5' is not defined. Did you mean: 'Vv5'?
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print (vv5)
+           ^^^
+NameError: name 'vv5' is not defined. Did you mean: 'Vv5'?
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+42.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print (vv5)
+           ^^^
+NameError: name 'vv5' is not defined. Did you mean: 'Vv5'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:13:32)
+-- CODE: 
+Vee = input(float("Digite o Valor em Euros"))
+Vv5 = float(Vee * 5.25)
+print (vv5)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+99.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Vee = input(float("Digite o Valor em Euros"))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Digite o Valor em Euros'
+-- TEST CASE 2:
+---- input:
+21
+---- correct output:
+110.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Vee = input(float("Digite o Valor em Euros"))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Digite o Valor em Euros'
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Vee = input(float("Digite o Valor em Euros"))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Digite o Valor em Euros'
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+36.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Vee = input(float("Digite o Valor em Euros"))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Digite o Valor em Euros'
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Vee = input(float("Digite o Valor em Euros"))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Digite o Valor em Euros'
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+42.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    Vee = input(float("Digite o Valor em Euros"))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Digite o Valor em Euros'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:06:07)
+-- CODE: 
+Vee = input("Digite o Valor em Euros")
+print (Vee * 5.25)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+99.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print (Vee * 5.25)
+           ~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+21
+---- correct output:
+110.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print (Vee * 5.25)
+           ~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print (Vee * 5.25)
+           ~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+36.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print (Vee * 5.25)
+           ~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print (Vee * 5.25)
+           ~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+42.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print (Vee * 5.25)
+           ~~~~^~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:14:07)
+-- CODE: 
+Vee = float(input("Digite o Valor em Euros"))
+Vv5 = float(Vee * 5.25)
+print (Vv5)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+99.75
+---- user output:
+Digite o Valor em Euros99.75
+-- TEST CASE 2:
+---- input:
+21
+---- correct output:
+110.25
+---- user output:
+Digite o Valor em Euros110.25
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5.25
+---- user output:
+Digite o Valor em Euros5.25
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+36.75
+---- user output:
+Digite o Valor em Euros36.75
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+10.5
+---- user output:
+Digite o Valor em Euros10.5
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+42.0
+---- user output:
+Digite o Valor em Euros42.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:11:43)
+-- CODE: 
+Vee = input("Digite o Valor em Euros")
+Vv5 = Vee * 5
+vd20 = Vee // 20
+print (vv5 + vd20)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+99.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    vd20 = Vee // 20
+           ~~~~^^~~~
+TypeError: unsupported operand type(s) for //: 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+21
+---- correct output:
+110.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    vd20 = Vee // 20
+           ~~~~^^~~~
+TypeError: unsupported operand type(s) for //: 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    vd20 = Vee // 20
+           ~~~~^^~~~
+TypeError: unsupported operand type(s) for //: 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+36.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    vd20 = Vee // 20
+           ~~~~^^~~~
+TypeError: unsupported operand type(s) for //: 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+10.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    vd20 = Vee // 20
+           ~~~~^^~~~
+TypeError: unsupported operand type(s) for //: 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+42.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    vd20 = Vee // 20
+           ~~~~^^~~~
+TypeError: unsupported operand type(s) for //: 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:14:08)
+-- CODE: 
+Vee = float(input("Digite o Valor em Euros"))
+Vv5 = float(Vee * 5.25)
+print (Vv5)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+99.75
+---- user output:
+Digite o Valor em Euros99.75
+-- TEST CASE 2:
+---- input:
+21
+---- correct output:
+110.25
+---- user output:
+Digite o Valor em Euros110.25
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5.25
+---- user output:
+Digite o Valor em Euros5.25
+-- TEST CASE 4:
+---- input:
+7
+---- correct output:
+36.75
+---- user output:
+Digite o Valor em Euros36.75
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+10.5
+---- user output:
+Digite o Valor em Euros10.5
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+42.0
+---- user output:
+Digite o Valor em Euros42.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

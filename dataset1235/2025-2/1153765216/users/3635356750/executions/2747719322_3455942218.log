@@ -1,0 +1,2654 @@
+== SUBMISSION (2025-08-24 00:00:09)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+preco_total =(valor_jogo * 8)+45.00
+saldo_total = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 19:28:53)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = preco_total=round((valor_jogo*8)+45,1)
+saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1))
+
+# Impressao do valor total e do saldo:
+print(preco_total)
+print(saldo_restante)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 00:02:04)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+preco_total =(valor_jogo * 8) + 45.00
+saldo_restante = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 00:15:29)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_jogo = float(input("Qual o valor unitario do jogo? "))
+dinheiro_disponivel = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total =(valor_jogo * 8) + 45.00
+saldo = dinheiro_disponivel - total
+
+# Impressao do valor total e do saldo:
+print(f"{total:.1f}")
+print(f"{saldo:.1f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 19:32:19)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = preco_total=round((valor_jogo*8)+45,1)
+saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1)).
+
+# Impressao do valor total e do saldo:
+print(preco_total)
+print(saldo_restante)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1)).
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1)).
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1)).
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1)).
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1)).
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1)).
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 00:01:43)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+preco_total =(valor_jogo * 8) + 45.00
+saldo_restante = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 00:10:15)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total =(valor_jogo * 8) + 45.00
+saldo = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.lf}")
+print(f"{saldo_restante:.lf}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 19:32:33)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = preco_total=round((valor_jogo * 8)+45,1)
+saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1)).
+
+# Impressao do valor total e do saldo:
+print(preco_total)
+print(saldo_restante)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1)).
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1)).
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1)).
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1)).
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1)).
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 10
+    saldo = (saldo_restante= round(dinheiro_disponivel-preco_total,1)).
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 19:13:07)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = valor_unitario_jogo*8
+saldo = custo_jogo +45.00
+
+# Impressao do valor total e do saldo:
+print(preco _total_pago, 1)
+print(saldo_restante, 1)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 13
+    print(preco _total_pago, 1)
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 13
+    print(preco _total_pago, 1)
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 13
+    print(preco _total_pago, 1)
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 13
+    print(preco _total_pago, 1)
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 13
+    print(preco _total_pago, 1)
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 13
+    print(preco _total_pago, 1)
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 00:07:03)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total =(valor_jogo * 8) + 45.00
+saldo = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 23:55:38)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = preco_total =(valor_jogo * 8)+45.00
+saldo = saldo_restante = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f})
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 14
+    print(f"{saldo_restante:.1f})
+          ^
+SyntaxError: unterminated string literal (detected at line 14)
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 14
+    print(f"{saldo_restante:.1f})
+          ^
+SyntaxError: unterminated string literal (detected at line 14)
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 14
+    print(f"{saldo_restante:.1f})
+          ^
+SyntaxError: unterminated string literal (detected at line 14)
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 14
+    print(f"{saldo_restante:.1f})
+          ^
+SyntaxError: unterminated string literal (detected at line 14)
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 14
+    print(f"{saldo_restante:.1f})
+          ^
+SyntaxError: unterminated string literal (detected at line 14)
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 14
+    print(f"{saldo_restante:.1f})
+          ^
+SyntaxError: unterminated string literal (detected at line 14)
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 00:14:09)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_jogo = float(input("Qual o valor unitario do jogo? "))
+dinheiro_disponivel = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total =(valor_jogo * 8) + 45.00
+saldo = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = dinheiro_disponivel - preco_total
+                                  ^^^^^^^^^^^
+NameError: name 'preco_total' is not defined
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = dinheiro_disponivel - preco_total
+                                  ^^^^^^^^^^^
+NameError: name 'preco_total' is not defined
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = dinheiro_disponivel - preco_total
+                                  ^^^^^^^^^^^
+NameError: name 'preco_total' is not defined
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = dinheiro_disponivel - preco_total
+                                  ^^^^^^^^^^^
+NameError: name 'preco_total' is not defined
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = dinheiro_disponivel - preco_total
+                                  ^^^^^^^^^^^
+NameError: name 'preco_total' is not defined
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = dinheiro_disponivel - preco_total
+                                  ^^^^^^^^^^^
+NameError: name 'preco_total' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 17:04:37)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_jogo = float(input("Qual o valor unitario do jogo? "))
+dinheiro_disponivel = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total =(valor_jogo * 8) + 45.00
+saldo = dinheiro_disponivel - total
+
+# Impressao do valor total e do saldo:
+print(round(total))
+print(round(saldo))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 23:58:45)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total  =(valor_jogo * 8)+45.00
+saldo  = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 23:58:00)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total  =(valor_jogo * 8)+45.00
+saldo  = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 00:01:16)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+preco_total =(valor_jogo * 8)+45.00
+saldo_restante = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 00:02:06)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+preco_total =(valor_jogo * 8) + 45.00
+saldo_restante = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 23:57:41)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = preco_total =(valor_jogo * 8)+45.00
+saldo = saldo_restante = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-24 00:02:01)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+preco_total =(valor_jogo * 8) + 45.00
+saldo_restante = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 00:14:12)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_jogo = float(input("Qual o valor unitario do jogo? "))
+dinheiro_disponivel = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total =(valor_jogo * 8) + 45.00
+saldo = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = dinheiro_disponivel - preco_total
+                                  ^^^^^^^^^^^
+NameError: name 'preco_total' is not defined
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = dinheiro_disponivel - preco_total
+                                  ^^^^^^^^^^^
+NameError: name 'preco_total' is not defined
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = dinheiro_disponivel - preco_total
+                                  ^^^^^^^^^^^
+NameError: name 'preco_total' is not defined
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = dinheiro_disponivel - preco_total
+                                  ^^^^^^^^^^^
+NameError: name 'preco_total' is not defined
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = dinheiro_disponivel - preco_total
+                                  ^^^^^^^^^^^
+NameError: name 'preco_total' is not defined
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = dinheiro_disponivel - preco_total
+                                  ^^^^^^^^^^^
+NameError: name 'preco_total' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 23:55:56)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = preco_total =(valor_jogo * 8)+45.00
+saldo = saldo_restante = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 00:01:15)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+preco_total =(valor_jogo * 8)+45.00
+saldo_restante = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 19:14:24)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = valor_unitario_jogo*8
+saldo = custo_jogo +45.00
+
+# Impressao do valor total e do saldo:
+print(preco _total_pago, 1)
+print(saldo_restante, 1)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 13
+    print(preco _total_pago, 1)
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 13
+    print(preco _total_pago, 1)
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 13
+    print(preco _total_pago, 1)
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 13
+    print(preco _total_pago, 1)
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 13
+    print(preco _total_pago, 1)
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 13
+    print(preco _total_pago, 1)
+          ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 17:04:53)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_jogo = float(input("Qual o valor unitario do jogo? "))
+dinheiro_disponivel = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total =(valor_jogo * 8) + 45.00
+saldo = dinheiro_disponivel - total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 00:10:25)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total =(valor_jogo * 8) + 45.00
+saldo = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 23:55:57)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = preco_total =(valor_jogo * 8)+45.00
+saldo = saldo_restante = dinheiro_disponivel - preco_total
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 00:03:42)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+preco_total =(valor_jogo * 8) + 45.00
+saldo_restante =() dinheiro_disponivel - preco_total)
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 10
+    saldo_restante =() dinheiro_disponivel - preco_total)
+                                                        ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 10
+    saldo_restante =() dinheiro_disponivel - preco_total)
+                                                        ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 10
+    saldo_restante =() dinheiro_disponivel - preco_total)
+                                                        ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 10
+    saldo_restante =() dinheiro_disponivel - preco_total)
+                                                        ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 10
+    saldo_restante =() dinheiro_disponivel - preco_total)
+                                                        ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 10
+    saldo_restante =() dinheiro_disponivel - preco_total)
+                                                        ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-24 00:03:55)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+input = float(input("Qual o valor unitario do jogo? "))
+input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+preco_total =(valor_jogo * 8) + 45.00
+saldo_restante =(dinheiro_disponivel - preco_total)
+
+# Impressao do valor total e do saldo:
+print(f"{preco_total:.1f}")
+print(f"{saldo_restante:.1f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    input = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object is not callable
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

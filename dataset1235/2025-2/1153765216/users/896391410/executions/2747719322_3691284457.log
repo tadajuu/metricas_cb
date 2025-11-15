@@ -1,0 +1,83 @@
+== SUBMISSION (2025-08-19 23:53:08)
+-- CODE: 
+peso01 = 1
+peso02 = 2
+peso03 = 3
+peso04 = 4
+
+av1 = float(input("Digite a nota 1"))
+av2 = float(input("Digite a nota 2"))
+av3 = float(input("Digite a nota 3"))
+av4 = float(input("Digite a nota 4"))
+
+soma = (av1 * peso01) + (av2 * peso02) + (av3 * peso03) + (av4 * peso04)
+
+soma_pesos = peso01 + peso02 + peso03 + peso04
+
+media_ponderada = soma / soma_pesos
+print(round(media_ponderada , 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+Digite a nota 1Digite a nota 2Digite a nota 3Digite a nota 47.94
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+Digite a nota 1Digite a nota 2Digite a nota 3Digite a nota 48.2
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+Digite a nota 1Digite a nota 2Digite a nota 3Digite a nota 47.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+Digite a nota 1Digite a nota 2Digite a nota 3Digite a nota 46.7
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+Digite a nota 1Digite a nota 2Digite a nota 3Digite a nota 430.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+Digite a nota 1Digite a nota 2Digite a nota 3Digite a nota 47.8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

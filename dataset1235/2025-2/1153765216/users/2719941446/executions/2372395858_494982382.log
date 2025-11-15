@@ -1,0 +1,657 @@
+== RUN (2025-08-28 18:49:57)
+-- CODE: 
+prod=float(input("Valor produtos: "))
+
+taxa=15
+icms=prod*0.3
+
+total= prod+taxa+icms
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+250
+---- correct output:
+344.5
+---- user output:
+Valor produtos: 340.0
+-- TEST CASE 2:
+---- input:
+123
+---- correct output:
+179.4
+---- user output:
+Valor produtos: 174.9
+-- TEST CASE 3:
+---- input:
+765
+---- correct output:
+1014.0
+---- user output:
+Valor produtos: 1009.5
+-- TEST CASE 4:
+---- input:
+590
+---- correct output:
+786.5
+---- user output:
+Valor produtos: 782.0
+-- TEST CASE 5:
+---- input:
+453
+---- correct output:
+608.4
+---- user output:
+Valor produtos: 603.9
+-- TEST CASE 6:
+---- input:
+140
+---- correct output:
+201.5
+---- user output:
+Valor produtos: 197.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:50:49)
+-- CODE: 
+prod=float(input("Valor produtos: "))
+
+taxa=15
+icms=prod+(30/100)
+
+total= prod+taxa+icms
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+250
+---- correct output:
+344.5
+---- user output:
+Valor produtos: 515.3
+-- TEST CASE 2:
+---- input:
+123
+---- correct output:
+179.4
+---- user output:
+Valor produtos: 261.3
+-- TEST CASE 3:
+---- input:
+765
+---- correct output:
+1014.0
+---- user output:
+Valor produtos: 1545.3
+-- TEST CASE 4:
+---- input:
+590
+---- correct output:
+786.5
+---- user output:
+Valor produtos: 1195.3
+-- TEST CASE 5:
+---- input:
+453
+---- correct output:
+608.4
+---- user output:
+Valor produtos: 921.3
+-- TEST CASE 6:
+---- input:
+140
+---- correct output:
+201.5
+---- user output:
+Valor produtos: 295.3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:49:38)
+-- CODE: 
+prod=float(input("Valor produtos: "))
+
+taxa=15
+icms=prod*0,3
+
+total= prod+taxa+icms
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+250
+---- correct output:
+344.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    total= prod+taxa+icms
+           ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+123
+---- correct output:
+179.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    total= prod+taxa+icms
+           ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+765
+---- correct output:
+1014.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    total= prod+taxa+icms
+           ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+590
+---- correct output:
+786.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    total= prod+taxa+icms
+           ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+453
+---- correct output:
+608.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    total= prod+taxa+icms
+           ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+140
+---- correct output:
+201.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    total= prod+taxa+icms
+           ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:52:56)
+-- CODE: 
+prod=float(input("Valor produtos: "))
+
+taxa=prod+15.00
+
+icms=taxa+taxa*0.3
+
+print(round(icms,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+250
+---- correct output:
+344.5
+---- user output:
+Valor produtos: 344.5
+-- TEST CASE 2:
+---- input:
+123
+---- correct output:
+179.4
+---- user output:
+Valor produtos: 179.4
+-- TEST CASE 3:
+---- input:
+765
+---- correct output:
+1014.0
+---- user output:
+Valor produtos: 1014.0
+-- TEST CASE 4:
+---- input:
+590
+---- correct output:
+786.5
+---- user output:
+Valor produtos: 786.5
+-- TEST CASE 5:
+---- input:
+453
+---- correct output:
+608.4
+---- user output:
+Valor produtos: 608.4
+-- TEST CASE 6:
+---- input:
+140
+---- correct output:
+201.5
+---- user output:
+Valor produtos: 201.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:49:14)
+-- CODE: 
+prod=float(input("Valor produtos: "))
+
+taxa=15
+icms=prod*0,3
+
+total= prod+taxa+icms
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+250
+---- correct output:
+344.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    total= prod+taxa+icms
+           ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+123
+---- correct output:
+179.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    total= prod+taxa+icms
+           ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+765
+---- correct output:
+1014.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    total= prod+taxa+icms
+           ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+590
+---- correct output:
+786.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    total= prod+taxa+icms
+           ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+453
+---- correct output:
+608.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    total= prod+taxa+icms
+           ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+140
+---- correct output:
+201.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    total= prod+taxa+icms
+           ~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:52:57)
+-- CODE: 
+prod=float(input("Valor produtos: "))
+
+taxa=prod+15.00
+
+icms=taxa+taxa*0.3
+
+print(round(icms,2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+250
+---- correct output:
+344.5
+---- user output:
+Valor produtos: 344.5
+-- TEST CASE 2:
+---- input:
+123
+---- correct output:
+179.4
+---- user output:
+Valor produtos: 179.4
+-- TEST CASE 3:
+---- input:
+765
+---- correct output:
+1014.0
+---- user output:
+Valor produtos: 1014.0
+-- TEST CASE 4:
+---- input:
+590
+---- correct output:
+786.5
+---- user output:
+Valor produtos: 786.5
+-- TEST CASE 5:
+---- input:
+453
+---- correct output:
+608.4
+---- user output:
+Valor produtos: 608.4
+-- TEST CASE 6:
+---- input:
+140
+---- correct output:
+201.5
+---- user output:
+Valor produtos: 201.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:52:50)
+-- CODE: 
+prod=float(input("Valor produtos: "))
+
+taxa=prod+15.00
+
+icms=taxa+taxa*0.3
+
+print(round(icms,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+250
+---- correct output:
+344.5
+---- user output:
+Valor produtos: 344.5
+-- TEST CASE 2:
+---- input:
+123
+---- correct output:
+179.4
+---- user output:
+Valor produtos: 179.4
+-- TEST CASE 3:
+---- input:
+765
+---- correct output:
+1014.0
+---- user output:
+Valor produtos: 1014.0
+-- TEST CASE 4:
+---- input:
+590
+---- correct output:
+786.5
+---- user output:
+Valor produtos: 786.5
+-- TEST CASE 5:
+---- input:
+453
+---- correct output:
+608.4
+---- user output:
+Valor produtos: 608.4
+-- TEST CASE 6:
+---- input:
+140
+---- correct output:
+201.5
+---- user output:
+Valor produtos: 201.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:50:17)
+-- CODE: 
+prod=float(input("Valor produtos: "))
+
+taxa=15
+icms=prod*0.3
+
+total= prod+taxa+icms
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+250
+---- correct output:
+344.5
+---- user output:
+Valor produtos: 340.0
+-- TEST CASE 2:
+---- input:
+123
+---- correct output:
+179.4
+---- user output:
+Valor produtos: 174.9
+-- TEST CASE 3:
+---- input:
+765
+---- correct output:
+1014.0
+---- user output:
+Valor produtos: 1009.5
+-- TEST CASE 4:
+---- input:
+590
+---- correct output:
+786.5
+---- user output:
+Valor produtos: 782.0
+-- TEST CASE 5:
+---- input:
+453
+---- correct output:
+608.4
+---- user output:
+Valor produtos: 603.9
+-- TEST CASE 6:
+---- input:
+140
+---- correct output:
+201.5
+---- user output:
+Valor produtos: 197.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 18:50:14)
+-- CODE: 
+prod=float(input("Valor produtos: "))
+
+taxa=15
+icms=prod*0.3
+
+total= prod+taxa+icms
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+250
+---- correct output:
+344.5
+---- user output:
+Valor produtos: 340.0
+-- TEST CASE 2:
+---- input:
+123
+---- correct output:
+179.4
+---- user output:
+Valor produtos: 174.9
+-- TEST CASE 3:
+---- input:
+765
+---- correct output:
+1014.0
+---- user output:
+Valor produtos: 1009.5
+-- TEST CASE 4:
+---- input:
+590
+---- correct output:
+786.5
+---- user output:
+Valor produtos: 782.0
+-- TEST CASE 5:
+---- input:
+453
+---- correct output:
+608.4
+---- user output:
+Valor produtos: 603.9
+-- TEST CASE 6:
+---- input:
+140
+---- correct output:
+201.5
+---- user output:
+Valor produtos: 197.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:50:12)
+-- CODE: 
+prod=float(input("Valor produtos: "))
+
+taxa=15
+icms=prod*0.3
+
+total= prod+taxa+icms
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+250
+---- correct output:
+344.5
+---- user output:
+Valor produtos: 340.0
+-- TEST CASE 2:
+---- input:
+123
+---- correct output:
+179.4
+---- user output:
+Valor produtos: 174.9
+-- TEST CASE 3:
+---- input:
+765
+---- correct output:
+1014.0
+---- user output:
+Valor produtos: 1009.5
+-- TEST CASE 4:
+---- input:
+590
+---- correct output:
+786.5
+---- user output:
+Valor produtos: 782.0
+-- TEST CASE 5:
+---- input:
+453
+---- correct output:
+608.4
+---- user output:
+Valor produtos: 603.9
+-- TEST CASE 6:
+---- input:
+140
+---- correct output:
+201.5
+---- user output:
+Valor produtos: 197.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 18:49:47)
+-- CODE: 
+prod=float(input("Valor produtos: "))
+
+taxa=15
+icms=prod*0.3
+
+total= prod+taxa+icms
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+250
+---- correct output:
+344.5
+---- user output:
+Valor produtos: 340.0
+-- TEST CASE 2:
+---- input:
+123
+---- correct output:
+179.4
+---- user output:
+Valor produtos: 174.9
+-- TEST CASE 3:
+---- input:
+765
+---- correct output:
+1014.0
+---- user output:
+Valor produtos: 1009.5
+-- TEST CASE 4:
+---- input:
+590
+---- correct output:
+786.5
+---- user output:
+Valor produtos: 782.0
+-- TEST CASE 5:
+---- input:
+453
+---- correct output:
+608.4
+---- user output:
+Valor produtos: 603.9
+-- TEST CASE 6:
+---- input:
+140
+---- correct output:
+201.5
+---- user output:
+Valor produtos: 197.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

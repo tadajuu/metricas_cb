@@ -1,0 +1,8 @@
+y = int(input("" ))
+x = int(input("" ))
+k = (y//x)
+print(k)
+print(y%x)
+print(y/x)
+print(y*x)
+print(x**3)

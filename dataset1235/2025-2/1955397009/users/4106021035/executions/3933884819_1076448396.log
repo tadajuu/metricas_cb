@@ -1,0 +1,1080 @@
+== RUN (2025-08-31 19:20:00)
+-- CODE: 
+a = input("Insira o valor de a: ")
+b = input("Insira o valor de b: ")
+c = input("Insira o valor de c: ")
+
+form = (a**2 + b**2 + c**2)/(a+b+c)
+
+print(round(form, 7))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    form = (a**2 + b**2 + c**2)/(a+b+c)
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    form = (a**2 + b**2 + c**2)/(a+b+c)
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    form = (a**2 + b**2 + c**2)/(a+b+c)
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    form = (a**2 + b**2 + c**2)/(a+b+c)
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    form = (a**2 + b**2 + c**2)/(a+b+c)
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    form = (a**2 + b**2 + c**2)/(a+b+c)
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:27:15)
+-- CODE: 
+
+
+a = float(input("Insira o valor de a: "))
+b = float(input("Insira o valor de b: "))
+c = float(input("Insira o valor de c: "))
+
+form = (a str 2 + b str 2 + c str 2) / (a + b + c)
+
+print(round(form, 7)) *
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+File "XXXX", line 7
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+File "XXXX", line 7
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+File "XXXX", line 7
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+File "XXXX", line 7
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+File "XXXX", line 7
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+File "XXXX", line 7
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:21:20)
+-- CODE: 
+a = input("Insira o valor de a: ")
+b = input("Insira o valor de b: ")
+c = input("Insira o valor de c: ")
+
+form = (a str 2 + b str 2 + c str 2)/(a + b + c);
+
+print(round(form, 7))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a + b + c);
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a + b + c);
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a + b + c);
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a + b + c);
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a + b + c);
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a + b + c);
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:28:18)
+-- CODE: 
+a = float(input("Insira o valor de a: "))
+b = float(input("Insira o valor de b: "))
+c = float(input("Insira o valor de c: "))
+
+form = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+print(round(form, 7)) 
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+---- user output:
+Insira o valor de a: Insira o valor de b: Insira o valor de c: 2.3333333
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+---- user output:
+Insira o valor de a: Insira o valor de b: Insira o valor de c: 25.6666667
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+---- user output:
+Insira o valor de a: Insira o valor de b: Insira o valor de c: 342.8680203
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+---- user output:
+Insira o valor de a: Insira o valor de b: Insira o valor de c: 106.1509434
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+---- user output:
+Insira o valor de a: Insira o valor de b: Insira o valor de c: 83.3333333
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+---- user output:
+Insira o valor de a: Insira o valor de b: Insira o valor de c: -3.75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:26:03)
+-- CODE: 
+a = float(input("Insira o valor de a: "))
+b = float(input("Insira o valor de b: "))
+c = float(input("Insira o valor de c: "))
+
+form = (a str 2 + b str 2 + c str 2) / (a + b + c)
+
+print(round(form, 7))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:21:09)
+-- CODE: 
+a = input("Insira o valor de a: ")
+b = input("Insira o valor de b: ")
+c = input("Insira o valor de c: ")
+
+form = (a str 2 + b str 2 + c str 2)/(a + b + c)
+
+print(round(form, 7))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:21:28)
+-- CODE: 
+a = input("Insira o valor de a: ")
+b = input("Insira o valor de b: ")
+c = input("Insira o valor de c: ")
+
+form = (a str 2 + b str 2 + c str 2) / (a + b + c);
+
+print(round(form, 7))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c);
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c);
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c);
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c);
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c);
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) / (a + b + c);
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:21:36)
+-- CODE: 
+a = input("Insira o valor de a: ")
+b = input("Insira o valor de b: ")
+c = input("Insira o valor de c: ")
+
+form = (a str 2 + b str 2 + c str 2) \ (a + b + c)
+
+print(round(form, 7))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) \ (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) \ (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) \ (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) \ (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) \ (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) \ (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-31 19:28:56)
+-- CODE: 
+a = float(input("Insira o valor de a: "))
+b = float(input("Insira o valor de b: "))
+c = float(input("Insira o valor de c: "))
+
+form = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+print(round(form, 7)) 
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+---- user output:
+Insira o valor de a: Insira o valor de b: Insira o valor de c: 2.3333333
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+---- user output:
+Insira o valor de a: Insira o valor de b: Insira o valor de c: 25.6666667
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+---- user output:
+Insira o valor de a: Insira o valor de b: Insira o valor de c: 342.8680203
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+---- user output:
+Insira o valor de a: Insira o valor de b: Insira o valor de c: 106.1509434
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+---- user output:
+Insira o valor de a: Insira o valor de b: Insira o valor de c: 83.3333333
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+---- user output:
+Insira o valor de a: Insira o valor de b: Insira o valor de c: -3.75
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:28:07)
+-- CODE: 
+a = float(input("Insira o valor de a: "))
+b = float(input("Insira o valor de b: "))
+c = float(input("Insira o valor de c: "))
+
+form = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+print(round(form, 7)) *
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+File "XXXX", line 7
+    print(round(form, 7)) *
+                           ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+File "XXXX", line 7
+    print(round(form, 7)) *
+                           ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+File "XXXX", line 7
+    print(round(form, 7)) *
+                           ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+File "XXXX", line 7
+    print(round(form, 7)) *
+                           ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+File "XXXX", line 7
+    print(round(form, 7)) *
+                           ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+File "XXXX", line 7
+    print(round(form, 7)) *
+                           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-31 19:20:34)
+-- CODE: 
+a = input("Insira o valor de a: ")
+b = input("Insira o valor de b: ")
+c = input("Insira o valor de c: ")
+
+form = (a**2 + b**2 + c**2)/(a+b+c)
+
+print(round(form, 7))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    form = (a**2 + b**2 + c**2)/(a+b+c)
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    form = (a**2 + b**2 + c**2)/(a+b+c)
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    form = (a**2 + b**2 + c**2)/(a+b+c)
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    form = (a**2 + b**2 + c**2)/(a+b+c)
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    form = (a**2 + b**2 + c**2)/(a+b+c)
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    form = (a**2 + b**2 + c**2)/(a+b+c)
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:24:27)
+-- CODE: 
+a = float(input("Insira o valor de a: "))
+b = float(input("Insira o valor de b: "))
+c = float(input("Insira o valor de c: "))
+
+form = (a str 2 + b str 2 + c str 2) \ (a + b + c)
+
+print(round(form, 7))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) \ (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) \ (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) \ (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) \ (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) \ (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2) \ (a + b + c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-31 19:20:53)
+-- CODE: 
+a = input("Insira o valor de a: ")
+b = input("Insira o valor de b: ")
+c = input("Insira o valor de c: ")
+
+form = (a str 2 + b str 2 + c str 2)/(a+b+c)
+
+print(round(form, 7))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a+b+c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a+b+c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a+b+c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a+b+c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a+b+c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+File "XXXX", line 5
+    form = (a str 2 + b str 2 + c str 2)/(a+b+c)
+            ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,420 @@
+== SUBMISSION (2025-09-01 21:55:13)
+-- CODE: 
+n = float(input(n))
+valor_27 = round(n * 27 / 100,2)
+acrescimo_42 = round(n + n * 42 / 100,2)
+desconto_63 = round(n - n * 63 / 100,2)
+
+print(f"27% de {n} é: {percente_27}")
+print(f"{n} acrescido de 42% é: {acrescimo_42}")
+print(f"{n} com desconto de 63% é : {desconto_63")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 21:56:39)
+-- CODE: 
+n = float(input("digite o numero real"))
+valor_27 = round(n * 27 / 100,2)
+acrescimo_42 = round(n + n * 42 / 100,2)
+desconto_63 = round(n - n * 63 / 100,2)
+
+print(f"27% de {n} é: {percente_27}")
+print(f"{n} acrescido de 42% é: {acrescimo_42}")
+print(f"{n} com desconto de 63% é : {desconto_63")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 23:35:38)
+-- CODE: 
+n = float(input(3567.90))
+valor_27 = * (27/100)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    valor_27 = * (27/100)
+               ^^^^^^^^^^
+SyntaxError: can't use starred expression here
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    valor_27 = * (27/100)
+               ^^^^^^^^^^
+SyntaxError: can't use starred expression here
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    valor_27 = * (27/100)
+               ^^^^^^^^^^
+SyntaxError: can't use starred expression here
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    valor_27 = * (27/100)
+               ^^^^^^^^^^
+SyntaxError: can't use starred expression here
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    valor_27 = * (27/100)
+               ^^^^^^^^^^
+SyntaxError: can't use starred expression here
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    valor_27 = * (27/100)
+               ^^^^^^^^^^
+SyntaxError: can't use starred expression here
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 21:56:42)
+-- CODE: 
+n = float(input("digite o numero real"))
+valor_27 = round(n * 27 / 100,2)
+acrescimo_42 = round(n + n * 42 / 100,2)
+desconto_63 = round(n - n * 63 / 100,2)
+
+print(f"27% de {n} é: {percente_27}")
+print(f"{n} acrescido de 42% é: {acrescimo_42}")
+print(f"{n} com desconto de 63% é : {desconto_63")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 8
+    print(f"{n} com desconto de 63% é : {desconto_63")
+                                                     ^
+SyntaxError: f-string: expecting '}'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 23:35:30)
+-- CODE: 
+n = float(input(3567.90))
+valor_27 = * (valor_27/100)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+File "XXXX", line 2
+    valor_27 = * (valor_27/100)
+               ^^^^^^^^^^^^^^^^
+SyntaxError: can't use starred expression here
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+File "XXXX", line 2
+    valor_27 = * (valor_27/100)
+               ^^^^^^^^^^^^^^^^
+SyntaxError: can't use starred expression here
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+File "XXXX", line 2
+    valor_27 = * (valor_27/100)
+               ^^^^^^^^^^^^^^^^
+SyntaxError: can't use starred expression here
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+File "XXXX", line 2
+    valor_27 = * (valor_27/100)
+               ^^^^^^^^^^^^^^^^
+SyntaxError: can't use starred expression here
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+File "XXXX", line 2
+    valor_27 = * (valor_27/100)
+               ^^^^^^^^^^^^^^^^
+SyntaxError: can't use starred expression here
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+File "XXXX", line 2
+    valor_27 = * (valor_27/100)
+               ^^^^^^^^^^^^^^^^
+SyntaxError: can't use starred expression here
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,198 @@
+== SUBMISSION (2025-08-27 19:15:44)
+-- CODE: 
+nome_do_objeto = input("Qual o nome do objeto? ")
+repetiçoes = int(input("Qual o numero de repetições? "))
+
+feitiço = ("Abra " + nome_do_objeto + " ") * repetiçoes
+print(feitiço)
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Qual o nome do objeto? Qual o numero de repetições? Abra carro Abra carro
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Qual o nome do objeto? Qual o numero de repetições? Abra caixa
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Qual o nome do objeto? Qual o numero de repetições? Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Qual o nome do objeto? Qual o numero de repetições? Abra casa Abra casa Abra casa
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Qual o nome do objeto? Qual o numero de repetições? Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Qual o nome do objeto? Qual o numero de repetições? Abra porta Abra porta Abra porta Abra porta
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:09:43)
+-- CODE: 
+nome_do_objeto = input("Qual o nome do objeto? ")
+repetiçoes = int(imput("Qual o numero de repetições? "))
+
+print("sacola"*6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    repetiçoes = int(imput("Qual o numero de repetições? "))
+                     ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    repetiçoes = int(imput("Qual o numero de repetições? "))
+                     ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    repetiçoes = int(imput("Qual o numero de repetições? "))
+                     ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    repetiçoes = int(imput("Qual o numero de repetições? "))
+                     ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    repetiçoes = int(imput("Qual o numero de repetições? "))
+                     ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    repetiçoes = int(imput("Qual o numero de repetições? "))
+                     ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 19:10:03)
+-- CODE: 
+nome_do_objeto = input("Qual o nome do objeto? ")
+repetiçoes = int(input("Qual o numero de repetições? "))
+
+print("sacola"*6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Qual o nome do objeto? Qual o numero de repetições? sacolasacolasacolasacolasacolasacola
+-- TEST CASE 2:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Qual o nome do objeto? Qual o numero de repetições? sacolasacolasacolasacolasacolasacola
+-- TEST CASE 3:
+---- input:
+sacola
+6
+---- correct output:
+Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola Abra sacola
+---- user output:
+Qual o nome do objeto? Qual o numero de repetições? sacolasacolasacolasacolasacolasacola
+-- TEST CASE 4:
+---- input:
+casa
+3
+---- correct output:
+Abra casa Abra casa Abra casa
+---- user output:
+Qual o nome do objeto? Qual o numero de repetições? sacolasacolasacolasacolasacolasacola
+-- TEST CASE 5:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Qual o nome do objeto? Qual o numero de repetições? sacolasacolasacolasacolasacolasacola
+-- TEST CASE 6:
+---- input:
+porta
+4
+---- correct output:
+Abra porta Abra porta Abra porta Abra porta
+---- user output:
+Qual o nome do objeto? Qual o numero de repetições? sacolasacolasacolasacolasacolasacola
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

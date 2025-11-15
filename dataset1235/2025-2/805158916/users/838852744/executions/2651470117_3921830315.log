@@ -1,0 +1,191 @@
+== SUBMISSION (2025-08-25 14:18:25)
+-- CODE: 
+quantidade = float(input())
+litro = 2.86
+serviço = 50
+
+total = quantidade+litro+serviço
+porcentagem = quantidade*0,34
+
+print(round(total+porcentagem,3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(round(total+porcentagem,3))
+                ~~~~~^~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(round(total+porcentagem,3))
+                ~~~~~^~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(round(total+porcentagem,3))
+                ~~~~~^~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(round(total+porcentagem,3))
+                ~~~~~^~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(round(total+porcentagem,3))
+                ~~~~~^~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(round(total+porcentagem,3))
+                ~~~~~^~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:16:14)
+-- CODE: 
+quantidade = float(input())
+litro = 2.86
+serviço = 50
+
+total = quantidade+litro+serviço
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+63.26
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+201.03
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+102.86
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+140.26
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+291.09
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+95.54
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:16:08)
+-- CODE: 
+quantidade = float(input())
+litro = 2.86
+serviço = 50
+
+total = quantidade+litro+serviço
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+63.26
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+201.03
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+102.86
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+140.26
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+291.09
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+95.54
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

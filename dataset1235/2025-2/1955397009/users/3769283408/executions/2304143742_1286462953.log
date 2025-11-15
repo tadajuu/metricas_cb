@@ -1,0 +1,114 @@
+== SUBMISSION (2025-09-02 13:44:01)
+-- CODE: 
+consumo = float(input("Consumo"))
+
+if(consumo <=150):
+  total = consumo * 0.6 + 5.0
+else:
+  total = consumo * 0.7 + 16.0
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+160.5
+---- correct output:
+136.38
+---- user output:
+Consumo128.35
+-- TEST CASE 2:
+---- input:
+250.0
+---- correct output:
+203.5
+---- user output:
+Consumo191.0
+-- TEST CASE 3:
+---- input:
+142.0
+---- correct output:
+90.2
+---- user output:
+Consumo90.2
+-- TEST CASE 4:
+---- input:
+125.5
+---- correct output:
+80.3
+---- user output:
+Consumo80.3
+-- TEST CASE 5:
+---- input:
+501.0
+---- correct output:
+391.75
+---- user output:
+Consumo366.7
+-- TEST CASE 6:
+---- input:
+215.43
+---- correct output:
+177.57
+---- user output:
+Consumo166.8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 13:44:17)
+-- CODE: 
+consumo = float(input("Consumo"))
+
+if(consumo <=150):
+  total = consumo * 0.6 + 5.0
+else:
+  total = consumo * 0.75 + 16.0
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+160.5
+---- correct output:
+136.38
+---- user output:
+Consumo136.38
+-- TEST CASE 2:
+---- input:
+250.0
+---- correct output:
+203.5
+---- user output:
+Consumo203.5
+-- TEST CASE 3:
+---- input:
+142.0
+---- correct output:
+90.2
+---- user output:
+Consumo90.2
+-- TEST CASE 4:
+---- input:
+125.5
+---- correct output:
+80.3
+---- user output:
+Consumo80.3
+-- TEST CASE 5:
+---- input:
+501.0
+---- correct output:
+391.75
+---- user output:
+Consumo391.75
+-- TEST CASE 6:
+---- input:
+215.43
+---- correct output:
+177.57
+---- user output:
+Consumo177.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

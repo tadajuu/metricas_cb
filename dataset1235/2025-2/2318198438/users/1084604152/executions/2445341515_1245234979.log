@@ -1,0 +1,843 @@
+== RUN (2025-09-02 00:15:31)
+-- CODE: 
+peso_total = float(input())
+qtd_diaria_racao = float(input())
+
+qtd_final_racao = peso_total - (qtd_diaria_racao * 5)
+print(f"{qtd_final_racao:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+272.50
+20.2
+---- correct output:
+171.5
+---- user output:
+171.50
+-- TEST CASE 2:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1899.78
+---- user output:
+1899.78
+-- TEST CASE 3:
+---- input:
+244.35
+16.99
+---- correct output:
+159.4
+---- user output:
+159.40
+-- TEST CASE 4:
+---- input:
+1125.0
+12.09
+---- correct output:
+1064.55
+---- user output:
+1064.55
+-- TEST CASE 5:
+---- input:
+530.2
+29.00
+---- correct output:
+385.2
+---- user output:
+385.20
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+899.78
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 00:14:07)
+-- CODE: 
+peso_total = float(input())
+qtd_diaria_racao = float(input())
+
+qtd_final_racao = peso_total - (qtd_diaria_racao * 5)
+print(qtd_final_racao)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+272.50
+20.2
+---- correct output:
+171.5
+---- user output:
+171.5
+-- TEST CASE 2:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1899.78
+---- user output:
+1899.7833
+-- TEST CASE 3:
+---- input:
+244.35
+16.99
+---- correct output:
+159.4
+---- user output:
+159.4
+-- TEST CASE 4:
+---- input:
+1125.0
+12.09
+---- correct output:
+1064.55
+---- user output:
+1064.55
+-- TEST CASE 5:
+---- input:
+530.2
+29.00
+---- correct output:
+385.2
+---- user output:
+385.20000000000005
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+899.7833
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 00:14:55)
+-- CODE: 
+peso_total = float(input())
+qtd_diaria_racao = float(input())
+
+qtd_final_racao = peso_total - (qtd_diaria_racao * 5)
+print(f"qtd_final_racao:%2f")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+272.50
+20.2
+---- correct output:
+171.5
+---- user output:
+qtd_final_racao:%2f
+-- TEST CASE 2:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1899.78
+---- user output:
+qtd_final_racao:%2f
+-- TEST CASE 3:
+---- input:
+244.35
+16.99
+---- correct output:
+159.4
+---- user output:
+qtd_final_racao:%2f
+-- TEST CASE 4:
+---- input:
+1125.0
+12.09
+---- correct output:
+1064.55
+---- user output:
+qtd_final_racao:%2f
+-- TEST CASE 5:
+---- input:
+530.2
+29.00
+---- correct output:
+385.2
+---- user output:
+qtd_final_racao:%2f
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+qtd_final_racao:%2f
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 00:16:57)
+-- CODE: 
+peso_total = float(input())
+qtd_diaria_racao = float(input())
+
+qtd_final_racao = peso_total - (qtd_diaria_racao * 5)
+print(f"{qtd_final_racao}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+272.50
+20.2
+---- correct output:
+171.5
+---- user output:
+171.5
+-- TEST CASE 2:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1899.78
+---- user output:
+1899.7833
+-- TEST CASE 3:
+---- input:
+244.35
+16.99
+---- correct output:
+159.4
+---- user output:
+159.4
+-- TEST CASE 4:
+---- input:
+1125.0
+12.09
+---- correct output:
+1064.55
+---- user output:
+1064.55
+-- TEST CASE 5:
+---- input:
+530.2
+29.00
+---- correct output:
+385.2
+---- user output:
+385.20000000000005
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+899.7833
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 00:13:56)
+-- CODE: 
+peso_total = float(input())
+qtd_diaria_racao = float(input())
+
+qtd_final_racao = peso_total - (qtd_diaria_racao * 5)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+272.50
+20.2
+---- correct output:
+171.5
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1899.78
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+244.35
+16.99
+---- correct output:
+159.4
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+1125.0
+12.09
+---- correct output:
+1064.55
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+530.2
+29.00
+---- correct output:
+385.2
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 00:16:06)
+-- CODE: 
+peso_total = float(input())
+qtd_diaria_racao = float(input())
+
+qtd_final_racao = peso_total - (qtd_diaria_racao * 5)
+print(f"{qtd_final_racao:.2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+272.50
+20.2
+---- correct output:
+171.5
+---- user output:
+171.50
+-- TEST CASE 2:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1899.78
+---- user output:
+1899.78
+-- TEST CASE 3:
+---- input:
+244.35
+16.99
+---- correct output:
+159.4
+---- user output:
+159.40
+-- TEST CASE 4:
+---- input:
+1125.0
+12.09
+---- correct output:
+1064.55
+---- user output:
+1064.55
+-- TEST CASE 5:
+---- input:
+530.2
+29.00
+---- correct output:
+385.2
+---- user output:
+385.20
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+899.78
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 00:14:33)
+-- CODE: 
+peso_total = float(input())
+qtd_diaria_racao = float(input())
+
+qtd_final_racao = peso_total - (qtd_diaria_racao * 5)
+print(qtd_final_racao:.2f)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+272.50
+20.2
+---- correct output:
+171.5
+-- ERROR:
+File "XXXX", line 5
+    print(qtd_final_racao:.2f)
+                           ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1899.78
+-- ERROR:
+File "XXXX", line 5
+    print(qtd_final_racao:.2f)
+                           ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+244.35
+16.99
+---- correct output:
+159.4
+-- ERROR:
+File "XXXX", line 5
+    print(qtd_final_racao:.2f)
+                           ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+1125.0
+12.09
+---- correct output:
+1064.55
+-- ERROR:
+File "XXXX", line 5
+    print(qtd_final_racao:.2f)
+                           ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+530.2
+29.00
+---- correct output:
+385.2
+-- ERROR:
+File "XXXX", line 5
+    print(qtd_final_racao:.2f)
+                           ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+-- ERROR:
+File "XXXX", line 5
+    print(qtd_final_racao:.2f)
+                           ^
+SyntaxError: invalid decimal literal
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 00:14:10)
+-- CODE: 
+peso_total = float(input())
+qtd_diaria_racao = float(input())
+
+qtd_final_racao = peso_total - (qtd_diaria_racao * 5)
+print(qtd_final_racao)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+272.50
+20.2
+---- correct output:
+171.5
+---- user output:
+171.5
+-- TEST CASE 2:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1899.78
+---- user output:
+1899.7833
+-- TEST CASE 3:
+---- input:
+244.35
+16.99
+---- correct output:
+159.4
+---- user output:
+159.4
+-- TEST CASE 4:
+---- input:
+1125.0
+12.09
+---- correct output:
+1064.55
+---- user output:
+1064.55
+-- TEST CASE 5:
+---- input:
+530.2
+29.00
+---- correct output:
+385.2
+---- user output:
+385.20000000000005
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+899.7833
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 00:16:41)
+-- CODE: 
+peso_total = float(input())
+qtd_diaria_racao = float(input())
+
+qtd_final_racao = peso_total - (qtd_diaria_racao * 5)
+print(f"{qtd_final_racao}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+272.50
+20.2
+---- correct output:
+171.5
+---- user output:
+171.5
+-- TEST CASE 2:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1899.78
+---- user output:
+1899.7833
+-- TEST CASE 3:
+---- input:
+244.35
+16.99
+---- correct output:
+159.4
+---- user output:
+159.4
+-- TEST CASE 4:
+---- input:
+1125.0
+12.09
+---- correct output:
+1064.55
+---- user output:
+1064.55
+-- TEST CASE 5:
+---- input:
+530.2
+29.00
+---- correct output:
+385.2
+---- user output:
+385.20000000000005
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+899.7833
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 00:14:57)
+-- CODE: 
+peso_total = float(input())
+qtd_diaria_racao = float(input())
+
+qtd_final_racao = peso_total - (qtd_diaria_racao * 5)
+print(f"qtd_final_racao:%2f")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+272.50
+20.2
+---- correct output:
+171.5
+---- user output:
+qtd_final_racao:%2f
+-- TEST CASE 2:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1899.78
+---- user output:
+qtd_final_racao:%2f
+-- TEST CASE 3:
+---- input:
+244.35
+16.99
+---- correct output:
+159.4
+---- user output:
+qtd_final_racao:%2f
+-- TEST CASE 4:
+---- input:
+1125.0
+12.09
+---- correct output:
+1064.55
+---- user output:
+qtd_final_racao:%2f
+-- TEST CASE 5:
+---- input:
+530.2
+29.00
+---- correct output:
+385.2
+---- user output:
+qtd_final_racao:%2f
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+qtd_final_racao:%2f
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 00:15:54)
+-- CODE: 
+peso_total = float(input())
+qtd_diaria_racao = float(input())
+
+qtd_final_racao = peso_total - (qtd_diaria_racao * 5)
+print(f"{qtd_final_racao:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+272.50
+20.2
+---- correct output:
+171.5
+---- user output:
+171.50
+-- TEST CASE 2:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1899.78
+---- user output:
+1899.78
+-- TEST CASE 3:
+---- input:
+244.35
+16.99
+---- correct output:
+159.4
+---- user output:
+159.40
+-- TEST CASE 4:
+---- input:
+1125.0
+12.09
+---- correct output:
+1064.55
+---- user output:
+1064.55
+-- TEST CASE 5:
+---- input:
+530.2
+29.00
+---- correct output:
+385.2
+---- user output:
+385.20
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+899.78
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 00:16:53)
+-- CODE: 
+peso_total = float(input())
+qtd_diaria_racao = float(input())
+
+qtd_final_racao = peso_total - (qtd_diaria_racao * 5)
+print(f"{qtd_final_racao}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+272.50
+20.2
+---- correct output:
+171.5
+---- user output:
+171.5
+-- TEST CASE 2:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1899.78
+---- user output:
+1899.7833
+-- TEST CASE 3:
+---- input:
+244.35
+16.99
+---- correct output:
+159.4
+---- user output:
+159.4
+-- TEST CASE 4:
+---- input:
+1125.0
+12.09
+---- correct output:
+1064.55
+---- user output:
+1064.55
+-- TEST CASE 5:
+---- input:
+530.2
+29.00
+---- correct output:
+385.2
+---- user output:
+385.20000000000005
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+899.7833
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 00:17:44)
+-- CODE: 
+peso_total = float(input())
+qtd_diaria_racao = float(input())
+
+qtd_final_racao = peso_total - (qtd_diaria_racao * 5)
+print(f"{round(qtd_final_racao,2)}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+272.50
+20.2
+---- correct output:
+171.5
+---- user output:
+171.5
+-- TEST CASE 2:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1899.78
+---- user output:
+1899.78
+-- TEST CASE 3:
+---- input:
+244.35
+16.99
+---- correct output:
+159.4
+---- user output:
+159.4
+-- TEST CASE 4:
+---- input:
+1125.0
+12.09
+---- correct output:
+1064.55
+---- user output:
+1064.55
+-- TEST CASE 5:
+---- input:
+530.2
+29.00
+---- correct output:
+385.2
+---- user output:
+385.2
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+899.78
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 00:16:13)
+-- CODE: 
+peso_total = float(input())
+qtd_diaria_racao = float(input())
+
+qtd_final_racao = peso_total - (qtd_diaria_racao * 5)
+print(f"{qtd_final_racao:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+272.50
+20.2
+---- correct output:
+171.5
+---- user output:
+171.50
+-- TEST CASE 2:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1899.78
+---- user output:
+1899.78
+-- TEST CASE 3:
+---- input:
+244.35
+16.99
+---- correct output:
+159.4
+---- user output:
+159.40
+-- TEST CASE 4:
+---- input:
+1125.0
+12.09
+---- correct output:
+1064.55
+---- user output:
+1064.55
+-- TEST CASE 5:
+---- input:
+530.2
+29.00
+---- correct output:
+385.2
+---- user output:
+385.20
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+899.78
+---- user output:
+899.78
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

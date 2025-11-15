@@ -1,0 +1,1 @@
+print("A diferença a ser paga é:", 35 )

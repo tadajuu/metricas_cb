@@ -1,0 +1,94 @@
+== RUN (2025-08-14 22:45:28)
+-- CODE: 
+print(250/6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 22:46:00)
+-- CODE: 
+print(round250/6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(round250/6)
+          ^^^^^^^^
+NameError: name 'round250' is not defined
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(round250/6)
+          ^^^^^^^^
+NameError: name 'round250' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 22:47:54)
+-- CODE: 
+print(round (250/6),2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42 2
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 22:46:06)
+-- CODE: 
+print(round 250/6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(round 250/6)
+          ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 1
+    print(round 250/6)
+          ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

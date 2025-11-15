@@ -1,0 +1,2565 @@
+== SUBMISSION (2025-08-27 01:47:56)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = math.sqrt((distA**2 + distB**2 - 2*distA*distB*math.cos(angAB)))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.79
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 02:20:19)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+cos = math.cos(angAB)
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 02:28:35)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+ang = math.radians(angAB)
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*math.cos(ang)))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 02:20:19)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+cos = math.cos(angAB)
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:55:41)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+ang = math.cos(radians(angAB))
+import math
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang)
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang)
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang)
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang)
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang)
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang)
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang)
+        ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:50:03)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = math.sqrt(distA**2 + distB**2 - 2*distA*distB*math.acos(angAB))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math.sqrt(distA**2 + distB**2 - 2*distA*distB*math.acos(angAB))
+                                                      ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math.sqrt(distA**2 + distB**2 - 2*distA*distB*math.acos(angAB))
+                                                      ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math.sqrt(distA**2 + distB**2 - 2*distA*distB*math.acos(angAB))
+                                                      ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math.sqrt(distA**2 + distB**2 - 2*distA*distB*math.acos(angAB))
+                                                      ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math.sqrt(distA**2 + distB**2 - 2*distA*distB*math.acos(angAB))
+                                                      ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math.sqrt(distA**2 + distB**2 - 2*distA*distB*math.acos(angAB))
+                                                      ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 02:22:22)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+cos = math.cos(angAB)
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:55:43)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+ang = math.cos(radians(angAB))
+import math
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang)
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang)
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang)
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang)
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang)
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang)
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang)
+        ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 02:26:32)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+cos = math.cos(angAB)
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 02:19:53)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+cos = math.cos(angAB)
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 6
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 6
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 6
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 6
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 6
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 6
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos
+                  ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:59:19)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB)))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB)))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB)))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB)))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB)))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB)))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB)))
+        ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:41:11)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.cos(angAB))))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:55:03)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+math.cos(radians(angAB))
+import math
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.cos(angAB))))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    math.cos(radians(angAB))
+             ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    math.cos(radians(angAB))
+             ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    math.cos(radians(angAB))
+             ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    math.cos(radians(angAB))
+             ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    math.cos(radians(angAB))
+             ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    math.cos(radians(angAB))
+             ^^^^^^^
+NameError: name 'radians' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:58:10)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+ang = math.radians(angAB)
+import math
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b95.27
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b11.29
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b4.25
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b50.86
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 01:47:43)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = math.sqrt((distA**2 + distB**2 - 2*distA*distB*math.cos(angAB)))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.79
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:59:11)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB))
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB))
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB))
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB))
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB))
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB))
+                  ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:42:51)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = (math.sqrt((distA**2 + distB**2 - 2*distA*distB*(math.cos(angAB)))))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:40:23)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = (math.sqrt(a**2 + b**2 - 2*distA*distB*(math.cos(angAB))))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (math.sqrt(a**2 + b**2 - 2*distA*distB*(math.cos(angAB))))
+                   ^
+NameError: name 'a' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (math.sqrt(a**2 + b**2 - 2*distA*distB*(math.cos(angAB))))
+                   ^
+NameError: name 'a' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (math.sqrt(a**2 + b**2 - 2*distA*distB*(math.cos(angAB))))
+                   ^
+NameError: name 'a' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (math.sqrt(a**2 + b**2 - 2*distA*distB*(math.cos(angAB))))
+                   ^
+NameError: name 'a' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (math.sqrt(a**2 + b**2 - 2*distA*distB*(math.cos(angAB))))
+                   ^
+NameError: name 'a' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (math.sqrt(a**2 + b**2 - 2*distA*distB*(math.cos(angAB))))
+                   ^
+NameError: name 'a' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 02:25:37)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+cos = math.cos(angAB)
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 02:19:54)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+cos = math.cos(angAB)
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 6
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 6
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 6
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 6
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 6
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos
+                  ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 6
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos
+                  ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 02:24:26)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+cos = math.radians(angAB)
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b95.27
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b11.29
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b4.25
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b50.86
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 02:22:50)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+cos = math.radians(angAB)
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b95.27
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b11.29
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b4.25
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b50.86
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*cos))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:43:40)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*math.cos(angAB)))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:47:46)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = math.sqrt((distA**2 + distB**2 - 2*distA*distB*math.cos(angAB)))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:49:04)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = math.sqrt((distA**2 + distB**2 - 2*distA*distB*math.acos(angAB)))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math.sqrt((distA**2 + distB**2 - 2*distA*distB*math.acos(angAB)))
+                                                       ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math.sqrt((distA**2 + distB**2 - 2*distA*distB*math.acos(angAB)))
+                                                       ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math.sqrt((distA**2 + distB**2 - 2*distA*distB*math.acos(angAB)))
+                                                       ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math.sqrt((distA**2 + distB**2 - 2*distA*distB*math.acos(angAB)))
+                                                       ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math.sqrt((distA**2 + distB**2 - 2*distA*distB*math.acos(angAB)))
+                                                       ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = math.sqrt((distA**2 + distB**2 - 2*distA*distB*math.acos(angAB)))
+                                                       ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:52:43)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.cos(angAB))))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:55:54)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+ang = math.cos(radians(angAB))
+import math
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang = math.cos(radians(angAB))
+                   ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang = math.cos(radians(angAB))
+                   ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang = math.cos(radians(angAB))
+                   ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang = math.cos(radians(angAB))
+                   ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang = math.cos(radians(angAB))
+                   ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang = math.cos(radians(angAB))
+                   ^^^^^^^
+NameError: name 'radians' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:46:03)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = math.sqrt(distA**2 + distB**2 - 2*distA*distB*math.cos(angAB))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:42:40)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = (math.sqrt((distA**2 + distB**2 - 2*distA*distB*(math.cos(angAB))))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt((distA**2 + distB**2 - 2*distA*distB*(math.cos(angAB))))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt((distA**2 + distB**2 - 2*distA*distB*(math.cos(angAB))))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt((distA**2 + distB**2 - 2*distA*distB*(math.cos(angAB))))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt((distA**2 + distB**2 - 2*distA*distB*(math.cos(angAB))))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt((distA**2 + distB**2 - 2*distA*distB*(math.cos(angAB))))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 5
+    c = (math.sqrt((distA**2 + distB**2 - 2*distA*distB*(math.cos(angAB))))
+        ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 02:28:09)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+ang = math.radians(angAB)
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*math.cos(ang)))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b9.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:51:15)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.acos(angAB))))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.acos(angAB))))
+                                                        ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.acos(angAB))))
+                                                        ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.acos(angAB))))
+                                                        ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.acos(angAB))))
+                                                        ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.acos(angAB))))
+                                                        ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.acos(angAB))))
+                                                        ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:47:04)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = math.sqrt((distA**2 + distB**2 - 2*distA*distB*math.cos(angAB)))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:57:33)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+ang = math.acos(angAB)
+import math
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*ang))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang = math.acos(angAB)
+          ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang = math.acos(angAB)
+          ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang = math.acos(angAB)
+          ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang = math.acos(angAB)
+          ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang = math.acos(angAB)
+          ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    ang = math.acos(angAB)
+          ^^^^^^^^^^^^^^^^
+ValueError: math domain error
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 01:59:53)
+-- CODE: 
+distA = float(input("digite a distancia a"))
+distB = float(input("digite a distancia b"))
+angAB = float(input("digite o angulo entre a e b"))
+import math
+c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB))))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b95.27
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB))))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b11.29
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b4.25
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+digite a distancia adigite a distancia bdigite o angulo entre a e b50.86
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (math.sqrt(distA**2 + distB**2 - 2*distA*distB*(math.radians(angAB))))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

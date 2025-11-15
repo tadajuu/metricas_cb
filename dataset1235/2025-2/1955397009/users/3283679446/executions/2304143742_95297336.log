@@ -1,0 +1,229 @@
+== RUN (2025-09-02 13:08:40)
+-- CODE: 
+escala = input("Informe a escala Celsius ou Fahrenheit - digite C/F: ")
+temperatura = float(input("Informe a temperatura: "))
+
+fah_cel = 5/9 * (temperatura - 32)
+cel_fah = (temperatura * (9/5)) + 32
+
+if escala.upper() == "C":
+  print(round(cel_fah, 2))
+  
+elif escala.upper() == "F":
+  print(round(fah_cel, 2))
+  
+else:
+  print("Reinicie o programa e insira as informações corretamente.")
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Informe a escala Celsius ou Fahrenheit - digite C/F: Informe a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Informe a escala Celsius ou Fahrenheit - digite C/F: Informe a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+Informe a escala Celsius ou Fahrenheit - digite C/F: Informe a temperatura: 608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+Informe a escala Celsius ou Fahrenheit - digite C/F: Informe a temperatura: 608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+Informe a escala Celsius ou Fahrenheit - digite C/F: Informe a temperatura: 32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Informe a escala Celsius ou Fahrenheit - digite C/F: Informe a temperatura: -1.11
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 13:08:18)
+-- CODE: 
+escala = input("Informe a escala Celsius ou Fahrenheit - digite C/F: ")
+temperatura = float(input("Informe a temperatura: "))
+
+fah_cel = 5/9 * (temperatura - 32)
+cel_fah = (temperatura * (9/5)) + 32
+
+if escala.upper() == "C":
+  print(round(cel_fah, 2))
+  
+elif escala.upper() == "F):
+  print(round(fah_cel, 2))
+else:
+  print("Reinicie o programa e insira as informações corretamente.")
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+-- ERROR:
+File "XXXX", line 10
+    elif escala.upper() == "F):
+                           ^
+SyntaxError: unterminated string literal (detected at line 10)
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+-- ERROR:
+File "XXXX", line 10
+    elif escala.upper() == "F):
+                           ^
+SyntaxError: unterminated string literal (detected at line 10)
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+-- ERROR:
+File "XXXX", line 10
+    elif escala.upper() == "F):
+                           ^
+SyntaxError: unterminated string literal (detected at line 10)
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+-- ERROR:
+File "XXXX", line 10
+    elif escala.upper() == "F):
+                           ^
+SyntaxError: unterminated string literal (detected at line 10)
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+-- ERROR:
+File "XXXX", line 10
+    elif escala.upper() == "F):
+                           ^
+SyntaxError: unterminated string literal (detected at line 10)
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+-- ERROR:
+File "XXXX", line 10
+    elif escala.upper() == "F):
+                           ^
+SyntaxError: unterminated string literal (detected at line 10)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 13:09:23)
+-- CODE: 
+escala = input("Informe a escala Celsius ou Fahrenheit - digite C/F: ")
+temperatura = float(input("Informe a temperatura: "))
+
+fah_cel = 5/9 * (temperatura - 32)
+cel_fah = (temperatura * (9/5)) + 32
+
+if escala.upper() == "C":
+  print(round(cel_fah, 2))
+  
+elif escala.upper() == "F":
+  print(round(fah_cel, 2))
+  
+else:
+  print("Reinicie o programa e insira as informações corretamente.")
+
+
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+Informe a escala Celsius ou Fahrenheit - digite C/F: Informe a temperatura: 160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+Informe a escala Celsius ou Fahrenheit - digite C/F: Informe a temperatura: 37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+Informe a escala Celsius ou Fahrenheit - digite C/F: Informe a temperatura: 608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+Informe a escala Celsius ou Fahrenheit - digite C/F: Informe a temperatura: 608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+Informe a escala Celsius ou Fahrenheit - digite C/F: Informe a temperatura: 32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+Informe a escala Celsius ou Fahrenheit - digite C/F: Informe a temperatura: -1.11
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

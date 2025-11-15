@@ -1,0 +1,461 @@
+== SUBMISSION (2025-08-20 13:19:49)
+-- CODE: 
+import math 
+
+a = float(input())
+b = float(input())
+ângulo = float(input())
+
+angulo_rad=math.radians(angulo)
+c=math.sqrt(a**2 + b**2 - 2*a*b*math.cos(angulo_rad))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    angulo_rad=math.radians(angulo)
+                            ^^^^^^
+NameError: name 'angulo' is not defined. Did you mean: 'ângulo'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    angulo_rad=math.radians(angulo)
+                            ^^^^^^
+NameError: name 'angulo' is not defined. Did you mean: 'ângulo'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    angulo_rad=math.radians(angulo)
+                            ^^^^^^
+NameError: name 'angulo' is not defined. Did you mean: 'ângulo'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    angulo_rad=math.radians(angulo)
+                            ^^^^^^
+NameError: name 'angulo' is not defined. Did you mean: 'ângulo'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    angulo_rad=math.radians(angulo)
+                            ^^^^^^
+NameError: name 'angulo' is not defined. Did you mean: 'ângulo'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    angulo_rad=math.radians(angulo)
+                            ^^^^^^
+NameError: name 'angulo' is not defined. Did you mean: 'ângulo'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 13:17:51)
+-- CODE: 
+import math 
+a = float(input())
+b = float(input())
+ângulo = float(input())
+angulos_rad=math.radians(angulo)
+c=math.sqrt(a**2 + b**2 - 2*a*b*math.cos(angulo_rad))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    angulos_rad=math.radians(angulo)
+                             ^^^^^^
+NameError: name 'angulo' is not defined. Did you mean: 'ângulo'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    angulos_rad=math.radians(angulo)
+                             ^^^^^^
+NameError: name 'angulo' is not defined. Did you mean: 'ângulo'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    angulos_rad=math.radians(angulo)
+                             ^^^^^^
+NameError: name 'angulo' is not defined. Did you mean: 'ângulo'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    angulos_rad=math.radians(angulo)
+                             ^^^^^^
+NameError: name 'angulo' is not defined. Did you mean: 'ângulo'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    angulos_rad=math.radians(angulo)
+                             ^^^^^^
+NameError: name 'angulo' is not defined. Did you mean: 'ângulo'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    angulos_rad=math.radians(angulo)
+                             ^^^^^^
+NameError: name 'angulo' is not defined. Did you mean: 'ângulo'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 13:42:08)
+-- CODE: 
+import math 
+
+a = float(input())
+b = float(input())
+angulo = float(input())
+
+angulo_rad = math.radians(angulo)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(angulo_rad))
+print(f"c={c:.2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+c=87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+c=16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+c=17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+c=1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+c=54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+c=9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 13:27:29)
+-- CODE: 
+import math 
+
+a = float(input())
+b = float(input())
+angulo = float(input())
+
+angulo_rad = math.radians(angulo)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(angulo_rad))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 13:21:23)
+-- CODE: 
+import math 
+
+a = float(input())
+b = float(input())
+angulo = float(input())
+
+angulo_rad=math.radians(angulo)
+c=math.sqrt(a**2 + b**2 - 2*a*b*math.cos(angulo_rad))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-20 13:23:45)
+-- CODE: 
+import math 
+
+a = float(input())
+b = float(input())
+angulo = float(input())
+
+angulo_rad = math.radians(angulo)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(angulo_rad))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,716 @@
+== SUBMISSION (2025-08-28 20:44:32)
+-- CODE: 
+from math import *
+
+A= float(input("Insira a quantidade A:"))
+B= float(input("Insira a quantidade B:"))
+G= float(input("Insira a quantidade do angulo:"))
+
+J= radians(G)
+
+C= sqrt((A**2) + (B**2) - 2*A*B*cos(J))
+
+print(round(C,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:39:49)
+-- CODE: 
+from math import *
+
+A= float(input("Insira a quantidade A:"))
+B= float(input("Insira a quantidade B:"))
+G= float(input("Insira a quantidade do angulo:"))
+
+J= radians(G)
+
+C= sqrt((A**2) + (B**2) - 2*A*B*cos(J))
+
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:9.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:32:58)
+-- CODE: 
+from math import *
+
+A= float(input("Insira a quantidade A:"))
+B= float(input("Insira a quantidade B:"))
+G= float(input("Insira a quantidade do angulo:"))
+
+C= sqrt((A**2) + (B**2) - (2*A*B*cos(G))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    C= sqrt((A**2) + (B**2) - (2*A*B*cos(G))
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    C= sqrt((A**2) + (B**2) - (2*A*B*cos(G))
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    C= sqrt((A**2) + (B**2) - (2*A*B*cos(G))
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    C= sqrt((A**2) + (B**2) - (2*A*B*cos(G))
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    C= sqrt((A**2) + (B**2) - (2*A*B*cos(G))
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    C= sqrt((A**2) + (B**2) - (2*A*B*cos(G))
+           ^
+SyntaxError: '(' was never closed
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:33:12)
+-- CODE: 
+from math import *
+
+A= float(input("Insira a quantidade A:"))
+B= float(input("Insira a quantidade B:"))
+G= float(input("Insira a quantidade do angulo:"))
+
+C= sqrt((A**2) + (B**2) - (2*A*B*cos(G)))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 20:44:10)
+-- CODE: 
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 21:40:02)
+-- CODE: 
+from math import *
+
+A= float(input("Insira a quantidade A:"))
+B= float(input("Insira a quantidade B:"))
+G= float(input("Insira a quantidade do angulo:"))
+
+J= radians(G)
+
+C= sqrt((A**2) + (B**2) - 2*A*B*cos(J))
+
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:29:56)
+-- CODE: 
+A= float(input("Insira a quantidade A:"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Insira a quantidade A:
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Insira a quantidade A:
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Insira a quantidade A:
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Insira a quantidade A:
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Insira a quantidade A:
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Insira a quantidade A:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:33:46)
+-- CODE: 
+from math import *
+
+A= float(input("Insira a quantidade A:"))
+B= float(input("Insira a quantidade B:"))
+G= float(input("Insira a quantidade do angulo:"))
+
+C= sqrt((A**2) + (B**2) - (2*A*B*cos(G)))
+
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Insira a quantidade A:Insira a quantidade B:Insira a quantidade do angulo:17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:29:50)
+-- CODE: 
+A= float(input("Insira a quantidade "A":"))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 1
+    A= float(input("Insira a quantidade "A":"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 1
+    A= float(input("Insira a quantidade "A":"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 1
+    A= float(input("Insira a quantidade "A":"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 1
+    A= float(input("Insira a quantidade "A":"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 1
+    A= float(input("Insira a quantidade "A":"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 1
+    A= float(input("Insira a quantidade "A":"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 21:33:01)
+-- CODE: 
+from math import *
+
+A= float(input("Insira a quantidade A:"))
+B= float(input("Insira a quantidade B:"))
+G= float(input("Insira a quantidade do angulo:"))
+
+C= sqrt((A**2) + (B**2) - (2*A*B*cos(G))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    C= sqrt((A**2) + (B**2) - (2*A*B*cos(G))
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    C= sqrt((A**2) + (B**2) - (2*A*B*cos(G))
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    C= sqrt((A**2) + (B**2) - (2*A*B*cos(G))
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    C= sqrt((A**2) + (B**2) - (2*A*B*cos(G))
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    C= sqrt((A**2) + (B**2) - (2*A*B*cos(G))
+           ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    C= sqrt((A**2) + (B**2) - (2*A*B*cos(G))
+           ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

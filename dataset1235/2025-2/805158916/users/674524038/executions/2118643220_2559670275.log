@@ -1,0 +1,516 @@
+== RUN (2025-09-01 14:09:56)
+-- CODE: 
+peso = float(input("Peso: "))
+quantidade = int(input("Quantidade diária: "))
+#Quantidade que restará
+qt = peso - (quantidade * 7)
+print(round(qt, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade = int(input("Quantidade diária: "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '21.7'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade = int(input("Quantidade diária: "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '14.15'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade = int(input("Quantidade diária: "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.11'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade = int(input("Quantidade diária: "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '26.16'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade = int(input("Quantidade diária: "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '39.76'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade = int(input("Quantidade diária: "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.11'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:12:16)
+-- CODE: 
+peso = float(input("Peso: "))
+quantidade = float(input("Quantidade diária: "))
+#Quantidade que restará
+qt = peso - (quantidade * 7)
+print(round(qt, 3))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+---- user output:
+Peso: Quantidade diária: 2508.1
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+---- user output:
+Peso: Quantidade diária: 1601.55
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+---- user output:
+Peso: Quantidade diária: 1859.563
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+---- user output:
+Peso: Quantidade diária: 3066.88
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+---- user output:
+Peso: Quantidade diária: 1572.38
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+---- user output:
+Peso: Quantidade diária: 859.563
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:11:20)
+-- CODE: 
+peso = float(input("Peso: "))
+quantidade = float(input("Quantidade diária: "))
+#Quantidade que restará
+qt = peso - (quantidade * 7)
+print(round(qt, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+---- user output:
+Peso: Quantidade diária: 2508.1
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+---- user output:
+Peso: Quantidade diária: 1601.55
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+---- user output:
+Peso: Quantidade diária: 1859.56
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+---- user output:
+Peso: Quantidade diária: 3066.88
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+---- user output:
+Peso: Quantidade diária: 1572.38
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+---- user output:
+Peso: Quantidade diária: 859.56
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:10:56)
+-- CODE: 
+peso = float(input("Peso: "))
+quantidade = float(input("Quantidade diária: "))
+#Quantidade que restará
+qt = peso - (quantidade * 7)
+print(round(qt, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+---- user output:
+Peso: Quantidade diária: 2508.1
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+---- user output:
+Peso: Quantidade diária: 1601.55
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+---- user output:
+Peso: Quantidade diária: 1859.56
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+---- user output:
+Peso: Quantidade diária: 3066.88
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+---- user output:
+Peso: Quantidade diária: 1572.38
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+---- user output:
+Peso: Quantidade diária: 859.56
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:12:22)
+-- CODE: 
+peso = float(input("Peso: "))
+quantidade = float(input("Quantidade diária: "))
+#Quantidade que restará
+qt = peso - (quantidade * 7)
+print(round(qt, 3))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+---- user output:
+Peso: Quantidade diária: 2508.1
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+---- user output:
+Peso: Quantidade diária: 1601.55
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+---- user output:
+Peso: Quantidade diária: 1859.563
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+---- user output:
+Peso: Quantidade diária: 3066.88
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+---- user output:
+Peso: Quantidade diária: 1572.38
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+---- user output:
+Peso: Quantidade diária: 859.563
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:10:24)
+-- CODE: 
+peso = float(input("Peso: "))
+quantidade = int(input("Quantidade diária: "))
+#Quantidade que restará
+qt = peso - (quantidade * 7)
+print(round(qt, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade = int(input("Quantidade diária: "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '21.7'
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade = int(input("Quantidade diária: "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '14.15'
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade = int(input("Quantidade diária: "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.11'
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade = int(input("Quantidade diária: "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '26.16'
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade = int(input("Quantidade diária: "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '39.76'
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade = int(input("Quantidade diária: "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '20.11'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:11:38)
+-- CODE: 
+peso = float(input("Peso: "))
+quantidade = float(input("Quantidade diária: "))
+#Quantidade que restará
+qt = peso - (quantidade * 7)
+print(round(qt, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+---- user output:
+Peso: Quantidade diária: 2508.1
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+---- user output:
+Peso: Quantidade diária: 1601.55
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+---- user output:
+Peso: Quantidade diária: 1859.56
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+---- user output:
+Peso: Quantidade diária: 3066.88
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+---- user output:
+Peso: Quantidade diária: 1572.38
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+---- user output:
+Peso: Quantidade diária: 859.56
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:11:19)
+-- CODE: 
+peso = float(input("Peso: "))
+quantidade = float(input("Quantidade diária: "))
+#Quantidade que restará
+qt = peso - (quantidade * 7)
+print(round(qt, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+---- user output:
+Peso: Quantidade diária: 2508.1
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+---- user output:
+Peso: Quantidade diária: 1601.55
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+---- user output:
+Peso: Quantidade diária: 1859.56
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+---- user output:
+Peso: Quantidade diária: 3066.88
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+---- user output:
+Peso: Quantidade diária: 1572.38
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+---- user output:
+Peso: Quantidade diária: 859.56
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

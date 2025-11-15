@@ -1,0 +1,7 @@
+n = float(input(""))
+porcentagem_27 = n * (27 / 100)
+acrescimo_42 = n + (n * (42 / 100))
+desconto_63 = n - (n * (63 / 100))
+print(round(porcentagem_27, 2))
+print(round(acrescimo_42, 2))
+print(round(desconto_63, 2))

@@ -1,0 +1,7 @@
+n = float(input("Coloque seu número aqui:"))
+A = n * (27/100)
+B = n + n * (42/100)
+C = n - n * (63/100)
+print(round(A,2))
+print(round(B,2))
+print(round(C,2))

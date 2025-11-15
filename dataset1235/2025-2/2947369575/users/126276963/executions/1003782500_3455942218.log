@@ -1,0 +1,1064 @@
+== RUN (2025-08-27 23:09:21)
+-- CODE: 
+
+valor_unitario= float(input("Digite o valor unitario do jogo: R$ "))
+dinheiro_disponivel=float(input("Digite o valor disponivel para a compra: R$ "))
+
+quantidade_jogos=8
+valor_frete=45.00
+
+valor_total_jogos=valor_unitario*quantidade_jogos
+valor_total_compra=valor_total_jogos+valor_frete
+dinheiro_restante=dinheiro_disponivel-valor_total_compra
+
+print(round(valor_total_compra,1))
+print(round(dinheiro_restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:06:04)
+-- CODE: 
+
+Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+dinheiro_disponivel=float(input("Digite o valor disponivel para a compra: R$ "))
+
+quantidade_jogos=8
+valor_frete=45.00
+
+valor_total_jogos=valor_unitario*quantidade_jogos
+valor_total_compra=valor_total_jogos+valor_frete
+dinheiro_restante=dinheiro_disponivel-valor_total_compra
+
+print(round(valor_total_compra,1))
+print(round(dinheiro_restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 23:09:36)
+-- CODE: 
+
+valor_unitario= float(input("Digite o valor unitario do jogo: R$ "))
+dinheiro_disponivel=float(input("Digite o valor disponivel para a compra: R$ "))
+
+quantidade_jogos=8
+valor_frete=45.00
+
+valor_total_jogos=valor_unitario*quantidade_jogos
+valor_total_compra=valor_total_jogos+valor_frete
+dinheiro_restante=dinheiro_disponivel-valor_total_compra
+
+print(round(valor_total_compra,1))
+print(round(dinheiro_restante,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 23:02:25)
+-- CODE: 
+
+Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+dinheiro_disponivel=float(input("Digite o valor disponivel para a compra: R$ "))
+
+quantidade_jogos=8
+valor_frete=45.00
+
+valor_total_jogos=valor_unitario*quantidade_jogos
+valor_total_compra=valor_total_jogos+valor_frete
+dinheiro_restante=dinheiro_disponivel-valor_total_compra
+
+print(round(valor_total_compra,1))
+print(round(dinheiro_restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:03:09)
+-- CODE: 
+
+Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+dinheiro_disponivel=float(input("Digite o valor disponivel para a compra: R$ "))
+
+quantidade_jogos=8
+valor_frete=45.00
+
+valor_total_jogos=valor_unitario*quantidade_jogos
+valor_total_compra=valor_total_jogos+valor_frete
+dinheiro_restante=dinheiro_disponivel-valor_total_compra
+
+print(round(valor_total_compra,1))
+print(round(dinheiro_restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:01:03)
+-- CODE: 
+
+Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+dinheiro_disponivel=float(input("Digite o valor disponivel para a compra: R$ "))
+
+quantidade_jogos=8
+valor_frete=45.00
+
+valor_total_jogos=valor_unitario*quantidade_jogos
+valor_total_compra=valor_total_jogos*valor_frete
+dinheiro_restante=dinheiro_disponivel-valor_tota_compra
+
+print(round(valor_total_compra,1))
+print(round(dinheiro_restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:06:03)
+-- CODE: 
+
+Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+dinheiro_disponivel=float(input("Digite o valor disponivel para a compra: R$ "))
+
+quantidade_jogos=8
+valor_frete=45.00
+
+valor_total_jogos=valor_unitario*quantidade_jogos
+valor_total_compra=valor_total_jogos+valor_frete
+dinheiro_restante=dinheiro_disponivel-valor_total_compra
+
+print(round(valor_total_compra,1))
+print(round(dinheiro_restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 23:08:24)
+-- CODE: 
+
+Valor_unitario= float(input("Digite o valor unitario do jogo: R$ "))
+dinheiro_disponivel=float(input("Digite o valor disponivel para a compra: R$ "))
+
+quantidade_jogos=8
+valor_frete=45.00
+
+valor_total_jogos=valor_unitario*quantidade_jogos
+valor_total_compra=valor_total_jogos+valor_frete
+dinheiro_restante=dinheiro_disponivel-valor_total_compra
+
+print(round(valor_total_compra,1))
+print(round(dinheiro_restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    valor_total_jogos=valor_unitario*quantidade_jogos
+                      ^^^^^^^^^^^^^^
+NameError: name 'valor_unitario' is not defined. Did you mean: 'Valor_unitario'?
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    valor_total_jogos=valor_unitario*quantidade_jogos
+                      ^^^^^^^^^^^^^^
+NameError: name 'valor_unitario' is not defined. Did you mean: 'Valor_unitario'?
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    valor_total_jogos=valor_unitario*quantidade_jogos
+                      ^^^^^^^^^^^^^^
+NameError: name 'valor_unitario' is not defined. Did you mean: 'Valor_unitario'?
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    valor_total_jogos=valor_unitario*quantidade_jogos
+                      ^^^^^^^^^^^^^^
+NameError: name 'valor_unitario' is not defined. Did you mean: 'Valor_unitario'?
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    valor_total_jogos=valor_unitario*quantidade_jogos
+                      ^^^^^^^^^^^^^^
+NameError: name 'valor_unitario' is not defined. Did you mean: 'Valor_unitario'?
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    valor_total_jogos=valor_unitario*quantidade_jogos
+                      ^^^^^^^^^^^^^^
+NameError: name 'valor_unitario' is not defined. Did you mean: 'Valor_unitario'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:03:10)
+-- CODE: 
+
+Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+dinheiro_disponivel=float(input("Digite o valor disponivel para a compra: R$ "))
+
+quantidade_jogos=8
+valor_frete=45.00
+
+valor_total_jogos=valor_unitario*quantidade_jogos
+valor_total_compra=valor_total_jogos+valor_frete
+dinheiro_restante=dinheiro_disponivel-valor_total_compra
+
+print(round(valor_total_compra,1))
+print(round(dinheiro_restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:06:27)
+-- CODE: 
+
+Valor unitario = float(input("Digite o valor unitario do jogo: R$ "))
+dinheiro_disponivel=float(input("Digite o valor disponivel para a compra: R$ "))
+
+quantidade_jogos=8
+valor_frete=45.00
+
+valor_total_jogos=valor_unitario*quantidade_jogos
+valor_total_compra=valor_total_jogos+valor_frete
+dinheiro_restante=dinheiro_disponivel-valor_total_compra
+
+print(round(valor_total_compra,1))
+print(round(dinheiro_restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario = float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario = float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario = float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario = float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario = float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario = float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 23:00:59)
+-- CODE: 
+
+Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+dinheiro_disponivel=float(input("Digite o valor disponivel para a compra: R$ "))
+
+quantidade_jogos=8
+valor_frete=45.00
+
+valor_total_jogos=valor_unitario*quantidade_jogos
+valor_total_compra=valor_total_jogos*valor_frete
+dinheiro_restante=dinheiro_disponivel-valor_tota_compra
+
+print(round(valor_total_compra,1))
+print(round(dinheiro_restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 2
+    Valor unitario=float(input("Digite o valor unitario do jogo: R$ "))
+          ^^^^^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:08:27)
+-- CODE: 
+
+Valor_unitario= float(input("Digite o valor unitario do jogo: R$ "))
+dinheiro_disponivel=float(input("Digite o valor disponivel para a compra: R$ "))
+
+quantidade_jogos=8
+valor_frete=45.00
+
+valor_total_jogos=valor_unitario*quantidade_jogos
+valor_total_compra=valor_total_jogos+valor_frete
+dinheiro_restante=dinheiro_disponivel-valor_total_compra
+
+print(round(valor_total_compra,1))
+print(round(dinheiro_restante,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    valor_total_jogos=valor_unitario*quantidade_jogos
+                      ^^^^^^^^^^^^^^
+NameError: name 'valor_unitario' is not defined. Did you mean: 'Valor_unitario'?
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    valor_total_jogos=valor_unitario*quantidade_jogos
+                      ^^^^^^^^^^^^^^
+NameError: name 'valor_unitario' is not defined. Did you mean: 'Valor_unitario'?
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    valor_total_jogos=valor_unitario*quantidade_jogos
+                      ^^^^^^^^^^^^^^
+NameError: name 'valor_unitario' is not defined. Did you mean: 'Valor_unitario'?
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    valor_total_jogos=valor_unitario*quantidade_jogos
+                      ^^^^^^^^^^^^^^
+NameError: name 'valor_unitario' is not defined. Did you mean: 'Valor_unitario'?
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    valor_total_jogos=valor_unitario*quantidade_jogos
+                      ^^^^^^^^^^^^^^
+NameError: name 'valor_unitario' is not defined. Did you mean: 'Valor_unitario'?
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    valor_total_jogos=valor_unitario*quantidade_jogos
+                      ^^^^^^^^^^^^^^
+NameError: name 'valor_unitario' is not defined. Did you mean: 'Valor_unitario'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

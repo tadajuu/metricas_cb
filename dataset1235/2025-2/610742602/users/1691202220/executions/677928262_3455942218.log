@@ -1,0 +1,1428 @@
+== SUBMISSION (2025-08-28 16:33:03)
+-- CODE: 
+# Lê o valor unitário do jogo
+preco_unitario = float(input("qual o valor unitário do jogo? "))
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input("qual o valor disponível para aquisição dos jogos? "))
+
+# Constantes 
+quantidade_jogos = 8
+frete = 45.0
+
+# Cálculo do valor total (jogos + frete)
+valor_total = (preco_unitario * quantidade_jogos) + frete
+
+# Cálculo do saldo
+saldo = valor_disponivel - valor_total
+
+# Impressão dos resultados 
+print("Valor total da compra (com frete):", valor_total)
+print("Saldo restante:", saldo)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Saldo restante: 55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Saldo restante: 1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Saldo restante: 1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Saldo restante: 8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Saldo restante: 15.399999999999999
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Saldo restante: 195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:32:03)
+-- CODE: 
+# Lê o valor unitário do jogo
+preco_unitario = float(input("qual o valor unitário do jogo? "))
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input("qual o valor disponível para aquisição dos jogos? "))
+
+# Constantes 
+quantidade_jogos = 8
+frete = 45.0
+
+# Cálculo do valor total (jogos + frete)
+valor_total = (preco_unitario * quantidade_jogos) + frete
+
+# Cálculo do saldo
+saldo + valor_disponivel - valor_total
+
+# Impressão dos resultados 
+print("Valor total da compra (com frete):", valor_total)
+print("Saldo restante:", saldo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo + valor_disponivel - valor_total
+    ^^^^^
+NameError: name 'saldo' is not defined
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo + valor_disponivel - valor_total
+    ^^^^^
+NameError: name 'saldo' is not defined
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo + valor_disponivel - valor_total
+    ^^^^^
+NameError: name 'saldo' is not defined
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo + valor_disponivel - valor_total
+    ^^^^^
+NameError: name 'saldo' is not defined
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo + valor_disponivel - valor_total
+    ^^^^^
+NameError: name 'saldo' is not defined
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo + valor_disponivel - valor_total
+    ^^^^^
+NameError: name 'saldo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:35:58)
+-- CODE: 
+# Lê o valor unitário do jogo
+preco_unitario = float(input("Qual o valor unitário do jogo? "))
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input("Qual o valor disponível para aquisição dos jogos? "))
+
+# Constantes 
+quantidade_jogos = 8
+frete = 45.0
+
+# Cálculo do valor total (jogos + frete)
+valor_total = (preco_unitario * quantidade_jogos) + frete
+
+# Cálculo do saldo
+saldo = valor_disponivel - valor_total
+
+# Impressão dos resultados 
+print("Valor total da compra (com frete):", valor_total)
+print("Saldo restante:", saldo)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Saldo restante: 55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Saldo restante: 1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Saldo restante: 1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Saldo restante: 8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Saldo restante: 15.399999999999999
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Saldo restante: 195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:32:49)
+-- CODE: 
+# Lê o valor unitário do jogo
+preco_unitario = float(input("qual o valor unitário do jogo? "))
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input("qual o valor disponível para aquisição dos jogos? "))
+
+# Constantes 
+quantidade_jogos = 8
+frete = 45.0
+
+# Cálculo do valor total (jogos + frete)
+valor_total = (preco_unitario * quantidade_jogos) + frete
+
+# Cálculo do saldo
+saldo = valor_disponivel - valor_total
+
+# Impressão dos resultados 
+print("Valor total da compra (com frete):", valor_total)
+print("Saldo restante:", saldo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Saldo restante: 55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Saldo restante: 1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Saldo restante: 1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Saldo restante: 8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Saldo restante: 15.399999999999999
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Saldo restante: 195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:36:03)
+-- CODE: 
+# Lê o valor unitário do jogo
+preco_unitario = float(input("Qual o valor unitário do jogo? "))
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input("Qual o valor disponível para aquisição dos jogos? "))
+
+# Constantes 
+quantidade_jogos = 8
+frete = 45.0
+
+# Cálculo do valor total (jogos + frete)
+valor_total = (preco_unitario * quantidade_jogos) + frete
+
+# Cálculo do saldo
+saldo = valor_disponivel - valor_total
+
+# Impressão dos resultados 
+print("Valor total da compra (com frete):", valor_total)
+print("Saldo restante:", saldo)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Saldo restante: 55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Saldo restante: 1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Saldo restante: 1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Saldo restante: 8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Saldo restante: 15.399999999999999
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Saldo restante: 195.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:45:03)
+-- CODE: 
+# Lê o valor unitário do jogo
+valor_unitario = float(input())
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input())
+
+# Cálculo do valor total (8 jogos + frete de 45.0)
+total = (valor_unitario * 8) + 45.0
+
+# Cálculo do saldo
+saldo = valor_disponivel - total
+
+# Impressão arredondadada com 1 casa decimal
+print(round(total, 1))
+print(round(saldo, 1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:43:27)
+-- CODE: 
+# Lê o valor unitário do jogo
+valor_unitario = float(input())
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input())
+
+# Cálculo do valor total (8 jogos + frete de 45.0)
+saldo = valor_disponivel - total
+
+# Cálculo do saldo
+total = valor_disponivel - total
+
+# Impressão arredondadada com 1 casa decimal
+print(round(total, 1))
+print(round(saldo, 1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:33:09)
+-- CODE: 
+# Lê o valor unitário do jogo
+preco_unitario = float(input("qual o valor unitário do jogo? "))
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input("qual o valor disponível para aquisição dos jogos? "))
+
+# Constantes 
+quantidade_jogos = 8
+frete = 45.0
+
+# Cálculo do valor total (jogos + frete)
+valor_total = (preco_unitario * quantidade_jogos) + frete
+
+# Cálculo do saldo
+saldo = valor_disponivel - valor_total
+
+# Impressão dos resultados 
+print("Valor total da compra (com frete):", valor_total)
+print("Saldo restante:", saldo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Saldo restante: 55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Saldo restante: 1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Saldo restante: 1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Saldo restante: 8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Saldo restante: 15.399999999999999
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Saldo restante: 195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:45:01)
+-- CODE: 
+# Lê o valor unitário do jogo
+valor_unitario = float(input())
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input())
+
+# Cálculo do valor total (8 jogos + frete de 45.0)
+total = (valor_unitario * 8) + 45.0
+
+# Cálculo do saldo
+saldo = valor_disponivel - total
+
+# Impressão arredondadada com 1 casa decimal
+print(round(total, 1))
+print(round(saldo, 1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:33:43)
+-- CODE: 
+# Lê o valor unitário do jogo
+preco_unitario = float(input("qual o valor unitário do jogo? "))
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input("qual o valor disponível para aquisição dos jogos? "))
+
+# Constantes 
+quantidade_jogos = 8
+frete = 45.0
+
+# Cálculo do valor total (jogos + frete)
+valor_total = (preco_unitario * quantidade_jogos) + frete
+
+# Cálculo do saldo
+saldo = valor_disponivel - total
+
+# Impressão dos resultados 
+print("Valor total da compra (com frete):", valor_total)
+print("Saldo restante:", saldo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:34:39)
+-- CODE: 
+# Lê o valor unitário do jogo
+preco_unitario = float(input("qual o valor unitário do jogo? "))
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input("qual o valor disponível para aquisição dos jogos? "))
+
+# Constantes 
+quantidade_jogos = 8
+frete = 45.0
+
+# Cálculo do valor total (jogos + frete)
+valor_total = (preco_unitario * quantidade_jogos) + frete
+
+# Cálculo do saldo
+saldo = valor_disponivel - valor_total
+
+# Impressão dos resultados 
+print("Valor total da compra (com frete):", valor_total)
+print("Saldo restante:", saldo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+Saldo restante: 55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+Saldo restante: 1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+Saldo restante: 1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+Saldo restante: 8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+Saldo restante: 15.399999999999999
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+Saldo restante: 195.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:33:48)
+-- CODE: 
+# Lê o valor unitário do jogo
+preco_unitario = float(input("qual o valor unitário do jogo? "))
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input("qual o valor disponível para aquisição dos jogos? "))
+
+# Constantes 
+quantidade_jogos = 8
+frete = 45.0
+
+# Cálculo do valor total (jogos + frete)
+valor_total = (preco_unitario * quantidade_jogos) + frete
+
+# Cálculo do saldo
+saldo = valor_disponivel - total
+
+# Impressão dos resultados 
+print("Valor total da compra (com frete):", valor_total)
+print("Saldo restante:", saldo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:43:24)
+-- CODE: 
+# Lê o valor unitário do jogo
+valor_unitario = float(input())
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input())
+
+# Cálculo do valor total (8 jogos + frete de 45.0)
+saldo = valor_disponivel - total
+
+# Cálculo do saldo
+total = valor_disponivel - total
+
+# Impressão arredondadada com 1 casa decimal
+print(round(total, 1))
+print(round(saldo, 1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:31:15)
+-- CODE: 
+# Lê o valor unitário do jogo
+preco_unitario = float(input("qual o valor unitário do jogo? "))
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input("qual o valor disponível para aquisição dos jogos? "))
+
+# Constantes 
+quantidade_jogos = 8
+frete = 45.0
+
+# Cálculo do valor total (jogos + frete)
+valor_total = (preco_unitario * quantidade_jogos) + frete
+
+# Cálculo do saldo
+saldo + valor_disponivel - valor_total
+
+# Impressão dos resultados 
+print("Valor total da compra (com frete):", valor_total)
+print("Saldo restante:", saldo)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo + valor_disponivel - valor_total
+    ^^^^^
+NameError: name 'saldo' is not defined
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo + valor_disponivel - valor_total
+    ^^^^^
+NameError: name 'saldo' is not defined
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo + valor_disponivel - valor_total
+    ^^^^^
+NameError: name 'saldo' is not defined
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo + valor_disponivel - valor_total
+    ^^^^^
+NameError: name 'saldo' is not defined
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo + valor_disponivel - valor_total
+    ^^^^^
+NameError: name 'saldo' is not defined
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    saldo + valor_disponivel - valor_total
+    ^^^^^
+NameError: name 'saldo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:43:28)
+-- CODE: 
+# Lê o valor unitário do jogo
+valor_unitario = float(input())
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input())
+
+# Cálculo do valor total (8 jogos + frete de 45.0)
+saldo = valor_disponivel - total
+
+# Cálculo do saldo
+total = valor_disponivel - total
+
+# Impressão arredondadada com 1 casa decimal
+print(round(total, 1))
+print(round(saldo, 1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    saldo = valor_disponivel - total
+                               ^^^^^
+NameError: name 'total' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 16:31:01)
+-- CODE: 
+# Lê o valor unitário do jogo
+preco_unitario = float(input("qual o valor unitário do jogo? "))
+
+# Lê o valor disponível para a compra 
+valor_disponivel = float(input("qual o valor disponível para aquisição dos jogos? "))
+
+# Constantes 
+quantidade_jogos = 8
+frete = 45.0
+
+# Cálculo do valor total (jogos + frete)
+valor_total = (preco_unitario * quantidade_jogos) + frete
+
+# Cálculo do saldo
+saldo + valor_disponivel - valor_total
+
+# Impressão dos resultados 
+print("Valor total da compra (com frete):", valor_total)
+print("Saldo restante:", saldo
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 19
+    print("Saldo restante:", saldo
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 19
+    print("Saldo restante:", saldo
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 19
+    print("Saldo restante:", saldo
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 19
+    print("Saldo restante:", saldo
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 19
+    print("Saldo restante:", saldo
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 19
+    print("Saldo restante:", saldo
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

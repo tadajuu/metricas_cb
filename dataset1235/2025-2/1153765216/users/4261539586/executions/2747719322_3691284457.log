@@ -1,0 +1,309 @@
+== RUN (2025-08-14 23:27:15)
+-- CODE: 
+nota1 = float(input("informe o valor de uma nota: "))
+nota2 = float(input("informe o valor de uma nota: "))
+nota3 = float(input("informe o valor de uma nota: "))
+nota4 = float(input("informe o valor de uma nota: "))
+
+media = (nota1+nota2+nota3+nota4)/4
+
+print(round(media, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 7.4
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 8.12
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 7.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 4.75
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 25.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 6.75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-14 23:33:01)
+-- CODE: 
+nota1 = float(input("informe o valor de uma nota: "))
+nota2 = float(input("informe o valor de uma nota: "))
+nota3 = float(input("informe o valor de uma nota: "))
+nota4 = float(input("informe o valor de uma nota: "))
+
+peso1 = 1
+peso2 = 2
+peso3 = 3
+peso4 = 4
+
+media = ((nota1*peso1) +(nota2*peso2) +(nota3*peso3) +(nota4*peso4))/10
+
+print(round(media, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 7.94
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 8.2
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 7.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 6.7
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 30.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 7.8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 23:30:41)
+-- CODE: 
+nota1 = float(input("informe o valor de uma nota: "))
+nota2 = float(input("informe o valor de uma nota: "))
+nota3 = float(input("informe o valor de uma nota: "))
+nota4 = float(input("informe o valor de uma nota: "))
+
+peso1 = 1
+peso2 = 2
+peso3 = 3
+peso4 = 4
+
+media = ((nota1*peso1) +(nota2*peso2) +(nota3*peso3) +(nota4*peso4))/4
+
+print(round(media, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 19.84
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 20.5
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 17.5
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 16.75
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 75.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 19.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-14 23:32:30)
+-- CODE: 
+nota1 = float(input("informe o valor de uma nota: "))
+nota2 = float(input("informe o valor de uma nota: "))
+nota3 = float(input("informe o valor de uma nota: "))
+nota4 = float(input("informe o valor de uma nota: "))
+
+peso1 = 1
+peso2 = 2
+peso3 = 3
+peso4 = 4
+
+media = ((nota1*peso1) +(nota2*peso2) +(nota3*peso3) +(nota4*peso4))/10
+
+print(round(media, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 7.94
+-- TEST CASE 2:
+---- input:
+8.0
+8.5
+7.0
+9.0
+---- correct output:
+8.2
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 8.2
+-- TEST CASE 3:
+---- input:
+7.0
+7.0
+7.0
+7.0
+---- correct output:
+7.0
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 7.0
+-- TEST CASE 4:
+---- input:
+0.0
+0.0
+9.0
+10.0
+---- correct output:
+6.7
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 6.7
+-- TEST CASE 5:
+---- input:
+10.0
+20.0
+30.0
+40.0
+---- correct output:
+30.0
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 30.0
+-- TEST CASE 6:
+---- input:
+5.0
+3.0
+9.0
+10.0
+---- correct output:
+7.8
+---- user output:
+informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: informe o valor de uma nota: 7.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

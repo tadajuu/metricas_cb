@@ -1,0 +1,7 @@
+valor = float(input())
+vinte_sete_porcento = valor * (27/100)
+quarenta_dois_porcento = valor + valor * (42/100)
+sessenta_tres_porcento = valor - valor * (63/100)
+print(round(vinte_sete_porcento, 2))
+print(round(quarenta_dois_porcento, 2))
+print(round(sessenta_tres_porcento, 2))

@@ -1,0 +1,110 @@
+== SUBMISSION (2025-08-21 01:53:53)
+-- CODE: 
+import math
+print(round(math.pi,2))
+
+x = float(input("comprimento do lado: "))
+apo = x/(2* math.tan(math.pi/5))
+are = (5/2)*x*apo 
+print("Area do pentagono= ", round(are,2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+comprimento do lado: Area do pentagono=  3631687.43
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+comprimento do lado: Area do pentagono=  844238.69
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+comprimento do lado: Area do pentagono=  68819.1
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+comprimento do lado: Area do pentagono=  349171.32
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+comprimento do lado: Area do pentagono=  522376.58
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+comprimento do lado: Area do pentagono=  6171693.3
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 01:58:11)
+-- CODE: 
+tv = float(input("total de vendas: "))
+lu =tv * (30/100)
+print(round(lu,2))
+
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+1452.88
+---- correct output:
+435.86
+---- user output:
+total de vendas: 435.86
+-- TEST CASE 2:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+total de vendas: 210.15
+-- TEST CASE 3:
+---- input:
+200.0
+---- correct output:
+60.0
+---- user output:
+total de vendas: 60.0
+-- TEST CASE 4:
+---- input:
+450.50
+---- correct output:
+135.15
+---- user output:
+total de vendas: 135.15
+-- TEST CASE 5:
+---- input:
+551.02
+---- correct output:
+165.31
+---- user output:
+total de vendas: 165.31
+-- TEST CASE 6:
+---- input:
+1893.99
+---- correct output:
+568.2
+---- user output:
+total de vendas: 568.2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

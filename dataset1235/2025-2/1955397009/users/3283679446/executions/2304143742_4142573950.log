@@ -1,0 +1,58 @@
+== SUBMISSION (2025-09-02 13:14:05)
+-- CODE: 
+quant = int(input("Informe a quantidade de morangos: "))
+preco_12_ou_mais = quant * 1.35
+preco_menos_de_12 = quant * 1.50
+
+if quant >= 12:
+  print(round(preco_12_ou_mais, 2))
+
+else:
+  print(round(preco_menos_de_12, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+10.5
+---- user output:
+Informe a quantidade de morangos: 10.5
+-- TEST CASE 2:
+---- input:
+12
+---- correct output:
+16.2
+---- user output:
+Informe a quantidade de morangos: 16.2
+-- TEST CASE 3:
+---- input:
+25
+---- correct output:
+33.75
+---- user output:
+Informe a quantidade de morangos: 33.75
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+4.5
+---- user output:
+Informe a quantidade de morangos: 4.5
+-- TEST CASE 5:
+---- input:
+13
+---- correct output:
+17.55
+---- user output:
+Informe a quantidade de morangos: 17.55
+-- TEST CASE 6:
+---- input:
+21
+---- correct output:
+28.35
+---- user output:
+Informe a quantidade de morangos: 28.35
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

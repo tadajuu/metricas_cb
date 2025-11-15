@@ -129,7 +129,8 @@ class ReadinessProcessor:
                         executionsfile = user.executionsfiles[codefile.id]
 
                         assessment_id = online_judge.Helper.extract_assessment_id(executionsfile.id)
-
+                        if not assessment_user.get(user_id, {}).get(class_id, {}).get(assessment_id):
+                            continue
                         # # Chiclete com arame: Salta os assessments extras e as provas finais
                         # try:
                         #     new_assessment_id = online_judge.Helper.extract_assessment_id(executionsfile.id)
@@ -155,7 +156,7 @@ class ReadinessProcessor:
                         # assessment_id = new_assessment_id
                         if executionsfile.is_consistent:
                             file = executionsfile
-                            TOKEN_TOTAL_SUBMISSOES_LISTAS = "== SUBMITION"
+                            TOKEN_TOTAL_SUBMISSOES_LISTAS = "== SUBMISSION"
                         elif keystrokesfile.is_consistent:
                             file = keystrokesfile
                             TOKEN_TOTAL_SUBMISSOES_LISTAS = "#submit#"
@@ -174,6 +175,7 @@ class ReadinessProcessor:
                             continue
 
                         assessment_user[user_id][class_id][assessment_id]['show'] = True
+
                         if first_time:
                             assessment_id_ant = assessment_id
                             first_time = False
@@ -185,17 +187,26 @@ class ReadinessProcessor:
                         start_date = datetime.fromisoformat(assessment_user[user_id][class_id][assessment_id]['start'])
                         end_date = datetime.fromisoformat(assessment_user[user_id][class_id][assessment_id]['end'])
                         minutos_totais_trabalho = (end_date - start_date).total_seconds() / 60
+                        if minutos_totais_trabalho == 0:
+                            continue
                         file.load_text()
 
                         for line in file.text.splitlines():
-
                             if TOKEN_TOTAL_SUBMISSOES_LISTAS in line:
                                 total_submissions += 1
                                 hora_submissao = online_judge.Helper.extract_datetime(line)
                                 hora_fim_assessment = datetime.fromisoformat(assessment_user[user_id][class_id][assessment_id]['end'])
                                 minutos_totais_entre_fim_do_trabalho_e_submissao = (hora_fim_assessment - hora_submissao).total_seconds() / 60
+                                if minutos_totais_entre_fim_do_trabalho_e_submissao > minutos_totais_trabalho:
+                                    if user_id == '1126757059' and assessment_id == '677928262':
+                                        print(hora_submissao)
+                                        print(hora_fim_assessment)
+                                        print(start_date)
+                                        print(end_date)
+                                        print(f"{minutos_totais_entre_fim_do_trabalho_e_submissao}\t{minutos_totais_trabalho}\n")
                                 procrastinacao_exercicio += 1 - (minutos_totais_entre_fim_do_trabalho_e_submissao / minutos_totais_trabalho)
-
+                                #if procrastinacao_exercicio < 0:
+                                    #print(procrastinacao_exercicio)
                         assessment_user[user_id][class_id][assessment_id]['sum_procrastination'] += procrastinacao_exercicio
                         assessment_user[user_id][class_id][assessment_id]['total_submissions'] += total_submissions
 
@@ -204,6 +215,8 @@ class ReadinessProcessor:
                                 assessment_user[user_id][class_id][assessment_id_ant]['procrastination'] = \
                                     assessment_user[user_id][class_id][assessment_id_ant]['sum_procrastination'] / \
                                     assessment_user[user_id][class_id][assessment_id_ant]['total_submissions']
+                                #if(assessment_user[user_id][class_id][assessment_id_ant]['procrastination'] <0):
+                                    #print(f"{assessment_user[user_id][class_id][assessment_id_ant]['procrastination']} {user_id}")
                                 assessment_user[user_id][class_id][assessment_id_ant]['readiness'] = 1 - assessment_user[user_id][class_id][assessment_id_ant]['procrastination']
                             else:
                                 assessment_user[user_id][class_id][assessment_id_ant]['procrastination'] = -1
@@ -225,14 +238,18 @@ class ReadinessProcessor:
                                                assessment_user[user_id][class_id][assessment_id_ant][
                                                    'total_submissions'])
                             assessment_id_ant = assessment_id
-
-                    # print(f"user_id:{user_id}")
-                    # print(f"class_id:{class_id}")
-                    # print(f"assessment_id:{assessment_id}")
                     # print(f"total_submissions:{assessment_user[user_id][class_id][assessment_id]['total_submissions']}")
                     # print()
-                    if assessment_user[user_id][class_id][assessment_id]['total_submissions'] != 0:
+                    #se o aluno nao tiver feito exercícios, assessment id é nulo, então pulo
+                    if not assessment_user.get(user_id, {}).get(class_id, {}).get(assessment_id):
+                        continue
+
+                    if assessment_id == '':
+                        continue
+                    if assessment_user[user_id][class_id][assessment_id]["total_submissions"] != 0:
                         assessment_user[user_id][class_id][assessment_id]['procrastination'] = assessment_user[user_id][class_id][assessment_id]['sum_procrastination'] / assessment_user[user_id][class_id][assessment_id]['total_submissions']
+                        #if(assessment_user[user_id][class_id][assessment_id]['procrastination'] < 0):
+                            #print(f"{assessment_user[user_id][class_id][assessment_id]['procrastination']} {user_id}")
                         assessment_user[user_id][class_id][assessment_id]['readiness'] = 1 - assessment_user[user_id][class_id][assessment_id]['procrastination']
                     else:
                         assessment_user[user_id][class_id][assessment_id]['procrastination'] = -1
@@ -294,7 +311,7 @@ class ReadinessProcessor:
             # num_score é o próprio valor da métrica. Esse valor corresponde a um conceito I, R, B ou O. Esse conceitos são
             # chamados de grade.
             num_score = round(readiness, self.DECIMAL_PLACES)
-            self.readiness_value_list.append(num_score)
+            self.readiness_value_list.append(num_score * 10)
 
             # Obtém um conceito IRBO a partir do valor da assertividade, isto é, num_score.
             self.readiness_IRBO_grade_list.append(

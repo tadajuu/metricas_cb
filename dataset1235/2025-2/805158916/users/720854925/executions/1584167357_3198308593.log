@@ -1,0 +1,1259 @@
+== RUN (2025-08-27 14:43:59)
+-- CODE: 
+pi = 3.14156
+raio = float(input()) 
+volume = 4/3*pi*raio*raio*raio
+print(round(volume,4))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+696.9027
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+4.1887
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+137.2569
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+4188.7467
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+7238.1542
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+0.5236
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:14:49)
+-- CODE: 
+raio = float(input()) 
+volume = 4/3*pi*raio**3  
+print(round(volume,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:46:50)
+-- CODE: 
+pi = 3.141592
+raio = float(input()) 
+volume = 4/3*pi*raio*raio*raio
+print(round(volume,4))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+696.9098
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+4.1888
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+137.2582
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+4188.7893
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+7238.228
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+0.5236
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:30:10)
+-- CODE: 
+pi = 3.1415
+raio = float(input()) 
+volume = 4/3*pi*raio**3  
+print(round(volume,3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+696.889
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+4.189
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+137.254
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+4188.667
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+7238.016
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+0.524
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:14:35)
+-- CODE: 
+raio = float(input()) 
+volume = 4/3*pi*raio**3  
+print(round(volume,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:51:35)
+-- CODE: 
+import math
+raio = float(input()) 
+volume = 4/3*math.pi*raio**3
+print(round(volume,4))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+696.91
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+4.1888
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+137.2583
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+4188.7902
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+7238.2295
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+0.5236
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:30:08)
+-- CODE: 
+pi = 3.1415
+raio = float(input()) 
+volume = 4/3*pi*raio**3  
+print(round(volume,3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+696.889
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+4.189
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+137.254
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+4188.667
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+7238.016
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+0.524
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:47:13)
+-- CODE: 
+pi = 3.141592
+raio = int(input()) 
+volume = 4/3*pi*raio*raio*raio
+print(round(volume,4))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    raio = int(input()) 
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.5'
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    raio = int(input()) 
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.0'
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    raio = int(input()) 
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3.2'
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    raio = int(input()) 
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    raio = int(input()) 
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.0'
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    raio = int(input()) 
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.5'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:29:55)
+-- CODE: 
+pi = 3.1415
+raio = float(input()) 
+volume = 4/3*pi*raio**3  
+print(round(volume,4))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+696.8894
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+4.1887
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+137.2542
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+4188.6667
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+7238.016
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+0.5236
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:14:38)
+-- CODE: 
+raio = float(input()) 
+volume = 4/3*pi*raio**3  
+print(round(volume,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:43:41)
+-- CODE: 
+pi = 3.1415
+raio = float(input()) 
+volume = 4/3*pi*raio*raio*raio
+print(round(volume,4))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+696.8894
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+4.1887
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+137.2542
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+4188.6667
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+7238.016
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+0.5236
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:29:25)
+-- CODE: 
+pi = 3.1415
+raio = float(input()) 
+volume = 4/3*pi*raio**3  
+print(round(volume,4))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+696.8894
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+4.1887
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+137.2542
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+4188.6667
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+7238.016
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+0.5236
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:14:15)
+-- CODE: 
+raio = float(input()) 
+volume = 4 / 3 * pi * raio**3  
+print(round(volume,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio**3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio**3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio**3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio**3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio**3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio**3  
+                     ^^
+NameError: name 'pi' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:29:03)
+-- CODE: 
+pi = 3.14
+raio = float(input()) 
+volume = 4/3*pi*raio**3  
+print(round(volume,4))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+696.5567
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+4.1867
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+137.1887
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+4186.6667
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+7234.56
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+0.5233
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:30:23)
+-- CODE: 
+pi = 3.1415
+raio = float(input()) 
+volume = 4/3*pi*raio**3  
+print(round(volume,3))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+696.889
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+4.189
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+137.254
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+4188.667
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+7238.016
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+0.524
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:51:27)
+-- CODE: 
+import math
+raio = float(input()) 
+volume = 4/3*math.pi*raio**3
+print(round(volume,4))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+696.91
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+4.1888
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+137.2583
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+4188.7902
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+7238.2295
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+0.5236
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:47:17)
+-- CODE: 
+pi = 3.141592
+raio = int(input()) 
+volume = 4/3*pi*raio*raio*raio
+print(round(volume,4))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    raio = int(input()) 
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.5'
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    raio = int(input()) 
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.0'
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    raio = int(input()) 
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3.2'
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    raio = int(input()) 
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.0'
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    raio = int(input()) 
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.0'
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    raio = int(input()) 
+           ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.5'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:15:00)
+-- CODE: 
+raio = float(input()) 
+volume = 4/3*pi*raio**3  
+print(round(volume,4))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4/3*pi*raio**3  
+                 ^^
+NameError: name 'pi' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:13:28)
+-- CODE: 
+raio = float(input()) 
+volume = 4 / 3 * pi * raio * 3  
+print(round(volume,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio * 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio * 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio * 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio * 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio * 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio * 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:14:17)
+-- CODE: 
+raio = float(input()) 
+volume = 4 / 3 * pi * raio**3  
+print(round(volume,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio**3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio**3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio**3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio**3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio**3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio**3  
+                     ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

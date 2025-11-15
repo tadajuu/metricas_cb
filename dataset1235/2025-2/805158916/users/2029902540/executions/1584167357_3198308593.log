@@ -1,0 +1,562 @@
+== RUN (2025-08-27 14:50:08)
+-- CODE: 
+raio = float(input("Raio da Esfera: "))
+pi = 3.14
+volume = 4 / 3 * pi * raio ** 3  
+print(round(volume,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+Raio da Esfera: 696.5567
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+Raio da Esfera: 4.1867
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+Raio da Esfera: 137.1887
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+Raio da Esfera: 4186.6667
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+Raio da Esfera: 7234.56
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+Raio da Esfera: 0.5233
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:50:44)
+-- CODE: 
+raio = float(input("Raio da Esfera: "))
+pi = 3.14
+volume = 4 / 3 * pi * raio ** 3  
+print(round(volume,6))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+Raio da Esfera: 696.556667
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+Raio da Esfera: 4.186667
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+Raio da Esfera: 137.188693
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+Raio da Esfera: 4186.666667
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+Raio da Esfera: 7234.56
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+Raio da Esfera: 0.523333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:48:09)
+-- CODE: 
+raio = float(input("Raio da Esfera"))
+volume = 4 / 3 * pi * raio * 3  
+print(round(volume,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio * 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio * 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio * 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio * 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio * 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio * 3  
+                     ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:51:32)
+-- CODE: 
+raio = float(input("Raio da Esfera: "))
+pi = 3.1416
+volume = 4 / 3 * pi * raio ** 3  
+print(round(volume,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+Raio da Esfera: 696.91
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+Raio da Esfera: 4.19
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+Raio da Esfera: 137.26
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+Raio da Esfera: 4188.8
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+Raio da Esfera: 7238.25
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+Raio da Esfera: 0.52
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:53:18)
+-- CODE: 
+import math
+raio = float(input("Raio da Esfera: "))
+volume = 4 / 3 * math.pi * raio ** 3  
+print(round(volume,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+Raio da Esfera: 696.91
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+Raio da Esfera: 4.1888
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+Raio da Esfera: 137.2583
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+Raio da Esfera: 4188.7902
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+Raio da Esfera: 7238.2295
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+Raio da Esfera: 0.5236
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:48:44)
+-- CODE: 
+raio = float(input("Raio da Esfera: "))
+volume = 4 / 3 * pi * raio ** 3  
+print(round(volume))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio ** 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio ** 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio ** 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio ** 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio ** 3  
+                     ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    volume = 4 / 3 * pi * raio ** 3  
+                     ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:49:02)
+-- CODE: 
+raio = float(input("Raio da Esfera: "))
+pi = 3.14
+volume = 4 / 3 * pi * raio ** 3  
+print(round(volume))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+Raio da Esfera: 697
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+Raio da Esfera: 4
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+Raio da Esfera: 137
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+Raio da Esfera: 4187
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+Raio da Esfera: 7235
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+Raio da Esfera: 1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:51:43)
+-- CODE: 
+raio = float(input("Raio da Esfera: "))
+pi = 3.1416
+volume = 4 / 3 * pi * raio ** 3  
+print(round(volume,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+Raio da Esfera: 696.9116
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+Raio da Esfera: 4.1888
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+Raio da Esfera: 137.2586
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+Raio da Esfera: 4188.8
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+Raio da Esfera: 7238.2464
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+Raio da Esfera: 0.5236
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 14:51:37)
+-- CODE: 
+raio = float(input("Raio da Esfera: "))
+pi = 3.1416
+volume = 4 / 3 * pi * raio ** 3  
+print(round(volume,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+Raio da Esfera: 696.9116
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+Raio da Esfera: 4.1888
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+Raio da Esfera: 137.2586
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+Raio da Esfera: 4188.8
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+Raio da Esfera: 7238.2464
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+Raio da Esfera: 0.5236
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 14:53:31)
+-- CODE: 
+import math
+raio = float(input("Raio da Esfera: "))
+volume = 4 / 3 * math.pi * raio ** 3  
+print(round(volume,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.5
+---- correct output:
+696.91
+---- user output:
+Raio da Esfera: 696.91
+-- TEST CASE 2:
+---- input:
+1.0
+---- correct output:
+4.1888
+---- user output:
+Raio da Esfera: 4.1888
+-- TEST CASE 3:
+---- input:
+3.2
+---- correct output:
+137.2583
+---- user output:
+Raio da Esfera: 137.2583
+-- TEST CASE 4:
+---- input:
+10.0
+---- correct output:
+4188.7902
+---- user output:
+Raio da Esfera: 4188.7902
+-- TEST CASE 5:
+---- input:
+12.0
+---- correct output:
+7238.2295
+---- user output:
+Raio da Esfera: 7238.2295
+-- TEST CASE 6:
+---- input:
+0.5
+---- correct output:
+0.5236
+---- user output:
+Raio da Esfera: 0.5236
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

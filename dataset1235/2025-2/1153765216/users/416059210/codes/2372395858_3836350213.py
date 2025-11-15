@@ -1,0 +1,5 @@
+peso = float(input())
+q = float (input())
+totalg = (peso * 7)
+Qr = input (totalg / 7)
+print (round(Qr,3))

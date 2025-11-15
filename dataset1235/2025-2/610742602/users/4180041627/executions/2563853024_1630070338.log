@@ -1,0 +1,554 @@
+== RUN (2025-09-02 20:18:49)
+-- CODE: 
+numero = float(input("insira o numero"))
+quadrado = numero * 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.0
+---- correct output:
+25.0
+---- user output:
+insira o numero10.0
+-- TEST CASE 2:
+---- input:
+10.5
+---- correct output:
+110.25
+---- user output:
+insira o numero21.0
+-- TEST CASE 3:
+---- input:
+-100.0
+---- correct output:
+10000.0
+---- user output:
+insira o numero-200.0
+-- TEST CASE 4:
+---- input:
+12.1
+---- correct output:
+146.41
+---- user output:
+insira o numero24.2
+-- TEST CASE 5:
+---- input:
+-4.5
+---- correct output:
+20.25
+---- user output:
+insira o numero-9.0
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+4.0
+---- user output:
+insira o numero4.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:19:19)
+-- CODE: 
+numero = int(input("insira o numero"))
+quadrado = numero * 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.0
+---- correct output:
+25.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.0'
+-- TEST CASE 2:
+---- input:
+10.5
+---- correct output:
+110.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.5'
+-- TEST CASE 3:
+---- input:
+-100.0
+---- correct output:
+10000.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-100.0'
+-- TEST CASE 4:
+---- input:
+12.1
+---- correct output:
+146.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.1'
+-- TEST CASE 5:
+---- input:
+-4.5
+---- correct output:
+20.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-4.5'
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+4.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 20:19:51)
+-- CODE: 
+numero = int(input("insira o numero"))
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.0
+---- correct output:
+25.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.0'
+-- TEST CASE 2:
+---- input:
+10.5
+---- correct output:
+110.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.5'
+-- TEST CASE 3:
+---- input:
+-100.0
+---- correct output:
+10000.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-100.0'
+-- TEST CASE 4:
+---- input:
+12.1
+---- correct output:
+146.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.1'
+-- TEST CASE 5:
+---- input:
+-4.5
+---- correct output:
+20.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-4.5'
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+4.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.0'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:19:47)
+-- CODE: 
+numero = int(input("insira o numero"))
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.0
+---- correct output:
+25.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.0'
+-- TEST CASE 2:
+---- input:
+10.5
+---- correct output:
+110.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.5'
+-- TEST CASE 3:
+---- input:
+-100.0
+---- correct output:
+10000.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-100.0'
+-- TEST CASE 4:
+---- input:
+12.1
+---- correct output:
+146.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.1'
+-- TEST CASE 5:
+---- input:
+-4.5
+---- correct output:
+20.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-4.5'
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+4.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:20:05)
+-- CODE: 
+numero = float(input("insira o numero"))
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.0
+---- correct output:
+25.0
+---- user output:
+insira o numero25.0
+-- TEST CASE 2:
+---- input:
+10.5
+---- correct output:
+110.25
+---- user output:
+insira o numero110.25
+-- TEST CASE 3:
+---- input:
+-100.0
+---- correct output:
+10000.0
+---- user output:
+insira o numero10000.0
+-- TEST CASE 4:
+---- input:
+12.1
+---- correct output:
+146.41
+---- user output:
+insira o numero146.41
+-- TEST CASE 5:
+---- input:
+-4.5
+---- correct output:
+20.25
+---- user output:
+insira o numero20.25
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+4.0
+---- user output:
+insira o numero4.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-02 20:19:03)
+-- CODE: 
+numero = float(input("insira o numero"))
+quadrado = numero * 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.0
+---- correct output:
+25.0
+---- user output:
+insira o numero10.0
+-- TEST CASE 2:
+---- input:
+10.5
+---- correct output:
+110.25
+---- user output:
+insira o numero21.0
+-- TEST CASE 3:
+---- input:
+-100.0
+---- correct output:
+10000.0
+---- user output:
+insira o numero-200.0
+-- TEST CASE 4:
+---- input:
+12.1
+---- correct output:
+146.41
+---- user output:
+insira o numero24.2
+-- TEST CASE 5:
+---- input:
+-4.5
+---- correct output:
+20.25
+---- user output:
+insira o numero-9.0
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+4.0
+---- user output:
+insira o numero4.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 20:18:55)
+-- CODE: 
+numero = float(input("insira o numero"))
+quadrado = numero * 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.0
+---- correct output:
+25.0
+---- user output:
+insira o numero10.0
+-- TEST CASE 2:
+---- input:
+10.5
+---- correct output:
+110.25
+---- user output:
+insira o numero21.0
+-- TEST CASE 3:
+---- input:
+-100.0
+---- correct output:
+10000.0
+---- user output:
+insira o numero-200.0
+-- TEST CASE 4:
+---- input:
+12.1
+---- correct output:
+146.41
+---- user output:
+insira o numero24.2
+-- TEST CASE 5:
+---- input:
+-4.5
+---- correct output:
+20.25
+---- user output:
+insira o numero-9.0
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+4.0
+---- user output:
+insira o numero4.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 20:20:09)
+-- CODE: 
+numero = float(input("insira o numero"))
+quadrado = numero ** 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+5.0
+---- correct output:
+25.0
+---- user output:
+insira o numero25.0
+-- TEST CASE 2:
+---- input:
+10.5
+---- correct output:
+110.25
+---- user output:
+insira o numero110.25
+-- TEST CASE 3:
+---- input:
+-100.0
+---- correct output:
+10000.0
+---- user output:
+insira o numero10000.0
+-- TEST CASE 4:
+---- input:
+12.1
+---- correct output:
+146.41
+---- user output:
+insira o numero146.41
+-- TEST CASE 5:
+---- input:
+-4.5
+---- correct output:
+20.25
+---- user output:
+insira o numero20.25
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+4.0
+---- user output:
+insira o numero4.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 20:19:25)
+-- CODE: 
+numero = int(input("insira o numero"))
+quadrado = numero * 2
+print(quadrado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5.0
+---- correct output:
+25.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '5.0'
+-- TEST CASE 2:
+---- input:
+10.5
+---- correct output:
+110.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.5'
+-- TEST CASE 3:
+---- input:
+-100.0
+---- correct output:
+10000.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-100.0'
+-- TEST CASE 4:
+---- input:
+12.1
+---- correct output:
+146.41
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '12.1'
+-- TEST CASE 5:
+---- input:
+-4.5
+---- correct output:
+20.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '-4.5'
+-- TEST CASE 6:
+---- input:
+2.0
+---- correct output:
+4.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    numero = int(input("insira o numero"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.0'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

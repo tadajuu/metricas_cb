@@ -1,0 +1,6 @@
+total_moedas=50
+guerreiros=3
+moedas_por_guerreiros=total_moedas//guerreiros
+moedas_informante=total_moedas%guerreiros
+print(moedas_por_guerreiros)
+print(moedas_informante)

@@ -1,0 +1,58 @@
+== SUBMISSION (2025-08-28 19:03:04)
+-- CODE: 
+tempo = int(input("Tempo em horas: "))
+
+taxa = 15.00
+taxa_estac = 5.00
+
+total = (tempo * taxa) + taxa_estac 
+porcento_icms = total * (20/100)
+total_gasto = total + porcento_icms
+print(round(total_gasto , 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1
+---- correct output:
+24.0
+---- user output:
+Tempo em horas: 24.0
+-- TEST CASE 2:
+---- input:
+7
+---- correct output:
+132.0
+---- user output:
+Tempo em horas: 132.0
+-- TEST CASE 3:
+---- input:
+9
+---- correct output:
+168.0
+---- user output:
+Tempo em horas: 168.0
+-- TEST CASE 4:
+---- input:
+3
+---- correct output:
+60.0
+---- user output:
+Tempo em horas: 60.0
+-- TEST CASE 5:
+---- input:
+5
+---- correct output:
+96.0
+---- user output:
+Tempo em horas: 96.0
+-- TEST CASE 6:
+---- input:
+25
+---- correct output:
+456.0
+---- user output:
+Tempo em horas: 456.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,302 @@
+== RUN (2025-08-28 12:27:35)
+-- CODE: 
+valoremlibras = input("Insira Valor em Libras ")
+valoremreais = valoremlibras*6,13
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+116.47
+---- user output:
+Insira Valor em Libras
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+49.04
+---- user output:
+Insira Valor em Libras
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+6.13
+---- user output:
+Insira Valor em Libras
+-- TEST CASE 4:
+---- input:
+2
+---- correct output:
+12.26
+---- user output:
+Insira Valor em Libras
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+128.73
+---- user output:
+Insira Valor em Libras
+-- TEST CASE 6:
+---- input:
+7
+---- correct output:
+42.91
+---- user output:
+Insira Valor em Libras
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 12:29:46)
+-- CODE: 
+valoremlibras = float(input("Insira Valor em Libras "))
+valoremreais = valoremlibras*6.13
+
+print (valoremreais)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+116.47
+---- user output:
+Insira Valor em Libras 116.47
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+49.04
+---- user output:
+Insira Valor em Libras 49.04
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+6.13
+---- user output:
+Insira Valor em Libras 6.13
+-- TEST CASE 4:
+---- input:
+2
+---- correct output:
+12.26
+---- user output:
+Insira Valor em Libras 12.26
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+128.73
+---- user output:
+Insira Valor em Libras 128.73
+-- TEST CASE 6:
+---- input:
+7
+---- correct output:
+42.91
+---- user output:
+Insira Valor em Libras 42.91
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 12:26:48)
+-- CODE: 
+valoremlibras = input("Insira Valor em Libras")
+valoremreais = float(valoremlibras*6,13)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+116.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valoremreais = float(valoremlibras*6,13)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float expected at most 1 argument, got 2
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+49.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valoremreais = float(valoremlibras*6,13)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float expected at most 1 argument, got 2
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+6.13
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valoremreais = float(valoremlibras*6,13)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float expected at most 1 argument, got 2
+-- TEST CASE 4:
+---- input:
+2
+---- correct output:
+12.26
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valoremreais = float(valoremlibras*6,13)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float expected at most 1 argument, got 2
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+128.73
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valoremreais = float(valoremlibras*6,13)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float expected at most 1 argument, got 2
+-- TEST CASE 6:
+---- input:
+7
+---- correct output:
+42.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valoremreais = float(valoremlibras*6,13)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float expected at most 1 argument, got 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 12:26:53)
+-- CODE: 
+valoremlibras = input("Insira Valor em Libras ")
+valoremreais = float(valoremlibras*6,13)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+116.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valoremreais = float(valoremlibras*6,13)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float expected at most 1 argument, got 2
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+49.04
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valoremreais = float(valoremlibras*6,13)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float expected at most 1 argument, got 2
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+6.13
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valoremreais = float(valoremlibras*6,13)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float expected at most 1 argument, got 2
+-- TEST CASE 4:
+---- input:
+2
+---- correct output:
+12.26
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valoremreais = float(valoremlibras*6,13)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float expected at most 1 argument, got 2
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+128.73
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valoremreais = float(valoremlibras*6,13)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float expected at most 1 argument, got 2
+-- TEST CASE 6:
+---- input:
+7
+---- correct output:
+42.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    valoremreais = float(valoremlibras*6,13)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float expected at most 1 argument, got 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-28 12:28:20)
+-- CODE: 
+valoremlibras = input("Insira Valor em Libras ")
+valoremreais = valoremlibras*6,13
+
+print (valoremreais)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+19
+---- correct output:
+116.47
+---- user output:
+Insira Valor em Libras ('191919191919', 13)
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+49.04
+---- user output:
+Insira Valor em Libras ('888888', 13)
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+6.13
+---- user output:
+Insira Valor em Libras ('111111', 13)
+-- TEST CASE 4:
+---- input:
+2
+---- correct output:
+12.26
+---- user output:
+Insira Valor em Libras ('222222', 13)
+-- TEST CASE 5:
+---- input:
+21
+---- correct output:
+128.73
+---- user output:
+Insira Valor em Libras ('212121212121', 13)
+-- TEST CASE 6:
+---- input:
+7
+---- correct output:
+42.91
+---- user output:
+Insira Valor em Libras ('777777', 13)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

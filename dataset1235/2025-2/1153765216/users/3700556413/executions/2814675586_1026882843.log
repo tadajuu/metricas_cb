@@ -1,0 +1,807 @@
+== SUBMISSION (2025-08-26 19:00:22)
+-- CODE: 
+raio = float(input("digite o valor do raio: "))
+
+area = 3.14 * raio**2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+digite o valor do raio: 0.0079
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+digite o valor do raio: 32.1536
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+digite o valor do raio: 38.465
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+digite o valor do raio: 452.16
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+digite o valor do raio: 221.5584
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+digite o valor do raio: 346.185
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:23:12)
+-- CODE: 
+raio = float(input("digite o valor do raio: "))
+pi = 3.14
+area = pi * raio**2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+digite o valor do raio: 0.0079
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+digite o valor do raio: 32.1536
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+digite o valor do raio: 38.465
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+digite o valor do raio: 452.16
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+digite o valor do raio: 221.5584
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+digite o valor do raio: 346.185
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 18:23:40)
+-- CODE: 
+raio = float(input("digite o valor do raio: "))
+pi = 3.14
+area = pi * raio%2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+digite o valor do raio: 0.157
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+digite o valor do raio: 0.048
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+digite o valor do raio: 0.99
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+digite o valor do raio: 1.68
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+digite o valor do raio: 0.376
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+digite o valor do raio: 0.97
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 19:21:27)
+-- CODE: 
+raio = float(input("digite o valor do raio: "))
+area = 3.14 * raio*2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+digite o valor do raio: 0.314
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+digite o valor do raio: 20.096
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+digite o valor do raio: 21.98
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+digite o valor do raio: 75.36
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+digite o valor do raio: 52.752
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+digite o valor do raio: 65.94
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 18:22:08)
+-- CODE: 
+raio = float(input("digite o valor do raio: "))
+area = pi * raio**2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio**2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio**2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio**2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio**2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio**2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio**2
+           ^^
+NameError: name 'pi' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 19:18:35)
+-- CODE: 
+raio = float(input("digite o valor do raio: "))
+area = 3.14 * raio**2
+print(area)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+digite o valor do raio: 0.007850000000000001
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+digite o valor do raio: 32.153600000000004
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+digite o valor do raio: 38.465
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+digite o valor do raio: 452.16
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+digite o valor do raio: 221.5584
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+digite o valor do raio: 346.185
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 19:21:22)
+-- CODE: 
+raio = float(input("digite o valor do raio: "))
+area = 3.14 * raio*2
+print(round(area,4)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+-- ERROR:
+File "XXXX", line 3
+    print(round(area,4)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+-- ERROR:
+File "XXXX", line 3
+    print(round(area,4)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+-- ERROR:
+File "XXXX", line 3
+    print(round(area,4)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+-- ERROR:
+File "XXXX", line 3
+    print(round(area,4)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+-- ERROR:
+File "XXXX", line 3
+    print(round(area,4)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+-- ERROR:
+File "XXXX", line 3
+    print(round(area,4)
+         ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 19:31:40)
+-- CODE: 
+from math import *
+raio = float(input("digite o valor do raio: "))
+area = pi * raio**2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+digite o valor do raio: 0.0079
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+digite o valor do raio: 32.1699
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+digite o valor do raio: 38.4845
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+digite o valor do raio: 452.3893
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+digite o valor do raio: 221.6708
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+digite o valor do raio: 346.3606
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:22:09)
+-- CODE: 
+raio = float(input("digite o valor do raio: "))
+area = pi * raio**2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio**2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio**2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio**2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio**2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio**2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio**2
+           ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 18:23:41)
+-- CODE: 
+raio = float(input("digite o valor do raio: "))
+pi = 3.14
+area = pi * raio%2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+digite o valor do raio: 0.157
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+digite o valor do raio: 0.048
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+digite o valor do raio: 0.99
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+digite o valor do raio: 1.68
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+digite o valor do raio: 0.376
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+digite o valor do raio: 0.97
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 19:00:23)
+-- CODE: 
+raio = float(input("digite o valor do raio: "))
+
+area = 3.14 * raio**2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+digite o valor do raio: 0.0079
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+digite o valor do raio: 32.1536
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+digite o valor do raio: 38.465
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+digite o valor do raio: 452.16
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+digite o valor do raio: 221.5584
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+digite o valor do raio: 346.185
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 19:21:20)
+-- CODE: 
+raio = float(input("digite o valor do raio: "))
+area = 3.14 * raio*2
+print(round(area,4)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+-- ERROR:
+File "XXXX", line 3
+    print(round(area,4)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+-- ERROR:
+File "XXXX", line 3
+    print(round(area,4)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+-- ERROR:
+File "XXXX", line 3
+    print(round(area,4)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+-- ERROR:
+File "XXXX", line 3
+    print(round(area,4)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+-- ERROR:
+File "XXXX", line 3
+    print(round(area,4)
+         ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+-- ERROR:
+File "XXXX", line 3
+    print(round(area,4)
+         ^
+SyntaxError: '(' was never closed
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 18:23:11)
+-- CODE: 
+raio = float(input("digite o valor do raio: "))
+pi = 3.14
+area = pi * raio**2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+digite o valor do raio: 0.0079
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+digite o valor do raio: 32.1536
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+digite o valor do raio: 38.465
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+digite o valor do raio: 452.16
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+digite o valor do raio: 221.5584
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+digite o valor do raio: 346.185
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 19:21:29)
+-- CODE: 
+raio = float(input("digite o valor do raio: "))
+area = 3.14 * raio*2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+digite o valor do raio: 0.314
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+digite o valor do raio: 20.096
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+digite o valor do raio: 21.98
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+digite o valor do raio: 75.36
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+digite o valor do raio: 52.752
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+digite o valor do raio: 65.94
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

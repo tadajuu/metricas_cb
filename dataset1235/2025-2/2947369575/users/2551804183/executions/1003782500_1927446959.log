@@ -1,0 +1,562 @@
+== SUBMISSION (2025-08-26 00:47:36)
+-- CODE: 
+
+n = float(input())
+
+
+porcentagem_27 = n * (27 / 100)
+print(f"{porcentagem_27:.2f}")
+
+acrescimo_42 = n * (1 + 42 / 100)
+print(f"{acrescimo_42:.2f}")
+
+desconto_63 = n * (1 - 63 / 100)
+print(f"{desconto_63:.2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.50
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 02:10:49)
+-- CODE: 
+n = float (input())
+
+p27 = n*0.27
+p27_arrendodando = round(p27, 2)
+
+acrescido42 = n*1.42
+acrescido42_arrendondado = round(acrescido42,2)
+
+desconto63 = n*0.37
+desconto63_arrendondado = round(desconto63,2)
+
+print(p27_arredondado)
+print(acrescido42_arrendondado)
+print(desconto63_arrendondado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(p27_arredondado)
+          ^^^^^^^^^^^^^^^
+NameError: name 'p27_arredondado' is not defined. Did you mean: 'p27_arrendodando'?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(p27_arredondado)
+          ^^^^^^^^^^^^^^^
+NameError: name 'p27_arredondado' is not defined. Did you mean: 'p27_arrendodando'?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(p27_arredondado)
+          ^^^^^^^^^^^^^^^
+NameError: name 'p27_arredondado' is not defined. Did you mean: 'p27_arrendodando'?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(p27_arredondado)
+          ^^^^^^^^^^^^^^^
+NameError: name 'p27_arredondado' is not defined. Did you mean: 'p27_arrendodando'?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(p27_arredondado)
+          ^^^^^^^^^^^^^^^
+NameError: name 'p27_arredondado' is not defined. Did you mean: 'p27_arrendodando'?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(p27_arredondado)
+          ^^^^^^^^^^^^^^^
+NameError: name 'p27_arredondado' is not defined. Did you mean: 'p27_arrendodando'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 00:02:21)
+-- CODE: 
+# Entrada do número real n
+n = float(input())
+
+# Calculando 27% de n
+porcentagem_27 = n * (27 / 100)
+print(f"{porcentagem_27:.2f}")
+
+# Calculando n acrescido de 42%
+acrescimo_42 = n * (1 + 42 / 100)
+print(f"{acrescimo_42:.2f}")
+
+# Calculando n com desconto de 63%
+desconto_63 = n * (1 - 63 / 100)
+print(f"{desconto_63:.2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.50
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 00:03:56)
+-- CODE: 
+
+n = float(input())
+
+
+porcentagem_27 = n * (27 / 100)
+print(f"{porcentagem_27:.2f}")
+
+acrescimo_42 = n * (1 + 42 / 100)
+print(f"{acrescimo_42:.2f}")
+
+desconto_63 = n * (1 - 63 / 100)
+print(f"{desconto_63:.2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.50
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 15:48:31)
+-- CODE: 
+n = float (input())
+
+p27 = n*0.27
+p27_arrendodando = round(p27, 2)
+acrescido42 = n*1.42
+acrescido42_arrendondado = round(acrescido42,2)
+desconto63 = n*0.37
+desconto63_arrendondado = round(desconto63,2)
+print(p27_arredondado)
+print(acrescido42_arrendondado)
+print(desconto63_arrendondado)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(p27_arredondado)
+          ^^^^^^^^^^^^^^^
+NameError: name 'p27_arredondado' is not defined. Did you mean: 'p27_arrendodando'?
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(p27_arredondado)
+          ^^^^^^^^^^^^^^^
+NameError: name 'p27_arredondado' is not defined. Did you mean: 'p27_arrendodando'?
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(p27_arredondado)
+          ^^^^^^^^^^^^^^^
+NameError: name 'p27_arredondado' is not defined. Did you mean: 'p27_arrendodando'?
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(p27_arredondado)
+          ^^^^^^^^^^^^^^^
+NameError: name 'p27_arredondado' is not defined. Did you mean: 'p27_arrendodando'?
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(p27_arredondado)
+          ^^^^^^^^^^^^^^^
+NameError: name 'p27_arredondado' is not defined. Did you mean: 'p27_arrendodando'?
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(p27_arredondado)
+          ^^^^^^^^^^^^^^^
+NameError: name 'p27_arredondado' is not defined. Did you mean: 'p27_arrendodando'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-27 02:13:55)
+-- CODE: 
+n = float (input())
+
+p27 = n * 0.27
+p27_arredondado = round(p27, 2)
+
+acrescido42 = n * 1.42
+acrescido42_arredondado = round(acrescido42,2)
+
+desconto63 = n * 0.37
+desconto63_arredondado = round(desconto63,2)
+
+print(p27_arredondado)
+print(acrescido42_arredondado)
+print(desconto63_arredondado)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 00:46:06)
+-- CODE: 
+
+n = float(input())
+
+
+porcentagem_27 = n * (27 / 100)
+print(f"{porcentagem_27:.2f}")
+
+acrescimo_42 = n * (1 + 42 / 100)
+print(f"{acrescimo_42:.2f}")
+
+desconto_63 = n * (1 - 63 / 100)
+print(f"{desconto_63:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+123.14
+---- correct output:
+33.25
+174.86
+45.56
+---- user output:
+45.56
+-- TEST CASE 2:
+---- input:
+25.00
+---- correct output:
+6.75
+35.5
+9.25
+---- user output:
+9.25
+-- TEST CASE 3:
+---- input:
+325.60
+---- correct output:
+87.91
+462.35
+120.47
+---- user output:
+120.47
+-- TEST CASE 4:
+---- input:
+3567.90
+---- correct output:
+963.33
+5066.42
+1320.12
+---- user output:
+1320.12
+-- TEST CASE 5:
+---- input:
+5426.20
+---- correct output:
+1465.07
+7705.2
+2007.69
+---- user output:
+2007.69
+-- TEST CASE 6:
+---- input:
+12.15
+---- correct output:
+3.28
+17.25
+4.5
+---- user output:
+4.50
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

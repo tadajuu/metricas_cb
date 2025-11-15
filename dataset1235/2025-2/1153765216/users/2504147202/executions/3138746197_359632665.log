@@ -1,0 +1,1551 @@
+== RUN (2025-08-16 04:09:06)
+-- CODE: 
+d = 250//6
+print(round(d,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:58:44)
+-- CODE: 
+round (250/6)
+print (round (250//6))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:58:45)
+-- CODE: 
+round (250/6)
+print (round (250//6))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:20:49)
+-- CODE: 
+print (250/6)
+round (250/6)
+print (round (41.67)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 3
+    print (round (41.67)
+          ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 3
+    print (round (41.67)
+          ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:12:42)
+-- CODE: 
+print (250/6)
+round (print (41.666666666666664,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round (print (41.666666666666664,2))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round (print (41.666666666666664,2))
+TypeError: type NoneType doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:12:53)
+-- CODE: 
+print (250/6)
+round (print (41,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round (print (41,2))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round (print (41,2))
+TypeError: type NoneType doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-16 04:05:34)
+-- CODE: 
+d = 250//6
+print (round (d, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-16 04:14:29)
+-- CODE: 
+round (print (41.67))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:56:49)
+-- CODE: 
+print (round (250//6))
+round (41)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:18:04)
+-- CODE: 
+d = 250/6
+print(round(d,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:20:27)
+-- CODE: 
+print (250/6)
+round (250/6)
+print (round (250/6) (round (250/6))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 3
+    print (round (250/6) (round (250/6))
+          ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 3
+    print (round (250/6) (round (250/6))
+          ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:06:27)
+-- CODE: 
+round (41,67)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:56:48)
+-- CODE: 
+print (round (250//6))
+round (41)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:57:18)
+-- CODE: 
+print (round (250//6))
+round (41)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:02:06)
+-- CODE: 
+d=250//6
+print (round (d,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:56:50)
+-- CODE: 
+print (round (250//6))
+round (41)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:19:08)
+-- CODE: 
+print (250/6)
+round (250/6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:59:15)
+-- CODE: 
+d (250//6)
+print (round (d, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    d (250//6)
+    ^
+NameError: name 'd' is not defined. Did you mean: 'id'?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    d (250//6)
+    ^
+NameError: name 'd' is not defined. Did you mean: 'id'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-16 04:13:42)
+-- CODE: 
+round (print (41.67))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:18:42)
+-- CODE: 
+print (250/6)
+round (250/6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:13:09)
+-- CODE: 
+print (250/6)
+round (print (41.67,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round (print (41.67,2))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round (print (41.67,2))
+TypeError: type NoneType doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:18:12)
+-- CODE: 
+print (250/6)
+round ()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round ()
+TypeError: round() missing required argument 'number' (pos 1)
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round ()
+TypeError: round() missing required argument 'number' (pos 1)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-16 04:14:30)
+-- CODE: 
+round (print (41.67))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:57:06)
+-- CODE: 
+print (round (250//6))
+round (250//6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:56:51)
+-- CODE: 
+print (round (250//6))
+round (41)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:18:41)
+-- CODE: 
+print (250/6)
+round (250/6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-16 04:13:34)
+-- CODE: 
+round (print (41.67))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:19:34)
+-- CODE: 
+print (250/6)
+round (250/6)
+print (round (250/6))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:02:05)
+-- CODE: 
+d=250//6
+print (round (d,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:57:29)
+-- CODE: 
+print (round (250//6))
+round (41.67)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:56:46)
+-- CODE: 
+print (round (250//6))
+round (41)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:22:56)
+-- CODE: 
+round (250/6)
+print (round (250/6))
+round (42)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:16:06)
+-- CODE: 
+print(250/6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:13:15)
+-- CODE: 
+print (250/6)
+round (print (41.67))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-16 04:13:41)
+-- CODE: 
+round (print (41.67))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:12:04)
+-- CODE: 
+print (250/6)
+round (print (41.))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round (print (41.))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round (print (41.))
+TypeError: type NoneType doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 17:27:54)
+-- CODE: 
+d = 250/6
+print(round(d,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:10:56)
+-- CODE: 
+print (250/6)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:22:10)
+-- CODE: 
+round (250/6)
+print (round (250/6))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:23:06)
+-- CODE: 
+round (250/6)
+print (round (250/6))
+round (41.67)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:13:39)
+-- CODE: 
+round (print (41.67))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:00:00)
+-- CODE: 
+round (250//6)
+print (round (250//6))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-16 04:18:16)
+-- CODE: 
+d = 250/6
+print(round(d,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:12:54)
+-- CODE: 
+round (250/6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:13:45)
+-- CODE: 
+print (round (250/6))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:19:06)
+-- CODE: 
+print (250/6)
+round (250/6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:12:05)
+-- CODE: 
+print (250/6)
+round (print (41.))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round (print (41.))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    round (print (41.))
+TypeError: type NoneType doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:58:47)
+-- CODE: 
+round (250/6)
+print (round (250//6))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:57:30)
+-- CODE: 
+print (round (250//6))
+round (41.67)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:57:18)
+-- CODE: 
+print (round (250//6))
+round (41)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:21:24)
+-- CODE: 
+round (250/6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:14:43)
+-- CODE: 
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:22:54)
+-- CODE: 
+round (250/6)
+print (round (250/6))
+round (42)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:20:02)
+-- CODE: 
+print (250/6)
+round (250/6)
+print (round (250/6) (round ())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 3
+    print (round (250/6) (round ())
+          ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+File "XXXX", line 3
+    print (round (250/6) (round ())
+          ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:09:22)
+-- CODE: 
+d=250//6
+print(round(d,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:15:57)
+-- CODE: 
+print(250//6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:57:17)
+-- CODE: 
+print (round (250//6))
+round (41)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:02:21)
+-- CODE: 
+d = 250//6
+print (round (d, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:55:39)
+-- CODE: 
+print (round (250//6))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:15:49)
+-- CODE: 
+print(250/6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 15:22:46)
+-- CODE: 
+round (250/6)
+print (round (250/6))
+round (250/6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:57:06)
+-- CODE: 
+print (round (250//6))
+round (250//6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:13:29)
+-- CODE: 
+round (print (41.67))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    round (print (41.67))
+TypeError: type NoneType doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:57:05)
+-- CODE: 
+print (round (250//6))
+round (250//6)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:59:17)
+-- CODE: 
+d (250//6)
+print (round (d, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    d (250//6)
+    ^
+NameError: name 'd' is not defined. Did you mean: 'id'?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    d (250//6)
+    ^
+NameError: name 'd' is not defined. Did you mean: 'id'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:17:33)
+-- CODE: 
+d = 250/6
+print(round(d,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41.67
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 04:05:37)
+-- CODE: 
+d = 250//6
+print (round (d, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-16 03:53:46)
+-- CODE: 
+print (round (250//6))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+41.67
+---- user output:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

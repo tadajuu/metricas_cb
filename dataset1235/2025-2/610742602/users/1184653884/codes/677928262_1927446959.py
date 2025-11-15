@@ -1,0 +1,7 @@
+n=float(input("numero: "))
+x=n*(27/100)
+print(round(x,2))
+a=n+n*(42/100)
+print(round(a,2))
+b=n-n*(63/100)
+print(round(b,2))

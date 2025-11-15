@@ -1,0 +1,2651 @@
+== RUN (2025-09-01 14:56:52)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia"))
+
+apotema = (lado/( 2 * math.tan(math.pi)/9))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:19:34)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+dis = float(input("Insira a Distancia "))
+
+apotema = dis/(2*math.tang(math.pi)/9)
+area = (9*dis*apotema)/2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = dis/(2*math.tang(math.pi)/9)
+                     ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = dis/(2*math.tang(math.pi)/9)
+                     ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = dis/(2*math.tang(math.pi)/9)
+                     ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = dis/(2*math.tang(math.pi)/9)
+                     ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = dis/(2*math.tang(math.pi)/9)
+                     ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = dis/(2*math.tang(math.pi)/9)
+                     ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:23:43)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+dis = float(input("Insira a Distancia "))
+
+apotema = (2*math.tan(math.pi))/9
+apotema = round(apotema,2)
+area = (9*dis*apotema)/2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -0.0
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -0.0
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -0.0
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -0.0
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -0.0
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:57:21)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema = (lado/( 2 * math.tan(math.pi)/9))
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -1.1023586563406875e+17
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -4.041981739915854e+17
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -2.939623083575167e+17
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -2.204717312681375e+17
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -1.4698115417875834e+17
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -1.837264427234479e+17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:58:39)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema =  2 * math.tan(math.pi) /9
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 15:05:58)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  lado / (2 * math.tan(math.pi/9))
+area = (9*lado*apotema) / 2
+print(round(area,2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia 55.64
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia 748.0
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia 395.64
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia 222.55
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia 98.91
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia 154.55
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:04:56)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  lado / (2 * math.tan*(math.pi)) / 9
+area = (9*lado*apotema) / 2
+print(round(area,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  lado / (2 * math.tan*(math.pi)) / 9
+                       ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  lado / (2 * math.tan*(math.pi)) / 9
+                       ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  lado / (2 * math.tan*(math.pi)) / 9
+                       ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  lado / (2 * math.tan*(math.pi)) / 9
+                       ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  lado / (2 * math.tan*(math.pi)) / 9
+                       ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  lado / (2 * math.tan*(math.pi)) / 9
+                       ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:05:51)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  lado / (2 * math.tan(math.pi/9))
+area = (9*lado*apotema) / 2
+print(round(area,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia 55.64
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia 748.0
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia 395.64
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia 222.55
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia 98.91
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia 154.55
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:43:01)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema = lado / (2*math.tan(math.pi)/9)
+area = (9*lado*apotema)/2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -1.488184186059928e+18
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -2.0007809612583477e+19
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -1.05826431008706e+19
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -5.952736744239712e+18
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -2.64566077521765e+18
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -4.1338449612775777e+18
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:02:31)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  lado / (2 * math.tan (math.pi)) / 5
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -2449685902979305.5
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -8982181644257453.0
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -6532495741278148.0
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -4899371805958611.0
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -3266247870639074.0
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -4082809838298842.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:47:35)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema =  lado /(2*math.tan(math.pi)/5)
+area = (9*lado*apotema)/2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -8.267689922555155e+17
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -1.1115449784768598e+19
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -5.879246167150333e+18
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -3.307075969022062e+18
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -1.4698115417875832e+18
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -2.296580534043099e+18
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:54:35)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema =  lado /(2*math.tan(math.pi)/9)
+print(apotema)
+area = (9*lado*apotema) /2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+-1.488184186059928e+18
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+-2.0007809612583477e+19
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+-1.05826431008706e+19
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+-5.952736744239712e+18
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+-2.64566077521765e+18
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+-4.1338449612775777e+18
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:48:33)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema =  lado /(2*math.tan(math.pi)/9)
+area = (9*lado*apotema) /2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -1.488184186059928e+18
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -2.0007809612583477e+19
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -1.05826431008706e+19
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -5.952736744239712e+18
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -2.64566077521765e+18
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -4.1338449612775777e+18
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:19:18)
+-- CODE: 
+import. math
+
+# faça seu código aqui!
+
+dis = float(input("Insira a Distancia"))
+
+apotema = dis/(2*math.tang(math.pi)/9)
+area = (9*dis*apotema)/2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+-- ERROR:
+File "XXXX", line 1
+    import. math
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+-- ERROR:
+File "XXXX", line 1
+    import. math
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+-- ERROR:
+File "XXXX", line 1
+    import. math
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+-- ERROR:
+File "XXXX", line 1
+    import. math
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+-- ERROR:
+File "XXXX", line 1
+    import. math
+          ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+-- ERROR:
+File "XXXX", line 1
+    import. math
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:04:32)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  lado / (2 * math.tan (math.pi)) / 9
+area = (9*lado*apotema) / 2
+print(round(area,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -1.837264427234479e+16
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -2.4700999521707997e+17
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -1.3064991482556294e+17
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -7.349057708937917e+16
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -3.2662478706390736e+16
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -5.103512297873554e+16
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:20:43)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+dis = float(input("Insira a Distancia "))
+
+apotema = dis/(2*math.tan(math.pi)/9)
+apotema = round(apotema,2)
+area = (9*dis*apotema)/2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -1.488184186059928e+18
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -2.0007809612583477e+19
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -1.05826431008706e+19
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -5.952736744239712e+18
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -2.64566077521765e+18
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -4.1338449612775777e+18
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:03:55)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  lado / (2 * math.tan (math.pi)) / 9
+area = (9*lado*apotema)
+print(round(area,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -3.674528854468958e+16
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -4.9401999043415994e+17
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -2.612998296511259e+17
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -1.4698115417875834e+17
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -6.532495741278147e+16
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -1.0207024595747107e+17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:59:10)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema =  2 * math.tan*(math.pi) /9
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:02:21)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  lado / (5 * math.tan (math.pi)) / 9
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -544374645106512.3
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -1996040365390545.0
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -1451665720284032.8
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -1088749290213024.6
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -725832860142016.4
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -907291075177520.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:23:28)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+dis = float(input("Insira a Distancia "))
+
+apotema = dis/(2*math.tan(math.pi))/9
+apotema = round(apotema,2)
+area = (9*dis*apotema)/2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -1.837264427234479e+16
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -2.4700999521707997e+17
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -1.3064991482556294e+17
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -7.349057708937917e+16
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -3.2662478706390736e+16
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -5.103512297873554e+16
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:19:46)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+dis = float(input("Insira a Distancia "))
+
+apotema = dis/(2*math.tan(math.pi)/9)
+area = (9*dis*apotema)/2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -1.488184186059928e+18
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -2.0007809612583477e+19
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -1.05826431008706e+19
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -5.952736744239712e+18
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -2.64566077521765e+18
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -4.1338449612775777e+18
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:54:07)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema =  lado /(2*math.tan(math.pi)/9)
+area = (9*lado*apotema) /2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -1.488184186059928e+18
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -2.0007809612583477e+19
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -1.05826431008706e+19
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -5.952736744239712e+18
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -2.64566077521765e+18
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -4.1338449612775777e+18
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:59:56)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  2 * math.tan*(math.pi) /9
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:46:54)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema =  lado /(2*math.tan(math.pi)/9)
+area = (9*lado*apotema)/2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -1.488184186059928e+18
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -2.0007809612583477e+19
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -1.05826431008706e+19
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -5.952736744239712e+18
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -2.64566077521765e+18
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -4.1338449612775777e+18
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:57:03)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema = (lado/( 2 * math.tan(math.pi)/9))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:19:29)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+dis = float(input("Insira a Distancia"))
+
+apotema = dis/(2*math.tang(math.pi)/9)
+area = (9*dis*apotema)/2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = dis/(2*math.tang(math.pi)/9)
+                     ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = dis/(2*math.tang(math.pi)/9)
+                     ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = dis/(2*math.tang(math.pi)/9)
+                     ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = dis/(2*math.tang(math.pi)/9)
+                     ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = dis/(2*math.tang(math.pi)/9)
+                     ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = dis/(2*math.tang(math.pi)/9)
+                     ^^^^^^^^^
+AttributeError: module 'math' has no attribute 'tang'. Did you mean: 'tan'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:42:45)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema = lado / (2*math.tan(math.pi)/9)
+area = (9*dis*apotema)/2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    area = (9*dis*apotema)/2
+              ^^^
+NameError: name 'dis' is not defined. Did you mean: 'dir'?
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    area = (9*dis*apotema)/2
+              ^^^
+NameError: name 'dis' is not defined. Did you mean: 'dir'?
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    area = (9*dis*apotema)/2
+              ^^^
+NameError: name 'dis' is not defined. Did you mean: 'dir'?
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    area = (9*dis*apotema)/2
+              ^^^
+NameError: name 'dis' is not defined. Did you mean: 'dir'?
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    area = (9*dis*apotema)/2
+              ^^^
+NameError: name 'dis' is not defined. Did you mean: 'dir'?
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    area = (9*dis*apotema)/2
+              ^^^
+NameError: name 'dis' is not defined. Did you mean: 'dir'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:42:29)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema = lado / (2*math.tan()*(math.pi)/9)
+area = (9*dis*apotema)/2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = lado / (2*math.tan()*(math.pi)/9)
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = lado / (2*math.tan()*(math.pi)/9)
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = lado / (2*math.tan()*(math.pi)/9)
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = lado / (2*math.tan()*(math.pi)/9)
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = lado / (2*math.tan()*(math.pi)/9)
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema = lado / (2*math.tan()*(math.pi)/9)
+                        ^^^^^^^^^^
+TypeError: math.tan() takes exactly one argument (0 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:01:36)
+-- CODE: 
+from import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  (2 * math.tan (math.pi)) / 9
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+-- ERROR:
+File "XXXX", line 1
+    from import math
+         ^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+-- ERROR:
+File "XXXX", line 1
+    from import math
+         ^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+-- ERROR:
+File "XXXX", line 1
+    from import math
+         ^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+-- ERROR:
+File "XXXX", line 1
+    from import math
+         ^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+-- ERROR:
+File "XXXX", line 1
+    from import math
+         ^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+-- ERROR:
+File "XXXX", line 1
+    from import math
+         ^^^^^^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:01:17)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  (2 * math.tan (math.pi)) / 9
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:02:00)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  lado / (2 * math.tan (math.pi)) / 9
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -1360936612766281.0
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -4990100913476363.0
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -3629164300710082.0
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -2721873225532562.0
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -1814582150355041.0
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -2268227687943801.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:01:00)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  (2 * math.tan* math.pi) / 9
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  (2 * math.tan* math.pi) / 9
+                ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  (2 * math.tan* math.pi) / 9
+                ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  (2 * math.tan* math.pi) / 9
+                ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  (2 * math.tan* math.pi) / 9
+                ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  (2 * math.tan* math.pi) / 9
+                ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  (2 * math.tan* math.pi) / 9
+                ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:48:01)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema =  lado /(4*math.tan(math.pi)/5)
+area = (9*lado*apotema)/2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -4.1338449612775776e+17
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -5.557724892384299e+18
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -2.9396230835751665e+18
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -1.653537984511031e+18
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -7.349057708937916e+17
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -1.1482902670215494e+18
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:11:26)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  lado / (2 * math.tan(math.pi/9))
+area = (9*lado*apotema) / 2
+print(round(area,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia 55.64
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia 748.0
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia 395.64
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia 222.55
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia 98.91
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia 154.55
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:58:31)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema =  2 * math.tan(math.pi)9
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+-- ERROR:
+File "XXXX", line 7
+    apotema =  2 * math.tan(math.pi)9
+                                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+-- ERROR:
+File "XXXX", line 7
+    apotema =  2 * math.tan(math.pi)9
+                                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+-- ERROR:
+File "XXXX", line 7
+    apotema =  2 * math.tan(math.pi)9
+                                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+-- ERROR:
+File "XXXX", line 7
+    apotema =  2 * math.tan(math.pi)9
+                                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+-- ERROR:
+File "XXXX", line 7
+    apotema =  2 * math.tan(math.pi)9
+                                    ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+-- ERROR:
+File "XXXX", line 7
+    apotema =  2 * math.tan(math.pi)9
+                                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:02:40)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  lado / (2 * math.tan (math.pi)) / 9
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -1360936612766281.0
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -4990100913476363.0
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -3629164300710082.0
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -2721873225532562.0
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -1814582150355041.0
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -2268227687943801.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:04:40)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  lado / (2 * math.tan (math.pi)) / 9
+area = (9*lado*apotema) / 2
+print(round(area,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -1.837264427234479e+16
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -2.4700999521707997e+17
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -1.3064991482556294e+17
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -7.349057708937917e+16
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -3.2662478706390736e+16
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -5.103512297873554e+16
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:58:07)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema = ( 2 * math.tan(math.pi)/9))
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+-- ERROR:
+File "XXXX", line 7
+    apotema = ( 2 * math.tan(math.pi)/9))
+                                        ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+-- ERROR:
+File "XXXX", line 7
+    apotema = ( 2 * math.tan(math.pi)/9))
+                                        ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+-- ERROR:
+File "XXXX", line 7
+    apotema = ( 2 * math.tan(math.pi)/9))
+                                        ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+-- ERROR:
+File "XXXX", line 7
+    apotema = ( 2 * math.tan(math.pi)/9))
+                                        ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+-- ERROR:
+File "XXXX", line 7
+    apotema = ( 2 * math.tan(math.pi)/9))
+                                        ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+-- ERROR:
+File "XXXX", line 7
+    apotema = ( 2 * math.tan(math.pi)/9))
+                                        ^
+SyntaxError: unmatched ')'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:59:31)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema =  2 * math.tan*(math.pi) /9
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    apotema =  2 * math.tan*(math.pi) /9
+               ~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'builtin_function_or_method'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:58:11)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia "))
+
+apotema = ( 2 * math.tan(math.pi)/9)
+print(apotema)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -2.7214373314385625e-17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 15:04:09)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = int(input("Insira a Distancia "))
+
+apotema =  lado / (2 * math.tan (math.pi)) / 9
+area = (9*lado*apotema) / 2
+print(round(area,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia -1.837264427234479e+16
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia -2.4700999521707997e+17
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia -1.3064991482556294e+17
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia -7.349057708937917e+16
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia -3.2662478706390736e+16
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia -5.103512297873554e+16
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:57:00)
+-- CODE: 
+import math
+
+# faça seu código aqui!
+
+lado = float(input("Insira a Distancia"))
+
+apotema = (lado/( 2 * math.tan(math.pi)/9))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+55.64
+---- user output:
+Insira a Distancia
+-- TEST CASE 2:
+---- input:
+11
+---- correct output:
+748.0
+---- user output:
+Insira a Distancia
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+395.64
+---- user output:
+Insira a Distancia
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+222.55
+---- user output:
+Insira a Distancia
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+98.91
+---- user output:
+Insira a Distancia
+-- TEST CASE 6:
+---- input:
+5
+---- correct output:
+154.55
+---- user output:
+Insira a Distancia
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

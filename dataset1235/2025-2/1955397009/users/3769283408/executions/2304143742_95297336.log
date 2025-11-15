@@ -1,0 +1,144 @@
+== SUBMISSION (2025-09-02 13:23:26)
+-- CODE: 
+escala = input("Escala"). upper()
+temp_entrada = float(input("Valor temperatura:"))
+
+if(escala == "C"):
+  temp_saida = (9/5) * temp_entrada + 32
+else:
+  temp_saida = (5/9) * (temp_entrada - 32)
+
+
+print(round(temp_saida,2))
+  
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+EscalaValor temperatura:160.0
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+---- user output:
+EscalaValor temperatura:37.78
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+EscalaValor temperatura:608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+EscalaValor temperatura:608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+EscalaValor temperatura:32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+---- user output:
+EscalaValor temperatura:-1.11
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 13:22:07)
+-- CODE: 
+escala = input("Escala"). upper()
+temp_entrada = float(input("Valor temperatura:"))
+
+if(escala == "C"):
+  temp_saida = (9/5) * temp_entrada + 32
+else:
+  temp_entrada = (5/9) * (temp_saida - 32)
+
+
+print(round(temp_saida,2))
+  
+-- EXECUTION TIME: 
+0.00666667
+-- TEST CASE 1:
+---- input:
+F
+320
+---- correct output:
+160.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    temp_entrada = (5/9) * (temp_saida - 32)
+                            ^^^^^^^^^^
+NameError: name 'temp_saida' is not defined
+-- TEST CASE 2:
+---- input:
+F
+100.0
+---- correct output:
+37.78
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    temp_entrada = (5/9) * (temp_saida - 32)
+                            ^^^^^^^^^^
+NameError: name 'temp_saida' is not defined
+-- TEST CASE 3:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+EscalaValor temperatura:608.0
+-- TEST CASE 4:
+---- input:
+C
+320.0
+---- correct output:
+608.0
+---- user output:
+EscalaValor temperatura:608.0
+-- TEST CASE 5:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+EscalaValor temperatura:32.0
+-- TEST CASE 6:
+---- input:
+F
+30.0
+---- correct output:
+-1.11
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    temp_entrada = (5/9) * (temp_saida - 32)
+                            ^^^^^^^^^^
+NameError: name 'temp_saida' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

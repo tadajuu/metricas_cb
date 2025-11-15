@@ -1,0 +1,108 @@
+== SUBMISSION (2025-08-21 14:06:55)
+-- CODE: 
+import math
+lado = float(input("Digite o lado:"))
+apotema = lado / (2 * math.tan(math.pi / 5))
+area = (5/2) * lado * apotema
+area_arredondamento = round(area, 2)
+print(area_arredondamento)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Digite o lado:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Digite o lado:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Digite o lado:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Digite o lado:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Digite o lado:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Digite o lado:172.05
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 14:06:21)
+-- CODE: 
+import math
+lado = float(input("Digite o lado:"))
+apotema = lado / (2 * math.tan(math.pi / 5))
+area = (5/2) * lado * apotema
+area_arredondamento = round(area, 2)
+print(area_arredondamento)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+---- correct output:
+139.36
+---- user output:
+Digite o lado:139.36
+-- TEST CASE 2:
+---- input:
+6
+---- correct output:
+61.94
+---- user output:
+Digite o lado:61.94
+-- TEST CASE 3:
+---- input:
+11
+---- correct output:
+208.18
+---- user output:
+Digite o lado:208.18
+-- TEST CASE 4:
+---- input:
+8
+---- correct output:
+110.11
+---- user output:
+Digite o lado:110.11
+-- TEST CASE 5:
+---- input:
+4
+---- correct output:
+27.53
+---- user output:
+Digite o lado:27.53
+-- TEST CASE 6:
+---- input:
+10
+---- correct output:
+172.05
+---- user output:
+Digite o lado:172.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

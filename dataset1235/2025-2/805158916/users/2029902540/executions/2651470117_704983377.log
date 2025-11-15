@@ -1,0 +1,1770 @@
+== RUN (2025-08-25 14:07:17)
+-- CODE: 
+X = imput ("digite o numero")
+y = imput ("digite o numero")
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:41:20)
+-- CODE: 
+# Entrada para que fique dois numeros reais diferentes
+X = int(input("Entre com o valor de X:"))
+y = int(input("Entre com o valor de X:"))
+print(X // Y)
+print(X % Y)
+print(X / Y)
+print(X * Y)
+print(Y ** 3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:45:18)
+-- CODE: 
+
+X = int(input("Entre com o valor de X:"))
+Y = int(input("Entre com o valor de Y:"))
+print(X//Y)
+print(X%Y)
+print(X/Y)
+print(X*Y)
+print(Y**3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:38:39)
+-- CODE: 
+# Entrada para que fique dois numeros reais diferentes
+X = int(input("digite o numero"))
+y = int(input("digite o numero"))
+print(X//Y)
+print(X%Y)
+print(X/Y)
+print(X*Y)
+print(Y**3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:39:40)
+-- CODE: 
+# Entrada para que fique dois numeros reais diferentes
+X = int(input("Entre com o valor de X:"))
+y = int(input("Entre com o valor de X:"))
+print(X//Y)
+print(X%Y)
+print(X/Y)
+print(X*Y)
+print(Y**3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:44:55)
+-- CODE: 
+
+X = int(input("Entre com o valor de X:"))
+y = int(input("Entre com o valor de Y:"))
+print(X//Y)
+print(X%Y)
+print(X/Y)
+print(X*Y)
+print(Y**3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:07:31)
+-- CODE: 
+X = input ("digite o numero")
+y = input ("digite o numero")
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+digite o numerodigite o numero
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+digite o numerodigite o numero
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+digite o numerodigite o numero
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+digite o numerodigite o numero
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+digite o numerodigite o numero
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+digite o numerodigite o numero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:07:01)
+-- CODE: 
+X = imput ("digite o numero")
+y = imput ("digite o  numero")
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:07:09)
+-- CODE: 
+X = imput ("digite o numero")
+y = imput ("digite um  numero")
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    X = imput ("digite o numero")
+        ^^^^^
+NameError: name 'imput' is not defined. Did you mean: 'input'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:06:29)
+-- CODE: 
+X = imput (digite o numero)
+y = imput (digite o  numero)
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+File "XXXX", line 1
+    X = imput (digite o numero)
+               ^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+File "XXXX", line 1
+    X = imput (digite o numero)
+               ^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+File "XXXX", line 1
+    X = imput (digite o numero)
+               ^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+File "XXXX", line 1
+    X = imput (digite o numero)
+               ^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+File "XXXX", line 1
+    X = imput (digite o numero)
+               ^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+File "XXXX", line 1
+    X = imput (digite o numero)
+               ^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:41:32)
+-- CODE: 
+# Entrada para que fique dois numeros reais diferentes
+X = int(input("Entre com o valor de X:"))
+y = int(input("Entre com o valor de Y:"))
+print(X // Y)
+print(X % Y)
+print(X / Y)
+print(X * Y)
+print(Y ** 3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:42:25)
+-- CODE: 
+# Entrada para que fique dois numeros reais diferentes
+X = int(input("Entre com o valor de X: "))
+y = int(input("Entre com o valor de Y: "))
+print(X // Y)
+print(X % Y)
+print(X / Y)
+print(X * Y)
+print(Y ** 3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X // Y)
+               ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:35:52)
+-- CODE: 
+# Entrada para que fique dois numeros reais diferentes
+X = int(input("digite o numero"))
+y = int(input("digite o numero"))
+# Agora, hora de nomear as equações.
+Q1 = x // Y
+R = X % Y
+Dr = X / Y
+Mt = X * Y
+PT = X ** Y
+print(Q1)
+print(R)
+prit(Dr)
+print(Mt)
+print(PT)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:33:24)
+-- CODE: 
+# Entrada para que fique dois numeros reais diferentes
+X = int(input ("digite o numero"))
+y = int(input ("digite o numero"))
+# Agora, hora de nomear as equações.
+Q1 = x // Y
+R = X % Y
+Dr = X / Y
+Mt = X * Y
+PT = X ** Y
+print(Q1)
+print(R)
+prit(Dr)
+print(Mt)
+print(PT)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:45:28)
+-- CODE: 
+
+X = int(input("Entre com o valor de X:"))
+Y = int(input("Entre com o valor de Y:"))
+print(X//Y)
+print(X%Y)
+print(X/Y)
+print(X*Y)
+print(Y**3)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+---- user output:
+8
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+---- user output:
+125
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+---- user output:
+125
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+---- user output:
+8
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+---- user output:
+8
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+---- user output:
+8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:38:29)
+-- CODE: 
+# Entrada para que fique dois numeros reais diferentes
+X = int(input("digite o numero"))
+y = int(input("digite o numero"))
+print(X//Y)
+print(X%Y)
+print(X/Y)
+print(X*Y)
+print(Y**3)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(X//Y)
+             ^
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:32:20)
+-- CODE: 
+# Entrada para que fique dois numeros reais diferentes
+X = int(input ("digite o numero"))
+y = int(input ("digite o numero"))
+# Agora, hora de nomear as equações.
+Q1 = x // Y
+R = X % Y
+Dr = X / Y
+Mt = X * Y
+PT = X ** Y
+print(Q1)
+print(R)
+prit(Dr)
+print(Mt)
+print(PT)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+14
+2
+---- correct output:
+7
+0
+7.0
+28
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 2:
+---- input:
+8
+5
+---- correct output:
+1
+3
+1.6
+40
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 3:
+---- input:
+10
+5
+---- correct output:
+2
+0
+2.0
+50
+125
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 4:
+---- input:
+53
+2
+---- correct output:
+26
+1
+26.5
+106
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 5:
+---- input:
+346
+2
+---- correct output:
+173
+0
+173.0
+692
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+-- TEST CASE 6:
+---- input:
+347
+2
+---- correct output:
+173
+1
+173.5
+694
+8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    Q1 = x // Y
+         ^
+NameError: name 'x' is not defined. Did you mean: 'X'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

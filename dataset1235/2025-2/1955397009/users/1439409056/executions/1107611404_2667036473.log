@@ -1,0 +1,1550 @@
+== RUN (2025-08-19 02:09:47)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(round(k,2))
+      		kelvin(c+273.15)
+      				celsius(25)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 01:58:09)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(k == c+273.15)
+		print(round(k,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 01:57:07)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(k == c+273.15)
+			print(round(k,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 4
+    print(round(k,2))
+IndentationError: unexpected indent
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 4
+    print(round(k,2))
+IndentationError: unexpected indent
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 4
+    print(round(k,2))
+IndentationError: unexpected indent
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 4
+    print(round(k,2))
+IndentationError: unexpected indent
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 4
+    print(round(k,2))
+IndentationError: unexpected indent
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 4
+    print(round(k,2))
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:47:54)
+-- CODE: 
+c = float(input("celsius:"))
+print(k == c + 273.15)
+print(round(k,2))
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(k == c + 273.15)
+          ^
+NameError: name 'k' is not defined
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(k == c + 273.15)
+          ^
+NameError: name 'k' is not defined
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(k == c + 273.15)
+          ^
+NameError: name 'k' is not defined
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(k == c + 273.15)
+          ^
+NameError: name 'k' is not defined
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(k == c + 273.15)
+          ^
+NameError: name 'k' is not defined
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(k == c + 273.15)
+          ^
+NameError: name 'k' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:14:39)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+      print(k == c + 273.15)
+		print(round(k,2))
+    
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 01:58:55)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(k == c+273.15)
+		print(round(k,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 02:08:37)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(k == c+273.15)
+		print(round(k,2))
+      		kelvin(c+273.15)
+      			celsius(25)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 23:02:07)
+-- CODE: 
+c = float(input("celsius:"))
+k = c + 273.15
+print(round(k,2))
+  
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+celsius:293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+celsius:263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+celsius:233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+celsius:373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+celsius:273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+celsius:303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 02:10:26)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(round(k,2))
+      		kelvin(c+273.15)
+      				celsius(25)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 01:53:24)
+-- CODE: 
+def celsius(c):
+def kelvin(k):
+print(k == c+273.15)
+print(round(k,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 2
+    def kelvin(k):
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 2
+    def kelvin(k):
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 2
+    def kelvin(k):
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 2
+    def kelvin(k):
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 2
+    def kelvin(k):
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 2
+    def kelvin(k):
+    ^
+IndentationError: expected an indented block after function definition on line 1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 02:12:13)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+      print(k == c + 273.15)
+		print(round(k,2))
+    
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 02:10:50)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(round(k,2))
+      		kelvin(c+273.15)
+      				celsius(25)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 02:09:52)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(round(k,2))
+      		kelvin(c+273.15)
+      				celsius(25)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 01:54:15)
+-- CODE: 
+def celsius(c):
+def kelvin(k):
+print(k == c+273.15)
+print(round(k,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 2
+    def kelvin(k):
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 2
+    def kelvin(k):
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 2
+    def kelvin(k):
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 2
+    def kelvin(k):
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 2
+    def kelvin(k):
+    ^
+IndentationError: expected an indented block after function definition on line 1
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 2
+    def kelvin(k):
+    ^
+IndentationError: expected an indented block after function definition on line 1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 23:01:48)
+-- CODE: 
+c = float(input("celsius:"))
+k = c + 273.15
+print(round(k,2))
+  
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+celsius:293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+celsius:263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+celsius:233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+celsius:373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+celsius:273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+celsius:303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 02:07:26)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(k == c+273.15)
+		print(round(k,2))
+      kelvin(c+273.15)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+                    ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+                    ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+                    ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+                    ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+                    ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+                    ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 01:58:32)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(k == c+273.15)
+		print(round(k,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 02:09:56)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(round(k,2))
+      		kelvin(c+273.15)
+      				celsius(25)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 4
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 01:56:25)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(k == c+273.15)
+			print(round(k,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 4
+    print(round(k,2))
+IndentationError: unexpected indent
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 4
+    print(round(k,2))
+IndentationError: unexpected indent
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 4
+    print(round(k,2))
+IndentationError: unexpected indent
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 4
+    print(round(k,2))
+IndentationError: unexpected indent
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 4
+    print(round(k,2))
+IndentationError: unexpected indent
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 4
+    print(round(k,2))
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 01:58:00)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(k == c+273.15)
+		print(round(k,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 02:09:05)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(k == c+273.15)
+		print(round(k,2))
+      		kelvin(c+273.15)
+      				celsius(25)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 5
+    kelvin(c+273.15)
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 01:57:57)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(k == c+273.15)
+		print(round(k,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 13:14:52)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+      print(k == c + 273.15)
+		print(round(k,2))
+    
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 3
+    print(k == c + 273.15)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-19 01:53:12)
+-- CODE: 
+def celsius(c)
+def kelvin(k)
+print(k == c+273.15)
+print(round(k,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+File "XXXX", line 1
+    def celsius(c)
+                  ^
+SyntaxError: expected ':'
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+File "XXXX", line 1
+    def celsius(c)
+                  ^
+SyntaxError: expected ':'
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+File "XXXX", line 1
+    def celsius(c)
+                  ^
+SyntaxError: expected ':'
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+File "XXXX", line 1
+    def celsius(c)
+                  ^
+SyntaxError: expected ':'
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+File "XXXX", line 1
+    def celsius(c)
+                  ^
+SyntaxError: expected ':'
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+File "XXXX", line 1
+    def celsius(c)
+                  ^
+SyntaxError: expected ':'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-19 01:58:03)
+-- CODE: 
+def celsius(c):
+	def kelvin(k):
+		print(k == c+273.15)
+		print(round(k,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

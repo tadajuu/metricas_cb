@@ -1,0 +1,125 @@
+== SUBMISSION (2025-08-28 22:20:45)
+-- CODE: 
+peso = float(input())
+quant = float(input())
+
+sem = quant*7
+com = peso-sem
+
+print(round(com,3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+---- user output:
+2508.1
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+---- user output:
+1601.55
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+---- user output:
+1859.563
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+---- user output:
+3066.88
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+---- user output:
+1572.38
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+---- user output:
+859.563
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 22:13:02)
+-- CODE: 
+peso = float(input())
+quant = float(input())
+
+racao = quant / peso
+sem = peso*7
+com = sem/racao
+
+print(round(com,3))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+2660.00
+21.7
+---- correct output:
+2508.1
+---- user output:
+2282451.613
+-- TEST CASE 2:
+---- input:
+1700.60
+14.15
+---- correct output:
+1601.55
+---- user output:
+1430691.344
+-- TEST CASE 3:
+---- input:
+2000.3333
+20.11
+---- correct output:
+1859.563
+---- user output:
+1392806.225
+-- TEST CASE 4:
+---- input:
+3250.00
+26.16
+---- correct output:
+3066.88
+---- user output:
+2826357.034
+-- TEST CASE 5:
+---- input:
+1850.70
+39.76
+---- correct output:
+1572.38
+---- user output:
+603008.889
+-- TEST CASE 6:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.563
+---- user output:
+348317.602
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

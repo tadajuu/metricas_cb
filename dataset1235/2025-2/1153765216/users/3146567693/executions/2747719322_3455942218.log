@@ -1,0 +1,2020 @@
+== SUBMISSION (2025-08-26 14:22:06)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+jogos = valor_uni * 8
+frete = 45,00
+# Calculo do valor a ser pago, incluindo o frete:
+total = jogos + frete
+saldo = money - total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:05:48)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+frete = 45,00
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8 * valor_uni + frete & money
+saldo = total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete & money
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete & money
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete & money
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete & money
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete & money
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete & money
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:51:46)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+frete = "45,00"
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8 * valor_uni + frete
+saldo = total & 8
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(salddo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 14:30:38)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = valor_uni * 8 + 45.00
+saldo = money - total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+---- user output:
+55.0
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+---- user output:
+1.0
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+---- user output:
+1307.0
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+---- user output:
+8059.0
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+---- user output:
+15.4
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+---- user output:
+195.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 14:22:03)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+jogos = valor_uni * 8
+frete = 45,00
+# Calculo do valor a ser pago, incluindo o frete:
+total = jogos + frete
+saldo = money - total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:53:47)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+frete = "45,00"
+# Calculo do valor a ser pago, incluindo o frete:
+total = "8 * valor_uni + frete"
+saldo = "total & 8"
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 15:07:54)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+frete = 45,00
+# Calculo do valor a ser pago, incluindo o frete:
+total = valor_unialor_uni + frete & money
+saldo = total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = valor_unialor_uni + frete & money
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'valor_unialor_uni' is not defined
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = valor_unialor_uni + frete & money
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'valor_unialor_uni' is not defined
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = valor_unialor_uni + frete & money
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'valor_unialor_uni' is not defined
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = valor_unialor_uni + frete & money
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'valor_unialor_uni' is not defined
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = valor_unialor_uni + frete & money
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'valor_unialor_uni' is not defined
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = valor_unialor_uni + frete & money
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'valor_unialor_uni' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 14:26:05)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = valor_uni * 8 + 45,00
+saldo = money & total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 14:26:30)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = valor_uni * 8 + 45.00
+saldo = money & total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'float'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'float'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'float'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'float'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'float'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 14:26:07)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = valor_uni * 8 + 45,00
+saldo = money & total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'tuple'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 14:24:01)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = valor_uni * 8 = 45,00
+saldo = money - total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 14:26:31)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = valor_uni * 8 + 45.00
+saldo = money & total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'float'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'float'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'float'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'float'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'float'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money & total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for &: 'float' and 'float'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 14:24:04)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = valor_uni * 8 = 45,00
+saldo = money - total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:54:33)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+frete = 45,00
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8 * valor_uni + frete
+saldo = total & 8
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 14:24:20)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = valor_uni * 8 + 45,00
+saldo = money - total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money - total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money - total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money - total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money - total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money - total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    saldo = money - total
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'tuple'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 14:52:50)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+frete = "45,00"
+# Calculo do valor a ser pago, incluindo o frete:
+total = "8 * valor_uni + frete"
+saldo = "total & 8"
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(salddo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:50:00)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+frete = "45,00"
+# Calculo do valor a ser pago, incluindo o frete:
+total = 8 * valor_uni + frete
+saldo = total & 8
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(salddo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = 8 * valor_uni + frete
+            ~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 15:07:49)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+frete = 45,00
+# Calculo do valor a ser pago, incluindo o frete:
+total = valor_unialor_uni + frete & money
+saldo = total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = valor_unialor_uni + frete & money
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'valor_unialor_uni' is not defined
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = valor_unialor_uni + frete & money
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'valor_unialor_uni' is not defined
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = valor_unialor_uni + frete & money
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'valor_unialor_uni' is not defined
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = valor_unialor_uni + frete & money
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'valor_unialor_uni' is not defined
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = valor_unialor_uni + frete & money
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'valor_unialor_uni' is not defined
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    total = valor_unialor_uni + frete & money
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'valor_unialor_uni' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 14:24:03)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = valor_uni * 8 = 45,00
+saldo = money - total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+File "XXXX", line 9
+    total = valor_uni * 8 = 45,00
+            ^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 14:17:20)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+jogos = valor_uni * 8
+frete = 45,00
+# Calculo do valor a ser pago, incluindo o frete:
+total = jogos + frete
+saldo = money % total
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(saldo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    total = jogos + frete
+            ~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 14:52:48)
+-- CODE: 
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+valor_uni = float(input("Qual o valor unitario do jogo? "))
+money = float(input("Qual o valor diposnivel para a aquisicao dos jogos? "))
+frete = "45,00"
+# Calculo do valor a ser pago, incluindo o frete:
+total = "8 * valor_uni + frete"
+saldo = "total & 8"
+
+# Impressao do valor total e do saldo:
+print(round(total,1))
+print(round(salddo,1))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+100.0
+900.0
+---- correct output:
+845.0
+55.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+33.0
+310.0
+---- correct output:
+309.0
+1.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+356.0
+4200.00
+---- correct output:
+2893.0
+1307.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+123987.0
+1000000.0
+---- correct output:
+991941.0
+8059.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+1.2
+70.00
+---- correct output:
+54.6
+15.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+20.0
+400.0
+---- correct output:
+205.0
+195.0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(total,1))
+          ^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,2241 @@
+== SUBMISSION (2025-08-23 22:50:29)
+-- CODE: 
+import math
+a = float(input("Digite a distancia a: "))
+b = float(input("Digite a distancia b: "))
+gamma_graus = float(input("Digite o angulo gamma em graus: "))
+
+gamma_radianos = math.radians(gamma_graus)
+
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radianos))
+
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite a distancia a: Digite a distancia b: Digite o angulo gamma em graus: A distancia entre as arvores e:87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite a distancia a: Digite a distancia b: Digite o angulo gamma em graus: A distancia entre as arvores e:16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite a distancia a: Digite a distancia b: Digite o angulo gamma em graus: A distancia entre as arvores e:17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite a distancia a: Digite a distancia b: Digite o angulo gamma em graus: A distancia entre as arvores e:1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite a distancia a: Digite a distancia b: Digite o angulo gamma em graus: A distancia entre as arvores e:54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite a distancia a: Digite a distancia b: Digite o angulo gamma em graus: A distancia entre as arvores e:9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:57:33)
+-- CODE: 
+import math
+a=float(input("Digite a distancia a:"))
+b=float(input("Digite a distancia b:"))
+gamma_graus=float(input("Digite o angulo gamma em graus:"))
+gamma_radianos=math.radians(gamma_graus)
+c=math.sqrt(a**2+b**2-2*a*b*math.cos(gamma_radianos))
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 17:15:50)
+-- CODE: 
+import math
+a=float(input("Digite a distancia a:"))
+b=float(input("Digite a distancia b:"))
+gamma_graus=float(input("Digite o angulo gamma em graus:"))
+gamma_radianos=math.radians(gamma_graus)
+c=math.sqrt(a**2+b**2-2*a*b*math.cos(gamma_radianos))
+print(round(c,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:29:33)
+-- CODE: 
+import math
+a=float(input("Digite a distancia a:"))
+b=float(input("Digite a distancia b:"))
+gamma_graus = float(input("Digite o angulo gamma em graus:"))
+gamma_radianos=math.radianos(gamma_graus)
+c=math.sqrt(a**2+b**2-2*a*b*math.cos(gamma_radianos))
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gamma_radianos=math.radianos(gamma_graus)
+                   ^^^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radianos'. Did you mean: 'radians'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gamma_radianos=math.radianos(gamma_graus)
+                   ^^^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radianos'. Did you mean: 'radians'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gamma_radianos=math.radianos(gamma_graus)
+                   ^^^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radianos'. Did you mean: 'radians'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gamma_radianos=math.radianos(gamma_graus)
+                   ^^^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radianos'. Did you mean: 'radians'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gamma_radianos=math.radianos(gamma_graus)
+                   ^^^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radianos'. Did you mean: 'radians'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gamma_radianos=math.radianos(gamma_graus)
+                   ^^^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radianos'. Did you mean: 'radians'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 22:50:29)
+-- CODE: 
+import math
+a = float(input("Digite a distancia a: "))
+b = float(input("Digite a distancia b: "))
+gamma_graus = float(input("Digite o angulo gamma em graus: "))
+
+gamma_radianos = math.radians(gamma_graus)
+
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radianos))
+
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite a distancia a: Digite a distancia b: Digite o angulo gamma em graus: A distancia entre as arvores e:87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite a distancia a: Digite a distancia b: Digite o angulo gamma em graus: A distancia entre as arvores e:16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite a distancia a: Digite a distancia b: Digite o angulo gamma em graus: A distancia entre as arvores e:17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite a distancia a: Digite a distancia b: Digite o angulo gamma em graus: A distancia entre as arvores e:1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite a distancia a: Digite a distancia b: Digite o angulo gamma em graus: A distancia entre as arvores e:54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite a distancia a: Digite a distancia b: Digite o angulo gamma em graus: A distancia entre as arvores e:9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 19:57:39)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma_graus = float(input())
+
+gamma_radianos = math.radians(gamma_graus)
+c = math.sqrt(a**2 + b**2 - 2 * a * b math.cos(gamma_radiano))
+
+print(f"{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2 + b**2 - 2 * a * b math.cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2 + b**2 - 2 * a * b math.cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2 + b**2 - 2 * a * b math.cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2 + b**2 - 2 * a * b math.cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2 + b**2 - 2 * a * b math.cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2 + b**2 - 2 * a * b math.cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 22:46:36)
+-- CODE: 
+import math
+a = float(input("Digite a distância a:" ))
+b = float(input("Digite a distância b:" ))
+gamma_graus = float(input("Digite o ângulo gamma em graus" ))
+
+gamma_radianos = math.radians(gamma_graus)
+
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+
+print(f"A distância entre as árvores é:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 22:48:26)
+-- CODE: 
+import math
+a = float(input("Digite a distância a: "))
+b = float(input("Digite a distância b: "))
+gamma_graus = float(input("Digite o ângulo gamma em graus "))
+
+gamma_radianos = math.radians(gamma_graus)
+
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+
+print(f"A distância entre as árvores é:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 22:49:27)
+-- CODE: 
+import math
+a = float(input("Digite a distancia a: "))
+b = float(input("Digite a distancia b: "))
+gamma_graus = float(input("Digite o angulo gamma em graus: "))
+
+gamma_radianos = math.radians(gamma_graus)
+
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:29:07)
+-- CODE: 
+import math
+a=float(input("Digite a distancia a:"))
+b=float(input("Digite a distancia b:"))
+gamma_graus = float(input("Digite o angulo gamma em graus:"))
+gamma_radianos=math.radianos(gamma_graus)
+c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:29:08)
+-- CODE: 
+import math
+a=float(input("Digite a distancia a:"))
+b=float(input("Digite a distancia b:"))
+gamma_graus = float(input("Digite o angulo gamma em graus:"))
+gamma_radianos=math.radianos(gamma_graus)
+c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 22:42:15)
+-- CODE: 
+import math
+a = float(input("Digite a distancia a:" ))
+b = float(input("Digite a distancia b:" ))
+gamma_graus = float(input("Digite o angulo gamma em graus" ))
+
+gamma_radianos = math.radians(gamma_graus)
+c = math.sqrt(a**2 + b**2 - 2 * a * b math.cos(gamma_radiano))
+
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2 + b**2 - 2 * a * b math.cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2 + b**2 - 2 * a * b math.cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2 + b**2 - 2 * a * b math.cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2 + b**2 - 2 * a * b math.cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2 + b**2 - 2 * a * b math.cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2 + b**2 - 2 * a * b math.cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 22:42:47)
+-- CODE: 
+import math
+a = float(input("Digite a distancia a:" ))
+b = float(input("Digite a distancia b:" ))
+gamma_graus = float(input("Digite o angulo gamma em graus" ))
+
+gamma_radianos = math.radians(gamma_graus)
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:29:10)
+-- CODE: 
+import math
+a=float(input("Digite a distancia a:"))
+b=float(input("Digite a distancia b:"))
+gamma_graus = float(input("Digite o angulo gamma em graus:"))
+gamma_radianos=math.radianos(gamma_graus)
+c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 22:49:26)
+-- CODE: 
+import math
+a = float(input("Digite a distancia a: "))
+b = float(input("Digite a distancia b: "))
+gamma_graus = float(input("Digite o angulo gamma em graus: "))
+
+gamma_radianos = math.radians(gamma_graus)
+
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 22:49:01)
+-- CODE: 
+import math
+a = float(input("Digite a distância a: "))
+b = float(input("Digite a distância b: "))
+gamma_graus = float(input("Digite o ângulo gamma em graus: "))
+
+gamma_radianos = math.radians(gamma_graus)
+
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+
+print(f"A distância entre as árvores é:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:29:04)
+-- CODE: 
+import math
+a=float(input("Digite a distancia a:"))
+b=float(input("Digite a distancia b:"))
+gamma_graus = float(input("Digite o angulo gamma em graus:"))
+gamma_radianos=math.radianos(gamma_graus)
+c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 6
+    c=math.sqrt(a**2+b**2-*a*b*math.cos(gamma_radianos))
+                          ^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 22:48:25)
+-- CODE: 
+import math
+a = float(input("Digite a distância a: "))
+b = float(input("Digite a distância b: "))
+gamma_graus = float(input("Digite o ângulo gamma em graus "))
+
+gamma_radianos = math.radians(gamma_graus)
+
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+
+print(f"A distância entre as árvores é:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:29:38)
+-- CODE: 
+import math
+a=float(input("Digite a distancia a:"))
+b=float(input("Digite a distancia b:"))
+gamma_graus = float(input("Digite o angulo gamma em graus:"))
+gamma_radianos=math.radianos(gamma_graus)
+c=math.sqrt(a**2+b**2-2*a*b*math.cos(gamma_radianos))
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gamma_radianos=math.radianos(gamma_graus)
+                   ^^^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radianos'. Did you mean: 'radians'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gamma_radianos=math.radianos(gamma_graus)
+                   ^^^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radianos'. Did you mean: 'radians'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gamma_radianos=math.radianos(gamma_graus)
+                   ^^^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radianos'. Did you mean: 'radians'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gamma_radianos=math.radianos(gamma_graus)
+                   ^^^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radianos'. Did you mean: 'radians'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gamma_radianos=math.radianos(gamma_graus)
+                   ^^^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radianos'. Did you mean: 'radians'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    gamma_radianos=math.radianos(gamma_graus)
+                   ^^^^^^^^^^^^^
+AttributeError: module 'math' has no attribute 'radianos'. Did you mean: 'radians'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 19:55:49)
+-- CODE: 
+import math
+a = float(input())
+b = float(input())
+gamma_graus = float(input())
+
+gamma_radianos = math.radians(gamma_graus)
+c = math.sqrt(a**2+ b**2 - 2 *a*b math. cos(gamma_radiano))
+
+print(f"{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2+ b**2 - 2 *a*b math. cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2+ b**2 - 2 *a*b math. cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2+ b**2 - 2 *a*b math. cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2+ b**2 - 2 *a*b math. cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2+ b**2 - 2 *a*b math. cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    c = math.sqrt(a**2+ b**2 - 2 *a*b math. cos(gamma_radiano))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 22:46:37)
+-- CODE: 
+import math
+a = float(input("Digite a distância a:" ))
+b = float(input("Digite a distância b:" ))
+gamma_graus = float(input("Digite o ângulo gamma em graus" ))
+
+gamma_radianos = math.radians(gamma_graus)
+
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+
+print(f"A distância entre as árvores é:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 22:44:32)
+-- CODE: 
+import math
+a = float(input("Digite a distancia a:" ))
+b = float(input("Digite a distancia b:" ))
+gamma_graus = float(input("Digite o angulo gamma em graus" ))
+
+gamma_radianos = math.radians(gamma_graus)
+
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:29:54)
+-- CODE: 
+import math
+a=float(input("Digite a distancia a:"))
+b=float(input("Digite a distancia b:"))
+gamma_graus = float(input("Digite o angulo gamma em graus:"))
+gamma_radianos=math.radians(gamma_graus)
+c=math.sqrt(a**2+b**2-2*a*b*math.cos(gamma_radianos))
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:57:34)
+-- CODE: 
+import math
+a=float(input("Digite a distancia a:"))
+b=float(input("Digite a distancia b:"))
+gamma_graus=float(input("Digite o angulo gamma em graus:"))
+gamma_radianos=math.radians(gamma_graus)
+c=math.sqrt(a**2+b**2-2*a*b*math.cos(gamma_radianos))
+print(f"A distancia entre as arvores e:{c:.2f}")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Digite a distancia a:Digite a distancia b:Digite o angulo gamma em graus:A distancia entre as arvores e:9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 16:48:00)
+-- CODE: 
+import math
+a=flout(input("Digite a distancia a:"))
+b=float(input("digite a distancia b:"))
+y_graus=float(input("Digite o angulo y_graus:"))
+y_radianos=math.radianos(y_graus)
+c=math.aby(a**2+b**2-2*a*b*math.cos(y_radianos))
+print(round(A distancia entre as arvores, 2:))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 7
+    print(round(A distancia entre as arvores, 2:))
+                ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 7
+    print(round(A distancia entre as arvores, 2:))
+                ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 7
+    print(round(A distancia entre as arvores, 2:))
+                ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 7
+    print(round(A distancia entre as arvores, 2:))
+                ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 7
+    print(round(A distancia entre as arvores, 2:))
+                ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 7
+    print(round(A distancia entre as arvores, 2:))
+                ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-23 22:49:00)
+-- CODE: 
+import math
+a = float(input("Digite a distância a: "))
+b = float(input("Digite a distância b: "))
+gamma_graus = float(input("Digite o ângulo gamma em graus: "))
+
+gamma_radianos = math.radians(gamma_graus)
+
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+
+print(f"A distância entre as árvores é:{c:.2f}")
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(gamma_radiano))
+                                                     ^^^^^^^^^^^^^
+NameError: name 'gamma_radiano' is not defined. Did you mean: 'gamma_radianos'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

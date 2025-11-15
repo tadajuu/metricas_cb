@@ -1,0 +1,382 @@
+== SUBMISSION (2025-08-25 18:30:02)
+-- CODE: 
+a =  float(input())
+b =  float(input())
+c =  float(input())
+
+resp = (a**2 + b**2 + c**2)/(a + b + c) 
+
+print(round(resp, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+---- user output:
+2.33
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+---- user output:
+25.67
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+---- user output:
+342.87
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+---- user output:
+106.15
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+---- user output:
+83.33
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+---- user output:
+-3.75
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:30:07)
+-- CODE: 
+a =  float(input())
+b =  float(input())
+c =  float(input())
+
+resp = (a**2 + b**2 + c**2)/(a + b + c) 
+
+print(round(resp, 7))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+---- user output:
+2.3333333
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+---- user output:
+25.6666667
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+---- user output:
+342.8680203
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+---- user output:
+106.1509434
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+---- user output:
+83.3333333
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+---- user output:
+-3.75
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:28:53)
+-- CODE: 
+a =  input()
+b =  input()
+c =  input()
+
+resp = (a**2 + b**2 + c**2)/(a + b + c) 
+
+print(resp)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    resp = (a**2 + b**2 + c**2)/(a + b + c) 
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    resp = (a**2 + b**2 + c**2)/(a + b + c) 
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    resp = (a**2 + b**2 + c**2)/(a + b + c) 
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    resp = (a**2 + b**2 + c**2)/(a + b + c) 
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    resp = (a**2 + b**2 + c**2)/(a + b + c) 
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    resp = (a**2 + b**2 + c**2)/(a + b + c) 
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:29:54)
+-- CODE: 
+a =  float(input())
+b =  float(input())
+c =  float(input())
+
+resp = (a**2 + b**2 + c**2)/(a + b + c) 
+
+print(round(resp, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+---- user output:
+2.33
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+---- user output:
+25.67
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+---- user output:
+342.87
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+---- user output:
+106.15
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+---- user output:
+83.33
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+---- user output:
+-3.75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:24:01)
+-- CODE: 
+a =  input()
+b =  input()
+c =  input()
+
+resp = (a**2 + b**2 + c**2)/a + b + c 
+
+print(resp)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+1.0
+2.0
+3.0
+---- correct output:
+2.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    resp = (a**2 + b**2 + c**2)/a + b + c 
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 2:
+---- input:
+20.0
+25.0
+30.0
+---- correct output:
+25.6666667
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    resp = (a**2 + b**2 + c**2)/a + b + c 
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 3:
+---- input:
+235.0
+400.0
+350.0
+---- correct output:
+342.8680203
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    resp = (a**2 + b**2 + c**2)/a + b + c 
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 4:
+---- input:
+90.0
+120.0
+2.0
+---- correct output:
+106.1509434
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    resp = (a**2 + b**2 + c**2)/a + b + c 
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 5:
+---- input:
+100
+50
+0
+---- correct output:
+83.3333333
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    resp = (a**2 + b**2 + c**2)/a + b + c 
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+-- TEST CASE 6:
+---- input:
+-1.0
+-2.0
+-5.0
+---- correct output:
+-3.75
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    resp = (a**2 + b**2 + c**2)/a + b + c 
+            ~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

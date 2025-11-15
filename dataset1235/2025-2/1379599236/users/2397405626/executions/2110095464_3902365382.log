@@ -1,0 +1,290 @@
+== RUN (2025-08-25 18:41:51)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+tempo = float(input("Informe o tempo de viagem em horas: "))
+velocidade = float(input("Informe a velocidade media do veiculo: "))
+
+distancia = velocidade*tempo
+
+print(distancia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+Informe o tempo de viagem em horas: Informe a velocidade media do veiculo: 900.0
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+Informe o tempo de viagem em horas: Informe a velocidade media do veiculo: 600.0
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+Informe o tempo de viagem em horas: Informe a velocidade media do veiculo: 50.0
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+Informe o tempo de viagem em horas: Informe a velocidade media do veiculo: 96.0
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+Informe o tempo de viagem em horas: Informe a velocidade media do veiculo: 3.0
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+Informe o tempo de viagem em horas: Informe a velocidade media do veiculo: 150.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-25 18:43:57)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+tempo = float(input("Informe o tempo de viagem em horas: "))
+velocidade = float(input("Informe a velocidade media do veiculo: "))
+
+distancia = velocidade*tempo
+litros = distancia//12
+
+print(distancia)
+print(litros)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+75.0
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+50.0
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+4.0
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+8.0
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+0.0
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+12.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:39:26)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+tempo = float(input("Informe o tempo de viagem em horas: "))
+velocidade = float(input("Informe a velocidade media do veiculo: "))
+
+distancia = velocidade/tempo
+
+print(distancia)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+Informe o tempo de viagem em horas: Informe a velocidade media do veiculo: 11.11111111111111
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+Informe o tempo de viagem em horas: Informe a velocidade media do veiculo: 24.0
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+Informe o tempo de viagem em horas: Informe a velocidade media do veiculo: 200.0
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+Informe o tempo de viagem em horas: Informe a velocidade media do veiculo: 66.66666666666667
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+Informe o tempo de viagem em horas: Informe a velocidade media do veiculo: 300.0
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+Informe o tempo de viagem em horas: Informe a velocidade media do veiculo: 66.66666666666667
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-25 18:43:49)
+-- CODE: 
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+tempo = float(input("Informe o tempo de viagem em horas: "))
+velocidade = float(input("Informe a velocidade media do veiculo: "))
+
+distancia = velocidade*tempo
+litros = distancia//12
+
+print(distancia)
+print(litros)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+75.0
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+---- user output:
+50.0
+-- TEST CASE 3:
+---- input:
+0.5
+100
+
+---- correct output:
+50.0
+4.166666666666667
+---- user output:
+4.0
+-- TEST CASE 4:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+---- user output:
+8.0
+-- TEST CASE 5:
+---- input:
+0.1
+30
+---- correct output:
+3.0
+0.25
+---- user output:
+0.0
+-- TEST CASE 6:
+---- input:
+1.5
+100.0
+---- correct output:
+150.0
+12.5
+---- user output:
+12.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

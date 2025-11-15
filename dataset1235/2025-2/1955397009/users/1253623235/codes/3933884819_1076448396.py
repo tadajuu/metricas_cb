@@ -1,0 +1,5 @@
+X = float(input("Insira um numero a: "))
+Y = float(input("Insira um numero b: "))
+Z = float(input("Insira um numero c: "))
+fl = (X**2 + Y**2 + Z**2)/(X+Y+Z)
+print(round(fl, 7))

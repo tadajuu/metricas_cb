@@ -54,6 +54,7 @@ class ActiveCodingTime(Metric):
             if abs(date_diff.total_seconds()) <= limit:
                 time_accumulator += date_diff.total_seconds()
             prev_date = date
+
         return time_accumulator
 
     # Propriedades e setters

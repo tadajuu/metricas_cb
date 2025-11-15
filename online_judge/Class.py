@@ -1,4 +1,7 @@
 from os import listdir
+
+import pandas as pd
+
 from online_judge.User import User
 
 __author__ = 'Flávio José Mendes Coelho'
@@ -10,7 +13,10 @@ class Class:
         self.class_id = class_id
         self.class_path: str = semester_path + "/" + self.class_id + "/users"
         self.class_path_assessments: str = semester_path + "/" + self.class_id + "/assessments"
+        self.class_path_assessments_total: str = semester_path + "/" + self.class_id + "/assessments_total.data"
         self.users: dict = self._load_users()
+        self.total_assessments = self._load_total()
+
 
     def _load_users(self) -> dict:
         user_ids: list = listdir(self.class_path)
@@ -24,10 +30,17 @@ class Class:
         finally:
             user_ids.sort()
             for user_id in user_ids:
-                # if user_id == "7568":
+                # if use-r_id == "7568":
                 user = User(user_id, self.class_path)
                 users[user_id] = user
         return users
+
+    def _load_total(self):
+        try:
+            total_assessments = pd.read_csv(self.class_path_assessments_total)
+            return total_assessments
+        except ValueError as e:
+            print(e)
 
     @property
     def class_id(self):

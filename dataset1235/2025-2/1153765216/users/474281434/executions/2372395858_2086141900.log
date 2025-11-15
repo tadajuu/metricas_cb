@@ -1,0 +1,80 @@
+== RUN (2025-08-28 19:16:27)
+-- CODE: 
+from math import *
+
+lado = float (input("digite o lado: "))
+
+undecagano = lado / (2* math.tan(math.pi/11))
+
+x = 4 * lado * undecagano
+
+print(round(x, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+234.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    undecagano = lado / (2* math.tan(math.pi/11))
+                            ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+4
+---- correct output:
+149.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    undecagano = lado / (2* math.tan(math.pi/11))
+                            ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+337.16
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    undecagano = lado / (2* math.tan(math.pi/11))
+                            ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+2
+---- correct output:
+37.46
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    undecagano = lado / (2* math.tan(math.pi/11))
+                            ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+7
+---- correct output:
+458.92
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    undecagano = lado / (2* math.tan(math.pi/11))
+                            ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+3
+---- correct output:
+84.29
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    undecagano = lado / (2* math.tan(math.pi/11))
+                            ^^^^
+NameError: name 'math' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

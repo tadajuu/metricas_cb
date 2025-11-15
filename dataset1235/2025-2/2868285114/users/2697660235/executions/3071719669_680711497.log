@@ -1,0 +1,57 @@
+== SUBMISSION (2025-08-28 22:33:23)
+-- CODE: 
+from math import *
+
+lado = int(input())
+# faça seu código aqui!
+apotema = lado /(2*tan(pi/12))
+area = 6 * lado * apotema
+print (round(area,2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+548.61
+---- user output:
+548.61
+-- TEST CASE 2:
+---- input:
+3
+---- correct output:
+100.77
+---- user output:
+100.77
+-- TEST CASE 3:
+---- input:
+4
+---- correct output:
+179.14
+---- user output:
+179.14
+-- TEST CASE 4:
+---- input:
+5
+---- correct output:
+279.9
+---- user output:
+279.9
+-- TEST CASE 5:
+---- input:
+6
+---- correct output:
+403.06
+---- user output:
+403.06
+-- TEST CASE 6:
+---- input:
+2
+---- correct output:
+44.78
+---- user output:
+44.78
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

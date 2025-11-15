@@ -1,0 +1,102 @@
+== RUN (2025-09-02 13:26:59)
+-- CODE: 
+idade = int(input())
+
+if(idade < 16):
+  print("Nao")
+else:
+  print("Sim")
+
+print(15)
+print()
+print(24)
+print()
+print(16)
+print()
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+111
+---- correct output:
+15
+2 5 6
+24
+2 5 7 8
+16
+2 5 7 8
+---- user output:
+16
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+x
+---- user output:
+16
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 13:27:38)
+-- CODE: 
+idade = int(input())
+
+if(idade < 16):
+  print("Nao")
+else:
+  print("Sim")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+111
+---- correct output:
+15
+2 5 6
+24
+2 5 7 8
+16
+2 5 7 8
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+x
+---- user output:
+Nao
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-02 13:32:28)
+-- CODE: 
+teste = int(input())
+print(15)
+print(2,5,6)
+print(24)
+print(2,5,7,8)
+print(16)
+print(2,5,7,8)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+111
+---- correct output:
+15
+2 5 6
+24
+2 5 7 8
+16
+2 5 7 8
+---- user output:
+2 5 7 8
+-- TEST CASE 2:
+---- input:
+0
+---- correct output:
+x
+---- user output:
+2 5 7 8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

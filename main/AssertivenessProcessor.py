@@ -66,7 +66,6 @@ class AssertivenessProcessor:
                     for codefile in user.codefiles.values():
                         exercise_id = int(online_judge.Helper.extract_exercise_id(codefile.id))
                         assessment_id = int(online_judge.Helper.extract_assessment_id(codefile.id))
-
                         # Salta o Simulado 2: retirar quando for processar o período 2023/2
                         if assessment_id == 4527:
                             continue
@@ -88,7 +87,6 @@ class AssertivenessProcessor:
 
                             keystrokesfile = user.keystrokesfiles[codefile.id]
                             executionsfile = user.executionsfiles[codefile.id]
-
                             assertiv = Assertiveness()
                             assertiv.calculate(codefile, keystrokesfile, executionsfile)
 
@@ -117,7 +115,6 @@ class AssertivenessProcessor:
                             cnt_chars_list.append(assertiv.cnt_chars)
                             cnt_keystrokes_list.append(assertiv.cnt_keystrokes)
                             i += 1
-
         df_assertiv = pd.DataFrame({'ID': id_list,
                                     'DATE_START': start_date_list,
                                     'SEMESTER_ID': semester_id_list,
@@ -165,7 +162,6 @@ class AssertivenessProcessor:
         sum_cnt_keystrokes = 0
         i: int = 1  # conta registros
         for index, row in df_assertiv_exercise.iterrows():
-
             if not bool(row['CONSISTENCY']):
                 continue
             # if not bool(row['CONSISTENCY']) or str(row['ASSESSMENT_TYPE'][:2]).upper() == "TP":

@@ -1,0 +1,73 @@
+== RUN (2025-08-21 16:54:18)
+-- CODE: 
+string = "augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra."
+print(string.lower())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+---- user output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+---- user output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-21 16:54:12)
+-- CODE: 
+string = "augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra."
+print(string.lowe())
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(string.lowe())
+          ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'lowe'. Did you mean: 'lower'?
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(string.lowe())
+          ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'lowe'. Did you mean: 'lower'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-21 16:54:21)
+-- CODE: 
+string = "augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra."
+print(string.lower())
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+---- user output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- TEST CASE 2:
+---- input:
+xx
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+---- user output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

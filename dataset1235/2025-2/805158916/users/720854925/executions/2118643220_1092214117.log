@@ -1,0 +1,120 @@
+== RUN (2025-09-01 14:44:50)
+-- CODE: 
+#Entrada
+Quantidade_De_Praças = int(input("Digite a quantidade de praças de pedágio no caminho:"))
+Taxa_De_Manutenção_Das_Estradas = float(20.00)
+Valor_Do_Pedágio = Quantidade_De_Praças*9.80+Taxa_De_Manutenção_Das_Estradas
+ICMS = (15/100)*Valor_Do_Pedágio
+Custo_total = Valor_Do_Pedágio+ICMS
+#Saída
+Print(round(Custo_total,2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Custo_total,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Custo_total,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Custo_total,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Custo_total,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    Print(round(Custo_total,2))
+    ^^^^^
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:45:30)
+-- CODE: 
+#Entrada
+Quantidade_De_Praças = int(input("Digite a quantidade de praças de pedágio no caminho:"))
+Taxa_De_Manutenção_Das_Estradas = float(20.00)
+Valor_Do_Pedágio = Quantidade_De_Praças*9.80+Taxa_De_Manutenção_Das_Estradas
+ICMS = (15/100)*Valor_Do_Pedágio
+Custo_total = Valor_Do_Pedágio+ICMS
+#Saída
+print(round(Custo_total,2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+56.81
+---- user output:
+Digite a quantidade de praças de pedágio no caminho:56.81
+-- TEST CASE 2:
+---- input:
+1
+---- correct output:
+34.27
+---- user output:
+Digite a quantidade de praças de pedágio no caminho:34.27
+-- TEST CASE 3:
+---- input:
+5
+---- correct output:
+79.35
+---- user output:
+Digite a quantidade de praças de pedágio no caminho:79.35
+-- TEST CASE 4:
+---- input:
+9
+---- correct output:
+124.43
+---- user output:
+Digite a quantidade de praças de pedágio no caminho:124.43
+-- TEST CASE 5:
+---- input:
+2
+---- correct output:
+45.54
+---- user output:
+Digite a quantidade de praças de pedágio no caminho:45.54
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

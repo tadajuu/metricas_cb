@@ -1,0 +1,78 @@
+== SUBMISSION (2025-09-03 00:17:34)
+-- CODE: 
+so = int(input())
+v = int(input())
+t = int(input())
+
+s = v*t + so
+print(s)
+
+if s > 1000:
+  print("Sim")
+else:
+  print("Nao")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0
+10
+20
+---- correct output:
+200
+Nao
+---- user output:
+Nao
+-- TEST CASE 2:
+---- input:
+1
+39
+109
+---- correct output:
+4252
+Sim
+---- user output:
+Sim
+-- TEST CASE 3:
+---- input:
+2
+25
+120
+---- correct output:
+3002
+Sim
+---- user output:
+Sim
+-- TEST CASE 4:
+---- input:
+12
+20
+2
+---- correct output:
+52
+Nao
+---- user output:
+Nao
+-- TEST CASE 5:
+---- input:
+600
+30
+70
+---- correct output:
+2700
+Sim
+---- user output:
+Sim
+-- TEST CASE 6:
+---- input:
+5
+50
+15
+---- correct output:
+755
+Nao
+---- user output:
+Nao
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

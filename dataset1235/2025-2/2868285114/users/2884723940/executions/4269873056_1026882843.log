@@ -1,0 +1,795 @@
+== RUN (2025-08-26 22:28:49)
+-- CODE: 
+raio = float(input())
+area = 3.14 * raio ** 2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+0.0079
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+32.1536
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+38.465
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+452.16
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+221.5584
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+346.185
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 22:29:42)
+-- CODE: 
+raio = float(input())
+area = 3.14 * raio ** 2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+0.0079
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+32.1536
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+38.465
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+452.16
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+221.5584
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+346.185
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 22:28:03)
+-- CODE: 
+raio = float(input())
+area = pi * raio ** 2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio ** 2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio ** 2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio ** 2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio ** 2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio ** 2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio ** 2
+           ^^
+NameError: name 'pi' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 22:32:30)
+-- CODE: 
+raio = float(input())
+area = 3.1416 * raio ** 2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+0.0079
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+32.17
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+38.4846
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+452.3904
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+221.6713
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+346.3614
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 22:29:35)
+-- CODE: 
+raio = float(input())
+area = 3.14 * raio ** 2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+0.01
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+32.15
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+38.47
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+452.16
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+221.56
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+346.19
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 22:30:03)
+-- CODE: 
+raio = float(input())
+area = 3.5 * raio ** 2
+print(round(area,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+0.01
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+35.84
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+42.88
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+504.0
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+246.96
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+385.88
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:28:05)
+-- CODE: 
+raio = float(input())
+area = pi * raio ** 2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio ** 2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio ** 2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio ** 2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio ** 2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio ** 2
+           ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = pi * raio ** 2
+           ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 22:32:58)
+-- CODE: 
+raio = float(input())
+area = math.pi * raio ** 2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = math.pi * raio ** 2
+           ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = math.pi * raio ** 2
+           ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = math.pi * raio ** 2
+           ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = math.pi * raio ** 2
+           ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = math.pi * raio ** 2
+           ^^^^
+NameError: name 'math' is not defined
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    area = math.pi * raio ** 2
+           ^^^^
+NameError: name 'math' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 22:29:22)
+-- CODE: 
+raio = float(input())
+area = 3.14 * raio ** 4
+print(round(area,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+0.0
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+329.2529
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+471.1963
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+65111.04
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+15633.1607
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+38166.8962
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 22:30:32)
+-- CODE: 
+raio = float(input())
+area = 3.13 * raio ** 2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+0.0078
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+32.0512
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+38.3425
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+450.72
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+220.8528
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+345.0825
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 22:30:56)
+-- CODE: 
+raio = float(input())
+area = 3.143 * raio ** 2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+0.0079
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+32.1843
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+38.5017
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+452.592
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+221.7701
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+346.5157
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 22:29:13)
+-- CODE: 
+raio = float(input())
+area = 3 * raio ** 2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+0.0075
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+30.72
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+36.75
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+432.0
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+211.68
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+330.75
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 22:33:15)
+-- CODE: 
+import math
+raio = float(input())
+area = math.pi * raio ** 2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+0.0079
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+32.1699
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+38.4845
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+452.3893
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+221.6708
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+346.3606
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 22:28:47)
+-- CODE: 
+raio = float(input())
+area = 3.14 * raio ** 2
+print(round(area,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+0.05
+---- correct output:
+0.0079
+---- user output:
+0.0079
+-- TEST CASE 2:
+---- input:
+3.2
+---- correct output:
+32.1699
+---- user output:
+32.1536
+-- TEST CASE 3:
+---- input:
+3.5
+---- correct output:
+38.4845
+---- user output:
+38.465
+-- TEST CASE 4:
+---- input:
+12.0
+---- correct output:
+452.3893
+---- user output:
+452.16
+-- TEST CASE 5:
+---- input:
+8.4
+---- correct output:
+221.6708
+---- user output:
+221.5584
+-- TEST CASE 6:
+---- input:
+10.5
+---- correct output:
+346.3606
+---- user output:
+346.185
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

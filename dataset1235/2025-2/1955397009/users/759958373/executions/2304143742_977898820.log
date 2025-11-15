@@ -1,0 +1,62 @@
+== SUBMISSION (2025-09-02 13:50:16)
+-- CODE: 
+renda = float(input())
+prestacao = float(input())
+
+if(prestacao > renda*(20/100)):
+  print("Emprestimo nao aprovado")
+else:
+  print("Emprestimo aprovado")
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+3191.00
+910.31
+---- correct output:
+Emprestimo nao aprovado
+---- user output:
+Emprestimo nao aprovado
+-- TEST CASE 2:
+---- input:
+100.00
+20.00
+---- correct output:
+Emprestimo aprovado
+---- user output:
+Emprestimo aprovado
+-- TEST CASE 3:
+---- input:
+123.45
+10.33
+---- correct output:
+Emprestimo aprovado
+---- user output:
+Emprestimo aprovado
+-- TEST CASE 4:
+---- input:
+220.49
+94.02
+---- correct output:
+Emprestimo nao aprovado
+---- user output:
+Emprestimo nao aprovado
+-- TEST CASE 5:
+---- input:
+100.00
+21.00
+---- correct output:
+Emprestimo nao aprovado
+---- user output:
+Emprestimo nao aprovado
+-- TEST CASE 6:
+---- input:
+11325.00
+325.11
+---- correct output:
+Emprestimo aprovado
+---- user output:
+Emprestimo aprovado
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

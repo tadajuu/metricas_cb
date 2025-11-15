@@ -1,0 +1,6 @@
+a1 = float(input())
+a2 = float(input())
+a3 = float(input())
+a4 = float(input())
+notafinal = ((a1 * 1) + (a2 * 2) + (a3 * 3) + (a4 * 4))/(1+2+3+4)
+print(round(notafinal, 2))

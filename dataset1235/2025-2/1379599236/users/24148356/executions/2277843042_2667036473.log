@@ -1,0 +1,825 @@
+== RUN (2025-08-18 22:59:09)
+-- CODE: 
+Celsius = float(input("Digite um número: "))
+kelvin = Celsius + 273.15
+print(round("Celsius", 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round("Celsius", 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round("Celsius", 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round("Celsius", 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round("Celsius", 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round("Celsius", 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(round("Celsius", 2))
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-18 22:32:38)
+-- CODE: 
+Celsius = float(input())
+kelvin = Celsius + 273.15
+print(round(Celsius, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+20.25
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+-10.0
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+-40.0
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+100.0
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+0.0
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+30.5
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 22:19:20)
+-- CODE: 
+Celsius = float(input())
+kelvin = Celsius + 273.15
+print(round(Celsius, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+20.25
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+-10.0
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+-40.0
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+100.0
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+0.0
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+30.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-18 23:03:06)
+-- CODE: 
+Celsius = float(input("Digite um número: "))
+kelvin = Celsius + 273.15
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+Digite um número: 293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+Digite um número: 263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+Digite um número: 233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+Digite um número: 373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+Digite um número: 273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+Digite um número: 303.65
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 23:02:40)
+-- CODE: 
+Celsius = float(input("Digite um número: "))
+kelvin = Celsius + 273.15
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+Digite um número: 293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+Digite um número: 263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+Digite um número: 233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+Digite um número: 373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+Digite um número: 273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+Digite um número: 303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 22:10:00)
+-- CODE: 
+Celsius = float(input())
+kelvin = celsius + 273.15
+print(round('kelvin, 2'))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 23:02:24)
+-- CODE: 
+Celsius = float(input("Digite um número: "))
+kelvin = Celsius + 273.15
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+Digite um número: 293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+Digite um número: 263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+Digite um número: 233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+Digite um número: 373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+Digite um número: 273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+Digite um número: 303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 22:18:30)
+-- CODE: 
+Celsius = float(input(25))
+kelvin = celsius + 273.15
+print(round(celsius, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 23:00:36)
+-- CODE: 
+Celsius = float(input("Digite um número: "))
+x = kelvin
+kelvin = Celsius + 273.15
+print(round(x, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    x = kelvin
+        ^^^^^^
+NameError: name 'kelvin' is not defined
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    x = kelvin
+        ^^^^^^
+NameError: name 'kelvin' is not defined
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    x = kelvin
+        ^^^^^^
+NameError: name 'kelvin' is not defined
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    x = kelvin
+        ^^^^^^
+NameError: name 'kelvin' is not defined
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    x = kelvin
+        ^^^^^^
+NameError: name 'kelvin' is not defined
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    x = kelvin
+        ^^^^^^
+NameError: name 'kelvin' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-18 22:09:50)
+-- CODE: 
+Celsius = float(input())
+kelvin = celsius + 273.15
+print(round('kelvin, 2'))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 23:01:56)
+-- CODE: 
+Celsius = float(input("Digite um número: "))
+kelvin = Celsius + 273.15
+print(round(kelvin, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+---- user output:
+Digite um número: 293.4
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+---- user output:
+Digite um número: 263.15
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+---- user output:
+Digite um número: 233.15
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+---- user output:
+Digite um número: 373.15
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+---- user output:
+Digite um número: 273.15
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+---- user output:
+Digite um número: 303.65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 22:09:28)
+-- CODE: 
+Celsius = float(input())
+kelvin = celsius + 273.15
+print(round('kelvin, 2'))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 22:18:42)
+-- CODE: 
+Celsius = float(input())
+kelvin = celsius + 273.15
+print(round(celsius, 2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+20.25
+---- correct output:
+293.4
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 2:
+---- input:
+-10.0
+---- correct output:
+263.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 3:
+---- input:
+-40.0
+---- correct output:
+233.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 4:
+---- input:
+100.0
+---- correct output:
+373.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 5:
+---- input:
+0.0
+---- correct output:
+273.15
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+-- TEST CASE 6:
+---- input:
+30.5
+---- correct output:
+303.65
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    kelvin = celsius + 273.15
+             ^^^^^^^
+NameError: name 'celsius' is not defined. Did you mean: 'Celsius'?
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

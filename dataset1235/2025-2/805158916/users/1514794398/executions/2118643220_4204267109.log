@@ -1,0 +1,812 @@
+== SUBMISSION (2025-09-01 14:51:19)
+-- CODE: 
+peso_saco = float(input())
+
+racao_diaria = float(input))
+
+racao_semanal_consumida = racao_diaria*7
+
+racao_restante = peso_saco - racao_semanal_consumida
+
+racao_restante _arredondada = round(racao_restante,4)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9084
+29.06
+---- correct output:
+8880.58
+-- ERROR:
+File "XXXX", line 3
+    racao_diaria = float(input))
+                               ^
+SyntaxError: unmatched ')'
+-- TEST CASE 2:
+---- input:
+1353.92
+73.14
+---- correct output:
+841.94
+-- ERROR:
+File "XXXX", line 3
+    racao_diaria = float(input))
+                               ^
+SyntaxError: unmatched ')'
+-- TEST CASE 3:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.5633
+-- ERROR:
+File "XXXX", line 3
+    racao_diaria = float(input))
+                               ^
+SyntaxError: unmatched ')'
+-- TEST CASE 4:
+---- input:
+1333.87
+77.43
+---- correct output:
+791.86
+-- ERROR:
+File "XXXX", line 3
+    racao_diaria = float(input))
+                               ^
+SyntaxError: unmatched ')'
+-- TEST CASE 5:
+---- input:
+2045.3
+14.73
+---- correct output:
+1942.19
+-- ERROR:
+File "XXXX", line 3
+    racao_diaria = float(input))
+                               ^
+SyntaxError: unmatched ')'
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.5633
+-- ERROR:
+File "XXXX", line 3
+    racao_diaria = float(input))
+                               ^
+SyntaxError: unmatched ')'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:53:09)
+-- CODE: 
+peso_saco = float(input())
+
+racao_diaria = float(input())
+
+racao_semanal_consumida = racao_diaria*7
+
+racao_restante = peso_saco-racao_semanal_consumida
+
+racao_restante _arredondada = round(racao_restante,4)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9084
+29.06
+---- correct output:
+8880.58
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1353.92
+73.14
+---- correct output:
+841.94
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.5633
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1333.87
+77.43
+---- correct output:
+791.86
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+2045.3
+14.73
+---- correct output:
+1942.19
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.5633
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:42:27)
+-- CODE: 
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9084
+29.06
+---- correct output:
+8880.58
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+1353.92
+73.14
+---- correct output:
+841.94
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.5633
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+1333.87
+77.43
+---- correct output:
+791.86
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+2045.3
+14.73
+---- correct output:
+1942.19
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.5633
+---- user output:
+None
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:57:27)
+-- CODE: 
+psr = float(input("digite o peso"))
+
+qpd = float(input("quantidade diaria"))
+
+qpd = psr - (4*qpd)
+
+print(round(qpd,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9084
+29.06
+---- correct output:
+8880.58
+---- user output:
+digite o pesoquantidade diaria8967.76
+-- TEST CASE 2:
+---- input:
+1353.92
+73.14
+---- correct output:
+841.94
+---- user output:
+digite o pesoquantidade diaria1061.36
+-- TEST CASE 3:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.5633
+---- user output:
+digite o pesoquantidade diaria919.8933
+-- TEST CASE 4:
+---- input:
+1333.87
+77.43
+---- correct output:
+791.86
+---- user output:
+digite o pesoquantidade diaria1024.15
+-- TEST CASE 5:
+---- input:
+2045.3
+14.73
+---- correct output:
+1942.19
+---- user output:
+digite o pesoquantidade diaria1986.38
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.5633
+---- user output:
+digite o pesoquantidade diaria7919.8933
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:52:02)
+-- CODE: 
+peso_saco = float(input())
+
+racao_diaria = float(input())
+
+racao_semanal_consumida = racao_diaria*7
+
+racao_restante = peso_saco - racao_semanal_consumida
+
+racao_restante _arredondada = round(racao_restante,4)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9084
+29.06
+---- correct output:
+8880.58
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1353.92
+73.14
+---- correct output:
+841.94
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.5633
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1333.87
+77.43
+---- correct output:
+791.86
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+2045.3
+14.73
+---- correct output:
+1942.19
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.5633
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:57:42)
+-- CODE: 
+psr = float(input("digite o peso"))
+
+qpd = float(input("quantidade diaria"))
+
+qpd = psr - (7*qpd)
+
+print(round(qpd,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9084
+29.06
+---- correct output:
+8880.58
+---- user output:
+digite o pesoquantidade diaria8880.58
+-- TEST CASE 2:
+---- input:
+1353.92
+73.14
+---- correct output:
+841.94
+---- user output:
+digite o pesoquantidade diaria841.94
+-- TEST CASE 3:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.5633
+---- user output:
+digite o pesoquantidade diaria859.5633
+-- TEST CASE 4:
+---- input:
+1333.87
+77.43
+---- correct output:
+791.86
+---- user output:
+digite o pesoquantidade diaria791.86
+-- TEST CASE 5:
+---- input:
+2045.3
+14.73
+---- correct output:
+1942.19
+---- user output:
+digite o pesoquantidade diaria1942.19
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.5633
+---- user output:
+digite o pesoquantidade diaria7859.5633
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:52:00)
+-- CODE: 
+peso_saco = float(input())
+
+racao_diaria = float(input())
+
+racao_semanal_consumida = racao_diaria*7
+
+racao_restante = peso_saco - racao_semanal_consumida
+
+racao_restante _arredondada = round(racao_restante,4)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9084
+29.06
+---- correct output:
+8880.58
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1353.92
+73.14
+---- correct output:
+841.94
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.5633
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1333.87
+77.43
+---- correct output:
+791.86
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+2045.3
+14.73
+---- correct output:
+1942.19
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.5633
+-- ERROR:
+File "XXXX", line 9
+    racao_restante _arredondada = round(racao_restante,4)
+                   ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:33:41)
+-- CODE: 
+peso_saco= float(input("digite o peso do saco de racao: "))
+
+racao_diaria = float(input("digite a quantidade diaria de racao"))
+
+peso_saco / racao_diaria 
+
+print(round(peso_saco,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9084
+29.06
+---- correct output:
+8880.58
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao9084.0
+-- TEST CASE 2:
+---- input:
+1353.92
+73.14
+---- correct output:
+841.94
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao1353.92
+-- TEST CASE 3:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.5633
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao1000.3333
+-- TEST CASE 4:
+---- input:
+1333.87
+77.43
+---- correct output:
+791.86
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao1333.87
+-- TEST CASE 5:
+---- input:
+2045.3
+14.73
+---- correct output:
+1942.19
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao2045.3
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.5633
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao8000.3333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:57:25)
+-- CODE: 
+psr = float(input("digite o peso"))
+
+qpd = float(input("quantidade diaria"))
+
+qpd = psr - (4*qpd)
+
+print(round(qpd,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9084
+29.06
+---- correct output:
+8880.58
+---- user output:
+digite o pesoquantidade diaria8967.76
+-- TEST CASE 2:
+---- input:
+1353.92
+73.14
+---- correct output:
+841.94
+---- user output:
+digite o pesoquantidade diaria1061.36
+-- TEST CASE 3:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.5633
+---- user output:
+digite o pesoquantidade diaria919.8933
+-- TEST CASE 4:
+---- input:
+1333.87
+77.43
+---- correct output:
+791.86
+---- user output:
+digite o pesoquantidade diaria1024.15
+-- TEST CASE 5:
+---- input:
+2045.3
+14.73
+---- correct output:
+1942.19
+---- user output:
+digite o pesoquantidade diaria1986.38
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.5633
+---- user output:
+digite o pesoquantidade diaria7919.8933
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:41:44)
+-- CODE: 
+ps = float(input("digite o peso do saco de racao: "))
+
+rd = float(input("digite a quantidade diaria de racao: "))
+
+rd * 7 - 8000.3333
+
+print(round(rd,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9084
+29.06
+---- correct output:
+8880.58
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao: 29.06
+-- TEST CASE 2:
+---- input:
+1353.92
+73.14
+---- correct output:
+841.94
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao: 73.14
+-- TEST CASE 3:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.5633
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao: 20.11
+-- TEST CASE 4:
+---- input:
+1333.87
+77.43
+---- correct output:
+791.86
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao: 77.43
+-- TEST CASE 5:
+---- input:
+2045.3
+14.73
+---- correct output:
+1942.19
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao: 14.73
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.5633
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao: 20.11
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:53:20)
+-- CODE: 
+peso_saco = float(input())
+
+racao_diaria = float(input())
+
+racao_semanal_consumida = racao_diaria*7
+
+racao_restante = peso_saco-racao_semanal_consumida
+
+racao_restante_arredondada = round(racao_restante,4)
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+9084
+29.06
+---- correct output:
+8880.58
+---- user output:
+None
+-- TEST CASE 2:
+---- input:
+1353.92
+73.14
+---- correct output:
+841.94
+---- user output:
+None
+-- TEST CASE 3:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.5633
+---- user output:
+None
+-- TEST CASE 4:
+---- input:
+1333.87
+77.43
+---- correct output:
+791.86
+---- user output:
+None
+-- TEST CASE 5:
+---- input:
+2045.3
+14.73
+---- correct output:
+1942.19
+---- user output:
+None
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.5633
+---- user output:
+None
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:34:08)
+-- CODE: 
+peso_saco= float(input("digite o peso do saco de racao: "))
+
+racao_diaria = float(input("digite a quantidade diaria de racao"))
+
+peso_saco / racao_diaria 
+
+print(round(peso_saco,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+9084
+29.06
+---- correct output:
+8880.58
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao9084.0
+-- TEST CASE 2:
+---- input:
+1353.92
+73.14
+---- correct output:
+841.94
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao1353.92
+-- TEST CASE 3:
+---- input:
+1000.3333
+20.11
+---- correct output:
+859.5633
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao1000.3333
+-- TEST CASE 4:
+---- input:
+1333.87
+77.43
+---- correct output:
+791.86
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao1333.87
+-- TEST CASE 5:
+---- input:
+2045.3
+14.73
+---- correct output:
+1942.19
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao2045.3
+-- TEST CASE 6:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7859.5633
+---- user output:
+digite o peso do saco de racao: digite a quantidade diaria de racao8000.3333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

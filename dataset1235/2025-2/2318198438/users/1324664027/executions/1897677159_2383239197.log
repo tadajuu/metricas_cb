@@ -1,0 +1,1612 @@
+== SUBMISSION (2025-08-18 21:19:52)
+-- CODE: 
+a = float(input("a: "))
+b = float(input("b: "))
+y = float(input("y: "))
+
+from math import cos, radians
+x = radians(y)
+c = (a**2 + b**2 - 2*a*b*cos(x))**(1/2)
+
+print(round((c), 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+a: b: y: 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+a: b: y: 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+a: b: y: 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+a: b: y: 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+a: b: y: 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+a: b: y: 9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:08:01)
+-- CODE: 
+from math import*
+
+a = input(int())
+b = input(int())
+y = input(int())
+y = radians(y)
+
+print(y)
+
+
+
+
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:00:36)
+-- CODE: 
+import math*
+
+print(pi)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 1
+    import math*
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 1
+    import math*
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 1
+    import math*
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 1
+    import math*
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 1
+    import math*
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 1
+    import math*
+               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:09:26)
+-- CODE: 
+from math import*
+
+a = input(float("1"))
+b = input(float("2"))
+y = input(float("3"))
+j = radians(y)
+
+print(y)
+
+
+
+
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 21:17:34)
+-- CODE: 
+a = float(input("a: "))
+b = float(input("b: "))
+c = float(input("y: "))
+
+from math import cos 
+
+c = (a**2 + b**2 - 2*a*b*cos(y))**(1/2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (a**2 + b**2 - 2*a*b*cos(y))**(1/2)
+                                 ^
+NameError: name 'y' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (a**2 + b**2 - 2*a*b*cos(y))**(1/2)
+                                 ^
+NameError: name 'y' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (a**2 + b**2 - 2*a*b*cos(y))**(1/2)
+                                 ^
+NameError: name 'y' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (a**2 + b**2 - 2*a*b*cos(y))**(1/2)
+                                 ^
+NameError: name 'y' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (a**2 + b**2 - 2*a*b*cos(y))**(1/2)
+                                 ^
+NameError: name 'y' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (a**2 + b**2 - 2*a*b*cos(y))**(1/2)
+                                 ^
+NameError: name 'y' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:07:52)
+-- CODE: 
+from math import*
+
+a = input(int())
+b = input(int())
+y = input(int())
+y = radians(y)
+
+print(y)
+
+c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+
+
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:07:51)
+-- CODE: 
+from math import*
+
+a = input(int())
+b = input(int())
+y = input(int())
+y = radians(y)
+
+print(y)
+
+c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+
+
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:02:41)
+-- CODE: 
+from math import*
+
+print(pi)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+3.141592653589793
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+3.141592653589793
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+3.141592653589793
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+3.141592653589793
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+3.141592653589793
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+3.141592653589793
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:08:27)
+-- CODE: 
+from math import*
+
+a = input(int("1"))
+b = input(int("2"))
+y = input(int("3"))
+y = radians(y)
+
+print(y)
+
+
+
+
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:08:20)
+-- CODE: 
+from math import*
+
+a = input(int("1"))
+b = input(int("2"))
+y = input(int("3"))
+y = radians(y)
+
+print(y)
+
+
+
+
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:07:52)
+-- CODE: 
+from math import*
+
+a = input(int())
+b = input(int())
+y = input(int())
+y = radians(y)
+
+print(y)
+
+c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+
+
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 10
+    c = ((a**2)+(b**2)*(-2*a*b)*(cos(y))
+        ^
+SyntaxError: '(' was never closed
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:12:58)
+-- CODE: 
+import math
+
+a = input(float("1"))
+b = input(float("2"))
+y = input(float("3"))
+j = math.radians(y)
+k = math.cos(j)
+
+print(k)
+
+
+
+
+
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = math.radians(y)
+        ^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = math.radians(y)
+        ^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = math.radians(y)
+        ^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = math.radians(y)
+        ^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = math.radians(y)
+        ^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = math.radians(y)
+        ^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:00:41)
+-- CODE: 
+import math
+
+print(pi)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(pi)
+          ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(pi)
+          ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(pi)
+          ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(pi)
+          ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(pi)
+          ^^
+NameError: name 'pi' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print(pi)
+          ^^
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-18 21:16:48)
+-- CODE: 
+float(input("a: "))
+float(input("b: "))
+float(input("y: "))
+
+from math import cos 
+
+c = (a**2 + b**2 - 2*a*b*cos(y))**(1/2)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (a**2 + b**2 - 2*a*b*cos(y))**(1/2)
+         ^
+NameError: name 'a' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (a**2 + b**2 - 2*a*b*cos(y))**(1/2)
+         ^
+NameError: name 'a' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (a**2 + b**2 - 2*a*b*cos(y))**(1/2)
+         ^
+NameError: name 'a' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (a**2 + b**2 - 2*a*b*cos(y))**(1/2)
+         ^
+NameError: name 'a' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (a**2 + b**2 - 2*a*b*cos(y))**(1/2)
+         ^
+NameError: name 'a' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    c = (a**2 + b**2 - 2*a*b*cos(y))**(1/2)
+         ^
+NameError: name 'a' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:09:49)
+-- CODE: 
+from math import*
+
+a = input(float("1"))
+b = input(float("2"))
+y = input(int("3"))
+j = radians(y)
+
+print(y)
+
+
+
+
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:09:46)
+-- CODE: 
+from math import*
+
+a = input(float("1"))
+b = input(float("2"))
+y = input(int("3"))
+j = radians(y)
+
+print(y)
+
+
+
+
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:01:56)
+-- CODE: 
+import math
+
+print(math.pi)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+3.141592653589793
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+3.141592653589793
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+3.141592653589793
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+3.141592653589793
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+3.141592653589793
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+3.141592653589793
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 23:08:49)
+-- CODE: 
+from math import*
+
+a = input(int("1"))
+b = input(int("2"))
+y = input(int("3"))
+j = radians(y)
+
+print(y)
+
+
+
+
+print(round(c, 2))
+
+
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    j = radians(y)
+        ^^^^^^^^^^
+TypeError: must be real number, not str
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

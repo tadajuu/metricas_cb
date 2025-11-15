@@ -1,0 +1,1265 @@
+== RUN (2025-08-15 02:12:32)
+-- CODE: 
+import math
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = float(input("Quando mede o ângulo entre as distâncias em graus? "))
+
+C = math.sqrt(a**2+b**2-2*a*b*math.cos(y))
+print(C.ff)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(C.ff)
+          ^^^^
+AttributeError: 'float' object has no attribute 'ff'
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(C.ff)
+          ^^^^
+AttributeError: 'float' object has no attribute 'ff'
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(C.ff)
+          ^^^^
+AttributeError: 'float' object has no attribute 'ff'
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(C.ff)
+          ^^^^
+AttributeError: 'float' object has no attribute 'ff'
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(C.ff)
+          ^^^^
+AttributeError: 'float' object has no attribute 'ff'
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(C.ff)
+          ^^^^
+AttributeError: 'float' object has no attribute 'ff'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:11:53)
+-- CODE: 
+import math
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = float(input("Quando mede o ângulo entre as distâncias em graus? "))
+
+C = math.sqrt(a**2+b**2-2*a*b*math.cos(y))
+print(C):.2f
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 8
+    print(C):.2f
+              ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 8
+    print(C):.2f
+              ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 8
+    print(C):.2f
+              ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 8
+    print(C):.2f
+              ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 8
+    print(C):.2f
+              ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 8
+    print(C):.2f
+              ^
+SyntaxError: invalid decimal literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:12:20)
+-- CODE: 
+import math
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = float(input("Quando mede o ângulo entre as distâncias em graus? "))
+
+C = math.sqrt(a**2+b**2-2*a*b*math.cos(y))
+print(C:.f)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 8
+    print(C:.f)
+           ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 8
+    print(C:.f)
+           ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 8
+    print(C:.f)
+           ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 8
+    print(C:.f)
+           ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 8
+    print(C:.f)
+           ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 8
+    print(C:.f)
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:15:49)
+-- CODE: 
+from math import cos()
+from math import sqrt
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = float(input("Quando mede o ângulo entre as distâncias em graus? "))
+
+C = sqrt(a**2+b**2-2*a*b*cos(y))
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 1
+    from math import cos()
+                        ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 1
+    from math import cos()
+                        ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 1
+    from math import cos()
+                        ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 1
+    from math import cos()
+                        ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 1
+    from math import cos()
+                        ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 1
+    from math import cos()
+                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:16:58)
+-- CODE: 
+from math import cos
+from math import sqrt
+from math import radians
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = radians(float(input("Quando mede o ângulo entre as distâncias em graus? ")))
+
+C = sqrt(a**2+b**2-2*a*b*cos(y))
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 9.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:12:04)
+-- CODE: 
+import math
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = float(input("Quando mede o ângulo entre as distâncias em graus? "))
+
+C = math.sqrt(a**2+b**2-2*a*b*math.cos(y))
+print(C.2f)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 8
+    print(C.2f)
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 8
+    print(C.2f)
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 8
+    print(C.2f)
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 8
+    print(C.2f)
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 8
+    print(C.2f)
+            ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 8
+    print(C.2f)
+            ^
+SyntaxError: invalid decimal literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:15:57)
+-- CODE: 
+from math import cos
+from math import sqrt
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = float(input("Quando mede o ângulo entre as distâncias em graus? "))
+
+C = sqrt(a**2+b**2-2*a*b*cos(y))
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 02:14:49)
+-- CODE: 
+import math
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = float(input("Quando mede o ângulo entre as distâncias em graus? "))
+
+C = math.sqrt(a**2+b**2-2*a*b*math.cos(y))
+print(round(C,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 17.79
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:12:09)
+-- CODE: 
+import math
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = float(input("Quando mede o ângulo entre as distâncias em graus? "))
+
+C = math.sqrt(a**2+b**2-2*a*b*math.cos(y))
+print(C:.2f)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 8
+    print(C:.2f)
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 8
+    print(C:.2f)
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 8
+    print(C:.2f)
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 8
+    print(C:.2f)
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 8
+    print(C:.2f)
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 8
+    print(C:.2f)
+             ^
+SyntaxError: invalid decimal literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:16:34)
+-- CODE: 
+from math import cos
+from math import sqrt
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = radians(float(input("Quando mede o ângulo entre as distâncias em graus? ")))
+
+C = sqrt(a**2+b**2-2*a*b*cos(y))
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(float(input("Quando mede o ângulo entre as distâncias em graus? ")))
+        ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(float(input("Quando mede o ângulo entre as distâncias em graus? ")))
+        ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(float(input("Quando mede o ângulo entre as distâncias em graus? ")))
+        ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(float(input("Quando mede o ângulo entre as distâncias em graus? ")))
+        ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(float(input("Quando mede o ângulo entre as distâncias em graus? ")))
+        ^^^^^^^
+NameError: name 'radians' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    y = radians(float(input("Quando mede o ângulo entre as distâncias em graus? ")))
+        ^^^^^^^
+NameError: name 'radians' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:14:12)
+-- CODE: 
+import math
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = float(input("Quando mede o ângulo entre as distâncias em graus? "))
+
+C = math.sqrt(a**2+b**2-2*a*b*math.cos(y))
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:13:17)
+-- CODE: 
+import math
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = float(input("Quando mede o ângulo entre as distâncias em graus? "))
+
+C = math.sqrt(a**2+b**2-2*a*b*math.cos(y))
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 111.68
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 25.64
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 22.55
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 1.94
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 56.82
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 17.79
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:12:26)
+-- CODE: 
+import math
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = float(input("Quando mede o ângulo entre as distâncias em graus? "))
+
+C = math.sqrt(a**2+b**2-2*a*b*math.cos(y))
+print(C.f)
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(C.f)
+          ^^^
+AttributeError: 'float' object has no attribute 'f'
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(C.f)
+          ^^^
+AttributeError: 'float' object has no attribute 'f'
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(C.f)
+          ^^^
+AttributeError: 'float' object has no attribute 'f'
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(C.f)
+          ^^^
+AttributeError: 'float' object has no attribute 'f'
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(C.f)
+          ^^^
+AttributeError: 'float' object has no attribute 'f'
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(C.f)
+          ^^^
+AttributeError: 'float' object has no attribute 'f'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-15 02:11:45)
+-- CODE: 
+import math
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = float(input("Quando mede o ângulo entre as distâncias em graus? "))
+
+C = math.sqrt(a**2+b**2-2*a*b*math.cos(y))
+print(C).2f
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+File "XXXX", line 8
+    print(C).2f
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+File "XXXX", line 8
+    print(C).2f
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+File "XXXX", line 8
+    print(C).2f
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+File "XXXX", line 8
+    print(C).2f
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+File "XXXX", line 8
+    print(C).2f
+             ^
+SyntaxError: invalid decimal literal
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+File "XXXX", line 8
+    print(C).2f
+             ^
+SyntaxError: invalid decimal literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-15 02:17:14)
+-- CODE: 
+from math import cos
+from math import sqrt
+from math import radians
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = radians(float(input("Quando mede o ângulo entre as distâncias em graus? ")))
+
+C = sqrt(a**2+b**2-2*a*b*cos(y))
+print(round(C,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quando mede o ângulo entre as distâncias em graus? 9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-27 03:05:35)
+-- CODE: 
+from math import cos
+from math import sqrt
+from math import radians
+
+a = float(input("Qual a distância à primeira árvore?" ))
+b = float(input("Qual a distância à segunda árvore?" ))
+y = radians(float(input("Quanto mede o ângulo entre as distâncias em graus? ")))
+
+C = sqrt(a**2+b**2-2*a*b*cos(y))
+print(round(C,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quanto mede o ângulo entre as distâncias em graus? 87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quanto mede o ângulo entre as distâncias em graus? 16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quanto mede o ângulo entre as distâncias em graus? 17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quanto mede o ângulo entre as distâncias em graus? 1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quanto mede o ângulo entre as distâncias em graus? 54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Qual a distância à primeira árvore?Qual a distância à segunda árvore?Quanto mede o ângulo entre as distâncias em graus? 9.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

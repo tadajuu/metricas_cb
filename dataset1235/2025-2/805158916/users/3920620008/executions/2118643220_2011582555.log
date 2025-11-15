@@ -1,0 +1,108 @@
+== SUBMISSION (2025-09-01 14:47:26)
+-- CODE: 
+from math import *
+lado = int( input( " comprimento do lado hexágono: "))
+opotema = lado /( 2*tan(pi/6))
+area = 3* lado * opotema 
+print( round( area, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+127.31
+---- user output:
+comprimento do lado hexágono: 127.31
+-- TEST CASE 2:
+---- input:
+5
+---- correct output:
+64.95
+---- user output:
+comprimento do lado hexágono: 64.95
+-- TEST CASE 3:
+---- input:
+4
+---- correct output:
+41.57
+---- user output:
+comprimento do lado hexágono: 41.57
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+93.53
+---- user output:
+comprimento do lado hexágono: 93.53
+-- TEST CASE 5:
+---- input:
+3
+---- correct output:
+23.38
+---- user output:
+comprimento do lado hexágono: 23.38
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+166.28
+---- user output:
+comprimento do lado hexágono: 166.28
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:45:00)
+-- CODE: 
+from math import *
+lado = int( input( " comprimento do lado hexágono: "))
+opotema = lado /( 2*tan(pi/8))
+area = 4* lado * opotema 
+print( round( area, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+127.31
+---- user output:
+comprimento do lado hexágono: 236.59
+-- TEST CASE 2:
+---- input:
+5
+---- correct output:
+64.95
+---- user output:
+comprimento do lado hexágono: 120.71
+-- TEST CASE 3:
+---- input:
+4
+---- correct output:
+41.57
+---- user output:
+comprimento do lado hexágono: 77.25
+-- TEST CASE 4:
+---- input:
+6
+---- correct output:
+93.53
+---- user output:
+comprimento do lado hexágono: 173.82
+-- TEST CASE 5:
+---- input:
+3
+---- correct output:
+23.38
+---- user output:
+comprimento do lado hexágono: 43.46
+-- TEST CASE 6:
+---- input:
+8
+---- correct output:
+166.28
+---- user output:
+comprimento do lado hexágono: 309.02
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

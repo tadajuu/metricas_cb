@@ -1,0 +1,215 @@
+== RUN (2025-09-01 14:12:34)
+-- CODE: 
+p =int(input("quantidade de ração em gramas:"))
+q = int(input("qantidade diária de ração: "))
+r = p - q*6
+prin(round(r,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7879.6733
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    p =int(input("quantidade de ração em gramas:"))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8000.3333'
+-- TEST CASE 2:
+---- input:
+1962.55
+15.11
+---- correct output:
+1871.89
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    p =int(input("quantidade de ração em gramas:"))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1962.55'
+-- TEST CASE 3:
+---- input:
+2688.88
+18.68
+---- correct output:
+2576.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    p =int(input("quantidade de ração em gramas:"))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2688.88'
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+879.6733
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    p =int(input("quantidade de ração em gramas:"))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1000.3333'
+-- TEST CASE 5:
+---- input:
+2697.2
+31.82
+---- correct output:
+2506.28
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    p =int(input("quantidade de ração em gramas:"))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2697.2'
+-- TEST CASE 6:
+---- input:
+1338.40
+14.10
+---- correct output:
+1253.8
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    p =int(input("quantidade de ração em gramas:"))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1338.40'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-09-01 14:13:45)
+-- CODE: 
+p =float(input("quantidade de ração em gramas: "))
+q = float(input("quantidade diária de ração: "))
+r = p - q*6
+print(round(r,4))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7879.6733
+---- user output:
+quantidade de ração em gramas: quantidade diária de ração: 7879.6733
+-- TEST CASE 2:
+---- input:
+1962.55
+15.11
+---- correct output:
+1871.89
+---- user output:
+quantidade de ração em gramas: quantidade diária de ração: 1871.89
+-- TEST CASE 3:
+---- input:
+2688.88
+18.68
+---- correct output:
+2576.8
+---- user output:
+quantidade de ração em gramas: quantidade diária de ração: 2576.8
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+879.6733
+---- user output:
+quantidade de ração em gramas: quantidade diária de ração: 879.6733
+-- TEST CASE 5:
+---- input:
+2697.2
+31.82
+---- correct output:
+2506.28
+---- user output:
+quantidade de ração em gramas: quantidade diária de ração: 2506.28
+-- TEST CASE 6:
+---- input:
+1338.40
+14.10
+---- correct output:
+1253.8
+---- user output:
+quantidade de ração em gramas: quantidade diária de ração: 1253.8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-09-01 14:12:28)
+-- CODE: 
+p =int(input("quantidade de ração em gramas:"))
+q = int(input("qantidade diária de ração: "))
+r = p - q*6
+prin(round(,4))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+8000.3333
+20.11
+---- correct output:
+7879.6733
+-- ERROR:
+File "XXXX", line 4
+    prin(round(,4))
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 2:
+---- input:
+1962.55
+15.11
+---- correct output:
+1871.89
+-- ERROR:
+File "XXXX", line 4
+    prin(round(,4))
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 3:
+---- input:
+2688.88
+18.68
+---- correct output:
+2576.8
+-- ERROR:
+File "XXXX", line 4
+    prin(round(,4))
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 4:
+---- input:
+1000.3333
+20.11
+---- correct output:
+879.6733
+-- ERROR:
+File "XXXX", line 4
+    prin(round(,4))
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 5:
+---- input:
+2697.2
+31.82
+---- correct output:
+2506.28
+-- ERROR:
+File "XXXX", line 4
+    prin(round(,4))
+               ^
+SyntaxError: invalid syntax
+-- TEST CASE 6:
+---- input:
+1338.40
+14.10
+---- correct output:
+1253.8
+-- ERROR:
+File "XXXX", line 4
+    prin(round(,4))
+               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

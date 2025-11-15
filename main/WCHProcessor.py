@@ -77,7 +77,7 @@ class WeeklyCodingHoursProcessor:
                             try:
                                 _, _, assessment_type, assessment_title, start_date, end_date = online_judge.LUT_assessments[cls.class_id][assessment_id]
                             except Exception:
-                                print("WCHProcessor::_process_report_ACT_by_student_exercise: Pulou assessment_id: ", assessment_id)
+                                #print("WCHProcessor::_process_report_ACT_by_student_exercise: Pulou assessment_id: ", assessment_id)
                                 continue
 
                             keystrokesfile = user.keystrokesfiles[codefile.id]
@@ -276,14 +276,17 @@ class WeeklyCodingHoursProcessor:
 
             total_days_assessment = self._get_total_days_assessments(set_strdate_pairs, df_in, j)
             sum_active_coding_time_hours = sum_active_coding_time / 3600  # converte para horas
-            wch_assessment = sum_active_coding_time_hours / total_days_assessment * DAYS_PER_WEEK
+            if(total_days_assessment == 0):
+                wch_assessment = 0
+            else:
+                wch_assessment = sum_active_coding_time_hours / total_days_assessment * DAYS_PER_WEEK
             # wch_assessment_list.append(round(wch_assessment, self.DECIMAL_PLACES))
             wch_hhmm_assessment_list.append(self.converts_decimal_hours_to_hhmm_format(wch_assessment))
 
             # num_score é o próprio valor da métrica. Esse valor corresponde a um conceito I, R, B ou O. Esse conceitos são
             # chamados de grade.
             num_score = round(wch_assessment, self.DECIMAL_PLACES)
-            wch_assessment_list.append(num_score)
+            wch_assessment_list.append(num_score * 10)
 
             # Obtém um conceito IRBO a partir do valor da assertividade, isto é, num_score.
             wch_IRBO_grade_list.append(

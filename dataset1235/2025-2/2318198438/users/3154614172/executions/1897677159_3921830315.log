@@ -1,0 +1,904 @@
+== SUBMISSION (2025-08-26 01:23:16)
+-- CODE: 
+litros_abastecidos = float(input('Informe os litros abastecidos'*2.86))
+troca_de_oleo = float(50.00)
+
+t1 = float(litros_abastecidos + troca_de_oleo)
+total = float(t1*(34/100))
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = float(input('Informe os litros abastecidos'*2.86))
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = float(input('Informe os litros abastecidos'*2.86))
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = float(input('Informe os litros abastecidos'*2.86))
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = float(input('Informe os litros abastecidos'*2.86))
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = float(input('Informe os litros abastecidos'*2.86))
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = float(input('Informe os litros abastecidos'*2.86))
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:23:46)
+-- CODE: 
+litros_abastecidos = float(input('Informe os litros abastecidos'))*2
+troca_de_oleo = float(50.00)
+
+t1 = float(litros_abastecidos*2.86 + troca_de_oleo)
+total = float(t1*(34/100))
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Informe os litros abastecidos37.23
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Informe os litros abastecidos305.16
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Informe os litros abastecidos114.24
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Informe os litros abastecidos186.98
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Informe os litros abastecidos480.31
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Informe os litros abastecidos100.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:27:05)
+-- CODE: 
+litros_abastecidos = float(input('Informe os litros abastecidos'))
+troca_de_oleo = float(50)
+
+t1 = float(litros_abastecidos*2.86 + troca_de_oleo)
+total = float(t1*(34/100)) + t1
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Informe os litros abastecidos106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Informe os litros abastecidos634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Informe os litros abastecidos258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Informe os litros abastecidos401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Informe os litros abastecidos979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Informe os litros abastecidos230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:24:09)
+-- CODE: 
+litros_abastecidos = float(input('Informe os litros abastecidos'))*2.86
+troca_de_oleo = float(50.00)
+
+t1 = float(litros_abastecidos*2.86 + troca_de_oleo)
+total = float(t1*(34/100))
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Informe os litros abastecidos45.92
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Informe os litros abastecidos429.07
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Informe os litros abastecidos156.05
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Informe os litros abastecidos260.06
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Informe os litros abastecidos679.53
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Informe os litros abastecidos135.7
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 01:18:06)
+-- CODE: 
+litros_abastecidos = float(input('Informe os litros abastecidos'))
+troca_de_oleo = float(50.00)
+
+t1 = float(litros_abastecidos*2 + troca_de_oleo)
+total = t1*(34/100)
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Informe os litros abastecidos24.07
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Informe os litros abastecidos117.76
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Informe os litros abastecidos51.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Informe os litros abastecidos76.43
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Informe os litros abastecidos179.0
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Informe os litros abastecidos46.02
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 01:21:23)
+-- CODE: 
+litros_abastecidos = float(input('Informe os litros abastecidos'))
+troca_de_oleo = float(50.00)
+
+t1 = float(litros_abastecidos*2.86 + troca_de_oleo)
+total = float(t1*(34/100))
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Informe os litros abastecidos27.11
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Informe os litros abastecidos161.08
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Informe os litros abastecidos65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Informe os litros abastecidos101.99
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Informe os litros abastecidos248.65
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Informe os litros abastecidos58.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 01:21:59)
+-- CODE: 
+litros_abastecidos = int(input('Informe os litros abastecidos'))
+troca_de_oleo = float(50.00)
+
+t1 = float(litros_abastecidos*2.86 + troca_de_oleo)
+total = float(t1*(34/100))
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = int(input('Informe os litros abastecidos'))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.4'
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = int(input('Informe os litros abastecidos'))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '148.17'
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = int(input('Informe os litros abastecidos'))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '50.0'
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = int(input('Informe os litros abastecidos'))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '87.4'
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = int(input('Informe os litros abastecidos'))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '238.23'
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = int(input('Informe os litros abastecidos'))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '42.68'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:19:24)
+-- CODE: 
+litros_abastecidos = float(input('Informe os litros abastecidos'))
+troca_de_oleo = float(50.00)
+
+t1 = float(litros_abastecidos*2 + troca_de_oleo)
+total = float(t1*(34/100))
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Informe os litros abastecidos24.07
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Informe os litros abastecidos117.76
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Informe os litros abastecidos51.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Informe os litros abastecidos76.43
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Informe os litros abastecidos179.0
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Informe os litros abastecidos46.02
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:26:51)
+-- CODE: 
+litros_abastecidos = float(input('Informe os litros abastecidos'))
+troca_de_oleo = float(50)
+
+t1 = float(litros_abastecidos*2.86 + troca_de_oleo)
+total = float(t1*(34/100)) + t1
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Informe os litros abastecidos106.86
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Informe os litros abastecidos634.85
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Informe os litros abastecidos258.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Informe os litros abastecidos401.95
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Informe os litros abastecidos979.99
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Informe os litros abastecidos230.57
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:22:14)
+-- CODE: 
+litros_abastecidos = float(input('Informe os litros abastecidos'))
+troca_de_oleo = float(50.00)
+
+t1 = float(litros_abastecidos*2.86 + troca_de_oleo)
+total = float(t1*(34/100))
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Informe os litros abastecidos27.11
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Informe os litros abastecidos161.08
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Informe os litros abastecidos65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Informe os litros abastecidos101.99
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Informe os litros abastecidos248.65
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Informe os litros abastecidos58.5
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== RUN (2025-08-26 01:22:12)
+-- CODE: 
+litros_abastecidos = float(input('Informe os litros abastecidos'))
+troca_de_oleo = float(50.00)
+
+t1 = float(litros_abastecidos*2.86 + troca_de_oleo)
+total = float(t1*(34/100))
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Informe os litros abastecidos27.11
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Informe os litros abastecidos161.08
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Informe os litros abastecidos65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Informe os litros abastecidos101.99
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Informe os litros abastecidos248.65
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Informe os litros abastecidos58.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:21:56)
+-- CODE: 
+litros_abastecidos = int(input('Informe os litros abastecidos'))
+troca_de_oleo = float(50.00)
+
+t1 = float(litros_abastecidos*2.86 + troca_de_oleo)
+total = float(t1*(34/100))
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = int(input('Informe os litros abastecidos'))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10.4'
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = int(input('Informe os litros abastecidos'))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '148.17'
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = int(input('Informe os litros abastecidos'))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '50.0'
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = int(input('Informe os litros abastecidos'))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '87.4'
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = int(input('Informe os litros abastecidos'))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '238.23'
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    litros_abastecidos = int(input('Informe os litros abastecidos'))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '42.68'
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:18:12)
+-- CODE: 
+litros_abastecidos = float(input('Informe os litros abastecidos'))
+troca_de_oleo = float(50.00)
+
+t1 = float(litros_abastecidos*2 + troca_de_oleo)
+total = t1*(34/100)
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Informe os litros abastecidos24.07
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Informe os litros abastecidos117.76
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Informe os litros abastecidos51.0
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Informe os litros abastecidos76.43
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Informe os litros abastecidos179.0
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Informe os litros abastecidos46.02
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:24:08)
+-- CODE: 
+litros_abastecidos = float(input('Informe os litros abastecidos'))*2.86
+troca_de_oleo = float(50.00)
+
+t1 = float(litros_abastecidos*2.86 + troca_de_oleo)
+total = float(t1*(34/100))
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Informe os litros abastecidos45.92
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Informe os litros abastecidos429.07
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Informe os litros abastecidos156.05
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Informe os litros abastecidos260.06
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Informe os litros abastecidos679.53
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Informe os litros abastecidos135.7
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-26 01:21:24)
+-- CODE: 
+litros_abastecidos = float(input('Informe os litros abastecidos'))
+troca_de_oleo = float(50.00)
+
+t1 = float(litros_abastecidos*2.86 + troca_de_oleo)
+total = float(t1*(34/100))
+
+print(round(total,2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+10.4
+---- correct output:
+106.86
+---- user output:
+Informe os litros abastecidos27.11
+-- TEST CASE 2:
+---- input:
+148.17
+---- correct output:
+634.85
+---- user output:
+Informe os litros abastecidos161.08
+-- TEST CASE 3:
+---- input:
+50.0
+---- correct output:
+258.62
+---- user output:
+Informe os litros abastecidos65.62
+-- TEST CASE 4:
+---- input:
+87.4
+---- correct output:
+401.95
+---- user output:
+Informe os litros abastecidos101.99
+-- TEST CASE 5:
+---- input:
+238.23
+---- correct output:
+979.99
+---- user output:
+Informe os litros abastecidos248.65
+-- TEST CASE 6:
+---- input:
+42.68
+---- correct output:
+230.57
+---- user output:
+Informe os litros abastecidos58.5
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

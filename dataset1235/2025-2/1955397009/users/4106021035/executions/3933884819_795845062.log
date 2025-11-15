@@ -1,0 +1,68 @@
+== SUBMISSION (2025-08-31 20:10:58)
+-- CODE: 
+ml = float(input("ML: "))
+mt = float(input("MT: "))
+mp = float(input("MP: "))
+
+mf = (ml * 0.25  +  mt * 0.3  + mp * 0.45)
+
+print(round(mf, 2))
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+4.8
+3.2
+7.6
+---- correct output:
+5.58
+---- user output:
+ML: MT: MP: 5.58
+-- TEST CASE 2:
+---- input:
+7.5
+5.3
+8.6
+---- correct output:
+7.33
+---- user output:
+ML: MT: MP: 7.33
+-- TEST CASE 3:
+---- input:
+4.9
+3.21
+9.1
+---- correct output:
+6.28
+---- user output:
+ML: MT: MP: 6.28
+-- TEST CASE 4:
+---- input:
+8.5
+6.3
+5.1
+---- correct output:
+6.31
+---- user output:
+ML: MT: MP: 6.31
+-- TEST CASE 5:
+---- input:
+8.8
+9.2
+7.6
+---- correct output:
+8.38
+---- user output:
+ML: MT: MP: 8.38
+-- TEST CASE 6:
+---- input:
+8.5
+4.9
+8.8
+---- correct output:
+7.55
+---- user output:
+ML: MT: MP: 7.55
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

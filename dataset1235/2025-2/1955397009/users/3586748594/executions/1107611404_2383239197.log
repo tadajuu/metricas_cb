@@ -1,0 +1,235 @@
+== SUBMISSION (2025-08-28 04:09:21)
+-- CODE: 
+a = float(input("Insira a distancia ate a primeira arvore (a): "))
+b = float(input("Insira a distancia ate a segunda  arvore (b): "))
+gamma = float(input("Insira o angulo entres as duas distancias (em graus): "))
+ 
+c = (a**2 + b**2) / ( 2 *a * b) 
+
+print(round(c, 2))
+
+-- EXECUTION TIME: 
+0.0133333
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+Insira a distancia ate a primeira arvore (a): Insira a distancia ate a segunda  arvore (b): Insira o angulo entres as duas distancias (em graus): 3.92
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+Insira a distancia ate a primeira arvore (a): Insira a distancia ate a segunda  arvore (b): Insira o angulo entres as duas distancias (em graus): 1.05
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+Insira a distancia ate a primeira arvore (a): Insira a distancia ate a segunda  arvore (b): Insira o angulo entres as duas distancias (em graus): 1.01
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+Insira a distancia ate a primeira arvore (a): Insira a distancia ate a segunda  arvore (b): Insira o angulo entres as duas distancias (em graus): 1.16
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+Insira a distancia ate a primeira arvore (a): Insira a distancia ate a segunda  arvore (b): Insira o angulo entres as duas distancias (em graus): 9.19
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+Insira a distancia ate a primeira arvore (a): Insira a distancia ate a segunda  arvore (b): Insira o angulo entres as duas distancias (em graus): 1.02
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 04:57:39)
+-- CODE: 
+from math import *
+
+a = float(input())
+b = float(input())
+g = float(input())
+
+g_rad = radians(g)
+
+c = sqrt(a**2 + b**2 -  2 *a * b * cos(g_rad))
+
+print(round(c, 2))
+
+-- EXECUTION TIME: 
+0.01
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+---- user output:
+87.54
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+---- user output:
+16.42
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+---- user output:
+17.14
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+---- user output:
+1.88
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+---- user output:
+54.43
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+---- user output:
+9.17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMISSION (2025-08-28 04:10:21)
+-- CODE: 
+a = float(input("Insira a distancia ate a primeira arvore (a): "))
+b = float(input("Insira a distancia ate a segunda  arvore (b): "))
+gamma = float(input("Insira o angulo entres as duas distancias (em graus): "))
+ 
+c = (a**2 + b**2) - ( 2 *a * b* cos(rad)) 
+
+print(round(c, 2))
+
+-- EXECUTION TIME: 
+0.0
+-- TEST CASE 1:
+---- input:
+12.9
+99.4
+21.66
+---- correct output:
+87.54
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (a**2 + b**2) - ( 2 *a * b* cos(rad)) 
+                                    ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 2:
+---- input:
+12.5
+17.2
+64.9
+---- correct output:
+16.42
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (a**2 + b**2) - ( 2 *a * b* cos(rad)) 
+                                    ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 3:
+---- input:
+18.8
+21.9
+49.1
+---- correct output:
+17.14
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (a**2 + b**2) - ( 2 *a * b* cos(rad)) 
+                                    ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 4:
+---- input:
+2.33
+4.09
+12.3
+---- correct output:
+1.88
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (a**2 + b**2) - ( 2 *a * b* cos(rad)) 
+                                    ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 5:
+---- input:
+55.0
+3.0
+77.6
+---- correct output:
+54.43
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (a**2 + b**2) - ( 2 *a * b* cos(rad)) 
+                                    ^^^
+NameError: name 'cos' is not defined
+-- TEST CASE 6:
+---- input:
+8.0
+10.0
+60.0
+---- correct output:
+9.17
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    c = (a**2 + b**2) - ( 2 *a * b* cos(rad)) 
+                                    ^^^
+NameError: name 'cos' is not defined
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

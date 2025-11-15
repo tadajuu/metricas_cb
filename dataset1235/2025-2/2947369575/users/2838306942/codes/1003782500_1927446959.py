@@ -1,0 +1,7 @@
+n = float(input())
+touro = n * (27/100)
+print( round(touro, 2))
+dado = n + (n * (42/100))
+print( round(dado,2))
+jota = n - ( n * (63/100))
+print( round(jota,2))

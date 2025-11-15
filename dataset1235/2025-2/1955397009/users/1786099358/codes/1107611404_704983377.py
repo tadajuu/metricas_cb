@@ -1,0 +1,7 @@
+X = int(input("Entre o valor de X: "))
+Y = int(input("Entre o valor de Y: ")) 
+print(X // Y) 
+print(X % Y) 
+print(X / Y) 
+print(X * Y) 
+print(Y ** 3)

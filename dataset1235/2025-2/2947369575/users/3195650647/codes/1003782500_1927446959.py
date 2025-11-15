@@ -1,0 +1,8 @@
+n = float(input())
+por = n*(n/100)
+v1 = n*(27/100)
+v2 = n+n*(42/100)
+v3 = n-n*(63/100)
+print(round(v1,2))
+print(round(v2,2))
+print(round(v3,2))
